@@ -1,0 +1,87 @@
+{
+ "ticker": "AMZN",
+ "company": "Amazon.com, Inc.",
+ "statsList": [
+  [
+   "Precio",
+   "$250.91 (16-jul-2026)"
+  ],
+  [
+   "Rango 52 sem.",
+   "$196.00 – $278.56"
+  ],
+  [
+   "Market cap",
+   "$2.69T"
+  ],
+  [
+   "P/E",
+   "29.6x trailing (fwd 25.5x)"
+  ],
+  [
+   "Target consenso",
+   "$312.99 (62 analistas)"
+  ],
+  [
+   "Próx. earnings",
+   "30-jul-2026 (after close)"
+  ]
+ ],
+ "sections": {
+  "resumen": "Amazon llega al earnings del 30 de julio con momentum fundamental excepcional: Q1 2026 batió en todas las líneas (revenue $181.5B +17%, AWS +28%, margen operativo récord 13.1%) y el consenso es casi unánimemente comprador (63 buy / 4 hold / 0 sell, target $312.99, ~+25% de upside). El precio, sin embargo, corrigió ~10% desde el máximo de $278.56 y el cuadro técnico es mixto. LECTURA: tesis de calidad con catalizador concreto e inminente; el riesgo de corto plazo es de ejecución en el print de Q2 y del capex de $200B.",
+  "fundamental": "- HECHO: Q1 2026 (reportado ~29-abr-2026, CNBC/Tickeron/TIKR): revenue $181.5B, +17% a/a, vs consenso ~$177B. EPS diluido $2.78 vs $1.63 esperado, aunque inflado por $16.8B de ganancias pre-tax por la inversión en Anthropic. Margen operativo 13.1%, el más alto de la historia de la compañía según el CEO Andy Jassy.\n- HECHO: AWS creció 28% a $37.6B (vs $36.64B StreetAccount), su mayor ritmo en 15 trimestres; operating income de AWS $14.16B, +23%, muy sobre el consenso de $12.84B (CNBC, 29-abr-2026).\n- HECHO: Guidance Q2: crecimiento de ventas 16-19% ($194-199B) con ~$1B de costos adicionales por Project Leo (satélites) y plan de capex 2026 de ~$200B (TIKR, jul-2026).\n\nLECTURA: El negocio está en su mejor momento operativo en años: reaceleración de AWS por demanda de IA, publicidad récord y márgenes en máximos. El moat es triple (escala logística en e-commerce, efecto de red/switching costs en AWS, flywheel de Prime + ads) y se refuerza con la relación estratégica con Anthropic. El riesgo fundamental no es demanda sino intensidad de capital: $200B de capex exigen que AWS sostenga el ~28%.",
+  "valuacion": "- HECHO: P/E trailing 29.58x al 14-jul-2026 (FinanceCharts); otra fuente reporta 34.66x a la misma fecha (discrepancia declarada; el trailing está además distorsionado por la ganancia contable de Anthropic). Forward P/E 25.47x al 26-jun-2026 (valueinvesting.io).\n- HECHO: Promedio histórico propio: 5 años ~46.8-57.8x y 10 años ~71.9-73.1x según FullRatio/FinanceCharts — el múltiplo actual está claramente por debajo de sus propios promedios de 3, 5 y 10 años.\n- HECHO: Vs peers (jun-jul 2026): forward P/E de GOOGL ~19.5x y AAPL ~23.3x (FinanceCharts/Public.com); AMZN cotiza con prima moderada.\n- HECHO: Consenso: target promedio $312.99, máximo $370, mínimo $207, sobre 62 analistas (stockanalysis.com/TipRanks, jul-2026); TD Cowen recortó a $340 desde $350 manteniendo Buy (8-jul-2026); Wells Fargo apunta a $312 (26-jun-2026).\n\nLECTURA: Para el crecimiento (+17% revenue, AWS +28%) y la expansión de márgenes, un forward de ~25x es razonable e históricamente barato para AMZN; la prima vs Google/Apple se justifica por mayor crecimiento. Upside implícito al target promedio: ~+25% desde $250.91.",
+  "tecnico": "- HECHO: Precio $250.91 (16-jul-2026), ~10% bajo el máximo de 52 semanas de $278.56; rango del último mes $225.55-$251.03 (stockinvest.us, 14-jul-2026).\n- HECHO — fuentes en conflicto: AltIndex reporta SMA50 $245.9 > SMA200 $236.1 (configuración alcista), mientras Investing.com/TipRanks reportan SMA50 ~$238-254 con señal de venta y RSI entre 49.4 (neutral) y 67.4 según la fuente; el RSI se declara no verificable con precisión.\n- HECHO: Soportes citados: zona $240.4-245.2, luego $232.5 y $227.0 (cerca del mínimo de 3 meses $225.55); resistencias: $253.7 (SMA50 según ChartMill) y $263.0 (ChartMill/Barchart, jul-2026).\n\nLECTURA: Estructura de mediano plazo alcista (precio muy por encima del piso de $196 y del SMA200 en la mayoría de lecturas) pero corto plazo lateral-correctivo: el rebote desde ~$226 a fines de junio recuperó la zona de $247-251 y ahora enfrenta la resistencia $253-263. Perder $240 abriría retest de $227-232; superar $263 reanudaría la tendencia hacia $278.",
+  "catalizadores": "**Catalizadores:**\n\n- **30-jul-2026 — resultados Q2 2026** (confirmado por aboutamazon.com). Consenso ~$196B revenue y EPS ~$1.82; TD Cowen modela $200.1B (+2% sobre consenso). Prime Day cayó en Q2 este año, un viento de cola que no existió en Q2 2025.\n- **2H 2026 — lanzamiento comercial del servicio de banda ancha Leo** — 396 satélites ya desplegados (NAI500/Technobezz, jul-2026); competencia directa a Starlink.\n- **Continuo — monetización IA:** unidad de $1B de Forward Deployed Engineers en AWS (CNBC, 30-jun-2026), AgentCore y EC2 G7 con Blackwell (AWS Summit NY, jul-2026); derivadas de la relación con Anthropic.\n\n**Riesgos (por materialidad):**\n\n- **Capex $200B en 2026:** si AWS desacelera bajo ~28%, el mercado castigará el retorno sobre ese capital (TIKR, jul-2026).\n- **Evento binario cercano:** el print del 30-jul con expectativas ya elevadas tras el rally post-Q1.\n- **Costos de Project Leo:** ~$1B adicionales en Q2 presionan el operating income guiado.\n- **Distorsión contable Anthropic:** la ganancia de $16.8B es mark-to-market y puede revertirse en trimestres futuros.\n- **Técnico:** pérdida de $240 activa retest de $227; el drawdown de 52 semanas ya fue de ~$278 a ~$226 (-19%).",
+  "sentimiento": "- HECHO: Consenso Strong Buy: 63 buy / 4 hold / 0 sell; target promedio $312.99 ($207-$370) sobre 62 analistas (stockanalysis.com/TipRanks/MarketBeat, jul-2026). Acciones recientes: TD Cowen Buy, PT $340 (8-jul); Wells Fargo recomienda entrada, PT $312 (26-jun). Un resultado atribuye a BofA un PT de $165 (7-jul) — cifra inconsistente con el rango del consenso, se trata como no verificable.\n- HECHO — insiders: CEO Andy Jassy vendió 31,352 acciones a $275.00 el 4-may-2026 (~$8.6M) bajo plan 10b5-1 adoptado el 14-nov-2025; en 6 meses acumula 12 ventas por ~102,096 acciones (~$24.9M) y 0 compras (StockTitan/GuruFocus/MarketBeat). Entidad ligada a Bezos vendió 220,200 acciones a $275.27 el 5-may-2026 (~$60.6M). Entre mayo y julio: 11 ventas de insiders por ~$8.1M, 0 compras (stockcircle/insiderscreener).\n\nLECTURA: Tono de noticias claramente constructivo (AWS reacelerando, IA, Leo). Las ventas de insiders son programadas, pequeñas vs el market cap y consistentes con el patrón histórico de solo-ventas de Amazon; no se lee señal negativa, aunque la ausencia total de compras impide leerlas como señal positiva.",
+  "conclusion": "La tesis funciona si el 30 de julio AWS imprime crecimiento igual o superior al 28% de Q1 y el operating income absorbe los costos de Leo — eso validaría el capex de $200B, cerraría el gap técnico hacia $263-278 y daría sustento al target de $313 con un forward de ~25x que es barato contra la propia historia de Amazon. La invalidarían: (1) AWS desacelerando por debajo de ~25-26% o guidance de Q3 débil, (2) margen operativo retrocediendo claramente desde 13.1% por Leo/capex, (3) pérdida técnica de $240 y luego $227, que rompería la estructura alcista de mediano plazo. Con 0 sells en el consenso, la barra de expectativas es alta: el mayor riesgo no es el negocio sino la asimetría de reacción ante un print apenas en línea."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 58,
+   "just": "Estructura de mediano plazo alcista (precio $250.91 sobre el SMA200 en la mayoría de lecturas y +28% sobre el piso de 52s de $196), pero corto plazo lateral-correctivo: -10% desde $278.56, resistencia en $253-263 y fuentes técnicas en conflicto (golden cross según AltIndex vs señal de venta según Investing.com). RSI 49-67 no concluyente."
+  },
+  "fundamental": {
+   "score": 88,
+   "just": "Q1 2026 récord: revenue +17% ($181.5B), AWS +28% (mejor ritmo en 15 trimestres), margen operativo 13.1% máximo histórico, moat triple (logística, AWS, Prime/ads). Valuación razonable: forward ~25.5x, muy por debajo de sus promedios de 5a (~47-58x) y 10a (~72x). Descuento solo por la intensidad de capital ($200B capex)."
+  },
+  "sentimiento": {
+   "score": 78,
+   "just": "Consenso Strong Buy 63/4/0 con target $312.99 (+25% upside) y flujo de notas constructivo en jun-jul (TD Cowen $340, Wells Fargo $312). Ventas de insiders (Jassy ~$25M en 6 meses, entidad Bezos $60.6M) son vía 10b5-1 y rutinarias, pero 0 compras; resta un poco por expectativas ya muy cargadas."
+  },
+  "riesgo": {
+   "score": 65,
+   "just": "Mega-cap de $2.69T con liquidez máxima y beta moderada, lo que acota el riesgo estructural; pero hay evento binario a 12 días (earnings 30-jul), drawdown reciente de -19% ($278 a $226) y exposición a un ciclo de capex de $200B más ~$1B de costos Leo en Q2. Riesgo acotado pero no bajo en el corto plazo."
+  },
+  "conviccion": {
+   "score": 82,
+   "just": "Catalizadores concretos y fechados: earnings 30-jul-2026 con Prime Day en Q2, lanzamiento de Leo en 2H 2026 (396 satélites ya en órbita), pipeline de IA (FDE $1B, AgentCore). Tesis falsable con umbral claro: AWS >=28% valida, <26% invalida. Asimetría favorable con forward P/E bajo vs historia propia."
+  }
+ },
+ "sources": [
+  "stockanalysis.com / TradingEconomics — precio, rango 52s, market cap (16-jul-2026)",
+  "CNBC — AWS earnings Q1 2026 (29-abr-2026)",
+  "Tickeron / TIKR — recap Q1 2026 y guidance (abr-may-2026)",
+  "stockanalysis.com / TipRanks / MarketBeat — consenso y price targets (jul-2026)",
+  "aboutamazon.com — fecha earnings Q2 (30-jul-2026)",
+  "CNBC / TechCrunch — AWS unidad FDE $1B (30-jun-2026)",
+  "NAI500 / Technobezz — Project Leo 396 satélites (jul-2026)",
+  "AltIndex / Investing.com / TipRanks / ChartMill / Barchart — técnico (jul-2026)",
+  "stockinvest.us — precio y rango mensual (14-jul-2026)",
+  "StockTitan / MarketBeat / GuruFocus — Form 4 venta Jassy (4-may-2026)",
+  "stockcircle / insiderscreener — insiders may-jul-2026",
+  "FinanceCharts / FullRatio / valueinvesting.io — P/E actual, forward e histórico (jun-jul-2026)",
+  "TD Cowen vía stockanalysis (8-jul-2026) y Wells Fargo vía watcher.guru (26-jun-2026)"
+ ],
+ "change": {
+  "day": -1.06,
+  "week": 0.77
+ },
+ "events": [
+  {
+   "date": "2026-07-30",
+   "label": "Resultados Q2 2026 (after close)",
+   "kind": "earnings"
+  }
+ ]
+}

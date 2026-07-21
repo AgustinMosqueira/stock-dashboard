@@ -1,0 +1,161 @@
+{
+ "ticker": "EUR/USD",
+ "company": "Euro / Dólar",
+ "baseCurrency": "EUR",
+ "statsList": [
+  [
+   "Precio",
+   "1.14382 (17-jul-2026)"
+  ],
+  [
+   "Rango 80 días",
+   "1.133 – 1.182"
+  ],
+  [
+   "Tasas BCE / Fed",
+   "2,25% / 3,50–3,75%"
+  ],
+  [
+   "COT EUR (14-jul)",
+   "-12,605 netos (corto)"
+  ],
+  [
+   "DXY",
+   "100.76 (17-jul-2026)"
+  ],
+  [
+   "Próximo evento",
+   "BCE 23-jul · FOMC 28-29-jul"
+  ]
+ ],
+ "change": {
+  "day": -0.04,
+  "week": 0.2
+ },
+ "customSections": [
+  {
+   "title": "Resumen ejecutivo",
+   "nav": "Resumen",
+   "body": "EUR/USD cerró la semana en **1.14382**, dentro de un rango contenido tras una caída de ~4% desde los máximos de abril (~1.182) y un rebote desde los mínimos de junio (~1.133). El cuadro es de **equilibrio inestable con sesgo de cautela**:\n\n- **HECHO:** El diferencial de tasas sigue siendo claramente favorable al USD (Fed Funds 3.50–3.75% vs. tasa de depósito BCE 2.25%), aunque el BCE **subió** 25 pb en junio mientras la Fed está en pausa — el diferencial se está cerrando en el margen a favor del EUR.\n- **HECHO:** La semana entrante es de alto riesgo de evento: **reunión del BCE el jueves 23-jul** (mercado descuenta ~95% de mantención) y **FOMC el 28-29-jul** (~87–89% de mantención).\n- **HECHO:** Los especuladores están **netos cortos en EUR** (-12,605 contratos, COT al 14-jul-2026), aunque recortando cortos.\n- **LECTURA:** Los riesgos de cola (guerra en Medio Oriente y shock energético asimétrico contra Europa, reapertura de la disputa arancelaria EEUU-UE, crisis política/energética en Francia) recaen desproporcionadamente sobre el EUR.\n\n**Señal resultante: Caution (Grado C — 46/100).** Sin ventaja clara para comprar EUR; el par sigue siendo un rango 1.133–1.155 dominado por bancos centrales y geopolítica.\n\n---"
+  },
+  {
+   "title": "Diferencial de tasas y política monetaria",
+   "nav": "Tasas",
+   "body": "**BCE (HECHO):**\n- Tasa de depósito vigente: **2.25%**, tras una **subida de 25 pb decidida en la reunión de junio (17-jun-2026)** en respuesta a la presión inflacionaria derivada del shock energético (ECB / Trading Economics, jul-2026).\n- Próxima reunión: **jueves 23-jul-2026** (decisión 13:45 CET, conferencia de Lagarde 14:30 CET) — es decir, **sí hay reunión la semana del 20-jul**. Es reunión sin proyecciones de staff.\n- Expectativas de mercado: **~95.3% de mantención en 2.25%**, con una cola alcista de ~3.4% para +25 pb (rateprobability.com / ecb-watch, consultado 19-jul-2026).\n- Tono de Lagarde: **hawkish**. El 2-jul defendió la subida de junio citando proyecciones de inflación en torno al 3% para 2026 y la necesidad de mantenerse vigilante (ECB Forum Sintra, jul-2026).\n\n**Fed (HECHO):**\n- Rango objetivo vigente: **3.50%–3.75%**; en junio el FOMC mantuvo y señaló que la inflación sigue elevada respecto de la meta del 2% (core PCE ~2.9%).\n- FOMC 28-29-jul-2026: **~89% de probabilidad de mantención** según CME FedWatch (~86.7% según fuentes alternativas al 18-jul-2026). Consenso: tasas sin cambios al menos hasta el otoño boreal, condicionado a progreso en inflación.\n- Tono del presidente de la Fed, Kevin Warsh (Sintra, 1-jul-2026): sin señales para julio, pero \"los precios están demasiado altos\" — sesgo restrictivo.\n\n**Divergencia (LECTURA):** El **nivel** del diferencial (~125–150 pb en tasas de política; 2 años: UST 4.16% vs. Schatz ~2.6–2.8%) favorece al USD y sostiene el carry en contra del EUR. Pero la **dirección** favorece marginalmente al EUR: el BCE está subiendo (y conserva cola hawkish) mientras la Fed está estática. Riesgo señalado por estrategas: que el mercado retire el tightening del BCE antes que el de la Fed, limitando el alza del EUR (VT Markets, jul-2026).\n\n---"
+  },
+  {
+   "title": "Balanza de pagos y flujos",
+   "nav": "Balanza",
+   "body": "**Cuenta corriente (HECHO):**\n- Superávit de la eurozona de **€25 mil millones en mayo-2026** (+€8 mm m/m): bienes +€16 mm, servicios +€14 mm, renta primaria +€12 mm, renta secundaria -€18 mm (BCE, 17-jul-2026).\n- Acumulado 12 meses a mayo-2026: **€272 mm (1.7% del PIB)**, frente a €318 mm (2.0% del PIB) un año antes — **superávit en contracción**, principalmente por menor superávit de bienes (de €350 mm a €286 mm) (BCE, 17-jul-2026).\n- Proyección del staff del Eurosistema (jun-2026): caída adicional a **~1.3% del PIB en 2026** por mayores precios de importación de energía a raíz de la guerra en Medio Oriente (ECB Economic Bulletin, 2026).\n\n**Flujos de portafolio 2026 (HECHO/LECTURA):**\n- HECHO: La rotación hacia Europa de comienzos de año **se revirtió a mitad de 2026**: la porción de flujos de ETFs de renta variable de EEUU hacia fondos centrados en EEUU subió todos los meses del año, alcanzando ~85% en junio (iShares H1-2026). En Europa, los flujos hacia productos centrados en EEUU se **cuadruplicaron** interanual (Morningstar, 2026). En money markets, USD fue la clasificación más comprada (+€15.98 mm) mientras los fondos EUR registraron salidas (-€5.06 mm) (Lipper/LSEG, may-2026).\n- LECTURA: El colchón estructural de cuenta corriente sigue siendo un soporte de fondo para el EUR, pero se erosiona por energía, y los flujos de portafolio han vuelto a favorecer activos en USD por el atractivo relativo de las tasas americanas. Neto: **levemente negativo para el EUR**.\n\n---"
+  },
+  {
+   "title": "Posicionamiento",
+   "nav": "Posicionamiento",
+   "body": "**HECHO — CFTC COT, Euro FX (CME), datos al martes 14-jul-2026, publicado 17-jul-2026 (Tradingster/CFTC):**\n- No comerciales (especuladores): largos 230,307 / cortos 242,912 → **neto -12,605 contratos (corto)**.\n- Variación semanal: +6,877 largos, +3,255 cortos → **neto +3,622 hacia largo** (los cortos se están recortando).\n- Interés abierto: 799,495 contratos — mercado profundo y líquido.\n- Tendencia de meses: el neto largo de ~+21,000 contratos de marzo-2026 (percentil 15 del rango de 52 semanas, mínimo de 1 año) se ha degradado hasta territorio **neto corto** (AhaSignals/Investing.com, 2026).\n\n**LECTURA:** Posicionamiento levemente bajista en EUR pero **cercano a plano y mejorando** — no hay extremo de posicionamiento que genere señal contraria potente en ninguna dirección. Un BCE hawkish el 23-jul podría forzar cobertura de cortos (riesgo alcista táctico); la señal estructural es neutral-negativa.\n\n---"
+  },
+  {
+   "title": "Análisis técnico",
+   "nav": "Técnico",
+   "body": "**HECHO — TradingView (17-jul-2026):**\n- Precio: **1.14382**.\n- RSI(14) diario: **47.2** — neutral.\n- MACD(12,26): **-0.0025** vs. señal **-0.0036**; histograma **+0.0011** — momentum bajista moderándose.\n- Medias: precio **sobre SMA20 (1.1414)** pero **bajo SMA50 (1.1530)**.\n- Ventana 80 días: caída desde máximos ~**1.182** (abril) hasta mínimos ~**1.133** (junio); rebote reciente a ~1.148 y cierre 1.1438.\n\n**LECTURA:**\n- La estructura de mediano plazo sigue siendo **correctiva/bajista** (máximos y mínimos decrecientes desde abril; precio bajo SMA50), pero el rebote desde 1.133 con histograma MACD al alza y recuperación de la SMA20 sugiere que la caída **perdió fuerza**.\n- Soportes: 1.1414 (SMA20), luego 1.133 (mínimo de junio — pivote clave). Resistencias: 1.148 (techo del rebote), 1.1530 (SMA50), luego zona 1.16.\n- Un cierre diario sobre la SMA50 (~1.153) convertiría el rebote en cambio de tendencia; la pérdida de 1.133 reactivaría el tramo bajista hacia 1.12. Con RSI en 47 y precio entre medias, el veredicto técnico es **neutral** (par ni alcista ni bajista con convicción).\n\n---"
+  },
+  {
+   "title": "Intervención y riesgo de banco central",
+   "nav": "Intervención",
+   "body": "**HECHO/LECTURA:** El riesgo de intervención cambiaria **directa** en EUR/USD es históricamente bajo (última intervención coordinada relevante: 2000/2011); ni el BCE ni el Tesoro de EEUU han señalado nada en 2026 a los niveles actuales. El riesgo relevante es **de cola**:\n\n1. **Energía / Medio Oriente (HECHO):** Tras los ataques de Israel-EEUU contra Irán (28-feb-2026) y la disrupción del Estrecho de Ormuz (~1/5 del suministro global de GNL afectado), el gas europeo opera en ~€46/MWh; los escenarios de crisis prolongada de la Comisión Europea/JRC contemplan petróleo hasta ~USD 180/bbl y gas ~€80/MWh en 4T-2026 (JRC, may-2026; Bloomberg, 9-jul-2026). **LECTURA:** shock asimétricamente negativo para el EUR (Europa importadora neta; EEUU exportador de energía).\n2. **Aranceles EEUU-UE (HECHO):** El acuerdo provisional del 20-may-2026 (arancel máximo ~15% a productos UE) coexiste con amenazas de Trump de tarifas \"mucho más altas\" si no se ratifica, reabriendo la guerra comercial (ING, Euronews, 2026). **LECTURA:** riesgo bajista para crecimiento europeo y EUR.\n3. **Política europea (HECHO):** Crisis política y presupuestaria en Francia, con hoja de ruta energética bloqueada y reactores nucleares parados por olas de calor (Energynews/MNI, 2026). **LECTURA:** prima de riesgo político latente en activos EUR.\n\n**Balance:** riesgo de intervención bajo, pero **riesgo de cola elevado y sesgado en contra del EUR**.\n\n---"
+  },
+  {
+   "title": "Correlaciones macro",
+   "nav": "Correlaciones",
+   "body": "- **DXY (HECHO):** 100.76 al 17-jul-2026, prácticamente plano en la sesión (Trading Economics/FXStreet). Con EUR ~58% del índice, la correlación inversa DXY–EUR/USD **se mantiene plenamente operativa**: el estancamiento del DXY sobre 100 es el espejo del rango 1.13–1.15 del par.\n- **Diferencial de bonos (HECHO):** UST 10a **4.55%** vs. Bund 10a **3.14%** → spread ~**141 pb** a favor de EEUU (17-jul-2026). En 2 años: UST **4.16%** (16-jul) vs. Schatz **~2.6–2.8%** (máximo desde jul-2024) → ~140–155 pb.\n- **LECTURA:** El spread 10a se ha comprimido desde niveles de 2024–25 (>180 pb) por la subida de los Bunds (BCE hawkish + fiscal alemán), coherente con un EUR/USD que dejó de caer. La correlación negativa entre spread UST–Bund y EUR/USD **se mantiene**; para que el par supere 1.155 de forma sostenida se requeriría compresión adicional del diferencial (BCE subiendo o Fed girando dovish), que hoy no está descontada para julio.\n\n---"
+  },
+  {
+   "title": "Conclusión",
+   "nav": "Conclusión",
+   "body": "EUR/USD en 1.14382 es un par **en rango, sin ventaja direccional clara**: el carry y los riesgos de cola favorecen al USD; la dirección de la política monetaria (BCE subiendo, Fed en pausa) y un posicionamiento corto en corrección dan soporte táctico al EUR. La semana del 20-jul (BCE 23-jul) y el FOMC del 28-29-jul definirán el próximo tramo.\n\n**Qué validaría una tesis alcista en EUR (Buy EUR):** sorpresa hawkish del BCE el 23-jul y/o giro dovish de la Fed el 29-jul; cierre diario sobre la SMA50 (~1.1530) con compresión del spread UST–Bund bajo ~130 pb; distensión en Medio Oriente (gas < €40/MWh) y ratificación limpia del acuerdo arancelario; COT cruzando a neto largo.\n\n**Qué la invalidaría (riesgo bajista):** pérdida del mínimo de junio (1.133), que abriría 1.12; escalada en Ormuz con petróleo hacia $150–180/bbl y gas hacia €80/MWh, o ruptura arancelaria EEUU-UE; Fed re-hawkish con BCE forzado a pausar; agravamiento de la crisis política francesa con ampliación de spreads OAT–Bund.\n\n> *Este informe es una herramienta de investigación educativa generada con IA. No constituye asesoría de inversión ni recomendación de compra/venta. Verifique todos los datos de forma independiente antes de tomar decisiones financieras.*"
+  }
+ ],
+ "scoreIndex": 8,
+ "customCats": [
+  {
+   "key": "tasas",
+   "name": "Diferencial de Tasas y Política Monetaria",
+   "weight": 30
+  },
+  {
+   "key": "macro",
+   "name": "Fundamentales Macro",
+   "weight": 20
+  },
+  {
+   "key": "tecnico",
+   "name": "Técnico",
+   "weight": 20
+  },
+  {
+   "key": "posicionamiento",
+   "name": "Posicionamiento y Sentimiento",
+   "weight": 15
+  },
+  {
+   "key": "intervencion",
+   "name": "Riesgo de Intervención / Cola",
+   "weight": 15
+  }
+ ],
+ "scores": {
+  "tasas": {
+   "score": 48,
+   "just": "El nivel del diferencial (~125–150 pb en política y en 2 años) sigue pagando por estar en USD, pero la dirección (BCE subió en junio con cola hawkish para el 23-jul; Fed estática) cierra la brecha en el margen. Neutral con leve sesgo negativo por el carry."
+  },
+  "macro": {
+   "score": 45,
+   "just": "Superávit de cuenta corriente aún sólido (€272 mm, 1.7% PIB) pero en contracción por energía, y flujos de portafolio rotando de vuelta a EEUU. El shock energético golpea más el crecimiento europeo que el americano."
+  },
+  "tecnico": {
+   "score": 50,
+   "just": "RSI 47.2 neutral, MACD bajista moderándose, precio sobre SMA20 pero bajo SMA50 dentro de una estructura correctiva desde abril (TradingView, 17-jul). Ni alcista ni bajista con convicción: rango."
+  },
+  "posicionamiento": {
+   "score": 47,
+   "just": "COT al 14-jul: especuladores netos cortos -12,605 contratos, aunque recortando desde el neto largo de marzo. Levemente negativo, sin extremo contrario."
+  },
+  "intervencion": {
+   "score": 40,
+   "just": "Riesgo de intervención directa bajo, pero colas gruesas y asimétricas contra el EUR: guerra Irán/energía (escenarios de $180/bbl), reapertura arancelaria EEUU-UE y crisis política francesa."
+  }
+ },
+ "sources": [
+  "TradingView (17-jul-2026, técnico verificado en tiempo real)",
+  "ECB — decisiones de política monetaria (jun-2026), balanza de pagos mayo-2026 (17-jul-2026), Economic Bulletin",
+  "rateprobability.com / ecb-watch (19-jul-2026)",
+  "Finance Calendar — reunión BCE 23-jul-2026",
+  "Trading Economics — tasas eurozona, DXY, Bund 10a, Schatz 2a",
+  "CME FedWatch / centralbank.watch",
+  "CNBC — Warsh en Sintra (1-jul-2026)",
+  "VT Markets (jul-2026)",
+  "iShares H1-2026",
+  "Morningstar",
+  "Lipper/LSEG (may-2026)",
+  "Tradingster/CFTC — COT Euro FX (14-jul-2026)",
+  "AhaSignals / Investing.com",
+  "FXStreet (17-jul-2026)",
+  "Advisor Perspectives — UST 10a (17-jul-2026)",
+  "JRC Comisión Europea (27-may-2026)",
+  "Bloomberg — gas europeo (9-jul-2026)",
+  "ING THINK",
+  "Euronews (may-2026)",
+  "Energynews/MNI (2026)"
+ ],
+ "events": [
+  {
+   "date": "2026-07-23",
+   "label": "Reunión del BCE",
+   "kind": "macro"
+  },
+  {
+   "date": "2026-07-29",
+   "label": "FOMC 28-29 jul — decisión de tasas de la Fed",
+   "kind": "macro"
+  }
+ ]
+}

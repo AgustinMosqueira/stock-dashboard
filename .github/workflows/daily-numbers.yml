@@ -1,0 +1,49 @@
+name: Números diarios (TradingView)
+
+on:
+  schedule:
+    - cron: "30 22 * * *"   # 18:30 Chile (invierno) — todos los días; gratis, sin IA
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  numeros:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Actualizar números desde TradingView (scanner público)
+        run: python scripts/update_numbers.py
+
+      - name: Commit de los datos actualizados
+        run: |
+          git config user.name "dashboard-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Números $(date -u +%F) (TradingView)"
+          git push
+
+      - name: Preparar sitio
+        run: mkdir -p _site && cp index.html _site/index.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
