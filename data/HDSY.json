@@ -1,88 +1,93 @@
 {
- "ticker": "HDSY",
- "company": "Harmonic Drive Systems Inc.",
- "statsList": [
-  [
-   "Precio",
-   "¥6,470 (17-jul-2026, -10.1% en el día)"
+  "ticker": "HDSY",
+  "company": "Harmonic Drive Systems Inc.",
+  "statsList": [
+    [
+      "Precio",
+      "¥6,570 (21-jul-2026, +1.55% en el día)"
+    ],
+    [
+      "Rango 52 sem.",
+      "¥2,316 – ¥9,150"
+    ],
+    [
+      "Listado",
+      "Bolsa de Tokio: 6324"
+    ],
+    [
+      "Market cap",
+      "¥622–627B (~US$4.2B aprox.)"
+    ],
+    [
+      "P/E",
+      "386.8x trailing / 104.7x forward"
+    ],
+    [
+      "Target consenso",
+      "¥6,131–6,801 (11 analistas) — dispersión ¥2,900–11,000"
+    ],
+    [
+      "Próx. earnings",
+      "7-ago-2026 (Q1 FY3/27)"
+    ],
+    [
+      "Técnico (auto)",
+      "RSI 41.3 · MACD -89.24 / señal +114.05 (TradingView, 21-jul-2026)"
+    ]
   ],
-  [
-   "Rango 52 sem.",
-   "¥2,316 – ¥9,150"
+  "sections": {
+    "resumen": "HECHO: Harmonic Drive Systems (6324, Tokyo Stock Exchange), fabricante líder de reductores armónicos (strain wave gears) para robótica humanoide y semiconductores, cotiza en ¥6,570 al 21-jul-2026 (+1.55% en el día vs. cierre de ¥6,470 del 17-jul), pero acumula -12.9% en la semana desde el cierre de ¥7,540 del 14-jul-2026 (stockanalysis.com). La acción sigue ~29% bajo su máximo de 52 semanas (¥9,150) y ~2.8x sobre el mínimo (¥2,316). LECTURA: el rebote del día no revierte la corrección de mediados de julio; el mercado sigue digiriendo la narrativa humanoide de cara al Q1 del 7-ago. HECHO relevante no capturado antes: Jefferies pasó de 'Underperform' (¥2,400–3,000, oct-2025, por competencia china) a 'Buy' con target ¥10,000 el 16-jun-2026 — un giro de tesis significativo hacia el optimismo humanoide.",
+    "fundamental": "**Resultados FY3/26 (cerrado 31-mar-2026, publicado ~11-may-2026 vía TDnet) — sin cambios respecto al informe previo, no hay nuevo tanshin trimestral hasta el 7-ago:**\n\n- HECHO: Ventas ¥59,557M (+7.0% a/a); utilidad operativa ¥2,567M; utilidad neta ¥1,608M (-53.7% a/a). Margen neto ~2.7% vs >6% el año anterior, por compresión de costos y capex +55% a ¥5,838M (TDnet vía BigGo, may-2026).\n- HECHO: Balance sólido: activos totales ¥111,400M, equity ratio 72.2%, flujo de caja operativo +¥6,425M (TDnet, may-2026).\n- HECHO: Guidance FY3/27: ventas ¥68,000M (+14.2%), utilidad operativa ¥6,200M (+141.5%), utilidad neta ¥4,500M (+179.7%) (TDnet/BigGo, may-2026). Sin revisión de guía detectada en las últimas semanas.\n- HECHO: Órdenes de humanoides: ~¥1.3B registrados en un trimestre, expectativa de ~¥2.5B en FY3/26, con posible duplicación/triplicación en FY3/27 apoyada en pedidos de prototipos de clientes de EE.UU. (Investing.com/humanoid.guide, 2026).\n- HECHO: EPS consenso próximo año fiscal ~¥62 (MarketScreener, jul-2026), lo que en el precio actual implicaría P/E forward de ~106x — consistente con la cifra de stockanalysis.com (104.7x).\n- El backlog total y el detalle línea por línea del tanshin en japonés siguen sin ser verificables en fuentes en inglés (laguna de cobertura declarada, típica en mid-caps japonesas).\n\nLECTURA: sin novedades fundamentales duras desde el informe anterior; la tesis de recuperación de márgenes en FY3/27 sigue intacta pero no probada — la primera validación real llega el 7-ago con el Q1.",
+    "valuacion": "- HECHO: P/E trailing 386.8x, P/E forward 104.7x (stockanalysis.com, 21-jul-2026) — prácticamente sin cambio vs los 380.9x/103.1x del 17-jul.\n- HECHO: market cap ¥621.96B (stockanalysis.com) a ¥626.69B (investing.com), ambos 21-jul-2026 — pequeña diferencia entre proveedores de datos.\n- HECHO: consenso de targets disperso entre fuentes: stockanalysis.com/investing.com reportan ¥6,800.9 (rango ¥2,900–¥11,000); MarketScreener reporta ¥6,131 (11 analistas, 7 compra/2 venta/2 mantener), 5.24% por debajo del cierre de ¥6,470 del 17-jul.\n- HECHO: Jefferies elevó su target de ¥3,000 a ¥10,000 el 16-jun-2026 al pasar de Underperform a Buy — uno de los movimientos de target más agresivos del año para esta cobertura, y muestra cuánta dispersión hay incluso dentro de una misma casa a lo largo del tiempo.\n- El P/S no fue re-verificado esta semana; el dato previo (~10.4x vs ~1.7x de peers, Simply Wall St) se mantiene como referencia no actualizada.\n\nLECTURA: con targets de consenso apenas en línea o por debajo del precio actual (¥6,131–6,800 vs ¥6,570), el mercado no está pagando upside adicional hoy; la dispersión extrema (¥2,900–11,000) confirma que la valuación depende casi enteramente de la velocidad de adopción humanoide, no de un modelo de flujo de caja consensuado.",
+    "tecnico": "- HECHO (dato ahora sí verificable y coherente con el precio, Investing.com, 21-jul-2026 20:55 GMT): RSI(14) = 41.2 (señal 'Sell'); MACD = -204 (bajista); medias móviles: MA5 = ¥6,508 (Buy/corto plazo), MA50 = ¥7,160.6 (Sell), MA200 = ¥7,520.9 (Sell). Resumen de osciladores y medias: 'Strong Sell' (8 señales de venta vs 4 de compra en medias móviles).\n- HECHO: pivotes clásicos del día: soporte S2 ¥6,376.7, pivote ¥6,556.7, resistencia R1 ¥6,673.4. ATR elevado (176.4), volatilidad alta.\n- HECHO: serie de cierres recientes (stockanalysis.com): 10-jul ¥7,880 → 13-jul ¥7,240 → 14-jul ¥7,540 → 15-jul ¥7,430 → 16-jul ¥7,200 → 17-jul ¥6,470 (-10.14%) → 21-jul ¥6,570 (+1.55%).\n\nLECTURA: la tendencia de fondo (12 meses) sigue alcista, pero el marco de corto/mediano plazo se deterioró: el precio perdió tanto la media de 50 como la de 200 sesiones y el rebote del 21-jul es modesto frente a la caída acumulada de ~17% desde el pico de ¥7,880 del 10-jul. Soporte inmediato ¥6,376 (pivote clásico) y zona ¥6,000; resistencia inmediata ¥6,673 y luego ¥7,200. Estructura técnica de corto plazo débil/correctiva de cara al 7-ago.",
+    "catalizadores": "**Catalizadores:**\n\n- **7-ago-2026 — Resultados Q1 FY3/27:** primera lectura de si las órdenes humanoides van camino a duplicarse/triplicarse como indicó la compañía; también primera oportunidad de confirmar o ajustar la guía FY3/27 (+141.5% utilidad operativa).\n- **Revisiones de analistas:** el giro de Jefferies de Underperform a Buy (16-jun-2026, target x3.3 a ¥10,000) ilustra que el sell-side puede re-tasar la acción rápidamente en cualquier dirección con nueva información sobre pedidos.\n- **2026-2027:** ramp de producción de humanoides de clientes de EE.UU. (pedidos de prototipos ya registrados) y expansión de capacidad en Norteamérica.\n\n**Riesgos (por materialidad):**\n\n- **Valuación y momentum técnico:** P/E forward ~105x y señal técnica 'Strong Sell' (precio bajo MA50/MA200, RSI 41) muestran que el mercado ya está reduciendo el premium tras el pico de ¥9,150; una decepción de órdenes el 7-ago podría acelerar el de-rating.\n- **Competencia china:** Leaderdrive con ~27-40% del mercado chino de reductores armónicos (cifras varían por fuente) y Laifual ~13%, juntos casi la mitad del mercado chino; HDS + Leaderdrive concentran >63% del mercado global. Jefferies había fundamentado su downgrade de oct-2025 precisamente en esta competencia antes de revertirlo en junio 2026.\n- **Ciclicidad:** exposición a robots industriales y semiconductores; margen neto ya comprimido a ~2.7% en FY3/26.\n- **Dependencia de la narrativa humanoide:** las órdenes humanoides actuales (~¥1.3-2.5B) son <5% de ventas; el precio sigue descontando un escalamiento aún no contratado en firme.\n- **Volatilidad extrema:** movimientos diarios de doble dígito (-10.1% el 17-jul, rango semanal 14-21 jul de ~¥1,000) y ATR elevado; mid-cap de ~¥622-627B con alta sensibilidad a titulares.",
+    "sentimiento": "- HECHO: consenso mixto según proveedor — MarketScreener: 7 compra/2 venta/2 mantener (11 analistas), target ¥6,131 (-5.2% vs cierre previo); stockanalysis.com/investing.com: rating 'Buy' agregado, target promedio ¥6,800.9 (rango ¥2,900–¥11,000).\n- HECHO: Jefferies giró de Underperform/¥2,400-3,000 (oct-2025, por competencia china) a Buy/¥10,000 (16-jun-2026) — cambio de tesis muy marcado que ilustra la volatilidad de opinión del sell-side sobre esta historia.\n- HECHO: técnico de corto plazo en 'Strong Sell' (Investing.com, 21-jul-2026) mientras el rating fundamental de consenso sigue en 'Buy' — desconexión entre el sentimiento de largo plazo (estructural, humanoide) y el posicionamiento táctico reciente.\n- La actividad de insiders y buybacks sigue sin ser verificable en fuentes en inglés — laguna declarada.\n\nLECTURA: sentimiento dividido y volátil: consenso fundamental 'Buy' con targets apenas en línea con el precio, técnico de corto plazo débil, y un historial reciente de revisiones de analistas muy bruscas (Jefferies x3.3 en el target en 8 meses). Esto sugiere que el mercado no tiene aún un ancla de valuación estable para la tesis humanoide.",
+    "conclusion": "**Qué haría funcionar la tesis:** que el Q1 del 7-ago-2026 muestre órdenes humanoides acelerando hacia el doble/triple guiado y utilidad operativa en línea con la guía FY3/27 de ¥6,200M (+141.5%); en ese escenario, el precio podría recuperar la media de 50 sesiones (¥7,160) y reintentar el máximo de ¥9,150. La confirmación de pedidos de producción (no solo prototipos) de clientes humanoides de EE.UU. sería el catalizador mayor, y giros de analistas como el de Jefferies (Underperform a Buy en 8 meses) muestran que el re-rating puede ser rápido en ambas direcciones.\n\n**Qué la invalidaría:** (1) órdenes humanoides estancadas o guía recortada el 7-ago; (2) evidencia de que Leaderdrive/Laifual (juntos ~50% del mercado chino, HDS+Leaderdrive >63% global) ganan diseño en plataformas humanoides occidentales con precios significativamente menores; (3) que la señal técnica 'Strong Sell' actual (precio bajo MA50/MA200) se confirme con nuevos mínimos bajo ¥6,376. Con P/E forward ~105x, cualquiera de estos escenarios implica un de-rating severo — el mínimo de 52s en ¥2,316 recuerda cuánto puede comprimirse. LECTURA: tesis solo apta para perfiles tolerantes a volatilidad extrema; el próximo catalizador duro y fechado es el 7-ago-2026."
+  },
+  "scores": {
+    "tecnica": {
+      "score": 38,
+      "just": "Señal técnica ahora verificable y coherente (Investing.com, 21-jul-2026): RSI 41.2 y MACD bajista, precio por debajo de MA50 (¥7,160.6) y MA200 (¥7,520.9), rating agregado 'Strong Sell' pese al rebote de MA5. Tendencia de 12 meses sigue alcista de fondo, pero el marco corto/mediano plazo es débil tras la caída de ~17% desde ¥7,880 (10-jul) a ¥6,570 (21-jul)."
+    },
+    "fundamental": {
+      "score": 48,
+      "just": "Sin cambios desde el 17-jul: ventas +7% pero utilidad neta -53.7% y margen neto ~2.7% en FY3/26; balance fuerte (equity ratio 72.2%) y guía FY3/27 de fuerte recuperación (+141.5% operativo). Moat real pero P/E forward ~105x y EPS consenso ¥62 castigan: negocio sólido en parte baja del ciclo, muy caro."
+    },
+    "sentimiento": {
+      "score": 52,
+      "just": "Consenso fundamental 'Buy' pero con targets prácticamente en línea con el precio (¥6,131-6,800 vs ¥6,570) y dispersión extrema (¥2,900-11,000). El giro brusco de Jefferies (Underperform a Buy, target x3.3 en 8 meses) y el técnico de corto plazo en 'Strong Sell' muestran sentimiento inestable, sin ancla clara."
+    },
+    "riesgo": {
+      "score": 30,
+      "just": "Riesgo mal acotado: mid-cap cíclica de ~¥622-627B con P/E forward ~105x, ATR elevado y caída de ~17% en dos semanas, competencia china consolidando cuota (Leaderdrive+Laifual ~50% en China) y tesis dependiente de órdenes humanoides aún incipientes (<5% de ventas). Señal técnica de corto plazo negativa se suma a la volatilidad estructural."
+    },
+    "conviccion": {
+      "score": 52,
+      "just": "Catalizador concreto y fechado (Q1 el 7-ago-2026) y tesis falsable (duplicar/triplicar órdenes humanoides en FY3/27), pero la asimetría sigue desfavorable: target consenso ≈ precio, técnico de corto plazo negativo y valuación exige ejecución perfecta. Convicción media, sin mejora clara desde el informe previo a la espera de la validación de agosto."
+    }
+  },
+  "sources": [
+    "stockanalysis.com — quote e historial de precios TYO:6324 (21-jul-2026)",
+    "investing.com — cotización y ficha técnica 6324 (21-jul-2026, 20:55 GMT)",
+    "investing.com — análisis técnico (RSI, MACD, medias móviles, pivotes) (21-jul-2026)",
+    "MarketScreener — consenso 11 analistas, target ¥6,131 (jul-2026)",
+    "moomoo — Jefferies upgrade a Buy, target ¥10,000 desde ¥3,000 (16-jun-2026)",
+    "investing.com — Jefferies downgrade a Underperform, target ¥2,400 por competencia china (oct-2025)",
+    "TDnet/JPX vía BigGo Finance — resultados FY3/26 y guidance FY3/27 (may-2026)",
+    "humanoid.guide / investing.com — órdenes humanoides y nota de resultados (2026)",
+    "humanoid.guide — cuota de mercado Leaderdrive/Laifual en China (2026)",
+    "TipRanks — forecast y rango de targets (jul-2026)",
+    "Yahoo Finance / CNBC 6324.T (jul-2026)"
   ],
-  [
-   "Listado",
-   "Bolsa de Tokio: 6324"
-  ],
-  [
-   "Market cap",
-   "¥612.5B (~US$4B aprox.)"
-  ],
-  [
-   "P/E",
-   "380.9x trailing / 103.1x forward"
-  ],
-  [
-   "Target consenso",
-   "¥5,801–6,801 según muestra — alta dispersión"
-  ],
-  [
-   "Próx. earnings",
-   "7-ago-2026 (Q1 FY3/27)"
+  "change": {
+    "day": 1.55,
+    "week": -12.86
+  },
+  "events": [
+    {
+      "date": "2026-08-07",
+      "label": "Resultados Q1 FY3/27",
+      "kind": "earnings"
+    }
   ]
- ],
- "sections": {
-  "resumen": "HECHO: identidad confirmada: Harmonic Drive Systems Inc., ticker 6324, Tokyo Stock Exchange (Yahoo Finance/JPX). Fabricante líder de reductores armónicos (strain wave gears) para robótica y semiconductores. La acción casi se cuadruplicó desde el mínimo de 52 semanas (¥2,316) hasta ¥9,150 impulsada por la narrativa de robots humanoides, pero corrigió con fuerza: cerró en ¥6,470 el 17-jul-2026 (-10.1% en el día). LECTURA: historia de crecimiento estructural real pero con valuación extrema y momentum reciente deteriorado antes del Q1 del 7 de agosto.",
-  "fundamental": "**Resultados FY3/26 (cerrado 31-mar-2026, publicado ~11-may-2026 vía TDnet):**\n\n- HECHO: Ventas ¥59,557M (+7.0% a/a); utilidad operativa ¥2,567M; utilidad neta ¥1,608M (-53.7% a/a). Margen neto ~2.7% vs >6% el año anterior (compresión por costos y capex +55% a ¥5,838M) (TDnet vía BigGo, may-2026).\n- HECHO: Balance sólido: activos totales ¥111,400M, equity ratio 72.2%, flujo de caja operativo +¥6,425M (TDnet, may-2026).\n- HECHO: Guidance FY3/27: ventas ¥68,000M (+14.2%), utilidad operativa ¥6,200M (+141.5%), utilidad neta ¥4,500M (+179.7%) (TDnet/BigGo, may-2026).\n- HECHO: Órdenes de humanoides: ~¥1.3B registrados en un trimestre, con expectativa de ~¥2.5B en FY3/26 y que se dupliquen o tripliquen en FY3/27, apoyadas en pedidos de prototipos de clientes de EE.UU. (Investing.com, 2026).\n- El backlog total de órdenes no es verificable en fuentes en inglés (laguna típica de cobertura de empresas japonesas; el detalle está en el tanshin en japonés). Existe un aviso de revisión de guidance del 21-abr-2026 (TDnet) cuya dirección exacta no se pudo verificar.\n\nLECTURA: tesis fundamental de transición: márgenes deprimidos hoy por inversión en capacidad (incl. expansión ~33% de capacidad en Norteamérica, hdinresearch.com), con recuperación fuerte proyectada por la propia compañía para FY3/27. La calidad del balance da margen para sostener el capex.",
-  "valuacion": "- HECHO: P/E trailing 380.9x, P/E forward 103.1x, EPS ¥16.98 (-53.6%), dividendo ¥20 (yield 0.31%) (stockanalysis.com, 17-jul-2026).\n- HECHO: P/S ~10.4x vs ~1.7x promedio de peers de maquinaria (Simply Wall St, jul-2026).\n- El P/E histórico exacto no es verificable con serie precisa en las fuentes consultadas. LECTURA: HDS históricamente cotiza con prima elevada (frecuentemente >50x) por su cuasi-monopolio, pero incluso contra su propio estándar el trailing de ~380x refleja utilidades deprimidas más que crecimiento; el forward ~103x sobre la guía de ¥4,500M de utilidad neta sigue siendo muy exigente.\n- HECHO: targets de consenso — ¥6,474 (11 analistas, stockanalysis.com), ¥5,801 (7 analistas, MarketScreener jun-2026), ~¥6,801 (TipRanks, rango ¥2,900–¥11,000): prácticamente sin upside vs el precio actual.\n\nLECTURA: el mercado está pagando hoy la opcionalidad humanoide de 2027-2030, no los resultados actuales. Asimetría de valuación desfavorable si las órdenes humanoides decepcionan.",
-  "tecnico": "- HECHO: precio ¥6,470 (17-jul-2026), -10.1% en la sesión; rango 52 semanas ¥2,316–¥9,150 (stockanalysis.com). El precio está ~2.8x sobre el mínimo de 52s y ~29% bajo el máximo.\n- HECHO (con reserva): Investing.com muestra RSI-14 de 60.7 y señal técnica global 'neutral', pero sus medias móviles publicadas son claramente inconsistentes con el precio actual — datos desactualizados; los niveles de medias móviles se declaran no verificables.\n\nLECTURA: tendencia primaria alcista intacta (el precio sigue muy por encima de hace 6-12 meses), pero la estructura de corto plazo es correctiva: caída de ~29% desde ¥9,150 y una vela de -10% el 17-jul indican distribución/toma de utilidades antes de earnings. Soportes orientativos: ¥6,000-6,330 y luego la zona ¥5,000; resistencias: ¥7,200 y ¥9,150 (máximo). Estos niveles son LECTURA, no niveles con fuente.",
-  "catalizadores": "**Catalizadores:**\n\n- **7-ago-2026 — Resultados Q1 FY3/27:** primera lectura de si las órdenes humanoides van camino a duplicarse/triplicarse como indicó la compañía (stockanalysis.com/Investing.com).\n- **FY3/27 en curso:** guía de utilidad operativa +141.5% (¥6,200M); cada trimestre valida o invalida la recuperación de márgenes.\n- **2026-2027:** ramp de producción de humanoides de clientes de EE.UU. (pedidos de prototipos ya registrados) y expansión de capacidad en Norteamérica (hdinresearch.com).\n\n**Riesgos (por materialidad):**\n\n- **Valuación:** P/E forward ~103x y P/S ~10x no dejan margen de error; una decepción de órdenes puede replicar caídas de dos dígitos como la del 17-jul (-10.1%).\n- **Competencia china:** Leaderdrive con 30-40% del mercado chino de reductores armónicos, paridad de especificaciones en gama media y precios 40-60% inferiores; Laifual expandiéndose en Norteamérica (fuentes sectoriales, 2026).\n- **Ciclicidad:** exposición a robots industriales y semiconductores; margen neto ya comprimido a ~2.7% en FY3/26.\n- **Dependencia de la narrativa humanoide:** las órdenes humanoides actuales (~¥1.3-2.5B) son <5% de ventas; el precio descuenta un escalamiento aún no contratado.\n- **Liquidez/volatilidad:** mid-cap de ~¥612B con beta de noticias muy alta.",
-  "sentimiento": "- HECHO: consenso 'Buy': 8 compra / 1 venta (MarketScreener/moomoo, jun-jul-2026); target promedio ¥6,474 (11 analistas) — prácticamente sin upside; MarketScreener ¥5,801 (7 analistas, jun-2026), por debajo del precio; TipRanks ~¥6,801 con rango ¥2,900–¥11,000.\n- HECHO: dispersión de targets extrema (¥2,900-¥11,000); comentario de mercado señala que 'el marco de valuación aún no está establecido' para el caso humanoide (nota japonesa, 2026).\n- HECHO: flujo de noticias 2026 constructivo en lo estructural (órdenes humanoides al alza) pero con advertencias crecientes sobre compresión de márgenes y valuación (Simply Wall St, jul-2026).\n- La actividad de insiders y buybacks no es verificable en fuentes en inglés — laguna declarada.\n\nLECTURA: sentimiento dividido: ratings 'Buy' pero targets al nivel del precio = analistas persiguiendo al alza sin convicción de valuación. La caída del 17-jul sugiere manos débiles saliendo antes de earnings.",
-  "conclusion": "**Qué haría funcionar la tesis:** que el Q1 del 7-ago-2026 muestre órdenes humanoides acelerando hacia el doble/triple guiado y utilidad operativa en línea con la guía FY3/27 de ¥6,200M (+141.5%); en ese escenario, el forward P/E de ~103x se digiere vía crecimiento de utilidades 2027-2028 y el precio puede reintentar ¥9,150. La confirmación de pedidos de producción (no solo prototipos) de clientes humanoides de EE.UU. sería el catalizador mayor.\n\n**Qué la invalidaría:** (1) órdenes humanoides estancadas o guidance recortado el 7-ago; (2) evidencia de que Leaderdrive/Laifual ganan diseño en plataformas humanoides occidentales con precios 40-60% menores; (3) márgenes que no se recuperan del ~2.7% neto pese al mayor volumen. Con P/S ~10x vs 1.7x de peers, cualquiera de estos escenarios implica un de-rating severo — el mínimo de 52s en ¥2,316 recuerda cuánto puede comprimirse. LECTURA: tesis atractiva solo para perfiles tolerantes a volatilidad extrema y con horizonte a la validación de órdenes de agosto-noviembre 2026."
- },
- "scores": {
-  "tecnica": {
-   "score": 55,
-   "just": "Tendencia primaria alcista (precio ~2.8x sobre el mínimo de 52s) pero corrección de ~29% desde ¥9,150 y caída de -10.1% el 17-jul. Los indicadores públicos (RSI/medias de Investing.com) están desactualizados/no verificables, lo que limita la nota: alcista de fondo, correctiva de corto plazo."
-  },
-  "fundamental": {
-   "score": 48,
-   "just": "Ventas +7% pero utilidad neta -53.7% y margen neto ~2.7% en FY3/26 (TDnet, may-2026); balance fuerte (equity ratio 72.2%) y guía FY3/27 de fuerte recuperación (+141.5% operativo). El moat es real, pero P/E forward ~103x y P/S 10x vs 1.7x de peers castigan: negocio sólido en parte baja del ciclo, muy caro."
-  },
-  "sentimiento": {
-   "score": 58,
-   "just": "Consenso 'Buy' (8/1) y flujo de noticias humanoide constructivo, pero targets promedio (¥5,801-6,801) al nivel o debajo del precio y dispersión ¥2,900-11,000. Sentimiento dividido entre narrativa y valuación."
-  },
-  "riesgo": {
-   "score": 30,
-   "just": "Riesgo mal acotado: mid-cap cíclica de ¥612B con P/E forward ~103x, drawdowns diarios de dos dígitos (-10.1% el 17-jul), competencia china con precios 40-60% menores y tesis dependiente de órdenes humanoides aún incipientes (<5% de ventas). Volatilidad y riesgo de de-rating muy altos."
-  },
-  "conviccion": {
-   "score": 55,
-   "just": "Hay catalizador concreto y fechado (Q1 el 7-ago-2026) y tesis falsable (las órdenes humanoides deben duplicarse/triplicarse en FY3/27), pero la asimetría no es favorable al precio actual: target consenso ≈ precio y la valuación exige ejecución perfecta. Convicción media: la validación llega en agosto."
-  }
- },
- "sources": [
-  "stockanalysis.com — quote TYO:6324 (17-jul-2026)",
-  "Investing.com — cotización, técnico y nota de órdenes humanoides (jul-2026)",
-  "TDnet/JPX vía BigGo Finance — resultados FY3/26 y guidance FY3/27 (may-2026)",
-  "MarketScreener — consenso 7 analistas ¥5,801 (jun-2026)",
-  "TipRanks — forecast (jul-2026)",
-  "Yahoo Finance 6324.T (jul-2026)",
-  "Simply Wall St — márgenes y P/S vs peers (jul-2026)",
-  "Business Research Insights / humanoid.guide — cuota Leaderdrive (2026)",
-  "hdinresearch.com — expansión de capacidad en Norteamérica (2026)",
-  "moomoo — ratings de analistas (jul-2026)"
- ],
- "change": {
-  "day": -10.14,
-  "week": -17.73
- },
- "events": [
-  {
-   "date": "2026-08-07",
-   "label": "Resultados Q1 FY3/27",
-   "kind": "earnings"
-  }
- ]
 }

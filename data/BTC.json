@@ -1,91 +1,101 @@
 {
- "ticker": "BTC",
- "company": "Bitcoin",
- "statsList": [
-  [
-   "Precio",
-   "$64,095 (CoinDesk, 18-jul-2026)"
+  "ticker": "BTC",
+  "company": "Bitcoin",
+  "statsList": [
+    [
+      "Precio",
+      "$66,600 (Yahoo Finance/Fortune, 21-jul-2026, 11:30am ET)"
+    ],
+    [
+      "Rango 52 sem.",
+      "$57,833 – $126,198"
+    ],
+    [
+      "Market cap",
+      "$1.32T aprox. (dominancia 56.3% s/ $2.28-2.31T cripto total, jul-2026)"
+    ],
+    [
+      "Dominancia BTC",
+      "56.3% (TradingView Hub/CoinGabbar, 20-21-jul-2026)"
+    ],
+    [
+      "Flujos ETF spot",
+      "+$75.7M semana 13-17-jul (2da semana positiva consecutiva); +$132.3M el 17-jul (4to día consecutivo positivo); reporte de +$227M el 20-jul (CryptoTimes)"
+    ],
+    [
+      "Próximo evento",
+      "FOMC 28-29-jul-2026 (decisión de tasas, comunicado 2pm ET del 29-jul)"
+    ],
+    [
+      "Técnico (auto)",
+      "RSI 60.8 · MACD +483.90 / señal +100.60 (TradingView, 21-jul-2026)"
+    ]
   ],
-  [
-   "Rango 52 sem.",
-   "$57,833 – $126,186"
+  "sections": {
+    "resumen": "BTC cotiza en **~$66,600**, un máximo de cinco semanas, subiendo con fuerza desde el piso de ~$57,833-58,000 de fines de junio y recuperando la zona de $65-66K que había perdido en junio. El precio sigue **-47% desde el ATH de $126,198** (oct-2025), pero la narrativa de corto plazo cambió: los ETFs spot llevan dos semanas consecutivas de flujos netos positivos tras las 8 semanas de salidas de junio, las ballenas grandes (1,000-10,000 BTC) acumularon ~66,700 BTC en 60 días, y el apetito por riesgo volvió con el Nasdaq-100 en alza. LECTURA: rebote técnico dentro de un ciclo post-halving aún no confirmado como piso — el consenso de analistas sigue ubicando el fondo de ciclo hacia octubre-2026, salvo que el FOMC del 29-jul o el CLARITY Act adelanten el catalizador.",
+    "fundamental": "**Salud de red:**\n\n- HECHO: hashrate en ~921-923 EH/s al 20-jul-2026 (YCharts/minerstat), nuevo máximo histórico pese al precio deprimido; última dificultad ajustada -5.00% el 11-jul a 127.17T, con +2.74% estimado para el 25-jul (Hashrate Index).\n- HECHO: hashprice en ~$30.9/PH/s/día (semana 6-13 jul), en o por debajo del punto de equilibrio para buena parte de la industria minera (Hashrate Index, 13-jul-2026).\n- HECHO: reservas de BTC en exchanges en mínimo de 7 años, ~2.2M BTC (Blockonomi/CryptoNomist, jul-2026), migrando a autocustodia y ETFs.\n- HECHO: ballenas de 1,000-10,000 BTC acumularon ~66,700 BTC en los 60 días al 19-jul-2026, una de las rachas de compra más fuertes de 2026, mientras que holders medianos (100-1,000 BTC) distribuyeron ~77,800 BTC en la misma ventana (Cryptonomist/Blockonomi, 20-jul-2026).\n\n**Institucional / ETFs:**\n\n- HECHO: AUM de ETFs spot de EE.UU. con flujos netos +$75.7M en la semana 13-17-jul (segunda semana positiva consecutiva), aunque julio acumulado seguía en -$253.5M a mitad de mes (NewsBTC/Investing.com, 17-jul-2026); IBIT (BlackRock) lideró con +$136.5M el 17-jul, FBTC (Fidelity) con salida de -$4.2M el mismo día.\n- HECHO: Strategy (MSTR) mantiene 843,775 BTC (costo total $63.69B, promedio $75,476/BTC) al 19-jul-2026, **sin comprar BTC en la semana del 13-19-jul**; vendió $263.5M en acciones MSTR sin comprar cripto, llevando su reserva en USD a un récord de $3.225B para cubrir dividendos preferentes (>$1.5B anuales) — cambio de estrategia hacia acumulación de caja (Investing.com/Bitcoin Magazine/The Block, 19-21-jul-2026).\n- HECHO: Metaplanet compró 2,823 BTC en el 2T-2026 (~$225M, precio promedio $78,872), llevando su tesorería a 43,000 BTC, tercera mayor corporativa tras Strategy y Twenty One Capital (CryptoNews/TFTC, 1-2-jul-2026); Capital Group (gestora de $3.3T) reveló una posición relevante en Metaplanet (CryptoTimes, 21-jul-2026).\n\n**Ciclo post-halving (abr-2024):**\n\n- HECHO: consenso de analistas (CryptoQuant, Glassnode, Benjamin Cowen, PlanB) converge en **4T-2026 (aprox. octubre)** como ventana de mayor probabilidad para el piso de ciclo, aplicando el intervalo pico-valle desde el ATH del 7-oct-2025 (Cointelegraph/Mudrex, jul-2026).\n- LECTURA: recortes de la Fed o avance del CLARITY Act podrían adelantar ese piso; el repunte reciente (+~13% desde el mínimo de fines de junio) es alentador pero no altera el consenso de piso tardío, dado que aún no hay confirmación de tendencia en marcos largos (precio bajo el 200-week MA).",
+    "valuacion": "- HECHO: ATH $126,198 (6-oct-2025, CoinMarketCap) → precio actual (~$66,600) implica **-47% desde máximos**, recuperando desde el mínimo de junio de ~-54%.\n- HECHO: MVRV ratio 1.19 y MVRV Z-Score 0.37 (AhaSignals/BGeometrics, dato del 13-jul-2026, el más reciente públicamente verificable), con realized price ~$52,493: el mercado cotiza ~19% sobre su costo base agregado on-chain, zona que históricamente no es ni de sobrevaloración ni de pánico extremo.\n- HECHO: BTC cerró bajo su media móvil de 200 semanas por primera vez desde 2023 en junio-2026 (CoinJuice, jul-2026), señal técnica de largo plazo bajista aún no revertida pese al rebote reciente.\n- HECHO — targets institucionales 2026 (sin cambios reportados esta semana): Standard Chartered $100K fin de año, Citigroup $143K, JPMorgan $170K, Bernstein $150K (fuentes previamente verificadas, jul-2026); JPMorgan estima costo de producción ~$77,000, aún por encima del precio actual.\n- LECTURA: con MVRV Z 0.37 y precio recuperando $66K, la valuación relativa mejoró levemente respecto a la semana previa pero sigue en zona de acumulación histórica, no de euforia.",
+    "tecnico": "- HECHO: BTC alcanzó un máximo de cinco semanas, cotizando sobre $66,500 el 21-jul-2026 tras abrir en $65,214 (+0.8% vs apertura del lunes); rango intradía 20-21 jul entre $64,290 y $66,841 (Fortune/Yahoo Finance/Sunday Guardian, 20-21-jul-2026).\n- HECHO: niveles pivote (barchart/coinjuice, 21-jul): soporte $64,080 / $62,991 / $62,155; resistencia $66,005 / $66,841 / $67,930. Fuente adicional ubica soporte en $61,870-60,000-57,815 y resistencia en $65,560-67,950-70,340.\n- HECHO: RSI diario en 56.47 (barchart) / 52.52 (cryptonews.net), zona neutral-alcista, revirtiendo desde 33 (sobreventa) de mediados de julio; MACD histograma expandiéndose en positivo (+267.79).\n- HECHO: 17 indicadores técnicos en señal alcista vs 15 en señal bajista (CoinCodex, 21-jul-2026) — lectura neutral con sesgo levemente positivo de corto plazo.\n- HECHO: BTC/USD se mantuvo sobre la resistencia clave de $65,000 tras varios días de flujos ETF positivos (DailyForex, 21-jul-2026).\n\nLECTURA: rebote de corto plazo confirmado (ruptura de $65-66K con volumen y RSI recuperando terreno neutral), pero la tendencia primaria de marcos largos sigue bajista: BTC cerró bajo su 200-week MA en junio y el precio está a -47% del ATH. Un cierre semanal sostenido sobre $67-68K abriría camino técnico a $70K; pérdida de $62-64K devolvería el foco a $58K.",
+    "catalizadores": "**Catalizadores:**\n\n- **28-29-jul-2026 — reunión FOMC** (comunicado 29-jul, 2pm ET): fed funds en 3.50%-3.75%, consenso de mercado apunta a mantener sin cambios; futuros muestran expectativas divergentes de posible suba a ~3.8-4% hacia fin de año si la inflación persiste (CoinGape/Kraken Blog, jul-2026) — un mantenimiento sin sesgo hawkish sería friendly para cripto, un hike o tono hawkish presionaría a la baja.\n- **Hasta 7-ago-2026 (último día hábil antes del receso) — CLARITY Act:** estancado en el Senado por tres disputas (DeFi, stablecoins/yield, AML/jurisdicción); regresó de receso el 13-jul con ~3 semanas útiles restantes; sin moción de cloture presentada aún (Yahoo Finance/Bitcoin Foundation/crypto.news, 15-20-jul-2026). Algunas fuentes marcan el 10-ago como deadline simbólico final.\n- **Continuo — flujos de ETFs spot:** segunda semana consecutiva positiva (+$75.7M al 17-jul) y reporte de +$227M el 20-jul; se necesita sostenerse varias semanas más para revertir el saldo YTD aún negativo.\n- **Ballenas grandes acumulando:** ~66,700 BTC en 60 días (1,000-10,000 BTC cohort) es una señal de demanda estructural a vigilar si continúa.\n\n**Riesgos (por materialidad):**\n\n- **Fracaso o mayor estancamiento del CLARITY Act** en el Senado por las tres disputas sin resolver — el propio calendario legislativo deja solo ~3 semanas útiles.\n- **FOMC hawkish o sin guía de recortes**: futuros ya descuentan riesgo de suba de tasas hacia fin de año, escenario adverso para activos de riesgo.\n- **Strategy dejó de comprar BTC** y prioriza reservas de caja para dividendos preferentes (>$1.5B anuales) — señal de estrés en tesorerías apalancadas y posible techo a la demanda corporativa histórica más grande.\n- **200-week MA perdida en junio**: tendencia de largo plazo bajista no revertida; el rebote actual podría ser de corto plazo dentro de un ciclo cuyo piso el consenso ubica recién en 4T-2026.\n- **Distribución de holders medianos** (100-1,000 BTC): -77,800 BTC en 60 días compensando parcialmente la acumulación de ballenas grandes.",
+    "sentimiento": "- HECHO: Fear & Greed Index en **29 ('Fear')** el 20-jul-2026 (cryptonews.net), tras haber tocado 24 días antes (Phemex) y 27-22 la semana previa; sentimiento sigue en miedo pese al rebote de precio, lo que sugiere que el rally aún no ha sido validado por el consentimiento general del mercado — posible señal contraria constructiva.\n- HECHO: RSI diario recuperó a zona neutral-alcista (52-56), MACD positivo y expandiéndose, contrastando con el F&G aún bajo.\n- HECHO: flujos ETF en segunda semana consecutiva positiva (+$75.7M al 17-jul; +$132.3M el 17-jul fue el 4to día consecutivo positivo); reporte de +$227M el 20-jul (CryptoTimes) sugiere aceleración, aunque julio acumulado seguía negativo (-$253.5M) a mitad de mes.\n- HECHO: mercado cripto total ganó ~1.7-2.4% en 24h al 21-jul, con Nasdaq-100 también al alza — correlación de apetito por riesgo (Yahoo Finance, 21-jul-2026).\n\nLECTURA: sentimiento (F&G en Fear, 29) rezagado respecto al precio y a los indicadores técnicos, que ya giraron a neutral-alcista. Esta divergencia —precio y momentum mejorando mientras el sentimiento agregado sigue cauto— es constructiva y típica de fases tempranas de recuperación, pero no hay euforia ni sobrecompra que adviertan de un techo de corto plazo.\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\n### Flujos diarios de ETFs spot de EE.UU. (US$ millones, netos) — semana 13-20 de julio\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| Lun 13-jul | -424.7 | Peor día del mes (~-6,904 BTC); coincidió con distribución de ballenas medianas ese día |\n| Mar 14-jul | +181.0 | Inicio de racha positiva |\n| Mié 15-jul | +107.8 | IBIT +$80.8M |\n| Jue 16-jul | +79.2 | IBIT +$33.4M, FBTC +$30.7M, BITB +$15.0M |\n| Vie 17-jul | +132.3 | 4to día consecutivo positivo; IBIT +$136.5M, FBTC -$4.2M (Farside/KuCoin) |\n| Lun 20-jul | ~+227 | Reportado por CryptoTimes como refuerzo de la racha alcista, IBIT liderando |\n\n- HECHO: la semana 13-17-jul cerró en +$75.7M neto, segunda semana consecutiva positiva tras el giro de inicios de julio (+$197M semana al 10-jul), aunque el saldo de julio acumulado a mitad de mes seguía en -$253.5M (Investing.com/NewsBTC, 17-jul-2026).\n- HECHO: acumulado histórico de IBIT (BlackRock) sigue siendo el producto dominante del complejo; FBTC (Fidelity) mostró salidas puntuales el 17-jul pese al rebote general.\n- LECTURA: la recuperación de flujos se está acelerando (de +$75.7M semanales a un solo día de +$227M reportado el 20-jul), pero la base de comparación es baja tras el peor mes histórico en junio (-$4.5B); persiste el patrón de \"rebote frágil, no recuperación confirmada\" señalado por Investing.com.\n\n### Flujos institucionales\n\n- HECHO: Strategy (MSTR) **no compró BTC** en la semana del 13-19-jul, manteniendo 843,775 BTC (costo promedio $75,476); en su lugar vendió $263.5M en acciones MSTR para llevar su reserva de USD a un récord de $3.225B, destinado a cubrir dividendos de preferentes que superan $1.5B anuales — confirma el giro hacia gestión de caja iniciado con la venta de 3,588 BTC a fines de junio.\n- HECHO: Metaplanet cerró el 2T-2026 con 43,000 BTC (compra trimestral de 2,823 BTC por ~$225M a $78,872 promedio), y Capital Group ($3.3T AUM) reveló una posición relevante en la acción de Metaplanet, evidencia de que gestoras tradicionales grandes están tomando exposición indirecta a BTC vía tesoreros corporativos (CryptoTimes, 21-jul-2026).\n- LECTURA: el panorama institucional sigue bifurcado — Strategy pausó compras por primera vez en mucho tiempo para atender obligaciones de dividendos, mientras Metaplanet continúa comprando y atrae capital institucional nuevo (Capital Group). El mayor comprador histórico (Strategy) ya no es el viento de cola automático que fue en 2024-2025.\n\n### Actividad de ballenas y flujos on-chain\n\n- HECHO: ballenas de 1,000-10,000 BTC acumularon ~66,700 BTC en los 60 días al 19-jul-2026, una de las rachas de acumulación más fuertes del año, con el precio moviéndose poco durante la mayor parte de la ventana (banda $64,500-64,700 a mediados de julio) antes del repunte reciente (Cryptonomist/Blockonomi/MEXC, 20-jul-2026).\n- HECHO: holders medianos (100-1,000 BTC) — perfil típico de mineros, inversores tempranos y fondos que rebalancean — distribuyeron ~77,800 BTC en la misma ventana de 60 días, compensando buena parte de la compra de ballenas grandes.\n- HECHO: reservas de BTC en exchanges permanecen en mínimo de 7 años (~2.2M BTC), reforzando la narrativa de oferta líquida en contracción estructural.\n- LECTURA: la combinación de acumulación agresiva de ballenas grandes + reservas de exchange en mínimos históricos apunta a un posible squeeze de oferta si la demanda (ETFs, ballenas) se sostiene, pero la distribución simultánea del cohorte medio muestra que la oferta vendedora aún no está agotada — el balance entre ambos grupos explica por qué el precio se mantuvo lateral hasta el repunte de esta semana.",
+    "conclusion": "**Qué haría funcionar la tesis:** continuidad de los flujos ETF positivos (ya en su segunda semana, acelerando hacia +$227M diarios reportados el 20-jul), un FOMC (29-jul) que mantenga tasas sin sesgo hawkish, avance del CLARITY Act antes del receso de agosto, y consolidación sobre $67-68K que confirme técnicamente el quiebre de la resistencia de $65-66K; en ese escenario los targets institucionales de $100K+ (Standard Chartered, Citi, JPMorgan) vuelven a estar en juego, apoyados por acumulación de ballenas grandes (+66,700 BTC en 60 días) y reservas de exchange en mínimos de 7 años.\n\n**Qué la invalidaría:** reversión de los flujos ETF a negativo, un FOMC con tono hawkish o suba de tasas, fracaso del CLARITY Act antes del receso de agosto, y pérdida de $62-64K que devuelva el foco a $58K — el consenso de analistas (CryptoQuant, Glassnode, Cowen, PlanB) sigue ubicando el piso de ciclo recién hacia octubre-2026, y BTC permanece bajo su 200-week MA por primera vez desde 2023. LECTURA: el repunte de la semana es genuino y respaldado por flujos y on-chain, pero el sentimiento (F&G 29, 'Fear') no lo ha validado aún y la tendencia primaria de largo plazo sigue técnicamente bajista; conviene tratar esto como una recuperación táctica dentro de un proceso de formación de piso más amplio, no como confirmación de nuevo ciclo alcista."
+  },
+  "scores": {
+    "tecnica": {
+      "score": 48,
+      "just": "Mejora clara de corto plazo: máximo de 5 semanas, ruptura de $65-66K, RSI neutral-alcista (52-56) recuperando desde sobreventa, MACD positivo. Pero la tendencia primaria de marcos largos sigue bajista (-47% desde ATH, bajo la 200-week MA desde junio, primera vez desde 2023). Sube desde 35 la semana pasada por la confirmación del rebote, sin llegar a territorio claramente alcista por falta de confirmación en marcos largos."
+    },
+    "fundamental": {
+      "score": 56,
+      "just": "Red en máximos (hashrate ~921 EH/s), reservas de exchange en mínimo de 7 años, ballenas grandes acumulando (+66,700 BTC/60d). Pero Strategy pausó compras por primera vez en mucho tiempo para atender dividendos (aunque Metaplanet sigue comprando y atrajo a Capital Group), y los flujos ETF, aunque girando positivo, aún no revierten el saldo negativo de julio. Mixto con sesgo estructural positivo, similar a la semana previa."
+    },
+    "sentimiento": {
+      "score": 48,
+      "just": "Fear & Greed en 29 (Fear, 20-jul) rezagado respecto a un precio y momentum técnico que ya mejoraron notablemente; divergencia constructiva (miedo residual + mejora de fundamentals de precio) típica de fases tempranas de recuperación, no de techo. Sube desde 40 por la aceleración de flujos ETF (+$227M reportado el 20-jul) y el repunte de 24h del mercado cripto (+1.7-2.4%)."
+    },
+    "riesgo": {
+      "score": 42,
+      "just": "Riesgo sigue alto pero algo mitigado: drawdown de -47% (mejora desde -49%), BTC bajo su 200-week MA por primera vez desde 2023, consenso de piso de ciclo recién en 4T-2026, FOMC con posible sesgo hawkish hacia fin de año y CLARITY Act con ventana de solo ~3 semanas. Mitigantes: MVRV 1.19 cerca de costo base, ballenas acumulando, reservas de exchange en mínimos históricos."
+    },
+    "conviccion": {
+      "score": 52,
+      "just": "Tesis parcialmente falsable con catalizadores fechados (FOMC 29-jul, CLARITY Act con deadline ~7-10 ago) y mejora de momentum de corto plazo confirmada por flujos y on-chain. Resta convicción que el consenso de analistas mantiene el piso de ciclo en 4T-2026 (no confirmado que ya haya pasado) y que el mayor comprador corporativo histórico (Strategy) dejó de comprar BTC esta semana."
+    }
+  },
+  "sources": [
+    "Yahoo Finance / Fortune / Sunday Guardian — precio $66,600, máximo de 5 semanas (21-jul-2026)",
+    "CryptoTimes — ruptura de $65,000, flujos +$227M el 20-jul, institucional (21-jul-2026)",
+    "TradingView Hub / CoinGabbar — dominancia BTC 56.3%, market cap total $2.28-2.31T (20-21-jul-2026)",
+    "YCharts / minerstat / Hashrate Index — hashrate ~921-923 EH/s, hashprice $30.9/PH/s/día (13-20-jul-2026)",
+    "Cryptonomist / Blockonomi / MEXC — acumulación de ballenas +66,700 BTC/60d, distribución de holders medianos -77,800 BTC (20-jul-2026)",
+    "Farside Investors / KuCoin / Investing.com / NewsBTC — flujos ETF diarios y semanales (13-17-jul-2026)",
+    "Investing.com — Strategy sin compras de BTC semana 13-19-jul, reserva USD récord $3.225B (19-jul-2026)",
+    "Bitcoin Magazine / The Block — venta de 3,588 BTC de Strategy y venta de acciones MSTR (jul-2026)",
+    "CryptoNews.net / TFTC / Cryptonomist — Metaplanet 43,000 BTC, compra 2T-2026 (1-2-jul-2026)",
+    "CryptoTimes — Capital Group toma posición en Metaplanet (21-jul-2026)",
+    "AhaSignals / BGeometrics — MVRV 1.19, Z-Score 0.37, realized price $52,493 (13-jul-2026)",
+    "CoinJuice — BTC cierra bajo 200-week MA por primera vez desde 2023 (jul-2026)",
+    "cryptonews.net / Phemex — Fear & Greed 29 (20-jul-2026) y 24 (semana previa)",
+    "Barchart / CoinCodex / DailyForex — niveles técnicos, RSI 52-56, 17 vs 15 señales (21-jul-2026)",
+    "CoinGape / Kraken Blog / Polymarket — FOMC 28-29-jul, tasas 3.50-3.75% (jul-2026)",
+    "Yahoo Finance / Bitcoin Foundation / crypto.news — CLARITY Act estancado, ventana hasta ~7-ago (15-20-jul-2026)",
+    "Cointelegraph / Mudrex — consenso de piso de ciclo en 4T-2026 (jul-2026)",
+    "CoinMarketCap — ATH $126,198 (6-oct-2025)"
   ],
-  [
-   "Market cap",
-   "$1.29T (18-jul-2026)"
-  ],
-  [
-   "Dominancia BTC",
-   "56.6% (jul-2026)"
-  ],
-  [
-   "Flujos ETF spot",
-   "+$197M semana al 10-jul, primera positiva tras 8 semanas de salidas (-$8.2B)"
-  ],
-  [
-   "Próximo evento",
-   "FOMC 28-29-jul-2026 (decisión de tasas)"
+  "change": {
+    "day": 2.4,
+    "week": 6.0
+  },
+  "events": [
+    {
+      "date": "2026-07-29",
+      "label": "FOMC 28-29 jul — decisión de tasas de la Fed",
+      "kind": "macro"
+    },
+    {
+      "date": "2026-08-07",
+      "label": "Último día hábil del Senado antes del receso de agosto — deadline de facto para el CLARITY Act",
+      "kind": "macro"
+    }
   ]
- ],
- "sections": {
-  "resumen": "BTC cotiza en **~$64,100**, un **-49% desde su ATH de $126,186** (oct-2025), en pleno mercado bajista post-ciclo con el mercado debatiendo si el piso llega en 2H-2026. Los fundamentales de red están en máximos (hashrate ~870-900 EH/s, oferta en exchanges en mínimos de 7 años), pero el precio lo fija hoy el flujo de ETFs, que tras 8 semanas de salidas (-$8.2B) acaba de girar a positivo. LECTURA: fase de capitulación/acumulación con valuación cerca del costo base on-chain ($52,493), asimetría interesante pero sin confirmación de tendencia.",
-  "fundamental": "**Salud de red:**\n\n- HECHO: hashrate en máximos históricos, ~866 EH/s al 12-jul-2026 (Hashrate Index) y ~901 EH/s según CoinWarz (jul-2026), pese al precio deprimido.\n- HECHO: reservas de BTC en exchanges en mínimo de 7 años, ~2.2M BTC (CoinDesk, 9-jul-2026); CoinDesk advierte que la métrica es hoy menos fiable como señal alcista por la migración a custodia institucional/ETFs.\n- HECHO: pico de inflows a exchanges de ~49,000 BTC el 30-jun-2026, un 'extremo raro' según CryptoQuant, con depósitos promedio de ~2 BTC (ballenas/instituciones).\n- HECHO: ballenas compraron en neto ~270,000 BTC en 30 días al 8-jul-2026 (BeInCrypto/on-chain).\n\n**Institucional / ETFs:**\n\n- HECHO: AUM total de ETFs spot de EE.UU. ~$77.6B con ~1.21M BTC, ~5.8% de la oferta circulante (CoinGlass/WalletPilot, mediados jul-2026).\n- HECHO: Strategy (MSTR) posee 843,775 BTC a costo promedio $66,385 (Bitbo, 6-jul-2026); vendió 3,588 BTC para fondear dividendos, su mayor venta desde 2022 (Yahoo Finance/BeInCrypto, jul-2026).\n\n**Ciclo post-halving (abr-2024):**\n\n- HECHO: BTC perdió ~20% en junio-2026 y el consenso de analistas ubica el piso de ciclo hacia fines de 2026 en $50,000-$55,000 (Mudrex, StoneX/Investing.com, jun-jul-2026).\n- LECTURA: red robusta y oferta estructuralmente contraída, pero la demanda marginal (ETFs) fue negativa casi todo el año (YTD -$5.4B); el giro de flujos de julio es la variable a vigilar, no el calendario del halving.",
-  "valuacion": "- HECHO: ATH $126,186 (oct-2025, Investing.com) → el precio actual implica **-49% desde máximos**; el mínimo de junio fue ~-53%, vs caídas históricas de ciclo de 77%+ (Motley Fool, jul-2026).\n- HECHO: MVRV ratio 1.19 y MVRV Z-Score 0.37 (percentil ~19 histórico), con realized price ~$52,493 (AhaSignals, 13-jul-2026): el mercado cotiza apenas 19% sobre su costo base agregado on-chain.\n- HECHO: JPMorgan estima costo de producción ~$77,000, por encima del precio actual, condición que históricamente precedió reversiones (Forbes/Paybis).\n- HECHO: la métrica 'supply in loss > supply in profit' se activó en jun-2026, marca presente en todos los pisos de bear markets previos (CoinDesk, 4-jun-2026).\n- HECHO — targets institucionales 2026: Standard Chartered $100K a fin de año ('screaming buy', tras 3 recortes desde $300K; Bitcoin Magazine/Yahoo, jul-2026), Citigroup base $143K, JPMorgan fair value $170K, Bernstein $150K (Paybis/Phemex, jul-2026); casos bajistas citados: $39K-$52K (Coinpedia, FinanceFeeds).\n- LECTURA: valuación relativa comprimida a niveles que históricamente delimitaron zonas de acumulación, pero 'barato' no es catalizador: se necesita flujo.",
-  "tecnico": "- HECHO: consolidación en rectángulo entre soporte **$57,985-58,000** y resistencia **$62,000-64,669** (Cryptonomist, 7-jul-2026; análisis técnicos de jul-2026), tras perder la zona de $70K a inicios de año.\n- HECHO: RSI diario 14d en 33.4, zona de venta (Investing.com, jul-2026); divergencia alcista en RSI semanal aún sin validar (Cryptonomist, jul-2026).\n- HECHO: medias largas con lecturas dispares según fuente: 200-DMA ~$63,182 en señal de venta (Investing.com) vs 200-EMA ~$76,033 muy por encima del precio; el nivel exacto no es verificable de forma única — en todo caso el precio está en/bajo sus medias largas, con pendiente negativa.\n\nLECTURA: tendencia primaria bajista (serie de máximos decrecientes desde oct-2025), tendencia de corto plazo lateral con leve rebote desde ~$58K. Un cierre semanal sobre ~$65-66K abriría camino a $70K; la pérdida de $58K expone $50-55K.",
-  "catalizadores": "**Catalizadores:**\n\n- **28-29-jul-2026 — reunión FOMC** (decisión 29-jul): tasas hoy en 3.50%-3.75%, >85% prob. de mantener y solo ~20% prob. de algún recorte en 2026 (Polymarket/Kalshi vía CryptoBriefing) — cualquier giro dovish sería sorpresa alcista.\n- **Jul-ago-2026 — CLARITY Act:** avanzada en Senate Banking 15-9 (14-may-2026), hearing clave el 17-jul; CryptoSlate estima ~4 semanas de ventana para el catalizador legislativo; Motley Fool le asigna 50/50 en 2026.\n- **2H-2026 — agenda de rulemaking cripto de la SEC** (ofertas, custodia broker-dealer, venues) bajo Paul Atkins (Cryptonomist, 11-jul-2026).\n- **Continuo — flujos de ETFs spot:** la racha positiva iniciada el 2-jul (+$221M) debe sostenerse.\n\n**Riesgos (por materialidad):**\n\n- **Reanudación de salidas de ETFs:** junio fue el peor mes histórico (-$4.5B); un banco recortó a cero su forecast de inflows a 12 meses.\n- **'Higher for longer' de la Fed:** sin recortes en 2026 se mantiene la presión sobre activos de riesgo.\n- **Fracaso o dilución del CLARITY Act** en el Senado.\n- **Ruptura de $58K** y retest de $50-55K (escenario base de piso tardío 4T-2026 según StoneX/Mudrex); proyecciones extremas citan $39-42K.\n- **Ventas corporativas:** Strategy ya vendió 3,588 BTC para dividendos; estrés en tesorerías apalancadas es riesgo de contagio.",
-  "sentimiento": "- HECHO: Fear & Greed en **27 ('Fear')** el 17-jul-2026 (Milk Road/IG), tras tocar 22 ('Extreme Fear') el 14-jul (TechBullion); promedio ~20 la semana previa (CoinStats).\n- HECHO: funding rates de perpetuos neutrales-levemente positivos (~0.0043%/4h, ~9.4% anualizado) y open interest $48.9B, +3.5% en dos días, sin apalancamiento extremo (CoinStats, 16-jul-2026).\n- HECHO: flujos ETF: giro de -$2.7B en 10 días a +$510M en 3 sesiones a inicios de julio; la semana al 10-jul (+$197M) rompió una racha de 8 semanas negativas (KuCoin/TechTimes); el YTD sigue en -$5.4B.\n- HECHO: Standard Chartered llama a BTC 'screaming buy' manteniendo target $100K (jul-2026); la prensa está dividida entre 'piso cercano' y 'un trimestre más de dolor'.\n\nLECTURA: miedo dominante sin capitulación de derivados; el posicionamiento limpio y el giro de flujos son constructivos como condición de piso, pero el tono general sigue defensivo.\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\n### 7.1 Flujos diarios de ETFs spot de EE.UU. (US$ millones, netos)\n\n**Semana 6-10 de julio** (primera semana positiva tras 8 negativas, +$197M neto — Farside/KuCoin/TechTimes):\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| Lun 6-jul | **+265.7** | IBIT lideró con +$209.4M en la sesión |\n| Mar 7-jul | +21.5 | |\n| Mié 8-jul | -84.9 | |\n| Jue 9-jul | -95.3 | |\n| Vie 10-jul | +90.4 | Cierra la semana en +$197M |\n\n**Semana 13-17 de julio** (~+$75.7M neto — SoSoValue/CryptoTimes):\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| Lun 13-jul | **-424.7** | Peor día del mes (~-6,904 BTC); coincide con la distribución de ballenas de ese día (ver 7.3) |\n| Mar 14-jul | +181.0 | Inicio de 3 sesiones positivas consecutivas |\n| Mié 15-jul | +107.8 | IBIT +$80.8M |\n| Jue 16-jul | +79.2 | IBIT +$33.4M, FBTC +$30.7M, BITB +$15.0M |\n| Vie 17-jul | s/d | Fuentes reportan tercera sesión positiva consecutiva al cierre del 16-jul; dato del 17 aún no consolidado |\n\n- HECHO: acumulado histórico de IBIT (BlackRock) ~$60.35B en entradas netas desde ene-2024; FBTC (Fidelity) ~$9.97B (CryptoTimes, 18-jul-2026).\n- HECHO: contexto YTD sigue negativo (-$5.4B) tras -$8.2B en las 8 semanas de salidas y el peor mes histórico en junio (-$4.5B).\n- LECTURA: el patrón intrasemanal es de estabilización, no de demanda fuerte: los días positivos promedian +$100-180M vs días negativos puntuales de -$400M+. La demanda marginal volvió, pero es frágil y menor que la de los ETFs de Ethereum en la misma semana (+$105.4M vs +$75.7M de BTC).\n\n### 7.2 Flujos institucionales\n\n- HECHO: Metaplanet compró 2,823 BTC en el 2T-2026 (~$225M, precio promedio $78,872) llevando su tesorería a **43,000 BTC**, tercera mayor corporativa tras Strategy y Twenty One Capital; mantiene meta de 100,000 BTC a fin de 2026 (CoinDesk/Bitcoin.com, 1-2-jul-2026). Financiado con crédito, bonos y revenue de opciones (~$10.95M en el trimestre), sin dilución accionaria.\n- HECHO: Strategy (MSTR) en cambio **vendió 3,588 BTC** para fondear dividendos, su mayor venta desde 2022 (mantiene 843,775 BTC a costo $66,385).\n- HECHO: los ETFs spot de EE.UU. custodian ~1.21M BTC (~5.8% del supply, AUM ~$77.6B): el stock institucional es estructuralmente alto aunque el flujo fue negativo casi todo el año.\n- LECTURA: el cuadro institucional está bifurcado — tesorerías compradoras (Metaplanet, Strive) absorben oferta mientras tesorerías apalancadas (Strategy) pasan de compradoras a vendedoras netas puntuales. El flujo institucional agregado dejó de ser el viento de cola de 2024-2025.\n\n### 7.3 Actividad de ballenas y flujos on-chain a exchanges\n\n- HECHO: ballenas acumularon ~**270,000 BTC netos (~$16.7B) en los 30 días al 8-jul**, con compras concentradas cerca de $59,000 (BeInCrypto/SpotedCrypto).\n- HECHO: el Net Position Change de holders de largo plazo (Glassnode) giró a positivo: **+74,054 BTC** en 30 días al 12-jul-2026.\n- HECHO: pico de **~49,000 BTC depositados en exchanges el 30-jun** en un solo día — 'extremo raro' según CryptoQuant — con depósito promedio ~2 BTC (tamaño típico de ballena/institución), señal de volatilidad inminente.\n- HECHO: el 13-jul, wallets de 100-1,000 BTC **distribuyeron ~67,000 BTC (~$4.3B) en un día**, su mayor venta desde febrero (CryptoSlate) — mismo día del outflow de -$425M en ETFs.\n- LECTURA: hay una transferencia de manos en curso: ballenas grandes y holders de largo plazo acumulan en la zona $58-60K mientras el cohorte medio (100-1,000 BTC) y algunos institucionales distribuyen. Históricamente esta divergencia (acumulación de manos fuertes + miedo + flujos ETF girando) aparece en fases de formación de piso, pero el episodio del 13-jul muestra que la oferta vendedora aún no está agotada.",
-  "conclusion": "**Qué haría funcionar la tesis:** continuidad de inflows a ETFs por varias semanas, un FOMC (29-jul) que abra la puerta a recortes, avance del CLARITY Act en el Senado y recuperación de $65-66K con la divergencia semanal validada; en ese escenario los targets institucionales de $100K+ (Standard Chartered, Citi) vuelven a estar en juego con el precio partiendo cerca del costo base on-chain ($52.5K) y bajo el costo de producción ($77K, JPMorgan).\n\n**Qué la invalidaría:** reanudación de salidas de ETFs, Fed sin recortes todo 2026 con datos de inflación adversos, fracaso legislativo del CLARITY Act y pérdida sostenida de $58K — eso confirmaría el escenario de piso tardío en $50-55K (o peor, $39-42K en proyecciones extremas). LECTURA: zona de acumulación estadísticamente atractiva (MVRV Z 0.37) pero sin confirmación de tendencia; el riesgo de timing es alto y exige sizing conservador."
- },
- "scores": {
-  "tecnica": {
-   "score": 35,
-   "just": "Tendencia primaria bajista: -49% desde el ATH, precio bajo/en torno a medias largas descendentes (200-EMA ~$76K lejana; Investing.com da señal de venta), RSI diario 33. Solo suma el rango lateral $58-65K sostenido y la divergencia alcista semanal aún no validada."
-  },
-  "fundamental": {
-   "score": 58,
-   "just": "Red en máximos (hashrate ~870-900 EH/s), oferta en exchanges en mínimo de 7 años (~2.2M BTC) y 1.21M BTC en ETFs (5.8% del supply). Pero la demanda institucional flaqueó: -$5.4B YTD en ETFs, peor mes histórico en junio y Strategy vendiendo BTC para dividendos. Mixto con sesgo estructural positivo."
-  },
-  "sentimiento": {
-   "score": 40,
-   "just": "Fear & Greed en 27 (Fear, 17-jul) tras Extreme Fear (22) el 14-jul: miedo dominante, aunque no euforia peligrosa. A favor: giro de flujos ETF (+$510M en 3 sesiones, primera semana positiva en 9) y funding/posicionamiento neutros sin apalancamiento extremo."
-  },
-  "riesgo": {
-   "score": 38,
-   "just": "Riesgo mal acotado: drawdown vigente de ~50%, escenarios bajistas verificados de $50-55K (y colas a $39K), volatilidad estructural histórica de 50-60% anualizada y Fed sin recortes en 2026 (~76% prob. de cero cuts). Mitiga parcialmente que MVRV 1.19 sitúa el precio cerca del soporte de costo base on-chain."
-  },
-  "conviccion": {
-   "score": 55,
-   "just": "Tesis falsable con catalizadores fechados (FOMC 29-jul, ventana CLARITY Act ~4 semanas, agenda SEC 2H-2026) y asimetría razonable hacia targets institucionales de $100-143K vs invalidación clara bajo $58K. Resta que el catalizador principal (recortes de Fed / flujos sostenidos) no tiene confirmación y el consenso ubica el piso recién en 4T-2026."
-  }
- },
- "sources": [
-  "CoinDesk — precio, market cap y reservas en exchanges (18-jul / 9-jul-2026)",
-  "Investing.com — rango 52 semanas, RSI, 200-DMA (jul-2026)",
-  "BeInCrypto — dominancia 56.6% y compras de ballenas (jul-2026)",
-  "CoinWarz / Hashrate Index — hashrate 866-901 EH/s (12-13-jul-2026)",
-  "CoinGlass / WalletPilot — AUM ETFs spot $77.6B, 1.21M BTC (jul-2026)",
-  "KuCoin / TechTimes / CryptoBriefing — flujos ETF (2-15-jul-2026)",
-  "Bitbo / Yahoo Finance — Strategy 843,775 BTC y venta de 3,588 BTC (6-jul-2026)",
-  "AhaSignals — MVRV 1.19, Z-Score 0.37, realized price $52,493 (13-jul-2026)",
-  "Milk Road / IG / TechBullion — Fear & Greed 27 y 22 (14-17-jul-2026)",
-  "CoinStats — funding 0.0043%/4h y open interest $48.9B (16-jul-2026)",
-  "Cryptonomist — niveles $58K/$62-63K y SEC rulemaking (7 y 11-jul-2026)",
-  "CryptoSlate / Motley Fool / TechTimes — CLARITY Act (jul-2026)",
-  "Federal Reserve / CryptoBriefing — FOMC 28-29-jul, tasas 3.50-3.75% (jul-2026)",
-  "Bitcoin Magazine / Yahoo — Standard Chartered target $100K (jul-2026)",
-  "Forbes / Paybis — JPMorgan costo de producción $77K y fair value $170K (2026)",
-  "StoneX / Mudrex / Coinpedia — escenarios de piso de ciclo (jun-jul-2026)",
-  "CoinDesk — supply in loss > profit, señal de piso (4-jun-2026)"
- ],
- "change": {
-  "day": 1.4,
-  "week": -0.1
- },
- "events": [
-  {
-   "date": "2026-07-29",
-   "label": "FOMC 28-29 jul — decisión de tasas de la Fed",
-   "kind": "macro"
-  }
- ]
 }

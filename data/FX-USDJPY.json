@@ -1,157 +1,160 @@
 {
- "ticker": "USD/JPY",
- "company": "Dólar / Yen japonés",
- "baseCurrency": "USD",
- "statsList": [
-  [
-   "Precio",
-   "162.414 (17-jul-2026)"
+  "ticker": "USD/JPY",
+  "company": "Dólar / Yen japonés",
+  "baseCurrency": "USD",
+  "statsList": [
+    [
+      "Precio",
+      "163.04 (21-jul-2026)"
+    ],
+    [
+      "Rango 80 días",
+      "155.00 – 163.04"
+    ],
+    [
+      "Tasas Fed / BoJ",
+      "3,50–3,75% / 1,00%"
+    ],
+    [
+      "COT JPY (10-jul)",
+      "-123,800 netos (corto)"
+    ],
+    [
+      "Riesgo intervención",
+      "zona gatillo 160-163 (MoF)"
+    ],
+    [
+      "Próximo evento",
+      "FOMC 29-jul · BoJ 30-31-jul"
+    ],
+    [
+      "Técnico (auto)",
+      "RSI 66.2 · MACD +0.56 / señal +0.54 (TradingView, 21-jul-2026)"
+    ]
   ],
-  [
-   "Rango 80 días",
-   "155.03 – 162.84"
+  "change": {
+    "day": 0.09,
+    "week": 0.39
+  },
+  "customSections": [
+    {
+      "title": "Resumen ejecutivo",
+      "nav": "Resumen",
+      "body": "USD/JPY rompió el nivel de **163.00 el martes 21-jul-2026**, tocando **163.04** intradía — su nivel más débil para el yen **desde diciembre de 1986** (FXStreet, 21-jul-2026). El movimiento se apoya en un giro claramente hawkish de la Fed bajo su nuevo presidente **Kevin Warsh** (asumió en mayo-2026), que en su primera reunión (17-jun) elevó la proyección de inflación PCE 2026 a 3.6% y llevó a 9 de 18 miembros del FOMC a proyectar al menos una subida en 2026, más un salto en la demanda de refugio del dólar por la escalada de tensiones EE.UU.-Irán y petróleo sobre US$90 (Moneta Markets / yournews.com, 20-jul-2026). El BoJ, en cambio, mantiene su 1.00% con la próxima subida vista recién en el 4T-2026. El diferencial de tasas se mantiene amplio (~262 pb nominal), y aunque el posicionamiento corto en yen se alivió algo (CFTC pasó de -155.1K a -123.8K contratos al 10-jul), el par cotiza ya **por encima** de la zona de intervención de abril-mayo (¥11.73 billones) y de un episodio adicional de intervención sospechada el 2-3 de julio. La ministra de Finanzas Katayama repitió el 17-jul su advertencia de \"acción decisiva\", sin frenar el avance. El mercado, de nuevo, desafía el límite de Tokio, ahora en un territorio sin precedentes en 40 años. **Score compuesto: ~50/100 — Grado C, \"Caution\" con riesgo de cola elevado.**\n\n---"
+    },
+    {
+      "title": "Diferencial de tasas y política monetaria",
+      "nav": "Tasas",
+      "body": "**Reserva Federal — HECHO:** Bajo su nuevo presidente **Kevin Warsh** (debut el 17-jun-2026), la Fed mantuvo el rango en **3.50%–3.75%** pero adoptó un tono decididamente hawkish: elevó su proyección de inflación PCE 2026 a **3.6%** (desde 2.7%) y **9 de 18 participantes** del FOMC proyectan al menos una subida en 2026 — un giro radical frente a las expectativas previas de recortes (Yahoo Finance/intellectia.ai, jul-2026).\n- **HECHO:** Warsh ha declarado explícitamente que prioriza la estabilidad de precios sobre el pleno empleo, en un contexto de inflación ~4.2% interanual (realeconomy.rsmus.com, jul-2026).\n- **HECHO:** Para la reunión del **28-29-jul-2026**, el consenso de mercado sigue viendo **mantención como escenario base (77%-89% según fuente)**, pero la probabilidad de una subida en julio saltó de **18% (2-jul) a 36% (13-jul)** (intellectia.ai). Para **septiembre**, CME FedWatch ya asigna **~63% a una subida**, impulsada por el repunte del petróleo (VT Markets, 20-jul-2026). **LECTURA:** el mercado de tasas se ha movido claramente hacia \"higher for longer\"; Goldman Sachs postergó sus expectativas de recorte a 2027.\n\n**Banco de Japón — HECHO:** Mantiene su tasa en **1.00%** (elevada el 16-jun-2026, votación 7-1, el nivel más alto desde 1995). La próxima reunión concluye el **30-31-jul-2026**; el consenso espera **mantención**, con la siguiente subida vista **recién en el 4T-2026** condicionada a confirmar la persistencia de la inflación subyacente (EFG International / tradingeconomics, jul-2026).\n\n**Diferencial nominal — HECHO (cálculo):** Punto medio Fed 3.625% − BoJ 1.00% = **~262 pb**, sin cambios respecto a la semana anterior. **LECTURA:** el diferencial de tasas de política ya no se comprime como se esperaba — al contrario, el giro hawkish de Warsh amplía el riesgo de que se **ensanche** en julio-septiembre, mientras el BoJ permanece en pausa hasta fin de año. Este es el principal motor detrás de la ruptura de 163.\n\n---"
+    },
+    {
+      "title": "Balanza de pagos y flujos",
+      "nav": "Balanza",
+      "body": "- **HECHO:** El superávit de cuenta corriente de Japón fue de **¥3,968.3 mil millones (~US$24.4 mm) en mayo-2026**, subiendo desde ¥3,907.3 mm en abril y **+19.5% interanual**, tras el récord de ¥4,681.5 mm en marzo (Ministerio de Finanzas / Xinhua / FX.co, publicado 8-jul-2026). Impulsores: exportaciones de semiconductores y automóviles (+14.7% interanual) y renta primaria en ¥4.28 billones (+2.3% interanual).\n- **HECHO:** Japón vendió cerca de **US$30 mil millones en Treasuries en el 1T-2026**, el ritmo de venta más rápido en cuatro años, en un proceso de repatriación de capital ante el alza de rendimientos domésticos (moomoo, 2026).\n- **LECTURA — carry trade:** Los flujos estructurales de Japón (superávit récord de cuenta corriente + repatriación de Treasuries) siguen siendo **fundamentalmente pro-yen**, reforzando la idea de que el ascenso reciente del par responde a factores de corto plazo (diferencial de política + refugio en USD por Medio Oriente) y no a un deterioro de los fundamentos externos japoneses. Esta divergencia entre balanza de pagos sólida y yen débil es, en sí misma, una fuente de riesgo de reversión.\n\n---"
+    },
+    {
+      "title": "Posicionamiento",
+      "nav": "Posicionamiento",
+      "body": "- **HECHO:** El COT de la CFTC (dato al **10-jul-2026**, publicado por FX.co / bitcoinworld.co.in / VT Markets) muestra que los especuladores **redujeron su posición neta corta en yen a -123,800 contratos**, desde -155,100 la semana previa — una reducción de ~31,300 contratos, la primera señal clara de cobertura parcial tras ~12 semanas de acumulación de cortos.\n- **HECHO (dato previo, 7-jul, otra metodología):** forexfundamentals.com había reportado -90,083 contratos netos (84,990 largos vs 175,073 cortos) para esa fecha; se mantiene la discrepancia entre fuentes por distinta agregación de categorías, pero ambas coinciden en la **dirección reciente: cortos aún elevados, con cierto alivio**.\n- **LECTURA:** el posicionamiento sigue siendo netamente corto en yen —consistente con la tesis alcista del par— pero la reducción de cortos en la semana del 10-jul, justo cuando el precio *sube* hacia 163, sugiere que el rally reciente está siendo impulsado más por flujo fresco (nuevo giro hawkish de la Fed, refugio por Medio Oriente) que por presión especulativa acumulada. Esto dejaría **margen para nuevos cortos** si el momentum persiste, pero también expone al mercado a un **short-squeeze** si aparece un catalizador pro-yen (intervención efectiva, sorpresa hawkish del BoJ, distensión geopolítica).\n\n---"
+    },
+    {
+      "title": "Análisis técnico",
+      "nav": "Técnico",
+      "body": "Datos de esta sección: **HECHO — TradingView / FXStreet / Investing.com (21-jul-2026)**, salvo lecturas indicadas.\n\n| Indicador | Valor | Interpretación |\n|---|---|---|\n| Precio | ~163.04-163.22 | Nuevo máximo desde dic-1986 |\n| RSI(14) diario | ~53.8-61 (rango entre fuentes) | Alcista, sin sobrecompra |\n| MACD(12,26) | Cruce alcista completado, divergiendo de la señal | Momentum alcista reactivado |\n| Soporte inmediato | ~162.26 (línea de tendencia) / 161 | Pérdida expondría 160.49 |\n| Resistencia | 163.00-163.04 (máximo 40 años); extensión hacia 164-165 | Ruptura confirmada abre terreno inexplorado |\n| Rango 80 días | 155.00 (6-may) – 163.04 (21-jul) | Tendencia alcista dominante desde mayo |\n\n- **HECHO:** El par formó un patrón de **triángulo simétrico** bajo los máximos de varias décadas durante la primera quincena de julio (FXStreet, 15-jul y 20-jul-2026) y **rompió al alza** el 21-jul, confirmando continuación de tendencia.\n- **LECTURA:** El cuadro técnico es constructivo: MACD con cruce alcista, RSI sin sobrecompra y ruptura de rango. El objetivo técnico de corto plazo se traslada a **164-165**. Sin embargo, se trata de una ruptura hacia una zona sin ningún precedente de precio en 40 años, lo que reduce la utilidad de niveles técnicos clásicos y **aumenta la probabilidad de una respuesta oficial** antes que la de una continuación técnica \"limpia\".\n\n---"
+    },
+    {
+      "title": "Intervención y riesgo de banco central",
+      "nav": "Intervención",
+      "body": "**Historial (HECHO, ampliamente documentado):**\n- **2022:** el MoF intervino comprando yenes (~¥9 billones) con el par en la zona **~146–152**.\n- **2024:** intervenciones récord con el par en torno a **~160** (abril-mayo y julio).\n- **Abril-mayo 2026 — HECHO:** el MoF desplegó un **récord de ¥11.73 billones (~US$73.35 mil millones)** tras la ruptura de ¥160 (Bloomberg/Reuters, 30-abr y 1-may-2026), pese a lo cual el yen volvió a debilitarse en las semanas siguientes.\n- **2-3 de julio 2026 — HECHO:** el yen saltó bruscamente a la zona de 160-161 (el dólar cayó hasta 0.9%, a 161.115) en medio de especulación de intervención o \"rate check\"; el **MoF no confirmó** oficialmente haber intervenido, y el rebote fue de menor magnitud que en episodios previos, lo que llevó a analistas a dudar de que hubiera acción oficial real (Nikkei Asia / Yahoo Finance / KFGO, 2-jul-2026).\n\n**Declaraciones recientes (HECHO):**\n- **3-jul-2026:** Katayama repitió que las autoridades \"están listas para responder apropiadamente en cualquier momento si es necesario\" y confirmó contacto regular con EE.UU. (Bloomberg / Star-Advertiser, 3-4-jul-2026).\n- **17-jul-2026:** Katayama escaló el lenguaje a \"si es necesario, tomaremos acción decisiva en cualquier momento\" — fórmula que históricamente antecede la intervención directa. El mercado apenas reaccionó (Bloomberg / Japan Times, 17-18-jul-2026).\n- **LECTURA:** la eficacia de la intervención verbal se **sigue erosionando**: cada advertencia sucesiva mueve menos al mercado, y el par ha superado ampliamente los niveles donde el MoF actuó en abril-mayo.\n\n**Niveles gatillo hoy (LECTURA):** con el precio ya en **163.0-163.2**, la \"zona gatillo\" percibida por el mercado (antes 160-162) se ha vuelto obsoleta como techo — el mercado la cruzó sin respuesta contundente confirmada. Analistas (Investing.com, \"Tokyo's bluff\") describen la situación como Tokio deliberadamente **sin anunciar un nivel exacto** para preservar ambigüedad estratégica (Eastern Herald, 5-jul-2026). El riesgo de una intervención de facto (no solo verbal) aumenta cuanto más rápido y desordenado sea el movimiento hacia 164-165, y el precedente de 2024 (caídas de 4-5 yenes en horas) sigue vigente como referencia de magnitud. **Riesgo de cola extremo dado que el precio actual ya excede el terreno de la última intervención récord.**\n\n---"
+    },
+    {
+      "title": "Correlaciones macro",
+      "nav": "Correlaciones",
+      "body": "- **HECHO:** **DXY cotiza en ~100.92-101 el 21-jul-2026** (tradingeconomics/VT Markets), sostenido por la demanda de refugio ante la escalada de tensiones EE.UU.-Irán y petróleo WTI sobre US$74-90/barril. El dólar amplio **sí está participando** del movimiento esta semana (a diferencia de la semana previa, cuando la correlación era débil), reforzando la ruptura de 163 en USD/JPY.\n- **HECHO:** **Treasury 10a: 4.55% (17-jul-2026)** vs **JGB 10a: 2.73% (21-jul-2026)** → spread **~182 pb** (Advisor Perspectives / Trading Economics), ligeramente por debajo de los ~184 pb de la semana previa. El JGB 10a se mantiene cerca de máximos de 30 años por presión fiscal e inflación persistente en Japón.\n- **LECTURA:** persiste la divergencia entre el spread de bonos largos (que se comprime, factor pro-yen) y el precio del par (que sube), pero esta semana se explica mejor por el **giro hawkish de la Fed** y el **shock geopolítico** (demanda de refugio en USD) que por el diferencial de tasas largas. La correlación con DXY se reactivó; la correlación con el spread UST-JGB sigue divergiendo y es la variable a vigilar para una eventual corrección del par.\n\n---"
+    },
+    {
+      "title": "Conclusión",
+      "nav": "Conclusión",
+      "body": "USD/JPY rompió 163.00 por primera vez desde 1986, impulsado por el giro hawkish de la Fed de Kevin Warsh y la demanda de refugio del dólar ante la escalada en Medio Oriente, mientras el BoJ permanece en pausa hasta el 4T-2026. El cuadro técnico es alcista y el diferencial de tasas amplio, pero el par cotiza ya en territorio sin precedentes, por encima de los niveles donde el MoF gastó un récord de ¥11.73 billones hace apenas tres meses, con retórica oficial en su escalón más alto y sin que la intervención verbal logre contener el avance. El balance riesgo/retorno para nuevas posiciones largas en USD/JPY en 163 es pobre, dominado por el riesgo de cola de una intervención efectiva.\n\n**Qué validaría un sesgo más alcista (Buy USD):** cierre semanal sostenido sobre 163.04 sin respuesta oficial; una subida efectiva de la Fed en julio o septiembre; escalada adicional en Medio Oriente que sostenga la demanda de refugio en USD; ausencia de intervención pese a un avance hacia 164-165.\n\n**Qué invalidaría la tesis alcista / activaría el riesgo:** intervención directa y confirmada del MoF (movimientos de 4-5 yenes en horas, como 2024); sorpresa hawkish del BoJ el 31-jul o adelanto de expectativas de subida a septiembre/octubre; pérdida del soporte técnico 162.26/160.49; distensión geopolítica que revierta el flujo de refugio hacia el dólar; reversión del posicionamiento corto en yen (de -123.8K hacia zona neutral) que amplifique una caída del par.\n\n> *Este informe es una herramienta de investigación educativa generada con IA. No constituye asesoría de inversión ni recomendación de compra/venta. Verifique todos los datos de forma independiente antes de tomar decisiones financieras.*"
+    }
   ],
-  [
-   "Tasas Fed / BoJ",
-   "3,50–3,75% / 1,00%"
+  "scoreIndex": 8,
+  "customCats": [
+    {
+      "key": "tasas",
+      "name": "Diferencial de Tasas y Política Monetaria",
+      "weight": 30
+    },
+    {
+      "key": "macro",
+      "name": "Fundamentales Macro",
+      "weight": 20
+    },
+    {
+      "key": "tecnico",
+      "name": "Técnico",
+      "weight": 20
+    },
+    {
+      "key": "posicionamiento",
+      "name": "Posicionamiento y Sentimiento",
+      "weight": 15
+    },
+    {
+      "key": "intervencion",
+      "name": "Riesgo de Intervención / Cola",
+      "weight": 15
+    }
   ],
-  [
-   "COT JPY (7-jul)",
-   "-90,083 netos (corto)"
+  "scores": {
+    "tasas": {
+      "score": 70,
+      "just": "El giro hawkish de la Fed bajo Kevin Warsh (PCE 2026 revisado a 3.6%, 9/18 miembros ven subida en 2026) amplía el sesgo pro-USD y la probabilidad de hike de julio/septiembre subió con fuerza, mientras el BoJ pausa hasta el 4T; el carry nominal de ~262 pb se mantiene y el riesgo de compresión se posterga."
+    },
+    "macro": {
+      "score": 40,
+      "just": "Superávit de cuenta corriente japonés en ascenso (¥3.97 bn en mayo vs ¥3.91 bn en abril, +19.5% interanual) y repatriación de capital son estructuralmente pro-yen, en clara divergencia con la debilidad actual del par."
+    },
+    "tecnico": {
+      "score": 75,
+      "just": "Ruptura confirmada de 163.00 (máximo en 40 años) con cruce alcista de MACD y RSI sin sobrecompra; objetivo técnico en 164-165, aunque en terreno de precio sin precedente que reduce la fiabilidad de niveles clásicos."
+    },
+    "posicionamiento": {
+      "score": 48,
+      "just": "Los especuladores redujeron cortos en yen de -155.1K a -123.8K contratos (CFTC, 10-jul), aliviando algo el riesgo de squeeze pero manteniendo el sesgo corto; el rally reciente parece impulsado más por flujo fresco que por presión especulativa acumulada."
+    },
+    "intervencion": {
+      "score": 10,
+      "just": "El par cotiza en 163.0-163.2, superando ya el terreno de la intervención récord de abril-mayo (¥11.73 billones) y de un episodio adicional sospechado el 2-3 de julio, con Katayama en su lenguaje de 'acción decisiva' del 17-jul sin contener el avance. Riesgo de cola máximo del G10."
+    }
+  },
+  "sources": [
+    "FXStreet — USD/JPY sobre 163.00 por primera vez desde 1986 (21-jul-2026)",
+    "Investing.com — cotización en vivo y 'Tokyo's bluff' (21-jul-2026)",
+    "Moneta Markets / yournews.com — tensiones Medio Oriente y refugio USD (20-jul-2026)",
+    "Bloomberg — Katayama 'acción decisiva' (17-jul-2026) y 'repite listo para actuar' (3-jul-2026)",
+    "Japan Times — intervención verbal pierde efecto (18-jul-2026)",
+    "Nikkei Asia / Yahoo Finance / KFGO — yen salta por posible intervención (2-jul-2026)",
+    "intellectia.ai / Yahoo Finance — giro hawkish de Kevin Warsh, FOMC 17-jun y expectativas jul-2026",
+    "EFG International / Trading Economics — BoJ mantiene 1.00%, próxima subida 4T-2026",
+    "FX.co / bitcoinworld.co.in / VT Markets — CFTC COT JPY -123.8K (10-jul-2026)",
+    "forexfundamentals.com — COT JPY -90,083 (7-jul-2026, metodología alternativa)",
+    "Ministerio de Finanzas de Japón / Xinhua / FX.co — cuenta corriente mayo-2026 (8-jul-2026)",
+    "Advisor Perspectives — UST 10a 4.55% (17-jul-2026)",
+    "Trading Economics — JGB 10a 2.73% (21-jul-2026)",
+    "Trading Economics / VT Markets — DXY ~100.9-101 (21-jul-2026)",
+    "FXStreet — triángulo simétrico y ruptura técnica (15-jul y 20-jul-2026)"
   ],
-  [
-   "Riesgo intervención",
-   "zona gatillo 160-162 (MoF)"
-  ],
-  [
-   "Próximo evento",
-   "FOMC 29-jul · BoJ 30-31-jul"
+  "events": [
+    {
+      "date": "2026-07-29",
+      "label": "FOMC 28-29 jul — decisión de tasas de la Fed bajo Kevin Warsh",
+      "kind": "macro"
+    },
+    {
+      "date": "2026-07-31",
+      "label": "BoJ — reunión de política monetaria (30-31 jul)",
+      "kind": "macro"
+    }
   ]
- ],
- "change": {
-  "day": 0.03,
-  "week": 0.44
- },
- "customSections": [
-  {
-   "title": "Resumen ejecutivo",
-   "nav": "Resumen",
-   "body": "USD/JPY cerró el viernes 17-jul-2026 en **162.414** (TradingView, 17-jul-2026), a ~0.3% del máximo de 80 días (162.84) y en zona de mínimos del yen en cuatro décadas. La tesis alcista del par descansa en un diferencial de tasas nominal aún amplio (~262 pb Fed vs BoJ) y en un carry trade revivido, con especuladores cortos en yen en niveles no vistos desde 2017. Sin embargo, el par opera **por encima del nivel donde el MoF ejecutó una intervención récord de ¥11.73 billones en abril-mayo de 2026** (tras la ruptura de 160), y la ministra de Finanzas Katayama advirtió el 17-jul de \"acción decisiva en cualquier momento\". El mercado está, literalmente, desafiando el bluff de Tokio en 162. El diferencial de tasas se comprime (BoJ subió a 1.00% en junio; JGB 10a en máximos de 30 años), la cuenta corriente japonesa marca superávits récord y el posicionamiento corto en yen está saturado: el riesgo asimétrico es una caída violenta del par por intervención o squeeze. **Score compuesto: 51/100 — Grado C, \"Caution\".**\n\n---"
-  },
-  {
-   "title": "Diferencial de tasas y política monetaria",
-   "nav": "Tasas",
-   "body": "**Banco de Japón (BoJ):**\n- **HECHO:** El BoJ elevó su tasa de política a **1.00%** el 16-jun-2026, el nivel más alto desde 1995 y su primera subida desde diciembre (0.75%) (CNBC, 16-jun-2026; BoJ, comunicado 16-jun-2026).\n- **HECHO:** La próxima reunión de política monetaria concluye el **30-31 de julio de 2026** (calendario BoJ / financecalendar.com).\n- **LECTURA:** El consenso espera que el BoJ **mantenga la tasa en 1.00% en julio**, reafirmando el sesgo de normalización gradual condicionado a salarios e inflación; los traders sitúan la próxima subida **en diciembre de 2026 como muy pronto** (ForexLive/investinglive, jul-2026).\n\n**Reserva Federal:**\n- **HECHO:** El rango objetivo de Fed Funds vigente hacia la reunión del **28-29-jul-2026** es **3.50%–3.75%** (CME FedWatch / centralbank.watch, jul-2026).\n- **LECTURA:** Las probabilidades han sido volátiles y las fuentes divergen: FedWatch llegó a descontar **~89% de mantención**, pero CNBC (13-jul-2026) reportó que la probabilidad de una **subida de 25 pb** escaló a **46.5%** tras datos de inflación persistente. Se declara la discrepancia; el escenario base del consenso de Wall Street es mantención al menos hasta el otoño.\n\n**Diferencial nominal:**\n- **HECHO (cálculo):** Punto medio Fed 3.625% − BoJ 1.00% = **~262 pb** a favor del USD.\n- **LECTURA:** La trayectoria del diferencial es **de compresión estructural**: el BoJ ha subido 50 pb en 2026 mientras la Fed permanece en pausa. Una eventual subida de la Fed en julio ampliaría temporalmente el diferencial (riesgo alcista para el par); una sorpresa hawkish del BoJ el 31-jul lo comprimiría. El carry aún favorece al USD, pero con menor margen que en 2023-2024.\n\n---"
-  },
-  {
-   "title": "Balanza de pagos y flujos",
-   "nav": "Balanza",
-   "body": "- **HECHO:** El superávit de cuenta corriente de Japón fue de **¥3,968.3 mil millones en mayo-2026** (vs ¥3,320.5 mm un año antes), tras un **récord histórico de ¥4,681.5 mm en marzo-2026** (Trading Economics / Japan Times / Bloomberg, may-2026). Impulsores: exportaciones +14.7% vs importaciones +8.1% en mayo (demanda ligada a IA/semiconductores) y superávit de renta primaria de ¥4,275.6 mm.\n- **HECHO:** Japón vendió cerca de **US$30 mil millones en Treasuries en el 1T-2026**, el ritmo de venta más rápido en cuatro años — señal de repatriación de capital ante el alza de rendimientos domésticos (moomoo/análisis carry trade, 2026).\n- **LECTURA — carry trade:** El carry trade en yenes **revivió en 2026**: los fondos apalancados elevaron sus cortos en yen a **más de 115,000 contratos en la semana al 9-jun-2026, máximo desde noviembre de 2017** (Japan Times, 15-jun-2026), favorecidos por baja volatilidad global. Pero la base se erosiona: con el JGB 10a en ~2.7-2.8% (máximo en casi 30 años), el atractivo del carry se reduce y su escala es muy inferior a la de 2022-2023. Los flujos estructurales (superávit récord + repatriación) son **fundamentalmente pro-yen**; el par sube pese a ellos, no gracias a ellos.\n\n---"
-  },
-  {
-   "title": "Posicionamiento",
-   "nav": "Posicionamiento",
-   "body": "- **HECHO:** COT de la CFTC al **7-jul-2026**: grandes especuladores **netos cortos en JPY en −90,083 contratos** (84,990 largos vs 175,073 cortos), acumulando cortos durante ~12 semanas (forexfundamentals.com, datos CFTC 7-jul-2026).\n- **HECHO (fuente alternativa, se declara discrepancia):** Investing.com reporta la posición neta especulativa JPY en **−155.1K contratos** (dato actualizado 6-jul-2026, desde −146.1K la semana previa) — la diferencia obedece a distintas agregaciones de categorías del reporte; ambas fuentes coinciden en la **dirección: cortos crecientes**.\n- **HECHO:** El posicionamiento se ubica en el **percentil 27.3% de su rango de 10 años (z-score −0.76)** — corto, pero **no extremo** (forexfundamentals.com, 7-jul-2026).\n- **LECTURA:** El mercado está posicionado a favor del USD/JPY de forma saturada. Esto es combustible para la tendencia mientras nada cambie, pero convierte cualquier catalizador pro-yen (intervención, BoJ hawkish, shock de volatilidad) en un potencial **short-squeeze violento del yen**, como en julio-agosto de 2024. Contrarian: negativo para nuevas posiciones largas en USD/JPY.\n\n---"
-  },
-  {
-   "title": "Análisis técnico",
-   "nav": "Técnico",
-   "body": "Todos los datos de esta sección: **HECHO — TradingView (17-jul-2026)**, salvo lecturas indicadas.\n\n| Indicador | Valor | Interpretación |\n|---|---|---|\n| Precio | 162.414 | A ~0.3% del máximo de 80 días |\n| RSI(14) diario | 59.3 | Alcista, sin sobrecompra |\n| MACD(12,26) | +0.49 vs señal +0.55; histograma **−0.06** | Momentum alcista **estancándose** |\n| SMA20 / SMA50 | 162.04 / 160.55 | Precio sobre ambas — estructura alcista |\n| Máx / Mín 80 días | 162.84 / 155.03 (mayo) | Rango de la tendencia desde ~156.4 |\n\n- **HECHO:** Tendencia alcista intacta desde ~156.4 (mayo): precio > SMA20 > SMA50, y el par cotiza pegado a la resistencia de 162.84.\n- **LECTURA:** El histograma MACD negativo con precio en máximos sugiere **divergencia de momentum incipiente**: el avance se agota justo bajo la resistencia. Un cierre sobre 162.84 abriría terreno inexplorado (con máximo riesgo de intervención); la pérdida de la SMA20 (162.04) expondría 160.55 (SMA50) y la zona 160, donde confluyen el soporte técnico y el nivel de intervención de abril. **LECTURA:** técnico constructivo pero de riesgo/retorno pobre en el nivel actual.\n\n---"
-  },
-  {
-   "title": "Intervención y riesgo de banco central",
-   "nav": "Intervención",
-   "body": "**Historial (HECHO, ampliamente documentado):**\n- **2022:** el MoF intervino comprando yenes (~¥9 billones) con el par en la zona **~146–152**.\n- **2024:** intervenciones récord con el par en torno a **~160** (abril-mayo y julio).\n- **2026 — HECHO:** en **abril-mayo de 2026** el MoF desplegó un **récord de ¥11.73 billones (~US$73.35 mil millones)** tras la ruptura de ¥160 (Reuters vía Yahoo Finance / CNBC, jun-2026). Pese a ello —y a la subida del BoJ de junio— el yen volvió a debilitarse (CNBC, 19-jun-2026).\n\n**Declaraciones recientes (HECHO):**\n- La ministra de Finanzas **Satsuki Katayama** advirtió el **17-jul-2026**: *\"Si es necesario, tomaremos acción decisiva en cualquier momento\"* — fórmula que históricamente antecede a la intervención directa. El mercado apenas reaccionó, evidenciando el desgaste de la intervención verbal sin acción (Bloomberg, 17-jul-2026; Japan Times, 18-jul-2026).\n\n**Niveles gatillo hoy (LECTURA):**\n- ING identifica **162.0 como la nueva línea de intervención** (jun-2026); Citigroup estima que Tokio aguantará salvo nueva debilidad hacia el rango **160–162** (Yahoo Finance, jul-2026); análisis de mercado describen el 162 como \"techo de intervención\" del 3T-2026 (The Industry Spread) y señalan que en 162 *\"el mercado sigue desafiando el bluff de Tokio\"* (Investing.com, jul-2026).\n- Las autoridades ponderan más la **velocidad** que el nivel: movimientos desordenados gatillan acción; los graduales, advertencias.\n\n**Evaluación a 162.4 (LECTURA):** el par cotiza **dentro/por encima de la zona gatillo percibida (160–162)**, sobre el nivel de la intervención récord de abril, y con la retórica oficial ya en su escalón máximo previo a la acción. La probabilidad de intervención ante cualquier aceleración hacia 163–165 es **elevada**, y el precedente 2024 (caídas de 4–5 yenes en horas) más el posicionamiento corto saturado en yen amplificarían el movimiento. **Riesgo de cola claramente asimétrico en contra de posiciones largas USD/JPY.**\n\n---"
-  },
-  {
-   "title": "Correlaciones macro",
-   "nav": "Correlaciones",
-   "body": "- **HECHO:** **DXY cerró en ~100.75 el 17-jul-2026**, plano (~100.70) tras datos estadounidenses mixtos (FXStreet, 17-jul-2026). El dólar amplio no está impulsando el movimiento: la debilidad es idiosincrática del yen.\n- **HECHO:** **Treasury 10a: 4.55%** vs **JGB 10a: 2.71%** al 17-jul-2026 → spread **~184 pb** (Advisor Perspectives, 17-jul-2026; Trading Economics / World Government Bonds). El JGB 10a subió **+118 pb interanual** y ronda máximos de 30 años por presión fiscal e inflación persistente.\n- **LECTURA:** USD/JPY mantiene históricamente una correlación positiva alta con el spread UST-JGB 10a. Hoy existe una **divergencia notable**: el spread se comprime (pro-yen) mientras el par sube — señal de que el alza se sostiene en carry de corto plazo y posicionamiento, no en el ancla clásica de tasas largas. Estas divergencias tienden a resolverse hacia el diferencial, es decir, con un par más bajo. La correlación con DXY es actualmente débil.\n\n---"
-  },
-  {
-   "title": "Conclusión",
-   "nav": "Conclusión",
-   "body": "USD/JPY combina una tendencia alcista técnicamente intacta y un carry aún positivo con el peor perfil de riesgo de cola del G10: cotiza sobre el nivel de la intervención récord de abril-mayo de 2026, con retórica oficial en escalón máximo, posicionamiento corto en yen saturado y una divergencia abierta frente al spread de bonos que se comprime. El balance riesgo/retorno para comprar USD en 162.4 es pobre.\n\n**Qué validaría un sesgo más alcista (Buy USD):** cierre semanal sostenido sobre 162.84 **sin** respuesta del MoF; subida de la Fed el 29-jul con BoJ dovish el 31-jul (re-ampliación del diferencial); enfriamiento de la inflación japonesa que postergue la subida de diciembre; ausencia de intervención pese a un avance gradual hacia 164.\n\n**Qué invalidaría la tesis alcista / activaría el riesgo:** intervención directa del MoF (movimientos de 4-5 yenes en horas, como 2024); sorpresa hawkish del BoJ el 31-jul o adelanto de expectativas de subida; pérdida de la SMA20 (162.04) y luego de 160.55/160.00; repunte de volatilidad global que fuerce el desarme del carry con −90K a −155K contratos cortos de yen por cubrir.\n\n> *Este informe es una herramienta de investigación educativa generada con IA. No constituye asesoría de inversión ni recomendación de compra/venta. Verifique todos los datos de forma independiente antes de tomar decisiones financieras.*"
-  }
- ],
- "scoreIndex": 8,
- "customCats": [
-  {
-   "key": "tasas",
-   "name": "Diferencial de Tasas y Política Monetaria",
-   "weight": 30
-  },
-  {
-   "key": "macro",
-   "name": "Fundamentales Macro",
-   "weight": 20
-  },
-  {
-   "key": "tecnico",
-   "name": "Técnico",
-   "weight": 20
-  },
-  {
-   "key": "posicionamiento",
-   "name": "Posicionamiento y Sentimiento",
-   "weight": 15
-  },
-  {
-   "key": "intervencion",
-   "name": "Riesgo de Intervención / Cola",
-   "weight": 15
-  }
- ],
- "scores": {
-  "tasas": {
-   "score": 65,
-   "just": "El carry nominal de ~262 pb sigue favoreciendo claramente al USD y el BoJ no subiría hasta diciembre; pero la trayectoria es de compresión (BoJ en 1.00% y normalizando, JGB 10a en máximos de 30 años) y el spread largo (184 pb) ya se estrecha."
-  },
-  "macro": {
-   "score": 40,
-   "just": "Superávit de cuenta corriente japonés récord (¥4.68 bn en marzo; ¥3.97 bn en mayo) y repatriación de capital (venta de US$30 mm de Treasuries en 1T) son estructuralmente pro-yen."
-  },
-  "tecnico": {
-   "score": 72,
-   "just": "Tendencia alcista intacta (precio sobre SMA20 y SMA50, a 0.3% del máximo de 80 días), pero histograma MACD negativo y momentum estancado bajo la resistencia 162.84 (TradingView, 17-jul): alcista, sin la contundencia de un 80+."
-  },
-  "posicionamiento": {
-   "score": 45,
-   "just": "Cortos especulativos en yen en máximos de 9 años y 12 semanas de acumulación: el consenso ya está largo USD/JPY (trade saturado), con riesgo contrarian de squeeze; el percentil (27.3%) aún no es extremo."
-  },
-  "intervencion": {
-   "score": 15,
-   "just": "El par cotiza a 162.4, dentro de la zona gatillo percibida (160–162), sobre el nivel de la intervención récord de ¥11.73 billones de abril-mayo, y con la ministra Katayama invocando 'acción decisiva' el mismo día del cierre. Riesgo de cola máximo del G10."
-  }
- },
- "sources": [
-  "TradingView (17-jul-2026, técnico verificado en tiempo real)",
-  "CNBC (16-jun / 19-jun / 13-jul-2026)",
-  "BoJ — calendario y comunicados",
-  "ForexLive/investinglive (jul-2026)",
-  "CME FedWatch / centralbank.watch (jul-2026)",
-  "Trading Economics — cuenta corriente Japón y JGB 10a",
-  "Japan Times (13-may / 15-jun / 18-jul-2026)",
-  "forexfundamentals.com — COT JPY (7-jul-2026)",
-  "Investing.com — posiciones CFTC JPY (6-jul-2026) y análisis \"Tokyo's bluff\"",
-  "Yahoo Finance/Reuters — Citi sobre intervención",
-  "Mitrade/ING — línea de intervención 162 (26-jun-2026)",
-  "Bloomberg — Katayama \"acción decisiva\" (17-jul-2026)",
-  "MoF Japón — operaciones de intervención",
-  "FXStreet — DXY (17-jul-2026)",
-  "Advisor Perspectives — UST 10a (17-jul-2026)",
-  "World Government Bonds — spread UST-JGB"
- ],
- "events": [
-  {
-   "date": "2026-07-29",
-   "label": "FOMC 28-29 jul — decisión de tasas de la Fed",
-   "kind": "macro"
-  },
-  {
-   "date": "2026-07-31",
-   "label": "BoJ — reunión de política monetaria (30-31 jul)",
-   "kind": "macro"
-  }
- ]
 }

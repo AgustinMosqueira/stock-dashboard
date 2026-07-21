@@ -1,151 +1,156 @@
 {
- "ticker": "USD/CLP",
- "company": "Dólar / Peso chileno",
- "baseCurrency": "USD",
- "statsList": [
-  [
-   "Precio",
-   "936.33 (17-jul-2026)"
+  "ticker": "USD/CLP",
+  "company": "Dólar / Peso chileno",
+  "baseCurrency": "USD",
+  "statsList": [
+    [
+      "Precio",
+      "934.34 (21-jul-2026)"
+    ],
+    [
+      "Rango 120 días",
+      "854.7 – 943.4"
+    ],
+    [
+      "TPM Chile / Fed",
+      "4,50% / 3,50–3,75%"
+    ],
+    [
+      "Cobre",
+      "US$6,29/lb (20-jul, ⚠️ dato de ~1 día, en rally por tormenta en Chile)"
+    ],
+    [
+      "Posicionamiento",
+      "~US$17.845M cortos CLP (récord del año)"
+    ],
+    [
+      "Próximo evento",
+      "FOMC 28-29-jul-2026"
+    ],
+    [
+      "Técnico (auto)",
+      "RSI 62.5 · MACD +6.39 / señal +6.38 (TradingView, 21-jul-2026)"
+    ]
   ],
-  [
-   "Rango 120 días",
-   "854.7 – 943.4"
+  "change": {
+    "day": -0.02,
+    "week": 0.84
+  },
+  "customSections": [
+    {
+      "title": "Resumen ejecutivo",
+      "nav": "Resumen",
+      "body": "El USD/CLP cotiza en 934,34 el 21-jul-2026, prácticamente plano en el día (-0,02%) tras el cierre de 936,33 del viernes 17-jul, y consolidando dentro del rango de 120 días (854,7–943,4). La novedad de estos cuatro días es doble: (1) una **tormenta invernal que golpeó la zona minera centro-sur de Chile el 17-jul** (3 muertos, 257.000 hogares sin luz, Codelco suspendió actividades en Andina y El Teniente, Antofagasta Minerals y Anglo American operaron con restricciones), que empujó al cobre a un rally de +1,12% hasta US$6,29/lb el 20-jul por temores de oferta; y (2) el posicionamiento de no residentes contra el peso **marcó un nuevo máximo del año en ~US$17.845 millones** el 21-jul, superando el pico previo de US$17.025 mil millones del 9-jul. La narrativa de fondo no cambia: diferencial de tasas estrecho y en riesgo de comprimirse (Fed bajo el nuevo chair hawkish Kevin Warsh, con el mercado dividido entre 83% de probabilidad de mantención según CME FedWatch y ~50% de probabilidad de alza según plataformas de apuestas tipo Kalshi/Polymarket), versus fundamentales estructurales pro-CLP (cobre, cuenta corriente) que siguen sin traducirse en apreciación del peso. Tesis: **Hold, con el par estabilizado justo bajo la resistencia de 943,4** — el catalizador decisivo sigue siendo el FOMC del 28-29-jul.\n\n---"
+    },
+    {
+      "title": "Diferencial de tasas y política monetaria",
+      "nav": "Tasas",
+      "body": "**Chile (BCCh):**\n- **HECHO:** TPM vigente **4,50%**, mantenida por unanimidad en la RPM de junio 2026 (BCCh; XTB Chile, jun-2026). No hay RPM entre el 17-jul y el 21-jul-2026; la próxima reunión relevante sigue pendiente de calendario.\n- **HECHO:** El Imacec de junio 2026 fue publicado por el BCCh el **18-jul-2026** (primer día hábil de julio, según calendario estadístico oficial); el detalle numérico no pudo verificarse en las fuentes consultadas, pero medios locales (BioBioChile, La Tercera) documentan que la actividad acumuló **cinco meses de caídas consecutivas** hasta mayo (contracción de 0,9% en mayo, arrastrada por un nuevo colapso minero, con producción de bienes -4,7% i.a.), lo que mantenía abierta la amenaza de una recesión técnica hacia el cierre del primer semestre.\n- **LECTURA:** El BCCh sigue en pausa prolongada: la actividad débil impide un sesgo restrictivo, pero una inflación en torno a 4% impide recortar. Sin cambios respecto al informe anterior.\n\n**EE.UU. (Fed):**\n- **HECHO:** Fed Funds vigente **3,50%–3,75%**, mantenido el 17-jun-2026. El nuevo chair **Kevin Warsh** fue confirmado por el Senado el 13-may-2026 (54-45) y asumió el cargo el 22-may-2026 por un mandato hasta 2030, en reemplazo de Jerome Powell (Federal Reserve, NPR, CNBC, 13-may/22-may-2026).\n- **HECHO:** Al **21-jul-2026, CME FedWatch asigna ~83,4% de probabilidad de mantención** en el FOMC del 28-29-jul (growbeansprout/centralbank.watch, consultado 21-jul-2026); esta cifra viene bajando desde niveles más altos de mantención observados a comienzos de julio.\n- **HECHO (divergencia relevante):** Plataformas de mercados de predicción muestran una lectura más hawkish: Kalshi reportó el 9-jul-2026 que los traders ven **~50% de probabilidad de un alza de tasas en algún momento de 2026**, y Polymarket asignaba ~26% de probabilidad a un alza específicamente en la reunión de julio, con el consenso de mercado moviéndose de <40% a ~50% en cuestión de días tras comentarios hawkish de miembros de la Fed sobre presión de precios (guerra en el Golfo Pérsico/petróleo, IA y data centers) (CNBC, 9-jul y 13-jul-2026; Bloomberg, 14-jul-2026).\n- **LECTURA (tono):** El primer FOMC bajo Warsh (17-jun) fue descrito como un \"jolt\" para los mercados: el número de miembros de la Fed que proyecta un alza en 2026 saltó de cero a nueve en seis semanas (Fortune/BofA, 22-jun-2026). El comité está genuinamente dividido; persiste la asimetría de que el próximo movimiento —si lo hay— sería un **alza**, no un recorte.\n\n**Diferencial:** TPM 4,50% vs punto medio Fed 3,625% ⇒ **~+90 pb a favor del CLP**, sin cambios desde el informe previo, pero con riesgo de compresión mayor si el FOMC de julio sorprende con un alza o con lenguaje más agresivo — probabilidad no despreciable dado el giro de Warsh.\n\n---"
+    },
+    {
+      "title": "Balanza de pagos y flujos",
+      "nav": "Balanza",
+      "body": "- **HECHO:** La cuenta corriente registró un **superávit de US$1.883 millones (1,9% del PIB) en el 1T-2026**, con el déficit acumulado en 12 meses reducido a 0,6% del PIB (BCCh, Balanza de Pagos 1T-2026). No se identificó una publicación de balanza de pagos del 2T-2026 en la ventana 17-21 de julio; este dato no ha cambiado desde el informe anterior.\n- **HECHO (novedad clave):** Una **tormenta invernal golpeó el centro-norte, centro y sur de Chile el 17-jul-2026**, dejando al menos 3 muertos y más de 257.000 clientes sin electricidad. Las operaciones mineras activaron protocolos de invierno: **Codelco suspendió actividades de superficie en Andina y detuvo temporalmente el traslado de mineral desde el rajo de El Teniente por acumulación de nieve**; Anglo American operó con limitaciones sin desviaciones críticas; Antofagasta Minerals (Los Pelambres) redujo el tránsito hacia la faena por seguridad (Bloomberg Línea, El Imparcial, Cabildeo Digital, 17-jul-2026). Con Chile aportando ~25% del cobre minado globalmente, el mercado reaccionó al alza por temor a disrupciones de oferta.\n- **HECHO:** **Precio del cobre: US$6,29/lb el 20-jul-2026, +1,12% en la sesión** (Trading Economics, vía Rio Times Online, \"Copper: The Daily Wrap — July 20, 2026\"). El cierre semanal previo (viernes 17-jul) fue de **US$6,07/lb, -0,26%** en la semana (Energiminas/Guía Minera de Chile, 17-jul-2026) — nótese que esta cifra de cierre semanal difiere de la usada en el informe anterior (US$6,22/lb), lo que sugiere dispersión entre proveedores de datos; se prioriza aquí la serie de Trading Economics por ser la fuente más citada de forma consistente. El rally se explica también por un cambio estructural: el ICSG revirtió su proyección de mercado 2026 de un superávit de 209.000 toneladas a un **déficit de 150.000 toneladas** (con estimaciones de hasta 330.000 toneladas contando cuellos de botella de refinación y la pérdida permanente de Cobre Panamá).\n\n> ⚠️ **Dato de cobre con ~24-40 horas de antigüedad** (cotización del lunes 20-jul-2026 a las 21:00 hrs de este informe, 21-jul-2026) — no se encontró un cierre confirmado y verificado del propio 21-jul; dado que el mercado está en rally activo por la tormenta, **verificar cotización intradía en Trading Economics/COMEX antes de usar este informe para decisiones**.\n\n**Correlación cobre-CLP — ¿se mantiene o se rompió?**\n- **LECTURA:** Sigue debilitada como ancla de tendencia (según Diario Financiero, la influencia del cobre sobre el peso cayó de ~50% a ~30% en el margen), pero el episodio de la tormenta es un recordatorio de que el canal de oferta física puede reactivar la correlación de forma abrupta si el cobre extiende su rally hacia nuevos máximos. Por ahora, el peso se mantiene estable (IPSA/Peso, Rio Times Online, 21-jul: \"USD/CLP con un movimiento de apenas 0,05%, esencialmente un error de redondeo\"), lo que indica que el mercado cambiario aún no está incorporando plenamente el shock de oferta de cobre.\n\n---"
+    },
+    {
+      "title": "Posicionamiento",
+      "nav": "Posicionamiento",
+      "body": "- **HECHO (declaración obligatoria):** **USD/CLP no tiene futuros CFTC líquidos — no aplica COT para este par.** No existe Commitment of Traders utilizable para esta divisa.\n- **Proxy verificable — forwards de no residentes (datos BCCh/SIID reportados por Diario Financiero):**\n  - **HECHO:** Al **21-jul-2026, las apuestas de no residentes contra el peso chileno alcanzaron US$17.845 millones netos, el nivel más alto del año**, superando el máximo previo registrado el 9-jul (US$17.025 mil millones). El 14-jul se había marcado otro pico de US$16.366 millones. Las posiciones llevan **seis días consecutivos por sobre los US$16.000 millones** (Diario Financiero, 21-jul-2026).\n  - **HECHO:** A comienzos de julio ya se habían reportado ~US$15.000-20.000 millones tras la postura restrictiva de la Fed y la contracción de la economía local (DF, jul-2026), de modo que el nuevo récord del 21-jul confirma la tendencia, no la revierte.\n- **LECTURA:** El posicionamiento extranjero corto contra el peso sigue **escalando en vez de estabilizarse**, lo que sostiene el par en el corto plazo pero incrementa el riesgo de una reversión abrupta ante cualquier catalizador pro-CLP (sorpresa dovish de la Fed, extensión del rally del cobre por la tormenta). El precedente de un desarme de US$1.400 millones en tres días (documentado por DF en episodios previos) sigue vigente como referencia de la velocidad con que estas posiciones pueden revertirse.\n\n---"
+    },
+    {
+      "title": "Análisis técnico",
+      "nav": "Técnico",
+      "body": "No se dispuso de una nueva lectura verificada en tiempo real de TradingView para el 20/21-jul-2026 en esta actualización; se mantiene como referencia la lectura previa del **17-jul-2026** (última verificación técnica formal disponible), complementada con los datos de precio más recientes de fuentes periodísticas (Infobae, Rio Times Online):\n\n| Métrica | Valor | Fecha | Clasificación |\n|---|---|---|\n| Precio | 934.34 | 21-jul-2026 | HECHO (Infobae) |\n| Precio | 936.33 | 17-jul-2026 | HECHO (TradingView, informe previo) |\n| Rango 120 días | 854.7 – 943.4 | al 17-jul-2026 | HECHO |\n| RSI(14) diario | 60.6 | 17-jul-2026 | HECHO (no actualizado) |\n| MACD(12,26) | +6.01 vs señal +6.37; histograma -0.36 | 17-jul-2026 | HECHO (no actualizado) |\n| SMA20 / SMA50 | 927.9 / 912.8 | 17-jul-2026 | HECHO (no actualizado) |\n\n- **LECTURA (tendencia):** Con el precio prácticamente plano en 934,34 (21-jul) respecto al cierre del viernes, el par se mantiene **por sobre la SMA20/SMA50** estimadas previamente, consolidando lateralmente justo bajo la resistencia de 943,4 en lugar de romperla — consistente con el histograma MACD negativo ya detectado el 17-jul, que anticipaba pérdida de momentum.\n- **LECTURA (niveles):** Sin cambios materiales: resistencia clave en 943,4; soportes en la zona 925,9–927,9 y 912,8 (SMA50). El estancamiento de estos cuatro días sugiere que el mercado espera al FOMC del 28-29-jul antes de definir la ruptura del rango.\n- **Nota metodológica:** Esta sección requiere una nueva verificación directa en TradingView al momento de publicar el informe, dado que la última lectura técnica completa (indicadores) tiene fecha del 17-jul.\n\n---"
+    },
+    {
+      "title": "Intervención y riesgo de banco central",
+      "nav": "Intervención",
+      "body": "- **HECHO:** La última intervención cambiaria de gran escala del BCCh sigue siendo el **programa de julio-septiembre de 2022** (hasta US$25.000 millones), y en 2026 la única acción documentada son **operaciones forward por ~US$629 millones en marzo-2026** (El Ciudadano, 21-mar-2026). No se encontró evidencia de comunicados de intervención o de forwards del BCCh en la ventana 17-21 de julio de 2026.\n- **LECTURA (gatillo actual):** Con el par estabilizado en 934 (por debajo incluso del cierre del viernes) y sin señales de desorden de mercado, la probabilidad de intervención en el corto plazo se mantiene baja. Según Rio Times Online (21-jul), el peso se ubica ~4% más fuerte que su mínimo del año, lo que sugiere que el episodio de pánico cambiario de meses previos no está actualmente activo. Sin embargo, la combinación de (a) posicionamiento corto récord en no residentes (US$17.845M) y (b) un shock de oferta de cobre por la tormenta que podría revertirse o profundizarse, mantiene latente el riesgo de un movimiento brusco en cualquier dirección que podría gatillar una respuesta verbal o de forwards del BCCh, sin que exista un nivel oficial de intervención declarado.\n\n---"
+    },
+    {
+      "title": "Correlaciones macro",
+      "nav": "Correlaciones",
+      "body": "- **HECHO:** El **DXY se ubicó en torno a 100,59 el 20-jul-2026** (~01:50 UTC), replegándose desde un máximo de fines de junio cercano a 101,20-101,40 y un breve repunte sobre 101 a mediados de julio (Vantage Markets, Trading Economics, consultado 20/21-jul-2026). Esto representa una leve baja frente al 100,76 del 17-jul-2026 citado en el informe previo.\n- **LECTURA (DXY–USDCLP):** Pese a la leve baja del DXY, el USD/CLP se mantuvo prácticamente estable (934,34 vs 936,33), lo que sugiere que en estos días el par estuvo más influenciado por el flujo de posicionamiento en forwards y por el shock de oferta de cobre que por el dólar global en sentido estricto. La correlación DXY-USDCLP sigue siendo positiva en el mediano plazo, pero se desacopló levemente en esta ventana corta.\n- **LECTURA (cobre–CLP):** El rally del cobre a US$6,29/lb (20-jul) por la tormenta que afectó a Codelco, Antofagasta y Anglo American debería, por la correlación histórica (~-0,70), presionar a la baja al USD/CLP; sin embargo el par se mantuvo estable, reforzando la lectura de que la influencia del cobre sobre el peso sigue diluida (~30% según Diario Financiero) frente al peso del posicionamiento en forwards y el ciclo de tasas Fed-BCCh.\n- **LECTURA (riesgo a vigilar):** Si la tormenta derivara en disrupciones de oferta más prolongadas (Codelco aún no ha cuantificado el impacto en El Teniente/Andina) y el cobre extendiera su alza junto con el giro del ICSG hacia un déficit de mercado, la correlación cobre-CLP podría reactivarse con fuerza, generando presión bajista sobre el par que hoy no está reflejada en el precio.\n\n---"
+    },
+    {
+      "title": "Conclusión",
+      "nav": "Conclusión",
+      "body": "**Qué haría funcionar la tesis alcista del par (comprar USD):** confirmación hawkish en el FOMC del 28-29-jul (probabilidad de mantención en 83,4% según CME FedWatch, pero con plataformas de predicción mostrando ~50% de odds de alza en 2026 bajo el nuevo chair Kevin Warsh), ruptura con volumen sobre 943,4, que el rally del cobre por la tormenta se revierta rápidamente (volviendo bajo US$6/lb), y que el Imacec de junio confirme una recesión técnica que mantenga al BCCh sin margen para un sesgo restrictivo.\n\n**Qué la invalidaría:** que el FOMC sorprenda con lenguaje dovish o que las probabilidades de alza sigan escalando y afecten negativamente el apetito por riesgo global (efecto ambiguo sobre el CLP), un desarme del posicionamiento récord de no residentes (ahora en US$17.845 millones, el mayor riesgo asimétrico y creciente del par), que la tormenta invernal derive en disrupciones de oferta de cobre más severas y sostenidas (Codelco aún evaluando daños en El Teniente/Andina) empujando al cobre por sobre US$6,5-6,7/lb de forma persistente, o señales de intervención del BCCh ante un movimiento desordenado.\n\nEl balance se mantiene similar al informe previo pero con dos riesgos de cola nuevos y en direcciones opuestas: el shock de oferta de cobre (bajista para el par) y el posicionamiento corto récord que sigue creciendo (alcista táctico, pero cada vez más saturado). Esto justifica mantener el **Hold**: el par consolida bajo 943-950 mientras el mercado espera la definición del FOMC del 28-29 de julio, con riesgo/retorno pobre en ambas direcciones hasta ese catalizador.\n\n> *Este informe es una herramienta de investigación educativa generada con IA. No constituye asesoría de inversión ni recomendación de compra/venta. Verifique todos los datos de forma independiente antes de tomar decisiones financieras.*"
+    }
   ],
-  [
-   "TPM Chile / Fed",
-   "4,50% / 3,50–3,75%"
+  "scoreIndex": 8,
+  "customCats": [
+    {
+      "key": "tasas",
+      "name": "Diferencial de Tasas y Política Monetaria",
+      "weight": 30
+    },
+    {
+      "key": "macro",
+      "name": "Fundamentales Macro",
+      "weight": 20
+    },
+    {
+      "key": "tecnico",
+      "name": "Técnico",
+      "weight": 20
+    },
+    {
+      "key": "posicionamiento",
+      "name": "Posicionamiento y Sentimiento",
+      "weight": 15
+    },
+    {
+      "key": "intervencion",
+      "name": "Riesgo de Intervención / Cola",
+      "weight": 15
+    }
   ],
-  [
-   "Cobre",
-   "US$6,22/lb (17-jul ⚠️ desactualizado)"
+  "scores": {
+    "tasas": {
+      "score": 68,
+      "just": "Diferencial TPM-Fed sigue estrecho (~90 pb) y con riesgo de comprimirse aún más: bajo el nuevo chair Kevin Warsh, la probabilidad de un alza en 2026 escaló en plataformas de predicción (~50% Kalshi) aunque CME FedWatch mantiene 83,4% de probabilidad de mantención en julio. El BCCh permanece anclado en 4,5% sin margen para recortar. Levemente favorable al USD, matizado por la incertidumbre creciente sobre el sesgo de la Fed."
+    },
+    "macro": {
+      "score": 28,
+      "just": "El cobre saltó a US$6,29/lb (20-jul) tras una tormenta que afectó minas clave (Codelco, Antofagasta, Anglo American) y un giro del ICSG hacia déficit de mercado 2026 — flujo estructural pro-CLP, negativo para el USD base. La cuenta corriente sigue mejorando (-0,6% PIB). Solo la fragilidad de la actividad local (posible recesión técnica) evita un puntaje menor."
+    },
+    "tecnico": {
+      "score": 65,
+      "just": "El par se mantiene estable en 934,34 (21-jul), consolidando bajo la resistencia de 943,4 sin romperla, en línea con el momentum decreciente ya detectado el 17-jul (MACD con histograma negativo). Estructura de mediano plazo aún alcista (sobre SMA20/50 estimadas), pero sin nuevo impulso confirmado en estos días de indicadores no actualizados."
+    },
+    "posicionamiento": {
+      "score": 58,
+      "just": "Sin COT (no aplica para USD/CLP); proxy de forwards de no residentes en nuevo récord del año (~US$17.845M cortos CLP, 21-jul) tras seis días sobre US$16.000M — flujo actual pro-USD, pero cada vez más saturado, lo que aumenta el riesgo asimétrico de un desarme violento en contra del dólar."
+    },
+    "intervencion": {
+      "score": 62,
+      "just": "El par está lejos de niveles históricos de intervención (~$1.000+) y el peso se ubica ~4% más fuerte que su mínimo anual, sin señales de comunicado del BCCh en julio; pero el shock de oferta de cobre por la tormenta invernal y el posicionamiento corto récord introducen riesgo de cola de un movimiento brusco no cubierto por el nivel de volatilidad actual."
+    }
+  },
+  "sources": [
+    "Infobae — cotización de cierre del dólar en Chile, 21-jul-2026",
+    "Rio Times Online — \"Copper: The Daily Wrap — July 20, 2026\" y \"Chile Markets: IPSA & the Peso — July 21, 2026\"",
+    "Trading Economics — cobre US$6,29/lb (20-jul-2026), DXY 100,59 (20-jul-2026)",
+    "Energiminas / Guía Minera de Chile — cierre semanal cobre US$6,07/lb (17-jul-2026)",
+    "Bloomberg Línea — tormenta invernal amenaza minas de cobre en Chile (17-jul-2026)",
+    "El Imparcial / Cabildeo Digital — lluvias y apagones en Chile (17-jul-2026)",
+    "Diario Financiero — posicionamiento no residentes contra el peso, récord US$17.845M (21-jul-2026)",
+    "CME FedWatch vía growbeansprout / centralbank.watch (21-jul-2026)",
+    "CNBC — \"Kalshi traders see roughly 50% odds of a rate hike in 2026\" (9-jul-2026) y \"A July rate hike from the Fed? The odds are rising\" (13-jul-2026)",
+    "Bloomberg — \"Rate Hike Chances Rising as Warsh Takes Center Stage\" (14-jul-2026)",
+    "Federal Reserve / NPR / CNBC — confirmación y asunción de Kevin Warsh como Fed chair (13-may / 22-may-2026)",
+    "BCCh — comunicado RPM junio 2026, Balanza de Pagos 1T-2026, calendario Imacec junio (publicado 18-jul-2026)",
+    "BioBioChile / La Tercera — Imacec y recesión técnica (jun-jul 2026)",
+    "El Ciudadano — forwards BCCh marzo 2026 (21-mar-2026)",
+    "Vantage Markets — DXY 100,59 (20-jul-2026)",
+    "TradingView (17-jul-2026, última verificación técnica completa disponible)"
   ],
-  [
-   "Posicionamiento",
-   "~US$15-20.000M cortos CLP (récord)"
-  ],
-  [
-   "Próximo evento",
-   "FOMC 28-29-jul-2026"
+  "events": [
+    {
+      "date": "2026-07-29",
+      "label": "FOMC 28-29 jul (~83% prob. de mantención según CME FedWatch, con divergencia frente a apuestas de mercado que asignan ~50% a un alza en 2026 bajo Kevin Warsh)",
+      "kind": "macro"
+    }
   ]
- ],
- "change": {
-  "day": 0.84,
-  "week": 0.94
- },
- "customSections": [
-  {
-   "title": "Resumen ejecutivo",
-   "nav": "Resumen",
-   "body": "El USD/CLP cerró la semana en 936.33 (+6.74% en 120 días), a ~0.7% del máximo reciente de 943.4, sostenido por un giro hawkish de la Fed (pausa con sesgo a alza bajo el presidente Warsh) que comprime el estrecho diferencial de tasas frente a una TPM anclada en 4,50%, y por un posicionamiento récord de no residentes contra el peso (~US$15.000–20.000 millones en forwards). La paradoja central: el cobre sobre US$6/lb y una cuenta corriente en franca mejora deberían apreciar el CLP, pero la correlación cobre-peso se ha debilitado y domina el factor dólar global. Tesis: **Hold con sesgo alcista táctico del par, momentum decreciente** — el fundamento macro chileno limita el recorrido sobre 943–950 salvo nueva sorpresa hawkish de la Fed el 28-29 de julio.\n\n---"
-  },
-  {
-   "title": "Diferencial de tasas y política monetaria",
-   "nav": "Tasas",
-   "body": "**Chile (BCCh):**\n- **HECHO:** La TPM vigente es **4,50%**. En la RPM de junio 2026 el Consejo la mantuvo **por unanimidad** (comunicado RPM junio 2026, BCCh; XTB, jun-2026).\n- **HECHO:** La Encuesta de Expectativas Económicas (EEE) de julio (publicada 10-jul-2026) muestra que los analistas esperan **TPM sin cambios en la reunión de julio y en 4,5% hasta fin de año** — el mercado ya no ve recortes en 2026 (Emol, 10-jul-2026). La misma encuesta recortó el PIB 2026 a 1,3% (desde 1,6%) y proyecta IPC de dic-2026 en 4,0%, convergiendo a 3% en dic-2027.\n- **LECTURA (tono):** El comunicado de junio fue neutral-cauto: la inflación subió rápido por el shock de costos del conflicto en Medio Oriente pero \"su propagación ha seguido patrones históricos\"; el balance de riesgos inflacionarios \"se ha ido equilibrando\" y la TPM se evaluará \"reunión a reunión\". Actividad débil (cinco meses de Imacec en caída; para junio se espera +1,2%) impide un sesgo restrictivo, pero la inflación en 4% impide recortar: BCCh en pausa prolongada.\n\n**EE.UU. (Fed):**\n- **HECHO:** Fed Funds vigente: **rango 3,50%–3,75%** (efectiva ~3,63%), mantenido por unanimidad (12-0) el 17-jun-2026 (Federal Reserve, comunicado 17-jun-2026; CNBC).\n- **HECHO:** Para el FOMC del **28-29-jul-2026**, CME FedWatch asigna **~87–89% de probabilidad de mantención** (centralbank.watch / growbeansprout, consultados 19-jul-2026).\n- **LECTURA (tono):** Pausa **hawkish**. En junio el FOMC eliminó el sesgo de relajamiento del comunicado, revisó la inflación PCE 2026 al alza (total 3,6%, subyacente 3,3%) y el dot plot pasó a señalar que el próximo movimiento sería **un alza** (hacia 3,75%–4,00%) y no un recorte; las minutas del 8-jul muestran un comité dividido (Fed minutes 16-17-jun-2026; CNBC, 08-jul-2026; REX Shares).\n\n**Diferencial:** TPM 4,50% vs punto medio Fed 3,625% ⇒ **~+90 pb a favor del CLP, históricamente estrecho**, y con riesgo de compresión adicional si la Fed sube. **LECTURA:** dinámica de tasas moderadamente favorable al USD; el carry del peso es insuficiente para atraer flujos y de hecho el CLP fue usado como moneda de financiamiento regional (Diario Financiero).\n\n---"
-  },
-  {
-   "title": "Balanza de pagos y flujos",
-   "nav": "Balanza",
-   "body": "- **HECHO:** La cuenta corriente registró un **superávit de US$1.883 millones (1,9% del PIB) en el 1T-2026**; el déficit acumulado en 12 meses bajó a **0,6% del PIB** (vs 1,6% hace un año y 1,2% en 4T-2025), impulsado por el superávit comercial de bienes y la mejora de los términos de intercambio (BCCh, Balanza de Pagos 1T-2026; Diario Estrategia; Diario Financiero). La cuenta financiera mostró salidas netas por US$160 millones, lideradas por inversión de los Fondos de Pensiones en el exterior.\n- **HECHO:** Los términos de intercambio siguen favorecidos por cobre y litio; el IPoM de junio 2026 **elevó la proyección del cobre a US$5,8/lb promedio 2026** (US$5,2 en 2027; US$5,0 en 2028) (IPoM junio 2026, BCCh; Diario Financiero).\n\n**Precio del cobre:**\n- **HECHO:** Cobre COMEX cerró en **US$6,22/lb el viernes 17-jul-2026, -1,21% en el día** (Trading Economics; otra fuente lo sitúa en US$6,23). Hora exacta del cierre no verificable en las fuentes consultadas (cierre habitual COMEX: ~13:00 hora Nueva York del viernes). En mayo-2026 marcó récord intradía de US$6,72 (Diario Financiero).\n\n> ⚠️ **Dato de cobre desactualizado** (cotización del viernes 17-jul-2026, hace ~44–48 horas) — verificar cotización intradía antes de usar este informe para decisiones.\n\n**Correlación cobre-CLP — ¿se mantiene o se rompió?**\n- **LECTURA:** Se **debilitó materialmente en 2026**. La correlación histórica es ~-0,70 (cobre arriba → USD/CLP abajo) y estimaciones tradicionales atribuían al cobre 50–70% de los movimientos del par, pero Diario Financiero reporta que la influencia del cobre sobre el peso cayó de ~50% hace 3-4 años a **~30% hoy**: pese al cobre sobre US$6, el CLP figura entre las monedas emergentes de peor desempeño del año, con la depreciación explicada por fortaleza global del USD, el giro de la Fed, el diferencial de tasas y la debilidad de la economía local (DF, \"Qué hay tras la caída que vive el peso chileno\"). La correlación sigue operando en el intradía (el 14-jul el dólar cayó >$10 tras un récord del cobre — DF/La Tercera), pero **como ancla de tendencia está rota en el margen**.\n\n---"
-  },
-  {
-   "title": "Posicionamiento",
-   "nav": "Posicionamiento",
-   "body": "- **HECHO (declaración obligatoria):** **USD/CLP no tiene futuros CFTC líquidos — no aplica COT para este par.** No existe Commitment of Traders utilizable.\n- **Proxy verificable — forwards de no residentes (datos BCCh/SIID reportados por Diario Financiero):**\n  - **HECHO:** La posición neta de no residentes contra el peso vía derivados escaló a **~US$20.000 millones a comienzos de julio de 2026**, nivel récord; otro reporte de julio la cifra en **US$15.000 millones netos** tras un aumento de US$4.500 millones post-postura restrictiva de la Fed (DF, jul-2026). Trayectoria 2026: ~US$3.700M (feb) → ~US$16.000M (mar, máximo desde ago-2020) → US$15.000–20.000M (jul).\n- **LECTURA:** Posicionamiento extranjero fuertemente corto CLP: presiona el par al alza en el corto plazo, pero está **extremadamente cargado** (\"crowded\") — un catalizador pro-CLP (Fed dovish, cobre) podría gatillar un desarme violento como el de episodios previos (DF documentó desarmes de US$1.400M en tres días).\n\n---"
-  },
-  {
-   "title": "Análisis técnico",
-   "nav": "Técnico",
-   "body": "Datos **TradingView (17-jul-2026)**, verificados en tiempo real al cierre del viernes:\n\n| Métrica | Valor | Clasificación |\n|---|---|---|\n| Precio | 936.33 | HECHO |\n| Rango 120 días | 854.7 – 943.4 (+6.74% en la ventana) | HECHO |\n| RSI(14) diario | 60.6 | HECHO |\n| MACD(12,26) | +6.01 vs señal +6.37; histograma **-0.36** | HECHO |\n| SMA20 / SMA50 | 927.9 / 912.8 (precio por encima de ambas) | HECHO |\n| Máximo reciente | 943.4; rebote semanal desde ~925.9 | HECHO |\n\n- **LECTURA (tendencia):** Estructura alcista intacta — precio sobre SMA20 y SMA50, ambas ascendentes en la ventana, y cierre semanal con rebote desde la zona de la SMA20 (~925.9→936.33), que actuó como soporte dinámico.\n- **LECTURA (momentum):** RSI 60.6 es alcista sin sobrecompra, pero el MACD con histograma negativo (-0.36) y línea bajo la señal indica **momentum alcista perdiendo fuerza**: el avance hacia 943.4 se dio con menor impulso.\n- **LECTURA (niveles):** Resistencia clave 943.4 (máximo del rango); ruptura abre extensión hacia 950–960 (proyección, no verificada). Soportes: 927.9 (SMA20), 925.9 (piso del rebote), 912.8 (SMA50). Pérdida de la SMA50 anularía el sesgo alcista de mediano plazo.\n\n---"
-  },
-  {
-   "title": "Intervención y riesgo de banco central",
-   "nav": "Intervención",
-   "body": "- **HECHO:** La última intervención cambiaria de gran escala del BCCh fue el **programa anunciado el 14-jul-2022 por hasta US$25.000 millones** (venta spot + forwards + liquidez preventiva en USD), con el dólar entonces sobre ~$1.000 (récord histórico ~$1.045-1.060); el programa terminó el 30-sep-2022 con renovación gradual de forwards (BCCh, comunicados 14-jul-2022 y término del programa).\n- **HECHO (2026):** En marzo de 2026 el BCCh realizó **operaciones forward por ~US$629 millones** (semana del 23-27-mar), descritas como presencia indirecta de mercado — sin venta de reservas spot — señalizando disposición a actuar ante desórdenes cambiarios (El Ciudadano, 21-mar-2026). No se encontró evidencia de un programa formal de intervención en 2025-2026.\n- **LECTURA (gatillo actual):** No hay un nivel oficial — el BCCh interviene por *desorden* de mercado, no por nivel. Con el par en 936, un ~7% bajo la zona psicológica de $1.000 y ~10% bajo los máximos de 2022, y con volatilidad realizada contenida (9,8% vs referencia 11,25%, Infobae 17-jul-2026), el mercado no percibe intervención inminente; el riesgo se activaría con movimientos rápidos hacia 980–1.000 (lectura de mercado, no verificable oficialmente). El precedente de marzo sugiere que el BCCh usaría primero herramientas suaves (forwards) antes que reservas.\n\n---"
-  },
-  {
-   "title": "Correlaciones macro",
-   "nav": "Correlaciones",
-   "body": "- **HECHO:** DXY cerró en **100.76 el 17-jul-2026 (-0.01% en la sesión)** (Trading Economics; FXStreet 17-jul-2026 describe al índice sostenido con datos estadounidenses mixtos).\n- **LECTURA (DXY–USDCLP):** Correlación positiva y actualmente **dominante**: la fortaleza global del USD tras el giro hawkish de la Fed es citada por economistas locales como el principal driver de la depreciación del CLP en 2026, por sobre el cobre (DF). Un DXY sobre 100 con la Fed sesgada a subir mantiene el piso del par elevado.\n- **LECTURA (cobre–CLP):** Correlación histórica ~-0,70, hoy debilitada (~30% de influencia vs ~50% previo, DF) — ver sección 3. El cobre sigue funcionando como amortiguador intradía, no como ancla de tendencia. Nota: la propia fortaleza del USD \"frena avances mayores del metal\" (DF), acoplando ambos canales en la misma dirección alcista del par.\n- **LECTURA (carry regional):** Con TPM 4,5% —baja frente a pares LatAm— el CLP fue usado como moneda de financiamiento, amplificando la sensibilidad del par al ciclo Fed (DF).\n\n---"
-  },
-  {
-   "title": "Conclusión",
-   "nav": "Conclusión",
-   "body": "**Qué haría funcionar la tesis alcista del par (comprar USD):** confirmación hawkish en el FOMC del 28-29-jul (mantención con lenguaje de alza, o disenso pro-hike), ruptura con volumen sobre 943.4, corrección del cobre bajo US$6/lb que restaure la correlación en contra del CLP, y persistencia de la debilidad del Imacec que mantenga al BCCh incapaz de sostener un sesgo restrictivo.\n\n**Qué la invalidaría:** una Fed que reintroduzca sesgo de recortes (el mercado solo asigna ~11-13% a un movimiento en julio, pero el comité está dividido), un desarme de la posición récord de no residentes (~US$15.000–20.000M cortos CLP — el mayor riesgo asimétrico del par), un nuevo tramo alcista del cobre hacia US$6,7+ que reactive la correlación, pérdida de la SMA50 (912.8) o señales de intervención más dura del BCCh ante un avance desordenado hacia $1.000.\n\nEl balance —tasas y técnico pro-USD, macro pro-CLP, posicionamiento saturado— justifica el **Hold (B, 60/100)**: el par puede probar 943–950, pero el riesgo/retorno de perseguir dólares sobre 936 es pobre mientras el cobre siga sobre US$6 y el desarme de cortos penda sobre el mercado.\n\n> *Este informe es una herramienta de investigación educativa generada con IA. No constituye asesoría de inversión ni recomendación de compra/venta. Verifique todos los datos de forma independiente antes de tomar decisiones financieras.*"
-  }
- ],
- "scoreIndex": 8,
- "customCats": [
-  {
-   "key": "tasas",
-   "name": "Diferencial de Tasas y Política Monetaria",
-   "weight": 30
-  },
-  {
-   "key": "macro",
-   "name": "Fundamentales Macro",
-   "weight": 20
-  },
-  {
-   "key": "tecnico",
-   "name": "Técnico",
-   "weight": 20
-  },
-  {
-   "key": "posicionamiento",
-   "name": "Posicionamiento y Sentimiento",
-   "weight": 15
-  },
-  {
-   "key": "intervencion",
-   "name": "Riesgo de Intervención / Cola",
-   "weight": 15
-  }
- ],
- "scores": {
-  "tasas": {
-   "score": 70,
-   "just": "Diferencial TPM-Fed estrecho (~90 pb) y con riesgo de comprimirse: la Fed eliminó su sesgo de relajamiento y su dot plot apunta a un alza, mientras el BCCh está anclado en 4,5% sin recortes a la vista. Favorable al USD, pero la tasa chilena aún supera a la Fed."
-  },
-  "macro": {
-   "score": 30,
-   "just": "Cobre en US$6,22/lb (dato del 17-jul, desactualizado), términos de intercambio en máximos y cuenta corriente mejorando a -0,6% del PIB: flujo estructural pro-CLP, es decir negativo para el USD base. Solo la debilidad de la actividad local (PIB 2026: 1,3%) evita un puntaje menor."
-  },
-  "tecnico": {
-   "score": 70,
-   "just": "Tendencia alcista del par: precio sobre SMA20/50, +6.74% en 120 días, RSI 60.6 y rebote semanal desde soporte (TradingView, 17-jul). Se descuenta por el histograma MACD negativo (momentum decreciente) y la resistencia 943.4 sin ruptura confirmada."
-  },
-  "posicionamiento": {
-   "score": 60,
-   "just": "Sin COT (no aplica para USD/CLP), pero existe proxy verificable: forwards de no residentes en corto récord contra el CLP (~US$15.000–20.000M, BCCh/SIID vía DF) — flujo actual pro-USD; el castigo refleja que la posición está saturada y el riesgo de desarme es asimétricamente contra el USD."
-  },
-  "intervencion": {
-   "score": 65,
-   "just": "El par está lejos de la zona de intervención histórica (~$1.000+; 2022) y la volatilidad es contenida, lo que es favorable al USD; pero el BCCh ya mostró presencia con forwards por US$629M en marzo-2026."
-  }
- },
- "sources": [
-  "TradingView (17-jul-2026, técnico verificado en tiempo real)",
-  "BCCh — comunicado RPM junio 2026, Balanza de Pagos 1T-2026, IPoM junio 2026, programa de intervención 2022",
-  "XTB Chile (jun-2026)",
-  "Emol / Cooperativa — EEE julio (10-jul-2026)",
-  "Federal Reserve — comunicado y minutas FOMC (17-jun / 8-jul-2026)",
-  "CNBC (17-jun / 8-jul-2026)",
-  "centralbank.watch / growbeansprout (19-jul-2026)",
-  "REX Shares (jun-2026)",
-  "Diario Estrategia (2026)",
-  "Diario Financiero — cuenta corriente, correlación cobre-CLP, forwards de no residentes (jul-2026)",
-  "Trading Economics — cobre US$6,22/lb y DXY 100.76 (17-jul-2026)",
-  "El Ciudadano — forwards BCCh marzo 2026 (21-mar-2026)",
-  "Infobae — cierre del dólar en Chile (17-jul-2026)",
-  "FXStreet (17-jul-2026)",
-  "La Tercera (14-jul-2026)"
- ],
- "events": [
-  {
-   "date": "2026-07-29",
-   "label": "FOMC 28-29 jul (~87-89% prob. de mantención según CME FedWatch)",
-   "kind": "macro"
-  }
- ]
 }

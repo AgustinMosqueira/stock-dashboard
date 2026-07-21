@@ -1,88 +1,99 @@
 {
- "ticker": "CLSK",
- "company": "CleanSpark, Inc.",
- "statsList": [
-  [
-   "Precio",
-   "$13.02 (cierre 17-jul-2026)"
+  "ticker": "CLSK",
+  "company": "CleanSpark, Inc.",
+  "statsList": [
+    [
+      "Precio",
+      "$15.38 (21-jul-2026)"
+    ],
+    [
+      "Rango 52 sem.",
+      "$8.00 – $23.61"
+    ],
+    [
+      "Market cap",
+      "~$3.9-4.0B (21-jul-2026, ~256-258M acciones)"
+    ],
+    [
+      "Hashrate",
+      "50 EH/s operacional; 42.6 EH/s promedio (jun-2026)"
+    ],
+    [
+      "BTC en tesorería",
+      "13,924 BTC (30-jun-2026); +454 BTC comprados el 7-jul a ~$64K"
+    ],
+    [
+      "Próx. earnings",
+      "~6-11-ago-2026 (Q3 FY26; fuentes difieren)"
+    ],
+    [
+      "Técnico (auto)",
+      "RSI 55.7 · MACD -0.42 / señal -0.60 (TradingView, 21-jul-2026)"
+    ]
   ],
-  [
-   "Rango 52 sem.",
-   "$8.00 – $23.61"
+  "sections": {
+    "resumen": "CleanSpark (NASDAQ: CLSK) sigue en plena transición hacia infraestructura HPC/IA. HECHO: tras el anuncio del 14-jul-2026 (lease de 20 años, $6.6B/175MW en Sandersville, Georgia, con un hyperscaler investment-grade no revelado, más LOI de exclusividad sobre 885MW en Texas), la acción continuó subiendo con fuerza el 20-jul (+13.4% a $14.78) y el 21-jul (+~4-7% hasta $15.38, intradía sobre $15.60) — el mercado sigue digiriendo la magnitud del contrato (hasta $11.6B con extensiones). HECHO: no hay contrato firmado en Texas aún, sigue como LOI de exclusividad (verificado 21-jul-2026, sin novedad de conversión). BTC cotiza ~$66,600 (21-jul), recuperándose desde mínimos de julio (~$58K) — máximo de 5 semanas, lo que también favorece el sentimiento hacia mineras.",
+    "fundamental": "**Q2 FY2026 (cerrado 31-mar-2026, reportado 11-may-2026; StockTitan/8-K SEC) — sin cambios, sigue siendo el último trimestre reportado:**\n\n- HECHO: Revenue $136.4M, -24.9% a/a (vs $181.7M), miss vs estimados; caída impulsada por el precio promedio de BTC -24% (~$76,000).\n- HECHO: Pérdida neta de $378.3M, EPS -$1.52, que incluye $263M de ajustes mark-to-market no-cash sobre BTC. Margen bruto >40%; costo de energía 5.2¢/kWh.\n- HECHO: Liquidez $1.2B: $260M en cash + 13,561 BTC (~$925M al 31-mar).\n\n**Update operacional de junio (StockTitan/Blockspace, confirmado a lo largo de jul-2026):**\n\n- HECHO: 614 BTC minados en junio (3,724 BTC acumulados en el año), 13,924 BTC en tesorería, 50 EH/s operacional (récord), 42.6 EH/s promedio (bajó de 46.2 EH/s en mayo), 1.8 GW de potencia contratada, 808 MW en uso, 225,137 mineros, eficiencia pico de la flota 16.07 J/TH.\n- HECHO: el 7-jul-2026 la compañía compró 454 BTC adicionales a ~$64,000 (~$29M), acumulando mientras otras mineras vendían en el bear market (Bitcoin.com, 7-jul-2026).\n- HECHO: levantó $1.15B en convertibles al 0% — soporte de liquidez con riesgo de dilución futura (CryptoSlate).\n- HECHO: no se identificaron noticias financieras materiales nuevas entre el 17-jul y el 21-jul más allá de la continuación del rally por el lease de Sandersville; no hay update operacional de julio todavía (se espera a inicios de agosto, según el patrón mensual).\n\nLECTURA: con BTC recuperándose hacia $66-67K, el margen de minado mejora relativo a los ~$64K de hace dos semanas, aunque sigue por debajo del costo totalmente cargado estimado (~$82.7K/BTC, FY2025). El lease de Sandersville ($6.6B a 20 años, hasta $11.6B con extensiones, entregas desde Q4 2027) sigue siendo el driver dominante de la narrativa, más que la operación minera en sí.",
+    "valuacion": "- HECHO: market cap ~$3.9-4.0B (cálculo con ~256-258M acciones en circulación x $15.38; TradingView reporta una cifra rezagada de $3.31B que no refleja el precio de hoy — se declara la discrepancia entre fuentes).\n- HECHO: los 13,924 BTC (~$0.93B a BTC $66.6K) cubren ~23-24% del market cap actualizado, similar al ratio previo (CoinShares Q1 2026: BTC/mcap de CLSK ~24%, vs MARA 51% y RIOT 11%).\n- HECHO (CoinShares, Q1 2026): las mineras con contratos HPC asegurados cotizan a ~12.3x EV/NTM sales vs 5.9x las pure-play.\n- LECTURA: el re-rating hacia el grupo HPC sigue en curso desde el 14-jul; el hecho de que la acción continúe subiendo 6 días después del anuncio (13.4% el 20-jul, +4-7% el 21-jul) sugiere que el mercado sigue revisando al alza el valor del contrato ($11.6B con extensiones es mayor al $6.6B inicial). No se pudo verificar un EV/EBITDA puntual actualizado.\n- HECHO — consenso (StockAnalysis, 21-jul-2026): Strong Buy (13 analistas), PT promedio $22.35 (rango $16-$27), ~45% de upside desde $15.38. Subas recientes confirmadas: Cantor Fitzgerald $17→$26, Needham $18→$23 (20-jul-2026); B. Riley $19, Keefe Bruyette también bullish.",
+    "tecnico": "- HECHO: secuencia de precios: $13.02 (17-jul) → $12.86 (16-jul, -9%) → $13.16 (10-jul) → $14.78 (20-jul, +13.43%) → $15.38 (21-jul, +~4-7%, intradía hasta $15.60). Rango 52 semanas $8.00-$23.61 sin cambios.\n- HECHO (fuentes de días previos al rally del 20-21 jul, potencialmente desactualizadas): soporte citado en $12.96-$13.00 (Ichimoku Kijun/nivel psicológico), resistencia en SMA50 ~$13.5 y zona $14-14.06; RSI neutral ~49; MACD con señal de venta. Estas lecturas técnicas son previas al salto de +18% en 4 días y deben tomarse con cautela — se declara.\n\nLECTURA: el rally del 20-21 jul rompió al alza las resistencias de corto plazo mencionadas por esas fuentes ($14-14.06), lo que sugiere una ruptura técnica relevante, aunque sin datos de medias móviles recalculados post-rally. Próxima resistencia relevante en la zona $16-19 (rango may-jun) y luego el máximo post-anuncio inicial; soporte ahora se traslada a $13-14 (antiguas resistencias). Aún sin confirmación de tendencia alcista multi-marco por falta de indicadores actualizados a hoy, pero el momentum de las últimas 48-72h es claramente positivo.",
+    "catalizadores": "**Catalizadores:**\n\n- **~6-11-ago-2026 — Resultados fiscal Q3 2026** (trimestre cerrado 30-jun): primera guía detallada post-lease Sandersville; fuentes difieren entre 6-ago y 11-ago.\n- **Próximas semanas/meses — Conversión del LOI de Texas (885 MW)** en leases firmados con el mismo hyperscaler — confirmado que sigue sin firmarse al 21-jul-2026 — el catalizador más material pendiente.\n- **~1ª semana de agosto:** update de producción BTC/hashrate de julio (pendiente).\n- **Q4 2027 — inicio de entregas del data center de Sandersville** (inicio de los flujos contratados de $6.6-11.6B a 20 años).\n- **Potencial revelación de la identidad del tenant** (sin fecha) — un hyperscaler top sería catalizador de re-rating adicional.\n\n**Riesgos (por materialidad):**\n\n- **Precio de BTC (crítico):** BTC ~$66,600 (21-jul), recuperándose desde mínimos de julio (~$58K) pero aún -46% del ATH; ETFs de BTC registraron $4.5B en salidas netas en junio, el peor mes desde su lanzamiento (2024). CLSK sigue apalancada a BTC en ambas direcciones.\n- **Economics de minado post-halving:** costo totalmente cargado ~$82.7K/BTC (FY2025) > spot actual $66.6K; hashrate promedio de junio bajó a 42.6 EH/s (desde 46.2 EH/s en mayo).\n- **Ejecución/financiamiento del capex HPC:** entregas recién en Q4 2027; construcción intensiva en capital.\n- **Dilución:** $1.15B en convertibles al 0%; ~317.76M acciones potenciales (mayo-2026) vs ~256.6M reportadas a marzo — posible dilución en curso; probable necesidad de capital adicional para el capex HPC.\n- **Concentración:** un solo tenant no revelado para Sandersville + exclusividad de Texas sin contrato firmado todavía.\n- **Valuación ya corrió fuerte:** +18% en 4 sesiones (17 al 21-jul) eleva el riesgo de un pullback si no hay noticias incrementales antes de los earnings de agosto.",
+    "sentimiento": "- HECHO: consenso de analistas Strong Buy (13 analistas, StockAnalysis 21-jul), PT promedio $22.35 ($16-$27); Cantor Fitzgerald $17→$26 y Needham $18→$23 confirmados el 20-jul-2026, B. Riley $19.\n- HECHO: short interest 33.04% del float en junio (subiendo desde 32.76% el mes previo) — CleanSpark sigue siendo la cripto-compañía más shorteada con valor de mercado sobre $2B (Yahoo Finance).\n- HECHO: insiders — sin compras ni ventas relevantes en los últimos 3 meses; únicamente adjudicaciones de equity (equity awards) rutinarias sin valor de transacción reportado (Yahoo Finance, jul-2026).\n- HECHO (tono de prensa, últimos 7 días): mayormente positivo y en aumento — titulares consecutivos de \"stock jumps/rallies\" (20 y 21-jul) reforzando la narrativa HPC; se contrasta con un titular negativo del 16-jul sobre cash burn.\n\nLECTURA: sentimiento se está inclinando más claramente hacia el optimismo en los últimos días (rally sostenido de +18% en 4 sesiones) sin que el short interest haya bajado todavía (dato de junio); si el short interest de julio confirma una caída, sería señal de capitulación de los bajistas y reforzaría la tesis de squeeze. Aún no hay ese dato de julio disponible.",
+    "conclusion": "**Qué haría funcionar la tesis:** (1) conversión del LOI de Texas (885 MW) en leases firmados — validaría el re-rating de pure-play (5.9x) hacia el grupo HPC (12.3x EV/sales), y el mercado ya empezó a anticiparlo con el rally de 4 días; (2) continuación de la recuperación de BTC sobre $70K, que restauraría márgenes mineros y el valor de los 13,924+ BTC; (3) con 33% de short interest (dato de junio, probablemente mayor presión de cobertura en julio), el rally reciente ya luce compatible con un short squeeze en marcha.\n\n**Qué la invalidaría:** (1) BTC revirtiendo por debajo de $58-60K — el minado quedaría bajo mayor presión y forzaría venta de tesorería/dilución; (2) que el LOI de Texas no se convierta en contrato en los próximos meses, generando decepción tras el rally; (3) pérdida de los nuevos soportes de corto plazo ($13-14) que devolvería el precio a la zona $11.5-12.\n\nLECTURA final: la tesis sigue siendo binaria y falsable, pero el balance de evidencia de los últimos 4 días (rally sostenido +18%, upgrades de PT, BTC recuperándose) inclina el sesgo de corto plazo al alza, aunque con riesgo de sobreextensión antes de la confirmación fundamental en los earnings de agosto y la firma del contrato de Texas."
+  },
+  "scores": {
+    "tecnica": {
+      "score": 68,
+      "just": "Ruptura al alza confirmada: +13.4% el 20-jul y +~5% el 21-jul, acumulando ~+18% en 4 sesiones desde $13.02 (17-jul) hasta $15.38, rompiendo resistencias previas de $14-14.06. Momentum de corto plazo claramente positivo, aunque sin indicadores técnicos (RSI/medias móviles) recalculados post-rally que confirmen tendencia alcista multi-marco — se declara la limitación. Aún lejos del máximo de 52 semanas ($23.61)."
+    },
+    "fundamental": {
+      "score": 57,
+      "just": "Sin cambios materiales desde el informe previo: deterioro cíclico real (revenue -25% a/a, pérdida de $378M mayormente mark-to-market no-cash), hashrate promedio bajando (42.6 EH/s en junio vs 46.2 en mayo), pero balance sólido ($1.2B liquidez, 13,924+ BTC) y contrato transformacional de hasta $11.6B/20 años. La recuperación de BTC a $66.6K mejora levemente la economía de minado marginal frente a hace dos semanas."
+    },
+    "sentimiento": {
+      "score": 62,
+      "just": "Mejora vs el informe previo: consenso Strong Buy con PTs recién confirmados ($16-27, promedio $22.35), rally de precio sostenido 4 sesiones, prensa mayormente positiva. Short interest 33% (dato de junio, aún no actualizado para julio) sigue siendo alto pero no ha subido más recientemente que se sepa. Insiders sin actividad relevante."
+    },
+    "riesgo": {
+      "score": 28,
+      "just": "Riesgo sigue alto: beta apalancada a BTC (aunque BTC se recupera a $66.6K desde mínimos de $58K), costo pleno de minado (~$82.7K/BTC) aún por sobre el spot, $1.15B en convertibles con dilución en curso (317.76M acciones potenciales vs 256.6M reportadas), capex HPC intensivo con entregas recién en Q4 2027, LOI de Texas aún sin firmar, y la acción ya subió ~18% en 4 días lo que añade riesgo de reversión si no hay noticias incrementales."
+    },
+    "conviccion": {
+      "score": 60,
+      "just": "Catalizadores fechados (earnings ~6-11-ago, conversión pendiente del LOI Texas, update de hashrate de julio) y asimetría reforzada por el momentum reciente + short interest elevado. Ligero aumento vs el informe previo por la confirmación del rally y upgrades de analistas, pero el driver dominante (BTC) sigue siendo exógeno, y la firma de Texas —el catalizador más material— aún no ocurre."
+    }
+  },
+  "sources": [
+    "TradingView — precio, cambio semanal y market cap rezagado (21-jul-2026)",
+    "StockAnalysis.com — precio $15.38, consenso Strong Buy, PT $22.35 ($16-$27) (21-jul-2026)",
+    "Timothy Sykes News — CLSK +6.21%/+7.21% intradía, contexto del rally (21-jul-2026)",
+    "StocksToTrade / Timothy Sykes — CLSK +13.43% a $14.78 (20-jul-2026)",
+    "PR Newswire / TipRanks / StockTitan / SEC 8-K — lease $6.6B (hasta $11.6B)/20 años Sandersville + LOI Texas 885MW (14-jul-2026, confirmado sin conversión al 21-jul)",
+    "Investing.com — Cantor Fitzgerald $17→$26, Needham $18→$23 (20-jul-2026)",
+    "Yahoo Finance — Bitcoin ~$66,609 (21-jul-2026), recuperación desde ~$58K de mínimos de julio",
+    "Yahoo Finance / news.bitcoin.com — compra de 454 BTC a ~$64K el 7-jul-2026, tesorería 13,924 BTC",
+    "StockTitan / Yahoo Finance — update operacional junio: 614 BTC, 50 EH/s, 42.6 EH/s promedio, 225,137 mineros (jul-2026)",
+    "Yahoo Finance / Kavout — short interest 33.04% (junio-2026, sube desde 32.76%)",
+    "Yahoo Finance — insider transactions: solo equity awards, sin compras/ventas netas (jul-2026)",
+    "Macrotrends / Eulerpool — acciones en circulación ~256.6M (mar-2026) / ~317.76M (may-2026)",
+    "StockInvest.us / Investing.com — niveles técnicos previos al rally (soporte $12.96-13, resistencia $14, RSI ~49) — declarado como potencialmente desactualizado",
+    "CoinShares Bitcoin Mining Report Q1 2026 — múltiplos HPC vs pure-play, BTC/mcap por minera",
+    "StockTitan / Investing.com / SEC 8-K — Q2 FY2026 (11-may-2026, sin cambios)",
+    "Investing.com / TipRanks — fecha earnings Q3 FY26 6-ago o 11-ago-2026 (fuentes difieren, jul-2026)"
   ],
-  [
-   "Market cap",
-   "~$3.3B (jul-2026)"
-  ],
-  [
-   "Hashrate",
-   "50 EH/s operacional; 42.6 EH/s promedio (jun-2026)"
-  ],
-  [
-   "BTC en tesorería",
-   "13,924 BTC (30-jun-2026)"
-  ],
-  [
-   "Próx. earnings",
-   "~6-11-ago-2026 (Q3 FY26; fuentes difieren)"
+  "change": {
+    "day": 4.06,
+    "week": 18.13
+  },
+  "events": [
+    {
+      "date": "2026-08-11",
+      "label": "Resultados Q3 FY26 (rango 6-11 ago; fuentes difieren)",
+      "kind": "earnings"
+    },
+    {
+      "date": "2026-07-21",
+      "label": "Rally continuo tras lease Sandersville: +18% acumulado en 4 sesiones",
+      "kind": "corporate"
+    }
   ]
- ],
- "sections": {
-  "resumen": "CleanSpark (NASDAQ: CLSK) es una minera de Bitcoin en plena transición hacia infraestructura de IA/HPC. HECHO: el 14-jul-2026 firmó un lease de 20 años por $6.6B (175 MW) en Sandersville, Georgia, con un hyperscaler investment-grade no revelado, más un LOI de exclusividad sobre sus 885 MW en Texas (PR Newswire/StockTitan, 14-jul-2026). La acción cerró en $13.02 el 17-jul-2026, con el mercado dividido: consenso Strong Buy de analistas vs short interest extremo (33-44%) y BTC en bear market (~$64K, -49% del ATH).",
-  "fundamental": "**Q2 FY2026 (cerrado 31-mar-2026, reportado 11-may-2026; StockTitan/8-K SEC):**\n\n- HECHO: Revenue $136.4M, -24.9% a/a (vs $181.7M), miss vs estimados; caída impulsada por el precio promedio de BTC -24% (~$76,000).\n- HECHO: Pérdida neta de $378.3M, EPS -$1.52, que incluye $263M de ajustes mark-to-market no-cash sobre BTC. Margen bruto >40%; costo de energía 5.2¢/kWh.\n- HECHO: Liquidez $1.2B: $260M en cash + 13,561 BTC (~$925M al 31-mar).\n\n**Update operacional de junio (StockTitan/Blockspace, 1ª semana de jul-2026):**\n\n- HECHO: 614 BTC minados en junio (producción a la baja), 13,924 BTC en tesorería, 50 EH/s operacional, 1.8 GW de potencia contratada, 808 MW en uso, 225,137 mineros.\n- HECHO (costos, FY2025; Cointelegraph/Blockspace): costo marginal de energía ~$42,956/BTC; costo totalmente cargado (con depreciación y financiamiento) ~$82,727/BTC.\n- HECHO: levantó $1.15B en convertibles al 0% — soporte de liquidez con riesgo de dilución futura (CryptoSlate).\n\nLECTURA: con BTC a ~$64K, el minado sigue siendo rentable a nivel de costo marginal de energía pero destruye valor a costo totalmente cargado; de ahí la pérdida contable. El lease de Sandersville ($6.6B a 20 años, NOI anual promedio ~$330M, entregas desde Q4 2027) transforma el perfil hacia flujos contratados no correlacionados con BTC, pero el beneficio es a 2027+.",
-  "valuacion": "- HECHO: market cap ~$3.3B (TradingView, jul-2026); los 13,924 BTC (~$0.89B a BTC $64K) cubren ~24% del market cap (CoinShares Q1 2026: BTC/mcap de CLSK 24%, vs MARA 51% y RIOT 11%).\n- HECHO (CoinShares, Q1 2026): las mineras con contratos HPC asegurados cotizan a ~12.3x EV/NTM sales vs 5.9x las pure-play.\n- LECTURA: hasta el 14-jul CLSK cotizaba como pure-play; el lease de Sandersville la habilita para un re-rating hacia el grupo HPC (el salto de +10% del 14-jul y las subas de price targets reflejan eso). Con revenue trimestral deprimido por BTC, los múltiplos de ventas actuales son poco representativos del NOI contratado de ~$330M/año desde 2027. No se pudo verificar un EV/EBITDA puntual actualizado.\n- HECHO — consenso (StockAnalysis/MarketBeat/TipRanks, jul-2026): Strong Buy; PT promedio $19.69-$19.80 (rango $14-$27), ~50-60% de upside. Subas post-lease: Cantor Fitzgerald $17→$26 (Overweight), Needham $23, H.C. Wainwright/Clear Street/BTIG $22-$26 (14-16-jul-2026).",
-  "tecnico": "- HECHO: cierre $13.02 (17-jul, +1.0%); $12.86 el 16-jul (-9.0%); $14.13 el 15-jul tras el anuncio del lease (+~10% el 14-jul). Rango 52 semanas $8.00-$23.61. Volatilidad diaria extrema.\n- HECHO (fuentes en conflicto, jul-2026): MarketBeat sitúa SMA50 y SMA200 ~$12.7 con el precio oscilando alrededor de ambas; StockInvest muestra SMA50 $9.6 < SMA200 $12.8 (cruce bajista). RSI(14) reportado en 67 (Investing.com) tras el rebote, mientras otras fuentes describían sobreventa a inicios de julio. Las lecturas no son consistentes entre fuentes — se declara.\n\nLECTURA: estructura lateral-volátil dentro de un downtrend mayor desde $23.61: el precio recuperó las medias de corto plazo con el catalizador HPC pero fue rechazado (-9% el 16-jul). Soporte relevante $11.5-$12 (zona de medias) y luego $8 (mínimo 52s); resistencias $14-$14.5 (máximo post-anuncio) y $16-$19 (rango de mayo-junio). Sin confirmación de tendencia alcista multi-marco.",
-  "catalizadores": "**Catalizadores:**\n\n- **~6-11-ago-2026 — Resultados fiscal Q3 2026** (trimestre cerrado 30-jun): primera guía detallada post-lease Sandersville.\n- **Próximas semanas/meses — Conversión del LOI de Texas (885 MW)** en leases firmados con el mismo hyperscaler (anunciado 14-jul-2026) — el catalizador más material.\n- **~1ª semana de cada mes:** updates de producción BTC/hashrate.\n- **Q4 2027 — inicio de entregas del data center de Sandersville** (inicio de los ~$330M/año de NOI).\n- **Potencial revelación de la identidad del tenant** (sin fecha) — un hyperscaler top sería re-rating adicional.\n\n**Riesgos (por materialidad):**\n\n- **Precio de BTC (crítico):** BTC ~$64K, -49% del ATH, bear market con outflows de ETFs; escenarios bajistas hacia $56K e incluso ~$39K (CoinPedia/IndexBox, jul-2026). CLSK es apalancada a BTC: revenue minero y valor de los 13,924 BTC caen en tándem.\n- **Economics de minado post-halving:** costo totalmente cargado ~$82.7K/BTC > spot $64K; pérdidas contables persistentes y producción declinante (614 BTC en junio, curtailment creciente).\n- **Ejecución/financiamiento del capex HPC:** entregas recién en Q4 2027; construcción intensiva en capital en pleno bear market.\n- **Dilución:** $1.15B en convertibles al 0%; probable necesidad de capital adicional.\n- **Concentración:** un solo tenant no revelado para Sandersville + exclusividad de Texas.",
-  "sentimiento": "- HECHO: consenso de analistas Strong Buy con PTs subiendo tras el lease (Cantor $26, Needham $23, BTIG/HCW $22-26; 14-16-jul-2026).\n- HECHO: short interest extremo: ~33% del float a inicios de julio (Yahoo Finance) y hasta ~44% según Kavout — la 4ª acción más shorteada del mercado.\n- HECHO (tono de prensa, últimos 30 días): titulares mixtos — muy positivos sobre el pivote HPC (14-15-jul) y negativos sobre cash burn y márgenes mineros (16-jul).\n- No se encontraron transacciones de insiders verificables de las últimas semanas — se declara.\n\nLECTURA: sentimiento profundamente dividido: Wall Street ve la opción HPC; los cortos ven una minera quemando caja en bear market. Configuración propensa a movimientos violentos en ambas direcciones (potencial short squeeze con buenas noticias).",
-  "conclusion": "**Qué haría funcionar la tesis:** (1) conversión del LOI de Texas (885 MW) en leases firmados — validaría el re-rating de pure-play (5.9x) hacia el grupo HPC (12.3x EV/sales); (2) estabilización o rebote de BTC sobre $70-77K, que restauraría márgenes mineros y el valor de los 13,924 BTC; (3) con 33-44% de short interest, cualquiera de las dos podría gatillar un squeeze.\n\n**Qué la invalidaría:** (1) BTC quebrando $56K rumbo a ~$39K — el minado quedaría bajo agua incluso a costo marginal y forzaría venta de tesorería/dilución; (2) caída del LOI de Texas o retrasos/sobrecostos en Sandersville; (3) pérdida del soporte de $11.5-12 y luego $8.\n\nLECTURA final: tesis binaria y falsable: una opción real sobre infraestructura de IA financiada por una operación minera hoy deficitaria a costo pleno, dentro de un bear market cripto. Es un instrumento de beta muy alta."
- },
- "scores": {
-  "tecnica": {
-   "score": 42,
-   "just": "Lateral-volátil dentro de un downtrend desde $23.61: el precio ($13.02, 17-jul) oscila alrededor de las medias 50/200 con señales contradictorias entre fuentes (RSI 67 vs sobreventa previa; posible cruce bajista según StockInvest). El rebote por el catalizador HPC fue rechazado con -9% el 16-jul. Sin tendencia alcista multi-marco confirmada."
-  },
-  "fundamental": {
-   "score": 55,
-   "just": "Deterioro cíclico real (revenue -25% a/a, pérdida de $378M aunque mayormente mark-to-market no-cash, costo pleno ~$82.7K/BTC > spot $64K) compensado por balance sólido ($1.2B de liquidez, 13,924 BTC = 24% del mcap) y un contrato transformacional de $6.6B/20 años con NOI ~$330M/año desde 2027. Razonable si el pivote HPC se ejecuta; cara si sigue pure-play en bear market."
-  },
-  "sentimiento": {
-   "score": 50,
-   "just": "Máxima división verificable: consenso Strong Buy con PTs de $19.7-26 recién elevados (Cantor, Needham, BTIG, 14-16-jul) contra un short interest de 33-44% del float, de los más altos del mercado. Prensa mixta (euforia HPC el 14-15-jul, cash burn el 16-jul). Insiders no verificables."
-  },
-  "riesgo": {
-   "score": 25,
-   "just": "Riesgo alto y mal acotado: beta apalancada a BTC en pleno bear market (-49% del ATH, con escenarios bajistas hacia $56K/$39K), minado deficitario a costo pleno, $1.15B en convertibles con dilución probable, capex HPC intensivo con entregas recién en Q4 2027 y concentración en un tenant no revelado. Solo la liquidez de $1.2B y el lease contratado acotan parcialmente."
-  },
-  "conviccion": {
-   "score": 58,
-   "just": "Tesis falsable con catalizadores fechados (earnings ~6-11-ago, conversión del LOI Texas 885 MW, updates mensuales, entregas Q4 2027) y asimetría interesante por short interest extremo + gap de múltiplo pure-play vs HPC. Pero el driver dominante (el precio de BTC) es exógeno e incontrolable, lo que limita la convicción."
-  }
- },
- "sources": [
-  "Yahoo Finance / CNN Markets — precio CLSK (17-jul-2026)",
-  "TradingView — market cap y rango 52 sem. (jul-2026)",
-  "StockTitan / Investing.com / SEC 8-K — Q2 FY2026 (11-may-2026)",
-  "StockTitan / Blockspace / The Block — update junio: 614 BTC, 13,924 BTC, 50 EH/s (jul-2026)",
-  "PR Newswire / investors.cleanspark.com — lease $6.6B/20 años Sandersville + LOI Texas (14-jul-2026)",
-  "Cointelegraph / Blockspace — costos de minado FY2025 (nov-2025)",
-  "StockAnalysis / MarketBeat / TipRanks — consenso Strong Buy, PT $19.69-19.80 (jul-2026)",
-  "Investing.com — Cantor $26, Needham $23 (14-16-jul-2026)",
-  "Yahoo Finance / Kavout — short interest 33-44% (jul-2026)",
-  "CoinShares Bitcoin Mining Report Q1 2026 — múltiplos HPC vs pure-play",
-  "BTC/mcap por minera",
-  "CoinPedia / IndexBox — escenarios BTC bajistas (jul-2026)",
-  "CryptoSlate — convertibles $1.15B al 0% (2026)",
-  "Investing.com / MarketBeat — fecha earnings Q3 FY26 (jul-2026)"
- ],
- "change": {
-  "day": 1.01,
-  "week": -14.18
- },
- "events": [
-  {
-   "date": "2026-08-11",
-   "label": "Resultados Q3 FY26 (rango 6-11 ago; fuentes difieren)",
-   "kind": "earnings"
-  }
- ]
 }
