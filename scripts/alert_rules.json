@@ -1,0 +1,22 @@
+{
+  "_comentario": "Umbrales de alertas Telegram (telegram_alerts.py) y del log de cambios bruscos (track_metric_changes.py). Todo se calcula con datos gratuitos de update_numbers.py, sin IA.",
+  "rsi_overbought": 70,
+  "rsi_oversold": 30,
+  "price_change_1d_pct": 5,
+  "price_percentile_1y_high": 95,
+  "price_percentile_1y_low": 5,
+  "volume_spike_ratio": 2.0,
+  "sma_cross": {
+    "watch": ["sma50_vs_sma200", "price_vs_sma200", "price_vs_sma50"],
+    "notify_on": "cross"
+  },
+  "macd_cross": { "notify_on": "cross" },
+  "event_alert_days": 3,
+  "metric_change_log": {
+    "rsi_jump": 15,
+    "percentile_jump": 20,
+    "price_jump_pct": 8,
+    "volatility_jump": 15,
+    "score_jump": 10
+  }
+}
