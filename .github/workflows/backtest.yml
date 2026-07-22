@@ -9,6 +9,9 @@ on:
 permissions:
   contents: write
 
+env:
+  TZ: America/Santiago
+
 jobs:
   backtest:
     runs-on: ubuntu-latest
