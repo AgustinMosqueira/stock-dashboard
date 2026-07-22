@@ -2,7 +2,7 @@ name: Números diarios (TradingView)
 
 on:
   schedule:
-    - cron: "30 22 * * *"   # 18:30 Chile (invierno) — todos los días; gratis, sin IA
+    - cron: "33 22 * * *"   # 18:33 Chile todos los días — minuto impar: los :30 en punto se retrasan/saltan en GitHub
   workflow_dispatch: {}
 
 permissions:

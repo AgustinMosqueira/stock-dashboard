@@ -2,7 +2,7 @@ name: Informes L-M-V (Claude)
 
 on:
   schedule:
-    - cron: "0 22 * * 1,3,5"   # lunes, miércoles y viernes 18:00 Chile (invierno)
+    - cron: "3 22 * * 1,3,5"   # L-M-V 18:03 Chile — minuto impar: los :00 en punto se retrasan/saltan en GitHub
   workflow_dispatch: {}
 
 permissions:
