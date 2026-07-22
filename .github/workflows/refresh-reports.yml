@@ -43,6 +43,9 @@ jobs:
             --permission-mode acceptEdits \
             --allowedTools "Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Agent,TodoWrite"
 
+      - name: Snapshot de señales (base del backtest)
+        run: python scripts/snapshot_signals.py
+
       - name: Números frescos + reconstrucción
         run: python scripts/update_numbers.py
 

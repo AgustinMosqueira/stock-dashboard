@@ -1,0 +1,31 @@
+name: Backtest de señales
+
+# Solo lee histórico ya guardado (gratis, sin IA). Corre manual o el día 1 de cada mes.
+on:
+  schedule:
+    - cron: "0 12 1 * *"   # día 1 de cada mes, 08:00 Chile
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Backtest de señales vs retornos reales
+        run: python scripts/backtest_signals.py
+
+      - name: Commit del reporte
+        run: |
+          git config user.name "dashboard-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/backtest_report.json
+          git diff --cached --quiet || git commit -m "Backtest de señales $(date -u +%F)"
+          git push
