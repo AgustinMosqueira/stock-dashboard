@@ -159,12 +159,21 @@ def send(text):
         print("Telegram no configurado (faltan TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID) — "
               "no se envía nada. Ver README para el setup.")
         return False
-    body = urllib.parse.urlencode({"chat_id": chat, "text": text,
-                                   "parse_mode": "Markdown",
-                                   "disable_web_page_preview": "true"}).encode()
-    req = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendMessage", data=body)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        resp = json.load(r)
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+
+    def _post(params):
+        body = urllib.parse.urlencode(params).encode()
+        with urllib.request.urlopen(urllib.request.Request(url, data=body), timeout=30) as r:
+            return json.load(r)
+
+    try:
+        resp = _post({"chat_id": chat, "text": text, "parse_mode": "Markdown",
+                      "disable_web_page_preview": "true"})
+    except urllib.error.HTTPError as e:
+        # típico 400: un _ o * del contenido rompe el Markdown legacy → reintento plano
+        print(f"  aviso: sendMessage con Markdown falló ({e.code}); reintento sin formato")
+        resp = _post({"chat_id": chat, "text": text.replace("*", ""),
+                      "disable_web_page_preview": "true"})
     return bool(resp.get("ok"))
 
 
@@ -181,7 +190,7 @@ def main():
 
     fecha = datetime.date.today().strftime("%d/%m/%Y")
     msg = f"*Alertas del dashboard — {fecha}*\n\n" + "\n\n".join(lines) + \
-        "\n\n_Umbrales en scripts/alert_rules.json · señales mecánicas, no asesoría._"
+        "\n\n_Señales mecánicas según umbrales configurados en el repo. No es asesoría._"
     print(f"Alertas ({len(lines)}):")
     for l in lines:
         print("  " + l.replace("*", ""))
