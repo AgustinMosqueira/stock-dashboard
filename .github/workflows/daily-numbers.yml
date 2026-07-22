@@ -3,6 +3,7 @@ name: Números diarios (TradingView)
 on:
   schedule:
     - cron: "33 22 * * *"   # 18:33 Chile todos los días — minuto impar: los :30 en punto se retrasan/saltan en GitHub
+    - cron: "33 23 * * *"   # respaldo 19:33 Chile — el job "guard" lo cancela si el principal ya corrió hoy
   workflow_dispatch: {}
 
 permissions:
@@ -18,7 +19,34 @@ env:
   TZ: America/Santiago
 
 jobs:
+  guard:
+    # Deja pasar: corridas manuales siempre; corridas programadas solo si hoy
+    # (hora de Chile) todavía no hay un commit "Números <fecha>" — así el cron de
+    # respaldo no duplica trabajo, pero sí rescata un principal saltado o fallido.
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+      - id: check
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "run=yes" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          today=$(date +%F)
+          if git log --pretty=%s -n 50 | grep -q "^Números ${today}"; then
+            echo "Ya hay números del ${today} — este disparo sobra, no se hace nada."
+            echo "run=no" >> "$GITHUB_OUTPUT"
+          else
+            echo "Aún no hay números del ${today} — se ejecuta."
+            echo "run=yes" >> "$GITHUB_OUTPUT"
+          fi
+
   numeros:
+    needs: guard
+    if: needs.guard.outputs.run == 'yes'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -44,7 +72,7 @@ jobs:
           git config user.name "dashboard-bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "Números $(date -u +%F) (TradingView)"
+          git diff --cached --quiet || git commit -m "Números $(date +%F) (TradingView)"
           git push
 
       - name: Preparar sitio
