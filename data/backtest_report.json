@@ -1,0 +1,177 @@
+{
+ "nota": "Retornos medidos en ruedas de histórico (días con dato), no días calendario. Los buckets agrupan: compra=Strong Buy/Buy, neutral=Hold, venta=Caution/Avoid. Una señal 'neutral' se considera acierto si el activo se movió menos de ±3%.",
+ "n_senales": 15,
+ "n_evaluadas_10d": 0,
+ "precision": {
+  "5d": {},
+  "10d": {},
+  "20d": {}
+ },
+ "senales": [
+  {
+   "asset": "AAPL",
+   "date": "2026-07-21",
+   "score": 70,
+   "signal": "Buy",
+   "bucket": "compra",
+   "close_en_senal": 327.74,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "AMZN",
+   "date": "2026-07-21",
+   "score": 74,
+   "signal": "Buy",
+   "bucket": "compra",
+   "close_en_senal": 247.55,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "BTC",
+   "date": "2026-07-21",
+   "score": 50,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 66302.43,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "CCU",
+   "date": "2026-07-21",
+   "score": 55,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 5450,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "CLSK",
+   "date": "2026-07-21",
+   "score": 57,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 15.38,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "CMPC",
+   "date": "2026-07-21",
+   "score": 41,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 1083.9,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-EURUSD",
+   "date": "2026-07-21",
+   "score": 46,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 1.14063,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-USDCLP",
+   "date": "2026-07-21",
+   "score": 57,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 938.97,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-USDJPY",
+   "date": "2026-07-21",
+   "score": 53,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 163.09799999999998,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "GOOGL",
+   "date": "2026-07-21",
+   "score": 66,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 347.15,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "HDSY",
+   "date": "2026-07-21",
+   "score": 44,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 7150,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "MSFT",
+   "date": "2026-07-21",
+   "score": 62,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 397.75,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "NVDA",
+   "date": "2026-07-21",
+   "score": 69,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 207.29,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "SPCX",
+   "date": "2026-07-21",
+   "score": 36,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 123.54,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "TSLA",
+   "date": "2026-07-21",
+   "score": 47,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 378.93,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  }
+ ]
+}
