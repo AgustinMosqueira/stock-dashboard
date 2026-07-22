@@ -74,6 +74,9 @@ jobs:
             --permission-mode acceptEdits \
             --allowedTools "Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Agent,TodoWrite"
 
+      - name: Fecha de informe en los 6 dinámicos
+        run: python scripts/stamp_report_date.py
+
       - name: Snapshot de señales (base del backtest)
         run: python scripts/snapshot_signals.py
 
