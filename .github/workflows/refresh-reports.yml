@@ -92,7 +92,7 @@ jobs:
           git push
 
       - name: Preparar sitio
-        run: mkdir -p _site && cp index.html _site/index.html
+        run: mkdir -p _site && cp index.html _site/index.html && cp pwa/* _site/
 
       - uses: actions/upload-pages-artifact@v3
         with:
