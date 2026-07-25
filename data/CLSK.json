@@ -4,164 +4,176 @@
   "statsList": [
     [
       "Precio",
-      "$15.38 (22-jul-2026)"
+      "$15.61 (24-jul-2026)"
     ],
     [
       "Rango 52 sem.",
-      "$8.00 – $23.61"
+      "$8.00 – $23.61 (sin cambios vs semana previa; HECHO: stockinvest.us, macrotrends, 24-jul-2026)"
     ],
     [
       "Market cap",
-      "~$3.94B (21-jul-2026, ~256.6M acciones)"
+      "~$4.01B (24-jul-2026, ~256.6M acciones a $15.61; HECHO: stockanalysis.com)"
     ],
     [
       "Hashrate",
-      "50 EH/s operacional; 42.6 EH/s promedio (jun-2026, sin update de jul. aún)"
+      "50 EH/s operacional; 42.6 EH/s promedio (jun-2026). Sin operational update de julio publicado al 25-jul (HECHO: prnewswire.com/investors.cleanspark.com, último update 7-jul-2026)"
     ],
     [
       "BTC en tesorería",
-      "13,924 BTC (30-jun-2026); +454 BTC comprados el 7-jul a ~$64K"
+      "13,924 BTC (7-jul-2026, tras compra de 454 BTC a ~$64K). HECHO: news.bitcoin.com, gncrypto.news, stocktitan — sin update posterior confirmado al 25-jul"
     ],
     [
       "Próx. earnings",
-      "~11-ago-2026 (Q3 FY26; algunas fuentes citan 6-ago)"
+      "~11-ago-2026 (Q3 FY26; consenso mayoritario en Investing.com/TipRanks; alguna fuente aislada cita 6-ago). LECTURA: fecha no confirmada oficialmente por la compañía aún"
     ],
     [
       "Técnico (auto)",
-      "RSI 55.7 · MACD -0.42 / señal -0.60 (TradingView, 22-jul-2026)"
+      "RSI 56.8 · MACD -0.14 / señal -0.46 (TradingView, 24-jul-2026)"
     ]
   ],
+  "change": {
+    "day": 1.86,
+    "week": 19.8
+  },
   "sections": {
-    "resumen": "HECHO: CLSK cerró en $15.38 el 21-jul-2026, tras un rally de +18% en cuatro sesiones (17 al 21-jul) impulsado por el anuncio del lease de 20 años en Sandersville, Georgia ($6.6B, hasta $11.6B con extensiones, 175MW) firmado el 10-jul con un hyperscaler no revelado, más un LOI de exclusividad sobre 885MW/718 acres en Texas con la misma contraparte (Timothy Sykes, StocksToTrade, 21-jul-2026; PRNewswire/TipRanks, 14-jul-2026). LECTURA: el mercado sigue premiando la narrativa de pivote a colocation de IA/HPC por sobre el negocio puro de minería BTC, pero el LOI de Texas aún no se ha convertido en contrato firmado — sigue siendo una señal de pipeline, no un hecho contractual (misma lectura que la semana pasada, sin novedad esta semana).",
-    "fundamental": "HECHO: no se ha publicado aún un operational update de julio-2026 (el de junio, difundido ~14-jul, reportó 614 BTC minados, hashrate operacional 50 EH/s, promedio 42.6 EH/s, 225,137 mineros desplegados, 1.8GW bajo contrato, eficiencia de flota 16.07 J/TH; fuente: PRNewswire/StockTitan, 14-jul-2026). Los updates mensuales de CleanSpark suelen publicarse la primera semana del mes siguiente, por lo que el dato de julio se espera en los primeros días de agosto, previo a earnings. HECHO: Q2 FY2026 (cerrado 31-mar-2026) mostró revenue $136.4M (-24.9% a/a) y pérdida neta $378.3M (EPS -$1.52, incluye $263M de mark-to-market no-cash sobre BTC), con liquidez de $1.2B y $1.15B en convertibles al 0% cupón (informe anterior, sin cambios esta semana). LECTURA: la compañía sigue transicionando de un modelo puro de minería a uno híbrido minería+colocation, lo que en el corto plazo mantiene el ruido contable (mark-to-market BTC) como principal fuente de volatilidad en EPS reportado más que la operación subyacente.",
-    "valuacion": "HECHO: con precio $15.38 y ~256.6M acciones, el market cap es de ~$3.94B (companiesmarketcap.com / stockanalysis.com, 21-jul-2026). HECHO: el consenso de 13 analistas (S&P Global vía stockanalysis.com, consultado 22-jul-2026) mantiene calificación 'Strong Buy' con PT promedio $22.35 (rango $16-$27), lo que implica un upside teórico de ~45% desde el precio actual. HECHO: revisiones recientes incluyen Cantor Fitzgerald $17→$26 (Overweight), Needham $18→$23, Chardan $16→$19 (Buy), y Citizens iniciando cobertura con Outperform y PT $27, todas citando el pivote a AI/HPC colocation como catalizador (Investing.com, StocksToTrade, TipRanks, semana del 14-21 jul-2026). LECTURA: el consenso de analistas ya incorpora buena parte del re-rating por el deal de Sandersville; el guidance implícito de $22.35 deja margen pero exige que el pipeline de Texas se materialice para sostenerse, dado que gran parte de la revisión de targets ocurrió en la misma semana del anuncio (riesgo de sobre-reacción a una sola noticia corporativa).",
-    "tecnico": "HECHO: precio $15.38, +6.66% día, +18.04% semana (TradingView scanner, 22-jul-2026 03:44 ET). RSI 55.7 (zona neutral-alcista, sin sobrecompra), MACD -0.42 vs señal -0.60 (histograma positivo, cruce alcista reciente pero aún en territorio negativo absoluto). Precio está +9.24% sobre SMA20 ($14.08), +0.78% sobre SMA50 ($15.26) y +15.72% sobre SMA200 ($13.29) — alineación alcista de corto/mediano plazo. Volumen del día 28.5M vs promedio 20d 23.7M (ratio 1.2x, participación algo elevada pero no extrema). LECTURA: el rally reciente rompió la resistencia de SMA50 y confirma estructura técnica de recuperación, aunque el RSI aún neutral sugiere espacio antes de sobrecompra; el MACD negativo en términos absolutos indica que la tendencia de mediano plazo (últimas semanas previas al rally) seguía siendo bajista y recién se está revirtiendo, por lo que la señal es de 'cambio de tendencia en curso', no de tendencia alcista consolidada.",
-    "catalizadores": "**Catalizadores:**\n- HECHO: conversión del LOI de Texas (885MW/718 acres) en contrato firmado — sigue pendiente al 21-jul-2026 (TipRanks, StocksToTrade). LECTURA: sería el catalizador de mayor magnitud dado que replicaría o superaría la escala del deal de Georgia.\n- HECHO: operational update de julio-2026 (BTC minado, hashrate) esperado primeros días de agosto, previo a earnings (patrón histórico de la compañía).\n- HECHO: earnings Q3 FY26 ~11-ago-2026 (algunas fuentes citan 6-ago; fuentes difieren) — primer reporte que reflejará contablemente parte del impacto del lease de Sandersville.\n- HECHO: precio de BTC ~$65,858-66,509 (22-jul-2026, Yahoo Finance/Fortune), relevante para economía de minado y valorización de la tesorería de 13,924 BTC.\n\n**Riesgos (por materialidad):**\n- HECHO: short interest ~32-33% del float (TradingView/fuentes de julio-2026, consistente con el 33.04% de junio) — CLSK sigue siendo de las cripto-mineras más shorteadas por market cap, lo que puede amplificar movimientos en ambas direcciones (short squeeze al alza, pero también presión bajista rápida si el sentimiento gira).\n- LECTURA: el LOI de Texas no firmado es un riesgo de ejecución — el mercado ya podría estar descontando parcialmente su conversión a contrato; una demora o caída del acuerdo sería un catalizador negativo significativo dado el rally previo basado en esa narrativa.\n- HECHO: dependencia del precio de BTC para la economía del segmento de minería que aún genera la mayoría del revenue actual (el pivote a HPC/colocation recién comienza a materializarse en 2027 según cronograma del lease de Sandersville).\n- LECTURA: alta volatilidad histórica (ver risk.volatility_30d 86.52%) y correlación negativa reciente con BTC (relative_performance_30d -15.05%) sugieren que gran parte del movimiento de julio es idiosincrático (noticia corporativa) más que beta a cripto, lo que puede revertir si el mercado reevalúa el deal.",
-    "sentimiento": "HECHO: sentimiento de analistas fuertemente positivo tras el anuncio de Sandersville — múltiples upgrades de PT en la semana del 14-21 jul-2026 (Cantor Fitzgerald, Needham, Chardan, Citizens). HECHO: short interest se mantiene elevado (~32-33% del float), reflejando una base de posicionamiento bajista aún importante pese al rally. LECTURA: la combinación de upgrades de sell-side + short interest elevado configura un escenario de posible short squeeze adicional si se confirma el contrato de Texas, pero también de alta sensibilidad a cualquier decepción (guía conservadora en earnings, demora del LOI).",
-    "conclusion": "Nivel de confianza: media. CLSK atraviesa un re-rating impulsado por su pivote hacia colocation de IA/HPC, confirmado por el lease de Sandersville ($6.6-11.6B) y respaldado por múltiples upgrades de analistas (consenso Strong Buy, PT promedio $22.35). Sin embargo, el catalizador de mayor magnitud — el LOI de Texas de 885MW — permanece sin convertirse en contrato firmado once días después del anuncio inicial, y no hay datos operacionales de julio todavía que confirmen continuidad del momentum en minería. La confianza es media porque el precio técnico ($15.38) ya incorpora gran parte de la noticia positiva reciente (+18% en una semana), el short interest sigue muy elevado (~32-33%) y la volatilidad histórica de 86.5% anualizada exige cautela sobre la sostenibilidad del nivel actual sin nuevas confirmaciones contractuales u operacionales concretas."
+    "resumen": "CLSK cerró en $15.61 el 24-jul-2026 (+1.86% d/d), extendiendo el rally iniciado el 14-jul cuando anunció un lease de 20 años en su campus de Sandersville, Georgia, con un inquilino tecnológico global de grado de inversión no revelado, valorado en ~$6.6B de ingresos contratados (hasta $11.6B con extensiones) (HECHO: prnewswire.com, investors.cleanspark.com, 10/14-jul-2026). El mismo inquilino firmó una LOI de exclusividad sobre el portafolio completo de Texas (885MW, 718 acres), pero esta LOI **aún no se ha convertido en contrato firmado** al 25-jul-2026 (HECHO: blockspace.media, 21-jul-2026). La acción subió de un mínimo reciente de ~$12.15 (16-jul) a $15.61 (24-jul), con sesiones de +8-11% intradía en la semana del 20-21 jul (HECHO: fool.com, timothysykes.com). LECTURA: el mercado sigue re-rateando a CLSK como jugador de infraestructura AI/HPC más que minera pura de BTC, aunque persiste riesgo de ejecución sobre si el LOI de Texas se formaliza.",
+    "fundamental": "Sin operational update de julio 2026 publicado aún al 25-jul (HECHO: no se encontró comunicado posterior al de junio, fechado 7-jul-2026). Datos de junio: 614 BTC minados (20.46 BTC/día promedio, pico 22.57 BTC/día), hashrate operacional 50 EH/s (42.6 EH/s promedio del mes), 225,137 mineros desplegados, 1.8GW de potencia bajo contrato (808MW utilizados) (HECHO: prnewswire.com/AOL, 7-jul-2026). Resultados Q2 FY2026 (may-2026): ingresos $136.4M (-24.9% QoQ, vs. estimado $152.32M, miss de -10.45%), pérdida neta $378.3M, EPS -$1.52 (vs. estimado -$0.41), incluyendo ~$263M de ajuste mark-to-market por tenencia de BTC; margen bruto cayó a 40% desde 47% (HECHO: fool.com, finance.yahoo.com). LECTURA: la caída de ingresos refleja la baja del precio de BTC (de ~$100K a ~$76K promedio) en el trimestre; el pivote hacia leasing de infraestructura AI/HPC (Sandersville) introduce una fuente de ingresos contratados de mayor visibilidad y márgenes NOI cercanos al 100%, pero aún no se refleja en resultados reportados.",
+    "valuacion": "Market cap ~$4.01B (24-jul-2026, ~256.6M acciones). Tras el anuncio de Sandersville (14-jul), múltiples casas subieron precio objetivo: Needham PT $18→$23 (Buy, 15-jul-2026), Cantor Fitzgerald PT $17→$26 (Overweight, 15-jul-2026), BTIG reitera Buy PT $26, B. Riley reitera Buy PT $19 (HECHO: investing.com, benzinga.com). Consenso de analistas: rating agregado \"Strong Buy\"; el PT promedio difiere entre fuentes — stockanalysis.com reporta $19.69 (implica ~+26% sobre precio actual) mientras otra fuente previa citaba $22.35 sobre una base de 13 analistas; esta dispersión no se pudo reconciliar completamente y se declara como tal (LECTURA: probable diferencia en el conjunto de analistas incluidos o timing de actualización de cada casa). Zacks Rank #5 (Strong Sell) reportado por finance.yahoo.com el 23-jul-2026, contrastando con el consenso Strong Buy de sell-side — reflejando el criterio cuantitativo de revisiones de EPS negativas (guía trimestral -$0.29 EPS, anual -$3.19 EPS) vs. la narrativa cualitativa de re-rating por infraestructura AI. LECTURA: valuación en transición, el mercado está aplicando múltiplos de infraestructura contratada (18.5x EBITDA 2028E según Needham) en lugar de múltiplos tradicionales de minera BTC.",
+    "tecnico": "Ver bloque `technical` (calculado por workflow automático, TradingView, 24-jul-2026): precio $15.61 (+1.86% d/d, +19.8% semanal), RSI 56.8 (zona neutral-alcista), MACD -0.14 vs señal -0.46 con histograma positivo (cruce alcista reciente), cotizando por encima de SMA20 ($13.95, +11.86%), SMA50 ($15.31, +1.96%) y SMA200 ($13.29, +17.46%), volumen ratio 1.03x vs promedio 20 días. HECHO: estructura técnica de corto/mediano plazo alcista tras el breakout impulsado por el lease Sandersville; RSI aún no en sobrecompra.",
+    "catalizadores": "**Catalizadores:** conversión del LOI de Texas (885MW/718 acres) a contrato firmado — ventana estimada de \"30 a 120 días\" según la propia compañía (HECHO: blockspace.media, 21-jul-2026); publicación del operational update de julio 2026 (BTC minado, hashrate), aún pendiente al 25-jul, esperado en las próximas semanas; resultados Q3 FY26 ~11-ago-2026; evolución del precio de BTC (~$64,300-65,900 en la semana del 24-jul, con presión bajista por salidas de ETF spot y mayores yields del Tesoro, HECHO: finance.yahoo.com, fortune.com, 24-jul-2026). **Riesgos (por materialidad):** (1) LOI de Texas no es contrato vinculante — riesgo de ejecución si no se formaliza en el plazo indicado; (2) alto short interest (~33% del float en jun-2026 según fuentes más recientes, aunque cifras de fuentes distintas oscilan 32-46% con fechas dispares no siempre reconciliables, lo cual se declara como incertidumbre de dato); (3) dependencia estructural del precio de BTC para el negocio de minería (~40% margen bruto, sensible a precio spot); (4) alta volatilidad histórica (30d ~80.5%) y máximo drawdown 1a de -64.74%; (5) Zacks Rank #5 (Strong Sell) por revisiones negativas de EPS, en tensión con consenso sell-side Strong Buy — señal de posible desconexión entre fundamentales de corto plazo y narrativa de re-rating.",
+    "sentimiento": "Sentimiento de analistas sell-side fuertemente positivo tras el anuncio de Sandersville: múltiples upgrades de PT en la semana del 14-21 jul (Needham, Cantor Fitzgerald, BTIG, B. Riley, Citizens) (HECHO: investing.com, benzinga.com). Contraste notable con el Zacks Rank #5 (Strong Sell) reportado el 23-jul-2026, basado en revisiones de estimados de EPS a la baja (HECHO: finance.yahoo.com). Short interest elevado (~33% del float en la lectura más reciente, jun-2026) sugiere posicionamiento bajista significativo aún vigente pese al rally, lo que también implica riesgo de short squeeze adicional. LECTURA: sentimiento dividido entre narrativa estratégica (AI/HPC, muy positiva) y fundamentales de corto plazo/cuantitativos (negativos), típico de una acción en proceso de re-rating no confirmado por resultados reportados.",
+    "conclusion": "Confianza MEDIA. Tesis: CLSK está en un proceso de re-rating desde minera pura de BTC hacia proveedor de infraestructura AI/HPC, catalizado por el lease de Sandersville ($6.6-11.6B, firmado y HECHO) y potencialmente amplificado por el LOI de Texas (885MW, aún NO firmado — principal fuente de incertidumbre binaria en el corto plazo, con ventana de 30-120 días declarada por la propia empresa). La tesis es falsable en dos eventos fechados: (1) conversión o no del LOI de Texas a contrato firmado en las próximas semanas, y (2) el operational update de julio (pendiente) que mostrará si la producción/hashrate se mantiene en línea con junio. El consenso sell-side es Strong Buy con PTs recientes de $23-27, pero el Zacks Rank #5 (Strong Sell) y el miss de Q2 FY26 (EPS -$1.52 vs -$0.41 esperado) introducen tensión fundamental. Riesgo elevado por alta volatilidad (30d ~80%), drawdown histórico severo (-64.7% 1a) y short interest elevado en ambas direcciones (squeeze o profundización bajista). No se recomienda tratar el LOI de Texas como ingreso confirmado hasta ver contrato firmado."
   },
   "scores": {
     "tecnica": {
       "score": 62,
-      "just": "Estructura alcista de corto plazo confirmada (precio sobre SMA20/50/200, MACD cruzando al alza), pero RSI neutral y MACD aún negativo en términos absolutos indican que la reversión de tendencia es reciente y no está plenamente consolidada."
+      "just": "Ver bloque technical (auto). Estructura alcista de corto/mediano plazo: precio sobre SMA20/50/200, MACD con histograma positivo, RSI 56.8 en zona neutral-alcista sin sobrecompra. No alcanza 80+ por ausencia de confirmación en marcos más largos y volumen apenas en línea con el promedio (ratio 1.03x). HECHO: TradingView, 24-jul-2026."
     },
     "fundamental": {
       "score": 55,
-      "just": "Fundamentales de minería aún débiles (revenue -24.9% a/a, pérdida neta amplia en Q2 FY26) pero el lease de Sandersville añade $6.6-11.6B de revenue contractual futuro; el pivote a HPC es real pero de ejecución temprana y con impacto contable diferido a 2027."
+      "just": "Resultados Q2 FY26 débiles (ingresos -24.9%, pérdida neta $378.3M) y sin operational update de julio que confirme continuidad de producción/hashrate. Compensado parcialmente por el lease Sandersville que añade ingresos contratados de alta visibilidad y margen NOI ~100% a futuro, aunque aún no reflejado en resultados reportados. Valuación en transición entre múltiplos de minera BTC y de infraestructura contratada. Score medio, no alto, por dependencia de ejecución futura (LOI Texas) para justificar la narrativa completa."
     },
     "sentimiento": {
       "score": 70,
-      "just": "Consenso de analistas fuertemente positivo con múltiples upgrades recientes (Cantor, Needham, Chardan, Citizens) y momentum de precio fuerte; contrapesado por short interest muy elevado (~32-33% del float) que añade ruido bidireccional."
+      "just": "Sentimiento sell-side fuertemente positivo (Strong Buy consenso, múltiples upgrades de PT 14-21 jul), pero matizado por Zacks Rank #5 Strong Sell (revisiones EPS negativas, 23-jul) y short interest elevado (~33%). Balance neto positivo por el peso de las upgrades recientes y el catalizador estructural, pero no en el extremo alto por la señal cuantitativa contraria."
     },
     "riesgo": {
       "score": 35,
-      "just": "Volatilidad 30d de 86.52% anualizada, Sharpe/Sortino negativos (-0.37), max drawdown 1Y de -64.74% y LOI de Texas aún no firmado configuran un perfil de riesgo alto pese al rally reciente; score bajo refleja riesgo elevado, no atractivo de riesgo-retorno."
+      "just": "Ver bloque risk (auto): volatilidad 30d 80.52%, Sharpe -0.38, Sortino -0.37, máximo drawdown 1a -64.74%. Riesgo ALTO bien acotado y cuantificado: alta volatilidad histórica, dependencia de BTC, LOI Texas no vinculante, short interest elevado en ambas direcciones. Score bajo (=riesgo alto) refleja adecuadamente estos factores medibles."
     },
     "conviccion": {
       "score": 58,
-      "just": "Convicción media: la tesis de pivote a AI/HPC colocation está mejor validada tras el contrato firmado de Sandersville, pero la falta de confirmación del deal de Texas y la ausencia de datos operacionales de julio mantienen incertidumbre material de cara a earnings del 11-ago-2026."
+      "just": "Catalizadores fechados (LOI Texas 30-120 días, operational update julio pendiente, earnings ~11-ago) y asimetría alcista si el LOI se formaliza (PTs hasta $26-27), con tesis falsable en eventos concretos de corto plazo. No alcanza 80+ porque el catalizador principal (Texas) sigue sin confirmarse y hay señales fundamentales mixtas (Zacks Strong Sell vs consenso sell-side Strong Buy) que introducen incertidumbre no resuelta."
     }
   },
   "sources": [
-    "https://timothysykes.com/news/cleanspark-inc-clsk-news-2026_07_21-2/",
-    "https://stockstotrade.com/news/cleanspark-inc-clsk-news-2026_07_20/",
-    "https://www.tipranks.com/news/company-announcements/cleanspark-secures-transformational-long-term-data-center-lease",
     "https://www.prnewswire.com/news-releases/cleanspark-secures-twenty-year-lease-with-high-investment-grade-global-technology-company-for-data-center-in-sandersville-georgia-302824483.html",
-    "https://www.stocktitan.net/news/CLSK/clean-spark-releases-june-2026-operational-yk1a6nx9uj7q.html",
+    "https://investors.cleanspark.com/news/news-details/2026/CleanSpark-Secures-Twenty-Year-Lease-with-High-Investment-Grade-Global-Technology-Company-for-Data-Center-in-Sandersville-Georgia/default.aspx",
+    "https://blockspace.media/insight/cleanspark-sandersville-data-center-lease-agreement/",
     "https://www.prnewswire.com/news-releases/cleanspark-releases-june-2026-operational-update-302819318.html",
+    "https://www.stocktitan.net/news/CLSK/clean-spark-releases-june-2026-operational-yk1a6nx9uj7q.html",
+    "https://news.bitcoin.com/cleanspark-adds-454-bitcoin-treasury-13924-btc/",
+    "https://www.gncrypto.news/news/cleanspark-buys-454-btc-treasury-13924-btc/",
+    "https://www.investing.com/news/analyst-ratings/needham-raises-cleanspark-stock-price-target-on-data-center-lease-93CH-4793232",
     "https://www.investing.com/news/analyst-ratings/cantor-fitzgerald-raises-cleanspark-stock-price-target-on-data-center-shift-93CH-4793280",
-    "https://stockanalysis.com/stocks/clsk/forecast/",
+    "https://www.benzinga.com/trading-ideas/movers/26/07/60472578/cleanspark-stock-continues-to-climb-whats-happening",
+    "https://www.fool.com/investing/2026/07/20/why-cleanspark-stock-surged-almost-11-higher-today/",
+    "https://sg.finance.yahoo.com/news/cleanspark-clsk-increases-despite-market-215006679.html",
+    "https://finance.yahoo.com/markets/stocks/articles/cleanspark-clsk-down-8-5-051126452.html",
+    "https://finance.yahoo.com/markets/crypto/articles/cleanspark-short-interest-climbs-33-013200151.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-24-2026-crypto-prices-retreat-on-higher-us-treasury-yields-152200068.html",
     "https://www.investing.com/equities/cleanspark-earnings",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-july-22-2026-both-cryptos-open-higher-before-losing-steam-153454067.html",
-    "https://companiesmarketcap.com/eur/cleanspark/marketcap/",
-    "https://www.tradingview.com/symbols/NASDAQ-CLSK/"
+    "https://stockanalysis.com/stocks/clsk/forecast/",
+    "https://stockinvest.us/stock/CLSK"
   ],
-  "change": {
-    "day": 6.66,
-    "week": 18.04
-  },
   "events": [
     {
       "date": "2026-08-11",
-      "label": "Resultados Q3 FY26 (rango 6-11 ago; fuentes difieren)",
+      "label": "Resultados Q3 FY26 (consenso mayoritario; alguna fuente aislada cita 6-ago)",
       "kind": "earnings"
     },
     {
+      "date": "2026-07-14",
+      "label": "Anuncio del lease de 20 años en Sandersville, Georgia (~$6.6B-$11.6B ingresos contratados) más LOI de exclusividad Texas 885MW",
+      "kind": "corporate"
+    },
+    {
       "date": "2026-07-21",
-      "label": "Rally continuo tras lease Sandersville: +18% acumulado en 4 sesiones",
+      "label": "Rally continuo tras lease Sandersville: acción sube de ~$12.15 (16-jul) a ~$15.6-15.7 (21-24 jul)",
       "kind": "corporate"
     },
     {
       "date": "2026-08-01",
-      "label": "Operational update de julio 2026 esperado (BTC minado, hashrate) — aún no publicado al 22-jul",
+      "label": "Operational update de julio 2026 esperado (BTC minado, hashrate) — aún no publicado al 25-jul",
       "kind": "corporate"
     }
   ],
   "risk": {
-    "volatility_30d": 86.52,
-    "sharpe": -0.37,
+    "volatility_30d": 80.52,
+    "sharpe": -0.38,
     "sortino": -0.37,
     "max_drawdown_1y": -64.74,
-    "n_days": 301,
+    "n_days": 303,
     "window": 30
   },
   "benchmark": {
     "ticker": "CRYPTO:BTCUSD",
     "label": "Bitcoin",
-    "relative_performance_30d": -15.05,
-    "relative_performance_ytd": 72.95,
-    "price_percentile_1y": 47.3,
+    "relative_performance_30d": -10.01,
+    "relative_performance_ytd": 75.54,
+    "price_percentile_1y": 48.8,
     "partial": false
   },
   "technical": {
-    "price": 15.38,
-    "change_1d_pct": 6.66,
-    "change_1w_pct": 18.04,
-    "rsi": 55.7,
-    "macd": -0.4203,
-    "macd_signal": -0.6021,
-    "sma20": 14.079,
-    "sma50": 15.2616,
-    "sma200": 13.2905,
-    "ema12": 13.8965,
-    "ema26": 14.3168,
-    "pct_vs_sma20": 9.24,
-    "pct_vs_sma50": 0.78,
-    "pct_vs_sma200": 15.72,
-    "volume_today": 28482932,
-    "volume_avg20": 23733681.0,
-    "volume_ratio": 1.2,
-    "volatility_30d": 86.52,
-    "sharpe": -0.37,
+    "price": 15.61,
+    "change_1d_pct": 1.86,
+    "change_1w_pct": 19.8,
+    "rsi": 56.8,
+    "macd": -0.1357,
+    "macd_signal": -0.4565,
+    "sma20": 13.9547,
+    "sma50": 15.3103,
+    "sma200": 13.2898,
+    "ema12": 14.3461,
+    "ema26": 14.4818,
+    "pct_vs_sma20": 11.86,
+    "pct_vs_sma50": 1.96,
+    "pct_vs_sma200": 17.46,
+    "volume_today": 24116490,
+    "volume_avg20": 23423403.0,
+    "volume_ratio": 1.03,
+    "volatility_30d": 80.52,
+    "sharpe": -0.38,
     "sortino": -0.37,
     "max_drawdown_1y": -64.74,
-    "price_percentile_1y": 47.3,
-    "vs_benchmark_30d_pct": -15.05,
-    "perf_1m_pct": -11.2,
-    "perf_ytd_pct": 47.96
+    "price_percentile_1y": 48.8,
+    "vs_benchmark_30d_pct": -10.01,
+    "perf_1m_pct": -5.74,
+    "perf_ytd_pct": 50.17
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-07-22T03:44:05-04:00"
+      "fetched_at": "2026-07-24T03:43:19-04:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-07-22T03:44:05-04:00"
+      "fetched_at": "2026-07-24T03:43:19-04:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-07-22T03:44:05-04:00"
+      "fetched_at": "2026-07-24T03:43:19-04:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CRYPTO:BTCUSD",
-      "fetched_at": "2026-07-22T03:44:05-04:00"
+      "fetched_at": "2026-07-24T03:43:19-04:00"
     },
     "risk_metrics": {
       "origin": "data/history/CLSK.json",
-      "n_days": 301
+      "n_days": 303
     }
   },
-  "metricChanges": []
+  "metricChanges": [],
+  "reportDate": "25 de julio de 2026"
 }

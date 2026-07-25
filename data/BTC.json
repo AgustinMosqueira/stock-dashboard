@@ -4,161 +4,181 @@
   "statsList": [
     [
       "Precio",
-      "$65,672 (22-jul-2026)"
+      "$65,349 (24-jul-2026)"
     ],
     [
       "Rango 52 sem.",
-      "$57,833 – $126,198"
+      "$57,833 – $126,198 (mín. jun-2026, ATH oct-2025; Seeking Alpha/Fortune, jul-2026)"
     ],
     [
       "Market cap",
-      "$1.32T aprox. (dominancia 56.3-56.7% s/ $2.28-2.33T cripto total, jul-2026)"
+      "~$1.30T (Forbes/YCharts, 24-jul-2026)"
     ],
     [
       "Dominancia BTC",
-      "56.3-56.7% (TradingView Hub/Cryptonomist, 21-22-jul-2026)"
+      "56.3% (TradingView Hub, 24-jul-2026); mkt cap cripto total ~$2.28-2.33T"
     ],
     [
       "Flujos ETF spot",
-      "5-6 sesiones consecutivas positivas hacia el 21-22-jul (~$727.3M acumulado en 5 días, mejor sesión +$226.9M); semana 13-17-jul liderada por IBIT (+$204.1M), FBTC con mayor salida (-$181.1M)"
+      "Racha de 7 sesiones positivas (14-22 jul, ~$999M) cortada el 23-jul con -$225.1M (Yahoo Finance/CryptoSlate/Decrypt, 23/24-jul-2026)"
     ],
     [
       "Próximo evento",
-      "FOMC 28-29-jul-2026 (decisión de tasas, comunicado 2pm ET del 29-jul; mercado asigna 82-93% a mantener tasas sin cambios)"
+      "FOMC 28-29-jul-2026"
     ],
     [
       "Técnico (auto)",
-      "RSI 57.2 · MACD +561.49 / señal +195.72 (TradingView, 22-jul-2026)"
+      "RSI 55.2 · MACD +580.74 / señal +337.83 (TradingView, 24-jul-2026)"
     ]
   ],
+  "change": {
+    "day": 0.44,
+    "week": 1.02
+  },
   "sections": {
-    "resumen": "BTC cotiza en ~$65,672-66,500, sosteniendo el rebote de las últimas semanas tras el piso de fines de junio (~$57,833-58,000). Sigue -43/-47% desde el ATH de $126,198 (oct-2025). El dato más relevante de la semana es la racha de ETFs: 5-6 sesiones consecutivas con flujos netos positivos hacia el 21-22-jul, acumulando ~$727.3M, la mejor racha desde antes de las salidas masivas de mayo-junio (aunque el año sigue en salidas netas récord, superiores a $4.5B en junio). Ballenas y holders grandes continúan acumulando (~270,000 BTC en 30 días según on-chain), mientras las reservas en exchanges tocan un nuevo mínimo de 7 años (~2.21M BTC). LECTURA: el rebote gana tracción y se ve reforzado por flujos institucionales, pero persiste sin confirmarse como piso de ciclo definitivo; el consenso de analistas sigue proyectando el fondo del ciclo post-halving hacia octubre 2026 (ventana 4-17 oct), con estimaciones de precio entre $40K y $55K en el peor escenario — es decir, el mercado no descarta una nueva pierna bajista antes de un giro estructural.",
-    "fundamental": "HECHO: la dificultad de minado cayó ~5% a 127.17T el 11-jul-2026, y el hashrate de red retrocedió desde ~986 EH/s a ~908 EH/s en apenas 10 días (-7.9%), quedando por debajo del nivel de referencia de la semana pasada (~921-923 EH/s) (fuente: agregadores on-chain, 11-21-jul-2026). LECTURA: la caída de hashrate sugiere que mineros menos eficientes están capitulando ante un hashprice comprimido (~$31/PH/s/día, cercano a breakeven), lo cual históricamente ha coincidido con fases de estrés de ciclo, no necesariamente con techos o pisos inmediatos de precio.\n\nHECHO: MVRV ratio se mantiene en 1.19 y el MVRV Z-Score en 0.37-0.39, zona técnicamente de infravaloración relativa (fuente: Glassnode/CryptoQuant vía agregadores, jul-2026). LECTURA: en ciclos previos, un MVRV Z-Score bajo 0.5 ha coincidido con zonas de acumulación de mediano plazo, aunque no garantiza un piso inmediato.\n\nHECHO: las reservas de BTC en exchanges alcanzaron un nuevo mínimo de 7 años, ~2.21M BTC (fuente: CryptoQuant, jul-2026). Los holders de 1,000-10,000 BTC (ballenas) continúan acumulando, sumando ~270,000 BTC en los últimos 30 días según datos on-chain, mientras cohortes medianas (100-1,000 BTC) mantienen presión distributiva neta más moderada que en el informe anterior.\n\nHECHO: Strategy (ex-MicroStrategy, MSTR) confirma 843,775 BTC al 19-jul-2026, sin nuevas compras por segunda semana consecutiva; la empresa realizó una venta de acciones MSTR (no de BTC) vía programa ATM por $263.5M para reforzar su reserva de dividendos preferentes (fuente: comunicados corporativos/agregadores, 19-21-jul-2026). Una fuente aislada (TronWeekly) sugirió una posible venta parcial de BTC, pero no fue corroborada por el resto de medios especializados — se trata con cautela y no se incorpora como hecho confirmado.\n\nHECHO: Metaplanet mantiene sus 43,000 BTC (2,823 BTC comprados en 2T-2026 a precio promedio $78,872), consolidándose como la 3ra mayor tenedora corporativa de BTC del mundo (fuente: informes corporativos, jul-2026). El 2T-2026 fue trimestre récord de acumulación corporativa agregada: ~110,000 BTC comprados por empresas públicas, llevando el total de holdings corporativos globales a >1.26M BTC. Otros tesoreros activos: American Bitcoin Corp (8,000 BTC) y Strive (19,900 BTC).",
-    "valuacion": "BTC opera a ~$65,672, un -47.9% respecto al ATH de $126,198 (6-oct-2025) y aproximadamente -9.65% por debajo de su SMA200 diaria ($72,690), aunque +2.62% sobre su SMA20 ($63,998) y +4.12% sobre su SMA50 ($63,071), consistente con un rebote de corto plazo dentro de una tendencia de mediano plazo aún débil. El precio ronda su media móvil de 200 semanas (estimada en $62-63K a fines de junio), zona que en ciclos anteriores ha funcionado como soporte estructural de fondo de ciclo — a fines de junio BTC cerró una semana bajo esa media por primera vez en 4 años, y el rebote actual lo ubica de nuevo cerca o ligeramente por encima de ella, aunque no hay confirmación directa fechada al 22-jul de esta relación exacta. MVRV Z-Score de 0.37-0.39 sugiere valuación on-chain relativamente comprimida respecto a ciclos previos, en línea con targets institucionales de mediano plazo que van de $100K (Standard Chartered) a $170K (JPMorgan), pasando por $143K (Citi) y $150K (Bernstein) — todos ellos implican upside sustancial desde niveles actuales, condicionado a que el ciclo confirme un piso y retome tendencia alcista post-Q4 2026.",
-    "tecnico": "HECHO: precio $65,672.07 (technical, TradingView, 22-jul-2026); RSI 57.2 (zona neutral, sin sobrecompra/sobreventa); MACD +561.49 sobre señal +195.72, divergencia positiva sostenida. Otras lecturas de mercado (Yahoo Finance/agregadores) sitúan RSI diario en ~58.05 y MACD diario en +377.62, confirmando el mismo sesgo neutral-alcista con metodología distinta. Precio +2.62% sobre SMA20, +4.12% sobre SMA50, -9.65% bajo SMA200 ($72,690) — estructura de recuperación de corto/mediano plazo dentro de tendencia de largo plazo aún negativa. EMA12 ($64,645) sobre EMA26 ($64,083), cruce alcista de corto plazo vigente.\n\nLECTURA: niveles técnicos de referencia citados por analistas: soporte inmediato ~$65,488 (S1), pivote ~$66,114, resistencia inmediata ~$66,527 (R1); soporte estructural más relevante en la zona $57,800-60,000 (mínimo de ciclo de fines de junio) y resistencia mayor en la SMA200 ($72,690) y luego en $74,000 (zona de EMA200 diaria según otra fuente). Mientras BTC no recupere de forma sostenida la SMA200, el rebote se lee como técnico dentro de una estructura de mediano plazo débil, no como cambio de tendencia confirmado.",
-    "catalizadores": "**Catalizadores:**\n- FOMC 28-29-jul-2026: decisión de tasas con probabilidad 82-93% de mantener el rango actual (3.50-3.75%) según mercados de futuros; una sorpresa dovish (recorte o guidance más laxo) sería el catalizador alcista de más peso en las próximas dos semanas.\n- Racha de flujos ETF positivos (5-6 sesiones consecutivas, ~$727.3M acumulado hacia el 21-22-jul): si se sostiene, revertiría la narrativa de salidas netas récord del 2T y podría atraer flujo momentum adicional.\n- CLARITY Act: avance reportado el propio 22-jul, con el secretario del Tesoro Bessent señalando que el proceso está en \"yarda 1\" (etapa inicial); mercados de predicción muestran alta volatilidad en la probabilidad de aprobación (oscilando entre 33% y 61%). Ventana crítica: antes del receso de agosto del Senado (~7-8 ago).\n- Reservas de exchanges en mínimo de 7 años (~2.21M BTC) y acumulación sostenida de ballenas (~270,000 BTC en 30 días): reduce oferta líquida disponible, catalizador estructural de mediano plazo.\n- Récord trimestral de acumulación corporativa (2T: ~110,000 BTC comprados por empresas públicas): sostiene demanda institucional aun con Strategy en pausa.\n\n**Riesgos (por materialidad):**\n1. Caída de hashrate (-7.9% en 10 días, a ~908 EH/s) y hashprice cerca de breakeven (~$31/PH/s/día): señal de estrés minero que históricamente puede preceder mayor volatilidad de precio.\n2. Riesgo geopolítico/macro: tensión EE.UU.-Irán (petróleo >$80/barril) y crisis crediticia en Corea del Sur (KOSPI -5%, liquidaciones masivas en Upbit) ya empujaron BTC bajo $64,000 días atrás — riesgo de repetición si se reactivan.\n3. CLARITY Act podría no aprobarse antes del receso de agosto del Senado, prolongando la incertidumbre regulatoria en EE.UU.\n4. Consenso de ciclo post-halving sigue apuntando a un piso recién en octubre 2026, con escenarios bajistas de analistas ubicando precio entre $40K-55K — el rebote actual podría ser un contramovimiento dentro de una tendencia bajista de ciclo aún no agotada.\n5. FOMC hawkish sorpresa (mantener tasas con tono restrictivo) podría cortar el apetito por riesgo justo cuando los flujos ETF empiezan a revertir.",
-    "sentimiento": "HECHO: Fear & Greed Index muestra dispersión notable entre proveedores al 22-jul-2026: Cryptonomist reporta 33 (\"Fear\"), mientras Milkroad/CFGI reportan 49-53 (\"Neutral\"), frente al 29 (\"Fear\") registrado el 20-jul en el informe anterior. LECTURA: independientemente de la metodología exacta, la tendencia es de recuperación gradual del sentimiento desde niveles de miedo extremo de inicios de julio, aunque sin llegar aún a zona de \"Greed\".\n\nHECHO: dominancia BTC 56.3-56.7% sobre un mercado cripto total de $2.28-2.33T (TradingView Hub/Cryptonomist, 21-22-jul-2026), estable respecto a la semana anterior. LECTURA: BTC mantiene su rol de activo refugio relativo dentro del cripto-mercado, sin señales de rotación agresiva hacia altcoins que typically acompañaría una fase de \"greed\" generalizada.\n\nHECHO: MVRV 1.19 / Z-Score 0.37-0.39, reservas de exchanges en mínimo de 7 años (~2.21M BTC), hashrate cayendo -7.9% en 10 días a ~908 EH/s con hashprice cerca de breakeven. LECTURA: métricas on-chain mixtas — la compresión de MVRV y las bajas reservas en exchanges sugieren base de holders de largo plazo fortalecida, mientras el estrés minero (hashrate/hashprice) introduce una señal de cautela que contrasta con el optimismo de los flujos ETF.\n\nHECHO: FOMC 28-29-jul-2026 aún no ha ocurrido (es la próxima semana); mercado de futuros asigna 82-93% de probabilidad a mantener tasas sin cambios en 3.50-3.75%. LECTURA: el mercado cripto probablemente opere en modo de espera/baja convicción direccional hasta conocer el resultado y el tono del comunicado del 29-jul.\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 15-jul-2026 | +$132.3M aprox. | 4to día consecutivo positivo de la racha iniciada a mediados de semana (IBIT liderando) |\n| 16-jul-2026 | +$75-90M aprox. | Continuidad de flujos positivos, semana 13-17-jul cerró con +$75.7M neto total |\n| 17-jul-2026 | +$132.3M | Cierre de semana con IBIT +$204.1M acumulado semanal; FBTC con mayor salida semanal (-$181.1M) |\n| 20-jul-2026 | +$227M (CryptoTimes) | Reporte de flujo diario fuerte, retomando impulso tras el fin de semana |\n| 21-jul-2026 | Positivo (5ta-6ta sesión consecutiva) | Acumulado de ~$727.3M en 5 sesiones consecutivas hacia esta fecha |\n| 22-jul-2026 | Mejor sesión de la racha: +$226.9M | Mejor día individual de flujo neto de la racha reciente (fuente: agregadores ETF, ej. Farside/SoSoValue vía prensa especializada) |\n\nNota metodológica: los proveedores de datos de flujos ETF (Farside Investors, SoSoValue, CryptoTimes, Cryptonomist) presentan cifras diarias con pequeñas discrepancias por husos horarios de cierre y metodología de conteo (T+1 vs T+2); se reportan los valores más citados por la prensa especializada al 22-jul.\n\n**Flujos institucionales**\n\nHECHO: Strategy (MSTR) confirma 843,775 BTC al 19-jul-2026, sin compras adicionales por 2 semanas consecutivas; realizó una emisión de acciones MSTR vía ATM por $263.5M destinada a reforzar la reserva de efectivo para dividendos preferentes, no a comprar BTC (fuente: comunicados corporativos, 19-21-jul-2026). LECTURA: la pausa se mantiene, señal de disciplina de balance más que de pérdida de convicción, dado que no hay evidencia corroborada de venta de bitcoin (una fuente aislada, TronWeekly, sugirió lo contrario sin respaldo del resto de la prensa especializada).\n\nHECHO: Metaplanet sostiene sus 43,000 BTC tras la compra de 2,823 BTC en 2T-2026 a $78,872 promedio, consolidándose como 3ra mayor tenedora corporativa global (fuente: informes corporativos, jul-2026). El 2T-2026 fue récord de acumulación corporativa agregada (~110,000 BTC comprados por empresas públicas), con holdings corporativos globales superando 1.26M BTC. American Bitcoin Corp (8,000 BTC) y Strive (19,900 BTC) se suman a la lista de tesoreros activos.\n\n**Actividad de ballenas y flujos on-chain**\n\nHECHO: ballenas (holders de 1,000-10,000 BTC) acumularon ~270,000 BTC en los últimos 30 días; ~50% del \"realized cap\" de la red corresponde ahora a holders grandes relativamente nuevos (fuente: análisis on-chain, jul-2026). Reservas en exchanges en mínimo de 7 años (~2.21M BTC). LECTURA: la combinación de acumulación de ballenas y salida sostenida de BTC de exchanges apunta a una base de oferta cada vez más ilíquida e inmovilizada en manos fuertes, factor estructuralmente alcista de mediano-largo plazo si se mantiene, aunque no impide correcciones de corto plazo lideradas por flujos macro/ETF.",
-    "conclusion": "BTC consolida un rebote técnico desde el piso de fines de junio (~$57,833-58,000) hacia ~$65,672-66,500, reforzado esta semana por una racha de 5-6 sesiones consecutivas de flujos ETF positivos (~$727.3M acumulados) y por métricas on-chain constructivas (reservas de exchange en mínimo de 7 años, acumulación de ballenas ~270,000 BTC en 30 días, MVRV Z-Score en zona de infravaloración). Sin embargo, persisten señales mixtas: el hashrate cayó -7.9% en 10 días con hashprice cerca de breakeven, y el consenso de ciclo post-halving sigue proyectando el piso definitivo recién hacia octubre de 2026, con escenarios bajistas de $40-55K aún sobre la mesa. El FOMC del 28-29-jul (probabilidad 82-93% de mantener tasas) y el desenlace del CLARITY Act antes del receso de agosto del Senado son los catalizadores binarios más próximos. NIVEL DE CONFIANZA: media — los datos de flujos ETF y on-chain son consistentes y alcistas de corto plazo, pero persisten discrepancias entre fuentes (Fear & Greed, hashrate, y una mención no corroborada sobre venta de BTC por Strategy) que aconsejan prudencia, además de que el mercado sigue a la espera de dos catalizadores macro/regulatorios de alto impacto aún no resueltos."
+    "resumen": "BTC cotiza en $65,349 (24-jul-2026, TradingView), -48.2% desde el ATH de $126,198 (oct-2025) y +12.9% desde el piso de ciclo ~$57,833 (fin-jun-2026). HECHO: la racha de 7 sesiones consecutivas de inflows en ETFs spot (14 al 22-jul, ~$999M acumulados, liderada por IBIT con ~$319M solo esa semana) se cortó el 23-jul con -$225.1M de salida neta, la primera sesión negativa desde el 13-jul (Yahoo Finance, CryptoSlate, Decrypt, Cryptonomist, 23/24-jul-2026). HECHO: el viernes 24-jul el precio retrocedió (-1.6% en la apertura) por subida de yields del Tesoro de EE.UU., tensiones renovadas EE.UU.-Irán y encarecimiento del petróleo, que restaron apetito por riesgo (Yahoo Finance, 24-jul-2026). LECTURA: Blockworks Research (vía CryptoTimes, 24-jul-2026) identifica señales raras de sobreventa —RSI suavizado Nasdaq/BTC en 72.6, máximo histórico, y precio spot ~18% por encima del precio realizado (~$53,000)— que en ciclos previos (2014, 2018, 2022) precedieron mínimos de mercado, proyectando un piso hacia fines de noviembre-2026 (muestra estadística pequeña, no verificable con certeza). Reservas de exchanges en mínimo de 7 años (~2.2M BTC) y ballenas de 1,000-10,000 BTC acumulando ~66,700 BTC en 60 días hasta el 19-jul, mientras holders medianos (100-1,000 BTC) distribuyeron ~77,800 BTC en el mismo periodo (Blockonomi/CryptoBriefing, 19-20-jul-2026): señal mixta de rotación de manos débiles a fuertes, no de demanda neta agregada.",
+    "fundamental": "HECHO: dificultad de minado cayó 5% a 127.17T el 11-jul-2026 (14º ajuste del año), con hashrate cayendo 7.9% en 10 días a ~908 EH/s, 21.3% por debajo del pico de oct-2025 (1,154 EH/s) (Bitcoin.com/GNCrypto, 11-jul-2026). LECTURA: la presión sobre mineros persiste — hashprice subió 12.5% a $31.1/PH/s pero sigue 37.2% bajo su pico de oct-2025, patrón de \"máximos decrecientes\" en dificultad durante todo 2026 (dato no actualizado desde 11-jul, sin confirmación de rebote posterior). HECHO: MVRV Z-Score en 0.37-0.39 y MVRV ratio en 1.19 (al 13-jul-2026, KuCoin/AhaSignals), zona históricamente asociada a acumulación de ciclo; LTH-MVRV 1.29 vs STH-MVRV 0.84, indicando que holders de largo plazo aún conservan ganancias no realizadas relevantes, lo que según analistas sugiere que el bear market aún podría no haber tocado fondo definitivo (KuCoin, jul-2026). HECHO: Strategy (MicroStrategy) mantiene 843,775 BTC sin nuevas compras desde principios de julio, redirigiendo capital a reservas USD ($2.55B) y un programa de recompra de deuda digital de $1B, posible señal de gestión defensiva de balance más que de convicción reducida (Yahoo Finance, jul-2026). HECHO: Metaplanet compró 2,823 BTC por $225M en 2T-2026 (precio promedio $78,872/BTC, por encima del spot actual), llevando su tesorería a 43,000 BTC, tercer mayor holder corporativo público tras Strategy y Twenty One Capital (Coindesk/Cryptonomist, 2-jul-2026).",
+    "valuacion": "BTC cotiza -48.2% vs ATH ($126,198, oct-2025) y +12.9% vs piso de ciclo ($57,833, jun-2026). HECHO: precio realizado on-chain ronda $53,000, ~18% por debajo del spot (Blockworks/CryptoTimes, 24-jul-2026), consistente con MVRV ratio 1.19. LECTURA: el precio se ubica bajo la SMA200 (-9.76%, technical), soporte estructural técnico $57,800-64,150 y resistencia en banda $67,200-68,000 (Yahoo Finance, 24-jul-2026). Targets institucionales previos ($100K-$170K) requieren confirmación de reversión de tendencia de hashrate y ETF flows sostenidos; no verificable con la información disponible si siguen vigentes tras el retroceso del 23-24 jul.",
+    "tecnico": "RSI 55.2, MACD +580.74 > señal +337.83, precio sobre SMA20 (+1.7%) y SMA50 (+3.52%) pero bajo SMA200 (-9.76%), EMA12>EMA26 (dato técnico auto, TradingView, 24-jul-2026). LECTURA: soporte técnico inmediato en $64,150-64,950, resistencia en $67,200-68,000 (Yahoo Finance, 24-jul-2026); soporte estructural mayor $57,800-60,000.",
+    "catalizadores": "**Catalizadores:** FOMC 28-29-jul (mercado descuenta ~75-93% prob. de mantener 3.50-3.75%, sin dot plot en esta reunión — dato pendiente de confirmación real, aún no ha ocurrido al momento de este informe; Polymarket/FedRateCalc, jul-2026); posible reanudación de flujos ETF positivos si se estabilizan yields; CLARITY Act con votación plena de Senado en calendario (Calendar No. 423), impulsada por la senadora Lummis para cerrarla antes del receso — deadline de facto 10-ago (working days desde 13-jul); reservas de exchanges en mínimo de 7 años; señales de sobreventa histórica (RSI Nasdaq/BTC en máximo histórico) que analistas de Blockworks asocian a proximidad de piso de ciclo. **Riesgos (por materialidad):** tensiones geopolíticas EE.UU.-Irán y encarecimiento del petróleo presionando yields y activos de riesgo (materializado 23-24 jul, HECHO); posible sorpresa hawkish del FOMC; CLARITY Act aún requiere superar filibuster de 60 votos con 3 disputas activas sin resolver entre demócratas, riesgo de no aprobarse antes del receso; caída de hashrate/dificultad de minado (-7.9%/10d) como señal de estrés en el sector minero; LTH-MVRV elevado sugiere que el ciclo bajista podría no haber tocado fondo (proyección de piso hacia nov-2026, no verificable); reversión de racha ETF (-$225M el 23-jul) podría anticipar rotación de flujos si persiste.",
+    "sentimiento": "El Fear & Greed Index de cripto mostró alta dispersión en julio: extrema fear (11-24) a inicio de mes, recuperando a neutral 46-53 hacia el 22-24-jul según distintos proveedores (CFGI.io, Milk Road, BitDegree, jul-2026) — LECTURA: sentimiento mejorando pero aún no en codicia, consistente con mercado que sale de sobreventa sin euforia. Dominancia BTC estable en 56.3% (TradingView Hub, 24-jul-2026), sin señal de rotación fuerte hacia altcoins. HECHO: la racha de 7 días de inflows ETF (14-22 jul) se revirtió el 23-jul con -$225.1M, liderada por salidas de IBIT (~$202.5M, ~90% del total), mientras Fidelity, Bitwise, ARK y WisdomTree también registraron salidas menores y solo Morgan Stanley (MSBT) tuvo entrada marginal (+$5.0M) (CryptoSlate/FinanceFeeds, 23-jul-2026). El detalle diario y flujos institucionales/ballenas se documentan a continuación.\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 14-jul-2026 | +$181.1M | Reinicio de racha positiva tras salida de $424.7M el 13-jul, la mayor del mes (CoinGlass vía Yahoo Finance) |\n| 15-jul-2026 | +$107.8M | Segunda sesión consecutiva de entradas netas |\n| 16-jul-2026 | +$79.2M | IBIT +$33.4M, FBTC +$30.7M, ARKB flujo neto nulo (The Market Periodical) |\n| 17-jul-2026 | +$132.3M | Cuarta sesión consecutiva positiva |\n| 20-jul-2026 | +$226.9M | IBIT +$116.5M; BTC supera $66,000 en las dos sesiones más fuertes de la racha |\n| 21-jul-2026 | +$203.1M | IBIT +$163.9M |\n| 22-jul-2026 | +$69.1M | Séptima sesión consecutiva; IBIT +$38.8M, FBTC +$21.5M, BITB +$5.4M; racha semanal acumula ~$999M-$1.0B, la más larga en 11 semanas (Bloomingbit/247WallSt) |\n| 23-jul-2026 | -$225.1M | Fin de la racha; IBIT -$202.5M (~90% del total), FBTC -$5.6M, BITB -$7.0M, ARKB -$4.3M, WisdomTree -$5.1M, MSBT (Morgan Stanley) +$5.0M. Coincide con tensiones EE.UU.-Irán y BTC perforando brevemente $65,000 (CryptoSlate, Decrypt, FinanceFeeds) |\n\nNota metodológica: existe discrepancia menor entre fuentes sobre si el cierre negativo corresponde estrictamente al 23-jul (fecha de operación, mayoría de fuentes) o se reporta con fecha de publicación 24-jul (Cryptobriefing cita -$240.1M); se usa el consenso mayoritario de 6+ fuentes independientes (-$225.1M, 23-jul) — declarado explícitamente por la posible ambigüedad de \"trade date\" vs \"report date\".\n\n**Institucionales (tesoreros corporativos):** HECHO: Strategy (ex-MicroStrategy) mantiene 843,775 BTC sin compras nuevas reportadas desde principios de julio, con foco en fortalecer reservas de efectivo ($2.55B) y un programa de recompra de deuda digital de $1B — posible pausa táctica más que señal bajista de convicción (Yahoo Finance, jul-2026). HECHO: Metaplanet (Japón) sumó 2,823 BTC por $225M en 2T-2026 (precio promedio $78,872, muy por encima del spot actual), alcanzando 43,000 BTC en tesorería y consolidándose como el tercer mayor holder corporativo público global, detrás de Strategy y Twenty One Capital (Coindesk/Cryptonomist, 2-jul-2026). No hay compras corporativas adicionales de gran tamaño verificables en la ventana 22-24 jul.\n\n**Ballenas on-chain:** HECHO: wallets de 1,000-10,000 BTC acumularon ~66,700 BTC en los 60 días hasta el 19-jul-2026, una de las rachas de compra más fuertes de 2026, mientras holders medianos (100-1,000 BTC) distribuyeron ~77,800 BTC en la misma ventana — rotación de manos medianas a grandes tenedores, con precio relativamente estable ($64,500-64,700) durante el periodo (Blockonomi/CryptoBriefing, 19-20-jul-2026). Reservas de exchanges en mínimo de 7 años (~2.21-2.2M BTC), reduciendo oferta líquida disponible para venta — LECTURA: combinación de acumulación de ballenas y reservas mínimas apunta a posible shock de oferta si la demanda repunta, aunque esto es una interpretación de analistas, no un hecho garantizado.",
+    "conclusion": "BTC muestra una estructura de rebote técnico intacto (sobre SMA20/50, RSI neutral-alcista 55.2) dentro de un contexto de ciclo aún no resuelto: MVRV Z-Score comprimido (0.37) y precio realizado ~18% por debajo del spot sugieren proximidad a zona de acumulación histórica, pero el LTH-MVRV elevado y la caída de hashrate (-7.9%/10d) introducen dudas sobre si el mínimo de ciclo ya quedó atrás (proyecciones de analistas apuntan a nov-2026). El evento más inmediato y de mayor impacto binario es el FOMC del 28-29-jul, aún no resuelto al momento de este informe — CATALIZADOR PENDIENTE. La reversión de la racha de flujos ETF (-$225M el 23-jul, tras 7 sesiones positivas) y el retroceso de precio del 24-jul por tensiones geopolíticas EE.UU.-Irán introducen fragilidad de corto plazo. CLARITY Act sigue siendo un catalizador regulatorio relevante pero incierto (deadline de facto 10-ago, sin los votos demócratas necesarios confirmados). Nivel de confianza: MEDIA — la tesis de rebote técnico está bien soportada por datos verificables, pero la resolución del ciclo (piso definitivo) y el resultado del FOMC son eventos pendientes que pueden invalidar la lectura alcista de corto plazo."
   },
   "scores": {
     "tecnica": {
       "score": 52,
-      "just": "RSI 57.2 neutral, MACD positivo y cruce EMA12>EMA26 favorecen el rebote de corto plazo; precio sobre SMA20/SMA50 pero aún -9.65% bajo SMA200, por lo que la estructura de mediano plazo no confirma cambio de tendencia."
+      "just": "RSI 55.2 neutral-alcista, MACD>señal, precio sobre SMA20/50 pero -9.76% vs SMA200: estructura de rebote de corto plazo dentro de tendencia mayor aún bajista, sin confirmación multi-marco (TradingView, 24-jul-2026)."
     },
     "fundamental": {
-      "score": 57,
-      "just": "MVRV Z-Score bajo (0.37-0.39) y reservas de exchange en mínimo de 7 años son constructivos; la caída de hashrate (-7.9% en 10 días) y hashprice cerca de breakeven introducen una señal de estrés minero que matiza el optimismo."
+      "score": 55,
+      "just": "MVRV Z-Score 0.37 y precio realizado ~18% bajo spot sugieren valoración on-chain comprimida (favorable), pero hashrate -7.9%/10d y pausa de compras de Strategy matizan el cuadro; LTH-MVRV elevado (1.29) deja abierta la duda de si el ciclo bajista terminó (KuCoin/Bitcoin.com, jul-2026)."
     },
     "sentimiento": {
-      "score": 52,
-      "just": "Racha de 5-6 días de flujos ETF positivos y acumulación de ballenas mejoran el sentimiento respecto al informe previo; Fear & Greed sigue mixto entre Fear y Neutral según la fuente, sin llegar a Greed."
+      "score": 53,
+      "just": "Fear&Greed recuperando a neutral (46-53) desde extrema fear de inicio de mes; racha ETF positiva de 7 días revertida el 23-jul (-$225M); ballenas acumulando pero holders medianos distribuyendo: señales mixtas sin sesgo claro dominante."
     },
     "riesgo": {
       "score": 45,
-      "just": "Volatilidad 30d de 26.36% y drawdown máximo 1Y de -41.28% siguen elevados; riesgos geopolíticos (Irán, Corea del Sur) y dos catalizadores binarios (FOMC, CLARITY Act) aún no resueltos mantienen el perfil de riesgo por encima del promedio histórico."
+      "just": "Volatilidad 30d 24.22%, Sharpe 4.75, Sortino 5.52, drawdown máx. 1a -39.58% (dato auto): riesgo moderado-alto bien identificado dado el contexto de ciclo post-ATH y catalizador FOMC pendiente."
     },
     "conviccion": {
       "score": 51,
-      "just": "Mejora marginal vs. informe previo (52) por la confirmación de flujos ETF positivos sostenidos y acumulación de ballenas, contrarrestada por señales mixtas de hashrate y la falta de confirmación de piso de ciclo hasta octubre 2026."
+      "just": "Catalizadores fechados (FOMC 28-29-jul, deadline CLARITY ~10-ago) dan marco temporal claro, y la tesis de MVRV comprimido es falsable (invalidada si el precio rompe soporte $57,800 tras el FOMC), pero la asimetría no es contundente mientras persista la duda sobre el piso de ciclo (nov-2026 proyectado) y el resultado del FOMC siga pendiente."
     }
   },
   "sources": [
-    "TradingView scanner (precio, RSI, MACD, SMAs, EMAs) — 22-jul-2026",
-    "Yahoo Finance / Fortune — precio y variación semanal BTC, 22-jul-2026",
-    "Cryptonomist — dominancia BTC, market cap cripto total, Fear & Greed Index, 21-22-jul-2026",
-    "TradingView Hub / CoinGabbar — dominancia BTC, 20-21-jul-2026",
-    "CryptoTimes — flujo ETF diario +$227M, 20-jul-2026",
-    "Farside Investors / SoSoValue (vía prensa especializada) — flujos ETF diarios, semana 13-22-jul-2026",
-    "CryptoQuant — reservas de exchanges, MVRV, hashrate/dificultad, jul-2026",
-    "Glassnode (vía agregadores) — MVRV Z-Score, acumulación de ballenas, jul-2026",
-    "Milkroad / CFGI — Fear & Greed Index, 22-jul-2026",
-    "Comunicados corporativos Strategy (MSTR) — holdings BTC y emisión ATM, 19-21-jul-2026",
-    "Informes corporativos Metaplanet — holdings BTC 2T-2026",
-    "TronWeekly — mención aislada no corroborada sobre venta de BTC por Strategy (tratada con cautela)",
-    "Agregadores de mercados de predicción — probabilidad CLARITY Act, 22-jul-2026",
-    "CME FedWatch / futuros de tasas — probabilidad de decisión FOMC 28-29-jul-2026"
+    "TradingView scanner (precio, RSI, MACD, SMAs) — 24-jul-2026",
+    "Yahoo Finance — Bitcoin and ethereum prices today, July 24, 2026",
+    "Yahoo Finance — Seven Straight Bitcoin ETF Inflow Days Recover Just 15% of June's Losses",
+    "CryptoSlate — BlackRock's IBIT accounted for 90% of a $225 million Bitcoin ETF reversal, 23/24-jul-2026",
+    "Decrypt — Bitcoin ETFs Shed $225M, Snapping Seven-Day Inflow Streak as Iran Tensions Spook Markets",
+    "Cryptonomist (en.cryptonomist.ch) — Bitcoin ETF Outflows Mark End to 7-Day Inflow Streak, 24-jul-2026",
+    "FinanceFeeds — US Crypto ETF Flows Split on July 23 as Bitcoin Funds Lose $225 Million",
+    "CryptoTimes — Bitcoin ETFs Shed $225M to Snap 7-Day Winning Streak, 24-jul-2026",
+    "CryptoTimes — Bitcoin Price Approaches Potential Cycle Low as Rare Oversold Signals Align (Blockworks Research), 24-jul-2026",
+    "247WallSt — BlackRock's IBIT Leads Nearly $1B Bitcoin ETF Recovery as Inflows Hit 7 Straight Days, 23-jul-2026",
+    "KuCoin — Bitcoin and Ethereum Spot ETFs Experience Significant Net Inflows on July 22",
+    "Bloomingbit — US Spot-Bitcoin ETFs Draw $69.1 Million, Extend Inflow Streak to Seven Sessions",
+    "TradingView Hub (tv-hub.org) — Bitcoin Dominance July 2026: Currently at 56.3%",
+    "Forbes Advisor — Top 10 Cryptocurrencies Of July 24, 2026 (market cap ~$1.3T)",
+    "Bitcoin.com News — Bitcoin's 14th Difficulty Reset Slashes Mining Pressure by 6.7 Trillion, 11-jul-2026",
+    "GNCrypto — Bitcoin difficulty falls 5% to 127.17 trillion",
+    "KuCoin — Bitcoin MVRV Z-Score Approaching Historical Bottom Range",
+    "AhaSignals — Bitcoin MVRV Z-Score Today: 0.37",
+    "Blockonomi — Bitcoin Whale Accumulation Expands as Exchange Balances Continue to Decline, 19-20-jul-2026",
+    "CryptoBriefing — Bitcoin whales scoop up 66,700 BTC while mid-tier holders head for the exits",
+    "Yahoo Finance — MicroStrategy Sold 7x More Bitcoin Than Reports Suggested / Strategy holdings 843,775 BTC",
+    "Coindesk — Metaplanet buys another $170 million of bitcoin expanding treasury to 43,000 BTC, 2-jul-2026",
+    "Cryptonomist — Metaplanet Bitcoin Purchase Expands Treasury to 43,000 BTC, 2-jul-2026",
+    "Polymarket — Fed Decision in July? Trading Odds & Predictions 2026",
+    "FedRateCalc — FOMC Meeting Schedule 2026 / Next Fed Meeting",
+    "CMElite Group — FOMC Meeting July 28-29: What to Know About Fed Decision Day",
+    "CFGI.io — Bitcoin Fear and Greed Index Today, jul-2026",
+    "Milk Road — Crypto Fear & Greed Index for July 24th, 2026",
+    "BitDegree — Live Crypto Fear and Greed Index, jul-2026",
+    "KuCoin — U.S. Senator Lummis Pushes for CLARITY Act Senate Vote in July 2026",
+    "CryptoBriefing — Clarity Act set for full Senate vote, advancing US crypto regulation",
+    "Yahoo Finance — CLARITY Act Stalls in Senate as Three Disputes Block Crypto Regulation 2026",
+    "Seeking Alpha — Bitcoin To 52-Week Lows (rango 52 sem. referencia)"
   ],
-  "change": {
-    "day": -1.23,
-    "week": 1.53
-  },
   "events": [
     {
       "date": "2026-07-29",
-      "label": "FOMC 28-29 jul — decisión de tasas de la Fed (82-93% prob. de mantener 3.50-3.75%)",
+      "label": "FOMC 28-29 jul — decisión de tasas de la Fed (mercado descuenta 75-93% prob. de mantener 3.50-3.75%, sin dot plot en esta reunión; resultado aún pendiente)",
       "kind": "macro"
     },
     {
-      "date": "2026-08-07",
-      "label": "Última semana hábil del Senado antes del receso de agosto — deadline de facto para el CLARITY Act (Bessent: proceso en 'yarda 1')",
+      "date": "2026-08-10",
+      "label": "Deadline de facto para votación plena del CLARITY Act en el Senado antes del receso de agosto (Calendar No. 423, impulsado por senadora Lummis)",
       "kind": "macro"
     }
   ],
   "risk": {
-    "volatility_30d": 26.36,
-    "sharpe": 1.74,
-    "sortino": 1.9,
-    "max_drawdown_1y": -41.28,
-    "n_days": 300,
+    "volatility_30d": 24.22,
+    "sharpe": 4.75,
+    "sortino": 5.52,
+    "max_drawdown_1y": -39.58,
+    "n_days": 302,
     "window": 30
   },
   "benchmark": {
     "ticker": "CRYPTOCAP:TOTAL",
     "label": "Cripto total (ciclo)",
-    "relative_performance_30d": 0.94,
-    "relative_performance_ytd": -0.5,
-    "price_percentile_1y": 11.6,
+    "relative_performance_30d": 0.79,
+    "relative_performance_ytd": -0.44,
+    "price_percentile_1y": 11.1,
     "partial": false
   },
   "technical": {
-    "price": 65672.07,
-    "change_1d_pct": -1.23,
-    "change_1w_pct": 1.53,
-    "rsi": 57.2,
-    "macd": 561.4893,
-    "macd_signal": 195.7206,
-    "sma20": 63998.353,
-    "sma50": 63071.0696,
-    "sma200": 72690.0008,
-    "ema12": 64644.7491,
-    "ema26": 64083.2598,
-    "pct_vs_sma20": 2.62,
-    "pct_vs_sma50": 4.12,
-    "pct_vs_sma200": -9.65,
+    "price": 65348.89,
+    "change_1d_pct": 0.44,
+    "change_1w_pct": 1.02,
+    "rsi": 55.2,
+    "macd": 580.7368,
+    "macd_signal": 337.8346,
+    "sma20": 64258.412,
+    "sma50": 63129.8246,
+    "sma200": 72417.3376,
+    "ema12": 64849.074,
+    "ema26": 64268.3372,
+    "pct_vs_sma20": 1.7,
+    "pct_vs_sma50": 3.52,
+    "pct_vs_sma200": -9.76,
     "volume_today": null,
     "volume_avg20": null,
     "volume_ratio": null,
-    "volatility_30d": 26.36,
-    "sharpe": 1.74,
-    "sortino": 1.9,
-    "max_drawdown_1y": -41.28,
-    "price_percentile_1y": 11.6,
-    "vs_benchmark_30d_pct": 0.94,
-    "perf_1m_pct": 3.85,
-    "perf_ytd_pct": -25.0
+    "volatility_30d": 24.22,
+    "sharpe": 4.75,
+    "sortino": 5.52,
+    "max_drawdown_1y": -39.58,
+    "price_percentile_1y": 11.1,
+    "vs_benchmark_30d_pct": 0.79,
+    "perf_1m_pct": 4.28,
+    "perf_ytd_pct": -25.38
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-07-22T03:44:05-04:00"
+      "fetched_at": "2026-07-24T03:43:19-04:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-07-22T03:44:05-04:00"
+      "fetched_at": "2026-07-24T03:43:19-04:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-07-22T03:44:05-04:00"
+      "fetched_at": "2026-07-24T03:43:19-04:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CRYPTOCAP:TOTAL",
-      "fetched_at": "2026-07-22T03:44:05-04:00"
+      "fetched_at": "2026-07-24T03:43:19-04:00"
     },
     "risk_metrics": {
       "origin": "data/history/BTC.json",
-      "n_days": 300
+      "n_days": 302
     }
   },
-  "metricChanges": []
+  "metricChanges": [],
+  "reportDate": "25 de julio de 2026"
 }
