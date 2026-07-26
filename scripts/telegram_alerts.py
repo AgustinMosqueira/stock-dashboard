@@ -129,13 +129,30 @@ def alerts_for(a):
     return out
 
 
+MACRO_KEYS = ["fomc", "fed", "bce", "ecb", "boj", "banco central", "bcch", "tpm", "ipc",
+              "cpi", "pce", "payroll", "nfp", "ipom", "halving", "opep", "opec", "jackson hole"]
+
+
+def _event_key(e):
+    """Mismo criterio de agrupación que el calendario del dashboard: solo eventos macro
+    compartidos (FOMC, BCE…) se unifican; earnings/corporate son propios de cada activo."""
+    if (e.get("kind") or "macro") != "macro":
+        return None
+    label = (e.get("label") or "").lower()
+    for k in MACRO_KEYS:
+        if k in label:
+            return "k:" + k
+    return "l:" + label.strip()
+
+
 def event_alerts(stocks):
-    """Eventos del calendario a N días o menos (Paso 7)."""
+    """Eventos del calendario a N días o menos (Paso 7), agrupando los macro compartidos."""
     days = RULES.get("event_alert_days")
     if not days:
         return []
     today = datetime.date.today()
-    out = []
+    groups = {}  # (fecha, clave) -> {label, tickers, delta, d}
+    uid = 0
     for a in stocks:
         for e in a.get("events") or []:
             try:
@@ -143,12 +160,35 @@ def event_alerts(stocks):
             except ValueError:
                 continue
             delta = (d - today).days
-            if 0 <= delta <= days:
-                score = composite(a)
-                _, signal = grade_for(score)
-                cuando = "HOY" if delta == 0 else ("mañana" if delta == 1 else f"en {delta} días")
-                out.append(f"📅 *{a['ticker']}* — {e.get('label', 'Evento')} {cuando} "
-                           f"({d.strftime('%d/%m')}). Score actual: {score} ({signal}).")
+            if not (0 <= delta <= days):
+                continue
+            key = _event_key(e)
+            if key is None:
+                key = f"u:{uid}"
+                uid += 1
+            gk = (e["date"], key)
+            g = groups.setdefault(gk, {"label": e.get("label", "Evento"), "time": e.get("time"),
+                                       "tickers": [], "delta": delta, "d": d})
+            if a["ticker"] not in g["tickers"]:
+                g["tickers"].append(a["ticker"])
+            if len(e.get("label", "")) < len(g["label"]):
+                g["label"] = e["label"]
+            if not g.get("time") and e.get("time"):
+                g["time"] = e["time"]
+    out = []
+    by_ticker = {a["ticker"]: a for a in stocks}
+    for g in sorted(groups.values(), key=lambda g: (g["delta"], g["label"])):
+        cuando = "HOY" if g["delta"] == 0 else ("mañana" if g["delta"] == 1 else f"en {g['delta']} días")
+        hora = f" a las {g['time']} (Chile)" if g.get("time") else ""
+        if len(g["tickers"]) == 1:
+            a = by_ticker[g["tickers"][0]]
+            score = composite(a)
+            _, signal = grade_for(score)
+            out.append(f"📅 *{g['tickers'][0]}* — {g['label']} {cuando} "
+                       f"({g['d'].strftime('%d/%m')}{hora}). Score actual: {score} ({signal}).")
+        else:
+            out.append(f"📅 {g['label']} — {cuando} ({g['d'].strftime('%d/%m')}{hora}). "
+                       f"Afecta a: {', '.join(g['tickers'])}.")
     return out
 
 
