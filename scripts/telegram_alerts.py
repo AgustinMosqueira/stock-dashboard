@@ -225,8 +225,7 @@ def econ_alerts():
         if e.get("previous") is not None:
             extra.append(f"prev {e['previous']}{e.get('unit', '')}")
         det = f" · {' · '.join(extra)}" if extra else ""
-        stars = "★" * e.get("stars", 4)
-        out.append(f"🗓️ {flags.get(e.get('country'), '')} {e.get('label')} ({stars}) — {cuando} "
+        out.append(f"🗓️ {flags.get(e.get('country'), '')} {e.get('label')} — {cuando} "
                    f"{e.get('time', '')} h Chile{det}")
     return out
 

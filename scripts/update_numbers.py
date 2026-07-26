@@ -128,9 +128,11 @@ def fetch_econ_calendar():
     rows = raw.get("result", raw if isinstance(raw, list) else [])
     out = []
     for e in rows:
+        # OJO: TradingView marca TODO Chile como importancia baja (vara global);
+        # la escala curada star_rating() decide, no el nivel de TradingView.
         imp = e.get("importance")
-        if imp is None or imp < 0:  # -1 = baja (1 estrella): fuera
-            continue
+        if imp is None:
+            imp = -1
         try:
             dt_utc = datetime.datetime.fromisoformat(e["date"].replace("Z", "+00:00"))
         except (KeyError, ValueError):
