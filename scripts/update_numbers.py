@@ -82,6 +82,31 @@ COLS = ["close", "change", "change|1W", "RSI", "MACD.macd", "MACD.signal",
 SCANNER_ORIGIN = "TradingView scanner"
 ECON_DAYS = 35  # ventana del calendario económico horneado
 
+# Re-clasificación curada a escala 1-5 (TradingView solo trae baja/media/alta).
+# El dashboard muestra únicamente 4★ y 5★.
+ECON_TIER5 = ["non farm", "nonfarm", "unemployment rate", "inflation rate", "core inflation",
+              "pce price", "core pce", "interest rate decision", "fomc", "fed press conference",
+              "gdp growth"]
+ECON_TIER4 = ["retail sales", "ism manufacturing pmi", "ism services pmi", "initial jobless claims",
+              "producer price", "ppi", "cb consumer confidence", "michigan consumer sentiment",
+              "durable goods orders mom", "jolts", "adp employment change", "personal income",
+              "personal spending", "s&p global manufacturing pmi", "s&p global services pmi",
+              "s&p global composite pmi", "imacec", "economic activity", "balance of trade",
+              "copper exports"]
+
+
+def star_rating(title, importance):
+    t = (title or "").lower()
+    if "adp" in t and "week" in t:
+        return 3  # el ADP semanal es ruido; el mensual sí importa
+    for k in ECON_TIER5:
+        if k in t:
+            return 5
+    for k in ECON_TIER4:
+        if k in t:
+            return 4
+    return 3 if importance >= 1 else 2
+
 
 def fetch_econ_calendar():
     """Calendario económico EE.UU. + Chile (importancia media/alta) desde el endpoint
@@ -111,12 +136,16 @@ def fetch_econ_calendar():
         except (KeyError, ValueError):
             continue
         dt_scl = dt_utc.astimezone(tz_scl)
+        title = e.get("title") or e.get("indicator") or "Dato económico"
+        stars = star_rating(title, imp)
+        if stars < 4:  # el calendario muestra solo lo realmente importante (4★ y 5★)
+            continue
         out.append({
             "date": dt_scl.date().isoformat(),
             "time": dt_scl.strftime("%H:%M"),
-            "label": e.get("title") or e.get("indicator") or "Dato económico",
+            "label": title,
             "country": e.get("country"),
-            "stars": 3 if imp >= 1 else 2,
+            "stars": stars,
             "period": e.get("period") or None,
             "forecast": e.get("forecast"),
             "previous": e.get("previous"),
@@ -322,7 +351,7 @@ def main():
     econ = fetch_econ_calendar()
     if econ is not None:
         json.dump(econ, open(HERE / "data" / "econ-calendar.json", "w"), ensure_ascii=False)
-        print(f"  calendario económico: {len(econ)} eventos ★★/★★★ en {ECON_DAYS} días (US+CL)")
+        print(f"  calendario económico: {len(econ)} eventos 4★/5★ en {ECON_DAYS} días (US+CL)")
 
     # 2) bloques horneados en template.html (static-data + econ-data)
     tpl_path = HERE / "template.html"

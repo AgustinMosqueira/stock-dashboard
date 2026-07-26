@@ -207,7 +207,7 @@ def econ_alerts():
         return []
     today = datetime.date.today()
     flags = {"US": "🇺🇸", "CL": "🇨🇱"}
-    out, medium = [], 0
+    out = []
     for e in econ:
         try:
             d = datetime.date.fromisoformat(e.get("date", ""))
@@ -216,21 +216,18 @@ def econ_alerts():
         delta = (d - today).days
         if not (0 <= delta <= min(days, 1)):
             continue
-        if e.get("stars") == 3:
-            cuando = "HOY" if delta == 0 else "mañana"
-            extra = []
-            if e.get("forecast") is not None:
-                extra.append(f"est {e['forecast']}{e.get('unit', '')}")
-            if e.get("previous") is not None:
-                extra.append(f"prev {e['previous']}{e.get('unit', '')}")
-            det = f" · {' · '.join(extra)}" if extra else ""
-            out.append(f"🗓️ {flags.get(e.get('country'), '')} {e.get('label')} — {cuando} "
-                       f"{e.get('time', '')} h Chile{det}")
-        else:
-            medium += 1
-    if medium:
-        out.append(f"🗓️ Además, {medium} dato{'s' if medium != 1 else ''} de importancia media "
-                   f"(★★) entre hoy y mañana — detalle en la pestaña Calendario de la app.")
+        if e.get("stars", 0) < 4:
+            continue
+        cuando = "HOY" if delta == 0 else "mañana"
+        extra = []
+        if e.get("forecast") is not None:
+            extra.append(f"est {e['forecast']}{e.get('unit', '')}")
+        if e.get("previous") is not None:
+            extra.append(f"prev {e['previous']}{e.get('unit', '')}")
+        det = f" · {' · '.join(extra)}" if extra else ""
+        stars = "★" * e.get("stars", 4)
+        out.append(f"🗓️ {flags.get(e.get('country'), '')} {e.get('label')} ({stars}) — {cuando} "
+                   f"{e.get('time', '')} h Chile{det}")
     return out
 
 
