@@ -192,6 +192,48 @@ def event_alerts(stocks):
     return out
 
 
+def econ_alerts():
+    """Datos del calendario económico (US/CL) de HOY y MAÑANA: los de importancia alta
+    (★★★) con detalle; los de importancia media (★★) resumidos en una línea."""
+    days = RULES.get("event_alert_days")
+    if days is None:
+        return []
+    p = HERE / "data" / "econ-calendar.json"
+    if not p.exists():
+        return []
+    try:
+        econ = json.load(open(p))
+    except ValueError:
+        return []
+    today = datetime.date.today()
+    flags = {"US": "🇺🇸", "CL": "🇨🇱"}
+    out, medium = [], 0
+    for e in econ:
+        try:
+            d = datetime.date.fromisoformat(e.get("date", ""))
+        except ValueError:
+            continue
+        delta = (d - today).days
+        if not (0 <= delta <= min(days, 1)):
+            continue
+        if e.get("stars") == 3:
+            cuando = "HOY" if delta == 0 else "mañana"
+            extra = []
+            if e.get("forecast") is not None:
+                extra.append(f"est {e['forecast']}{e.get('unit', '')}")
+            if e.get("previous") is not None:
+                extra.append(f"prev {e['previous']}{e.get('unit', '')}")
+            det = f" · {' · '.join(extra)}" if extra else ""
+            out.append(f"🗓️ {flags.get(e.get('country'), '')} {e.get('label')} — {cuando} "
+                       f"{e.get('time', '')} h Chile{det}")
+        else:
+            medium += 1
+    if medium:
+        out.append(f"🗓️ Además, {medium} dato{'s' if medium != 1 else ''} de importancia media "
+                   f"(★★) entre hoy y mañana — detalle en la pestaña Calendario de la app.")
+    return out
+
+
 def send(text):
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
@@ -199,6 +241,15 @@ def send(text):
         print("Telegram no configurado (faltan TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID) — "
               "no se envía nada. Ver README para el setup.")
         return False
+    # deja constancia en el log de por cuál bot sale el mensaje (evita confusiones si
+    # hubiera otro token de Telegram en el ambiente — el oficial es el del secret de GitHub)
+    try:
+        with urllib.request.urlopen(f"https://api.telegram.org/bot{token}/getMe", timeout=15) as r:
+            me = json.load(r).get("result", {})
+        print(f"  enviando vía @{me.get('username')} al chat {chat}")
+    except Exception:
+        pass
+
     url = f"https://api.telegram.org/bot{token}/sendMessage"
 
     def _post(params):
@@ -223,6 +274,7 @@ def main():
     for a in stocks:
         lines.extend(alerts_for(a))
     lines.extend(event_alerts(stocks))
+    lines.extend(econ_alerts())
 
     if not lines:
         print("Sin alertas hoy — no se envía mensaje (por diseño, para no hacer ruido).")

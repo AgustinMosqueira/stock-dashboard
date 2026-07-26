@@ -80,6 +80,50 @@ COLS = ["close", "change", "change|1W", "RSI", "MACD.macd", "MACD.signal",
         "price_52_week_high", "price_52_week_low", "Perf.1M", "Perf.YTD"]
 
 SCANNER_ORIGIN = "TradingView scanner"
+ECON_DAYS = 35  # ventana del calendario económico horneado
+
+
+def fetch_econ_calendar():
+    """Calendario económico EE.UU. + Chile (importancia media/alta) desde el endpoint
+    público de TradingView. Horas convertidas a hora de Chile. Devuelve [] si falla."""
+    from zoneinfo import ZoneInfo
+    tz_scl = ZoneInfo("America/Santiago")
+    start = hoy.isoformat()
+    end = (hoy + datetime.timedelta(days=ECON_DAYS)).isoformat()
+    url = (f"https://economic-calendar.tradingview.com/events?from={start}T00:00:00.000Z"
+           f"&to={end}T00:00:00.000Z&countries=US,CL")
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0",
+                                               "Origin": "https://www.tradingview.com"})
+    try:
+        with urllib.request.urlopen(req, timeout=45) as r:
+            raw = json.load(r)
+    except Exception as e:
+        print(f"  ⚠️  calendario económico no disponible hoy ({e}) — se conserva el anterior")
+        return None
+    rows = raw.get("result", raw if isinstance(raw, list) else [])
+    out = []
+    for e in rows:
+        imp = e.get("importance")
+        if imp is None or imp < 0:  # -1 = baja (1 estrella): fuera
+            continue
+        try:
+            dt_utc = datetime.datetime.fromisoformat(e["date"].replace("Z", "+00:00"))
+        except (KeyError, ValueError):
+            continue
+        dt_scl = dt_utc.astimezone(tz_scl)
+        out.append({
+            "date": dt_scl.date().isoformat(),
+            "time": dt_scl.strftime("%H:%M"),
+            "label": e.get("title") or e.get("indicator") or "Dato económico",
+            "country": e.get("country"),
+            "stars": 3 if imp >= 1 else 2,
+            "period": e.get("period") or None,
+            "forecast": e.get("forecast"),
+            "previous": e.get("previous"),
+            "unit": e.get("unit") or "",
+        })
+    out.sort(key=lambda x: (x["date"], x["time"]))
+    return out
 
 
 def fetch():
@@ -274,7 +318,13 @@ def main():
             patch_asset(s, quotes[s["ticker"]], extras[s["ticker"]])
     json.dump(stocks, open(sd_path, "w"), ensure_ascii=False)
 
-    # 2) bloque static-data horneado en template.html
+    # 1b) calendario económico EE.UU./Chile (2-3 estrellas) — para la página y Telegram
+    econ = fetch_econ_calendar()
+    if econ is not None:
+        json.dump(econ, open(HERE / "data" / "econ-calendar.json", "w"), ensure_ascii=False)
+        print(f"  calendario económico: {len(econ)} eventos ★★/★★★ en {ECON_DAYS} días (US+CL)")
+
+    # 2) bloques horneados en template.html (static-data + econ-data)
     tpl_path = HERE / "template.html"
     tpl = tpl_path.read_text()
     m = re.search(r'(<script id="static-data" type="application/json">)(.*?)(</script>)', tpl, re.S)
@@ -287,6 +337,11 @@ def main():
             patch_asset(s, quotes[s["ticker"]], extras[s["ticker"]])
     static_txt = json.dumps(static, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     tpl = tpl[:m.start(2)] + static_txt + tpl[m.end(2):]
+    if econ is not None:
+        me = re.search(r'(<script id="econ-data" type="application/json">)(.*?)(</script>)', tpl, re.S)
+        if me:
+            econ_txt = json.dumps(econ, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+            tpl = tpl[:me.start(2)] + econ_txt + tpl[me.end(2):]
     tpl_path.write_text(tpl)
 
     # 3) reconstruir
