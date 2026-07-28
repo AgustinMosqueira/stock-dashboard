@@ -151,6 +151,7 @@ def fetch_econ_calendar():
             "period": e.get("period") or None,
             "forecast": e.get("forecast"),
             "previous": e.get("previous"),
+            "actual": e.get("actual"),
             "unit": e.get("unit") or "",
         })
     out.sort(key=lambda x: (x["date"], x["time"]))
