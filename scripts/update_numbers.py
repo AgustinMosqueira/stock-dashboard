@@ -141,7 +141,7 @@ def fetch_econ_calendar():
     público de TradingView. Horas convertidas a hora de Chile. Devuelve [] si falla."""
     from zoneinfo import ZoneInfo
     tz_scl = ZoneInfo("America/Santiago")
-    start = hoy.isoformat()
+    start = (hoy - datetime.timedelta(days=1)).isoformat()  # incluye ayer (sección Resultados de ayer)
     end = (hoy + datetime.timedelta(days=ECON_DAYS)).isoformat()
     url = (f"https://economic-calendar.tradingview.com/events?from={start}T00:00:00.000Z"
            f"&to={end}T00:00:00.000Z&countries=US,CL")
@@ -402,6 +402,15 @@ def main():
         if me:
             econ_txt = json.dumps(econ, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
             tpl = tpl[:me.start(2)] + econ_txt + tpl[me.end(2):]
+    # resultados de eventos (los escribe el ciclo L-M-V en data/event-results.json)
+    try:
+        ev_res = json.load(open(HERE / "data" / "event-results.json"))
+    except (ValueError, OSError):
+        ev_res = []
+    mr = re.search(r'(<script id="event-results" type="application/json">)(.*?)(</script>)', tpl, re.S)
+    if mr:
+        res_txt = json.dumps(ev_res, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+        tpl = tpl[:mr.start(2)] + res_txt + tpl[mr.end(2):]
     tpl_path.write_text(tpl)
 
     # 3) reconstruir
