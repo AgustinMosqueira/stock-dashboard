@@ -4,187 +4,189 @@
   "statsList": [
     [
       "Precio",
-      "$113.50 (27-jul-2026)"
+      "$112.55 (29-jul-2026)"
     ],
     [
       "Rango desde IPO",
-      "$108.66 – $225.64 (desde IPO 12-jun-2026; nuevo mínimo histórico intradía $108.66 alcanzado ~27-jul-2026, por debajo del mínimo previo de $110.26 del 24-jul)"
+      "IPO 12-jun-2026 a $135; máximo histórico $225.64 el 16-jun-2026; mínimo histórico $107.01 el 28-jul-2026 (HECHO: stockanalysis.com/TradingView, 28-29/07/2026). Implica una caída de ~50% desde el máximo y de ~17% bajo el precio de IPO al cierre del 29-jul"
     ],
     [
       "Listado",
-      "Nasdaq: SPCX — IPO 12-jun-2026 a $135; incluida en Nasdaq-100 el 3/7-jul-2026; desde 27-jul-2026 también cotiza en futuros de acción individual en CME (código SSPCX/TSPCX, entre >50 acciones, 23h/día) (CNBC, 27/07/2026)"
+      "Nasdaq: SPCX desde 12-jun-2026, IPO a $135/acción, mayor IPO de la historia (recaudó US$75.000M, más de 500M de acciones operadas el día 1, segundo mayor volumen de debut en Nasdaq tras Facebook 2012) (HECHO: CNBC, 12/06/2026). Solo ~5% del float total cotiza públicamente, el resto está sujeto a lockups escalonados (LECTURA: TrendSpider, 15/07/2026); no verificable inclusión formal en índices como S&P 500 a la fecha"
     ],
     [
       "Market cap",
-      "~$1.45T–$1.55T aprox. (estimado sobre precio ~$113-116 y ~13B acciones totales; fuentes previas citaban $1.50-1.56T al 24-25/07); -49% a -50% desde el pico de $225.64 post-IPO (Yahoo Finance, CoinPedia, 25-27/07/2026)"
+      "~US$1,48 billones (US$1.480.000M) estimado al 29-jul-2026 con 13,17 mil millones de acciones en circulación (HECHO: stockanalysis.com reportó US$1,53 billones el 28-jul-2026 con precio de cierre $116,49; cálculo propio ajustado al precio de $112,55 del 29-jul). Cae desde ~US$1,77 billones post-IPO (-~16%)"
     ],
     [
       "P/E",
-      "N/A — pérdida neta GAAP (Q1 2026: -$4.28B, EPS -$1.27; ttm ~-$9.36B); valuación alternativa P/S ~85x-100x sobre revenue Q1 2026 $4.69B (+15.4% YoY); consenso espera Q2 2026 revenue ~$6.9B (+47% vs Q1) y pérdida de -$0.16 a -$0.28 por acción (BofA/TipRanks vs. consenso general, 26-27/07/2026)"
+      "N/A — la compañía reporta pérdida neta GAAP, sin utilidad positiva para el múltiplo (HECHO: prospecto de IPO y cobertura de prensa, TradingKey 20/06/2026). Valuación alternativa por P/S: ingresos 2025 de US$18.670M (HECHO: Sacra/APNIC, 07/2026) implican P/S ≈ 79x sobre market cap actual; usando guidance 2026 de US$22.000-24.000M, P/S forward ≈ 62-67x (LECTURA propia, cálculo derivado)"
     ],
     [
       "Target consenso",
-      "~$236-$244 promedio (23-27 Buy/5-7 Hold/1 Sell según fuente); implica ~89%-111% de upside vs precio actual (TipRanks/Fool.com, 26-27/07/2026). Nuevo: BofA inició cobertura Buy PT $235 (DCF a 2045, tesis de 'plataforma de 4 negocios', ~08/07/2026) y HSBC inició cobertura Hold PT $115 (más bajo que Piper Sandler $156) — amplía aún más la dispersión desde el piso"
+      "US$236,71 promedio (21 analistas), rango US$62-800, rating consenso 'Compra' (37 compra, 7 mantener, 1 vender) (HECHO: TipRanks, ~28/07/2026), lo que implica un upside de ~110% desde el precio actual. HSBC inició cobertura con 'Hold' y PT US$115 (HECHO: TheStreet, 07/2026); Needham elevó su PT a US$250 el 15-jul-2026 (HECHO: Yahoo Finance, 15/07/2026)"
     ],
     [
       "Próx. earnings",
-      "4-ago-2026 (confirmado, martes, webcast audio 4:30pm ET / ~3:30-5:30pm hora Chile aprox. según horario) — primer reporte trimestral público, dispara calendario de lockup el 6-ago"
+      "4-ago-2026 (después del cierre de mercado), primer reporte trimestral (Q2 2026) desde que la empresa es pública — evento AÚN NO OCURRIDO respecto al 30-jul-2026 (HECHO: CNBC/Yahoo Finance, 21/07/2026). Este reporte gatilla además el primer tramo relevante de liberación de lockup el 6-ago-2026. Nota estructural: desde la fusión con xAI (feb-2026), SpaceX consolida en su balance el negocio de IA de xAI; esta estructura combinada sigue vigente al 30-jul-2026 (HECHO: CNBC, 03/02/2026; D&O Diary, 03/2026)"
     ],
     [
       "Técnico (auto)",
-      "RSI 34.0 (TradingView, 27-jul-2026)"
+      "RSI 34.6 (TradingView, 29-jul-2026)"
     ]
   ],
   "change": {
-    "day": -1.36,
-    "week": -1.36
+    "day": -3.32,
+    "week": -2.19
   },
   "sections": {
-    "resumen": "Entre el 24 y el 28-jul-2026 la acción de SPCX no revirtió la tendencia bajista pese al éxito de Starship Flight 13: cerró en $116.06 el 25-jul (-47% desde el pico de junio) y continuó debilitándose hacia un nuevo mínimo histórico intradía de $108.66 hacia el 27-jul, antes de estabilizarse en torno a $112-115 (HECHO: TradingKey 25/07/2026, Yahoo Finance/CoinPedia 27/07/2026). El precio se mantiene lateral-bajista, sin catalizador que haya revertido el sell-off; mercados de predicción asignaban solo ~68% de probabilidad de que julio cierre por encima de $120 (HECHO: Finbold, 26-27/07/2026). El hecho más nuevo y relevante del período es el lanzamiento de futuros de acción individual sobre SPCX en CME el 27-jul-2026 (contratos SSPCX/TSPCX, cash-settled, operables ~23h/día), que según Morgan Stanley generará un salto en interés retail e institucional para expresar posiciones largas/cortas sin necesidad de acciones físicas (HECHO: CNBC, TradingKey, Risk.net, 27/07/2026) — esto es relevante porque coincide con un short interest ya elevado (ver abajo) y podría amplificar volatilidad. El short interest se mantuvo estable en ~32% del float tradable (~206M acciones, ~$25B en apuestas bajistas), sin nueva escalada reportada desde el salto de la semana del 21-jul (HECHO: CNBC 21/07/2026, confirmado sin cambios materiales al 27/07/2026). En el frente de earnings, surgieron las primeras estimaciones de consenso concretas: se espera revenue Q2 2026 de ~$6.9B (+47% QoQ) y pérdida por acción entre -$0.16 (BofA) y -$0.28 (consenso general), un rango que sugiere posible mejora secuencial vs Q1 pero manteniendo pérdidas GAAP (HECHO: TipRanks/BofA vía Ronald Epstein, 26/07/2026). LECTURA: la ausencia de rebote pese a Starship exitoso y la relativa estabilidad del short interest sugieren que el mercado ya está en modo 'esperar y ver' hasta el 4-ago, con el precio actuando como un rango de consolidación pre-evento más que una tendencia direccional nueva.",
-    "fundamental": "No hay nuevos datos financieros reportados por la empresa en este período (su primer earnings sigue confirmado para el 4-ago-2026, ahora con webcast especificado a las 4:30pm ET, HECHO: Investing.com/Fool.com, 24-27/07/2026). Lo nuevo es la aparición de estimaciones de consenso más precisas: revenue Q2 2026 esperado ~$6.9B (+47% secuencial vs los $4.69B de Q1) y EPS entre -$0.16 y -$0.28, frente a -$0.34 en el mismo trimestre del año anterior, lo que implicaría una mejora interanual en el margen de pérdida si se cumple (HECHO: BofA/Ronald Epstein vía TipRanks, 26/07/2026; nota: cifras de consenso general y de BofA difieren, se declara la dispersión). BofA (Ronald Epstein) inició formalmente cobertura con rating Buy y PT $235 basado en un DCF a 2045, reencuadrando a SpaceX como una 'plataforma de cuatro negocios apilados' (lanzamientos, Starlink, IA/SpaceXAI, y potencialmente Cursor) en lugar de solo un operador de lanzamientos — sugiriendo que el mercado empieza a mirar más allá del trimestre inmediato (HECHO: TipRanks, TradingView News, 247wallst.com, 08-26/07/2026). En paralelo, HSBC inició cobertura con Hold y PT $115, el más bajo de la cobertura conocida junto con CFRA ($115), reforzando la polarización ya identificada la semana anterior entre Morgan Stanley/BofA (alcistas, $235-300) y Piper Sandler/HSBC/CFRA (cautelosos, $115-156) (HECHO: TheStreet, jul-2026). La adquisición de Anysphere/Cursor ($60B en acciones) sigue sin novedades regulatorias reportadas: continúa en la ventana de cierre esperado Q3 2026, sin anuncios de aprobación ni objeción de reguladores (HECHO con ausencia de novedad: búsqueda específica no arrojó desarrollos nuevos al 28/07/2026, se declara 'no verificable/sin novedad' el estado exacto del proceso regulatorio). LECTURA: la falta de noticias sobre el cierre de Cursor no debe interpretarse como señal negativa ni positiva —simplemente no hay información pública nueva en esta ventana.",
-    "valuacion": "Sin cambios estructurales en el marco de valuación: P/E no aplicable por pérdida GAAP, P/S de referencia ~85x-100x sobre revenue trimestral anualizado. Lo nuevo es que la dispersión de targets se amplió aún más en los extremos: HSBC ahora también en $115 (Hold) confirma un piso de cobertura compartido por al menos dos firmas (HSBC y CFRA), mientras BofA se sumó al bloque alcista con $235 basado en DCF a 2045 (HECHO: TheStreet, TipRanks, jul-2026). El spread completo conocido sigue siendo de aproximadamente $115 a $300-800 según la firma, un múltiplo de más de 2x-7x entre el piso y el techo de cobertura de casas de research reconocidas. LECTURA: la entrada de BofA con una tesis explícita de 'suma de las partes' (lanzamientos + Starlink + IA) es un intento de justificar la valuación elevada mirando más allá del negocio espacial tradicional, pero no resuelve la incertidumbre de corto plazo sobre si el mercado pagará ese múltiplo antes de ver resultados operativos públicos. La aparición de futuros CME sobre SPCX (27-jul) añade un mecanismo adicional de descubrimiento de precio fuera de horario que podría reducir gaps pero también amplificar movimientos si el apalancamiento se usa agresivamente alrededor del earnings.",
-    "tecnico": "El cuadro técnico se mantiene bajista según los datos congelados (precio $113.50, RSI 34.0, MACD -17.87 sin señal, precio -18.38% vs SMA20, volumen_ratio 0.88, TradingView 27-jul-2026), consistente con la nueva referencia de mínimo histórico intradía de $108.66 reportada por prensa hacia el 27-jul (HECHO: CoinPedia/Yahoo Finance, 27/07/2026), ligeramente por debajo del mínimo de $110.26 del 24-jul citado en el informe anterior. El RSI de 34.0 sigue sin entrar en sobreventa extrema (<30), y el volumen por debajo del promedio de 20 sesiones (ratio 0.88) indica que la caída reciente no vino acompañada de un pico de pánico vendedor, sino de un drenaje más gradual. La performance relativa vs S&P 500 (-26.02% a 30d, -32.11% YTD, percentil de precio 1a de apenas 4.1%) confirma un underperformance severo y sostenido. LECTURA: no hay señal técnica de reversión confirmada en ningún marco temporal; el mercado parece estar en un rango de consolidación estrecho ($108-118) a la espera del catalizador binario del 4-ago, más que en tendencia bajista acelerada — la ausencia de nuevo mínimo dramático (solo -2% adicional vs el mínimo del 24-jul) sugiere agotamiento vendedor de corto plazo, aunque sin confirmación de rebote.",
-    "catalizadores": "**Catalizadores:** 1. Starship Flight 14 (próximo vuelo, sin fecha confirmada pero apuntando a NET agosto 2026 según declaraciones de Gwynne Shotwell de que SpaceX debería 'volar cada mes'): Elon Musk anunció que se intentará por primera vez la captura de la etapa superior de Starship con los brazos de la torre 'Mechazilla' en Starbase, un hito clave hacia la reutilización rápida total (HECHO: SatNews, Teslarati, Ya Libnan, 25/07/2026). 2. Primer reporte trimestral público el 4-ago-2026 (confirmado, webcast 4:30pm ET), con consenso esperando revenue ~$6.9B (+47% QoQ) y pérdida de -$0.16 a -$0.28 por acción (TipRanks/BofA, 26/07/2026) — evento binario que probará la narrativa de crecimiento. 3. Lanzamiento de futuros de acción individual en CME (27-jul-2026) amplía el acceso institucional/retail a posiciones apalancadas sobre SPCX, potencial catalizador de volumen y volatilidad adicional alrededor del earnings (CNBC, 27/07/2026). 4. Cierre esperado de adquisición Anysphere/Cursor ($60B en acciones) en Q3 2026 sigue en curso sin novedades regulatorias reportadas en esta ventana; consolidación de SpaceXAI (Grok 4.5, lanzado 8-jul) sigue ampliando la narrativa de diversificación hacia IA. **Riesgos (por materialidad):** 1. ALTO: Lockup escalonado sigue vigente sin cambios de calendario: primer tramo incondicional de ~911.5M acciones (~20%, ~$123B) libera el 6-ago-2026 (2 días hábiles tras earnings); un tramo condicional adicional de 10% requería cierre ≥30% sobre el IPO ($175.50) en 5 de 10 sesiones previas a earnings — condición que sigue sin cumplirse dado el precio actual muy por debajo de ese umbral; tramos adicionales de 7% confirmados para ~21-ago y ~10-sep, con estimaciones de que hasta 44% de las acciones podrían liberarse hacia inicios de septiembre, potencialmente duplicando o más el float tradable (HECHO: Investing.com, Fool.com 19-24/07/2026, purepowerpicks.com). 2. ALTO: Short interest se mantiene en ~32% del float tradable (~206M acciones, ~$25B), estable frente a la semana anterior sin nueva escalada reportada, pero con Ortex estimando que cada movimiento de $1 en el precio altera en >$300M el valor de las posiciones cortas, lo que mantiene latente el riesgo (o la oportunidad) de un short squeeze (HECHO: CNBC 21/07/2026, Yahoo Finance/247wallst, jul-2026). 3. MEDIO: earnings inaugural del 4-ago es un evento de alto riesgo binario — BofA advierte que el mercado podría penalizar el capex agresivo en IA (similar a lo visto con otras firmas de IA) incluso si el crecimiento de revenue es sólido (LECTURA basada en Fool.com 28/07/2026). 4. MEDIO: riesgo regulatorio/antitrust en el cierre de Cursor sigue pendiente sin resolución visible (Q3 2026), estado exacto no verificable en esta ventana. 5. BAJO-MEDIO: la llegada de futuros CME apalancados sobre una acción ya con float reducido y short interest elevado podría amplificar movimientos de precio alrededor de eventos noticiosos (LECTURA, Risk.net 27/07/2026). 6. BAJO: dispersión extrema de targets ($115-$800, ahora con HSBC confirmando el piso de $115) sigue reflejando incertidumbre estructural de valuación, no un riesgo operativo nuevo.",
-    "sentimiento": "El sentimiento sell-side se mantiene mayoritariamente alcista y sin cambios de fondo: consenso ampliamente citado de ~23-27 Buy / 5-7 Hold / 1 Sell, con target promedio/mediana entre $236 y $244 que implica 89%-111% de upside (HECHO: TipRanks, Fool.com, 26-27/07/2026). La novedad del período es la entrada de dos nuevas casas a los extremos ya identificados: BofA se suma al bloque alcista con Buy/PT $235 (tesis de plataforma multi-negocio), mientras HSBC inicia cobertura con Hold/PT $115, confirmando el nivel más bajo de cobertura conocido junto a CFRA — es decir, la polarización entre bancos de primer nivel se mantiene o incluso se acentúa (HECHO: TipRanks, TheStreet, jul-2026). El sentimiento de mercado (price action) sigue sin validar el optimismo sell-side: nuevo mínimo histórico intradía (~$108.66) hacia el 27-jul, mercados de predicción con solo 68% de probabilidad de cerrar julio sobre $120, y coberturas de prensa (Motley Fool) con predicciones divergentes día a día — un artículo del 27-jul pronostica rebote post-earnings y otro del 28-jul pronostica caída adicional, reflejando genuina incertidumbre incluso entre comentaristas del mismo medio (HECHO: Fool.com, 27-28/07/2026). Se reporta también que ciertos ETFs han seguido comprando SPCX pese a la caída del 48% desde el pico, sugiriendo que inversores institucionales de índice/tracking no están capitulando (HECHO: Fool.com, 27/07/2026). No verificable: si el sentimiento minorista neto es de acumulación o capitulación en esta ventana específica.",
-    "conclusion": "Entre el 24 y el 28-jul-2026 no hubo un catalizador nuevo que alterara la tesis central: SPCX sigue siendo una apuesta binaria de alta convicción direccional pero baja previsibilidad de corto plazo, ahora aún más concentrada en la ventana del 4 al 6 de agosto. Lo verificado en este período confirma y refina (sin contradecir) los hechos del informe anterior: el precio tocó un nuevo mínimo histórico (~$108.66) antes de estabilizarse en el rango $112-116, el short interest se mantuvo estable en ~32% (sin nueva escalada), el calendario de lockup no cambió, y surgieron las primeras estimaciones de consenso concretas para el earnings (~$6.9B revenue, EPS entre -$0.16 y -$0.28). Lo genuinamente nuevo y relevante es (a) el lanzamiento de futuros de acción individual en CME el 27-jul, que añade un vehículo de apalancamiento adicional justo antes del evento binario, y (b) la confirmación de que Starship Flight 14 intentará la captura de la etapa superior con la torre, elevando la apuesta técnica del próximo vuelo. La polarización analista-mercado persiste intacta: consenso sell-side con ~100% de upside promedio vs. precio en mínimos históricos y short interest elevado. Nivel de confianza: MEDIA — los hechos verificables de esta ventana (precio, short interest, lockup, consenso de earnings, CME futures) están bien documentados por múltiples fuentes coincidentes, pero el desenlace de los eventos del 4-6 de agosto —el resultado real del primer earnings y la reacción de la oferta tras el lockup— sigue siendo genuinamente incierto y no verificable de antemano."
+    "resumen": "SPCX (Space Exploration Technologies Corp., matriz de SpaceX tras su fusión con xAI) cerró el 29-jul-2026 en US$112,55, con una caída de -3,32% en el día y -2,19% en la semana (HECHO: dato congelado del pipeline, sourcesMeta TradingView). El título viene de un IPO histórico el 12-jun-2026 a US$135, tocó un máximo de US$225,64 el 16-jun-2026 y marcó mínimo histórico de US$107,01 apenas el 28-jul-2026 (HECHO: stockanalysis.com/TradingView, 28-29/07/2026). Cotiza actualmente por debajo de su precio de IPO, con el mercado a la expectativa del primer earnings público el 4-ago-2026 y de una ola de liberación de lockups que arranca el 6-ago-2026 (HECHO: CNBC, 21/07/2026).",
+    "fundamental": "SpaceX reportó ingresos 2025 de US$18.670M, con Starlink aportando entre 50% y 80% del total (conectividad: US$11.390M, 61% del total) y guidance 2026 de US$22.000-24.000M (HECHO: Sacra/APNIC Blog, 07/2026). Starlink creció 50% interanual en 2025 a US$11.400M con EBITDA de US$7.200M y margen ajustado de hasta 63%, y superó 10 millones de clientes activos en 160 países/mercados hacia feb-2026 (HECHO: ValueAddVC, 07/2026). La compañía opera con pérdida neta GAAP, por lo que no hay P/E aplicable (HECHO: prospecto IPO, TradingKey 20/06/2026); Morgan Stanley advirtió sobre un requerimiento de financiamiento de hasta US$672.000M y ausencia de flujo de caja positivo proyectado hasta 2035 (HECHO/LECTURA de Morgan Stanley, citado en gurufocus.com, 15/07/2026) — esto es una lectura de un banco de inversión, no un hecho consumado. Estructuralmente, desde la fusión con xAI anunciada el 2-feb-2026 (valoración combinada ~US$1,25 billones, SpaceX ~US$1 billón + xAI ~US$250.000M, canje 1 acción xAI = 0,1433 acción SpaceX), el negocio de IA de xAI quedó consolidado dentro de SPCX y esa estructura sigue vigente (HECHO: CNBC, 03/02/2026). Musk mantiene control de voto (~42% del equity, >80% del poder de voto vía acciones Clase B) (HECHO: KeepTrack, 03/2026).",
+    "valuacion": "Con el precio de cierre del 29-jul (US$112,55) y ~13,17 mil millones de acciones en circulación, el market cap ronda US$1,48 billones, por debajo de los US$1,53 billones reportados el 28-jul y muy por debajo del pico post-IPO de ~US$1,77-2,7 billones alcanzado en junio (HECHO: stockanalysis.com, 28/07/2026). Al no existir utilidad GAAP, el múltiplo relevante es P/S: sobre ingresos 2025 (US$18.670M) el P/S implícito es ~79x; sobre guidance 2026 (US$22.000-24.000M) el P/S forward cae a ~62-67x (LECTURA: cálculo propio a partir de datos verificados). Esto sigue siendo una valuación exigente frente a comparables de infraestructura satelital/aeroespacial, y contrasta con el target consenso de analistas de US$236,71 (upside ~110%) (HECHO: TipRanks, 07/2026), lo que refleja alta dispersión de visión entre el mercado y el sell-side — probablemente por la novedad del nombre y la falta de historial de resultados públicos.",
+    "tecnico": "El precio (US$112,55) quedó 15,86% por debajo de la SMA20 (US$133,76), con RSI en 34,6 (zona de debilidad, cercana a sobreventa pero sin confirmar) y MACD marcadamente negativo (-17,04) sin señal disponible, reflejando una tendencia bajista de corto plazo aún no agotada (HECHO: TradingView scanner, 29/07/2026, 22:16 ART). El volumen del día (53,99M) fue 25% inferior al promedio de 20 días (71,97M; ratio 0,75), lo que sugiere que la última baja no vino acompañada de un pico de pánico vendedor, sino de continuación con participación algo menor (LECTURA propia). La volatilidad anualizada de 30 días es extrema (74,95%), con Sharpe (-1,38) y Sortino (-1,12) muy negativos y un drawdown máximo a 1 año de -44,23% (HECHO: datos congelados, data/history/SPCX.json, n=34 días). El percentil de precio a 1 año es apenas 4,7, es decir, el título cotiza cerca de sus niveles más bajos del período, y el rendimiento relativo al S&P 500 es de -27,45% a 30 días y -31,34% en lo que va del año — un rezago severo frente al benchmark (HECHO: benchmark SP:SPX, TradingView, 29/07/2026).",
+    "catalizadores": "**Catalizadores:**\n- Starship Flight Test 13 (Block 3, Booster 20/Ship 40) se lanzó el 24-jul-2026 desde Starbase y logró el primer despliegue orbital operativo de Starship, con 20 satélites Starlink desplegados en suborbita y contacto confirmado con receptores en tierra; el aterrizaje del booster en el océano falló parcialmente (solo 10 de 13 motores Raptor reencendieron) y terminó destruido en el impacto (HECHO: Spaceflight Now / CNBC / CNN, 24-25/07/2026). Es una señal técnica mixta: éxito en la nave, falla en el booster.\n- Primer earnings público (Q2 2026) el 4-ago-2026 tras cierre de mercado — evento clave que el mercado observa con atención, dado que definirá el tono de credibilidad de la compañía como emisor público (HECHO: CNBC, 21/07/2026).\n- Liberación de lockup del 6-ago-2026: se liberarían ~911,5 millones de acciones (~US$116.000M a precios recientes), equivalente a un tramo del 20% bajo el esquema de liberación gatillado por el earnings de Q2 (HECHO: Investing.com, 07/2026; KuCoin, 07/2026).\n- Tramos adicionales de lockup escalonado: ~7% cada 2-4 semanas entre agosto y octubre de 2026; liberación mayor (~28%) gatillada por el earnings de Q3 2026 (fecha exacta no verificable aún); liberación final del resto del lockup de 180 días el 8-dic-2026 (180 días desde el pricing del 11-jun-2026) (HECHO/LECTURA combinada: BiyaPay Blog y purepowerpicks.com, 07/2026 — calendario reportado por medios especializados, no confirmado en un documento regulatorio primario consultado directamente, por lo que se marca como HECHO de fuente secundaria).\n- Ark Invest (Cathie Wood) ha comprado sistemáticamente en las caídas desde el listado, acumulando más de US$475M en SPCX a través de sus ETFs sin haber vendido (HECHO: gurufocus.com / Benzinga, múltiples notas 07/2026).\n\n**Riesgos (por materialidad):**\n1. Alto — Short interest elevado: ~31-35% del float ajustado a acciones negociables está vendido en corto (~196M de acciones), lo que en un float reducido (~5% del total de acciones) genera alta sensibilidad a corto plazo, tanto para short squeeze como para presión bajista adicional si el sentimiento se deteriora (HECHO: Yahoo Finance / fuentes citando datos de short interest, 07/2026).\n2. Alto — Riesgo de dilución por lockups: la 'explosión de float' proyectada (hasta 900% de aumento en acciones negociables según Morgan Stanley) entre agosto y diciembre de 2026 es el principal riesgo técnico identificado por el mercado, y ya se refleja en la caída del precio bajo el nivel de IPO (HECHO/LECTURA: Morgan Stanley vía gurufocus.com, 15/07/2026).\n3. Alto — Necesidad de financiamiento: Morgan Stanley estima un requerimiento de capital de hasta US$672.000M sin flujo de caja positivo proyectado hasta 2035, lo que podría implicar futuras rondas dilutivas de equity o deuda (LECTURA de un banco de inversión, no verificable de forma independiente con esta búsqueda).\n4. Medio — Ejecución técnica de Starship: la falla parcial del aterrizaje del booster en el Flight Test 13 (24-jul-2026) muestra que persisten riesgos de ejecución en el programa que sostiene gran parte de la narrativa de crecimiento de largo plazo (HECHO: CNN/Spaceflight Now, 24-25/07/2026).\n5. Medio — Complejidad de gobierno corporativo: la estructura combinada con xAI y el control mayoritario de voto de Elon Musk (>80%) concentran el poder de decisión y podrían generar conflictos de interés entre negocios (aeroespacial vs. IA) (HECHO: KeepTrack, 03/2026).\n6. Bajo-Medio — Valuación exigente: P/S implícito de ~62-79x deja poco margen de error si el crecimiento de Starlink o los contratos gubernamentales se desaceleran (LECTURA propia derivada de datos verificados).",
+    "sentimiento": "El consenso de 21 analistas sell-side es 'Compra' (37 compra, 7 mantener, 1 vender), con precio objetivo promedio de US$236,71 (rango US$62-800), lo que implica un upside sustancial desde los niveles actuales (HECHO: TipRanks, ~28/07/2026). Hay divergencia notoria entre casas: HSBC inició cobertura con 'Hold' y PT de solo US$115 (cercano al precio de IPO) (HECHO: TheStreet, 07/2026), mientras Needham elevó su PT a US$250 el 15-jul-2026 (HECHO: Yahoo Finance, 15/07/2026) — reflejando falta de consenso sobre cómo valuar una compañía tan nueva en el mercado público. En el frente de flujos, Ark Invest ha comprado de forma sostenida en cada caída desde el listado (más de US$475M acumulados, ~4,4M de acciones a través de sus ETFs) sin vender (HECHO: gurufocus.com/Benzinga, 07/2026), una señal de convicción institucional contraria a la tendencia de precio. En insiders, la actividad de los últimos tres meses muestra venta neta de ~US$1,2M, con un insider vendiendo y ninguna compra reportada (HECHO: fuente de datos de insider trading citada en búsqueda, 07/2026) — magnitud pequeña, no representa una señal fuerte. El tono de la cobertura de prensa (CNBC, Yahoo Finance, Bloomberg, CNN) en las últimas dos semanas es predominantemente cauteloso, centrado en la caída bajo el precio de IPO, el short interest creciente y la ansiedad pre-earnings/pre-lockup (LECTURA editorial agregada de múltiples fuentes, 15-29/07/2026).",
+    "conclusion": "SPCX combina una narrativa de crecimiento estructural muy fuerte (Starlink con EBITDA positivo y márgenes altos, avances técnicos reales en Starship, consenso de analistas mayormente comprador con upside de ~110%) con riesgos técnicos y estructurales severos de muy corto plazo: precio ya 17% bajo el IPO, cerca de mínimos históricos (percentil 4,7 a 1 año), short interest elevado en un float aún muy reducido, y una secuencia de eventos concentrados en apenas una semana (earnings 4-ago, lockup 6-ago) que pueden generar volatilidad extrema en cualquier dirección. La valuación por P/S (62-79x) sigue siendo exigente incluso después de la corrección. Dado el patrón técnico débil (RSI 34,6, MACD muy negativo, precio bajo todas las medias disponibles) pero con compradores institucionales de largo plazo acumulando en la baja, la señal es de alta incertidumbre binaria de corto plazo: el resultado del primer earnings público será el catalizador que probablemente defina la tendencia de las próximas semanas."
   },
   "scores": {
     "tecnica": {
-      "score": 27,
-      "just": "RSI 34.0 y MACD -17.87 sin señal (TradingView, 27-jul-2026), precio -18.38% vs SMA20, underperformance de -26.02% a 30d vs S&P500. Nuevo mínimo histórico (~$108.66, ~27-jul-2026, prensa) confirma continuación bajista, aunque el volumen por debajo del promedio (ratio 0.88) y la desaceleración de la caída (-2% adicional vs el mínimo del 24-jul, tras -27% en julio) sugieren posible agotamiento vendedor de corto plazo sin confirmación de reversión."
+      "score": 18,
+      "just": "Precio 15,86% bajo SMA20, RSI 34,6 sin confirmar sobreventa, MACD muy negativo (-17,04) y sin señal disponible, además de rendimiento relativo al S&P 500 de -27,45% a 30 días y percentil de precio a 1 año de solo 4,7. Cuadro técnico claramente bajista en todos los marcos disponibles (TradingView, 29/07/2026)."
     },
     "fundamental": {
       "score": 42,
-      "just": "Sin datos financieros nuevos reportados (primer earnings aún pendiente, 4-ago). Consenso ahora más preciso (~$6.9B revenue, +47% QoQ; EPS -$0.16 a -$0.28) sugiere posible mejora secuencial de márgenes, y BofA reencuadra la tesis como plataforma multi-negocio (PT $235), lo que sostiene ligeramente el score vs. el informe anterior, pero la valuación sigue descontando ejecución no verificada y persisten pérdidas GAAP crecientes."
+      "just": "Negocio subyacente sólido (Starlink con EBITDA positivo, márgenes ~63%, crecimiento 50% interanual) pero sin utilidad GAAP y con P/S implícito de 62-79x, valuación aún exigente. Riesgo de financiamiento de largo plazo señalado por Morgan Stanley (US$672.000M, sin FCF positivo hasta 2035) pesa sobre el score (Sacra/APNIC 07/2026; gurufocus.com 15/07/2026)."
     },
     "sentimiento": {
-      "score": 44,
-      "just": "Consenso sell-side sigue mayoritariamente Buy (~23-27 Buy/5-7 Hold/1 Sell, target ~$236-244) con BofA sumándose al bloque alcista y HSBC confirmando el piso bajista ($115), sin cambio material vs. la semana anterior. El price action (nuevo mínimo histórico, predicciones de mercado con solo 68% de probabilidad de cerrar julio sobre $120) sigue contradiciendo el optimismo estructural de los analistas."
+      "score": 55,
+      "just": "Consenso sell-side 'Compra' con upside de ~110% y compras sostenidas de Ark Invest en cada caída, pero con dispersión fuerte entre analistas (HSBC Hold US$115 vs. Needham US$250) y tono de prensa reciente mayormente cauteloso por la caída bajo el IPO y el short interest creciente (TipRanks, gurufocus.com, 07/2026)."
     },
     "riesgo": {
-      "score": 82,
-      "just": "Riesgo ALTO bien identificado, cuantificado y sin cambios de calendario: lockup de ~$123B en 6-ago, short interest estable en 32% (~$25B), earnings binario el 4-ago, y ahora un mecanismo adicional de apalancamiento (futuros CME desde 27-jul) que podría amplificar movimientos alrededor de estos eventos ya conocidos. La confluencia de riesgos sigue bien acotada en el tiempo y documentada por múltiples fuentes."
+      "score": 88,
+      "just": "Riesgo alto y bien identificado por el mercado: volatilidad 30d de 74,95%, drawdown máximo a 1 año de -44,23%, Sharpe/Sortino muy negativos, short interest de ~31-35% del float negociable, y calendario de lockups escalonados entre agosto y diciembre de 2026 que puede multiplicar el float disponible. Riesgos concretos, fechados y de magnitud considerable."
     },
     "conviccion": {
-      "score": 47,
-      "just": "Catalizadores fechados con precisión (Starship 14 próximo, earnings 4-ago, lockup 6-ago) y asimetría de payoff clara (consenso ~+100% vs precio en mínimos), pero el desenlace de cada evento binario sigue sin ser predecible con la información disponible — las propias notas de Motley Fool del 27 y 28-jul ofrecen predicciones opuestas para el mismo evento, evidenciando que la tesis, aunque falsable en fechas concretas, no tiene un resultado claro anticipable."
+      "score": 45,
+      "just": "Hay catalizadores fechados y concretos (earnings 4-ago, lockup 6-ago, tramos hasta dic-2026) que dan una tesis falsable de corto plazo, pero la asimetría es ambigua: el consenso ve upside grande, mientras el técnico y el calendario de dilución apuntan a presión adicional. Convicción media, condicionada al resultado del primer earnings público."
     }
   },
   "sources": [
-    "TradingKey — 'SpaceX (SPCX) Stock Week in Review: Down 47% From High, Starship 13 Pending, Earnings Aug 4' (24-25/07/2026)",
-    "Yahoo Finance / CoinPedia — 'SpaceX Stock (SPCX) Price Could Rebound After 50% Drop' (27/07/2026)",
-    "Finbold — 'Crypto markets predict SpaceX stock for end of July 2026' (26-27/07/2026)",
-    "CNBC — 'Bets against SpaceX grow to 32% of float as Elon Musk warns short sellers won't survive' (21/07/2026)",
-    "Yahoo Finance / 247wallst.com — 'A Third of SpaceX's Tradable Shares Are Now Betting Against It. The Squeeze Math Is Wild' (jul/2026)",
-    "MLQ News — 'SpaceX Short Interest Surges to 29% of Float as Stock Falls Below $135 IPO Price' (jul/2026)",
-    "CNBC — 'CME launches single stock futures enabling investors to trade SpaceX, Micron and others 23 hours a day' (27/07/2026)",
-    "TradingKey — 'CME to Launch Single-Stock Futures on July 27, With SpaceX, Nvidia, Micron Among Over 50 US Stocks Included' (27/07/2026)",
-    "Risk.net — 'SpaceX gives CME's single-stock futures a much-needed boost' (27/07/2026)",
-    "Investing.com — 'SpaceX IPO lockup expiry: $123B in shares set to unlock in early August 2026' (jul/2026)",
-    "The Motley Fool — 'SpaceX's IPO Lockup Starts Expiring in August...' (19/07/2026)",
-    "The Motley Fool — 'Here's What Retail Investors Need to Know About SpaceX's Lockup Cliff' (24/07/2026)",
-    "purepowerpicks.com — 'SpaceX (SPCX) Lockup Schedule: When Insider Shares Unlock (2026-2027)' (jul/2026)",
-    "TipRanks — 'Bank of America Sets Expectations for SpaceX Stock Ahead of August 4 Earnings' (26/07/2026)",
-    "247wallst.com — 'BofA Initiates SpaceX Coverage at $235 Price Target, Sees Multiple Billion-Dollar Businesses' (08/07/2026)",
-    "TheStreet — 'HSBC starts SpaceX stock at hold with $115 price target' (jul/2026)",
-    "TheStreet — 'SpaceX stock defies latest Wall Street forecasts' (jul/2026)",
-    "The Motley Fool — 'Should You Buy SpaceX Stock Before Aug. 4?' (26/07/2026)",
-    "The Motley Fool — 'SpaceX Earnings Are Coming Aug. 4. Here's Why Aug. 6 Could Be Even More Important For Investors' (27/07/2026)",
-    "The Motley Fool — 'Prediction: This Is How SpaceX Stock Will Do After Aug. 4' (27/07/2026)",
-    "The Motley Fool — 'Prediction: SpaceX Stock Will Fall After Aug. 4' (28/07/2026)",
-    "The Motley Fool — 'SpaceX Stock Is Down 48% From Its High. Here's Why ETFs Are Loading Up Anyway' (27/07/2026)",
-    "SatNews — 'SpaceX Targets First Starship Upper Stage Tower Catch for Flight 14' (25/07/2026)",
-    "Teslarati — 'SpaceX wants to catch Starship for launch 14, Elon Musk says' (25/07/2026)",
-    "Ya Libnan — 'SpaceX carried out a successful test flight of its 14 story Starship' (25/07/2026)",
-    "SpaceNews — 'SpaceX conducts 13th Starship test flight' (24/07/2026)",
-    "Quiver Quantitative — 'FAA Closes SpaceX Starship Flight 12 Investigation, Clears Flight 13 for Launch' (jul/2026)",
-    "TechCrunch — 'SpaceXAI releases Grok 4.5' (08/07/2026)",
-    "Investing.com — 'SpaceX sets date for maiden earnings report: Why August 4 is make-or-break' (24/07/2026)",
-    "stockanalysis.com — historial de precio y forecast SPCX (27-28/07/2026)"
+    "CNBC — 'SpaceX IPO takeaways: SPCX closes at $161, jumping 19% after record debut' (12/06/2026)",
+    "NBC News — 'SpaceX locks in IPO price of $135, making it largest stock debut ever' (11/06/2026)",
+    "CNBC — 'SpaceX raising $75 billion in record-setting IPO as Nasdaq debut awaits' (11/06/2026)",
+    "CNBC — 'SpaceX stock sinks below $135 IPO price for the first time' (15/07/2026)",
+    "GuruFocus — 'SpaceX (SPCX) Stock Falls Below IPO Price for Fourth Consecutive Day' (15/07/2026)",
+    "TrendSpider — 'SPCX Stock Falls Below IPO Price on Lockup, Profit Fears' (15/07/2026)",
+    "Bloomberg — 'SpaceX Shares (SPCX) Rebound After Briefly Falling 20% Below IPO Price' (28/07/2026)",
+    "Yahoo Finance — 'SpaceX Stock Continues to Drop, Falling Under Its IPO Price—and 42% Below Peak' (07/2026)",
+    "Yahoo Finance — 'SpaceX stock sags again to a new low as Q2 earnings approach' (29/07/2026)",
+    "stockanalysis.com — 'Space Exploration Technologies (SPCX) Market Cap & Net Worth' (28/07/2026)",
+    "Investing.com — 'SpaceX IPO lockup expiry: $123B in shares set to unlock in early August 2026' (07/2026)",
+    "BiyaPay Blog — 'SpaceX / SPCX Lock-Up Expiration Schedule: 2026-2027' (07/2026)",
+    "KuCoin — 'SPCX Rally Capped by 2026 Lock-Up Schedule, Recovery Unlikely Before 2027' (07/2026)",
+    "CNBC — 'SpaceX snaps 7-day losing streak, sets earnings date that triggers first big share unlock' (21/07/2026)",
+    "Yahoo Finance — 'SpaceX sets date for maiden earnings report: Why August 4 is make-or-break' (07/2026)",
+    "Spaceflight Now — 'Super Heavy-Starship rocket chalks up mostly successful test flight' (25/07/2026)",
+    "CNN — 'SpaceX Starship megarocket hits key milestones in Lucky 13 test flight as big hurdles loom' (24/07/2026)",
+    "CNBC — 'SpaceX launches massive Starship rocket in first test flight since IPO' (24/07/2026)",
+    "CNBC — 'Musk's xAI, SpaceX combo is the biggest merger of all time, valued at $1.25 trillion' (03/02/2026)",
+    "KeepTrack — 'Who Owns SpaceX? Musk's Stake After the 2026 IPO' (03/2026)",
+    "TipRanks — 'SpaceX (SPCX) Stock Forecast, Price Targets and Analysts Predictions' (~28/07/2026)",
+    "TheStreet — 'HSBC starts SpaceX stock at hold with $115 price target' (07/2026)",
+    "Yahoo Finance — 'SpaceX stock hits all-time low, dips below IPO price' (28/07/2026)",
+    "Sacra — 'SpaceX revenue, valuation & funding' (07/2026)",
+    "APNIC Blog — 'The economics of SpaceX' (02/07/2026)",
+    "ValueAddVC — 'Starlink's 2026 Revenue: $15.5B Across 7M Subscribers' (07/2026)",
+    "GuruFocus — 'ARK Invest Increases Stake in SpaceX (SPCX) Amid Market Volatility' (07/2026)",
+    "Benzinga — 'Cathie Wood Keeps Buying Every SpaceX Dip, Adds Another $14M' (07/2026)",
+    "TradingView scanner — datos de precio, RSI, MACD, medias móviles y volumen (29/07/2026)"
   ],
   "events": [
     {
       "date": "2026-08-04",
-      "label": "Primer reporte trimestral público (Q2 2026), webcast 4:30pm ET — consenso espera revenue ~$6.9B y EPS entre -$0.16 y -$0.28; dispara calendario de lockup",
+      "info": "Primer reporte de resultados trimestrales (Q2 2026) de SpaceX como empresa pública, tras el cierre de mercado. Es el evento más relevante del corto plazo: el mercado espera señales sobre márgenes de Starlink, guidance de ingresos 2026 (US$22.000-24.000M estimado por consenso de mercado, no cifra oficial de la compañía) y comentarios sobre necesidades de capital tras la advertencia de Morgan Stanley de un requerimiento de hasta US$672.000M (Fuente: CNBC, 21/07/2026; Yahoo Finance, 07/2026).",
+      "label": "Primer reporte de resultados trimestrales público (Q2 2026)",
       "kind": "earnings"
     },
     {
       "date": "2026-08-06",
-      "label": "Primer tramo del desbloqueo escalonado de lockup: ~911.5M acciones (~20% del bloque de 180 días, ~$123B), 2 días hábiles tras earnings",
+      "info": "Liberación de un tramo de lockup gatillado por el earnings de Q2: se estima la liberación de ~911,5 millones de acciones (~20% bajo el esquema escalonado), equivalentes a unos US$116.000M a precios de mediados de julio. Es el catalizador de dilución/float más citado por analistas como riesgo de presión bajista de corto plazo (Fuente: Investing.com y KuCoin, 07/2026).",
+      "label": "Primer tramo de desbloqueo de lockup (~911,5M acciones, ~20%)",
       "kind": "corporate"
     },
     {
-      "date": "2026-08-21",
-      "label": "Segundo tramo de desbloqueo de lockup: ~7% adicional de acciones restringidas",
+      "date": "2026-12-08",
+      "info": "Vencimiento del lockup principal de 180 días desde el pricing de la IPO (11-jun-2026), que libera el remanente de acciones bajo ese esquema, tras tramos intermedios de ~7% cada 2-4 semanas entre agosto y octubre y un tramo mayor (~28%) gatillado por el earnings de Q3 2026 (fecha de ese earnings aún no confirmada públicamente). Representa el cierre del ciclo de lockups de 2026 y el punto en que, según analistas, el float podría normalizarse (Fuente: BiyaPay Blog y purepowerpicks.com, 07/2026 — calendario de fuente secundaria, no confirmado en documento regulatorio primario).",
+      "label": "Vencimiento del lockup principal de 180 días desde IPO",
       "kind": "corporate"
     }
   ],
   "risk": {
-    "volatility_30d": 74.47,
-    "sharpe": -1.39,
-    "sortino": -1.13,
-    "max_drawdown_1y": -43.76,
-    "n_days": 32,
+    "volatility_30d": 74.95,
+    "sharpe": -1.38,
+    "sortino": -1.12,
+    "max_drawdown_1y": -44.23,
+    "n_days": 34,
     "window": 30
   },
   "benchmark": {
     "ticker": "SP:SPX",
     "label": "S&P 500",
-    "relative_performance_30d": -26.02,
-    "relative_performance_ytd": -32.11,
-    "price_percentile_1y": 4.1,
+    "relative_performance_30d": -27.45,
+    "relative_performance_ytd": -31.34,
+    "price_percentile_1y": 4.7,
     "partial": false
   },
   "technical": {
-    "price": 113.5,
-    "change_1d_pct": -1.36,
-    "change_1w_pct": -1.36,
-    "rsi": 34.0,
-    "macd": -17.8651,
+    "price": 112.55,
+    "change_1d_pct": -3.32,
+    "change_1w_pct": -2.19,
+    "rsi": 34.6,
+    "macd": -17.0432,
     "macd_signal": null,
-    "sma20": 139.0645,
+    "sma20": 133.76,
     "sma50": null,
     "sma200": null,
-    "ema12": 126.4464,
-    "ema26": 144.3115,
-    "pct_vs_sma20": -18.38,
+    "ema12": 123.002,
+    "ema26": 140.0451,
+    "pct_vs_sma20": -15.86,
     "pct_vs_sma50": null,
     "pct_vs_sma200": null,
-    "volume_today": 64539612,
-    "volume_avg20": 73709796.0,
-    "volume_ratio": 0.88,
-    "volatility_30d": 74.47,
-    "sharpe": -1.39,
-    "sortino": -1.13,
-    "max_drawdown_1y": -43.76,
-    "price_percentile_1y": 4.1,
-    "vs_benchmark_30d_pct": -26.02,
-    "perf_1m_pct": -24.64,
-    "perf_ytd_pct": -24.33
+    "volume_today": 53995089,
+    "volume_avg20": 71966475.0,
+    "volume_ratio": 0.75,
+    "volatility_30d": 74.95,
+    "sharpe": -1.38,
+    "sortino": -1.12,
+    "max_drawdown_1y": -44.23,
+    "price_percentile_1y": 4.7,
+    "vs_benchmark_30d_pct": -27.45,
+    "perf_1m_pct": -28.47,
+    "perf_ytd_pct": -24.97
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-07-27T22:37:40-04:00"
+      "fetched_at": "2026-07-29T22:16:13-04:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-07-27T22:37:40-04:00"
+      "fetched_at": "2026-07-29T22:16:13-04:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-07-27T22:37:40-04:00"
+      "fetched_at": "2026-07-29T22:16:13-04:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "SP:SPX",
-      "fetched_at": "2026-07-27T22:37:40-04:00"
+      "fetched_at": "2026-07-29T22:16:13-04:00"
     },
     "risk_metrics": {
       "origin": "data/history/SPCX.json",
-      "n_days": 32
+      "n_days": 34
     }
   },
   "metricChanges": [],
-  "reportDate": "28 de julio de 2026"
+  "reportDate": "30 de julio de 2026"
 }

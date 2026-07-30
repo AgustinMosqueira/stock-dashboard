@@ -1,92 +1,184 @@
 {
- "ticker": "MU",
- "company": "Micron Technology, Inc.",
- "statsList": [
-  [
-   "Precio",
-   "$739.00 (29-jul-2026)"
+  "ticker": "MU",
+  "company": "Micron Technology, Inc.",
+  "statsList": [
+    [
+      "Precio",
+      "$739.00 (29-jul-2026)"
+    ],
+    [
+      "Rango 52 sem.",
+      "$103.38 - $1,255.00 (Morningstar/StockAnalysis, 28-jul-2026; HECHO: rango previo a la corrección del 29-jul, no verificable si ya se actualizó tras la caída al cierre del día)"
+    ],
+    [
+      "Market cap",
+      "~$828,000M (LECTURA: cálculo propio = precio $739 × ~1.12B acciones diluidas reportadas por AlphaQuery para el año fiscal cerrado 31-ago-2025; fuentes previas a la caída del 29-jul citaban $835,000-855,000M con precio ~$958-1,032, Companiesmarketcap/Yahoo Finance, 28-jul-2026)"
+    ],
+    [
+      "P/E",
+      "Trailing ~16.6x (LECTURA: cálculo propio = precio $739 / EPS TTM $44.17-44.80, Macrotrends, may-2026) · Forward ~4.4x (LECTURA: cálculo propio, escalando forward P/E ~5.7x reportado a precio ~$958 por GuruFocus/Fullratio, 28-jul-2026, al precio actual $739)"
+    ],
+    [
+      "Target consenso",
+      "~$1,507 (S&P Global, 45 analistas, 'Strong Buy', jul-2026) / ~$1,569 promedio, rango $1,100-$2,200 (30 analistas, TipRanks/StockAnalysis, jul-2026). LECTURA: implica upside >100% desde $739, pero targets fueron fijados mayormente antes de la corrección de fines de julio; Morgan Stanley elevó a $1,200 (26-jun-2026) y Citi a $1,200 (jun-2026)"
+    ],
+    [
+      "Próx. earnings",
+      "29-sep-2026 (Q4 FY26). Guidance ya conocido: revenue $50.0B ± $1.0B, margen bruto no-GAAP ~86%, EPS diluido no-GAAP $31.00 ± $1.00 (Micron Investor Relations, comunicado Q3 FY26, jun-2026)"
+    ],
+    [
+      "Técnico (auto)",
+      "RSI 35.7 · MACD -35.88 / señal -15.68 (TradingView, 29-jul-2026)"
+    ]
   ],
-  [
-   "Rango 52 sem.",
-   "$103.38 – $1,255.00"
+  "change": {
+    "day": -9.94,
+    "week": -19.76
+  },
+  "reportDate": "30 de julio de 2026",
+  "events": [
+    {
+      "date": "2026-09-29",
+      "info": "Earnings Q4 FY2026 (HECHO: fecha confirmada por Micron Investor Relations/TipRanks/MarketBeat, jul-2026). Guidance ya entregado en jun-2026: revenue $50.0B ± $1.0B, margen bruto no-GAAP ~86%, opex ~$1.65B, EPS no-GAAP $31.00 ± $1.00 (Micron IR, comunicado Q3 FY26). El mercado se enfocará en si la demanda de HBM4/HBM4E y el pricing de DRAM/NAND se sostienen tras la corrección de julio, y en comentarios sobre la competencia de CXMT (LECTURA).",
+      "label": "Resultados Q4 FY26 y año fiscal completo (tras el cierre)",
+      "kind": "earnings"
+    },
+    {
+      "date": "2026-08-15",
+      "info": "Ventana habitual de reportes de resultados de proveedores de equipos/competidores de memoria (Samsung, SK Hynix ya reportaron en jul-2026) y actualizaciones de capex sectorial que podrían mover el sentimiento sobre MU antes de su propio reporte de septiembre (LECTURA: no hay fecha exacta confirmada de un evento específico de Micron; se declara no verificable evento puntual entre ago-2026).",
+      "label": "Reportes de competidores de memoria y actualizaciones de capex sectorial",
+      "kind": "macro"
+    }
   ],
-  [
-   "Market cap",
-   "$834.6B"
+  "sections": {
+    "resumen": "Micron (MU) atraviesa a fines de julio de 2026 la corrección más violenta de su historial reciente dentro de un superciclo estructural alcista de memoria impulsado por IA. La acción cayó -9.94% en el día y -19.76% en la semana (dato congelado), tras un desplome acumulado de aproximadamente -34% desde el techo del 25-jun-2026 (HECHO: BigGo Finance/Yahoo Finance, 28-29/07/2026). El detonante inicial fue el guidance de utilidades de SK Hynix por debajo de lo esperado por menores despachos de HBM4 (HECHO: SK Hynix Q2 2026, referenciado en TradingKey/ts2.tech, 13-15/07/2026), agravado por el debut bursátil de CXMT con un salto de +466% que la convirtió brevemente en la compañía más valiosa de China (HECHO: Forbes, 27/07/2026), temores de sobre-inversión en capex de IA y rotación de flujos fuera del trade de IA (LECTURA: UBS/Mark Haefele, citado en TradingKey, 29/07/2026). Pese al derrumbe de corto plazo, los fundamentos de la tesis de superciclo —HBM3E y HBM4 vendidos hasta 2027 con reservas hacia 2028, márgenes brutos récord ~85-87%— siguen intactos según la propia compañía (HECHO: Micron IR, comunicado Q3 FY26, jun-2026), lo que genera una fuerte divergencia entre el precio de mercado y el consenso de analistas (target promedio ~$1,507-1,569 vs. precio actual $739).",
+    "fundamental": "**HECHO:** Micron reportó margen bruto GAAP de 84.9% en Q3 FY26 (vs. 38% un año antes) y guio a ~86% no-GAAP para Q4 FY26, con revenue guiado en $50.0B ± $1.0B y EPS no-GAAP $31.00 ± $1.00 (Micron Investor Relations, comunicado Q3 FY26, jun-2026). El margen bruto de la unidad de Data Center llegó a 87% en el trimestre reportado en julio (Motley Fool, 09/07/2026). Los precios de DRAM subieron ~60% trimestre contra trimestre y NAND ~85% QoQ en el Q3 FY26 (TradingKey, jul-2026), aunque la propia gerencia advirtió que el ritmo de alzas se moderaría. **LECTURA:** varios analistas señalan que un margen bruto 25 puntos por encima del pico previo de 2018 es matemáticamente insostenible en el largo plazo, y que la única incógnita es el momento de la reversión, no si ocurrirá (TradingKey, jul-2026); las ventas continuas de insiders sin ninguna compra en 5 años se citan como señal indirecta de que ni la propia gerencia apuesta a que estos márgenes sean 'indefinidos' (TradingKey, jul-2026). **HECHO:** Micron anunció una expansión de inversión en EE.UU. por más de $250,000M para capturar demanda de memoria IA, con capex FY26 de ~$27,000M y nuevos incrementos planeados para 2027 (Yahoo Finance/BigGo, jul-2026); rompió tierra en jul-2026 para una nueva fábrica de ~$9,300M con producción recién esperada hacia 3T 2028 (Investing.com, jul-2026). El TAM de HBM se proyecta por sobre $100,000M en 2027 (Micron IR, jun-2026).",
+    "valuacion": "**HECHO:** Con el precio congelado de $739, el P/E trailing (EPS TTM ~$44.17-44.80 a mayo-2026, Macrotrends) se ubica en torno a 16.6x — muy por debajo del promedio de 12 meses de 29.4x citado por Financecharts (28/07/2026) para precios previos a la corrección. **LECTURA:** el forward P/E, escalado desde el ~5.7x reportado por GuruFocus/Fullratio con precio ~$958 (28/07/2026), implicaría aproximadamente 4.4x al precio actual de $739 — un nivel que sugiere que el mercado está descontando una caída significativa de utilidades futuras, o bien que la acción está severamente sobrecastigada frente al guidance vigente de EPS no-GAAP ~$31/trimestre. El consenso de 30-45 analistas mantiene rating 'Strong Buy' con targets promedio entre $1,507 y $1,569 (S&P Global/TipRanks, jul-2026), lo que implicaría un upside superior al 100% desde el precio actual, aunque la mayoría de esos targets fueron fijados antes de la corrección de fines de julio y podrían no reflejar aún el nuevo consenso post-selloff (LECTURA, no verificable si ya hay revisiones a la baja generalizadas post-29/07).",
+    "tecnico": "**HECHO (datos congelados/TradingView, 29-jul-2026):** Precio $739, con caída diaria de -9.94% y semanal de -19.76%. RSI en 35.7 (zona de debilidad, sin llegar a sobreventa extrema <30). MACD en -35.88 muy por debajo de su señal (-15.68), confirmando momentum bajista fuerte y creciente. El precio está -20.3% bajo la SMA20, -22.9% bajo la SMA50, pero aún +44.48% sobre la SMA200 ($511.49) — la tendencia de largo plazo sigue siendo alcista pese al derrumbe de corto plazo. Volumen de hoy (69.8M) es 1.51x el promedio de 20 días (46.4M), señal de capitulación/distribución intensa. La performance a 1 mes es -34.53% y el YTD sigue siendo fuertemente positivo en +150.4%. **LECTURA:** el cuadro técnico es de tendencia primaria alcista intacta pero con una corrección severa de mediano plazo que rompió todos los soportes de corto plazo (SMA20/50); el RSI aún no en sobreventa extrema deja espacio para más downside antes de una señal técnica de agotamiento vendedor.",
+    "catalizadores": "**Catalizadores:**\n- Earnings Q4 FY26 el 29-sep-2026, con guidance ya fijado en revenue $50,000M y EPS no-GAAP $31.00 (Micron IR, jun-2026); cualquier reafirmación o guía hacia FY27 podría estabilizar la narrativa.\n- HBM3E y HBM4 vendidos hasta 2027 con reservas hacia 2028 (HECHO: Micron IR/comunicados jul-2026), lo que da visibilidad de ingresos multi-año pese a la volatilidad del precio de la acción.\n- Ramp de HBM4E en colaboración con TSMC para el die lógico base, apuntando a 2027 (Tom's Hardware/Digitimes, may-2026), y producción en volumen de HBM4 de 36GB 12H ya en curso para la plataforma Vera Rubin de Nvidia (Micron IR, 2026).\n- Expansión de capex a >$250,000M en inversión en EE.UU. y nueva fábrica de $9,300M (jul-2026), señal de confianza de largo plazo de la gerencia en el ciclo.\n\n**Riesgos (por materialidad):**\n- Competencia china: CXMT debutó en bolsa con +466% y quedó como la compañía más valiosa de China (Forbes, 27/07/2026); prepara litografía DUV doméstica con entregas a SMIC/Hua Hong/CXMT ya en 2026 (TrendForce/Tom's Hardware, jul-2026), y reportes de FT indican que Apple estaría gestionando ante el gobierno de EE.UU. un waiver para comprarle memoria a CXMT pese a estar en la lista negra del Pentágono (LECTURA/HECHO parcial: FT citado por fuentes secundarias, no verificado directamente el artículo original de FT).\n- Sostenibilidad de márgenes ~85-87%: 25 puntos sobre el pico de 2018, visto por varios analistas como insostenible en el mediano plazo (TradingKey, jul-2026).\n- Ventas de insiders: el CEO Sanjay Mehrotra vendió ~$37.3M en acciones el 24-jul-2026 bajo plan 10b5-1 (adoptado 30-ene-2026), acumulando >$140M vendidos desde mayo-2026 sin compras en el mercado abierto en 5 años (HECHO: StockTitan/BigGo Finance/Yahoo Finance, jul-2026); si bien son ventas planificadas y no discrecionales, coinciden con el techo de la acción del 25-jun-2026.\n- Beta ~2.1 (no verificable el valor exacto en esta investigación, cifra de contexto proporcionada por el usuario) implica amplificación de movimientos de mercado y de sector en ambas direcciones, como se observó en el drawdown de -39.1% a 1 año (dato congelado) y la caída semanal de -19.76%.\n- Riesgo de sobre-inversión sectorial en capex de IA: SK Hynix guio a subir capex 2026 en 50% a al menos $31,000M, alimentando temores de exceso de oferta futura (TradingKey, 29/07/2026).",
+    "sentimiento": "**HECHO:** El sentimiento de corto plazo se deterioró abruptamente: la acción encadenó múltiples sesiones de caídas fuertes a fines de julio (-8.9% el martes, -5.4% el miércoles según una nota, -10% en otra sesión referenciada por TradingKey, 28-29/07/2026), arrastrada junto con Samsung y SK Hynix (que cayeron >13% en sesiones recientes) en lo que medios describieron como un 'bear market' de las acciones de memoria (Yahoo Finance, jul-2026). **LECTURA:** persiste una divergencia marcada entre el sentimiento de analistas sell-side (consenso 'Strong Buy', targets con upside >100%) y el sentimiento de mercado/flujos de corto plazo, que está dominado por rotación defensiva fuera de nombres de IA y ansiedad ante el ritmo de capex sectorial. El volumen elevado (1.51x el promedio de 20 días) y el RSI en 35.7 sugieren capitulación activa más que estabilización. Comentaristas como Jim Cramer mantienen postura constructiva citando los márgenes récord de Data Center (Yahoo Finance, jul-2026), mientras que voces bajistas apuntan a las ventas de insiders y al riesgo CXMT como señales de alerta temprana.",
+    "conclusion": "MU combina una tesis estructural de superciclo de memoria IA con visibilidad de ingresos multi-año (HBM vendido hasta 2027-2028, márgenes récord, guidance de Q4 FY26 ya conocido) frente a una corrección técnica y de sentimiento extremadamente violenta en las últimas semanas (-34% desde el techo de junio, -19.76% en la última semana, dato congelado). La tendencia de largo plazo (SMA200 muy por debajo del precio actual, +44.48%) permanece alcista, pero el momentum de corto plazo es claramente bajista (MACD muy negativo, ruptura de SMA20/50). El principal catalizador fechado es el reporte de earnings del 29-sep-2026, donde el mercado buscará confirmación de que el guidance de $50,000M de revenue y márgenes ~86% se sostiene pese a la presión de CXMT y las dudas sobre sobre-inversión sectorial. La tesis es falsable: si Micron reafirma o eleva guidance de HBM4/HBM4E para FY27 y los márgenes brutos no colapsan por debajo de ~75-80%, el actual desplome luce como una oportunidad de entrada dentro de un ciclo estructural; si en cambio hay señales de erosión de pricing de DRAM/NAND o pérdida de cuota frente a CXMT, la corrección podría ser el inicio de un ajuste de ciclo más profundo, no solo una purga técnica de corto plazo."
+  },
+  "scores": {
+    "tecnica": {
+      "score": 28,
+      "just": "Momentum de corto/mediano plazo claramente bajista: MACD muy por debajo de la señal, precio -20% a -23% bajo SMA20/SMA50, RSI 35.7 sin sobreventa extrema aún, volumen 1.51x el promedio confirmando presión vendedora activa. Solo la tendencia de larguísimo plazo (SMA200) sigue alcista, lo que evita un score aún más bajo."
+    },
+    "fundamental": {
+      "score": 62,
+      "just": "Márgenes brutos récord (~85-87%) y guidance de revenue $50,000M/EPS $31 ya conocidos dan solidez de corto plazo, pero la valuación post-caída luce barata en múltiplos (P/E trailing ~16.6x, forward ~4.4x estimado) precisamente porque el mercado descuenta que estos márgenes no son sostenibles y que viene normalización de precios de DRAM/NAND ante la entrada de CXMT."
+    },
+    "sentimiento": {
+      "score": 22,
+      "just": "Sentimiento de mercado deteriorado con fuerza: múltiples sesiones consecutivas de caídas de doble dígito porcentual semanal, sector de memoria completo (Samsung, SK Hynix, SanDisk, Western Digital) en modo 'bear market' de corto plazo, y ventas de insiders del CEO por >$140M desde mayo sin compras en 5 años alimentando la desconfianza, pese a que el consenso sell-side sigue en 'Strong Buy'."
+    },
+    "riesgo": {
+      "score": 78,
+      "just": "Riesgo ALTO pero bien acotado y caracterizado: volatilidad 30d de 107.97%, drawdown máximo a 1 año de -39.1%, Sharpe/Sortino negativos, y beta elevada (~2.1, no verificable con precisión en esta investigación) amplifican tanto el downside como el upside. El riesgo idiosincrático principal (CXMT/China) está bien identificado y monitoreable vía noticias regulatorias."
+    },
+    "conviccion": {
+      "score": 55,
+      "just": "Catalizador fechado y concreto (earnings 29-sep-2026 con guidance ya público) y asimetría de valuación (targets de consenso >100% sobre el precio actual) apoyan convicción moderada-alta, pero la falta de claridad sobre el desenlace del riesgo CXMT/waiver de Apple y la posible sobreestimación de sostenibilidad de márgenes limitan una convicción mayor; tesis falsable en el reporte de septiembre."
+    }
+  },
+  "sources": [
+    "Micron Technology, Inc. Fiscal Q3 2026 Earnings Call Prepared Remarks, Micron Investor Relations, jun-2026",
+    "Micron Technology, Inc. Reports Record Results for the Third Quarter of Fiscal 2026, Micron Investor Relations, jun-2026",
+    "TradingKey, 'Micron Stock Price Drops 10%—Why the AI Memory Bull Case Still Looks Intact', 28/07/2026",
+    "TradingKey, 'MU Stock Price Forecast: Shares Down More Than 30%', 29/07/2026",
+    "TradingKey, 'Micron (NASDAQ:MU) Stock Crashes Below $910 as China's CXMT Plans an $8.5B IPO', jul-2026",
+    "Forbes, 'Memory Chipmaker CXMT Soars 466% On Debut', 27/07/2026",
+    "Tom's Hardware, 'China begins mass production of homegrown immersion chipmaking machines', jul-2026",
+    "TrendForce, 'China Reportedly Mass-Produces Immersion DUV Tools; SMIC, Hua Hong, CXMT Deliveries Expected This Year', 28/07/2026",
+    "StockTitan, Form 4 Micron Technology Inc Insider Trading Activity (Sanjay Mehrotra), jul-2026",
+    "BigGo Finance, 'Micron CEO Sanjay Mehrotra Sells $37.3 Million in Stock Under Pre-Set Plan as Shares Tumble 34%', jul-2026",
+    "Yahoo Finance, 'Micron's CEO sold big last week. Was it a warning sign?', jul-2026",
+    "Yahoo Finance, 'Micron, Samsung, SK Hynix just dragged memory stocks into a bear market', jul-2026",
+    "Motley Fool, 'Micron's Data Center Gross Margin Hit 87% Last Quarter', 09/07/2026",
+    "TradingKey, 'Crushing Wall Street's Biggest Doubt. Micron's Record 84.9% Gross Margin Sets Tone', jul-2026",
+    "Tom's Hardware, 'Micron hands TSMC the keys to HBM4E', may-2026",
+    "TipRanks, Micron Technology (MU) Earnings Dates, Call Summary & Reports, jul-2026",
+    "MarketBeat, Micron Technology (MU) Earnings Date and Reports 2026, jul-2026",
+    "GuruFocus, 'MICRON TECHNOLOGY Forward PE Ratio', 28/07/2026",
+    "Macrotrends, 'Micron Technology PE Ratio 2012-2026', may-2026",
+    "AlphaQuery, 'Micron Technology, Inc. (MU) - Weighted-Average Shares Outstanding (Diluted)', 2026",
+    "StockAnalysis, 'Micron Technology (MU) Stock Forecast & Analyst Price Targets', jul-2026",
+    "247wallst.com, 'SanDisk Sinks 7%, Micron Slides 6% as Memory Selloff Intensifies', 29/07/2026",
+    "TradingView scanner (precio, RSI, MACD, SMAs, volumen, benchmark), 29/07/2026"
   ],
-  [
-   "P/E",
-   "18.5x trailing / 5.7x forward"
-  ],
-  [
-   "Target consenso",
-   "$1,507 (45 analistas; rango $361–$2,200)"
-  ],
-  [
-   "Próx. earnings",
-   "29-sep-2026 (Q4 FY26)"
+  "risk": {
+    "volatility_30d": 107.97,
+    "sharpe": -0.91,
+    "sortino": -0.87,
+    "max_drawdown_1y": -39.1,
+    "n_days": 300,
+    "window": 30
+  },
+  "benchmark": {
+    "ticker": "SP:SPX",
+    "label": "S&P 500",
+    "relative_performance_30d": -33.5,
+    "relative_performance_ytd": 144.03,
+    "price_percentile_1y": 55.2,
+    "partial": false
+  },
+  "technical": {
+    "price": 739,
+    "change_1d_pct": -9.94,
+    "change_1w_pct": -19.76,
+    "rsi": 35.7,
+    "macd": -35.8801,
+    "macd_signal": -15.6803,
+    "sma20": 927.1955,
+    "sma50": 958.497,
+    "sma200": 511.4861,
+    "ema12": 892.5259,
+    "ema26": 928.406,
+    "pct_vs_sma20": -20.3,
+    "pct_vs_sma50": -22.9,
+    "pct_vs_sma200": 44.48,
+    "volume_today": 69840736,
+    "volume_avg20": 46393109.0,
+    "volume_ratio": 1.51,
+    "volatility_30d": 107.97,
+    "sharpe": -0.91,
+    "sortino": -0.87,
+    "max_drawdown_1y": -39.1,
+    "price_percentile_1y": 55.2,
+    "vs_benchmark_30d_pct": -33.5,
+    "perf_1m_pct": -34.53,
+    "perf_ytd_pct": 150.4
+  },
+  "sourcesMeta": {
+    "price": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-07-29T22:16:13-04:00"
+    },
+    "rsi_macd": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-07-29T22:16:13-04:00"
+    },
+    "smas_volume": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-07-29T22:16:13-04:00"
+    },
+    "benchmark": {
+      "origin": "TradingView scanner",
+      "symbol": "SP:SPX",
+      "fetched_at": "2026-07-29T22:16:13-04:00"
+    },
+    "risk_metrics": {
+      "origin": "data/history/MU.json",
+      "n_days": 300
+    }
+  },
+  "metricChanges": [
+    {
+      "ticker": "MU",
+      "date": "2026-07-29",
+      "metric": "precio_pct",
+      "from": 820.53,
+      "to": 739
+    }
   ]
- ],
- "change": {
-  "day": -9.94,
-  "week": -22.98
- },
- "reportDate": "29 de julio de 2026",
- "events": [
-  {
-   "date": "2026-09-29",
-   "label": "Resultados Q4 FY26 y año fiscal completo (tras el cierre)",
-   "kind": "earnings"
-  }
- ],
- "sections": {
-  "resumen": "Micron es el epicentro del superciclo de memoria impulsado por IA: en su Q3 FY26 (reportado 24-jun-2026) facturó un récord de $41.5B (+346% interanual) con margen bruto ~85% y guió Q4 a ~$50B, con todo su HBM agotado para el calendario 2026. Pero la acción vive la otra cara del ciclo: tras tocar un máximo histórico de $1,255 a fines de junio, corrigió ~41% hasta $739 (29-jul-2026), incluyendo -9.9% solo en la última sesión, por toma de utilidades, temores a la competencia china (IPO de CXMT, avances en litografía DUV, Apple buscando abastecerse de memoria china) y dudas sobre la sostenibilidad de márgenes de pico. La tensión central: fundamentales extraordinarios pero cíclicos, forward P/E de 5.7x que puede ser tan barato como engañoso, y un precio en caída libre de corto plazo con consenso de analistas ($1,507) al doble del spot.",
-  "fundamental": "**Resultados Q3 FY2026** (trimestre terminado en mayo, reportado 24-jun-2026):\n\n- HECHO: Revenue $41.46B, +74% secuencial y +346% interanual, récord absoluto; margen bruto 84.9%; EPS no-GAAP $25.11, todo por encima del guidance (comunicado oficial Micron / StockTitan / TradeThePool, 24-jun-2026).\n- HECHO: Utilidad neta GAAP $28.24B ($24.67 por acción diluida); flujo de caja operativo $25.39B en el trimestre (comunicado Q3 FY26, 24-jun-2026).\n- HECHO: DRAM $31.3B, récord de la compañía, 76% del revenue total, +343% interanual y +67% secuencial (comunicado Q3 FY26, 24-jun-2026).\n- HECHO: Guidance Q4 FY26: revenue ~$50B y margen bruto ~86%; EPS no-GAAP ~$31.00 en el punto medio, ~$5.6 sobre el consenso de entonces (StockTitan / TradeThePool, 24-jun-2026). La acción saltó ~14.6% en after-hours tras el reporte.\n- HECHO: TTM: revenue $90.3B (+167%), utilidad neta $50.5B (+711%), EPS $44.31 (StockAnalysis, 29-jul-2026).\n\n**Posición competitiva / ciclo de memoria:**\n\n- HECHO: el HBM de Micron está completamente vendido para el año calendario 2026; inició envíos masivos de HBM4 a un cliente líder y entrega muestras de HBM4E a múltiples clientes; firmó varios acuerdos de suministro de largo plazo con clientes principales (Investing.com / Tickeron / comunicado, jun-jul 2026).\n- LECTURA: estos son números de pico de ciclo sin precedentes en la industria de memoria (margen bruto ~85% en un negocio históricamente de 30-50%). El poder de precios actual refleja escasez extrema de DRAM/HBM por demanda de IA; la pregunta no es si los resultados son buenos, sino cuánto dura este nivel de pricing cuando la capacidad de la industria (y de China) responda. Lo que no fue verificable: desglose de NAND del trimestre y detalle de capex FY27.",
-  "valuacion": "- HECHO: P/E trailing 18.5x y forward P/E 5.7x (StockAnalysis, 29-jul-2026); GuruFocus reporta forward P/E 5.25x (jul-2026). Market cap $834.6B con 1.13B de acciones.\n- HECHO — price targets: consenso $1,507.38 promedio entre 45 analistas de S&P Global (~+104% vs. spot), con rango $361 (-56%) a $2,200 (+168%) (StockAnalysis / Public.com, jul-2026). Nota: a inicios de junio, antes del rally post-earnings, el target promedio era ~$717 — los targets vienen persiguiendo al precio en ambas direcciones.\n- HECHO: dividendo simbólico $0.60/año (yield 0.08%) (StockAnalysis, jul-2026).\n- LECTURA: la valuación es la paradoja clásica de un cíclico en pico: el forward P/E de 5.7x descuenta que el EPS de ~$130 anualizado del guidance es sostenible, algo que la historia de la memoria contradice. Si los márgenes normalizan hacia niveles históricos, el P/E \"real\" sobre utilidades mid-cycle es mucho mayor. El mercado está arbitrando exactamente ese debate: consenso al doble del precio vs. un target mínimo de $361 que asume reversión completa del ciclo. No se encontraron escenarios bull/base/bear con probabilidades publicadas.",
-  "tecnico": "- HECHO: cierre $739.00 el 29-jul-2026 (-9.94% día); secuencia de cierres de la última semana: $990.21 (23-jul) → $920.95 (-7.0%) → $900.20 (-2.3%) → $820.53 (-8.9%) → $739.00 (-9.9%) (StockAnalysis, 29-jul-2026). Corrección acumulada ~41% desde el ATH de $1,255 de fines de junio; ~-30% solo en julio.\n- HECHO: RSI diario 40.3, acercándose a sobreventa; señal diaria \"Strong Sell\" en Investing.com con las medias móviles en Sell (3 Buy / 9 Sell de MA5 a MA200); señales de venta de medias de corto y largo plazo en StockInvest (28/29-jul-2026).\n- HECHO: niveles citados — soporte de $898 perdido (TradingKey, 29-jul-2026); resistencias en $918 y $990-994 (zona de confluencia de medias y líneas de tendencia; Investtech/TradingKey, fines jul-2026); referencia mayor en ~$1,200.\n- LECTURA: el daño técnico de corto plazo es severo — cinco velas rojas casi consecutivas con volumen alto, pérdida de soportes en cascada y momentum vendedor sin señal de agotamiento clara todavía. En marcos semanal/mensual la tendencia sigue siendo estructuralmente alcista (el piso de 52 semanas es $103), pero intentar comprar este cuchillo exige confirmación: estabilización sobre ~$740-800 o reconquista de $898-920 como primer signo de reparación.",
-  "catalizadores": "**Catalizadores:**\n\n- **29-sep-2026 — Earnings Q4 FY26 y cierre de año fiscal** (tras el cierre; TipRanks): test del guidance de $50B de revenue, margen bruto ~86% y EPS ~$31; el consenso ya lo incorpora (EPS est. $31.16), por lo que el listón está alto.\n- **Ramp de HBM4 durante el 2° semestre 2026:** envíos masivos en curso a un cliente líder y muestras de HBM4E; cualquier anuncio de nuevos acuerdos de suministro de largo plazo o pricing de HBM4E es catalizador positivo (sin fecha confirmada).\n- **HBM agotado para CY2026:** la visibilidad de ingresos 2026 está asegurada; anuncios de pre-venta de capacidad CY2027 serían el siguiente hito (sin fecha confirmada).\n\n**Riesgos (por materialidad):**\n\n- **Reversión del ciclo de memoria:** márgenes brutos de 85-86% no tienen precedente y descuentan escasez perpetua; una respuesta de capacidad de la industria o enfriamiento del capex IA de los hyperscalers comprimiría precios de DRAM/NAND y el EPS violentamente — es el riesgo que explica el forward P/E de 5.7x.\n- **Competencia china:** la IPO de CXMT en Shanghái, los avances reportados de China en litografía DUV y el reporte de que Apple busca waivers para comprar memoria china dispararon la corrección de fines de julio (TradingKey/Benzinga, 28/29-jul-2026); una China autosuficiente en DRAM legacy erosionaría el piso del ciclo.\n- **Volatilidad y beta extremos:** beta 2.14 y caídas diarias de 7-10% en la corrección actual; el tamaño de posición debe asumir drawdowns de 40%+ como el ya ocurrido.\n- **Concentración en pocos clientes hyperscaler/IA:** los acuerdos de largo plazo mitigan pero no eliminan el riesgo de renegociación si el ciclo gira.\n- **Señal de insiders:** el CEO vendió ~$29M en acciones el 24-jul y ~$46M en junio cerca de máximos (ver Sentimiento).",
-  "sentimiento": "- HECHO: consenso \"Strong Buy\" — 40 Buy, 5 Hold, 0 Sell sobre 42-45 analistas (S&P Global vía StockAnalysis / Public.com, jul-2026); target promedio $1,507 (~+104% de upside teórico).\n- HECHO — insiders: el CEO Sanjay Mehrotra vendió 31,285 acciones por ~$29.0M el 24-jul-2026 (MarketScreener) y ~40,000 acciones a ~$1,158 el 26-jun-2026 (~4% de su posición directa, la mayor venta insider en 3 meses; Simply Wall St). No se encontraron compras de insiders en el período.\n- HECHO: flujo de noticias de julio claramente negativo — \"Why Is Micron Falling\", rout de chips asiáticos, SK Hynix -14.7% en una sesión, restricciones coreanas a ETFs apalancados presionando al sector (Benzinga / TradingKey / Motley Fool, 24-29-jul-2026).\n- LECTURA: divergencia extrema entre analistas (unánimemente alcistas, con targets fijados en el pico) y la cinta (pánico vendedor). Los targets a +100% del spot dicen menos sobre el upside real que sobre la velocidad de la caída. Las ventas del CEO cerca de máximos son consistentes con diversificación programada, pero en un cíclico en pico son un dato que no se debe ignorar. Sentimiento de mercado: miedo; sentimiento sell-side: euforia rezagada.",
-  "conclusion": "Micron combina los mejores fundamentales de su historia con la peor cinta del último año: revenue y márgenes récord, HBM agotado para 2026 y guidance de $50B, contra una corrección de ~41% en cinco semanas alimentada por el fantasma de siempre — que los picos del ciclo de memoria se venden, no se compran. La tesis alcista (forward P/E 5.7x, consenso al doble, ramp de HBM4) solo funciona si los márgenes de 85% resultan estructuralmente más duraderos que en ciclos previos gracias a los contratos de largo plazo y la demanda IA; la tesis se invalida si los precios de DRAM se debilitan, si CXMT/China escala en capacidad más rápido de lo esperado, o si el guidance del 29-sep decepciona contra un consenso que ya exige perfección ($31+ de EPS). Operativamente, el técnico manda en el corto plazo: sin estabilización sobre ~$740-800 y reconquista de $898-920, la corrección puede extenderse; para el inversor de ciclo, la pregunta es si está dispuesto a promediar caídas de dos dígitos en un nombre con beta 2.14 a cambio de la asimetría que ofrece el múltiplo forward más bajo entre las mega-caps de IA."
- },
- "scores": {
-  "tecnica": {
-   "score": 32,
-   "just": "Corrección de ~41% desde el ATH con cinco sesiones fuertemente vendedoras, soporte de $898 perdido, señal diaria Strong Sell (9 de 12 medias en venta) y RSI 40 sin divergencias de agotamiento confirmadas. El marco semanal/mensual sigue alcista de fondo, lo que evita un score aún menor."
-  },
-  "fundamental": {
-   "score": 76,
-   "just": "Resultados récord (revenue $41.5B +346%, margen bruto 85%, OCF $25.4B) con visibilidad inusual: HBM agotado para CY2026 y contratos de largo plazo. Se descuenta por la naturaleza de pico de ciclo: el forward P/E de 5.7x solo es barato si los márgenes de 85-86% son sostenibles, algo sin precedente en memoria."
-  },
-  "sentimiento": {
-   "score": 48,
-   "just": "Sell-side unánimemente alcista (40 Buy / 0 Sell, target +104%) pero la cinta muestra pánico: -30% en julio, rout sectorial asiático y flujo de noticias negativo por China/CXMT. Ventas del CEO por ~$75M cerca de máximos sin compras insider que las compensen."
-  },
-  "riesgo": {
-   "score": 25,
-   "just": "Riesgo mal acotado: beta 2.14, drawdown de 41% en cinco semanas con caídas diarias de 7-10%, exposición total al ciclo de memoria y a la respuesta de capacidad china. La liquidez de mega-cap y la caja del negocio mitigan, pero el rango de resultados posibles a 12 meses es extremo ($361-$2,200 según el propio sell-side)."
-  },
-  "conviccion": {
-   "score": 58,
-   "just": "Catalizador fechado (earnings 29-sep) y tesis falsable con niveles claros ($898-920 arriba, pricing DRAM/guidance como triggers fundamentales). La asimetría del múltiplo forward es real pero condicional a la duración del ciclo, y el momentum vendedor actual desaconseja convicción alta hasta ver estabilización técnica."
-  }
- },
- "sources": [
-  "Comunicado oficial Micron IR / GlobeNewswire — resultados Q3 FY26 (24-jun-2026)",
-  "StockTitan — Q3 FY26 y guidance Q4 $50B (24-jun-2026)",
-  "TradeThePool — detalle Q3 FY26: GM 84.9%, EPS $25.11, +346% a/a (jun-2026)",
-  "CNBC — reporte earnings Q3 FY26 (24-jun-2026)",
-  "StockAnalysis.com — precio, estadísticas, historial de cierres, forecast (29-jul-2026)",
-  "TipRanks — próxima fecha de earnings 29-sep-2026 (jul-2026)",
-  "Investing.com — análisis técnico: señal diaria, medias móviles (29-jul-2026)",
-  "StockInvest.us — RSI 40.3 y señales de venta (28/29-jul-2026)",
-  "TradingKey — pérdida de soporte $898, causas de la caída: CXMT, Apple, rout asiático (29-jul-2026)",
-  "Investtech — niveles de resistencia $918 / $994 (fines jul-2026)",
-  "Benzinga — caída del 28-jul y competencia china (28-jul-2026)",
-  "Motley Fool — sell-off de julio y comparativa sector memoria (24/29-jul-2026)",
-  "MarketScreener — venta insider CEO Mehrotra $29.0M (24-jul-2026)",
-  "Simply Wall St — venta insider CEO ~$46M a $1,158 (26-jun-2026)",
-  "Public.com — ratings 40 Buy / 5 Hold / 0 Sell y rango de targets $361-$2,200 (jul-2026)",
-  "GuruFocus — forward P/E 5.25x (jul-2026)",
-  "Investing.com / Tickeron — HBM agotado CY2026, HBM4/HBM4E, contratos de largo plazo (jun/jul-2026)"
- ]
 }
