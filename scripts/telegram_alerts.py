@@ -230,6 +230,31 @@ def econ_alerts():
     return out
 
 
+def fx_drift_check(stocks):
+    """Guardián del feed de USD/CLP: compara el precio del dashboard contra er-api
+    (fuente independiente). Si el desvío supera 0.7%, avisa — así un feed desviado
+    (como pasó con FX_IDC el 29-jul-2026) no vuelve a pasar inadvertido."""
+    clp = next((a for a in stocks if a["ticker"] == "USD/CLP"), None)
+    price = ((clp or {}).get("technical") or {}).get("price")
+    if not price:
+        return []
+    try:
+        req = urllib.request.Request("https://open.er-api.com/v6/latest/USD",
+                                     headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            ref = json.load(r).get("rates", {}).get("CLP")
+    except Exception:
+        return []
+    if not ref:
+        return []
+    drift = (price / ref - 1) * 100
+    print(f"  chequeo USD/CLP: dashboard {price} vs referencia {ref:.2f} (desvío {drift:+.2f}%)")
+    if abs(drift) > 0.7:
+        return [f"⚠️ *USD/CLP* — el feed del dashboard ({price}) difiere {drift:+.1f}% de la "
+                f"referencia independiente ({ref:.2f}). Revisar la fuente antes de confiar en el precio."]
+    return []
+
+
 def send(text):
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
@@ -271,6 +296,7 @@ def main():
         lines.extend(alerts_for(a))
     lines.extend(event_alerts(stocks))
     lines.extend(econ_alerts())
+    lines.extend(fx_drift_check(stocks))
 
     if not lines:
         print("Sin alertas hoy — no se envía mensaje (por diseño, para no hacer ruido).")
