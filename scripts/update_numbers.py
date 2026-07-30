@@ -41,13 +41,16 @@ MAP = {
     "GOOGL":   ("NASDAQ:GOOGL", ("$", "", 2, ",", ".")),
     "AMZN":    ("NASDAQ:AMZN",  ("$", "", 2, ",", ".")),
     "TSLA":    ("NASDAQ:TSLA",  ("$", "", 2, ",", ".")),
+    "MU":      ("NASDAQ:MU",    ("$", "", 2, ",", ".")),
     "SPCX":    ("NASDAQ:SPCX",  ("$", "", 2, ",", ".")),
     "CLSK":    ("NASDAQ:CLSK",  ("$", "", 2, ",", ".")),
     "HDSY":    ("TSE:6324",     ("¥", "", 0, ",", ".")),
     "CCU":     ("BCS:CCU",      ("$", " CLP", 0, ".", ",")),
     "CMPC":    ("BCS:CMPC",     ("$", " CLP", 1, ".", ",")),
     "BTC":     ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),
-    "USD/CLP": ("FX_IDC:USDCLP", ("", "", 2, ",", ".")),
+    # OJO: FX_IDC (ICE) viene ~0,35% desviado vs el cierre real chileno (verificado
+    # 29-jul-2026 contra er-api, currency-api y cierre de mercado); VANTAGE calza.
+    "USD/CLP": ("VANTAGE:USDCLP", ("", "", 2, ",", ".")),
     "EUR/USD": ("FX:EURUSD",    ("", "", 5, ",", ".")),
     "USD/JPY": ("FX:USDJPY",    ("", "", 3, ",", ".")),
 }
@@ -58,7 +61,7 @@ MAP = {
 BENCH_US = ("SP:SPX", "S&P 500")
 BENCH = {
     "AAPL": BENCH_US, "MSFT": BENCH_US, "NVDA": BENCH_US, "GOOGL": BENCH_US,
-    "AMZN": BENCH_US, "TSLA": BENCH_US, "SPCX": BENCH_US,
+    "AMZN": BENCH_US, "TSLA": BENCH_US, "MU": BENCH_US, "SPCX": BENCH_US,
     "CCU": ("CBOE:ECH", "ECH (proxy Chile/IPSA)"),
     "CMPC": ("CBOE:ECH", "ECH (proxy Chile/IPSA)"),
     "BTC": ("CRYPTOCAP:TOTAL", "Cripto total (ciclo)"),
@@ -83,28 +86,53 @@ SCANNER_ORIGIN = "TradingView scanner"
 ECON_DAYS = 35  # ventana del calendario económico horneado
 
 # Re-clasificación curada a escala 1-5 (TradingView solo trae baja/media/alta).
-# El dashboard muestra únicamente 4★ y 5★.
-ECON_TIER5 = ["non farm", "nonfarm", "unemployment rate", "inflation rate", "core inflation",
-              "pce price", "core pce", "interest rate decision", "fomc", "fed press conference",
-              "gdp growth"]
-ECON_TIER4 = ["retail sales", "ism manufacturing pmi", "ism services pmi", "initial jobless claims",
-              "producer price", "ppi", "cb consumer confidence", "michigan consumer sentiment",
-              "durable goods orders mom", "jolts", "adp employment change", "personal income",
-              "personal spending", "s&p global manufacturing pmi", "s&p global services pmi",
-              "s&p global composite pmi", "imacec", "economic activity", "balance of trade",
-              "copper exports"]
+# Filtro ESTRICTO (pedido del usuario): solo los datos que realmente mueven mercado,
+# ~1 cada 2 días. Variantes duplicadas (MoM vs YoY, 2nd est, ex-autos…) quedan fuera.
 
 
-def star_rating(title, importance):
+def star_rating(title, country, importance):
     t = (title or "").lower()
-    if "adp" in t and "week" in t:
-        return 3  # el ADP semanal es ruido; el mensual sí importa
-    for k in ECON_TIER5:
-        if k in t:
-            return 5
-    for k in ECON_TIER4:
-        if k in t:
+
+    def has(*ks):
+        return any(k in t for k in ks)
+
+    if country == "CL":
+        if has("interest rate decision"):
+            return 5   # TPM BCCh
+        if has("inflation rate mom", "inflation rate yoy"):
+            return 5   # IPC
+        if has("imacec", "economic activity"):
             return 4
+        if t.strip() == "unemployment rate":
+            return 4
+        if has("gdp growth"):
+            return 4
+        if has("retail sales yoy"):
+            return 4
+        return 2
+    # EE.UU.
+    if has("fomc", "interest rate decision", "fed press conference"):
+        return 5
+    if has("non farm", "nonfarm payrolls"):
+        return 5
+    if t.strip() == "unemployment rate":
+        return 5
+    if has("core inflation rate yoy", "inflation rate yoy"):
+        return 5   # CPI (solo variantes YoY para no duplicar)
+    if has("core pce price index yoy", "pce price index yoy"):
+        return 5
+    if has("gdp growth rate qoq adv"):
+        return 5   # solo la lectura adelantada; revisiones fuera
+    if has("ism manufacturing pmi", "ism services pmi"):
+        return 4
+    if t.strip().startswith("retail sales mom"):
+        return 4
+    if has("michigan consumer sentiment"):
+        return 4
+    if has("cb consumer confidence"):
+        return 4
+    if t.strip().startswith("ppi mom"):
+        return 4
     return 3 if importance >= 1 else 2
 
 
@@ -139,7 +167,7 @@ def fetch_econ_calendar():
             continue
         dt_scl = dt_utc.astimezone(tz_scl)
         title = e.get("title") or e.get("indicator") or "Dato económico"
-        stars = star_rating(title, imp)
+        stars = star_rating(title, e.get("country"), imp)
         if stars < 4:  # el calendario muestra solo lo realmente importante (4★ y 5★)
             continue
         out.append({
