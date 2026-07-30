@@ -44,9 +44,11 @@ MAP = {
     "MU":      ("NASDAQ:MU",    ("$", "", 2, ",", ".")),
     "SPCX":    ("NASDAQ:SPCX",  ("$", "", 2, ",", ".")),
     "CLSK":    ("NASDAQ:CLSK",  ("$", "", 2, ",", ".")),
+    "MSTR":    ("NASDAQ:MSTR",  ("$", "", 2, ",", ".")),
     "HDSY":    ("TSE:6324",     ("¥", "", 0, ",", ".")),
     "CCU":     ("BCS:CCU",      ("$", " CLP", 0, ".", ",")),
     "CMPC":    ("BCS:CMPC",     ("$", " CLP", 1, ".", ",")),
+    "CENCOSUD": ("BCS:CENCOSUD", ("$", " CLP", 1, ".", ",")),
     "BTC":     ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),
     # OJO: FX_IDC (ICE) viene ~0,35% desviado vs el cierre real chileno (verificado
     # 29-jul-2026 contra er-api, currency-api y cierre de mercado); VANTAGE calza.
@@ -66,6 +68,8 @@ BENCH = {
     "CMPC": ("CBOE:ECH", "ECH (proxy Chile/IPSA)"),
     "BTC": ("CRYPTOCAP:TOTAL", "Cripto total (ciclo)"),
     "CLSK": ("CRYPTO:BTCUSD", "Bitcoin"),
+    "MSTR": ("CRYPTO:BTCUSD", "Bitcoin"),
+    "CENCOSUD": ("CBOE:ECH", "ECH (proxy Chile/IPSA)"),
     "HDSY": ("TVC:NI225", "Nikkei 225"),
     "USD/CLP": ("TVC:DXY", "DXY"),
     "EUR/USD": ("TVC:DXY", "DXY"),
@@ -75,7 +79,7 @@ BENCH = {
 # tasa libre de riesgo anual para Sharpe/Sortino (activos en CLP usan TPM Chile aprox.)
 RISK_FREE_DEFAULT = 0.045
 RISK_FREE_CLP = 0.05
-CLP_ASSETS = {"CCU", "CMPC"}
+CLP_ASSETS = {"CCU", "CMPC", "CENCOSUD"}
 
 COLS = ["close", "change", "change|1W", "RSI", "MACD.macd", "MACD.signal",
         "SMA20", "SMA50", "SMA200", "EMA12", "EMA26",

@@ -8,10 +8,10 @@ CleanSpark y pares FX) con informes de 8-9 secciones, scores compuestos, señale
 | Workflow | Cuándo | Qué hace | Costo |
 |---|---|---|---|
 | `daily-numbers.yml` | Todos los días 18:30 Chile | Actualiza **precio, variación, RSI/MACD, medias móviles, volatilidad/Sharpe/Sortino/drawdown, percentil 1A y comparación vs benchmark** de los 15 activos desde el scanner público de **TradingView**; acumula el **histórico diario** (`data/history/`), loguea cambios bruscos, manda **alertas Telegram** si hay umbrales cruzados, reconstruye y despliega a GitHub Pages | **Gratis** (sin IA) |
-| `refresh-reports.yml` | Lunes, miércoles y viernes 18:00 Chile | Re-investiga con Claude los **informes completos** de los 7 dinámicos (SPCX, BTC, HDSY, CLSK, MU, USD/CLP, USD/JPY) y guarda un **snapshot de señales** para el backtest | Usa tu suscripción Claude |
+| `refresh-reports.yml` | Lunes, miércoles y viernes 18:00 Chile | Re-investiga con Claude los **informes completos** de los 8 dinámicos (SPCX, BTC, HDSY, CLSK, MU, MSTR, USD/CLP, USD/JPY) y guarda un **snapshot de señales** para el backtest | Usa tu suscripción Claude |
 | `backtest.yml` | Día 1 de cada mes (o manual) | Mide si las señales pasadas anticiparon el precio (retornos a 5/10/20 ruedas) → `data/backtest_report.json` | **Gratis** (sin IA) |
 
-Los 9 estáticos (AAPL, MSFT, NVDA, GOOGL, AMZN, TSLA, CCU, CMPC, EUR/USD) actualizan **números a diario**
+Los 10 estáticos (AAPL, MSFT, NVDA, GOOGL, AMZN, TSLA, CCU, CMPC, CENCOSUD, EUR/USD) actualizan **números a diario**
 pero sus textos solo cambian a pedido (pídeselo a Claude en el proyecto local).
 
 **Benchmarks:** acciones EE.UU. → S&P 500 · Chile → ECH (iShares MSCI Chile, proxy del IPSA — el IPSA
