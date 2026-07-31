@@ -16,6 +16,24 @@ import track_metric_changes  # noqa: E402
 
 SIG_DIR = HERE / "data" / "history" / "signals"
 EQ_WEIGHTS = {"tecnica": 25, "fundamental": 25, "sentimiento": 20, "riesgo": 15, "conviccion": 15}
+OPP_WEIGHTS = {"valuacion_hist": 25, "asimetria": 25, "calidad": 20, "catalizadores": 15, "contrarian": 15}
+OPP_SIGNALS = [(80, "Comprar escalonado"), (65, "Acumular en zona"), (50, "Esperar gatillo"),
+               (35, "Mantener / Observar"), (0, "Reducir / Evitar")]
+
+
+def composite_opp(asset):
+    cats = ((asset.get("opportunity") or {}).get("cats")) or {}
+    if not cats:
+        return None
+    total = sum(cats.get(k, {}).get("score", 50) * w for k, w in OPP_WEIGHTS.items())
+    return round(total / sum(OPP_WEIGHTS.values()))
+
+
+def opp_signal_for(score):
+    for mn, label in OPP_SIGNALS:
+        if score >= mn:
+            return label
+    return "Reducir / Evitar"
 GRADES = [(85, "A+", "Strong Buy"), (70, "A", "Buy"), (55, "B", "Hold"),
           (40, "C", "Caution"), (25, "D", "Caution"), (0, "F", "Avoid")]
 
@@ -62,6 +80,10 @@ def main():
         grade, signal = grade_for(score)
         entry = {"date": today, "score": score, "grade": grade, "signal": signal,
                  "summary_short": summary_short(a)}
+        opp = composite_opp(a)
+        if opp is not None:
+            entry["opp_score"] = opp
+            entry["opp_signal"] = opp_signal_for(opp)
         p = SIG_DIR / (safe_name(a["ticker"]) + ".json")
         rows = []
         if p.exists():

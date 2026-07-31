@@ -24,14 +24,44 @@ REGLA DE ORO: PRIORIZA SIEMPRE los eventos confirmados MÁS CERCANOS. Si existe 
 ## RESULTADOS DE EVENTOS RECIENTES (data/event-results.json — TODOS los activos, también los estáticos)
 Además de los informes: revisa los eventos de TODOS los 18 activos (campo "events" en stocks-data.json + las entradas ya existentes en data/event-results.json) cuya fecha sea HOY o AYER (el dashboard muestra el día en curso y una sección "Resultados de ayer"), investiga vía web search QUÉ PASÓ REALMENTE en cada uno, y REESCRIBE data/event-results.json como un array [{"ticker","date","label","result"}]. El campo "result" son 2-3 líneas empezando con "RESULTADO:" con las cifras reales vs lo esperado (earnings: EPS/revenue real vs consenso y reacción de la acción; bancos centrales: decisión y tono; corporativos: qué ocurrió). Conserva/actualiza las entradas de hoy y ayer, elimina las más antiguas, y NO borres este archivo aunque no haya eventos (déjalo como [] si quedó vacío). Esto NO modifica los objetos de los activos estáticos.
 
+## FILOSOFÍA DE SCORING (recalibrada — evita el sesgo momentum)
+Los 5 scores clásicos miden el PULSO del activo (estado actual). Calíbralos así para no ser un eco del precio:
+- tecnica: NO premies dirección reciente por sí sola; premia EVIDENCIA DE CAMBIO DE CARÁCTER en ambos sentidos — pisos construyéndose (mínimos crecientes, divergencias RSI/precio, secado de volumen vendedor, reconquista de medias) suben la nota aunque la tendencia siga bajista; una subida vertical sobreextendida (percentil >95, RSI >75) BAJA la nota. Una caída de 40% estabilizándose puede merecer más técnica que un rally parabólico.
+- sentimiento: LEELO EN CONTRARIO en los extremos — pesimismo uniforme con datos operativos estables/mejorando = nota ALTA (combustible de subida); euforia unánime = nota BAJA. En zona media, sigue la evidencia.
+- riesgo: distingue VOLATILIDAD de PÉRDIDA PERMANENTE. El mismo negocio 40% más barato con fundamentos intactos tiene MENOS riesgo (margen de seguridad), no más. Castiga deuda, dilución, obsolescencia y dependencia binaria; no castigues el drawdown ya ocurrido.
+- conviccion: mide la ASIMETRÍA AL PRECIO ACTUAL con tesis falsable, no el confort de la tendencia.
+- CHEQUEO DE DISTRIBUCIÓN: si todos tus activos terminan entre 25-55, estás midiendo momentum, no juicio — diferencia de verdad entre casos.
+
+## OPORTUNIDAD 6-18 MESES + PLAN DE ACCIÓN (OBLIGATORIO para los 8 dinámicos)
+Además de los scores de pulso, cada dinámico DEBE traer la clave "opportunity" — un juicio PROSPECTIVO que responde: "¿conviene comprar A ESTE PRECIO pensando en 6-18 meses?" (puede divergir del pulso: un activo con pulso 35 puede ser oportunidad 70 si el castigo creó asimetría). Estructura EXACTA:
+"opportunity": {
+  "cats": {
+    "valuacion_hist": {"score": 0-100, "just": "..."},   // vs SU PROPIA historia: percentil del rango, múltiplos vs promedio propio, mNAV, etc. Barato vs sí mismo = alto.
+    "calidad": {"score": 0-100, "just": "..."},          // solidez del negocio/balance/posición competitiva (para FX: solidez del régimen macro de la divisa base). Independiente del precio.
+    "asimetria": {"score": 0-100, "just": "..."},        // AL PRECIO ACTUAL: upside a valor razonable vs downside a soporte/invalidación. 80+ = riesgo/retorno ≥3:1 con niveles claros.
+    "catalizadores": {"score": 0-100, "just": "..."},    // ruta FECHADA de catalizadores en 6-18 meses que pueden cerrar la brecha de valor.
+    "contrarian": {"score": 0-100, "just": "..."}        // señal contraria: pesimismo extremo + datos estables = alto; euforia = bajo; neutro = 50.
+  },
+  "plan": {
+    "recomendacion": "Comprar escalonado|Acumular en zona|Esperar gatillo|Mantener / Observar|Reducir|Evitar",
+    "zona_compra": "rango de precios concreto o 'N/A'",
+    "invalidacion": "nivel o condición que anula la tesis (stop)",
+    "gatillos": ["señal concreta de confirmación 1", "señal 2"],
+    "horizonte": "6-18 meses (o el que corresponda)",
+    "tamano": "sugerencia de dimensionamiento según el riesgo del activo",
+    "confianza": "alta|media|baja"
+  }
+}
+Pesos del score compuesto de oportunidad (los calcula el dashboard): valuacion_hist 25 / asimetria 25 / calidad 20 / catalizadores 15 / contrarian 15. La recomendación del plan debe ser COHERENTE con ese compuesto (≥80 comprar escalonado, 65-79 acumular en zona, 50-64 esperar gatillo, 35-49 mantener/observar, <35 reducir/evitar) y con la confianza declarada. Los niveles del plan deben salir del análisis técnico/fundamental del informe, no inventarse.
+
 ## FORMATO — respeta EXACTAMENTE la estructura existente en stocks-data.json
-- EQUITY/BTC (SPCX, BTC, HDSY, CLSK, MU, MSTR): {ticker, company, statsList (primer par siempre ["Precio", "$X (fecha)"]), change:{day,week}, events, sections:{resumen, fundamental, valuacion, tecnico, catalizadores, sentimiento, conclusion} (markdown español; 'catalizadores' con **Catalizadores:** y **Riesgos (por materialidad):**), scores:{tecnica, fundamental, sentimiento, riesgo, conviccion} (0-100 con just de 2-3 líneas; calibración: tecnica 80+=alcista multi-marco/<30=bajista; fundamental incluye valuación; riesgo ALTO=bien acotado; conviccion 80+=catalizadores fechados+asimetría+tesis falsable; sin datos = 50 declarándolo), sources}.
+- EQUITY/BTC (SPCX, BTC, HDSY, CLSK, MU, MSTR): {ticker, company, statsList (primer par siempre ["Precio", "$X (fecha)"]), change:{day,week}, events, sections:{resumen, fundamental, valuacion, tecnico, catalizadores, sentimiento, conclusion} (markdown español; 'catalizadores' con **Catalizadores:** y **Riesgos (por materialidad):**), scores:{tecnica, fundamental, sentimiento, riesgo, conviccion} (0-100 con just de 2-3 líneas; calibración: ver FILOSOFÍA DE SCORING arriba; sin datos = 50 declarándolo), sources}.
 - FX (USD/CLP, USD/JPY): {ticker, company, baseCurrency, statsList, change, events, customSections (EXACTAMENTE estos 8 títulos en orden: "Resumen ejecutivo", "Diferencial de tasas y política monetaria", "Balanza de pagos y flujos", "Posicionamiento", "Análisis técnico", "Intervención y riesgo de banco central", "Correlaciones macro", "Conclusión" — con nav cortos), scoreIndex:8, customCats (tasas 30/macro 20/tecnico 20/posicionamiento 15/intervencion 15), scores por esas 5 claves (RESPECTO DE LA DIVISA BASE: cobre fuerte = negativo para USD en USD/CLP; par cerca de nivel de intervención = puntaje bajo), sources}.
 Antes de escribir, LEE un objeto existente de cada tipo en stocks-data.json y replica su estructura exacta. Si el objeto trae claves calculadas por el workflow gratuito ("technical", "risk", "benchmark", "sourcesMeta", "metricChanges"), consérvalas tal cual (el paso posterior del workflow las regenera igual, pero no las borres tú).
 
 ## PROCEDIMIENTO
 1. Lee `stocks-data.json` (contiene los 18). Investiga los 8 dinámicos.
 2. Reemplaza EN EL MISMO ARCHIVO los 8 objetos dinámicos por los nuevos, conservando el orden actual del array y sin tocar los 10 estáticos. Guarda también una copia de cada objeto nuevo en `data/<TICKER>.json` (para FX usa `data/FX-USDCLP.json` y `data/FX-USDJPY.json`; SPCX en `data/SPCX.json`, etc.).
-3. VALIDA con python3 antes de terminar: `stocks-data.json` parsea; 18 activos; los 6 equity dinámicos con 7 sections no vacías y 5 scores 0-100; los 2 FX con 8 customSections, scoreIndex=8 y 5 customCats que suman 100; todos los dinámicos con statsList (Precio primero), change y events con fechas ISO válidas; los 10 estáticos idénticos a como estaban (compara contra git: `git diff --stat` solo debe mostrar cambios en los archivos esperados). Calcula y muestra los scores compuestos (equity 25/25/20/15/15; FX según customCats).
+3. VALIDA con python3 antes de terminar: `stocks-data.json` parsea; 18 activos; los 6 equity dinámicos con 7 sections no vacías, 5 scores 0-100 y clave opportunity completa (5 cats + plan con recomendacion/zona_compra/invalidacion/gatillos/confianza); los 2 FX también con opportunity; los 2 FX con 8 customSections, scoreIndex=8 y 5 customCats que suman 100; todos los dinámicos con statsList (Precio primero), change y events con fechas ISO válidas; los 10 estáticos idénticos a como estaban (compara contra git: `git diff --stat` solo debe mostrar cambios en los archivos esperados). Calcula y muestra los scores compuestos (equity 25/25/20/15/15; FX según customCats).
 4. Si la investigación de un activo queda incompleta tras reintentar: genera igual su informe declarando lagunas y baja a 50 las categorías sin datos. NUNCA omitas un activo ni dejes el JSON inválido — si no puedes validar, revierte ese archivo (`git checkout -- stocks-data.json`) y termina con un mensaje de error claro.
 5. Tu último mensaje: tabla con fecha, score, grado de los 8 + eventos nuevos del calendario.
