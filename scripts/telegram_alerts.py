@@ -230,6 +230,27 @@ def econ_alerts():
     return out
 
 
+def trend_alerts(stocks):
+    """Detector de giros: avisa cuando un activo ACUMULA >=4 de 7 señales de piso o
+    techo y ayer no las tenía (entrada a zona de giro, no repetición diaria)."""
+    out = []
+    for a in stocks:
+        tr = a.get("trend")
+        if not tr:
+            continue
+        hist = history_store.load(a["ticker"])
+        prev = hist[-2] if len(hist) >= 2 else {}
+        for lado, emoji, desc in (("piso", "🧭🟢", "PISO (posible giro alcista)"),
+                                   ("techo", "🧭🔴", "TECHO (posible giro bajista)")):
+            cur_n = tr.get(lado, 0)
+            prev_n = prev.get(lado)
+            if cur_n >= 4 and (prev_n is None or prev_n < 4):
+                sen = ", ".join(tr.get("senales_" + lado, [])[:4])
+                out.append(f"{emoji} *{a['ticker']}* — Detector de giro: {cur_n}/7 señales de "
+                           f"{desc}: {sen}. {contexto(a)}")
+    return out
+
+
 def fx_drift_check(stocks):
     """Guardián del feed de USD/CLP: compara el precio del dashboard contra er-api
     (fuente independiente). Si el desvío supera 0.7%, avisa — así un feed desviado
@@ -297,6 +318,7 @@ def main():
     lines.extend(event_alerts(stocks))
     lines.extend(econ_alerts())
     lines.extend(fx_drift_check(stocks))
+    lines.extend(trend_alerts(stocks))
 
     if not lines:
         print("Sin alertas hoy — no se envía mensaje (por diseño, para no hacer ruido).")

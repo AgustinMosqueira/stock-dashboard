@@ -25,6 +25,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import history_store  # noqa: E402
 import metrics  # noqa: E402
 import track_metric_changes  # noqa: E402
+import trend_detector  # noqa: E402
 
 HERE = pathlib.Path(__file__).resolve().parent.parent
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
@@ -252,6 +253,14 @@ def build_extras(ticker, q, benches):
     closes = history_store.closes(hist)
     n_days = len(closes)
 
+    # — detector de giros (fase 2): señales de piso/techo sobre la serie —
+    vols_hist = [r.get("volume") for r in hist]
+    trend = trend_detector.detect(closes, vols_hist)
+    if trend is not None:
+        entry["piso"] = trend["piso"]
+        entry["techo"] = trend["techo"]
+        history_store.append_today(ticker, entry)  # re-guarda con los conteos
+
     # — riesgo (Paso 1) —
     rf = RISK_FREE_CLP if ticker in CLP_ASSETS else RISK_FREE_DEFAULT
     year_closes = closes[-metrics.TRADING_DAYS:]
@@ -317,7 +326,7 @@ def build_extras(ticker, q, benches):
                          "n_days": n_days},
     }
     return {"risk": risk, "benchmark": benchmark, "technical": technical,
-            "sourcesMeta": sources_meta, "history": hist}
+            "sourcesMeta": sources_meta, "history": hist, "trend": trend}
 
 
 def patch_asset(s, q, extras):
@@ -346,6 +355,8 @@ def patch_asset(s, q, extras):
     s["benchmark"] = extras["benchmark"]
     s["technical"] = extras["technical"]
     s["sourcesMeta"] = extras["sourcesMeta"]
+    if extras.get("trend") is not None:
+        s["trend"] = extras["trend"]
     if "metricChanges" in extras:
         s["metricChanges"] = extras["metricChanges"]
     return s

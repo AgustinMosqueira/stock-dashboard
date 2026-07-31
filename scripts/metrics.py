@@ -118,6 +118,26 @@ def macd_line(prices, fast=12, slow=26, signal=9):
     return (macd_full[-1], sig[-1] if sig else None)
 
 
+def rsi_series(prices, n=14):
+    """Serie RSI de Wilder alineada con prices (None hasta tener n+1 datos)."""
+    if prices is None or len(prices) < n + 1:
+        return None
+    out = [None] * len(prices)
+    gains, losses = 0.0, 0.0
+    for i in range(1, n + 1):
+        d = prices[i] - prices[i - 1]
+        gains += max(d, 0)
+        losses += max(-d, 0)
+    avg_g, avg_l = gains / n, losses / n
+    out[n] = 100.0 if avg_l == 0 else 100 - 100 / (1 + avg_g / avg_l)
+    for i in range(n + 1, len(prices)):
+        d = prices[i] - prices[i - 1]
+        avg_g = (avg_g * (n - 1) + max(d, 0)) / n
+        avg_l = (avg_l * (n - 1) + max(-d, 0)) / n
+        out[i] = 100.0 if avg_l == 0 else 100 - 100 / (1 + avg_g / avg_l)
+    return out
+
+
 def price_percentile(price, low, high):
     """Percentil 0-100 del precio dentro del rango [low, high]; None si el rango es inválido."""
     if price is None or low is None or high is None or high <= low:
