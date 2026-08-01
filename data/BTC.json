@@ -4,188 +4,216 @@
   "statsList": [
     [
       "Precio",
-      "$64,239 (29-jul-2026)"
+      "US$62.594,51 (31-jul-2026)"
     ],
     [
       "Rango 52 sem.",
-      "US$57.833 – US$126.186 (Investing.com, 30/07/2026) — HECHO"
+      "US$57.750 – US$126.200 (Investing.com/Yahoo Finance, 31-jul-2026)"
     ],
     [
       "Market cap",
-      "~US$1,27–1,33 billones (trillion), según fuente (CoinMarketCap / Fortune, 29/07/2026) — HECHO"
+      "~US$1,25-1,30 billones; supply circulante ~20,06M BTC (CoinMarketCap/MacroMicro, 31-jul-2026)"
     ],
     [
       "Dominancia BTC",
-      "~56% del mercado cripto total, con lecturas de 55,5%-56,4% durante la semana (CoinGabbar / TV-Hub, 20-29/07/2026) — HECHO, rango con dispersión entre fuentes"
+      "~59-60% del mercado cripto total, rango 53-64% en 2026 (TradingView/CoinGecko, jul-2026)"
     ],
     [
       "Flujos ETF spot",
-      "Racha de 4 sesiones de salidas netas por US$526,5M hacia el 28/07/2026, tras una racha previa de 7 días con ~US$1.000M de entradas (CryptoRank/Bitcoinworld, 24-28/07/2026) — HECHO"
+      "Julio: solo +US$205M netos (peor mes histórico); +US$233M el 30-jul liderado por IBIT (FinanceFeeds/CoinGabbar, 30-jul-2026)"
     ],
     [
       "Próximo evento",
-      "Reunión del FOMC del 16-sep-2026; probabilidad de recorte de tasas ~54% según CME FedWatch (28/07/2026) — HECHO"
+      "Reunión del FOMC — 16-sep-2026"
     ],
     [
       "Técnico (auto)",
-      "RSI 50.3 · MACD +164.14 / señal +276.40 (TradingView, 29-jul-2026)"
+      "RSI 43,2 · MACD 40,28 / señal 235,02 (TradingView, 31-jul-2026)"
     ]
   ],
-  "change": {
-    "day": 0.53,
-    "week": -1.68
-  },
-  "sections": {
-    "resumen": "Bitcoin cotiza en torno a US$64.239 (TradingView, 29/07/2026), prácticamente plano en la semana (-1,68%) tras una fuerte corrección desde el máximo histórico de octubre de 2025 (~US$126.186, Investing.com, 30/07/2026). El precio se ubica en el percentil 9,5% de su rango de 1 año (dato congelado, TradingView), es decir, cerca de la zona baja del rango anual — LECTURA: refleja el enfriamiento post-halving tras el pico de fines de 2025. El activo mantiene retornos ajustados por riesgo elevados (Sharpe 4,51, Sortino 4,69) pero con un drawdown máximo de -39,58% en el último año (dato congelado), evidenciando la volatilidad estructural del activo (volatilidad 30d de 26,57%, dato congelado). El sentimiento de mercado se ubica en zona de 'Miedo' (Fear & Greed Index en 35 el 29/07/2026, milkroad.com/CFGI.io), y los flujos de ETFs spot muestran una racha reciente de salidas netas que contrasta con la fuerte entrada institucional acumulada desde el lanzamiento de estos productos (~US$51.800M netos acumulados, Techtimes, 03/07/2026) — HECHO.",
-    "fundamental": "Bitcoin no tiene 'fundamentales' en el sentido de flujos de caja corporativos; el análisis fundamental cripto se apoya en métricas on-chain y de adopción. El MVRV Z-Score se ubicaba en 0,34-0,37 hacia el 28/07/2026 (BGeometrics/AhaSignals, 13-28/07/2026) — HECHO, lo que indica que el precio de mercado está cerca de su 'precio realizado' (costo base agregado de los holders), zona que históricamente no ha marcado ni sobrevaloración extrema (>3,7) ni infravaloración extrema (<1) — LECTURA: sugiere un mercado 'neutral', sin señales claras de euforia ni de capitulación total según esta métrica. En el frente de minería, no se pudo verificar con una fuente específica de julio 2026 el nivel exacto de hashrate/dificultad de la red — no verificable con las fuentes consultadas en esta actualización. El ciclo post-halving (halving de abril 2024) ha completado aproximadamente 57% del intervalo hacia el próximo halving estimado para mediados de abril de 2028 (KuCoin/Swan Bitcoin, julio 2026) — HECHO. LECTURA: patrones históricos de los primeros cuatro ciclos muestran rallies de 12-18 meses post-halving con retornos decrecientes en cada ciclo (8.858%, 294%, 559%, ~15% según los ciclos previos), lo que es coherente con un ciclo actual más maduro y de menor amplitud relativa que los anteriores.",
-    "valuacion": "En términos de valuación relativa, la capitalización de mercado de Bitcoin se ubica entre US$1,27 y US$1,33 billones según la fuente (CoinMarketCap vs. Fortune, 29/07/2026) — HECHO, con dispersión típica de timing intradía entre proveedores de datos. Frente al benchmark de capitalización cripto total (CRYPTOCAP:TOTAL), BTC muestra un desempeño relativo de +1,19% a 30 días pero de -0,76% en lo que va del año (dato congelado), señal de que en el tramo reciente BTC superó levemente al resto del mercado cripto, aunque en el año ha rendido algo peor que el conjunto — LECTURA. El MVRV Z-Score en zona neutral (0,34-0,37) refuerza la lectura de que BTC no está ni caro ni barato respecto de su costo base histórico en este momento del ciclo (BGeometrics, 28/07/2026) — HECHO/LECTURA combinada. El precio está un 10,28% por debajo de su SMA200 (dato congelado), lo que técnicamente configura una fase de consolidación/corrección de mediano plazo dentro de un ciclo alcista de más largo plazo.",
-    "tecnico": "El precio (US$64.238,67, dato congelado) se ubica ligeramente por debajo de su SMA20 (-0,32%) pero por encima de su SMA50 (+1,35%), y notablemente por debajo de su SMA200 (-10,28%) (datos congelados, TradingView, 29/07/2026). El RSI de 50,3 indica una zona neutral, sin sobrecompra ni sobreventa. El MACD (+164,14) se mantiene por debajo de su señal (+276,40), lo que en lectura clásica sugiere momentum de corto plazo aún sin confirmar un giro alcista claro — LECTURA. La performance del último mes es positiva (+6,77%, dato congelado) pero el año corrido es fuertemente negativo (-26,63%, dato congelado), consistente con el patrón de percentil de precio bajo (9,5% del rango de 1 año). El rango de 52 semanas de US$57.833 a US$126.186 (Investing.com, 30/07/2026) confirma que el activo opera hoy en el tercio inferior de su banda anual — HECHO.",
-    "catalizadores": "**Catalizadores:**\n- Reunión del FOMC del 16 de septiembre de 2026, con ~54% de probabilidad de recorte de tasas según CME FedWatch (28/07/2026); un recorte suele ser favorable para activos de riesgo como BTC (CBS News/centralbank.watch, julio 2026) — HECHO.\n- Continuidad de la agenda regulatoria cripto de la SEC confirmada el 7 de julio de 2026, con foco en emisión de tokens, custodia y mercados tokenizados, lo que podría reducir la incertidumbre regulatoria (Cryptonews.com, 07/07/2026) — HECHO.\n- Compras corporativas continuas de tesorerías tipo Strategy/Metaplanet, que sostienen demanda estructural marginal (ver detalle en sección de sentimiento) — HECHO.\n- Posible reversión de la racha reciente de salidas de ETFs spot si mejora el apetito de riesgo macro — LECTURA.\n\n**Riesgos (por materialidad):**\n- Persistencia de salidas netas en ETFs spot: 4 sesiones consecutivas de salidas por US$526,5M hacia el 28/07/2026 podrían extenderse si el sentimiento de 'Miedo' (Fear & Greed en 35) se profundiza (Bitcoinworld/CryptoRank, 24-28/07/2026) — HECHO.\n- Riesgo macro: si la probabilidad de recorte de tasas en septiembre se revierte (actualmente ~54%, con lecturas divergentes según la fuente, ej. Polymarket mostrando solo 4% para 'recorte' bajo una definición distinta de evento), el activo podría sufrir presión adicional — HECHO/LECTURA mixta, dado que las probabilidades varían fuertemente entre proveedores.\n- Volatilidad estructural elevada: drawdown máximo de -39,58% en el último año (dato congelado) recuerda la magnitud de las correcciones posibles incluso dentro de un ciclo alcista de mediano plazo.\n- Distribución de holders medianos (100-1.000 BTC) que vendieron ~77.800 BTC en los últimos 60 días a mediados de julio, en paralelo a la acumulación de whales, lo que genera un mercado con fuerzas encontradas (BGeometrics, julio 2026) — HECHO.",
-    "sentimiento": "El sentimiento de mercado se encuentra en zona de 'Miedo' según el Crypto Fear & Greed Index, con una lectura de 35 el 29/07/2026, cayendo desde 52 ('Codicia') la semana previa (milkroad.com, CFGI.io, 29/07/2026) — HECHO. Este deterioro de sentimiento coincide con la racha reciente de salidas netas en ETFs spot y con el retroceso semanal del precio (-1,68%, dato congelado). LECTURA: un Fear & Greed relativamente bajo en un contexto de precio aún dentro de una tendencia de mediano plazo puede leerse como una señal contraria moderada, aunque no hay garantía de rebote inmediato. La dominancia de BTC se mantiene relativamente alta (~56%, con dispersión de fuentes entre 55,5% y 68% según el proveedor y momento de medición, TV-Hub/Cryptobriefing/Mexc, julio 2026) — HECHO con nota de dispersión relevante entre fuentes, lo que sugiere que el mercado no está en una fase clara de 'altseason' (que típicamente requiere dominancia por debajo del 50% con tendencia bajista sostenida).\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 24-jul-2026 | -US$240,1M | IBIT (BlackRock) -US$212,2M (mayor salida diaria individual desde su lanzamiento), FBTC (Fidelity) -US$27,9M (Coinpaper/CryptoRank, 24/07/2026) |\n| 25-jul-2026 | Sin dato consolidado específico disponible | No verificable con las fuentes consultadas en esta actualización |\n| 28-jul-2026 | -US$49,7M | Salida neta reportada por Farside Investors, cuarta sesión consecutiva en rojo (Bitcoinworld, 28/07/2026) |\n| **Total 4 sesiones (24-28 jul, datos disponibles)** | **-US$526,5M** | Racha de 4 días de salidas netas consecutivas, revirtiendo una racha previa de 7 días con ~US$1.000M de entradas (CryptoRank/Techtimes, 24-28/07/2026) |\n\nNota metodológica: no se dispuso de un desglose diario completo y consolidado para el 25 y 29 de julio en las fuentes consultadas (Farside Investors, CryptoRank, Bitcoinworld); la tabla refleja los datos verificables públicamente al momento de esta actualización — HECHO/no verificable declarado explícitamente donde corresponde.\n\nEn el frente institucional corporativo, Strategy (ex-MicroStrategy) mantenía 843.775 BTC al 6 de julio de 2026, a un costo promedio de US$66.384,56 por BTC, pero había pausado nuevas compras hacia fines de junio mientras ampliaba su caja en USD (US$2.550M) y lanzaba un programa de recompra de deuda por US$1.000M, en parte por presión sobre sus instrumentos preferentes (Bitbo/Yahoo Finance, junio-julio 2026) — HECHO. Metaplanet, por su parte, anunció el 1 de julio de 2026 la compra de 2.823 BTC durante el segundo trimestre (US$225M, a un precio promedio de US$78.872 por BTC), llevando su tesorería a 43.000 BTC y consolidándose como el tercer mayor tenedor corporativo de Bitcoin a nivel global, detrás de Strategy y Twenty One Capital (Coindesk/Cryptonomist, 02/07/2026) — HECHO.\n\nEn cuanto a flujos on-chain de ballenas, wallets con entre 1.000 y 10.000 BTC acumularon aproximadamente 66.700 BTC en los 60 días previos al 19/07/2026, una de las rachas de acumulación más fuertes del año, mientras que holders medianos (100-1.000 BTC) distribuyeron cerca de 77.800 BTC en el mismo período (BGeometrics/Cryptonomist, 19-20/07/2026) — HECHO. Adicionalmente, CryptoQuant identificó whales acumulando más de 270.000 BTC en dos semanas hacia fines de junio/inicios de julio, coincidiendo con una caída del precio por debajo de US$58.000 (Cryptopolitan, julio 2026) — HECHO. LECTURA: la combinación de acumulación de whales grandes con distribución de holders medianos sugiere una rotación de manos hacia posiciones más concentradas, un patrón históricamente asociado a fases de consolidación antes de un nuevo tramo direccional, aunque esto no garantiza el sentido del próximo movimiento.",
-    "conclusion": "Bitcoin transita una fase de consolidación post-corrección, operando en el tercio inferior de su rango de 52 semanas (percentil 9,5%, dato congelado) pero con métricas de riesgo ajustado aún favorables en el margen (Sharpe 4,51, Sortino 4,69, datos congelados). El MVRV Z-Score neutral (~0,34-0,37, BGeometrics, 28/07/2026) y la mezcla de acumulación de ballenas grandes con distribución de holders medianos sugieren un mercado sin sesgo direccional fuerte en el corto plazo. El catalizador más claro y fechado es la reunión del FOMC del 16 de septiembre de 2026, con probabilidad de recorte de tasas cercana al 54% (CME FedWatch, 28/07/2026), que podría ser el disparador de la próxima fase del ciclo. La tesis de mediano plazo (ciclo post-halving con recorrido hasta 2028) se mantiene intacta, pero el reciente deterioro de sentimiento (Fear & Greed en 35) y la racha de salidas de ETFs spot exigen cautela táctica en el corto plazo — LECTURA."
-  },
-  "scores": {
-    "tecnica": {
-      "score": 48,
-      "just": "RSI neutral (50,3) y precio entre SMA20/SMA50 pero muy por debajo de SMA200 (-10,28%, dato congelado) generan un cuadro técnico mixto, sin sesgo direccional claro de corto plazo (TradingView, 29/07/2026)."
-    },
-    "fundamental": {
-      "score": 55,
-      "just": "MVRV Z-Score neutral (~0,34-0,37, BGeometrics, 28/07/2026) indica que el activo no está ni sobrevalorado ni infravalorado respecto de su costo base agregado; ciclo post-halving avanzado (~57%) sin señales extremas."
-    },
-    "sentimiento": {
-      "score": 38,
-      "just": "Fear & Greed Index en 35 ('Miedo', milkroad.com, 29/07/2026) y racha de 4 sesiones de salidas netas en ETFs spot por US$526,5M (Bitcoinworld, 28/07/2026) reflejan cautela de corto plazo pese a flujos institucionales estructurales positivos (Metaplanet, whales)."
-    },
-    "riesgo": {
-      "score": 72,
-      "just": "Volatilidad 30d de 26,57% y drawdown máximo de -39,58% en el último año (datos congelados) son elevados en términos absolutos pero están bien acotados y cuantificados con 307 observaciones (n_days, dato congelado), consistente con el perfil histórico del activo."
-    },
-    "conviccion": {
-      "score": 52,
-      "just": "Catalizador fechado (FOMC 16-sep-2026) y tesis de ciclo post-halving son claros, pero la dispersión entre fuentes en dominancia y probabilidades de tasas, más el deterioro reciente de sentimiento, moderan la convicción direccional de corto plazo."
-    }
-  },
-  "sources": [
-    "TradingView scanner (datos técnicos y de precio, 29/07/2026)",
-    "Investing.com — Bitcoin Historical Data (rango 52 semanas, 30/07/2026)",
-    "CoinMarketCap / Fortune — precio y capitalización de mercado (29/07/2026)",
-    "CoinGabbar — Crypto News Today (dominancia BTC, 29/07/2026)",
-    "TV-Hub — Bitcoin Dominance Guide (julio 2026)",
-    "Cryptobriefing / Cryptorank — rotación de dominancia y altcoins (julio 2026)",
-    "KuCoin — US Spot Bitcoin ETFs Record Outflow (13/07/2026)",
-    "Cryptonomist — Bitcoin ETF Outflows Mark End to 7-Day Inflow Streak (24/07/2026)",
-    "Techtimes — Bitcoin ETF Outflow Streak Ends at $2.7B (03/07/2026)",
-    "Techtimes — Bitcoin ETF Inflows Hit $510M Over 3 Days (09/07/2026)",
-    "Coindesk — Bitcoin ETFs draw in $221 million (03/07/2026)",
-    "Coinpaper — Bitcoin ETF Outflow Streak Continues (24/07/2026)",
-    "CryptoRank — U.S. Spot Bitcoin ETFs See $225.1M in Net Outflows (23-24/07/2026)",
-    "Bitcoinworld — Spot Bitcoin ETFs Bleed, outflows extend (28/07/2026)",
-    "Cryptotimes — Crypto ETFs End Week Positive Despite $465M Bitcoin Outflows (26/07/2026)",
-    "AhaSignals — Bitcoin MVRV Z-Score Today (13/07/2026)",
-    "BGeometrics — MVRV Z-Score chart (28/07/2026)",
-    "BGeometrics/Cryptonomist — Bitcoin Whale Accumulation Surges (19-20/07/2026)",
-    "Cryptopolitan — Bitcoin whale accumulation overhyped (julio 2026)",
-    "Milkroad — Crypto Fear & Greed Index (29/07/2026)",
-    "CFGI.io — Bitcoin Fear and Greed Index Today (julio 2026)",
-    "centralbank.watch / CME FedWatch — Fed Rate Probability 2026 (28/07/2026)",
-    "CBS News — Fed interest rate decision (julio 2026)",
-    "Bitbo — MicroStrategy/Strategy Bitcoin Holdings Chart (julio 2026)",
-    "Yahoo Finance — MicroStrategy Sold 7x More Bitcoin Than Reports Suggested (julio 2026)",
-    "Coindesk — Metaplanet buys another $170 million of bitcoin (02/07/2026)",
-    "Cryptonomist — Metaplanet Bitcoin Purchase Expands Treasury to 43,000 BTC (02/07/2026)",
-    "news.Bitcoin.com — Metaplanet Buys 2,823 Bitcoins for $225M (julio 2026)",
-    "KuCoin — Bitcoin's Next Halving Expected in Mid-2028 (julio 2026)",
-    "Swan Bitcoin — Next Bitcoin Halving: March 26th, 2028 (julio 2026)",
-    "Cryptonews.com — SEC presenta su agenda cripto 2026 (07/07/2026)",
-    "data/history/BTC.json (métricas de riesgo internas, n_days=307)"
-  ],
-  "events": [
-    {
-      "date": "2026-09-16",
-      "label": "Reunión del FOMC (decisión de tasas)",
-      "info": "Próxima reunión de política monetaria de la Reserva Federal, con ~54% de probabilidad de un recorte de -0,25pb según CME FedWatch Tool (centralbank.watch, 28/07/2026). Otras plataformas de mercados predictivos, como Polymarket, muestran probabilidades sensiblemente distintas (~4% bajo su propia definición de evento), lo que refleja alta incertidumbre sobre el camino de tasas hacia septiembre (Polymarket, julio 2026). Un recorte de tasas suele ser favorable para activos de riesgo como Bitcoin — LECTURA.",
-      "kind": "macro"
-    },
-    {
-      "date": "2026-08-15",
-      "label": "Ventana de comentarios públicos sobre reglamentación de la Ley GENIUS (stablecoins)",
-      "info": "El Departamento del Tesoro de EE.UU. abrió rondas de comentarios en agosto y septiembre de 2026 sobre las reglas propuestas bajo la Ley GENIUS de stablecoins, cuyo marco regulatorio podría incidir indirectamente en la infraestructura de trading y custodia cripto, incluyendo Bitcoin (bitfinanzas.com, julio 2026) — HECHO, fecha exacta de cierre de comentarios no verificable con las fuentes consultadas.",
-      "kind": "macro"
-    },
-    {
-      "date": "2028-04-15",
-      "label": "Próximo halving de Bitcoin",
-      "info": "Se estima que el próximo halving de Bitcoin ocurrirá a mediados de abril de 2028 (bloque ~1.050.000), reduciendo la recompensa de bloque de 3,125 a 1,5625 BTC (KuCoin/Swan Bitcoin, julio 2026). Aunque la fecha es lejana, el mercado suele empezar a posicionarse con antelación en ciclos previos — LECTURA, evento de largo plazo incluido como referencia de ciclo, no como catalizador de corto plazo.",
-      "kind": "macro"
-    }
-  ],
   "risk": {
-    "volatility_30d": 26.57,
-    "sharpe": 4.51,
-    "sortino": 4.69,
+    "volatility_30d": 26.93,
+    "sharpe": 0.45,
+    "sortino": 0.43,
     "max_drawdown_1y": -39.58,
-    "n_days": 307,
+    "n_days": 309,
     "window": 30
   },
   "benchmark": {
     "ticker": "CRYPTOCAP:TOTAL",
     "label": "Cripto total (ciclo)",
-    "relative_performance_30d": 1.19,
-    "relative_performance_ytd": -0.76,
-    "price_percentile_1y": 9.5,
+    "relative_performance_30d": 0.95,
+    "relative_performance_ytd": -1.29,
+    "price_percentile_1y": 7.1,
     "partial": false
   },
   "technical": {
-    "price": 64238.67,
-    "change_1d_pct": 0.53,
-    "change_1w_pct": -1.68,
-    "rsi": 50.3,
-    "macd": 164.1365,
-    "macd_signal": 276.4022,
-    "sma20": 64443.8615,
-    "sma50": 63384.007,
-    "sma200": 71598.18,
-    "ema12": 64348.1082,
-    "ema26": 64183.9717,
-    "pct_vs_sma20": -0.32,
-    "pct_vs_sma50": 1.35,
-    "pct_vs_sma200": -10.28,
+    "price": 62594.51,
+    "change_1d_pct": -3.25,
+    "change_1w_pct": -4.2,
+    "rsi": 43.2,
+    "macd": 40.2775,
+    "macd_signal": 235.0186,
+    "sma20": 64407.559,
+    "sma50": 63373.8054,
+    "sma200": 71457.5776,
+    "ema12": 64137.9009,
+    "ema26": 64097.6234,
+    "pct_vs_sma20": -2.81,
+    "pct_vs_sma50": -1.23,
+    "pct_vs_sma200": -12.4,
     "volume_today": null,
     "volume_avg20": null,
     "volume_ratio": null,
-    "volatility_30d": 26.57,
-    "sharpe": 4.51,
-    "sortino": 4.69,
+    "volatility_30d": 26.93,
+    "sharpe": 0.45,
+    "sortino": 0.43,
     "max_drawdown_1y": -39.58,
-    "price_percentile_1y": 9.5,
-    "vs_benchmark_30d_pct": 1.19,
-    "perf_1m_pct": 6.77,
-    "perf_ytd_pct": -26.63
+    "price_percentile_1y": 7.1,
+    "vs_benchmark_30d_pct": 0.95,
+    "perf_1m_pct": 6.93,
+    "perf_ytd_pct": -28.51
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-07-29T22:16:13-04:00"
+      "fetched_at": "2026-07-31T10:34:27-04:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-07-29T22:16:13-04:00"
+      "fetched_at": "2026-07-31T10:34:27-04:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-07-29T22:16:13-04:00"
+      "fetched_at": "2026-07-31T10:34:27-04:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CRYPTOCAP:TOTAL",
-      "fetched_at": "2026-07-29T22:16:13-04:00"
+      "fetched_at": "2026-07-31T10:34:27-04:00"
     },
     "risk_metrics": {
       "origin": "data/history/BTC.json",
-      "n_days": 307
+      "n_days": 309
     }
   },
   "metricChanges": [],
-  "reportDate": "30 de julio de 2026"
+  "trend": {
+    "piso": 2,
+    "techo": 0,
+    "max": 7,
+    "senales_piso": [
+      "mínimos crecientes en tendencia bajista",
+      "base construyéndose sobre el mínimo anual"
+    ],
+    "senales_techo": []
+  },
+  "change": {
+    "day": -3.25,
+    "week": -4.2
+  },
+  "reportDate": "30 de julio de 2026",
+  "events": [
+    {
+      "date": "2026-08-01",
+      "label": "Nómina no agrícola (NFP) de EE.UU. — julio",
+      "kind": "macro",
+      "time": "09:30",
+      "info": "Primer viernes del mes; el mercado vigila señales de debilidad laboral que reforzarían expectativas de recorte de tasas en septiembre (Forbes, 29-07-2026). No verificable cifra exacta previa a publicación."
+    },
+    {
+      "date": "2026-09-16",
+      "label": "Reunión del FOMC (decisión de tasas)",
+      "kind": "macro",
+      "info": "CME FedWatch asigna 54,4% de probabilidad a un recorte de 25pb; en julio 3 miembros disintieron pidiendo alza, por lo que la decisión está muy dividida y dependerá de los próximos IPC (CNBC/Investing.com, 28-07-2026)."
+    }
+  ],
+  "sections": {
+    "resumen": "BTC cerró julio en US$62.594,51, con caída semanal de -4,2% y ruptura bajo SMA20/50/200, ubicándose en el percentil 7,1 del rango de 12 meses —cerca de mínimos anuales tras desplomarse desde el techo de ciclo de US$126.000 (oct-2025)—. LECTURA: el patrón encaja con la fase de corrección post-halving que históricamente se extiende hasta ~12-18 meses tras el evento, con suelo proyectado hacia el Q4 2026 (StoneX, 29-06-2026). Los flujos de ETF muestran julio como el mes más débil desde su lanzamiento (+US$205M netos), aunque revirtieron a positivo el 29-30 de julio. El MVRV Z-Score en 0,34 y el Fear & Greed en zona neutral (44-53) sugieren capitulación moderada, no pánico extremo.",
+    "fundamental": "- HECHO: Dificultad de minería cayó -5% a 127,17T (11-jul) y hashrate retrocedió -7,9% a 908 EH/s en diez días, reflejando presión de rentabilidad tras la caída de precio (Bitcoin.com/GNCrypto, 11-07-2026).\n- HECHO: MVRV Z-Score en 0,34-0,37 a fines de julio, zona que en ciclos previos (2011-12, 2014, 2018, 2022) coincidió con suelos de mercado (AhaSignals/MacroMicro, 28-07-2026).\n- HECHO: Strategy (ex-MicroStrategy) vendió 3.588 BTC (~US$216M) en julio, su mayor venta desde 2022, para financiar dividendos de sus preferentes (CoinDesk, 06-07-2026).\n- HECHO: Metaplanet compró 2.823 BTC (~US$225M) en Q2, llevando su tesorería a 43.000 BTC a precio promedio de US$78.872, muy por sobre el spot actual (CoinDesk, 02-07-2026).\n- LECTURA: la combinación de venta de Strategy y compra de Metaplanet muestra que el apetito institucional-corporativo ya no es unánime; el 'trade de tesorería BTC' se está diferenciando entre jugadores con mejor y peor gestión de caja.",
+    "valuacion": "- HECHO: precio en percentil 7,1 sobre 12 meses, un -50,4% bajo el máximo de ciclo de ~US$126.000 (oct-2025) (cálculo sobre rango 52 sem., Yahoo Finance/Investing.com, 31-07-2026).\n- HECHO: MVRV ratio ~1,19x con precio realizado estimado en US$52.493 (BGeometrics, jul-2026), lo que implica que el holder promedio aún mantiene ganancia moderada pero comprimida.\n- LECTURA: valuación on-chain (MVRV Z bajo 0,5) es consistente con zonas históricas de acumulación de ciclo, no de techo.\n- HECHO: performance YTD de -28,51% (dato precalculado) confirma que 2026 es, hasta ahora, un año de reversión tras el rally 2023-2025.\n- LECTURA: el 'descuento' frente al ciclo no garantiza suelo inmediato; el patrón post-halving sugiere que la fase de rango bajo podría extenderse a Q4 2026.",
+    "tecnico": "- HECHO: precio bajo SMA20 (-2,81%), SMA50 (-1,23%) y SMA200 (-12,4%); estructura de medias en tendencia bajista de corto-mediano plazo (dato precalculado, TradingView 31-07-2026).\n- HECHO: RSI 43,2 (neutral-débil, no sobreventa técnica) y MACD (40,28) por debajo de la señal (235,02), confirmando momentum negativo aún sin agotamiento claro.\n- LECTURA: no hay evidencia de piso técnico confirmado (sin divergencia alcista visible en los datos entregados); el -3,25% diario y -4,2% semanal sugieren continuación de presión vendedora, no reversión inminente.\n- HECHO: Sharpe 0,45 / Sortino 0,43 en ventana de riesgo, ambos positivos pero bajos, y drawdown máximo a 1 año de -39,58% (dato precalculado), consistente con corrección de ciclo ya materializada.\n- LECTURA: performance relativa 30d casi neutra (+0,95% vs. cripto total) indica que BTC no está siendo vendido de forma diferencial frente al resto del mercado; el problema es sistémico, no idiosincrático de BTC.",
+    "catalizadores": "Catalizadores:\n- Reunión del FOMC 16-sep-2026 con 54,4% de probabilidad de recorte, que de confirmarse reduciría presión sobre activos de riesgo (CME FedWatch vía CNBC, 28-07-2026).\n- Reversión de flujos ETF hacia positivo el 29-30 de julio (+US$233M liderado por IBIT) podría marcar inflexión si se sostiene (CoinGabbar, 30-07-2026).\n- MVRV Z-Score en zona histórica de suelo de ciclo (0,34) es catalizador estructural si se repite el patrón 2018/2022.\n- Ajuste de dificultad a la baja (-5%) mejora rentabilidad marginal de mineros, reduciendo venta forzada de hashrate débil.\n\nRiesgos:\n- Julio fue el peor mes de flujos ETF desde el lanzamiento (+US$205M netos), con activos totales del complejo cayendo de >US$150.000M (sep-2025) a US$77.460M (29-jul-2026) (FinanceFeeds, jul-2026).\n- Ballenas medianas (10-10.000 BTC) vendieron ~70.848 BTC netos desde el 24-abr, señal de distribución que contrasta con la narrativa de acumulación (fuente on-chain vía Bitcoin Foundation, jul-2026).\n- Tres disidentes en el FOMC de julio pedían alza de tasas; un giro hawkish inesperado en septiembre sería negativo para BTC (CNBC, 29-07-2026).\n- Patrón de ciclo post-halving sugiere que el suelo definitivo podría no llegar hasta Q4 2026, implicando más tiempo de rango bajo antes de recuperación (StoneX, 29-06-2026).",
+    "sentimiento": "- HECHO: Fear & Greed Index en 44-53 (neutral), sin señal de pánico extremo pese a la caída de precio (Milk Road/CFGI, 22-30-jul-2026).\n- LECTURA (contrarian): sentimiento neutral —ni euforia ni capitulación— combinado con MVRV bajo y flujos ETF revirtiendo a positivo sugiere que el mercado ya digirió gran parte del shock, lo que es constructivo para riesgo-recompensa a 6-18 meses.\n- HECHO: dominancia BTC se mantiene en la parte alta de su rango 2024-2026 (53-64%), señal de que el capital institucional vía ETF sigue prefiriendo BTC sobre altcoins (TradingView Hub, jul-2026).\n- HECHO: divergencia entre venta de ballenas medianas (distribución) y absorción institucional puntual (ej. retiro de 1.172 BTC de Coinbase a cold storage) complica la lectura direccional (Cointribune/Coindesk, jul-2026).\n- LECTURA: el mix de señales (sentimiento neutral, on-chain mixto, ETFs recién revirtiendo) apunta a un mercado en transición, no en extremo, por lo que el efecto contrarian es moderado, no fuerte.\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\nFlujos diarios de ETFs spot de Bitcoin en EE.UU., última semana disponible (fuente: CoinGabbar/CoinOtag/CryptoNews, 27-30 jul 2026; HECHO):\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 27-jul-2026 | -US$11,6M | Salida moderada, liderada por IBIT (-US$8,8M); cuarto día consecutivo de salidas |\n| 28-jul-2026 | -US$49,75M | IBIT -US$54,8M; FBTC y otros fondos en flujo neto cero |\n| 29-jul-2026 | +US$32,1M | Fin de racha de 4 días de salidas; IBIT +US$89,8M, FBTC -US$43,08M (divergencia entre emisores) |\n| 30-jul-2026 | +US$233M | IBIT +US$183M, FBTC +US$15,5M; mejor día del mes, liderado por BlackRock |\n\nEn el acumulado mensual, julio cerró con apenas +US$205M netos —el mes más débil desde el lanzamiento de los ETFs en enero de 2024—, tras -US$2.430M en mayo y +US$4.510M en junio (FinanceFeeds, jul-2026; HECHO). Los activos totales del complejo ETF llegaron a US$77.460M al 29-jul, muy por debajo del máximo de más de US$150.000M en septiembre 2025 (HECHO), y el año corre en terreno neto negativo por primera vez desde el lanzamiento de los fondos.\n\nEn el frente institucional-corporativo, las señales son mixtas: Strategy (ex-MicroStrategy) vendió 3.588 BTC (~US$216M) en la primera semana de julio, su mayor venta desde el evento fiscal de 2022, para financiar dividendos de sus preferentes STRC/STRD, mientras mantiene 843.775 BTC en tesorería a costo promedio de US$66.384 (CoinDesk/Fortune, 06-07-2026; HECHO). En contraste, Metaplanet (Japón) sumó 2.823 BTC (~US$225M) durante el Q2, llevando su tesorería a 43.000 BTC a precio promedio de US$78.872 —muy por encima del spot actual, lo que implica una posición no realizada en pérdida (CoinDesk/Bitcoin.com, 02-07-2026; HECHO).\n\nEn on-chain, los datos de ballenas son contradictorios: wallets medianas (10-10.000 BTC) vendieron netos ~70.848 BTC desde el 24-abr-2026 hasta fines de julio, un patrón de distribución sostenida (Bitcoin Foundation, jul-2026; HECHO), mientras que episodios puntuales muestran acumulación —incluyendo un retiro de 1.172 BTC (~US$75M) desde Coinbase hacia cold storage a inicios de julio y flujos de ~270.000 BTC comprados por ballenas en dos semanas de inicios de julio pese a salidas récord de ETFs (Coindesk, 03-07-2026; HECHO). También se registró actividad de wallets dormidas desde 2018 moviendo miles de BTC (2.931 BTC y 5.908 BTC en transacciones separadas), que no necesariamente implican venta pero generan ruido en el sentimiento de mercado (Coinidol, jul-2026; HECHO). LECTURA: la coexistencia de distribución de ballenas medianas y acumulación institucional selectiva (Metaplanet, absorción vía Coinbase) sugiere un mercado en fase de transferencia de manos débiles a fuertes, típico de zonas de suelo de ciclo, aunque sin confirmación definitiva.",
+    "conclusion": "BTC cotiza en el percentil 7,1 de su rango anual, con estructura técnica débil (bajo las tres medias móviles) pero sin sobreventa extrema ni pánico en sentimiento. Los fundamentos on-chain (MVRV 0,34) y el fin de la racha de salidas de ETF el 29-30 de julio ofrecen primeras señales de estabilización, contrarrestadas por la venta de Strategy y la distribución neta de ballenas medianas. El escenario base es de rango lateral-bajista hasta que el FOMC de septiembre (54% prob. de recorte) aporte claridad macro. La asimetría de precio frente al ciclo histórico favorece acumulación gradual, no capitulación ni euforia compradora."
+  },
+  "scores": {
+    "tecnica": {
+      "score": 42,
+      "just": "Precio bajo las tres SMAs y MACD negativo penalizan, pero RSI neutral (43) sin sobreventa ni sobrecompra evita nota más baja; no hay evidencia aún de piso confirmado ni divergencia alcista en los datos entregados."
+    },
+    "fundamental": {
+      "score": 58,
+      "just": "Red sólida pese a caída de hashrate (ajuste natural de dificultad), MVRV en zona histórica de suelo de ciclo; contrapesado por venta relevante de Strategy que cuestiona narrativa institucional unánime."
+    },
+    "sentimiento": {
+      "score": 60,
+      "just": "LECTURA CONTRARIAN: Fear & Greed neutral (44-53), sin euforia ni pánico extremo; combinado con reversión de flujos ETF a positivo el 29-30/jul, sugiere que lo peor del shock de sentimiento ya fue absorbido, aunque distribución de ballenas medianas limita la nota."
+    },
+    "riesgo": {
+      "score": 50,
+      "just": "Volatilidad 30d (26,9%) y drawdown (-39,58%) ya materializados, no deben castigarse dos veces; Sharpe/Sortino positivos pero bajos. Riesgo estructural real: posible extensión del ciclo bajista hasta Q4 2026 y dependencia de decisión FOMC."
+    },
+    "conviccion": {
+      "score": 57,
+      "just": "Asimetría favorable a niveles de percentil 7,1 con tesis falsable (invalidación clara bajo mínimos de 52 sem.), pero sin catalizador confirmado de corto plazo que dispare reversión inmediata."
+    }
+  },
+  "sources": [
+    "https://financefeeds.com/bitcoin-etf-inflows-record-low-july-2026/",
+    "https://en.cryptonomist.ch/2026/07/24/bitcoin-etf-outflows-streak-end/",
+    "https://www.coingabbar.com/en/crypto-currency-news/bitcoin-etfs-snap-outflow-streak",
+    "https://crypto.news/bitcoin-etfs-pull-in-233m-as-blackrock-leads/",
+    "https://www.tv-hub.org/guide/bitcoin-dominance",
+    "https://ahasignals.com/current-bitcoin-mvrv-z-score/",
+    "https://en.macromicro.me/series/8365/bitcoin-mvrv-zscore",
+    "https://milkroad.com/fear-greed/",
+    "https://cfgi.io/bitcoin-fear-greed-index/",
+    "https://www.gncrypto.news/news/bitcoin-difficulty-falls-5-percent-to-127-17-trillion/",
+    "https://www.coindesk.com/markets/2026/07/03/bitcoin-whales-bought-270-000-btc-in-two-weeks-even-as-etfs-bled-a-record-usd4-billion",
+    "https://bitcoinfoundation.org/news/altcoins/bitcoin-whales-are-moving-billions-in-july-is-btc-price-about-to-explode/",
+    "https://www.coindesk.com/markets/2026/07/06/michael-saylor-s-strategy-dramatically-ups-pace-of-bitcoin-sales-raising-usd216-million",
+    "https://www.coindesk.com/markets/2026/07/02/metaplanet-buys-another-usd170-million-of-bitcoin-expanding-treasury-to-43-000-btc",
+    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
+    "https://www.stonex.com/en/insights/h2-2026-bitcoin-outlook-one-more-quarter-of-pain-before-a-major-bottom-2026-06-29/",
+    "https://www.investing.com/crypto/bitcoin/historical-data"
+  ],
+  "opportunity": {
+    "cats": {
+      "valuacion_hist": {
+        "score": 68,
+        "just": "Percentil 7,1 a 1 año y -50% desde el techo de ciclo (US$126.000) ubican a BTC en zona de descuento histórico relevante; MVRV Z-Score 0,34 coincide con niveles de suelos de ciclos previos (2018, 2022)."
+      },
+      "calidad": {
+        "score": 72,
+        "just": "Red y adopción institucional siguen intactas (43 fondos ETF activos, tesorerías corporativas creciendo en agregado); dificultad de minado se autoajusta con normalidad. Venta de Strategy es ruido puntual de gestión de caja, no señal de deterioro estructural."
+      },
+      "asimetria": {
+        "score": 65,
+        "just": "Invalidación técnica clara (mínimos de 52 sem. ~US$57.750) cercana, con potencial de recuperación hacia SMA200 (~US$71.450, +14% desde spot) si se confirma piso; relación riesgo/retorno favorable pero sin confirmación de reversión aún."
+      },
+      "catalizadores": {
+        "score": 55,
+        "just": "FOMC de septiembre (54% prob. recorte) y posible estabilización de flujos ETF son catalizadores reales pero no garantizados; calendario más despejado que negativo en el horizonte de 6-18 meses."
+      },
+      "contrarian": {
+        "score": 62,
+        "just": "Sentimiento neutral (no eufórico) en medio de caída de precio, con reversión incipiente de flujos ETF, ofrece perfil contrarian moderado — no es un extremo de pánico que garantice rebote inmediato, pero tampoco euforia que anticipe techo."
+      }
+    },
+    "plan": {
+      "recomendacion": "Acumular en zona",
+      "zona_compra": "US$57.000–63.000 (entre mínimo de 52 semanas y spot actual), escalonado en 3-4 tramos",
+      "invalidacion": "Cierre semanal sostenido bajo US$55.000 (ruptura de mínimos de 52 sem.) o deterioro adicional de MVRV bajo 0",
+      "gatillos": [
+        "Confirmación de recorte de tasas en FOMC del 16-sep-2026",
+        "Reversión sostenida (>2 semanas) de flujos ETF a terreno positivo",
+        "Recuperación de precio sobre SMA50 (~US$63.370) con volumen",
+        "Estabilización de ventas de ballenas medianas (10-10.000 BTC)"
+      ],
+      "horizonte": "6-18 meses",
+      "tamano": "posición inicial moderada (25-35% del tamaño objetivo), reservando el resto para añadir en gatillos confirmados",
+      "confianza": "media"
+    }
+  }
 }

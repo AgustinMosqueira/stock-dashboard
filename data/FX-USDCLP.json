@@ -5,77 +5,185 @@
   "statsList": [
     [
       "Precio",
-      "933.98 (29-jul-2026)"
+      "928.16 (31-jul-2026)"
     ],
     [
       "Rango 120 días",
-      "HECHO: mínimo del año en torno a 851,68 (10-feb-2026) y máximo en torno a 932,46-935,41 (31-mar-2026 y 28-jul-2026) (Wise, historial USD/CLP, 29/07/2026). LECTURA: el par transita en la parte alta de su banda de 120 días, cerca de máximos anuales, reflejando la escalada de posiciones bajistas sobre el peso y el ciclo de tasas Fed-BCCh."
+      "850.90 - 980.88 (52 semanas, Investing.com/Wise, 01-ago-2026); reciente: 919 - 949 (jul-2026)"
     ],
     [
       "TPM Chile / Fed",
-      "HECHO: BCCh mantuvo la TPM en 4,5% por unanimidad en la RPM de julio 2026, citando incertidumbre mayor a la habitual por el conflicto en Medio Oriente y nuevos aranceles a Chile; próxima RPM el 8 de septiembre de 2026 (BioBioChile, 28/07/2026; DiarioEstrategia, 28/07/2026). HECHO: la Fed mantuvo su rango de tasas en 3,50%-3,75% el 29/07/2026, en votación dividida 9-3 (tres disidentes pidiendo alza de 25pb), quinta pausa consecutiva; próxima reunión FOMC el 15-16/09/2026 (CNBC, 29/07/2026; El Diario NY, 29/07/2026). LECTURA: el diferencial de tasas nominal (TPM 4,5% vs Fed Funds 3,5%-3,75%) se ha estrechado sustancialmente frente a años previos, reduciendo el carry a favor del peso y presionando al alza al dólar."
+      "4,50% (BCCh, mantenida jul-2026) vs 3,50%-3,75% (Fed, mantenida 29-jul-2026) — diferencial ~75-100pb a favor USD"
     ],
     [
       "Cobre",
-      "⚠️ Dato de cobre desactualizado (cotización de 24-jul-2026, hace ~144 horas) — verificar cotización intradía antes de usar este informe para decisiones. HECHO: el cobre cerró la semana del 24/07/2026 en US$6,18 por libra, +1,82% semanal, impulsado por demanda china y caída de inventarios en LME y SHFE (Reporte Minero, 24/07/2026). HECHO: el 23/07/2026 el cobre había retrocedido a US$6,30/lb (-2,41% diario) por aumento de inventarios COMEX ante expectativa de aranceles de EE.UU. al cobre refinado (TradingEconomics vía búsqueda, 23/07/2026; cifras algo inconsistentes entre fuentes, tratar con cautela). LECTURA: el nivel de cobre sigue siendo elevado en términos históricos (promedio julio 2026 de US$5,96/lb, +38,6% interanual según Reporte Minero), lo que en teoría debería sostener al peso vía términos de intercambio, pero no ha evitado la depreciación del CLP dado el peso dominante del diferencial de tasas y el posicionamiento en forwards."
+      "US$6,45/lb COMEX (31-jul-2026, +0,14% d/d), cerca de máximo histórico ~US$6,72/lb (LME, may-2026)"
     ],
     [
       "Posicionamiento",
-      "HECHO: no aplica COT (CFTC) para este par; se usa como proxy el posicionamiento en forwards de no residentes reportado por el Banco Central de Chile. HECHO: la posición neta de no residentes contra el peso escaló a cerca de US$20.000 millones a inicios de julio de 2026, el nivel más alto desde fines de 2025, y llegó a US$16.366 millones el 14/07/2026, manteniéndose sobre US$16.000 millones durante seis días consecutivos (Diario Financiero, 14-21/07/2026). HECHO: el Banco Central reconoció el 29/07/2026 un error de un informante en el dato de posicionamiento offshore de la semana previa, que había sugerido un fuerte desarme (~US$1.500 millones) cuando la variación real fue de solo US$375 millones (Diario Financiero, 29/07/2026). LECTURA: el error de reporte añade ruido a la lectura de corto plazo del indicador, pero la tendencia de fondo —posiciones históricamente elevadas contra el peso, concentradas en plazos de 96 a 370 días— sugiere que el mercado sigue apostando a depreciación adicional del CLP."
+      "Forwards no residentes cortos en CLP: ~US$16.000-17.000M (BCCh, semana 9-14 jul-2026), niveles récord; no aplica COT/CFTC para este par"
     ],
     [
       "Próximo evento",
-      "RPM del Banco Central de Chile: 8 de septiembre de 2026 (BioBioChile, 28/07/2026)."
+      "Vencimiento programa de reservas BCCh, 07-ago-2026"
     ],
     [
       "Técnico (auto)",
-      "RSI 55.8 · MACD +7.20 / señal +7.57 (TradingView, 29-jul-2026)"
+      "RSI 51.1 · MACD +4.90 / señal +6.73 (TradingView, 31-jul-2026)"
     ]
   ],
-  "change": {
-    "day": -0.06,
-    "week": -1.14
+  "risk": {
+    "volatility_30d": 11.43,
+    "sharpe": 4.42,
+    "sortino": 5.87,
+    "max_drawdown_1y": -12.64,
+    "n_days": 302,
+    "window": 30
   },
+  "benchmark": {
+    "ticker": "TVC:DXY",
+    "label": "DXY",
+    "relative_performance_30d": 0.92,
+    "relative_performance_ytd": 1.41,
+    "price_percentile_1y": 60.8,
+    "partial": false
+  },
+  "technical": {
+    "price": 928.16,
+    "change_1d_pct": 0.66,
+    "change_1w_pct": -1.74,
+    "rsi": 51.1,
+    "macd": 4.9039,
+    "macd_signal": 6.7315,
+    "sma20": 931.221,
+    "sma50": 914.8034,
+    "sma200": 910.1683,
+    "ema12": 931.9036,
+    "ema26": 926.9998,
+    "pct_vs_sma20": -0.33,
+    "pct_vs_sma50": 1.46,
+    "pct_vs_sma200": 1.98,
+    "volume_today": 1026,
+    "volume_avg20": 2698.0,
+    "volume_ratio": 0.38,
+    "volatility_30d": 11.43,
+    "sharpe": 4.42,
+    "sortino": 5.87,
+    "max_drawdown_1y": -12.64,
+    "price_percentile_1y": 60.8,
+    "vs_benchmark_30d_pct": 0.92,
+    "perf_1m_pct": 0.01,
+    "perf_ytd_pct": 3.5
+  },
+  "sourcesMeta": {
+    "price": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-07-31T10:34:27-04:00"
+    },
+    "rsi_macd": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-07-31T10:34:27-04:00"
+    },
+    "smas_volume": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-07-31T10:34:27-04:00"
+    },
+    "benchmark": {
+      "origin": "TradingView scanner",
+      "symbol": "TVC:DXY",
+      "fetched_at": "2026-07-31T10:34:27-04:00"
+    },
+    "risk_metrics": {
+      "origin": "data/history/FX-USDCLP.json",
+      "n_days": 302
+    }
+  },
+  "metricChanges": [],
+  "trend": {
+    "piso": 1,
+    "techo": 2,
+    "max": 7,
+    "senales_piso": [
+      "base construyéndose sobre el mínimo anual"
+    ],
+    "senales_techo": [
+      "histograma MACD girando a la baja",
+      "techo plano bajo el máximo anual"
+    ]
+  },
+  "change": {
+    "day": 0.66,
+    "week": -1.74
+  },
+  "reportDate": "30 de julio de 2026",
+  "events": [
+    {
+      "date": "2026-08-05",
+      "label": "Publicación Minuta RPM del Banco Central de Chile",
+      "kind": "macro",
+      "time": "08:30",
+      "info": "Se conocerán los argumentos detrás de la decisión de mantener la TPM en 4,5% en la última reunión. Podría dar pistas sobre el balance de riesgos hacia la RPM de septiembre (BCCh, calendario oficial, consultado 01-ago-2026)."
+    },
+    {
+      "date": "2026-08-07",
+      "label": "Vencimiento del Programa de Reposición y Ampliación de Reservas Internacionales del BCCh",
+      "kind": "macro",
+      "info": "Cierra la ventana de compras de hasta US$25M diarios vigente desde el 9-feb-2026. HECHO: no es intervención cambiaria según el BCCh; LECTURA: su eventual renovación o término podría afectar el flujo de demanda de USD en el mercado formal (BCCh, documento del programa, consultado 01-ago-2026)."
+    },
+    {
+      "date": "2026-09-08",
+      "label": "RPM del Banco Central de Chile (decisión de TPM)",
+      "kind": "macro",
+      "time": "18:00",
+      "info": "Próxima Reunión de Política Monetaria; consenso previo apuntaba a mantención en 4,5% dado IPC de junio en 4,3% interanual, por sobre la meta (BCCh, calendario RPM 2026, consultado 01-ago-2026)."
+    },
+    {
+      "date": "2026-09-16",
+      "label": "Reunión del FOMC (decisión de tasas)",
+      "kind": "macro",
+      "info": "Siguiente decisión de la Fed tras mantener el rango en 3,50%-3,75% el 29-jul-2026 con votación dividida 9-3; el mercado vigilará señales sobre el ritmo de recortes hacia fin de año (Federal Reserve, comunicado 29-jul-2026; CNBC, consultado 01-ago-2026)."
+    }
+  ],
   "customSections": [
     {
       "title": "Resumen ejecutivo",
       "nav": "Resumen",
-      "body": "HECHO: el USD/CLP cerró en 933,98 el 29/07/2026, con una variación diaria de -0,06% y semanal de -1,14% (fuente canónica: feed Vantage, que calza con el cierre de Santiago; TradingView scanner, 29/07/2026). LECTURA: pese a la leve corrección de la última semana, el par se mantiene en la parte alta de su rango de 120 días, apenas por debajo de los máximos anuales cercanos a 935 registrados el 28/07/2026 (Wise, historial USD/CLP, 29/07/2026).\n\nHECHO: el contexto de política monetaria muestra a ambos bancos centrales en pausa: el BCCh mantuvo la TPM en 4,5% el 28/07/2026 por unanimidad, y la Fed mantuvo su rango en 3,50%-3,75% el 29/07/2026 en una votación dividida 9-3, con tres disidentes que pedían un alza (BioBioChile, 28/07/2026; CNBC, 29/07/2026). LECTURA: el diferencial de tasas se ha estrechado considerablemente respecto a ciclos anteriores, lo que reduce el atractivo del carry trade en pesos y constituye un viento en contra estructural para el CLP.\n\nHECHO: el posicionamiento de no residentes en forwards contra el peso alcanzó niveles históricos, cercanos a US$20.000 millones a inicios de julio de 2026, los más altos desde fines de 2025 (Diario Financiero, julio 2026). LECTURA: esto confirma un sesgo de mercado hacia mayor depreciación del peso, aunque un error de reporte reconocido por el Banco Central el 29/07/2026 introduce cierta incertidumbre sobre la magnitud exacta de los movimientos semana a semana.\n\nHECHO: el cobre —principal commodity de exportación chileno— cotizaba en US$6,18/lb al cierre del 24/07/2026, con una nota de cautela porque este dato tiene más de 24 horas de antigüedad respecto al 30/07/2026 (Reporte Minero, 24/07/2026). LECTURA: en conjunto, el balance de fuerzas es mixto: un cobre relativamente fuerte debería contener al dólar, pero el estrechamiento del diferencial de tasas y el posicionamiento bajista sobre el peso dominan la dinámica de corto plazo, sosteniendo al USD/CLP cerca de sus máximos del año."
+      "body": "HECHO: El USD/CLP cierra en 928,16 el 31-jul-2026 (feed Vantage/TradingView), con un alza diaria de +0,66% pero una caída semanal de -1,74%. El par se ubica sobre sus SMA50 (+1,46%) y SMA200 (+1,98%), aunque levemente bajo la SMA20 (-0,33%), en un percentil de precio de 60,8% dentro del último año — zona media-alta pero no extrema.\n\nLECTURA: El repunte de cierre de julio coincide con la decisión de la Fed de mantener tasas el 29-jul (fortaleza puntual del USD) y con cierta corrección tras el rally del cobre, que había apreciado al peso los días previos. El RSI en 51,1 y el MACD (+4,90) apenas bajo su señal (+6,73) sugieren un momentum técnico neutral, sin sesgo direccional claro en el corto plazo.\n\nHECHO: La volatilidad 30d es baja (11,43%), con Sharpe de 4,42 y drawdown máximo de -12,64% en el último año — perfil de riesgo relativamente contenido para un cruce emergente, consistente con la estabilización reciente del rango 880-930 mencionada por analistas de mercado (Emol/BioBioChile, jul-2026)."
     },
     {
       "title": "Diferencial de tasas y política monetaria",
       "nav": "Tasas",
-      "body": "HECHO: el Consejo del Banco Central de Chile decidió por unanimidad mantener la TPM en 4,5% en la Reunión de Política Monetaria (RPM) de julio de 2026, señalando que el escenario macroeconómico está \"sujeto a un grado de incertidumbre mayor que el habitual\" debido a la escalada del conflicto en Medio Oriente, el alza del petróleo y nuevos aranceles que afectan a Chile (DiarioEstrategia, 28/07/2026; BioBioChile, 28/07/2026). HECHO: el Banco Central indicó que evaluará la evolución de la tasa \"reunión a reunión\", y la próxima RPM está fijada para el 8 de septiembre de 2026 (BioBioChile, 28/07/2026).\n\nHECHO: la Reserva Federal mantuvo su rango de tasas de referencia en 3,50%-3,75% el 29/07/2026, la quinta pausa consecutiva, en una votación dividida 9-3, con tres presidentes regionales (Hammack, Kashkari y Logan) disintiendo a favor de un alza inmediata de 25 puntos base por preocupación sobre la inflación persistente por encima del objetivo de 2% (El Diario NY, 29/07/2026; CNBC, 29/07/2026). HECHO: la próxima reunión del FOMC está programada para el 15-16 de septiembre de 2026 (El Diario NY, 29/07/2026).\n\nLECTURA: el diferencial nominal de tasas (TPM 4,5% vs. Fed Funds 3,5%-3,75%, punto medio 3,625%) se ubica en torno a 87,5 puntos base, sustancialmente más estrecho que en ciclos previos de tasas altas en Chile, lo que reduce el incentivo al carry trade en pesos chilenos y constituye un factor estructural de presión alcista sobre el USD/CLP. HECHO: tras la decisión de la Fed, el mercado ajustó a la baja la probabilidad de un alza en septiembre, de aproximadamente 4 en 5 antes de la reunión a cerca de 2 en 3 después de ella (FXStreet, 29/07/2026). LECTURA: la combinación de una Fed dividida pero en pausa, y un BCCh también en pausa con sesgo cauteloso, sugiere que el diferencial de tasas se mantendrá relativamente estable hasta las reuniones de septiembre en ambos países, salvo sorpresas inflacionarias o geopolíticas."
+      "body": "HECHO: El Banco Central de Chile mantuvo la TPM en 4,5% en su última reunión (decisión previa a agosto-2026), de forma unánime, citando incertidumbre superior a la habitual, en parte por el conflicto en Medio Oriente. La minuta de esa reunión se publica el 05-ago-2026 y la próxima RPM es el 08-sep-2026 (Banco Central de Chile, calendario oficial; El Periodista, jul-2026).\n\nHECHO: La Fed mantuvo el rango de fondos federales en 3,50%-3,75% el 29-jul-2026, con votación dividida 9-3 (tres presidentes regionales disintieron a favor de subir tasas ante inflación persistente sobre el 2% meta) (Federal Reserve, comunicado 29-jul-2026; CNBC, 29-jul-2026).\n\nLECTURA: El diferencial nominal TPM-FFR (4,5% vs 3,5-3,75%) sigue siendo moderadamente favorable al CLP en términos de carry, pero se ha estrechado frente al año previo por la resistencia de la Fed a recortar. El IPC chileno de junio sorprendió al alza (4,3% interanual, muy por sobre la meta de 3%), lo que limita el margen del BCCh para recortar en el corto plazo y sostiene algo de soporte relativo al peso vía tasas reales (INE/Diario Financiero, jul-2026)."
     },
     {
       "title": "Balanza de pagos y flujos",
       "nav": "Balanza",
-      "body": "HECHO: el precio del cobre —que representa la mayor parte de las exportaciones chilenas— cerró la semana del 24/07/2026 en US$6,18 por libra, +1,82% respecto al viernes previo, impulsado por mayor demanda china y caída de inventarios en las bolsas de Londres y Shanghái (Reporte Minero, 24/07/2026). ⚠️ Dato de cobre desactualizado (cotización de 24-jul-2026, hace ~144 horas) — verificar cotización intradía antes de usar este informe para decisiones. HECHO: el promedio de julio 2026 alcanzó US$5,96/lb, un 38,57% superior al mismo período de 2025 (Reporte Minero, 24/07/2026). HECHO: en sentido contrario, se reportó que el 23/07/2026 el cobre retrocedió a US$6,30/lb (-2,41% diario) por aumento de inventarios en COMEX ante expectativas de aranceles de EE.UU. al cobre refinado (fuente agregada vía búsqueda web, 23/07/2026; cifra no verificada de forma independiente contra la fuente primaria de TradingEconomics).\n\nLECTURA: en términos históricos el cobre se mantiene en niveles altos, lo que debería traducirse en un superávit comercial favorable para Chile y, en teoría, apreciación del peso. Sin embargo, esta dinámica no se ha reflejado en el USD/CLP, que se mantiene cerca de máximos anuales, lo que sugiere que otros factores —diferencial de tasas, posicionamiento especulativo y aversión al riesgo global por la tensión en Medio Oriente— están dominando sobre el canal de términos de intercambio en el corto plazo.\n\nno verificable: no se dispone en esta investigación de cifras oficiales y actualizadas de la cuenta corriente o balanza comercial de Chile para julio de 2026 provenientes del Banco Central o el INE; cualquier estimación de ese frente debe tratarse como no verificable con las fuentes consultadas."
+      "body": "HECHO: El cobre —principal producto de exportación chileno— cotiza en US$6,45/lb en COMEX al 31-jul-2026 (+0,14% d/d), tras haber marcado un máximo histórico intradía de US$6,72/lb en mayo-2026 (LME/COMEX vía FXEmpire y BioBioChile). Este dato tiene menos de 24 horas de antigüedad respecto a hoy (01-ago-2026), por lo que no se requiere advertencia de desactualización.\n\nLECTURA: Precios del cobre en niveles históricamente altos deberían ser un viento de cola estructural para el peso (términos de intercambio favorables), pero no han bastado para apreciarlo de forma sostenida por la fortaleza simultánea del dólar global y el deterioro de la actividad local. El Imacec de mayo cayó -0,9% interanual y el desempleo llegó a 9,4% (máximo en cinco años), alimentando el debate sobre una eventual recesión técnica (BioBioChile, XTB, jul-2026).\n\nHECHO: El FMI recortó su proyección de crecimiento 2026 para Chile a 1,8% (fuente citada en cobertura de mercado, jul-2026), lo que añade presión de fondo sobre el peso independiente del precio del metal."
     },
     {
       "title": "Posicionamiento",
       "nav": "Posicionamiento",
-      "body": "HECHO: no aplica COT (CFTC) para este par, dado que el peso chileno no es una divisa con reporte estandarizado de posiciones especulativas en los informes Commitment of Traders de la CFTC. Como proxy se utiliza el posicionamiento en forwards de no residentes que publica el Banco Central de Chile.\n\nHECHO: la posición neta de no residentes contra el peso chileno en el mercado de derivados escaló a cerca de US$20.000 millones a inicios de julio de 2026, el nivel más alto desde fines de 2025 (Diario Financiero, julio 2026). HECHO: el 14/07/2026 dicha posición alcanzó US$16.366 millones, manteniéndose sobre los US$16.000 millones durante seis días consecutivos, niveles históricos no vistos desde agosto de 2020 (Diario Financiero, 14-21/07/2026). HECHO: las posiciones que se benefician de una depreciación del peso se concentran en plazos de 96 a 370 días, mientras existe una posición neta menor a favor de la moneda local en el tramo de 36 a 95 días (Diario Financiero, julio 2026).\n\nHECHO: el 29/07/2026 el Banco Central reconoció un error de un informante en el dato de posicionamiento offshore de la semana previa: el dato inicialmente publicado sugería un desarme de posiciones extranjeras contra el peso de aproximadamente US$1.500 millones, cuando la variación real corregida fue de solo US$375 millones (Diario Financiero, 29/07/2026). LECTURA: este episodio no cambia la tendencia de fondo —posicionamiento extranjero bajista sobre el peso en niveles históricamente elevados— pero sí obliga a tomar con cautela las lecturas semana a semana de este indicador, dado que ya hubo al menos un error de reporte reconocido públicamente en el último mes. LECTURA: el nivel y la persistencia del posicionamiento bajista son consistentes con expectativas de mercado de que el diferencial de tasas más estrecho y el escenario geopolítico seguirán presionando al peso a la baja en el corto y mediano plazo."
+      "body": "HECHO: No aplica COT (CFTC) para este par, ya que el CLP no cotiza en futuros regulados por la CFTC con reporte semanal comparable. Como proxy se usa el posicionamiento en forwards de no residentes que publica el Banco Central de Chile.\n\nHECHO: Según datos del BCCh citados por Diario Financiero y La Tercera, las posiciones de no residentes contra el peso (comprando USD/vendiendo CLP a futuro) alcanzaron un pico de US$17.025 millones el 09-jul-2026, y se mantuvieron sobre US$16.000 millones durante seis sesiones consecutivas hacia el 14-jul-2026 — niveles calificados como récord.\n\nLECTURA: Un posicionamiento extranjero tan concentrado en apuestas bajistas para el CLP es una señal de sentimiento negativo hacia la moneda local, pero también implica riesgo de reversión abrupta (short squeeze) si mejoran sorpresivamente el cobre o los datos locales. El BCCh reconoció además un error de un informante en estos datos de mercado de divisas en un episodio reciente, lo que amerita cautela sobre la precisión exacta de las cifras puntuales (Diario Financiero, jul-2026)."
     },
     {
       "title": "Análisis técnico",
       "nav": "Técnico",
-      "body": "HECHO: al cierre del 29/07/2026 (fuente canónica: feed Vantage, coincidente con el cierre de Santiago), el USD/CLP cotizó en 933,98, con variación diaria de -0,06% y semanal de -1,14% (TradingView scanner, 29/07/2026). HECHO: el RSI se ubica en 55,8, en zona neutral sin señales de sobrecompra ni sobreventa; el MACD está en +7,198 frente a una señal de +7,566, es decir, ligeramente por debajo de su línea de señal (TradingView scanner, 29/07/2026).\n\nHECHO: el precio se encuentra por encima de sus tres medias móviles principales: +0,31% sobre la SMA20 (931,06), +2,22% sobre la SMA50 (913,74) y +2,58% sobre la SMA200 (910,45) (TradingView scanner, 29/07/2026). LECTURA: esta estructura de medias alineadas al alza (SMA20 > SMA50 > SMA200, con precio por encima de las tres) es consistente con una tendencia alcista de mediano plazo intacta, aunque el aplanamiento del MACD bajo su señal sugiere que el impulso de corto plazo se está moderando tras el repunte reciente.\n\nHECHO: el volumen del día (3.468) está 26% por encima del promedio de 20 días (2.755), con un ratio de 1,26 (TradingView scanner, 29/07/2026). HECHO: el par se ubica en el percentil 63 de su rango de precios de 1 año, con una rentabilidad de +1,49% en el último mes y +4,15% en lo que va de 2026 (TradingView scanner, 29/07/2026). LECTURA: el mayor volumen relativo junto con el percentil elevado del precio sugiere participación activa de mercado en la zona alta del rango anual, coherente con el fuerte posicionamiento bajista en forwards descrito en la sección de Posicionamiento."
+      "body": "HECHO: Precio 928,16 (31-jul-2026), +0,66% d/d, -1,74% en la semana. RSI de 51,1 (zona neutral, sin sobrecompra ni sobreventa). MACD en +4,90, levemente por debajo de su línea de señal (+6,73), lo que técnicamente es un sesgo bajista de corto plazo aunque marginal.\n\nHECHO: El precio está +1,46% sobre la SMA50 y +1,98% sobre la SMA200, pero -0,33% bajo la SMA20 — estructura de tendencia de mediano plazo alcista para el USD, con una pausa/consolidación de muy corto plazo. El volumen relativo es bajo (ratio 0,38), lo que resta convicción al movimiento reciente.\n\nLECTURA: El percentil de precio a un año (60,8%) ubica al par en la mitad superior de su rango de 12 meses, sin señales de extremo. La combinación de RSI neutral y MACD bajo señal sugiere un mercado en pausa, a la espera de catalizadores (Fed, RPM de septiembre, cobre) antes de definir dirección."
     },
     {
       "title": "Intervención y riesgo de banco central",
       "nav": "Intervención",
-      "body": "HECHO: el Banco Central de Chile mantiene vigente un programa de acumulación/reposición de reservas internacionales, con compras diarias de hasta US$25 millones para el período comprendido entre el 9 de febrero y el 7 de agosto de 2026 (Banco Central de Chile, documento del programa, consultado 29/07/2026). HECHO: el Banco Central ha señalado explícitamente que este programa de acumulación de reservas no constituye una intervención cambiaria, y que se reserva la opción de intervenir de forma discrecional solo ante circunstancias excepcionales de sobrerreacción del tipo de cambio (Banco Central de Chile, sección de Preguntas y Respuestas del programa, consultado 29/07/2026).\n\nLECTURA: la distinción es relevante porque el mercado podría confundir las compras rutinarias de dólares del programa de reservas con una señal de defensa activa del nivel del peso; sin embargo, al ser un programa preanunciado, transparente y de montos acotados (US$25 millones diarios), su impacto directo sobre el tipo de cambio es limitado y no debería interpretarse como un «techo» o «piso» duro para el USD/CLP.\n\nHECHO: el programa contempla compras por un total aproximado de US$18.500 millones en un horizonte de tres años, como parte de una estrategia de gestión financiera para reemplazar gradualmente líneas de crédito en moneda extranjera por reservas propias (Banco Central de Chile, consultado 29/07/2026). LECTURA: dado que el programa vigente vence el 7 de agosto de 2026, existe la posibilidad de que el Banco Central anuncie una renovación o ajuste de los montos en las próximas semanas; este es un punto a monitorear de cerca, ya que cualquier cambio en el ritmo de compras (o, en el escenario de cola, una intervención discrecional ante una depreciación abrupta) podría generar volatilidad adicional en el par. no verificable: no se encontró en esta investigación un umbral numérico explícito y público que el Banco Central haya definido como gatillo de intervención discrecional; el propio banco ha evitado históricamente comunicar niveles específicos."
+      "body": "HECHO: El BCCh mantiene vigente el Programa de Reposición y Ampliación de Reservas Internacionales, con compras de hasta US$25 millones diarios en el Mercado Cambiario Formal, para el período comprendido entre el 09-feb-2026 y el 07-ago-2026 (BCCh, documento oficial del programa, consultado 01-ago-2026). Este programa se originó en agosto-2025 con un objetivo de hasta US$18.500 millones en tres años.\n\nHECHO: El propio Banco Central aclara explícitamente que este programa NO constituye una intervención cambiaria, y que se reserva esa herramienta solo para circunstancias excepcionales de sobrerreacción del tipo de cambio.\n\nLECTURA: El vencimiento de la fase actual del programa el 07-ago-2026 (dentro de los próximos 7 días) es un evento a vigilar: su renovación, ampliación o término sin reemplazo podría alterar marginalmente el flujo diario de demanda de dólares del BCCh en el mercado formal, aunque el propio banco ha insistido en que el monto (US$25M/día) es pequeño frente al volumen transado diario del mercado cambiario chileno."
     },
     {
       "title": "Correlaciones macro",
       "nav": "Correlaciones",
-      "body": "HECHO: según el benchmark provisto por el sistema (TradingView scanner, símbolo TVC:DXY, 29/07/2026), el USD/CLP tuvo un desempeño relativo de +1,69% frente al DXY en 30 días y +1,42% en lo que va del año, ubicándose en el percentil 63 de su rango de precio de 1 año. LECTURA: un desempeño relativo positivo del USD/CLP frente al índice dólar (DXY) implica que el peso chileno se ha depreciado más que lo que explicaría solo la fortaleza generalizada del dólar, es decir, hay un componente idiosincrático chileno (posicionamiento, diferencial de tasas, riesgo país) empujando al par por encima del movimiento global del dólar.\n\nHECHO: el 29/07/2026, tras la decisión de la Fed de mantener tasas con tres disidencias hawkish, el DXY cayó cerca de 0,5% y se ubicó en torno a 100,90, perdiendo el nivel de 101,00 en la hora posterior al anuncio (FXStreet, 29/07/2026). LECTURA: la caída del DXY post-FOMC, combinada con la caída semanal de -1,14% del USD/CLP, sugiere que en la última semana el movimiento del par estuvo más ligado a la dinámica global del dólar que a factores idiosincráticos chilenos, aunque el desempeño relativo de 30 días (+1,69% por sobre el DXY) indica que en el mes completo el peso se debilitó más que el promedio de otras divisas.\n\nHECHO: el cobre cerró en US$6,18/lb el 24/07/2026 (Reporte Minero, 24/07/2026), un nivel elevado en términos históricos (+38,6% interanual en el promedio de julio). LECTURA: la correlación históricamente negativa entre el precio del cobre y el USD/CLP (cobre alto → peso más fuerte → USD/CLP más bajo) no se ha manifestado con fuerza en las últimas semanas, ya que el par se mantiene cerca de máximos anuales pese al cobre elevado; esto refuerza la lectura de que el diferencial de tasas y el posicionamiento en forwards están pesando más que el canal de términos de intercambio en el corto plazo. no verificable: no se dispuso en esta investigación de un coeficiente de correlación estadístico formal entre USD/CLP y cobre para el período reciente; el análisis es cualitativo, basado en la comparación de niveles y tendencias."
+      "body": "HECHO: El desempeño relativo del USD/CLP frente al DXY en 30 días es de +0,92% y en lo que va del año de +1,41% (dato precalculado), con el par en el percentil 60,8% de su rango de 1 año — comportamiento relativo levemente más débil para el CLP que el USD global en ambas ventanas.\n\nHECHO: El DXY cerró en torno a 100,19 el 31-jul-2026 (+0,33% d/d), tras la decisión de la Fed de mantener tasas el 29-jul (Investing.com/TradingEconomics, consultado 01-ago-2026).\n\nLECTURA: La correlación histórica cobre-USD/CLP es negativa (cobre sube, CLP se aprecia, USD/CLP baja), estimada en torno a -0,70, aunque análisis sectorial reciente sugiere que podría estar debilitándose hacia -0,55 por la diversificación exportadora chilena (hidrógeno verde, litio, servicios). En la práctica reciente esta relación se mantuvo activa: movimientos de cobre explicaron caídas y repuntes puntuales del dólar en Chile durante la última semana de julio (Emol, 29 y 30-jul-2026)."
     },
     {
       "title": "Conclusión",
       "nav": "Conclusión",
-      "body": "HECHO: el USD/CLP cerró en 933,98 el 29/07/2026, cerca de sus máximos del año, con ambos bancos centrales (BCCh y Fed) en pausa tras sus respectivas reuniones de julio de 2026 (BioBioChile, 28/07/2026; CNBC, 29/07/2026). LECTURA: el balance de factores es mixto pero con sesgo hacia un dólar sostenido: por un lado, el diferencial de tasas se ha estrechado (TPM 4,5% vs. Fed Funds 3,5%-3,75%), reduciendo el atractivo del carry en pesos; por otro, el posicionamiento en forwards de no residentes contra el peso se mantiene en niveles históricamente altos (cercano a US$20.000 millones a inicios de julio), lo que confirma expectativas de mercado de mayor depreciación del CLP.\n\nLECTURA: el cobre relativamente fuerte (US$6,18/lb al 24/07/2026, con la salvedad de que este dato tiene más de 24 horas de antigüedad respecto a hoy) actúa como contrapeso parcial, pero no ha sido suficiente para revertir la tendencia de fondo del par en las últimas semanas. El programa de acumulación de reservas del Banco Central, vigente hasta el 7 de agosto de 2026, es un factor técnico menor que no debe confundirse con intervención activa; su eventual renovación o suspensión a inicios de agosto es un catalizador a vigilar.\n\nLECTURA: los próximos catalizadores clave son la RPM del BCCh del 8 de septiembre de 2026 y la reunión del FOMC del 15-16 de septiembre de 2026, ambas posteriores al cierre de este informe. Mientras tanto, la señal técnica (RSI neutral en 55,8, precio sobre las tres SMA principales, MACD perdiendo algo de impulso) es de sesgo moderadamente alcista para el dólar frente al peso, sin señales claras de agotamiento de la tendencia, pero tampoco con un momentum contundente de corto plazo."
+      "body": "LECTURA: El USD/CLP en 928,16 se ubica en un punto de equilibrio entre fuerzas encontradas: un cobre en niveles históricamente altos que favorece estructuralmente al peso, versus una Fed que sostiene tasas altas, una economía chilena debilitada (Imacec negativo, desempleo en máximos) y un posicionamiento extranjero masivamente corto en CLP vía forwards. El resultado técnico es un par en rango, con momentum neutral (RSI 51, MACD bajo señal) y volatilidad contenida (11,43%).\n\nHECHO: Los próximos catalizadores confirmados son el vencimiento del programa de reservas del BCCh (07-ago), la minuta de la RPM (05-ago), y las decisiones de política monetaria de ambos bancos centrales en septiembre. LECTURA: mientras no haya sorpresas en inflación chilena o un quiebre claro en el precio del cobre, es razonable esperar que el par continúe oscilando en la banda 880-930 sugerida por consenso de mercado, con sesgo a testear la parte alta si el posicionamiento corto en CLP persiste."
     }
   ],
   "scoreIndex": 8,
@@ -108,129 +216,80 @@
   ],
   "scores": {
     "tasas": {
-      "score": 62,
-      "just": "El diferencial TPM (4,5%) vs Fed Funds (3,5%-3,75%) favorece al USD respecto a ciclos previos, tras la pausa hawkish-dividida de la Fed del 29/07/2026 (CNBC). Ambos bancos en pausa hasta septiembre reduce catalizadores inmediatos, pero el sesgo relativo favorece al dólar."
+      "score": 58,
+      "just": "HECHO: diferencial TPM (4,5%) vs FFR (3,50-3,75%) favorece nominalmente al CLP, pero la Fed sostiene tasas altas con votación dividida hacia más restricción (3 disidentes por inflación), lo que da soporte moderado al USD; score levemente sobre neutral para USD."
     },
     "macro": {
       "score": 42,
-      "just": "El cobre se mantiene elevado (US$6,18/lb, 24/07/2026, dato con más de 24h de antigüedad), lo que en teoría favorece al CLP y es negativo para el USD en este par; por eso el score macro se ubica por debajo de 50, reflejando el fundamento de términos de intercambio chileno que pesa contra el dólar."
+      "just": "LECTURA: cobre en máximos históricos (US$6,45/lb, 31-jul-2026) es negativo para USD/CLP (positivo para CLP), pero debilidad de actividad chilena (Imacec, desempleo 9,4%) y corte de crecimiento del FMI compensan parcialmente; score bajo-neutral refleja que el factor cobre pesa más para USD base."
     },
     "tecnico": {
-      "score": 58,
-      "just": "Precio sobre SMA20/50/200 con RSI neutral (55,8) y MACD ligeramente bajo su señal; estructura alcista de mediano plazo intacta pero con impulso de corto plazo moderándose (TradingView, 29/07/2026)."
+      "score": 52,
+      "just": "HECHO: RSI 51,1 neutral, MACD levemente bajo señal, precio sobre SMA50/SMA200 pero bajo SMA20 — estructura de mediano plazo favorable al USD pero sin momentum de corto plazo claro."
     },
     "posicionamiento": {
-      "score": 66,
-      "just": "Posicionamiento de no residentes en forwards contra el peso en niveles históricos (~US$20.000 millones a inicios de julio 2026, Diario Financiero), lo que favorece al USD; se pondera con cautela moderada por el error de reporte reconocido por el BCCh el 29/07/2026."
+      "score": 35,
+      "just": "HECHO: forwards de no residentes cortos en CLP en niveles récord (~US$16.000-17.000M, jul-2026) ya reflejan una apuesta muy extendida a favor del USD, lo que reduce el espacio para nuevas compras y aumenta riesgo de reversión (contrarian), score bajo para nuevas posiciones largas en USD."
     },
     "intervencion": {
       "score": 55,
-      "just": "El programa de acumulación de reservas del BCCh (hasta el 7/08/2026) no es intervención activa y el par no muestra señales de estar cerca de un umbral de intervención discrecional no comunicado públicamente; riesgo de cola moderado, no elevado."
+      "just": "LECTURA: programa de reservas del BCCh (US$25M/día) vence 07-ago-2026 y no es intervención cambiaria propiamente tal; el par no está cerca de niveles que históricamente gatillan intervención excepcional del BCCh, por lo que el riesgo de intervención activa es moderado-bajo."
     }
   },
-  "risk": {
-    "volatility_30d": 10.79,
-    "sharpe": 4.55,
-    "sortino": 7.01,
-    "max_drawdown_1y": -12.64,
-    "n_days": 300,
-    "window": 30
-  },
-  "benchmark": {
-    "ticker": "TVC:DXY",
-    "label": "DXY",
-    "relative_performance_30d": 1.69,
-    "relative_performance_ytd": 1.42,
-    "price_percentile_1y": 63.0,
-    "partial": false
-  },
-  "technical": {
-    "price": 933.98,
-    "change_1d_pct": -0.06,
-    "change_1w_pct": -1.14,
-    "rsi": 55.8,
-    "macd": 7.198,
-    "macd_signal": 7.5662,
-    "sma20": 931.0555,
-    "sma50": 913.7394,
-    "sma200": 910.4474,
-    "ema12": 934.4887,
-    "ema26": 927.2907,
-    "pct_vs_sma20": 0.31,
-    "pct_vs_sma50": 2.22,
-    "pct_vs_sma200": 2.58,
-    "volume_today": 3468,
-    "volume_avg20": 2755.0,
-    "volume_ratio": 1.26,
-    "volatility_30d": 10.79,
-    "sharpe": 4.55,
-    "sortino": 7.01,
-    "max_drawdown_1y": -12.64,
-    "price_percentile_1y": 63.0,
-    "vs_benchmark_30d_pct": 1.69,
-    "perf_1m_pct": 1.49,
-    "perf_ytd_pct": 4.15
-  },
-  "sourcesMeta": {
-    "price": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-07-29T22:16:13-04:00"
-    },
-    "rsi_macd": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-07-29T22:16:13-04:00"
-    },
-    "smas_volume": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-07-29T22:16:13-04:00"
-    },
-    "benchmark": {
-      "origin": "TradingView scanner",
-      "symbol": "TVC:DXY",
-      "fetched_at": "2026-07-29T22:16:13-04:00"
-    },
-    "risk_metrics": {
-      "origin": "data/history/FX-USDCLP.json",
-      "n_days": 300
-    }
-  },
-  "metricChanges": [],
   "sources": [
-    "BioBioChile, Banco Central vuelve a mantener la tasa de interés, 28/07/2026",
-    "DiarioEstrategia, B. Central mantiene la TPM en 4,5%, 28/07/2026",
-    "Chócale, TPM: Banco Central mantiene la tasa de interés en 4,5%, 28/07/2026",
-    "CNBC, Fed rate decision July 2026: Divided Fed holds interest rates steady, 29/07/2026",
-    "El Diario NY, La Fed mantiene las tasas entre 3.5% y 3.75%, 29/07/2026",
-    "FXStreet, Forex Today: US Dollar tumbles after divided Fed hold, 29/07/2026",
-    "FXStreet, The US Dollar Index discovers that a vote record is not a reaction function, 29/07/2026",
-    "Reporte Minero, Precio del cobre sube a US$6,18 por libra, 24/07/2026",
-    "Diario Financiero, Extranjeros siguen posicionándose contra el peso chileno, julio 2026",
-    "Diario Financiero, Las claves de la significativa apuesta extranjera contra el peso chileno, julio 2026",
-    "Diario Financiero, Banco Central reconoce error de un informante en dato del mercado de divisas, 29/07/2026",
-    "Wise, Historial de Tipos de Cambio USD/CLP, 29/07/2026",
-    "Banco Central de Chile, Programa de reposición y ampliación de reservas internacionales, consultado 29/07/2026",
-    "Banco Central de Chile, Calendario de Intervención Cambiaria, consultado 29/07/2026",
-    "TradingView scanner, datos técnicos USD/CLP y DXY, 29/07/2026"
+    "https://www.elperiodista.cl/2026/07/banco-central-mantiene-tasa-de-politica-monetaria-en-45/",
+    "https://www.bcentral.cl/en/content/-/detalle/calendario-de-politica-monetaria-2026",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a1.htm",
+    "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html",
+    "https://www.fxempire.com/forecasts/article/premium-copper-price-forecast-us-tariff-premium-signals-6-70-next-1613908",
+    "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/05/15/dolar-repunta-con-fuerza-sobre-los-900-en-pleno-desplome-del-cobre-que-quita-piso-al-peso-chileno.shtml",
+    "https://www.df.cl/mercados/bolsa-monedas/extranjeros-siguen-posicionandose-contra-el-peso-chileno-ya-superan-los",
+    "https://www.latercera.com/pulso/noticia/el-dolar-no-baja-de-los-900-y-las-apuestas-en-contra-del-peso-por-parte-de-extranjeros-llegan-a-niveles-record/",
+    "https://www.bcentral.cl/documents/d/banco-central/programa-de-acumulacion-de-reservas-internacionales-periodo-entre-el-9-de-febrero-y-el-7-de-agosto-de-2026-pdf",
+    "https://www.bcentral.cl/en/content/-/detalle/consejo-del-banco-central-de-chile-anuncia-programa-de-reposicion-y-ampliacion-de-reservas-internacionales-1",
+    "https://www.holdo.cl/blog/ipc/ipc-de-junio-2026",
+    "https://www.df.cl/economia-y-politica/macro/el-ipc-de-junio-sorprende-y-no-registra-variacion-mensual-mientras-que-la",
+    "https://www.investing.com/indices/usdollar-historical-data",
+    "https://www.emol.com/noticias/Economia/2026/07/30/1207100/dolar-mercado-cambiario-local.html",
+    "https://www.emol.com/noticias/Economia/2026/07/29/1207001/dolar-mercado-cambiario-local.html",
+    "https://www.xtb.com/cl/analisis-y-noticias/analisis-de-mercado/puede-la-economia-chilena-caer-en-recesion-en-2026"
   ],
-  "events": [
-    {
-      "date": "2026-09-08",
-      "label": "RPM del Banco Central de Chile (decisión de TPM)",
-      "info": "El BCCh mantuvo la TPM en 4,5% en julio de 2026 por unanimidad, señalando que evaluará la evolución de la tasa \"reunión a reunión\" ante un escenario de incertidumbre mayor a la habitual (BioBioChile, 28/07/2026). LECTURA: dado el tono cauteloso de julio, el mercado no anticipa un recorte inminente salvo que se disipe la incertidumbre geopolítica y arancelaria; probabilidad de movimiento no verificable con precisión a esta fecha.",
-      "kind": "macro"
+  "opportunity": {
+    "cats": {
+      "valuacion_hist": {
+        "score": 62,
+        "just": "HECHO: percentil de precio a 1 año de 60,8% — el par está en la mitad superior de su rango, no barato ni caro en extremo para USD; LECTURA: con consenso de mercado proyectando 880-930 para el 2S-2026, el USD tiene algo de recorrido limitado al alza desde 928."
+      },
+      "calidad": {
+        "score": 55,
+        "just": "LECTURA: régimen macro del USD (divisa base) mixto: Fed con credibilidad antiinflacionaria pero votación dividida y presión fiscal persistente en EE.UU.; score neutral, sin deterioro grave pero sin fortaleza excepcional."
+      },
+      "asimetria": {
+        "score": 48,
+        "just": "LECTURA: al alza, USD limitado por cobre en máximos históricos y diferencial de tasas moderado; a la baja, USD respaldado por posicionamiento corto extremo en CLP (riesgo de squeeze en cualquier dirección) y economía chilena débil; asimetría balanceada, sin sesgo claro."
+      },
+      "catalizadores": {
+        "score": 50,
+        "just": "HECHO: catalizadores confirmados y cercanos (vencimiento programa reservas 07-ago, minuta RPM 05-ago, RPM 08-sep, FOMC sep) sin sesgo direccional a priori; score neutral por falta de catalizador claramente favorable al USD."
+      },
+      "contrarian": {
+        "score": 30,
+        "just": "HECHO: posicionamiento en forwards no residentes extremadamente cargado en corto CLP (récord ~US$17.000M) sugiere que la apuesta a favor del USD ya está muy consensuada/crowded, señal contrarian en contra de sumar más largos en USD."
+      }
     },
-    {
-      "date": "2026-09-16",
-      "label": "Reunión del FOMC (decisión de tasas)",
-      "info": "Tras la pausa dividida 9-3 del 29/07/2026 (tres disidencias hawkish pidiendo alza de 25pb), los futuros pasaron a pricear una probabilidad de aproximadamente 2 en 3 de al menos un alza para el 16/09/2026, frente a 4 en 5 antes de la reunión de julio (FXStreet, 29/07/2026). La reunión se extiende del 15 al 16 de septiembre de 2026 (El Diario NY, 29/07/2026).",
-      "kind": "macro"
-    },
-    {
-      "date": "2026-08-07",
-      "label": "Vencimiento del programa de acumulación de reservas del BCCh",
-      "info": "El programa vigente de compras diarias de hasta US$25 millones para reposición y ampliación de reservas internacionales vence el 7 de agosto de 2026 (Banco Central de Chile, consultado 29/07/2026). LECTURA: su eventual renovación, ampliación o suspensión es un catalizador técnico a vigilar, aunque el propio Banco Central ha aclarado que este programa no constituye intervención cambiaria activa.",
-      "kind": "macro"
+    "plan": {
+      "recomendacion": "Esperar gatillo",
+      "zona_compra": "910-920 CLP/USD (acumular USD en soporte cerca de SMA50/SMA200) o ruptura confirmada sobre 940-950 CLP/USD",
+      "invalidacion": "Quiebre sostenido bajo 900 CLP/USD (rango histórico reciente) o corrección abrupta del cobre bajo US$5,80/lb que revierta el flujo de posicionamiento",
+      "gatillos": [
+        "Minuta RPM BCCh (05-ago-2026): tono sobre inflación y balance de riesgos",
+        "Resolución del programa de reservas BCCh (07-ago-2026): renovación vs término",
+        "RPM BCCh y FOMC de septiembre-2026: definición de diferencial de tasas hacia adelante",
+        "Evolución del precio del cobre: sostenibilidad sobre US$6,40/lb o corrección"
+      ],
+      "horizonte": "6-18 meses",
+      "tamano": "posición táctica moderada (2-4% de portafolio FX), dado posicionamiento crowded y falta de catalizador direccional claro",
+      "confianza": "media"
     }
-  ],
-  "reportDate": "30 de julio de 2026"
+  }
 }
