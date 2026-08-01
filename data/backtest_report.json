@@ -1,10 +1,42 @@
 {
  "nota": "Retornos medidos en ruedas de histórico (días con dato), no días calendario. Los buckets agrupan: compra=Strong Buy/Buy, neutral=Hold, venta=Caution/Avoid. Una señal 'neutral' se considera acierto si el activo se movió menos de ±3%.",
- "n_senales": 15,
- "n_evaluadas_10d": 0,
+ "n_senales": 94,
+ "n_evaluadas_10d": 28,
  "precision": {
-  "5d": {},
-  "10d": {},
+  "5d": {
+   "compra": {
+    "n": 6,
+    "precision_pct": 66.7,
+    "ret_promedio_pct": -0.86
+   },
+   "venta": {
+    "n": 20,
+    "precision_pct": 75.0,
+    "ret_promedio_pct": -3.47
+   },
+   "neutral": {
+    "n": 19,
+    "precision_pct": 36.8,
+    "ret_promedio_pct": -2.56
+   }
+  },
+  "10d": {
+   "compra": {
+    "n": 4,
+    "precision_pct": 50.0,
+    "ret_promedio_pct": 1.58
+   },
+   "venta": {
+    "n": 13,
+    "precision_pct": 84.6,
+    "ret_promedio_pct": -6.79
+   },
+   "neutral": {
+    "n": 11,
+    "precision_pct": 27.3,
+    "ret_promedio_pct": -0.56
+   }
+  },
   "20d": {}
  },
  "senales": [
@@ -15,6 +47,61 @@
    "signal": "Buy",
    "bucket": "compra",
    "close_en_senal": 327.74,
+   "ret_5d": 1.61,
+   "ret_10d": -7.74,
+   "ret_20d": null
+  },
+  {
+   "asset": "AAPL",
+   "date": "2026-07-22",
+   "score": 70,
+   "signal": "Buy",
+   "bucket": "compra",
+   "close_en_senal": 325.89,
+   "ret_5d": 3.38,
+   "ret_10d": -5.21,
+   "ret_20d": null
+  },
+  {
+   "asset": "AAPL",
+   "date": "2026-07-25",
+   "score": 70,
+   "signal": "Buy",
+   "bucket": "compra",
+   "close_en_senal": 333.02,
+   "ret_5d": 0.12,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "AAPL",
+   "date": "2026-07-28",
+   "score": 70,
+   "signal": "Buy",
+   "bucket": "compra",
+   "close_en_senal": 340.08,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "AAPL",
+   "date": "2026-07-30",
+   "score": 70,
+   "signal": "Buy",
+   "bucket": "compra",
+   "close_en_senal": 333.43,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "AAPL",
+   "date": "2026-08-01",
+   "score": 70,
+   "signal": "Buy",
+   "bucket": "compra",
+   "close_en_senal": 308.91,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -26,6 +113,61 @@
    "signal": "Buy",
    "bucket": "compra",
    "close_en_senal": 247.55,
+   "ret_5d": -6.24,
+   "ret_10d": 8.37,
+   "ret_20d": null
+  },
+  {
+   "asset": "AMZN",
+   "date": "2026-07-22",
+   "score": 74,
+   "signal": "Buy",
+   "bucket": "compra",
+   "close_en_senal": 244.85,
+   "ret_5d": -5.5,
+   "ret_10d": 10.92,
+   "ret_20d": null
+  },
+  {
+   "asset": "AMZN",
+   "date": "2026-07-25",
+   "score": 74,
+   "signal": "Buy",
+   "bucket": "compra",
+   "close_en_senal": 232.11,
+   "ret_5d": 1.46,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "AMZN",
+   "date": "2026-07-28",
+   "score": 74,
+   "signal": "Buy",
+   "bucket": "compra",
+   "close_en_senal": 230.86,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "AMZN",
+   "date": "2026-07-30",
+   "score": 74,
+   "signal": "Buy",
+   "bucket": "compra",
+   "close_en_senal": 235.5,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "AMZN",
+   "date": "2026-08-01",
+   "score": 74,
+   "signal": "Buy",
+   "bucket": "compra",
+   "close_en_senal": 271.58,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -36,7 +178,62 @@
    "score": 50,
    "signal": "Caution",
    "bucket": "venta",
-   "close_en_senal": 66302.43,
+   "close_en_senal": 66277.03,
+   "ret_5d": -1.34,
+   "ret_10d": -5.56,
+   "ret_20d": null
+  },
+  {
+   "asset": "BTC",
+   "date": "2026-07-22",
+   "score": 52,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 66078.34,
+   "ret_5d": -4.43,
+   "ret_10d": -4.67,
+   "ret_20d": null
+  },
+  {
+   "asset": "BTC",
+   "date": "2026-07-25",
+   "score": 52,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 63959.41,
+   "ret_5d": 1.15,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "BTC",
+   "date": "2026-07-28",
+   "score": 48,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 63786.15,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "BTC",
+   "date": "2026-07-30",
+   "score": 52,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 64697.91,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "BTC",
+   "date": "2026-08-01",
+   "score": 53,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 62995.73,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -48,6 +245,72 @@
    "signal": "Hold",
    "bucket": "neutral",
    "close_en_senal": 5450,
+   "ret_5d": 0.72,
+   "ret_10d": -1.2,
+   "ret_20d": null
+  },
+  {
+   "asset": "CCU",
+   "date": "2026-07-22",
+   "score": 55,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 5420.7,
+   "ret_5d": 3.38,
+   "ret_10d": -0.66,
+   "ret_20d": null
+  },
+  {
+   "asset": "CCU",
+   "date": "2026-07-25",
+   "score": 55,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 5489,
+   "ret_5d": -0.8,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "CCU",
+   "date": "2026-07-28",
+   "score": 55,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 5585,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "CCU",
+   "date": "2026-07-30",
+   "score": 55,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 5444.9,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "CCU",
+   "date": "2026-08-01",
+   "score": 55,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 5385,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "CENCOSUD",
+   "date": "2026-08-01",
+   "score": 36,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 1954.9,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -59,6 +322,61 @@
    "signal": "Hold",
    "bucket": "neutral",
    "close_en_senal": 15.38,
+   "ret_5d": -5.59,
+   "ret_10d": -10.34,
+   "ret_20d": null
+  },
+  {
+   "asset": "CLSK",
+   "date": "2026-07-22",
+   "score": 57,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 15.325,
+   "ret_5d": -8.48,
+   "ret_10d": -10.21,
+   "ret_20d": null
+  },
+  {
+   "asset": "CLSK",
+   "date": "2026-07-25",
+   "score": 57,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 14.52,
+   "ret_5d": 0.14,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "CLSK",
+   "date": "2026-07-28",
+   "score": 50,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 13.48,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "CLSK",
+   "date": "2026-07-30",
+   "score": 47,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 14.54,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "CLSK",
+   "date": "2026-08-01",
+   "score": 50,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 13.76,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -70,6 +388,61 @@
    "signal": "Caution",
    "bucket": "venta",
    "close_en_senal": 1083.9,
+   "ret_5d": -5.43,
+   "ret_10d": -4.05,
+   "ret_20d": null
+  },
+  {
+   "asset": "CMPC",
+   "date": "2026-07-22",
+   "score": 41,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 1070,
+   "ret_5d": -2.85,
+   "ret_10d": -1.4,
+   "ret_20d": null
+  },
+  {
+   "asset": "CMPC",
+   "date": "2026-07-25",
+   "score": 41,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 1025,
+   "ret_5d": 1.15,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "CMPC",
+   "date": "2026-07-28",
+   "score": 41,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 1035,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "CMPC",
+   "date": "2026-07-30",
+   "score": 41,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 1036.8,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "CMPC",
+   "date": "2026-08-01",
+   "score": 41,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 1055,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -80,7 +453,62 @@
    "score": 46,
    "signal": "Caution",
    "bucket": "venta",
-   "close_en_senal": 1.14063,
+   "close_en_senal": 1.1407,
+   "ret_5d": -0.15,
+   "ret_10d": 0.66,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-EURUSD",
+   "date": "2026-07-22",
+   "score": 46,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 1.14114,
+   "ret_5d": -0.34,
+   "ret_10d": 1.02,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-EURUSD",
+   "date": "2026-07-25",
+   "score": 46,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 1.13692,
+   "ret_5d": 1.42,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-EURUSD",
+   "date": "2026-07-28",
+   "score": 46,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 1.13973,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-EURUSD",
+   "date": "2026-07-30",
+   "score": 46,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 1.15309,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-EURUSD",
+   "date": "2026-08-01",
+   "score": 46,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 1.15276,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -91,7 +519,62 @@
    "score": 57,
    "signal": "Hold",
    "bucket": "neutral",
-   "close_en_senal": 938.97,
+   "close_en_senal": 932.56,
+   "ret_5d": 0.22,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-USDCLP",
+   "date": "2026-07-22",
+   "score": 57,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 935.02,
+   "ret_5d": -0.11,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-USDCLP",
+   "date": "2026-07-25",
+   "score": 54,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 940.67,
+   "ret_5d": -1.42,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-USDCLP",
+   "date": "2026-07-28",
+   "score": 52,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 934.58,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-USDCLP",
+   "date": "2026-07-30",
+   "score": 57,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 922.11,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-USDCLP",
+   "date": "2026-08-01",
+   "score": 50,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 927.31,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -102,7 +585,62 @@
    "score": 53,
    "signal": "Caution",
    "bucket": "venta",
+   "close_en_senal": 163.129,
+   "ret_5d": 0.34,
+   "ret_10d": -2.33,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-USDJPY",
+   "date": "2026-07-22",
+   "score": 51,
+   "signal": "Caution",
+   "bucket": "venta",
    "close_en_senal": 163.09799999999998,
+   "ret_5d": 0.4,
+   "ret_10d": -3.45,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-USDJPY",
+   "date": "2026-07-25",
+   "score": 50,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 163.82399999999998,
+   "ret_5d": -2.7,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-USDJPY",
+   "date": "2026-07-28",
+   "score": 47,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 163.685,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-USDJPY",
+   "date": "2026-07-30",
+   "score": 63,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 159.397,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "FX-USDJPY",
+   "date": "2026-08-01",
+   "score": 49,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 157.469,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -114,6 +652,61 @@
    "signal": "Hold",
    "bucket": "neutral",
    "close_en_senal": 347.15,
+   "ret_5d": -7.9,
+   "ret_10d": -0.1,
+   "ret_20d": null
+  },
+  {
+   "asset": "GOOGL",
+   "date": "2026-07-22",
+   "score": 66,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 342.09,
+   "ret_5d": -4.54,
+   "ret_10d": 4.1,
+   "ret_20d": null
+  },
+  {
+   "asset": "GOOGL",
+   "date": "2026-07-25",
+   "score": 66,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 319.74,
+   "ret_5d": 4.35,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "GOOGL",
+   "date": "2026-07-28",
+   "score": 66,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 333.71,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "GOOGL",
+   "date": "2026-07-30",
+   "score": 66,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 333.66,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "GOOGL",
+   "date": "2026-08-01",
+   "score": 66,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 356.13,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -125,6 +718,61 @@
    "signal": "Caution",
    "bucket": "venta",
    "close_en_senal": 7150,
+   "ret_5d": -8.25,
+   "ret_10d": -14.13,
+   "ret_20d": null
+  },
+  {
+   "asset": "HDSY",
+   "date": "2026-07-22",
+   "score": 56,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 6880,
+   "ret_5d": -14.39,
+   "ret_10d": -10.76,
+   "ret_20d": null
+  },
+  {
+   "asset": "HDSY",
+   "date": "2026-07-25",
+   "score": 56,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 6560,
+   "ret_5d": -16.16,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "HDSY",
+   "date": "2026-07-28",
+   "score": 50,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 5520,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "HDSY",
+   "date": "2026-07-30",
+   "score": 51,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 5500,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "HDSY",
+   "date": "2026-08-01",
+   "score": 42,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 6140,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -136,6 +784,94 @@
    "signal": "Hold",
    "bucket": "neutral",
    "close_en_senal": 397.75,
+   "ret_5d": -4.04,
+   "ret_10d": 14.6,
+   "ret_20d": null
+  },
+  {
+   "asset": "MSFT",
+   "date": "2026-07-22",
+   "score": 62,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 390.34,
+   "ret_5d": -0.32,
+   "ret_10d": 19.06,
+   "ret_20d": null
+  },
+  {
+   "asset": "MSFT",
+   "date": "2026-07-25",
+   "score": 62,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 381.7,
+   "ret_5d": 18.18,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "MSFT",
+   "date": "2026-07-28",
+   "score": 62,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 393.35,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "MSFT",
+   "date": "2026-07-30",
+   "score": 62,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 451.1,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "MSFT",
+   "date": "2026-08-01",
+   "score": 62,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 464.72,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "MSTR",
+   "date": "2026-08-01",
+   "score": 41,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 93.28,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "MU",
+   "date": "2026-07-30",
+   "score": 47,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 874.4,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "MU",
+   "date": "2026-08-01",
+   "score": 59,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 823.03,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -147,6 +883,61 @@
    "signal": "Hold",
    "bucket": "neutral",
    "close_en_senal": 207.29,
+   "ret_5d": -0.22,
+   "ret_10d": -5.31,
+   "ret_20d": null
+  },
+  {
+   "asset": "NVDA",
+   "date": "2026-07-22",
+   "score": 69,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 212.06,
+   "ret_5d": -7.33,
+   "ret_10d": -5.33,
+   "ret_20d": null
+  },
+  {
+   "asset": "NVDA",
+   "date": "2026-07-25",
+   "score": 69,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 206.84,
+   "ret_5d": -5.7,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "NVDA",
+   "date": "2026-07-28",
+   "score": 69,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 197.01,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "NVDA",
+   "date": "2026-07-30",
+   "score": 69,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 195.04,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "NVDA",
+   "date": "2026-08-01",
+   "score": 69,
+   "signal": "Hold",
+   "bucket": "neutral",
+   "close_en_senal": 200.75,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -158,6 +949,61 @@
    "signal": "Caution",
    "bucket": "venta",
    "close_en_senal": 123.54,
+   "ret_5d": -6.86,
+   "ret_10d": -12.0,
+   "ret_20d": null
+  },
+  {
+   "asset": "SPCX",
+   "date": "2026-07-22",
+   "score": 45,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 115.26,
+   "ret_5d": -1.53,
+   "ret_10d": -5.98,
+   "ret_20d": null
+  },
+  {
+   "asset": "SPCX",
+   "date": "2026-07-25",
+   "score": 46,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 115.07,
+   "ret_5d": -2.49,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "SPCX",
+   "date": "2026-07-28",
+   "score": 45,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 116.41,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "SPCX",
+   "date": "2026-07-30",
+   "score": 46,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 112.2,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "SPCX",
+   "date": "2026-08-01",
+   "score": 44,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 108.37,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
@@ -169,6 +1015,61 @@
    "signal": "Caution",
    "bucket": "venta",
    "close_en_senal": 378.93,
+   "ret_5d": -17.39,
+   "ret_10d": -19.6,
+   "ret_20d": null
+  },
+  {
+   "asset": "TSLA",
+   "date": "2026-07-22",
+   "score": 47,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 374.01,
+   "ret_5d": -17.32,
+   "ret_10d": -16.79,
+   "ret_20d": null
+  },
+  {
+   "asset": "TSLA",
+   "date": "2026-07-25",
+   "score": 47,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 313.03,
+   "ret_5d": -1.34,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "TSLA",
+   "date": "2026-07-28",
+   "score": 47,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 307.44,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "TSLA",
+   "date": "2026-07-30",
+   "score": 47,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 308.85,
+   "ret_5d": null,
+   "ret_10d": null,
+   "ret_20d": null
+  },
+  {
+   "asset": "TSLA",
+   "date": "2026-08-01",
+   "score": 47,
+   "signal": "Caution",
+   "bucket": "venta",
+   "close_en_senal": 311.21,
    "ret_5d": null,
    "ret_10d": null,
    "ret_20d": null
