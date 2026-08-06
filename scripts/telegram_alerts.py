@@ -230,6 +230,61 @@ def econ_alerts():
     return out
 
 
+def price_verification(stocks):
+    """Verificación multi-fuente: compara los precios del dashboard contra fuentes
+    independientes (Binance para BTC, er-api para FX, stooq para acciones si responde).
+    Divergencia >2.5% => alerta. Pedido del usuario tras el bug de SPCX (5-ago-2026)."""
+    out = []
+    prices = {a["ticker"]: ((a.get("technical") or {}).get("price")) for a in stocks}
+
+    def get(url, timeout=15):
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read().decode()
+
+    checks = []  # (ticker, valor_alternativo, fuente)
+    try:
+        b = json.loads(get("https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT"))
+        checks.append(("BTC", float(b["price"]), "Binance"))
+    except Exception:
+        pass
+    try:
+        rates = json.loads(get("https://open.er-api.com/v6/latest/USD")).get("rates", {})
+        if rates.get("JPY"):
+            checks.append(("USD/JPY", rates["JPY"], "er-api"))
+        if rates.get("EUR"):
+            checks.append(("EUR/USD", 1 / rates["EUR"], "er-api"))
+    except Exception:
+        pass
+    # stooq para acciones (best effort; desde algunos IPs no responde)
+    import csv, io
+    STOOQ = {"AAPL": "aapl.us", "MSFT": "msft.us", "NVDA": "nvda.us", "GOOGL": "googl.us",
+             "AMZN": "amzn.us", "TSLA": "tsla.us", "MU": "mu.us", "MSTR": "mstr.us",
+             "SPCX": "spcx.us", "CLSK": "clsk.us", "HDSY": "6324.jp"}
+    for tk, sym in STOOQ.items():
+        try:
+            txt = get(f"https://stooq.com/q/l/?s={sym}&f=sd2t2c&e=csv", timeout=10)
+            row = list(csv.DictReader(io.StringIO(txt)))
+            if row and row[0].get("Close") not in (None, "", "N/D"):
+                checks.append((tk, float(row[0]["Close"]), "stooq"))
+        except Exception:
+            continue
+
+    verificados = 0
+    for tk, alt, fuente in checks:
+        p = prices.get(tk)
+        if not p or not alt:
+            continue
+        verificados += 1
+        drift = (p / alt - 1) * 100
+        if abs(drift) > 2.5:
+            out.append(f"🚨 *{tk}* — VERIFICACIÓN DE PRECIO: dashboard {p} vs {fuente} {alt:.2f} "
+                       f"({drift:+.1f}%). Revisar el feed antes de confiar en este precio.")
+    print(f"  verificación multi-fuente: {verificados} precios contrastados, "
+          f"{len(out)} divergencias >2.5%")
+    return out
+
+
 def trend_alerts(stocks):
     """Detector de giros: avisa cuando un activo ACUMULA >=4 de 7 señales de piso o
     techo y ayer no las tenía (entrada a zona de giro, no repetición diaria)."""
@@ -319,6 +374,7 @@ def main():
     lines.extend(econ_alerts())
     lines.extend(fx_drift_check(stocks))
     lines.extend(trend_alerts(stocks))
+    lines.extend(price_verification(stocks))
 
     if not lines:
         print("Sin alertas hoy — no se envía mensaje (por diseño, para no hacer ruido).")

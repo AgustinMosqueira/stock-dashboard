@@ -35,8 +35,22 @@ jobs:
           if [ "${{ github.event_name }}" != "schedule" ]; then
             echo "run=yes" >> "$GITHUB_OUTPUT"; exit 0
           fi
+          # VENTANA HORARIA: los crons válidos son vespertinos (18:03/18:33 + respaldo).
+          # GitHub a veces dispara el cron con 10+ horas de retraso (madrugada siguiente):
+          # esas corridas capturan el cierre de AYER y lo etiquetan como HOY — se bloquean.
+          hora=$(date +%H)
+          if [ "$hora" -lt 17 ]; then
+            echo "Disparo schedule fuera de ventana (hora Chile: $hora) — cron retrasado de ayer; no se ejecuta."
+            echo "run=no" >> "$GITHUB_OUTPUT"; exit 0
+          fi
           today=$(date +%F)
-          if git log --pretty=%s -n 50 | grep -q "^Informes ${today}"; then
+          # ¿ya corrió la corrida VESPERTINA de hoy? (un commit de madrugada no cuenta)
+          last_ts=$(git log -n 80 --pretty='%ct %s' | grep "Informes ${today}" | head -1 | cut -d' ' -f1)
+          if [ -n "$last_ts" ] && [ "$(date -d @$last_ts +%H)" -ge 17 ]; then
+            echo "Ya existe corrida vespertina de hoy — este disparo sobra."
+            echo "run=no" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          if false; then
             echo "Ya hay informes del ${today} — este disparo sobra, no se hace nada."
             echo "run=no" >> "$GITHUB_OUTPUT"
           else
@@ -88,7 +102,7 @@ jobs:
           git config user.name "dashboard-bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "Informes $(date +%F) (SPCX, BTC, HDSY, CLSK, MU, MSTR, USD/CLP, USD/JPY)"
+          git diff --cached --quiet || git commit -m "Informes $(date +%F) (9 dinámicos + rotación de viernes)"
           git push
 
       - name: Preparar sitio

@@ -9,7 +9,7 @@ import json
 import pathlib
 
 HERE = pathlib.Path(__file__).resolve().parent.parent
-DINAMICOS = {"SPCX", "BTC", "HDSY", "CLSK", "MU", "MSTR", "USD/CLP", "USD/JPY"}
+DINAMICOS = {"SPCX", "BTC", "HDSY", "CLSK", "MU", "MSTR", "CMPC", "CENCOSUD", "USD/CLP"}
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
          "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 

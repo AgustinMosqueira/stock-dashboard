@@ -370,6 +370,28 @@ def main():
         print("  ❌ demasiados activos sin datos; abortando sin tocar nada")
         sys.exit(1)
 
+    # 0-pre) CHEQUEO ANTI-DATOS-VIEJOS: si la gran mayoría de los cierres son
+    # idénticos a la última entrada del histórico, el feed aún muestra el día
+    # anterior (p. ej. corrida de madrugada por cron retrasado) — abortar evita
+    # etiquetar el cierre de ayer con la fecha de hoy (bug SPCX 5-ago-2026).
+    identicos = 0
+    with_hist = 0
+    for tk, q in quotes.items():
+        h = history_store.load(tk)
+        if not h:
+            continue
+        last = h[-1]
+        if last.get("date") == hoy.isoformat():
+            continue  # ya corrimos hoy: re-corridas del día son válidas
+        with_hist += 1
+        prev_close = last.get("close")
+        if prev_close and abs(q["close"] / prev_close - 1) < 1e-5:
+            identicos += 1
+    if with_hist >= 8 and identicos / with_hist > 0.7:
+        print(f"  ❌ {identicos}/{with_hist} cierres idénticos a la última entrada del histórico: "
+              "el feed aún no rota al día de hoy (¿corrida fuera de horario?). Abortando sin tocar nada.")
+        sys.exit(1)
+
     # 0) histórico + métricas por activo
     extras = {}
     for tk, q in quotes.items():
