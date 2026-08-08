@@ -2,8 +2,13 @@ name: Números diarios (TradingView)
 
 on:
   schedule:
-    - cron: "33 22 * * *"   # 18:33 Chile todos los días — minuto impar: los :30 en punto se retrasan/saltan en GitHub
-    - cron: "33 23 * * *"   # respaldo 19:33 Chile — el job "guard" lo cancela si el principal ya corrió hoy
+    # GitHub entrega los crons de forma errática (el 6-7 ago no disparó NINGUNO):
+    # se programan 5 intentos por tarde — el guard ejecuta solo el primero válido.
+    - cron: "33 22 * * *"   # 18:33 Chile
+    - cron: "33 23 * * *"   # 19:33 Chile
+    - cron: "33 0 * * *"    # 20:33 Chile (0:33 UTC del día siguiente)
+    - cron: "33 1 * * *"    # 21:33 Chile
+    - cron: "33 2 * * *"    # 22:33 Chile
   workflow_dispatch: {}
 
 permissions:

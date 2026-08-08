@@ -11,7 +11,7 @@ CleanSpark y pares FX) con informes de 8-9 secciones, scores compuestos, señale
 | `refresh-reports.yml` | Lunes, miércoles y viernes 18:00 Chile | Re-investiga con Claude los **informes completos** de los 9 dinámicos (SPCX, BTC, HDSY, CLSK, MU, MSTR, CMPC, CENCOSUD, USD/CLP) — y los viernes rota además un grupo de 3 estáticos (todos quedan con textos de ≤3 semanas) — y guarda un **snapshot de señales** para el backtest | Usa tu suscripción Claude |
 | `backtest.yml` | Día 1 de cada mes (o manual) | Mide si las señales pasadas anticiparon el precio (retornos a 5/10/20 ruedas) → `data/backtest_report.json` | **Gratis** (sin IA) |
 
-Los 9 estáticos (AAPL, MSFT, NVDA, GOOGL, AMZN, TSLA, CCU, EUR/USD, USD/JPY) actualizan **números a diario**
+Los 10 estáticos (AAPL, MSFT, NVDA, GOOGL, AMZN, TSLA, MP, CCU, EUR/USD, USD/JPY) actualizan **números a diario**
 pero sus textos solo cambian a pedido (pídeselo a Claude en el proyecto local).
 
 **Benchmarks:** acciones EE.UU. → S&P 500 · Chile → ECH (iShares MSCI Chile, proxy del IPSA — el IPSA

@@ -1,76 +1,233 @@
 {
  "ticker": "AAPL",
  "company": "Apple Inc.",
- "stats": {
-  "precio": "$333.65 (17-jul-2026)",
-  "rango52s": "$201.50 – $334.98",
-  "marketCap": "$4.91T",
-  "pe": "38.4x",
-  "targetConsenso": "$313–329 (30-47 analistas)",
-  "proximoEarnings": "30-jul-2026 (Q3 FY26)"
- },
- "sections": {
-  "resumen": "Apple llega a mitad de 2026 en máximos históricos, impulsada por un año fiscal de reaceleración: el trimestre de marzo (Q2 FY2026) marcó récords de iPhone y Services con revenue +17% interanual, y el mercado anticipa el ciclo del iPhone 18 en septiembre bajo un nuevo CEO (John Ternus, efectivo 1-sep-2026). La tesis alcista descansa en momentum operativo y de precio simultáneos; el contrapeso es una valuación ~53% por encima de su promedio histórico de 10 años, un precio que ya superó al target promedio de consenso, y riesgos regulatorios (DMA europea) y de concentración en China. El balance riesgo/retorno de corto plazo luce más ajustado que el operativo: la empresa ejecuta muy bien, pero el precio ya lo paga.",
-  "fundamental": "**Resultados Q2 FY2026** (trimestre de marzo, reportado 30-abr-2026):\n\n- HECHO: Revenue total $111.2B, +17% interanual, récord de trimestre de marzo; EPS $2.01, +22% interanual, vs. consenso de $1.93 (Motley Fool / Investing.com, 30-abr-2026).\n- HECHO: iPhone $57B (+22%, récord de trimestre de marzo); Services $31B (+16%, récord histórico absoluto) (transcript de earnings, 30-abr-2026).\n- HECHO: Utilidad neta $29.6B; flujo de caja operativo $28.7B en el trimestre (transcript, 30-abr-2026).\n- HECHO: Guidance Q3 FY2026: crecimiento de revenue 14%-17% y margen bruto 46.5%-47.5%, con 150-200 pb de viento en contra por costos de memoria (transcript, 30-abr-2026).\n\n**Posición competitiva:**\n\n- HECHO: Broadcom y Apple extendieron su acuerdo de chips custom hasta 2031 (prensa financiera, jul-2026). Apple obtuvo aprobación para sus servicios de IA en China (TipRanks, 13-jul-2026).\n- HECHO: Greater China representó $20.5B de revenue en Q2 FY2026, ~18% del total (abr-2026).\n- LECTURA: el moat (ecosistema, base instalada, Services de márgenes altos) sigue intacto y la reaceleración del iPhone sugiere que el ciclo de reemplazo con IA está traccionando. La dependencia manufacturera de China sigue siendo la principal fragilidad estructural.\n\n**Transición de management:** HECHO: Tim Cook pasa a Executive Chairman; John Ternus asume como CEO el 1-sep-2026, aprobado por unanimidad (Apple Newsroom / Fortune, 20-abr-2026). LECTURA: sucesión ordenada; el mercado la leyó como continuidad (la acción hizo máximos después del anuncio).",
-  "valuacion": "- HECHO: P/E actual ~38.4x (13-jul-2026); promedio 12 meses ~35x; 3 años ~33.3x; 5 años ~30.7-32.4x; 10 años ~30.6x (MacroTrends/FullRatio, jul-2026). El P/E actual está **~53% por encima del promedio de 10 años**.\n- HECHO vs. peers: forward P/E de Microsoft ~25x vs. ~34x de Apple; análisis de Barchart/Motley Fool (1-jul-2026) califican a Microsoft como significativamente más barata por dólar de utilidad esperada.\n- HECHO — price targets de consenso (jul-2026): $312.88 (MarketBeat, 32 analistas), $318.25 (S&P Global, 47), $324-329 (otras muestras). Rango: máx $400 (Wedbush, 5-jun-2026), mín $200 (Phillip Securities, sep-2025).\n- LECTURA: con la acción en $333.65, el precio ya está **por encima del target promedio de consenso** en todas las muestras — el mercado paga hoy la ejecución futura. No se encontraron escenarios bull/base/bear con probabilidades publicadas.",
-  "tecnico": "- HECHO: tendencia alcista en diario y semanal; precio sobre las medias de 20 días (~$299), 50 días (~$289-299) y 200 días (Investing.com/ChartMill/Investtech, 14-jul-2026). 15° récord intradiario de 2026 a mediados de julio; ~+20% YTD (TipRanks/24-7 Wall St., 13/15-jul-2026).\n- HECHO: RSI diario reportado entre 64.3 (neutral-alto) y ~76 (sobrecompra) según la fuente (14-jul-2026). No se encontró lectura pública verificable de MACD.\n- HECHO: niveles citados — resistencia ~$317 (superada), zona de soporte $290.81-$294.80 (confluencia de medias y líneas de tendencia) y soporte secundario ~$275-276 (ChartMill/Investtech, 14-jul-2026).\n- LECTURA: ruptura a máximos históricos con estructura de tendencia limpia; el riesgo técnico dominante no es de tendencia sino de extensión (RSI alto tras +20% YTD) — probable consolidación hacia $290-295 sin invalidar la tendencia.",
-  "catalizadores": "**Catalizadores (con fecha):**\n\n- **30-jul-2026 — Earnings Q3 FY2026:** consenso EPS $1.88, +20% interanual. Primer test del guidance de 14-17%.\n- **1-sep-2026 — John Ternus asume como CEO** (anunciado 20-abr-2026).\n- **Septiembre 2026 — Lanzamiento iPhone 18:** Citi lo señala como el punto de inflexión de sentimiento del 2° semestre.\n- **Pipeline:** iPad mini OLED en preparación (Bloomberg, jul-2026); revamp mayor de Siri con iOS 27.\n\n**Riesgos (por materialidad):**\n\n- **Regulatorio/antitrust:** multa DMA de €500M ya aplicada (abr-2025); la Comisión Europea planea intensificar la aplicación en 2026 con sanciones potenciales de 4%-20% de facturación global; demanda del DOJ (2024) abierta.\n- **China (18% del revenue) y aranceles:** la mayor parte de los iPhone se fabrica en China; escaladas arancelarias afectarían costos y precios (Reuters, 2026).\n- **Brecha en IA:** Needham (Laura Martin) sitúa a Apple 1-2 años detrás de Google/Samsung; el Siri conversacional completo se pospuso a iOS 27.\n- **Valuación extendida:** P/E ~53% sobre su media de 10 años y precio sobre el consenso — alta sensibilidad a decepciones.\n- **Costos de memoria:** 150-200 pb de presión en margen bruto guiada para Q3.",
-  "sentimiento": "- HECHO: consenso \"Buy\"/\"Moderate Buy\" — 18 Buy, 11 Hold, 1 Sell (TipRanks/MarketBeat, jul-2026); downgrades puntuales a mediados de julio (MarketScreener).\n- HECHO — insiders: últimos 30 días, ventas por ~257.8K acciones (~$72M) y **cero compras**; 90 días: >$48M en ventas. Destacan Arthur D. Levinson (255K acciones a $284.76, 8-may-2026), CFO Kevan Parekh (27-abr-2026), y ventas planificadas de Tim Cook y Deirdre O'Brien. Neto 2 años: ~-$400M (AltIndex/MarketBeat/Benzinga, jul-2026).\n- HECHO: tono de noticias de julio claramente constructivo — récords sucesivos, +$500B de market cap en julio, aprobación de IA en China, extensión Broadcom (TipRanks/GuruFocus, 13-15-jul-2026).\n- LECTURA: sentimiento eufórico-positivo con dos matices: los targets de consenso van \"persiguiendo\" al precio, y los insiders solo venden — patrón habitual en Apple (planes 10b5-1), pero la ausencia total de compras en máximos no aporta convicción interna adicional.",
-  "conclusion": "El cuadro de Apple a julio de 2026 es el de una compañía ejecutando en su mejor nivel de los últimos años justo cuando el mercado ya lo tiene puesto en precio. Para que la tesis funcione desde estos niveles se necesita que el 30 de julio confirme el guidance de doble dígito, que el ciclo iPhone 18 supere expectativas en septiembre y que la transición a Ternus sea el no-evento que el mercado asume. La tesis se invalidaría con una pérdida sostenida de la zona $290-295 acompañada de guidance débil, o con una sanción DMA en el rango alto — cualquiera comprimiría el múltiplo de 38x más rápido de lo que crecen las utilidades. El diferencial entre la calidad del negocio (alta) y el margen de seguridad del precio (bajo) es hoy la variable central de decisión."
- },
- "scores": {
-  "tecnica": {
-   "score": 80,
-   "just": "Tendencia alcista confirmada en diario y semanal, precio sobre todas las medias relevantes y en máximos históricos con 15 récords en el año. Se descuenta por extensión: RSI entre 64 y 76 tras +20% YTD, con riesgo de consolidación hacia $290-295."
-  },
-  "fundamental": {
-   "score": 72,
-   "just": "Crecimiento reacelerado (revenue +17%, EPS +22%, Services en récord absoluto), caja operativa robusta y moat de ecosistema intacto. El descuento viene de la valuación: P/E ~38x, 53% sobre su media de 10 años y cara vs. peers como Microsoft."
-  },
-  "sentimiento": {
-   "score": 65,
-   "just": "Tono de noticias muy positivo y consenso mayoritario Buy (18/11/1), pero el precio ya superó el target promedio de consenso, hubo downgrades a mediados de julio y los insiders registran $72M en ventas sin ninguna compra en 30 días."
-  },
-  "riesgo": {
-   "score": 60,
-   "just": "Liquidez y estabilidad de mega-cap (positivo), pero riesgos concretos: exposición DMA con sanciones potenciales de 4-20% de facturación, 18% del revenue en China bajo tensión arancelaria, y drawdown potencial amplificado por la prima de valuación."
-  },
-  "conviccion": {
-   "score": 68,
-   "just": "Catalizadores concretos y fechados (earnings 30-jul, Ternus 1-sep, iPhone 18 en septiembre) y tesis falsable con niveles técnicos claros. La asimetría es el punto débil: con el precio sobre el consenso, la tesis depende de que el ciclo iPhone 18 sorprenda al alza."
-  }
- },
- "sources": [
-  "Yahoo Finance (17-jul-2026)",
-  "Motley Fool — transcript Q2 FY26 (30-abr-2026)",
-  "Investing.com (30-abr-2026)",
-  "Apple Newsroom (20-abr-2026)",
-  "Fortune (20/21-abr-2026)",
-  "MarketBeat (jul-2026)",
-  "TipRanks (13-jul-2026)",
-  "S&P Global vía MarketScreener (jul-2026)",
-  "MacroTrends / FullRatio (jul-2026)",
-  "Barchart (1-jul-2026)",
-  "ChartMill / Investtech / JournalArta (14-jul-2026)",
-  "GuruFocus (jul-2026)",
-  "24/7 Wall St. (15-jul-2026)",
-  "AltIndex / Benzinga (jul-2026)",
-  "Reuters vía Investing.com (2026)"
+ "statsList": [
+  [
+   "Precio",
+   "$311.00 (5-ago-2026)"
+  ],
+  [
+   "Rango 52 sem.",
+   "$219,25 – $344,57"
+  ],
+  [
+   "Market cap",
+   "~US$4,54T (stockanalysis.com, ago-2026)"
+  ],
+  [
+   "P/E",
+   "~35,5x trailing (EPS TTM $8,75), 43% sobre su media de 10 años de 25,0x (financecharts, ago-2026)"
+  ],
+  [
+   "Target consenso",
+   "~US$322,82 promedio (46 analistas S&P Global, Buy); TipRanks $333,18; Wedbush $350 (ago-2026)"
+  ],
+  [
+   "Próx. earnings",
+   "~29-oct-2026 (Q4 FY26, fecha estimada); guidance vigente: ingresos +9-11% YoY, margen bruto 47-48%"
+  ]
  ],
+ "reportDate": "5 de agosto de 2026",
  "change": {
-  "day": 0.14,
-  "week": 5.84
+  "day": 0.52,
+  "week": 0.68
  },
  "events": [
   {
-   "date": "2026-07-30",
-   "label": "Resultados Q3 FY26",
-   "kind": "earnings"
+   "date": "2026-09-01",
+   "label": "John Ternus asume como CEO",
+   "kind": "corporate",
+   "info": "Transición anunciada el 20-abr-2026: Ternus (SVP Hardware Engineering) reemplaza a Tim Cook, quien pasa a executive chairman; Arthur Levinson pasa a lead independent director. Primera sucesión de CEO desde 2011 (Apple Newsroom/CNBC, abr-2026)."
   },
   {
-   "date": "2026-09-01",
-   "label": "John Ternus asume como CEO (Tim Cook pasa a Executive Chairman)",
-   "kind": "corporate"
+   "date": "2026-09-09",
+   "label": "Evento iPhone 18 / iPhone Fold (fecha estimada)",
+   "kind": "corporate",
+   "info": "Lanzamiento esperado en septiembre de iPhone 18 y del primer iPhone Fold; 2026 es señalado como año de gran ciclo de producto. Fecha exacta del evento aún no anunciada por Apple (hist.: segunda semana de septiembre)."
+  },
+  {
+   "date": "2026-10-29",
+   "label": "Earnings Q4 FY2026 (fecha estimada)",
+   "kind": "earnings",
+   "info": "Guidance vigente: crecimiento de ingresos +9-11% YoY (bajo el consenso de ~12%), margen bruto 47-48% (vs 50,1% en Q3 que incluía ~2pp de reintegro arancelario no recurrente), iPhone mid-teens% (digitalapplied, 30-jul-2026)."
   }
- ]
+ ],
+ "sections": {
+  "resumen": "AAPL reportó el 30-jul un Q3 FY26 récord: ingresos $109,4B (+16%) y EPS $2,02 (+29%, incluye $0,11 de reintegro arancelario), sobre el consenso de $1,89. Pero la guía de septiembre decepcionó: crecimiento 9-11% vs ~12% esperado y margen bruto 47-48% (vs 50,1%) por costos de memoria al alza; la acción cayó ~6% esa noche y hoy cotiza $311, -9,7% bajo su máximo de $344,57. HECHO: Ternus asume como CEO el 1-sep; iPhone 18 y iPhone Fold llegan en septiembre. LECTURA: el problema es de oferta y costos, no de demanda — el mercado está repreciando márgenes, no la franquicia.",
+  "fundamental": "- HECHO: Q3 FY26 revenue $109,4B (+16% YoY) y EPS $2,02 (+29%, con $0,11 de reintegro arancelario); iPhone +22% a $54,3B, récord de trimestre de junio (Apple IR, 30-jul-2026).\n- HECHO: guía Q4 FY26 de +9-11% (consenso ~12%) y margen bruto 47-48% vs 50,1% de Q3, que incluía ~2pp no recurrentes (digitalapplied, 30-jul-2026).\n- HECHO: Cook espera pagar «costos de memoria aún mayores más allá de septiembre» por demanda de hiperescaladores; Apple ya subió precios de Mac e iPad (CNBC, 30-jul-2026).\n- HECHO: Services +12% a $30,7B, leve miss vs $31,2B; Siri renovada llega «este otoño» en EE.UU., con UE y China rezagadas y posible tier pago de iCloud+.\n- LECTURA: Cook definió la restricción como «demand forecast miss» — iPhone y Mac venden mejor de lo previsto; el riesgo real está en márgenes, no en volumen.",
+  "valuacion": "- HECHO: P/E ~35,5x trailing (EPS TTM $8,75), 43% sobre su media de 10 años de 25,0x (financecharts, ago-2026).\n- HECHO: market cap ~US$4,54T; revenue TTM $466,8B y utilidad $128,9B (stockanalysis, ago-2026).\n- HECHO: target consenso ~$322,82 (46 analistas, Buy) y $333,18 en TipRanks; Wedbush $350 — upside de solo 4-12% desde $311 (ago-2026).\n- LECTURA: a 35x, la valuación exige que el ciclo iPhone 18/Fold y la monetización de Siri compensen 2-3pp de compresión de margen por memoria; poco margen de error.",
+  "tecnico": "- Precio $311: prácticamente sobre su SMA50 (+0,4%) y +11,5% sobre SMA200 — la caída post-earnings se frenó justo en el soporte de mediano plazo.\n- RSI 45,8 neutral; percentil 1Y de 73,8: corrigió desde el máximo de $344,57 sin romper la estructura alcista.\n- Semana +0,7%: estabilización, no rebote; volatilidad 30d ~40, elevada para AAPL.\n- Relativo 30d vs benchmark -1,7%: bajo rendimiento leve, sin capitulación.\n- LECTURA: sin cambio de carácter aún — ni ruptura bajista confirmada ni reversión alcista; el rango $300-315 define el corto plazo.",
+  "catalizadores": "**Catalizadores:**\n- Evento iPhone 18 + iPhone Fold en septiembre: primer factor de forma nuevo en años, potencial supercycle.\n- Ternus asume el 1-sep: primera transición desde 2011, posible reenfoque en producto.\n- Siri renovada «este otoño» con posible tier pago de iCloud+ (nueva línea de monetización de Services).\n- Earnings Q4 FY26 (~29-oct): prueba de que el margen aguanta en 47-48%.\n\n**Riesgos (por materialidad):**\n- Costos de memoria crecientes «más allá de septiembre» — compresión de margen bruto sin fecha de término.\n- P/E 43% sobre su media histórica: riesgo de derating si el ciclo iPhone 18 decepciona.\n- Restricción de oferta de chips limita el upside de unidades pese a demanda fuerte.\n- Rollout de Siri sin resolver en UE y China — retrasa la narrativa IA en ~30% del mercado.",
+  "sentimiento": "- HECHO: caída ~6% after-hours tras la guía pese al beat; desde entonces lateraliza ~10% bajo máximos (CNBC/digitalapplied, jul-ago-2026).\n- HECHO: consenso Buy con target ~$322-333, apenas sobre el precio — analistas constructivos pero sin convicción direccional.\n- HECHO: Wedbush mantiene Outperform con $350 apoyado en el ciclo de upgrade de iPhones con IA.\n- LECTURA: ni miedo ni euforia; el sentimiento neutral no ofrece ventaja contrarian, y la sucesión de CEO mantiene una prima suave de incertidumbre.",
+  "conclusion": "Apple es la franquicia de mayor calidad del grupo, pero a ~35x con márgenes comprimiéndose por memoria y un target consenso a solo 4% del precio, la asimetría de corto plazo es pobre. La demanda está intacta (el problema es oferta y costos) y septiembre concentra catalizadores reales: Ternus, iPhone 18 y el Fold. Preferimos esperar: una corrección hacia la SMA200 (~$279) daría mejor punto de entrada, o bien un gatillo fundamental (recepción del Fold, monetización de Siri) que justifique pagar la prima. Riesgo de pérdida permanente bajo; riesgo de derating de múltiplo, real."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 50,
+   "just": "Sostenida sobre SMA50/SMA200 con RSI 45,8 neutral tras absorber el golpe post-earnings, pero sin cambio de carácter en ninguna dirección: lateralización en $300-315 sin señal accionable."
+  },
+  "fundamental": {
+   "score": 62,
+   "just": "Beat fuerte con demanda mejor a lo esperado (iPhone +22%), pero guía bajo consenso y 2-3pp de compresión de margen por memoria sin fecha de término; la calidad del negocio sigue intacta."
+  },
+  "sentimiento": {
+   "score": 48,
+   "just": "Sentimiento neutral tras el derating post-guía: targets apenas sobre el precio, sin pánico vendedor ni euforia — no hay extremo que explotar en contrario."
+  },
+  "riesgo": {
+   "score": 62,
+   "just": "Riesgo de pérdida permanente bajo (balance, FCF, buybacks), pero P/E 43% sobre su media histórica crea riesgo real de derating si el ciclo iPhone 18/Fold o Siri decepcionan."
+  },
+  "conviccion": {
+   "score": 47,
+   "just": "Upside a consenso de solo 4%; catalizadores de septiembre son reales pero ya parcialmente en precio a 35x — la convicción mejora sustancialmente en la zona $275-290."
+  }
+ },
+ "sources": [
+  "Apple Newsroom, 30/07/2026 - Apple reports third quarter results",
+  "digitalapplied.com, 30/07/2026 - Apple Q3 FY26: Record Quarter, Weak Guidance, Siri Timing",
+  "CNBC, 30/07/2026 - Apple (AAPL) Q3 2026 earnings report: Live updates",
+  "AppleInsider, 27/07/2026 - What Wall Street expects from Apple's Q3 2026 earnings",
+  "stockanalysis.com, ago-2026 - Apple (AAPL) Statistics & Valuation",
+  "financecharts.com, ago-2026 - Apple (AAPL) PE Ratio: 35,7x, 43% sobre media 10 años",
+  "MarketBeat/S&P Global, ago-2026 - AAPL consensus: $322,82, 46 analistas, Buy",
+  "TipRanks, ago-2026 - AAPL average target $333,18 (31 analistas)",
+  "Investing.com, ago-2026 - Wedbush reitera Outperform $350 por ciclo de upgrade IA",
+  "CNBC, 20/04/2026 - Apple names John Ternus CEO, replacing Tim Cook who becomes chairman",
+  "Apple Newsroom, 20/04/2026 - Tim Cook to become Executive Chairman, John Ternus CEO",
+  "Bybit/TipRanks, ago-2026 - Próximo earnings AAPL estimado 29-oct-2026"
+ ],
+ "opportunity": {
+  "cats": {
+   "valuacion_hist": {
+    "score": 35,
+    "just": "35,5x trailing es 43% sobre su media de 10 años (25x) justo cuando el margen bruto se comprime 2-3pp por memoria — pagar prima récord con márgenes cayendo es la peor combinación."
+   },
+   "calidad": {
+    "score": 90,
+    "just": "Franquicia excepcional: $128,9B de utilidad TTM, demanda superando la propia planificación de Apple, Services +12% y ecosistema con pricing power demostrado (subió precios de Mac/iPad sin frenar demanda)."
+   },
+   "asimetria": {
+    "score": 45,
+    "just": "Upside a consenso de 4-12% contra downside de ~10% hacia SMA200; la opcionalidad del Fold y Siri de pago mejora la cola derecha, pero al precio actual la relación no es atractiva."
+   },
+   "catalizadores": {
+    "score": 62,
+    "just": "Septiembre denso: Ternus (1-sep), evento iPhone 18/Fold, Siri en otoño; earnings 29-oct como verificación de margen. Catalizadores reales y fechados, aunque parcialmente descontados."
+   },
+   "contrarian": {
+    "score": 45,
+    "just": "La caída post-earnings fue ordenada (~-10% desde máximos) sin pánico; sentimiento neutral no genera el extremo de miedo que la filosofía contrarian busca comprar."
+   }
+  },
+  "plan": {
+   "recomendacion": "Esperar gatillo",
+   "zona_compra": "US$275-290 (hacia SMA200 ~$279, que devolvería el múltiplo a ~31-33x)",
+   "invalidacion": "Pérdida sostenida de la SMA200 (~$279) combinada con guía de margen bruto <46% o primera evidencia de deterioro de demanda de iPhone (hoy inexistente)",
+   "gatillos": [
+    "Evento iPhone 18/Fold (sep-2026) con recepción y preórdenes fuertes del Fold",
+    "Señales de estabilización de costos de memoria en comentarios de management o proveedores",
+    "Earnings Q4 FY26 (~29-oct) con margen ≥47% cumplido y Services reacelerando"
+   ],
+   "horizonte": "6-12 meses",
+   "tamano": "Posición core moderada solo si llega a zona de compra; no perseguir a 35x con upside de consenso de 4%",
+   "confianza": "media"
+  }
+ },
+ "technical": {
+  "price": 311,
+  "change_1d_pct": 0.52,
+  "change_1w_pct": 0.68,
+  "rsi": 45.8,
+  "macd": 2.0892,
+  "macd_signal": 5.723,
+  "sma20": 323.7215,
+  "sma50": 309.6542,
+  "sma200": 278.8569,
+  "ema12": 319.3886,
+  "ema26": 317.2994,
+  "pct_vs_sma20": -3.93,
+  "pct_vs_sma50": 0.43,
+  "pct_vs_sma200": 11.53,
+  "volume_today": 49438763,
+  "volume_avg20": 51352423.0,
+  "volume_ratio": 0.96,
+  "volatility_30d": 39.86,
+  "sharpe": 2.94,
+  "sortino": 2.26,
+  "max_drawdown_1y": -13.82,
+  "price_percentile_1y": 73.8,
+  "vs_benchmark_30d_pct": -1.7,
+  "perf_1m_pct": 1.18,
+  "perf_ytd_pct": 14.23
+ },
+ "risk": {
+  "volatility_30d": 39.86,
+  "sharpe": 2.94,
+  "sortino": 2.26,
+  "max_drawdown_1y": -13.82,
+  "n_days": 313,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "SP:SPX",
+  "label": "S&P 500",
+  "relative_performance_30d": -1.7,
+  "relative_performance_ytd": 1.94,
+  "price_percentile_1y": 73.8,
+  "partial": false
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-08-05T22:46:10-04:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-08-05T22:46:10-04:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-08-05T22:46:10-04:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "SP:SPX",
+   "fetched_at": "2026-08-05T22:46:10-04:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/AAPL.json",
+   "n_days": 313
+  }
+ },
+ "metricChanges": [
+  {
+   "ticker": "AAPL",
+   "date": "2026-07-31",
+   "metric": "percentil_1y",
+   "from": 92.2,
+   "to": 72.1
+  },
+  {
+   "ticker": "AAPL",
+   "date": "2026-07-31",
+   "metric": "precio_pct",
+   "from": 333.43,
+   "to": 304.75
+  },
+  {
+   "ticker": "AAPL",
+   "date": "2026-07-31",
+   "metric": "rsi",
+   "from": 61.66,
+   "to": 41.16
+  }
+ ],
+ "trend": {
+  "piso": 0,
+  "techo": 0,
+  "max": 7,
+  "senales_piso": [],
+  "senales_techo": []
+ }
 }

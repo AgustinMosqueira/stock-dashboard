@@ -46,6 +46,7 @@ MAP = {
     "SPCX":    ("NASDAQ:SPCX",  ("$", "", 2, ",", ".")),
     "CLSK":    ("NASDAQ:CLSK",  ("$", "", 2, ",", ".")),
     "MSTR":    ("NASDAQ:MSTR",  ("$", "", 2, ",", ".")),
+    "MP":      ("NYSE:MP",      ("$", "", 2, ",", ".")),
     "HDSY":    ("TSE:6324",     ("¥", "", 0, ",", ".")),
     "CCU":     ("BCS:CCU",      ("$", " CLP", 0, ".", ",")),
     "CMPC":    ("BCS:CMPC",     ("$", " CLP", 1, ".", ",")),
@@ -64,7 +65,7 @@ MAP = {
 BENCH_US = ("SP:SPX", "S&P 500")
 BENCH = {
     "AAPL": BENCH_US, "MSFT": BENCH_US, "NVDA": BENCH_US, "GOOGL": BENCH_US,
-    "AMZN": BENCH_US, "TSLA": BENCH_US, "MU": BENCH_US, "SPCX": BENCH_US,
+    "AMZN": BENCH_US, "TSLA": BENCH_US, "MU": BENCH_US, "SPCX": BENCH_US, "MP": BENCH_US,
     "CCU": ("CBOE:ECH", "ECH (proxy Chile/IPSA)"),
     "CMPC": ("CBOE:ECH", "ECH (proxy Chile/IPSA)"),
     "BTC": ("CRYPTOCAP:TOTAL", "Cripto total (ciclo)"),
