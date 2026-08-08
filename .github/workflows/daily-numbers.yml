@@ -98,8 +98,10 @@ jobs:
         run: mkdir -p _site && cp index.html _site/index.html && cp pwa/* _site/
 
       - uses: actions/upload-pages-artifact@v3
+        continue-on-error: true
         with:
           path: _site
 
       - id: deploy
+        continue-on-error: true
         uses: actions/deploy-pages@v4
