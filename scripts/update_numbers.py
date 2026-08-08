@@ -147,7 +147,7 @@ def fetch_econ_calendar():
     público de TradingView. Horas convertidas a hora de Chile. Devuelve [] si falla."""
     from zoneinfo import ZoneInfo
     tz_scl = ZoneInfo("America/Santiago")
-    start = (hoy - datetime.timedelta(days=1)).isoformat()  # incluye ayer (sección Resultados de ayer)
+    start = (hoy - datetime.timedelta(days=3)).isoformat()  # últimos 3 días (sección Resultados recientes)
     end = (hoy + datetime.timedelta(days=ECON_DAYS)).isoformat()
     url = (f"https://economic-calendar.tradingview.com/events?from={start}T00:00:00.000Z"
            f"&to={end}T00:00:00.000Z&countries=US,CL")
