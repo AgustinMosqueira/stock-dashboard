@@ -47,18 +47,24 @@ def main():
 
     sd_path = HERE / "stocks-data.json"
     sd = json.load(open(sd_path))
-    if not any(a["ticker"] == ticker for a in sd):
+    en_datos = any(a["ticker"] == ticker for a in sd)
+    # un activo puede estar CABLEADO sin informe todavía (alta a medias): también se limpia
+    cableado = f'"{ticker}"' in (HERE / "scripts" / "update_numbers.py").read_text()
+    if not en_datos and not cableado:
         print(f"El activo {ticker} no está en el dashboard — nada que eliminar.")
         return
-    if len(sd) <= 2:
+    if en_datos and len(sd) <= 2:
         raise SystemExit("❌ Me niego a dejar el dashboard con menos de 2 activos.")
 
     print(f"Eliminando {ticker} del dashboard…")
 
     # 1) datos: stocks-data.json + bloque estático + copia por activo
-    sd = [a for a in sd if a["ticker"] != ticker]
-    json.dump(sd, open(sd_path, "w"), ensure_ascii=False)
-    print(f"  ✓ stocks-data.json (quedan {len(sd)} activos)")
+    if en_datos:
+        sd = [a for a in sd if a["ticker"] != ticker]
+        json.dump(sd, open(sd_path, "w"), ensure_ascii=False)
+        print(f"  ✓ stocks-data.json (quedan {len(sd)} activos)")
+    else:
+        print("  = sin informe en stocks-data.json (estaba solo cableado)")
 
     t = (HERE / "template.html").read_text()
     m = re.search(r'(<script id="static-data" type="application/json">)(.*?)(</script>)', t, re.S)
