@@ -92,7 +92,7 @@ SCANNER_ORIGIN = "TradingView scanner"
 # Activos cuyo símbolo TradingView NO se puede embeber en su moneda nativa
 # (la Bolsa de Tokio no licencia 6324 para widgets): el dashboard dibuja su
 # propio gráfico con los cierres diarios del histórico, en la moneda correcta.
-OWN_CHART = {"HDSY"}
+OWN_CHART = set()   # vacío: HDSY volvió al widget de TradingView por pedido del usuario
 ECON_DAYS = 35  # ventana del calendario económico horneado
 
 # Re-clasificación curada a escala 1-5 (TradingView solo trae baja/media/alta).
