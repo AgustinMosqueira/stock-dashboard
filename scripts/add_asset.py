@@ -188,6 +188,19 @@ def main():
         p.write_text(t.replace(m.group(0), f"LOS {n} ESTÁTICOS ({lista})", 1))
         print("  ✓ REFRESH_PROMPT (estáticos)")
 
+    # 5) registro maestro: el activo queda protegido contra pérdidas
+    import datetime
+    reg_path = HERE / "data" / "assets-registry.json"
+    try:
+        reg = json.load(open(reg_path))
+    except (ValueError, OSError):
+        reg = {"activos": []}
+    if ticker not in reg.get("activos", []):
+        reg.setdefault("activos", []).append(ticker)
+        reg["actualizado"] = datetime.date.today().isoformat()
+        json.dump(reg, open(reg_path, "w"), ensure_ascii=False, indent=1)
+        print("  ✓ registro de activos")
+
     print(f"\n{ticker} cableado. Falta el informe: lo escribe Claude en el workflow a pedido.")
 
 

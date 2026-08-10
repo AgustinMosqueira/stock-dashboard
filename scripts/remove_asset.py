@@ -154,6 +154,19 @@ def main():
         print(f"  ✓ REFRESH_PROMPT (dinámicos → {n})")
     p.write_text(r)
 
+    # 6b) registro maestro: esta es la ÚNICA vía legítima de sacar un activo
+    import datetime
+    reg_path = HERE / "data" / "assets-registry.json"
+    try:
+        reg = json.load(open(reg_path))
+        if ticker in reg.get("activos", []):
+            reg["activos"] = [t for t in reg["activos"] if t != ticker]
+            reg["actualizado"] = datetime.date.today().isoformat()
+            json.dump(reg, open(reg_path, "w"), ensure_ascii=False, indent=1)
+            print("  ✓ registro de activos")
+    except (ValueError, OSError):
+        pass
+
     # 7) histórico: se archiva, no se borra
     arch = HERE / "data" / "history" / "_archive"
     arch.mkdir(parents=True, exist_ok=True)

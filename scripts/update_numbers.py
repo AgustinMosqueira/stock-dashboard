@@ -51,6 +51,9 @@ MAP = {
     "CCU":     ("BCS:CCU",      ("$", " CLP", 0, ".", ",")),
     "CMPC":    ("BCS:CMPC",     ("$", " CLP", 1, ".", ",")),
     "CENCOSUD": ("BCS:CENCOSUD", ("$", " CLP", 1, ".", ",")),
+    "ASML": ("NASDAQ:ASML", ("$", "", 2, ",", ".")),
+    "TTWO": ("NASDAQ:TTWO", ("$", "", 2, ",", ".")),
+    "MELI": ("NASDAQ:MELI", ("$", "", 2, ",", ".")),
     "BTC":     ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),
     # OJO: FX_IDC (ICE) viene ~0,35% desviado vs el cierre real chileno (verificado
     # 29-jul-2026 contra er-api, currency-api y cierre de mercado); VANTAGE calza.
@@ -72,6 +75,9 @@ BENCH = {
     "CLSK": ("CRYPTO:BTCUSD", "Bitcoin"),
     "MSTR": ("CRYPTO:BTCUSD", "Bitcoin"),
     "CENCOSUD": ("CBOE:ECH", "ECH (proxy Chile/IPSA)"),
+    "ASML": ("SP:SPX", "S&P 500"),
+    "TTWO": ("SP:SPX", "S&P 500"),
+    "MELI": ("SP:SPX", "S&P 500"),
     "HDSY": ("TVC:NI225", "Nikkei 225"),
     "USD/CLP": ("TVC:DXY", "DXY"),
     "EUR/USD": ("TVC:DXY", "DXY"),
@@ -194,6 +200,48 @@ def fetch_econ_calendar():
         })
     out.sort(key=lambda x: (x["date"], x["time"]))
     return out
+
+
+def verify_registry():
+    """Protección anti-pérdida: todo activo del registro DEBE estar en stocks-data.json.
+    Si falta (conflicto de git, corrida a medias), se restaura desde data/<TICKER>.json,
+    que cada informe deja como copia. Devuelve la lista de restaurados."""
+    reg_path = HERE / "data" / "assets-registry.json"
+    if not reg_path.exists():
+        return []
+    try:
+        registro = json.load(open(reg_path)).get("activos", [])
+    except (ValueError, OSError):
+        return []
+    sd_path = HERE / "stocks-data.json"
+    sd = json.load(open(sd_path))
+    presentes = {a["ticker"] for a in sd}
+    faltantes = [t for t in registro if t not in presentes]
+    if not faltantes:
+        return []
+
+    restaurados, perdidos = [], []
+    for tk in faltantes:
+        nombre = ("FX-" + tk.replace("/", "")) if "/" in tk else tk
+        copia = HERE / "data" / f"{nombre}.json"
+        if copia.exists():
+            try:
+                sd.append(json.load(open(copia)))
+                restaurados.append(tk)
+                continue
+            except ValueError:
+                pass
+        perdidos.append(tk)
+    if restaurados:
+        orden = {t: i for i, t in enumerate(registro)}
+        sd.sort(key=lambda a: orden.get(a["ticker"], 999))
+        json.dump(sd, open(sd_path, "w"), ensure_ascii=False)
+        print(f"  ♻️  RESTAURADOS desde el registro: {', '.join(restaurados)}")
+    if perdidos:
+        print(f"  ❌ activos del registro SIN copia recuperable: {', '.join(perdidos)} — "
+              "revisa el historial de git antes de continuar")
+        sys.exit(1)
+    return restaurados
 
 
 def fetch():
@@ -372,6 +420,7 @@ def patch_asset(s, q, extras):
 
 def main():
     print(f"Actualizando números — {FECHA}")
+    verify_registry()
     quotes, benches = fetch()
     print(f"  scanner OK: {len(quotes)}/{len(MAP)} activos · {len(benches)} benchmarks")
     if len(quotes) < 10:
