@@ -126,5 +126,73 @@
    "tamano": "Posición moderada; exposición cambiaria y crediticia a Brasil-Argentina-México sugiere no sobreconcentrar, especialmente sin historial propio de volatilidad aún",
    "confianza": "media"
   }
- }
+ },
+ "risk": {
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "n_days": 1,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "SP:SPX",
+  "label": "S&P 500",
+  "relative_performance_30d": -2.69,
+  "relative_performance_ytd": -22.74,
+  "price_percentile_1y": 31.3,
+  "partial": false
+ },
+ "technical": {
+  "price": 1824.34,
+  "change_1d_pct": 0.2,
+  "change_1w_pct": 0.2,
+  "rsi": 50.4,
+  "macd": 25.7549,
+  "macd_signal": 34.7393,
+  "sma20": 1846.848,
+  "sma50": 1750.3022,
+  "sma200": 1885.7966,
+  "ema12": 1849.8667,
+  "ema26": 1824.1118,
+  "pct_vs_sma20": -1.22,
+  "pct_vs_sma50": 4.23,
+  "pct_vs_sma200": -3.26,
+  "volume_today": 313512,
+  "volume_avg20": 406583.0,
+  "volume_ratio": 0.77,
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "price_percentile_1y": 31.3,
+  "vs_benchmark_30d_pct": -2.69,
+  "perf_1m_pct": 0.03,
+  "perf_ytd_pct": -10.02
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-08-10T19:39:53-04:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-08-10T19:39:53-04:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-08-10T19:39:53-04:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "SP:SPX",
+   "fetched_at": "2026-08-10T19:39:53-04:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/MELI.json",
+   "n_days": 1
+  }
+ },
+ "metricChanges": [],
+ "perfil": "MercadoLibre opera el mayor ecosistema de comercio electrónico de América Latina: un marketplace con logística propia (Mercado Envíos y su red de fulfillment), publicidad, suscripciones y, sobre todo, un brazo financiero, Mercado Pago, que ofrece pagos online y presenciales, cuenta remunerada, tarjeta de crédito y préstamos a comerciantes y consumidores en 18 países. En 2025 los ingresos alcanzaron 28.900 millones de dólares (39% de alza) con utilidad neta cercana a 2.000 millones; fintech aportó 12.600 millones y comercio unos 16.000 millones, con volumen de pagos anual de 278.000 millones. Brasil concentra cerca de 55% de los ingresos, México 22% y Argentina 18%. El punto crítico es la cartera de crédito: 12.500 millones, 90% más que en 2024, motor de margen que convierte a MELI en un banco de facto y lo expone al ciclo de morosidad (NPL de 15 a 90 días de la tarjeta en 4,4%) y al costo de fondeo. Suman riesgo Shopee, Amazon y Temu, la macro cambiaria y la regulación financiera."
 }

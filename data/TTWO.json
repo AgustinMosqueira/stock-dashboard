@@ -132,5 +132,73 @@
    "tamano": "Posición moderada; evitar sobreexposición antes de confirmar la ejecución del lanzamiento (catalizador binario)",
    "confianza": "media"
   }
- }
+ },
+ "risk": {
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "n_days": 1,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "SP:SPX",
+  "label": "S&P 500",
+  "relative_performance_30d": -0.22,
+  "relative_performance_ytd": -14.33,
+  "price_percentile_1y": 84.2,
+  "partial": false
+ },
+ "technical": {
+  "price": 253.57,
+  "change_1d_pct": 2.87,
+  "change_1w_pct": 2.87,
+  "rsi": 60.5,
+  "macd": 1.7152,
+  "macd_signal": 1.3432,
+  "sma20": 240.4325,
+  "sma50": 236.0011,
+  "sma200": 229.2235,
+  "ema12": 242.732,
+  "ema26": 241.0168,
+  "pct_vs_sma20": 5.46,
+  "pct_vs_sma50": 7.44,
+  "pct_vs_sma200": 10.62,
+  "volume_today": 3776343,
+  "volume_avg20": 2152478.0,
+  "volume_ratio": 1.75,
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "price_percentile_1y": 84.2,
+  "vs_benchmark_30d_pct": -0.22,
+  "perf_1m_pct": 2.51,
+  "perf_ytd_pct": -1.6
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-08-10T19:39:53-04:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-08-10T19:39:53-04:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-08-10T19:39:53-04:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "SP:SPX",
+   "fetched_at": "2026-08-10T19:39:53-04:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/TTWO.json",
+   "n_days": 1
+  }
+ },
+ "metricChanges": [],
+ "perfil": "Take-Two desarrolla y publica videojuegos bajo tres sellos: Rockstar Games (Grand Theft Auto, Red Dead), 2K (NBA 2K, WWE 2K, Borderlands, Civilization) y Zynga (Toon Blast, Match Factory, Empires & Puzzles), vendiendo directamente al consumidor final en consola, PC y móvil, más publicidad in-game. En el ejercicio fiscal 2026 (cerrado en marzo de 2026) registró net bookings de 6.720 millones de dólares, 19% más que el año previo; el móvil aportó unos 3.300 millones (49%) y el gasto recurrente del consumidor (moneda virtual, pases, DLC, microtransacciones de GTA Online y NBA 2K) representó 78% del total, 5.200 millones. El dinero ya no proviene de vender unidades sino de monetizar comunidades instaladas en una cartera estrecha de franquicias. Debe considerarse siempre la dependencia de Rockstar y el riesgo binario de Grand Theft Auto VI, postergado dos veces y fijado al 19 de noviembre de 2026, la amortización de desarrollo capitalizado, la competencia por tiempo de pantalla y la regulación de loot boxes y privacidad móvil."
 }

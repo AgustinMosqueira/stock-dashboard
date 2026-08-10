@@ -127,5 +127,73 @@
    "tamano": "Posición moderada; valuación exigente y riesgo binario regulatorio ameritan no sobreponderar pese a la calidad del negocio",
    "confianza": "media"
   }
- }
+ },
+ "risk": {
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "n_days": 1,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "SP:SPX",
+  "label": "S&P 500",
+  "relative_performance_30d": -5.55,
+  "relative_performance_ytd": 40.18,
+  "price_percentile_1y": 79.2,
+  "partial": false
+ },
+ "technical": {
+  "price": 1733.48,
+  "change_1d_pct": -0.43,
+  "change_1w_pct": -0.43,
+  "rsi": 51.3,
+  "macd": -16.9502,
+  "macd_signal": -23.1543,
+  "sma20": 1715.3325,
+  "sma50": 1763.1362,
+  "sma200": 1412.5936,
+  "ema12": 1701.7348,
+  "ema26": 1718.6851,
+  "pct_vs_sma20": 1.06,
+  "pct_vs_sma50": -1.68,
+  "pct_vs_sma200": 22.72,
+  "volume_today": 1106898,
+  "volume_avg20": 1917616.0,
+  "volume_ratio": 0.58,
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "price_percentile_1y": 79.2,
+  "vs_benchmark_30d_pct": -5.55,
+  "perf_1m_pct": -2.83,
+  "perf_ytd_pct": 52.9
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-08-10T19:39:53-04:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-08-10T19:39:53-04:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-08-10T19:39:53-04:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "SP:SPX",
+   "fetched_at": "2026-08-10T19:39:53-04:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/ASML.json",
+   "n_days": 1
+  }
+ },
+ "metricChanges": [],
+ "perfil": "ASML diseña, fabrica y da servicio a los sistemas de litografía que imprimen los patrones de los circuitos sobre obleas de silicio, y los vende a un puñado de fabricantes de chips: TSMC, Samsung, Intel, Micron, SK Hynix y SMIC, junto con metrología y software de litografía computacional. Es el único proveedor mundial de EUV, incluida la generación High-NA. En 2025 facturó 32.700 millones de euros con margen bruto de 52,8% y utilidad neta de 9.600 millones (FY2025); unos 24.500 millones vinieron de venta de sistemas, de los cuales EUV fue 48% (11.600 millones, 48 unidades), y 8.200 millones de Installed Base Management, servicio y upgrades que crecieron 26% y estabilizan el ciclo. China aportó 33% de las ventas anuales. Siempre debe vigilarse la concentración extrema de clientes, la ciclicidad del capex de semiconductores mitigada por un backlog de 38.800 millones, la dependencia de proveedores únicos como Zeiss y Cymer, y el régimen de licencias de exportación holandés y estadounidense."
 }
