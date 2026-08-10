@@ -1,0 +1,102 @@
+name: Eliminar activo
+
+# Mecánico: NO usa Claude (gratis e instantáneo).
+#  - desde la app: botón "Eliminar del dashboard" → issue titulada "eliminar: TICKER"
+#  - desde GitHub: Actions → este workflow → Run workflow → escribes el ticker
+on:
+  workflow_dispatch:
+    inputs:
+      ticker:
+        description: "Ticker a eliminar del dashboard (ej. TSLA)"
+        required: true
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+env:
+  TZ: America/Santiago
+
+jobs:
+  eliminar:
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.issue.user.login == github.repository_owner &&
+       startsWith(github.event.issue.title, 'eliminar:'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ticker de la solicitud
+        id: req
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TICKER="${{ inputs.ticker }}"
+          else
+            TICKER=$(echo "${{ github.event.issue.title }}" | sed 's/^eliminar:[[:space:]]*//I' | awk '{print $1}')
+          fi
+          TICKER=$(echo "$TICKER" | tr '[:lower:]' '[:upper:]' | tr -cd 'A-Z0-9./-')
+          if [ -z "$TICKER" ]; then echo "Sin ticker en la solicitud"; exit 1; fi
+          echo "ticker=$TICKER" >> "$GITHUB_OUTPUT"
+
+      - name: Eliminar y reconstruir
+        id: run
+        run: |
+          set -o pipefail
+          python scripts/remove_asset.py "${{ steps.req.outputs.ticker }}" 2>&1 | tee /tmp/out.txt
+          python scripts/update_numbers.py 2>&1 | tail -5 | tee -a /tmp/out.txt
+
+      - name: Commit y publicación
+        if: always()
+        run: |
+          git config user.name "dashboard-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Eliminado del dashboard: ${{ steps.req.outputs.ticker }}"
+          git push || true
+
+      - name: Avisar por Telegram
+        if: always()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TICKER: ${{ steps.req.outputs.ticker }}
+          ESTADO: ${{ steps.run.outcome }}
+        run: |
+          [ -z "$TELEGRAM_BOT_TOKEN" ] && exit 0
+          if [ "$ESTADO" = "success" ]; then
+            MSG=$(printf '🗑 %s eliminado del dashboard. Su histórico quedó archivado por si vuelve.' "$TICKER")
+          else
+            MSG=$(printf '⚠️ No se pudo eliminar %s. Revisa los logs del workflow.' "$TICKER")
+          fi
+          curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
+            --data-urlencode "chat_id=$TELEGRAM_CHAT_ID" \
+            --data-urlencode "text=$MSG" > /dev/null
+
+      - name: Cerrar la solicitud con el resultado
+        if: always() && github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TICKER: ${{ steps.req.outputs.ticker }}
+          ESTADO: ${{ steps.run.outcome }}
+        run: |
+          {
+            if [ "$ESTADO" = "success" ]; then
+              echo "$TICKER fue eliminado del dashboard. Su histórico quedó archivado en data/history/_archive/ por si lo vuelves a agregar."
+            else
+              echo "No se pudo eliminar $TICKER. Detalle:"
+            fi
+            echo ""
+            echo '```'
+            tail -c 900 /tmp/out.txt 2>/dev/null
+            echo ""
+            echo '```'
+          } > /tmp/issue_comment.md
+          gh issue comment "${{ github.event.issue.number }}" --body-file /tmp/issue_comment.md
+          gh issue close "${{ github.event.issue.number }}" || true
