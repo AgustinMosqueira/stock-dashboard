@@ -89,6 +89,10 @@ COLS = ["close", "change", "change|1W", "RSI", "MACD.macd", "MACD.signal",
         "price_52_week_high", "price_52_week_low", "Perf.1M", "Perf.YTD"]
 
 SCANNER_ORIGIN = "TradingView scanner"
+# Activos cuyo símbolo TradingView NO se puede embeber en su moneda nativa
+# (la Bolsa de Tokio no licencia 6324 para widgets): el dashboard dibuja su
+# propio gráfico con los cierres diarios del histórico, en la moneda correcta.
+OWN_CHART = {"HDSY"}
 ECON_DAYS = 35  # ventana del calendario económico horneado
 
 # Re-clasificación curada a escala 1-5 (TradingView solo trae baja/media/alta).
@@ -358,6 +362,9 @@ def patch_asset(s, q, extras):
     s["sourcesMeta"] = extras["sourcesMeta"]
     if extras.get("trend") is not None:
         s["trend"] = extras["trend"]
+    if s["ticker"] in OWN_CHART:
+        hist = extras.get("history") or []
+        s["chartSeries"] = [[r["date"], r["close"]] for r in hist[-400:] if r.get("close") is not None]
     if "metricChanges" in extras:
         s["metricChanges"] = extras["metricChanges"]
     return s
