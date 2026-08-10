@@ -51,6 +51,7 @@ MAP = {
     "CCU":     ("BCS:CCU",      ("$", " CLP", 0, ".", ",")),
     "CMPC":    ("BCS:CMPC",     ("$", " CLP", 1, ".", ",")),
     "CENCOSUD": ("BCS:CENCOSUD", ("$", " CLP", 1, ".", ",")),
+    "MELI": ("NASDAQ:MELI", ("$", "", 2, ",", ".")),
     "BTC":     ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),
     # OJO: FX_IDC (ICE) viene ~0,35% desviado vs el cierre real chileno (verificado
     # 29-jul-2026 contra er-api, currency-api y cierre de mercado); VANTAGE calza.
@@ -72,6 +73,7 @@ BENCH = {
     "CLSK": ("CRYPTO:BTCUSD", "Bitcoin"),
     "MSTR": ("CRYPTO:BTCUSD", "Bitcoin"),
     "CENCOSUD": ("CBOE:ECH", "ECH (proxy Chile/IPSA)"),
+    "MELI": ("SP:SPX", "S&P 500"),
     "HDSY": ("TVC:NI225", "Nikkei 225"),
     "USD/CLP": ("TVC:DXY", "DXY"),
     "EUR/USD": ("TVC:DXY", "DXY"),
