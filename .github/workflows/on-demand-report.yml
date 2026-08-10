@@ -1,0 +1,144 @@
+name: Informe a pedido (Claude)
+
+# Se dispara AL INSTANTE (no es cron: no sufre los retrasos de los schedules):
+#  - desde la app: el botón "Solicitar informe" abre una issue titulada "informe: TICKER"
+#  - desde la app de GitHub: Actions → este workflow → Run workflow → escribes el ticker
+on:
+  workflow_dispatch:
+    inputs:
+      ticker:
+        description: "Ticker del activo (ej. MELI, PLTR, COST)"
+        required: true
+      symbol:
+        description: "Símbolo TradingView exacto (opcional, ej. NASDAQ:MELI)"
+        required: false
+        default: ""
+      nota:
+        description: "Contexto extra para el informe (opcional)"
+        required: false
+        default: ""
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: reports
+  cancel-in-progress: false
+
+env:
+  TZ: America/Santiago
+
+jobs:
+  informe:
+    # Solo el dueño del repo puede gatillarlo, y solo issues con el prefijo correcto
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.issue.user.login == github.repository_owner &&
+       startsWith(github.event.issue.title, 'informe:'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Parámetros de la solicitud
+        id: req
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TICKER="${{ inputs.ticker }}"; SYMBOL="${{ inputs.symbol }}"; NOTA="${{ inputs.nota }}"
+          else
+            # título: "informe: MELI" — el cuerpo puede traer el símbolo y notas
+            TICKER=$(echo "${{ github.event.issue.title }}" | sed 's/^informe:[[:space:]]*//I' | awk '{print $1}')
+            SYMBOL=$(echo "${{ github.event.issue.body }}" | grep -iEo '[A-Z]+:[A-Z0-9._]+' | head -1 || true)
+            NOTA="${{ github.event.issue.body }}"
+          fi
+          TICKER=$(echo "$TICKER" | tr '[:lower:]' '[:upper:]' | tr -cd 'A-Z0-9./-')
+          if [ -z "$TICKER" ]; then echo "Sin ticker en la solicitud"; exit 1; fi
+          echo "ticker=$TICKER" >> "$GITHUB_OUTPUT"
+          echo "symbol=$SYMBOL" >> "$GITHUB_OUTPUT"
+          {
+            echo "nota<<EOF"
+            echo "$NOTA"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "Solicitud recibida: $TICKER ${SYMBOL:+($SYMBOL)}"
+
+      - name: Instalar Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Investigar y escribir el informe
+        id: run
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          TICKER: ${{ steps.req.outputs.ticker }}
+          SYMBOL: ${{ steps.req.outputs.symbol }}
+          NOTA: ${{ steps.req.outputs.nota }}
+        run: |
+          set -o pipefail
+          claude -p "$(cat scripts/ONDEMAND_PROMPT.md)" \
+            --permission-mode acceptEdits \
+            --allowedTools "Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Agent,TodoWrite" \
+            2>&1 | tee /tmp/claude_out.txt
+          tail -c 900 /tmp/claude_out.txt > /tmp/claude_tail.txt
+
+      - name: Commit y publicación
+        if: always()
+        run: |
+          git config user.name "dashboard-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Informe a pedido: ${{ steps.req.outputs.ticker }}"
+          git push || true
+
+      - name: Avisar por Telegram
+        if: always()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TICKER: ${{ steps.req.outputs.ticker }}
+          ESTADO: ${{ steps.run.outcome }}
+        run: |
+          [ -z "$TELEGRAM_BOT_TOKEN" ] && exit 0
+          RESUMEN=$(cat /tmp/claude_tail.txt 2>/dev/null | tr -d '*_`[]' | head -c 700)
+          if [ "$ESTADO" = "success" ]; then
+            MSG=$(printf '✅ Informe a pedido listo: %s — ya visible en el dashboard.\n\n%s' "$TICKER" "$RESUMEN")
+          else
+            MSG=$(printf '⚠️ El informe a pedido de %s falló. Revisa los logs del workflow.\n\n%s' "$TICKER" "$RESUMEN")
+          fi
+          curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
+            --data-urlencode "chat_id=$TELEGRAM_CHAT_ID" \
+            --data-urlencode "text=$MSG" \
+            --data-urlencode "disable_web_page_preview=true" > /dev/null
+
+      - name: Cerrar la solicitud con el resultado
+        if: always() && github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TICKER: ${{ steps.req.outputs.ticker }}
+          ESTADO: ${{ steps.run.outcome }}
+        run: |
+          {
+            if [ "$ESTADO" = "success" ]; then
+              echo "Listo — el informe de $TICKER ya está publicado en el dashboard:"
+              echo "https://agustinmosqueira.github.io/stock-dashboard/"
+            else
+              echo "No se pudo completar el informe de $TICKER. Revisa los logs del workflow."
+            fi
+            echo ""
+            echo '```'
+            cat /tmp/claude_tail.txt 2>/dev/null | head -c 900
+            echo ""
+            echo '```'
+          } > /tmp/issue_comment.md
+          gh issue comment "${{ github.event.issue.number }}" --body-file /tmp/issue_comment.md
+          gh issue close "${{ github.event.issue.number }}" || true
