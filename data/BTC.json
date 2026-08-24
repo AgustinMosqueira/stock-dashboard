@@ -4,7 +4,7 @@
   "statsList": [
     [
       "Precio",
-      "$62.673 (3-ago-2026)"
+      "$77,247 (23-ago-2026)"
     ],
     [
       "Rango 52 sem.",
@@ -12,203 +12,235 @@
     ],
     [
       "Market cap",
-      "~US$1,25 billones; supply ~20,1M BTC (CoinGecko, 04/08/2026)"
+      "~US$1,54 billones; supply ~19,9M BTC (CoinGecko, 23/08/2026)"
     ],
     [
       "Dominancia BTC",
-      "~58,5%, bajando desde pico de 63% en jun-2026 (CryptoBriefing/CoinGecko, 03/08/2026)"
+      "~58%, estable en \"temporada Bitcoin\" (Altcoin Season Index 33-37) (Phemex/CoinGecko, 22/08/2026)"
     ],
     [
       "Flujos ETF spot",
-      "Jul-2026: +US$205M netos (mínimo histórico mensual); semana 27-31/jul: -US$61,5M (CoinDesk, 01/08/2026)"
+      "Semana 17-21/ago: +US$1.917M netos, 5ª sesión consecutiva de entradas (TFTC/CoinDesk, 21/08/2026)"
     ],
     [
       "Próximo evento",
-      "Reunión del FOMC (decisión de tasas) — 16-sep-2026"
+      "Discurso de Kevin Warsh en Jackson Hole — 28-ago-2026"
     ],
     [
       "Técnico (auto)",
-      "RSI 44 neutral-débil, precio bajo SMA20/50/200, MACD negativo, piso construyéndose sobre mínimo anual"
+      "RSI 78.7 · MACD +3307.44 / señal +1742.22 (TradingView, 23-ago-2026)"
     ]
   ],
   "technical": {
-    "price": 62673.02,
-    "change_1d_pct": -1.31,
-    "change_1w_pct": -1.31,
-    "rsi": 44.0,
-    "macd": -179.7777,
-    "macd_signal": 64.6163,
-    "sma20": 64316.989,
-    "sma50": 63284.2438,
-    "sma200": 70964.4168,
-    "ema12": 63700.954,
-    "ema26": 63880.7317,
-    "pct_vs_sma20": -2.56,
-    "pct_vs_sma50": -0.97,
-    "pct_vs_sma200": -11.68,
+    "price": 77246.82,
+    "change_1d_pct": -0.57,
+    "change_1w_pct": -0.57,
+    "rsi": 78.7,
+    "macd": 3307.4367,
+    "macd_signal": 1742.2234,
+    "sma20": 67417.805,
+    "sma50": 65421.9494,
+    "sma200": 69078.9393,
+    "ema12": 71599.3689,
+    "ema26": 68291.9322,
+    "pct_vs_sma20": 14.58,
+    "pct_vs_sma50": 18.07,
+    "pct_vs_sma200": 11.82,
     "volume_today": null,
     "volume_avg20": null,
     "volume_ratio": null,
-    "volatility_30d": 26.65,
-    "sharpe": -0.61,
-    "sortino": -0.59,
+    "volatility_30d": 65.49,
+    "sharpe": 6.51,
+    "sortino": 14.99,
     "max_drawdown_1y": -39.58,
-    "price_percentile_1y": 7.2,
-    "vs_benchmark_30d_pct": 0.81,
-    "perf_1m_pct": 0.26,
-    "perf_ytd_pct": -28.42
+    "price_percentile_1y": 28.5,
+    "vs_benchmark_30d_pct": 0.71,
+    "perf_1m_pct": 20.52,
+    "perf_ytd_pct": -11.77
   },
   "risk": {
-    "volatility_30d": 26.65,
-    "sharpe": -0.61,
-    "sortino": -0.59,
+    "volatility_30d": 65.49,
+    "sharpe": 6.51,
+    "sortino": 14.99,
     "max_drawdown_1y": -39.58,
-    "n_days": 312,
+    "n_days": 319,
     "window": 30
   },
   "benchmark": {
     "ticker": "CRYPTOCAP:TOTAL",
     "label": "Cripto total (ciclo)",
-    "relative_performance_30d": 0.81,
-    "relative_performance_ytd": -1.17,
-    "price_percentile_1y": 7.2,
+    "relative_performance_30d": 0.71,
+    "relative_performance_ytd": -0.34,
+    "price_percentile_1y": 28.5,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-08-03T06:59:30-04:00"
+      "fetched_at": "2026-08-23T21:28:00-04:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-08-03T06:59:30-04:00"
+      "fetched_at": "2026-08-23T21:28:00-04:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-08-03T06:59:30-04:00"
+      "fetched_at": "2026-08-23T21:28:00-04:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CRYPTOCAP:TOTAL",
-      "fetched_at": "2026-08-03T06:59:30-04:00"
+      "fetched_at": "2026-08-23T21:28:00-04:00"
     },
     "risk_metrics": {
       "origin": "data/history/BTC.json",
-      "n_days": 312
+      "n_days": 319
     }
   },
-  "metricChanges": [],
+  "metricChanges": [
+    {
+      "ticker": "BTC",
+      "date": "2026-08-23",
+      "metric": "percentil_1y",
+      "from": 7.7,
+      "to": 28.5
+    },
+    {
+      "ticker": "BTC",
+      "date": "2026-08-23",
+      "metric": "precio_pct",
+      "from": 63022.98,
+      "to": 77246.82
+    },
+    {
+      "ticker": "BTC",
+      "date": "2026-08-23",
+      "metric": "rsi",
+      "from": 43.16,
+      "to": 78.71
+    }
+  ],
   "trend": {
-    "piso": 1,
+    "piso": 0,
     "techo": 0,
     "max": 7,
-    "senales_piso": [
-      "base construyéndose sobre el mínimo anual"
-    ],
+    "senales_piso": [],
     "senales_techo": []
   },
-  "reportDate": "1 de agosto de 2026",
+  "reportDate": "23 de agosto de 2026",
   "change": {
-    "day": -1.31,
-    "week": -1.31
+    "day": -0.57,
+    "week": -0.57
   },
   "events": [
     {
-      "date": "2026-08-08",
-      "label": "Ajuste de dificultad de minería BTC",
-      "kind": "corporate",
-      "info": "Próximo retarget estimado con caída de ~-0,87% desde 126,23T, tras contracción de hashrate 2026 (CoinWarz, 03/08/2026)"
+      "date": "2026-08-28",
+      "label": "Discurso de Kevin Warsh en Jackson Hole",
+      "kind": "macro",
+      "info": "Primer discurso como próximo chair de la Fed en el Symposium de Jackson Hole (tema 2026: innovación financiera y pagos); el mercado buscará señales sobre ritmo de recortes de tasas y postura regulatoria hacia cripto (TechTimes, 21/08/2026)."
+    },
+    {
+      "date": "2026-09-15",
+      "label": "Voto de trámite del Senado sobre CLARITY Act",
+      "kind": "macro",
+      "info": "Cloture vote para habilitar el debate del proyecto de estructura de mercado cripto, ya aprobado en Cámara y en el comité del Senado (15-9); no es la votación final pero destraba (o vuelve a postergar) la ley (CoinDesk, 06/08/2026)."
     },
     {
       "date": "2026-09-16",
       "label": "Reunión del FOMC (decisión de tasas)",
       "kind": "macro",
       "time": "15:00",
-      "info": "Anuncio de tasas 2:00pm ET + conferencia de prensa 2:30pm ET; reunión con Summary of Economic Projections (Yahoo Finance/FedRateCalc, 29/07/2026)"
+      "info": "Anuncio de tasas 2:00pm ET + proyecciones económicas (dot plot); tasa actual 3,50%-3,75%, mercado atento a señales de recorte tras la intervención del Tesoro en bonos y el discurso de Jackson Hole (FedRateCalc, 21/08/2026)."
     }
   ],
   "sections": {
-    "resumen": "BTC cotiza en $62.673 (-1,31% diario), en el percentil 7% de su rango anual y -11,7% bajo su SMA200. HECHO: dominancia bajó de 63% (junio) a 58,5% (CryptoBriefing, 03/08/2026); ETFs spot cerraron julio con solo +US$205M netos, el peor mes desde su lanzamiento (CoinDesk, 01/08/2026). LECTURA: el mercado está digeriendo la corrección post-halving con flujos institucionales agotados pero sin pánico (Fear & Greed ~44-53, neutral). El piso técnico se está formando, aunque persiste debilidad frente a medias móviles largas.",
-    "fundamental": "- Market cap ~US$1,25 billones con supply circulante ~20,1M BTC de 21M máximo (CoinGecko, 04/08/2026).\n- Dominancia BTC ~58,5%, retrocediendo desde el máximo de 4 años (~63%, junio-2026) por rotación parcial hacia altcoins (CryptoBriefing, 03/08/2026).\n- Hashrate ~940 EH/s con dificultad 126,23T; 2026 registra la segunda caída interanual de dificultad en la historia de la red por economía minera débil y competencia de IA/HPC (Blockspace/CoinWarz, 03/08/2026).\n- Ciclo post-halving (abril-2024): ~2,3 años transcurridos; ETFs spot han diluido la relevancia del ciclo de 4 años clásico al superar 12x la oferta diaria de minería en flujos (Ryder.id, 2026).\n- MVRV: sin cifra puntual verificable para agosto-2026 en fuentes consultadas; se declara no verificable.",
-    "valuacion": "- Precio en percentil 7,2% de su rango de 12 meses — cerca de mínimos anuales, no de una valuación estirada (dato ya calculado, 03/08/2026).\n- -11,68% bajo SMA200 ($70.964), señal de mercado bajo tendencia de largo plazo tras el drawdown de -39,58% en 12 meses (dato ya calculado).\n- Rango 52 semanas US$57.750–US$126.200: precio actual a solo ~8% del piso anual (Investing.com/Yahoo Finance, 03/08/2026).\n- Realized Cap/MVRV histórico sugiere sobrevaluación >3,7 y infravaluación <1; sin lectura puntual confiable actual, pero contexto de precio bajo sugiere zona de MVRV moderado-bajo (LedgerMind, 2026, no verificable con precisión).\n- Rendimiento YTD -28,42% refleja re-precio significativo desde el pico de octubre-2025 (dato ya calculado).",
-    "tecnico": "- RSI 44 (neutral-débil, sin sobreventa extrema); MACD -179,8 bajo su señal (-64,6 vs señal 64,6 tras cruce negativo).\n- Precio bajo SMA20 (-2,56%), SMA50 (-0,97%) y SMA200 (-11,68%): estructura de corto y mediano plazo débil.\n- Volatilidad 30d 26,65%, Sharpe -0,61 y Sortino -0,59 en la ventana reciente: retorno ajustado a riesgo negativo.\n- HECHO: desempeño 30 días +0,81% vs benchmark cripto total (CRYPTOCAP:TOTAL), leve outperformance relativa pese a caída absoluta.\n- LECTURA: señal de piso construyéndose sobre el mínimo anual (percentil 7%), sin señales de techo; watch en reconquista de SMA50 ($63.284) como confirmación.",
-    "catalizadores": "**Catalizadores:**\n- Reunión del FOMC 16-sep-2026: un recorte o señal dovish reactivaría apetito de riesgo en cripto (FedRateCalc, 29/07/2026).\n- Reversión de flujos ETF: julio marcó el mínimo mensual (+US$205M); cualquier repunte institucional podría catalizar un rally (CoinDesk, 01/08/2026).\n- Ajuste de dificultad a la baja (08-ago) mejora economía marginal de mineros, reduciendo presión de venta forzada.\n- Rotación de altcoins de vuelta a BTC si el apetito de riesgo cripto se mantiene defensivo (dominancia aún elevada en 58,5%).\n\n**Riesgos (por materialidad):**\n- Riesgo regulatorio: cambios en tratamiento fiscal/custodia de ETFs o cripto en EE.UU. podrían frenar flujos institucionales.\n- Concentración de custodia: BlackRock y Fidelity dominan cada vez más el mercado de ETFs, generando riesgo de concentración sistémica (CoinDesk, 10/06/2026).\n- Movimientos de ballenas/mineros: wallets dormidas moviendo >US$1.000M (ej. 16.400 BTC el 03/08/2026) pueden anticipar ventas OTC que presionen el precio.\n- Continuidad de semanas de outflows ETF (3 de las últimas 5 semanas con flujos negativos) podría profundizar la corrección de corto plazo.",
-    "sentimiento": "- Fear & Greed Index en zona neutral (~44-53), lejos de extremos de pánico o euforia (Milk Road/CFGI.io, 03/08/2026).\n- HECHO: dominancia BTC cayendo desde el pico de junio (63%) sugiere rotación de capital hacia altcoins, típico de fases de consolidación, no de pánico.\n- LECTURA (contraria en extremos): sentimiento neutral-débil sin capitulación clara; no hay señal de fondo extremo ni de euforia que amerite lectura contraria fuerte.\n- Flujos ETF de julio fueron los más débiles desde el lanzamiento, reflejando cautela institucional más que rechazo (edgeX, 2026).\n- Actividad de ballenas mixta: acumulación neta en 2026 (compras casi igualan todo 2025) combinada con movimientos puntuales de custodia que generan ruido de corto plazo.\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 27/07/2026 | -US$11,6M | Salida moderada, cierre de racha de 3 semanas positivas (CoinDesk, 27/07/2026) |\n| 28/07/2026 | -US$49,8M | Segunda salida consecutiva |\n| 29/07/2026 | +US$32,1M | Rebote parcial de entradas |\n| 30/07/2026 | +US$233,1M | Mayor entrada diaria de la semana |\n| 31/07/2026 | -US$265,4M | Fuerte salida de cierre de mes, revierte semana |\n| Semana 27-31/jul | -US$61,5M neto | Primera semana negativa tras 3 semanas de inflows (COINOTAG, 01/08/2026) |\n| Julio 2026 (mes) | +US$205M neto | Mínimo mensual histórico desde enero-2024 (edgeX, 2026) |\n\nInstitucional: BlackRock (IBIT) y Fidelity (FBTC) concentran cada vez más el mercado de ETFs, consolidándose como un mercado de facto de dos firmas (CoinDesk, 10/06/2026). Ballenas: wallet dormiente movió 16.400 BTC (~US$1.040M) el 03/08/2026 tras 7 meses inactiva, hacia una wallet nueva (no exchange), sugiriendo reordenamiento de custodia más que venta inmediata (HokaNews/OnchainLens, 03/08/2026).",
-    "conclusion": "BTC opera cerca de mínimos anuales (percentil 7%) con estructura técnica débil pero sin señales de pánico extremo. El deterioro de flujos ETF en julio (mínimo histórico) y la caída de dominancia sugieren un mercado en pausa, no en colapso; el ajuste de dificultad minera y un FOMC potencialmente dovish en septiembre son catalizadores próximos. El riesgo principal no es la volatilidad ya vivida sino eventos de cola: regulación o ventas concentradas de ballenas/mineros. La asimetría favorece acumulación gradual en la zona actual, con paciencia ante la ausencia de una señal de vuelta técnica confirmada."
+    "resumen": "BTC cotiza en $77.372 (23-ago-2026), tras un rally que lo llevó a superar los $78.000 el 22-ago, la semana más fuerte desde 2024 (CNBC, 21/08/2026). HECHO: el impulso vino del anuncio del Tesoro de EE.UU. de duplicar recompras de bonos largos (Bessent, 20/08/2026) y del respaldo de Trump al CLARITY Act (Yahoo Finance, 20-21/08/2026); los ETFs spot sumaron +US$1.917M en la semana, quinta sesión consecutiva de entradas (TFTC, 21/08/2026). El Fear & Greed saltó de zona neutral a 77 \"Extreme Greed\" en días (Milk Road, 23/08/2026). LECTURA: el mercado pasó de piso técnico a reconquista vertical de tendencia, con RSI 79 en sobrecompra — el riesgo inmediato es de corrección de corto plazo, no de continuidad de la debilidad previa.",
+    "fundamental": "- Market cap ~US$1,54 billones, dominancia ~58% estable en \"temporada Bitcoin\" (Altcoin Season Index 33-37, lejos de altseason) (Phemex/CoinGecko, 22/08/2026).\n- ETFs spot: semana 17-21/ago sumó +US$1.917M netos en 5 sesiones seguidas positivas, revirtiendo la debilidad de julio (TFTC/CoinDesk, 21/08/2026).\n- MVRV ~1,21-1,24 y SOPR ~1,00 a inicios de agosto: valoración on-chain moderada, sin señales de sobrecalentamiento estructural (VanEck/AhaSignals, 08-12/08/2026).\n- Hashrate ~855 EH/s con dificultad ~126-127T, estable tras la corrección de 2026 (Hashrate Index, 17/08/2026).\n- CLARITY Act sigue sin convertirse en ley: Senado apunta a voto de trámite el 15-sep tras aprobarlo en comité 15-9 (CoinDesk, 06/08/2026).",
+    "valuacion": "- Precio en percentil 28,7% del rango de 12 meses, muy sobre el 7,7% de la semana pasada: ya no es \"barato vs su propia historia\" (dato ya calculado, 23/08/2026).\n- +12-18% sobre SMA20/50/200 tras reconquistarlas en días, revirtiendo el -8,98% bajo SMA200 de hace una semana (dato ya calculado).\n- Rango 52 semanas US$57.750-126.200: precio actual a ~39% del techo del ciclo, ya no cerca del piso (CoinGecko, 22/08/2026).\n- YTD mejoró a -11,63% desde -28% hace una semana; el rally recuperó gran parte de la corrección post-halving (dato ya calculado).\n- Standard Chartered proyecta US$100.000 a fin de año citando el bear market \"más superficial\" del ciclo (Yahoo Finance, 21/08/2026); LECTURA: alcista, pero ya parcialmente en el precio.",
+    "tecnico": "- RSI 79,3 en sobrecompra clara (>75), tras venir de 44 hace una semana: cambio de carácter fuerte con riesgo de corrección de corto plazo.\n- MACD +3.317 muy sobre su señal (+1.744): momentum fuerte, aunque la amplitud es típica de tramos finales de un impulso.\n- Precio +14,75%/+18,26%/+12,0% sobre SMA20/50/200: reconquista total de la estructura de tendencia, la señal más constructiva desde el halving.\n- Volatilidad 30d saltó a 65,9% (desde 26%) por la velocidad del movimiento; Sharpe/Sortino positivos reflejan el retorno ya obtenido, no menor riesgo futuro.\n- HECHO: +0,74% de desempeño relativo 30d vs benchmark cripto total — rally generalizado, no exclusivo de BTC (dato ya calculado).",
+    "catalizadores": "**Catalizadores:**\n- Discurso de Kevin Warsh en Jackson Hole (28-ago): primeras señales del futuro chair de la Fed sobre tasas y postura hacia cripto.\n- Voto de trámite del CLARITY Act en el Senado (15-sep): de avanzar, reduce incertidumbre regulatoria para cripto en EE.UU.\n- FOMC 16-sep: mercado descuenta sesgo dovish tras la intervención del Tesoro en bonos (Bessent, 20/08/2026).\n- Flujos ETF en racha positiva (5 sesiones); de sostenerse, refuerza la demanda institucional que faltó en julio.\n\n**Riesgos (por materialidad):**\n- Sobrecompra técnica (RSI 79, +18% sobre SMA50 en días): corrección de corto plazo es el escenario base tras un movimiento vertical.\n- Sentimiento en \"Extreme Greed\" (77): históricamente zona de toma de utilidades, no de nuevas entradas agresivas.\n- El CLARITY Act puede volver a postergarse (ya ocurrió en agosto) por desacuerdos en el Senado.\n- Concentración de ETFs en BlackRock/Fidelity mantiene riesgo de flujo sistémico ante un evento de rescate.",
+    "sentimiento": "- Fear & Greed saltó de zona neutral (44-53) a 77 \"Extreme Greed\" en una semana, cerca de niveles previos a correcciones (Milk Road/KuCoin, 22-23/08/2026).\n- LECTURA (contraria en extremos): euforia unánime tras un rally vertical suele anteceder pausas, no continuación lineal.\n- ETFs con 5 sesiones seguidas de entradas y +US$1.917M en la semana: institucionales persiguiendo el movimiento, no anticipándolo (TFTC, 21/08/2026).\n- BlackRock (IBIT) sigue concentrando la mayor parte de las entradas, consolidando el mercado de ETFs en pocos emisores (CoinDesk, 10/06/2026).\n- Altcoin Season Index en 33-37 (\"temporada Bitcoin\"): la rotación hacia BTC y no altcoins es típica de fases de apetito por calidad (Phemex, 22/08/2026).\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 17/08/2026 | +US$297,6M | Reinicio de entradas (TFTC) |\n| 18/08/2026 | +US$189,3M | Segunda sesión positiva |\n| 19/08/2026 | +US$517,2M | Mayor entrada en 3,5 meses (The Block) |\n| 20/08/2026 | +US$606,3M | Récord desde el 1-may (Yahoo Finance) |\n| 21/08/2026 | +US$307,0M | Quinta sesión consecutiva (CoinDesk) |\n| Semana 17-21/ago | +US$1.917,4M neto | Mejor semana desde la salida de mínimos anuales |\n| Agosto 2026 (acum.) | ~+US$1.500M neto | 9 de 13 sesiones con entradas (TFTC) |\n\nInstitucional: BlackRock (IBIT) lidera las compras del ETF, seguido por Fidelity y Franklin Templeton (CoinDesk, agosto). Ballenas: sin movimientos aislados >US$500M reportados en la semana del rally; el patrón dominante fue acumulación vía ETFs, no ventas de ballenas.",
+    "conclusion": "BTC subió con fuerza inusual — de US$63.000 a US$77.000 en una semana — de la mano de la intervención del Tesoro en bonos largos y el impulso al CLARITY Act, con ETFs en su mejor racha desde mayo. El pulso técnico mejoró de forma genuina (reconquista de las tres SMAs), pero RSI 79 y Fear & Greed 77 marcan sobrecompra y euforia que históricamente preceden pausas. La oportunidad de comprar barato vs su propia historia (percentil 7%) ya se cerró: hoy cotiza en percentil 29%, con menos margen de seguridad. Jackson Hole (28-ago), el voto del CLARITY Act (15-sep) y el FOMC (16-sep) son los catalizadores próximos a vigilar. Confianza media."
   },
   "scores": {
     "tecnica": {
-      "score": 42,
-      "just": "RSI neutral y piso formándose sobre mínimo anual son constructivos, pero precio bajo las 3 SMAs y MACD negativo pesan más; no hay sobreextensión que penalizar."
+      "score": 52,
+      "just": "Reconquista genuina de SMA20/50/200 tras un piso en mínimos anuales es un cambio de carácter real, pero RSI 79 y MACD muy extendido son sobrecompra clásica que descuenta la nota pese al momentum."
     },
     "fundamental": {
-      "score": 55,
-      "just": "Red sólida (hashrate ~940 EH/s pese a caída de dificultad) y adopción institucional estructural, contrarrestado por debilidad de flujos ETF de julio y dominancia en retroceso."
+      "score": 63,
+      "just": "Dominancia estable, MVRV moderado (~1,2, sin sobrecalentamiento) y ETFs revirtiendo su peor mes con 5 sesiones seguidas de entradas son constructivos; el CLARITY Act sigue sin ley."
     },
     "sentimiento": {
-      "score": 50,
-      "just": "Fear & Greed neutral (44-53) sin extremos que ameriten lectura contraria fuerte; flujos ETF débiles pero sin pánico generalizado."
+      "score": 30,
+      "just": "Fear & Greed saltó a 77 \"Extreme Greed\" en días: euforia unánime que, leída en contrario, es una señal de cautela y no de continuidad del rally."
     },
     "riesgo": {
-      "score": 45,
-      "just": "Volatilidad 30d de 26,65% es propia del activo, no señal de deterioro estructural; el riesgo real está en concentración de custodia (BlackRock/Fidelity) y eventos de ballenas/regulación, no en el drawdown ya vivido."
+      "score": 40,
+      "just": "Volatilidad 30d se disparó a 65,9% por la velocidad del movimiento; el riesgo relevante hoy no es pérdida permanente sino reversión de corto plazo tras una subida vertical de +22% en una semana."
     },
     "conviccion": {
-      "score": 58,
-      "just": "Asimetría atractiva en percentil 7% de rango anual con catalizador FOMC próximo, pero sin confirmación técnica de piso ni reversión de flujos institucionales aún."
+      "score": 47,
+      "just": "La asimetría que existía en percentil 7% ya se cerró en gran parte; persisten catalizadores fechados (Jackson Hole, CLARITY Act, FOMC) pero perseguir el rally aquí ofrece menos margen de seguridad."
     }
   },
   "sources": [
-    "CoinGecko, 04/08/2026 - Bitcoin Price Today",
-    "CryptoBriefing, 03/08/2026 - Bitcoin dominance surges past 58% as institutional capital floods into BTC over altcoins",
-    "CoinDesk, 01/08/2026 - Bitcoin ETFs on track for their smallest monthly inflows ever",
-    "COINOTAG, 01/08/2026 - Bitcoin (BTC) Spot ETFs Post $61.53M Weekly Outflow",
-    "CoinDesk, 27/07/2026 - Bitcoin ETFs post third straight weekly inflows despite $465 million in late-week losses",
-    "edgeX, 2026 - Bitcoin ETF Inflows Hit Record Low of $205M in July 2026",
-    "CoinDesk, 10/06/2026 - BlackRock and Fidelity are quietly turning bitcoin ETFs into a two-firm market",
-    "Blockspace/Hashrate Index, 2026 - Bitcoin difficulty falls year over year for only second time",
-    "CoinWarz, 03/08/2026 - Bitcoin Difficulty Chart",
-    "Milk Road / CFGI.io, 03/08/2026 - Crypto Fear & Greed Index",
-    "HokaNews, 03/08/2026 - Bitcoin Whale Moves $31.9 Million in BTC to Binance",
-    "FedRateCalc / Yahoo Finance, 29/07/2026 - FOMC Meeting Schedule 2026",
-    "Investing.com/Yahoo Finance, 03/08/2026 - Bitcoin 52-week range",
-    "Ryder.id, 2026 - Bitcoin Halving Cycle 2026: Two Years In, Where It Sits"
+    "CoinGecko, 23/08/2026 - Bitcoin (BTC) Price, Market Cap, Dominance",
+    "CNBC, 21/08/2026 - Bitcoin surges 22% for the week as investor optimism floods back",
+    "Bloomberg, 21/08/2026 - Bitcoin Leaps Past $75,000 as Crypto Rally Continues in Asia",
+    "Yahoo Finance, 20/08/2026 - Crypto prices surge after President Trump pushes for Clarity Act",
+    "Yahoo Finance, 21/08/2026 - Cryptos continue rally sparked by Treasury repurchase announcement",
+    "The Rio Times, 22/08/2026 - Bitcoin Tops US$78,000 as Crypto Rally Widens",
+    "TFTC.io, 21/08/2026 - Bitcoin ETF Flows: August 2026 — Daily Table & Net Totals",
+    "The Block, 20/08/2026 - Spot bitcoin ETFs report $517 million in net inflows, largest in 3.5 months",
+    "Yahoo Finance, 20/08/2026 - Bitcoin ETFs Post $606 Million Inflow, Biggest Since May 1",
+    "CoinDesk, 21/08/2026 - Live updates: Bitcoin/ether ETFs pull in $800 million as inflows surge for a second day",
+    "Milk Road / CFGI.io, 23/08/2026 - Crypto Fear & Greed Index",
+    "KuCoin, 22/08/2026 - Crypto Fear & Greed Index Reaches 71-74, Near Pre-2011 Crash Levels",
+    "Phemex, 22/08/2026 - Bitcoin Dominance Climbs to 58% as Altcoins Bleed",
+    "Hashrate Index, 17/08/2026 - Hashrate Index Roundup",
+    "VanEck, 12/08/2026 - Mid-August 2026 Bitcoin ChainCheck",
+    "AhaSignals, 08/08/2026 - Bitcoin MVRV Z-Score Today",
+    "TechTimes, 21/08/2026 - Jackson Hole 2026: What to Watch When Warsh Steps to the Podium",
+    "CoinDesk, 06/08/2026 - Senate won't vote on crypto Clarity Act before its summer break",
+    "FedRateCalc, 21/08/2026 - FOMC Meeting Schedule September 2026"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 72,
-        "just": "Percentil 7,2% del rango de 12 meses y -39,58% de drawdown máximo colocan a BTC en zona históricamente barata dentro de su propio ciclo."
+        "score": 40,
+        "just": "Percentil 28,7% del rango de 12 meses, muy por sobre el 7,7% de la semana pasada: BTC ya no cotiza barato vs su propia historia reciente."
       },
       "calidad": {
-        "score": 65,
-        "just": "Red robusta y liquidez institucional (ETFs, custodia regulada), aunque concentración en 2 emisores y caída de hashrate son señales de fragilidad relativa."
+        "score": 68,
+        "just": "Red y adopción institucional siguen sólidas (ETFs en racha positiva, MVRV moderado sin sobrecalentamiento), con vientos regulatorios algo más favorables (CLARITY Act avanzando)."
       },
       "asimetria": {
-        "score": 68,
-        "just": "Cerca de mínimos anuales con catalizador macro definido (FOMC sep-2026); downside limitado por soporte histórico ~$57.750."
+        "score": 42,
+        "just": "Tras +22% en una semana el upside inmediato a nuevos máximos es menor y el downside a un pullback técnico (SMA50/200 ~$65-69k) es más probable en el corto plazo."
       },
       "catalizadores": {
-        "score": 55,
-        "just": "FOMC de septiembre y posible reversión de flujos ETF son catalizadores concretos pero sin certeza de timing ni magnitud."
+        "score": 58,
+        "just": "Ruta fechada clara en 3-8 semanas (Jackson Hole 28-ago, voto CLARITY Act 15-sep, FOMC 16-sep), aunque el resultado de cada uno es incierto."
       },
       "contrarian": {
-        "score": 60,
-        "just": "Sentimiento neutral (no eufórico) y flujos institucionales deprimidos ofrecen punto de entrada contra-consenso moderado, sin ser capitulación extrema."
+        "score": 25,
+        "just": "Fear & Greed en \"Extreme Greed\" (77) es señal de euforia, no de pesimismo extremo: el punto de entrada contrarian ya pasó con el precio en mínimos anuales."
       }
     },
     "plan": {
-      "recomendacion": "Acumular en zona",
-      "zona_compra": "US$58.000–63.000, con foco en reforzar posición si se acerca a US$57.750 (mínimo 52 semanas)",
-      "invalidacion": "Quiebre sostenido bajo US$57.000 con salida acelerada de ETFs y ruptura de soporte de ciclo",
+      "recomendacion": "Mantener / Observar",
+      "zona_compra": "N/A por ahora; reevaluar acumulación si retrocede a US$63.000-68.000 (zona SMA50/SMA200)",
+      "invalidacion": "Cierre semanal bajo US$68.000 (SMA200) que anule la reconquista de tendencia",
       "gatillos": [
-        "Reversión a flujos ETF netos positivos por 2+ semanas consecutivas",
-        "Recuperación de SMA50 ($63.284) con volumen",
-        "Señal dovish clara en FOMC 16-sep-2026"
+        "Consolidación sobre US$75.000 con RSI normalizando bajo 70",
+        "Avance efectivo del CLARITY Act en el voto de trámite del 15-sep",
+        "Flujos ETF sostenidos varias semanas más tras el rally, no solo el rebote inicial"
       ],
       "horizonte": "6-18 meses",
-      "tamano": "Posición moderada, escalonada en 3-4 tramos",
+      "tamano": "Posición reducida por ahora; evitar perseguir el rally vertical y esperar un pullback para agregar tamaño",
       "confianza": "media"
     }
-  }
+  },
+  "perfil": "Bitcoin no es una empresa sino una red de liquidación entre pares con libro contable público, emisión fijada por software y un techo terminal de 21 millones de unidades. Su seguridad es económica: los mineros gastan electricidad para producir prueba de trabajo y compiten por un subsidio hoy de 3,125 BTC por bloque, que se recorta a la mitad hacia marzo de 2028. El presupuesto de seguridad (~$45 millones diarios) proviene casi íntegramente de ese subsidio: las comisiones colapsaron a una fracción marginal, lo que deja abierta la pregunta de si podrán reemplazarlo. Del lado de la demanda el mercado dejó de ser minorista: los ETFs spot concentran ~1,3 millones de BTC (~6% de la oferta), más tesorerías corporativas y mandatos institucionales. Lo estructural: es un activo de altísima duración y beta a la liquidez global que en shocks se comporta como riesgo y no como oro; la tenencia está concentrada en pocos vehículos y exchanges, generando reflexividad entre flujos y precio; y la regulación sigue siendo el principal vector exógeno."
 }

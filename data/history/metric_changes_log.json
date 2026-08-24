@@ -243,5 +243,54 @@
 "metric": "precio_pct",
 "from": 855.34,
 "to": 971.66
+},
+{
+"ticker": "BTC",
+"date": "2026-08-23",
+"metric": "percentil_1y",
+"from": 7.7,
+"to": 28.5
+},
+{
+"ticker": "BTC",
+"date": "2026-08-23",
+"metric": "precio_pct",
+"from": 63022.98,
+"to": 77246.82
+},
+{
+"ticker": "BTC",
+"date": "2026-08-23",
+"metric": "rsi",
+"from": 43.16,
+"to": 78.71
+},
+{
+"ticker": "CENCOSUD",
+"date": "2026-08-23",
+"metric": "rsi",
+"from": 37.55,
+"to": 58.56
+},
+{
+"ticker": "HDSY",
+"date": "2026-08-23",
+"metric": "precio_pct",
+"from": 6510,
+"to": 5680
+},
+{
+"ticker": "MSTR",
+"date": "2026-08-23",
+"metric": "precio_pct",
+"from": 93.04,
+"to": 119.25
+},
+{
+"ticker": "MSTR",
+"date": "2026-08-23",
+"metric": "rsi",
+"from": 43.27,
+"to": 66.07
 }
 ]
