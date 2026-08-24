@@ -511,6 +511,13 @@ def main():
     subprocess.run([sys.executable, str(HERE / "build.py"), FECHA], check=True, cwd=HERE)
     # 4) index.html para GitHub Pages
     (HERE / "index.html").write_text((HERE / "stock-dashboard.html").read_text())
+    # 4b) Pages sirve la RAÍZ del repo (despliegue por rama), así que los archivos del
+    #     PWA tienen que estar ahí: si no, sw.js/manifest/íconos dan 404 y la app deja
+    #     de actualizarse en los dispositivos donde ya estaba instalada.
+    import shutil
+    for f in (HERE / "pwa").glob("*"):
+        if f.is_file():
+            shutil.copy2(f, HERE / f.name)
     print(f"  ✓ dashboard reconstruido (stock-dashboard.html + index.html) con fecha {FECHA}")
     for tk, q in quotes.items():
         e = extras[tk]

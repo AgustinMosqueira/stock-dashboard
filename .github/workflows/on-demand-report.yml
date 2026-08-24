@@ -92,13 +92,11 @@ jobs:
           tail -c 900 /tmp/claude_out.txt > /tmp/claude_tail.txt
 
       - name: Commit y publicación
+        id: push
         if: always()
         run: |
-          git config user.name "dashboard-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add -A
-          git diff --cached --quiet || git commit -m "Informe a pedido: ${{ steps.req.outputs.ticker }}"
-          git push || true
+          scripts/safe_push.sh "Informe a pedido: ${{ steps.req.outputs.ticker }}" \
+            "${{ steps.req.outputs.ticker }}" "${{ steps.req.outputs.symbol }}"
 
       - name: Avisar por Telegram
         if: always()
@@ -106,14 +104,14 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TICKER: ${{ steps.req.outputs.ticker }}
-          ESTADO: ${{ steps.run.outcome }}
+          ESTADO: ${{ (steps.run.outcome == 'success' && steps.push.outcome == 'success') && 'success' || 'failure' }}
         run: |
           [ -z "$TELEGRAM_BOT_TOKEN" ] && exit 0
           RESUMEN=$(cat /tmp/claude_tail.txt 2>/dev/null | tr -d '*_`[]' | head -c 700)
           if [ "$ESTADO" = "success" ]; then
             MSG=$(printf '✅ Informe a pedido listo: %s — ya visible en el dashboard.\n\n%s' "$TICKER" "$RESUMEN")
           else
-            MSG=$(printf '⚠️ El informe a pedido de %s falló. Revisa los logs del workflow.\n\n%s' "$TICKER" "$RESUMEN")
+            MSG=$(printf '⚠️ El informe a pedido de %s NO quedó publicado. Revisa los logs del workflow.\n\n%s' "$TICKER" "$RESUMEN")
           fi
           curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
             --data-urlencode "chat_id=$TELEGRAM_CHAT_ID" \
@@ -125,7 +123,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           TICKER: ${{ steps.req.outputs.ticker }}
-          ESTADO: ${{ steps.run.outcome }}
+          ESTADO: ${{ (steps.run.outcome == 'success' && steps.push.outcome == 'success') && 'success' || 'failure' }}
         run: |
           {
             if [ "$ESTADO" = "success" ]; then

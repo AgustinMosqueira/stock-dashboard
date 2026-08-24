@@ -2412,4 +2412,32 @@
   if ("serviceWorker" in navigator && location.protocol === "https:") {
     navigator.serviceWorker.register("sw.js").catch(() => {});
   }
+
+  // — Comprobación de versión: garantiza que TODOS los dispositivos vean la última
+  //   publicación. El navegador (o el service worker) puede servir un index.html viejo
+  //   de su caché; version.json se pide siempre con no-store, así que si el build
+  //   publicado no coincide con el que tiene esta pestaña, se recarga saltando la caché.
+  const BUILD_ID = "__BUILD_ID__";
+  let recargando = false;
+  async function chequearVersion() {
+    if (recargando || location.protocol !== "https:") return;
+    try {
+      const r = await fetch("version.json?t=" + Date.now(), { cache: "no-store" });
+      if (!r.ok) return;
+      const v = await r.json();
+      if (!v.build || v.build === BUILD_ID) return;
+      recargando = true;
+      // vaciamos la caché del service worker para que no vuelva a servir lo viejo
+      if (window.caches) { try { for (const k of await caches.keys()) await caches.delete(k); } catch (e) {} }
+      if (navigator.serviceWorker) {
+        try {
+          const regs = await navigator.serviceWorker.getRegistrations();
+          await Promise.all(regs.map((x) => x.update().catch(() => {})));
+        } catch (e) {}
+      }
+      location.reload();
+    } catch (e) { /* sin conexión: seguimos con lo horneado */ }
+  }
+  chequearVersion();
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) chequearVersion(); });
 </script>
