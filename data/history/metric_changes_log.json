@@ -292,5 +292,54 @@
 "metric": "rsi",
 "from": 43.27,
 "to": 66.07
+},
+{
+"ticker": "BTC",
+"date": "2026-09-02",
+"metric": "rsi",
+"from": 82.18,
+"to": 64.79
+},
+{
+"ticker": "CCU",
+"date": "2026-09-02",
+"metric": "rsi",
+"from": 70.61,
+"to": 51.39
+},
+{
+"ticker": "EUR/USD",
+"date": "2026-09-02",
+"metric": "rsi",
+"from": 70.0,
+"to": 52.01
+},
+{
+"ticker": "NVDA",
+"date": "2026-09-02",
+"metric": "percentil_1y",
+"from": 61.3,
+"to": 83.3
+},
+{
+"ticker": "TTWO",
+"date": "2026-09-02",
+"metric": "percentil_1y",
+"from": 58.6,
+"to": 36.4
+},
+{
+"ticker": "USD/CLP",
+"date": "2026-09-02",
+"metric": "percentil_1y",
+"from": 49.3,
+"to": 70.2
+},
+{
+"ticker": "USD/CLP",
+"date": "2026-09-02",
+"metric": "rsi",
+"from": 43.47,
+"to": 64.78
 }
 ]

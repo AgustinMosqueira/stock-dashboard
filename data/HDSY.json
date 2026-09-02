@@ -1,237 +1,264 @@
 {
-  "ticker": "HDSY",
-  "company": "Harmonic Drive Systems Inc.",
-  "statsList": [
-    [
-      "Precio",
-      "¥6.330 (3-ago-2026)"
-    ],
-    [
-      "Rango 52 sem.",
-      "¥2.316 – ¥9.150"
-    ],
-    [
-      "Listado",
-      "Bolsa de Tokio: 6324"
-    ],
-    [
-      "Market cap",
-      "≈¥627.600 millones (companiesmarketcap, ago-2026)"
-    ],
-    [
-      "P/E",
-      "≈82-143x TTM (dispersión alta por ganancia extraordinaria ¥4,8B); fair P/E estimado ~41x (Simply Wall St, jul-2026)"
-    ],
-    [
-      "Target consenso",
-      "≈¥6.491 promedio, +5,7% vs cierre (MarketScreener, ago-2026)"
-    ],
-    [
-      "Próx. earnings",
-      "7-ago-2026, Q1 FY3/27, ~15:30 JST"
-    ],
-    [
-      "Técnico (auto)",
-      "RSI 44,6 · MACD -401,2 bajo señal · Precio -8,5% vs SMA20, +33,7% vs SMA200"
-    ]
+ "ticker": "HDSY",
+ "company": "Harmonic Drive Systems Inc.",
+ "statsList": [
+  [
+   "Precio",
+   "¥5,320 (2-sep-2026)"
   ],
-  "technical": {
-    "price": 6330,
-    "change_1d_pct": 3.09,
-    "change_1w_pct": 3.09,
-    "rsi": 44.6,
-    "macd": -401.1745,
-    "macd_signal": -283.5312,
-    "sma20": 6917.5,
-    "sma50": 7265.8,
-    "sma200": 4734.775,
-    "ema12": 6382.9213,
-    "ema26": 6784.0958,
-    "pct_vs_sma20": -8.49,
-    "pct_vs_sma50": -12.88,
-    "pct_vs_sma200": 33.69,
-    "volume_today": 1592300,
-    "volume_avg20": 1444860.0,
-    "volume_ratio": 1.1,
-    "volatility_30d": 96.03,
-    "sharpe": -0.7,
-    "sortino": -0.64,
-    "max_drawdown_1y": -38.13,
-    "price_percentile_1y": 58.7,
-    "vs_benchmark_30d_pct": -12.09,
-    "perf_1m_pct": -19.26,
-    "perf_ytd_pct": 64.42
+  [
+   "Rango 52 sem.",
+   "¥2.316 – ¥9.150"
+  ],
+  [
+   "Listado",
+   "Bolsa de Tokio: 6324"
+  ],
+  [
+   "Market cap",
+   "≈¥534.870 millones (Investing.com, 01-sep-2026), -15% desde fines de agosto por la caída del precio"
+  ],
+  [
+   "P/E",
+   "≈380-571x TTM (dispersión alta, base deprimida FY3/26); forward ~90-100x usando guidance neto FY3/27 (StockAnalysis, CompaniesMarketCap, ago-2026)"
+  ],
+  [
+   "Target consenso",
+   "Muy disperso entre fuentes (¥4.400-6.800): no verificable con precisión, revisiones en curso tras el reporte"
+  ],
+  [
+   "Próx. earnings",
+   "Q2 FY3/27, fecha aún no confirmada (estimado principios de nov-2026)"
+  ],
+  [
+   "Técnico (auto)",
+   "RSI 35.0 · MACD -324.70 / señal -297.23 (TradingView, 2-sep-2026)"
+  ]
+ ],
+ "technical": {
+  "price": 5320,
+  "change_1d_pct": -5.51,
+  "change_1w_pct": -7.48,
+  "rsi": 35.0,
+  "macd": -324.6985,
+  "macd_signal": -297.2302,
+  "sma20": 6144.0,
+  "sma50": 6769.8,
+  "sma200": 5063.83,
+  "ema12": 5794.9469,
+  "ema26": 6119.6454,
+  "pct_vs_sma20": -13.41,
+  "pct_vs_sma50": -21.42,
+  "pct_vs_sma200": 5.06,
+  "volume_today": 1064300,
+  "volume_avg20": 1294650.0,
+  "volume_ratio": 0.82,
+  "volatility_30d": 100.56,
+  "sharpe": -1.01,
+  "sortino": -0.9,
+  "max_drawdown_1y": -40.16,
+  "price_percentile_1y": 44.0,
+  "vs_benchmark_30d_pct": -11.51,
+  "perf_1m_pct": -10.74,
+  "perf_ytd_pct": 38.18
+ },
+ "risk": {
+  "volatility_30d": 100.56,
+  "sharpe": -1.01,
+  "sortino": -0.9,
+  "max_drawdown_1y": -40.16,
+  "n_days": 319,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "TVC:NI225",
+  "label": "Nikkei 225",
+  "relative_performance_30d": -11.51,
+  "relative_performance_ytd": 12.08,
+  "price_percentile_1y": 44.0,
+  "partial": false
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-02T16:20:20-04:00"
   },
-  "risk": {
-    "volatility_30d": 96.03,
-    "sharpe": -0.7,
-    "sortino": -0.64,
-    "max_drawdown_1y": -38.13,
-    "n_days": 312,
-    "window": 30
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-02T16:20:20-04:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-02T16:20:20-04:00"
   },
   "benchmark": {
-    "ticker": "TVC:NI225",
-    "label": "Nikkei 225",
-    "relative_performance_30d": -12.09,
-    "relative_performance_ytd": 39.43,
-    "price_percentile_1y": 58.7,
-    "partial": false
+   "origin": "TradingView scanner",
+   "symbol": "TVC:NI225",
+   "fetched_at": "2026-09-02T16:20:20-04:00"
   },
-  "sourcesMeta": {
-    "price": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-08-03T06:59:30-04:00"
-    },
-    "rsi_macd": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-08-03T06:59:30-04:00"
-    },
-    "smas_volume": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-08-03T06:59:30-04:00"
-    },
-    "benchmark": {
-      "origin": "TradingView scanner",
-      "symbol": "TVC:NI225",
-      "fetched_at": "2026-08-03T06:59:30-04:00"
-    },
-    "risk_metrics": {
-      "origin": "data/history/HDSY.json",
-      "n_days": 312
-    }
-  },
-  "metricChanges": [
-    {
-      "ticker": "HDSY",
-      "date": "2026-07-31",
-      "metric": "precio_pct",
-      "from": 5500,
-      "to": 6140
-    },
-    {
-      "ticker": "HDSY",
-      "date": "2026-07-27",
-      "metric": "precio_pct",
-      "from": 6560,
-      "to": 5940
-    },
-    {
-      "ticker": "HDSY",
-      "date": "2026-07-22",
-      "metric": "score",
-      "from": 44,
-      "to": 56
-    },
-    {
-      "ticker": "HDSY",
-      "date": "2026-07-21",
-      "metric": "precio_pct",
-      "from": 6470,
-      "to": 7150
-    }
-  ],
-  "trend": {
-    "piso": 1,
-    "techo": 0,
-    "max": 7,
-    "senales_piso": [
-      "histograma MACD girando al alza"
-    ],
-    "senales_techo": []
-  },
-  "reportDate": "1 de agosto de 2026",
-  "change": {
-    "day": 3.09,
-    "week": 3.09
-  },
-  "events": [
-    {
-      "date": "2026-08-07",
-      "label": "Resultados Q1 FY3/27",
-      "kind": "earnings",
-      "time": "03:30",
-      "info": "Reporte ~15:30 JST (03:30 Chile). Guidance FY3/27 ya publicado: ventas ¥68.000M (+14,2%), oper. income ¥6.200M (+141,5%), neto ¥4.500M (+179,7%) tras año de utilidad deprimida (TDnet 13-may-2026). Foco en actualización de pedidos de robots humanoides."
-    }
-  ],
-  "sections": {
-    "resumen": "HDSY subió 3,1% en la sesión pero acumula caída de 19,3% en el mes; el mercado corrige tras el rally de pedidos de robots humanoides. HECHO: guidance FY3/27 proyecta recuperación fuerte de utilidades tras un FY3/26 con neto -53,7%. LECTURA: la valuación exige que ese pipeline de humanoides se materialice; earnings del 7-ago será el primer test de esa narrativa.",
-    "fundamental": "- HECHO: FY3/26 ventas ¥59.557M (+7,0% i.a.), oper. income ¥2.567M, neto ¥1.608M (-53,7% i.a.) (TDnet 13-may-2026).\n- HECHO: guidance FY3/27: ventas ¥68.000M (+14,2%), oper. income ¥6.200M (+141,5%), neto ¥4.500M (+179,7%) (TDnet 13-may-2026).\n- HECHO: revisión al alza de guidance FY3/26 el 24-abr-2026 por robots y equipos de semiconductores en Japón/Norteamérica (TDnet).\n- HECHO: pedidos ligados a humanoides ≈¥1.300M en 2T, proyección ¥2.500M en FY3/26, con posible duplicación/triplicación en FY3/27 por clientes de EE.UU. (Investing.com, jul-2026).\n- LECTURA: negocio automotriz débil (cliente Nissan) compensado por robótica industrial y semis; recuperación de márgenes aún no confirmada en cifras trimestrales.",
-    "valuacion": "- HECHO: P/E TTM disperso entre 82x y 143x-571x según fuente/período, distorsionado por ganancia extraordinaria de ¥4.800M (Simply Wall St, GuruFocus, jul-2026).\n- LECTURA: fair P/E estimado ~41x vs. industria japonesa de maquinaria ~13-15x y peers ~19-34x: valuación exige ejecución perfecta del pipeline humanoide.\n- HECHO: target consenso ≈¥6.491, +5,7% vs. último cierre (MarketScreener, ago-2026).\n- HECHO: market cap ≈¥627.600M (companiesmarketcap, ago-2026), sube desde ≈¥599.000M hace pocos días junto al precio.\n- No verificable en fuentes en inglés: desglose de EV/EBITDA o guía de márgenes por segmento; revisar IR Japan / TDnet directamente.",
-    "tecnico": "- HECHO: precio ¥6.330, +3,09% en el día, RSI 44,6 (zona neutral, sin sobreventa) (TradingView, 3-ago-2026).\n- HECHO: MACD -401,2 bajo señal -283,5, histograma aún negativo pero girando al alza (señal de piso incipiente).\n- HECHO: precio -8,5% vs SMA20 y -12,9% vs SMA50, pero +33,7% vs SMA200: corrección dentro de tendencia alcista mayor.\n- HECHO: caída de 19,3% en el último mes y -38,1% de drawdown máximo a 1 año pese a +64,4% YTD.\n- LECTURA: volumen 1,1x el promedio 20d sugiere participación normal, no pánico vendedor ni clímax comprador.",
-    "catalizadores": "**Catalizadores:**\n- Resultados Q1 FY3/27 el 7-ago-2026: primer chequeo del guidance de recuperación de márgenes.\n- Actualización de pedidos de robots humanoides de clientes norteamericanos (posible duplicación/triplicación en FY3/27).\n- Nuevo plan de mediano plazo 2026-2030 en discusión (Simply Wall St, 2026).\n- Recuperación cíclica en equipos de semiconductores y robótica industrial en Japón.\n\n**Riesgos (por materialidad):**\n- Competencia china creciente (Beijing CTKM, Leaderdrive ~8% share global) presionando precios en reductores armónicos.\n- Debilidad persistente en clientes automotrices (Nissan) sigue lastrando un segmento histórico.\n- Valuación exige ejecución perfecta; P/E muy por sobre fair value y peers implica alto riesgo de múltiplo si decepciona el pipeline humanoide.\n- Adopción de robots humanoides a escala sigue siendo incierta en el corto plazo pese al entusiasmo actual.",
-    "sentimiento": "- HECHO: 8 analistas recomiendan comprar, 1 vender; rating consenso 'Buy' (fuentes agregadas, ago-2026).\n- HECHO: acción saltó tras julio con comentarios optimistas sobre pedidos humanoides en la presentación de resultados.\n- LECTURA: tras el rally, la corrección de -19% en el mes sugiere toma de utilidades más que cambio de tesis; RSI neutral no confirma pánico.\n- LECTURA (contrarian): entusiasmo mediático alto sobre humanoides puede estar ya reflejado en el precio; vigilar si earnings decepciona expectativas ya elevadas.\n- No verificable en fuentes en inglés: ratings específicos de casas japonesas (Nomura, Daiwa, SMBC Nikko); revisar IR Japan/Bloomberg Japan directamente.",
-    "conclusion": "HDSY combina una tesis de crecimiento real (contenido crítico en robots humanoides, recuperación de márgenes FY3/27) con una valuación que ya descuenta mucho optimismo (P/E muy sobre fair value) y competencia china emergente. Técnicamente en fase de corrección sana dentro de tendencia alcista de largo plazo (+33,7% vs SMA200). El 7-ago es el catalizador clave de corto plazo: confirmar o decepcionar el guidance de recuperación."
-  },
-  "scores": {
-    "tecnica": {
-      "score": 52,
-      "just": "MACD girando al alza (piso incipiente) y RSI neutral tras corrección de -19% mensual, pero aún bajo SMA20/50; no hay sobreextensión ni pánico, señal mixta que premia el cambio de carácter incipiente."
-    },
-    "fundamental": {
-      "score": 58,
-      "just": "Guidance FY3/27 proyecta fuerte recuperación de utilidades (+180% neto) y pedidos humanoides en expansión, pero FY3/26 mostró caída de neto -53,7% y dependencia de pocos clientes/mercados (Nissan, EE.UU.)."
-    },
-    "sentimiento": {
-      "score": 45,
-      "just": "Consenso 'Buy' mayoritario y entusiasmo mediático alto por humanoides; leído en contrario, ese optimismo ya luce parcialmente incorporado en el precio tras el rally YTD +64%."
-    },
-    "riesgo": {
-      "score": 35,
-      "just": "Volatilidad extrema (30d 96%, drawdown máx -38%) y valuación muy exigente distinguen riesgo de pérdida de múltiplo (no solo volatilidad) ante competencia china y ejecución incierta del pipeline humanoide."
-    },
-    "conviccion": {
-      "score": 50,
-      "just": "Asimetría moderada: tesis de largo plazo intacta y catalizador confirmado en 3 días, pero valuación ya exigente limita el margen de seguridad al precio actual."
-    }
-  },
-  "sources": [
-    "MarketScreener, 04/08/2026 - Target Price Consensus and Analysts Recommendations 6324",
-    "companiesmarketcap.com, 04/08/2026 - Harmonic Drive Systems Market Capitalization",
-    "Investing.com, 2026 - This Japanese stock is surging on positive outlook for humanoid robot orders",
-    "BigGo Finance (TDnet), 24/04/2026 - Notice Regarding Revision of Full-Year Earnings Forecast FY March 2026",
-    "BigGo Finance (TDnet), 13/05/2026 - Consolidated Financial Results for FY March 2026 [Japanese GAAP]",
-    "Simply Wall St, 2026 - Harmonic Drive Systems (TSE:6324): Is Robotics Growth Driving an Overvalued Stock?",
-    "Simply Wall St, 2026 - A Look At Harmonic Drive Systems (TSE:6324) Valuation As Its Board Prepares A New Medium Term Plan",
-    "GuruFocus, 2026 - HSYDF EV-to-FCF y ratios de valuación",
-    "Stockopedia, 2026 - Harmonic Drive Systems Share Price, Forecast & Financials (TYO:6324)",
-    "Yahoo Finance, 04/08/2026 - Harmonic Drive Systems Inc. (6324.T) 52-week range"
-  ],
-  "opportunity": {
-    "cats": {
-      "valuacion_hist": {
-        "score": 30,
-        "just": "P/E TTM 82-143x muy por sobre fair P/E ~41x e industria japonesa ~13-15x; caro incluso ajustando por crecimiento esperado."
-      },
-      "calidad": {
-        "score": 55,
-        "just": "Balance sólido y posición dominante en nicho técnico (Harmonic Drive AG ~85% share global), pero neto FY3/26 cayó -53,7% y depende de pocos clientes (automotriz, semis, ahora humanoides EE.UU.)."
-      },
-      "asimetria": {
-        "score": 50,
-        "just": "Potencial alto si pedidos humanoides se duplican/triplican en FY3/27, pero downside significativo si valuación se corrige ante decepción; simétrico más que asimétrico al precio actual."
-      },
-      "catalizadores": {
-        "score": 65,
-        "just": "Earnings confirmado en 3 días con guidance ya publicado de fuerte recuperación; actualización de pedidos humanoides es catalizador de corto plazo claro."
-      },
-      "contrarian": {
-        "score": 40,
-        "just": "Consenso ya mayoritariamente 'Buy' y narrativa humanoide muy popular en medios; poco valor contrarian, aunque la corrección reciente de -19% mensual ofrece entrada más barata que el pico."
-      }
-    },
-    "plan": {
-      "recomendacion": "Mantener / Observar",
-      "zona_compra": "¥5.800-6.300, cerca de SMA20/50 tras confirmación de piso técnico",
-      "invalidacion": "Cierre semanal bajo ¥5.500 (soporte de fines de julio) o guidance FY3/27 decepcionante el 7-ago",
-      "gatillos": [
-        "Resultados Q1 FY3/27 (7-ago-2026) confirmando trayectoria de márgenes",
-        "Nuevas cifras concretas de pedidos humanoides de clientes norteamericanos",
-        "Estabilización técnica sobre SMA20 con volumen creciente"
-      ],
-      "horizonte": "6-18 meses",
-      "tamano": "Posición pequeña-media, ampliable tras confirmación post-earnings",
-      "confianza": "media"
-    }
+  "risk_metrics": {
+   "origin": "data/history/HDSY.json",
+   "n_days": 319
   }
+ },
+ "metricChanges": [
+  {
+   "ticker": "HDSY",
+   "date": "2026-08-23",
+   "metric": "precio_pct",
+   "from": 6510,
+   "to": 5680
+  },
+  {
+   "ticker": "HDSY",
+   "date": "2026-08-10",
+   "metric": "precio_pct",
+   "from": 7160,
+   "to": 6380
+  },
+  {
+   "ticker": "HDSY",
+   "date": "2026-08-05",
+   "metric": "precio_pct",
+   "from": 6840,
+   "to": 7390
+  },
+  {
+   "ticker": "HDSY",
+   "date": "2026-08-04",
+   "metric": "precio_pct",
+   "from": 6330,
+   "to": 6840
+  },
+  {
+   "ticker": "HDSY",
+   "date": "2026-07-31",
+   "metric": "precio_pct",
+   "from": 5500,
+   "to": 6140
+  },
+  {
+   "ticker": "HDSY",
+   "date": "2026-07-27",
+   "metric": "precio_pct",
+   "from": 6560,
+   "to": 5940
+  },
+  {
+   "ticker": "HDSY",
+   "date": "2026-07-22",
+   "metric": "score",
+   "from": 44,
+   "to": 56
+  },
+  {
+   "ticker": "HDSY",
+   "date": "2026-07-21",
+   "metric": "precio_pct",
+   "from": 6470,
+   "to": 7150
+  }
+ ],
+ "trend": {
+  "piso": 1,
+  "techo": 0,
+  "max": 7,
+  "senales_piso": [
+   "divergencia RSI alcista"
+  ],
+  "senales_techo": []
+ },
+ "reportDate": "2 de septiembre de 2026",
+ "change": {
+  "day": -5.51,
+  "week": -7.48
+ },
+ "events": [
+  {
+   "date": "2026-11-06",
+   "label": "Resultados Q2 FY3/27 (fecha estimada, no confirmada)",
+   "kind": "earnings",
+   "info": "Fecha aún no confirmada por la compañía; estimada según el patrón trimestral (Q1 reportado 07-ago-2026). El mercado buscará confirmar si el guidance FY3/27 elevado (ventas ¥74.500M, neto ¥6.000M) se sostiene y si los pedidos de humanoides se repiten sin el componente médico one-time del Q1."
+  }
+ ],
+ "sections": {
+  "resumen": "HDSY se desploma otro 5,5% hoy y acumula -7,5% en la semana, extendiendo la caída que arrancó tras los resultados del 7-ago: el mercado castigó el reporte pese a que la empresa batió su propio plan trimestral y ELEVÓ el guidance FY3/27 (ventas +25,1%, utilidad neta +272,9%). HECHO: el EPS del trimestre quedó por debajo del consenso de analistas (-78% de sorpresa) aunque ventas y órdenes crecieron con fuerza (+23,6% y +55,7% i.a.). LECTURA: la acción rompe SMA20/50 y se acerca a perder SMA200 por primera vez en el año, pero volumen bajo y una divergencia alcista de RSI sugieren agotamiento vendedor más que pánico fundamentado.",
+  "fundamental": "- HECHO: Q1 FY3/27 (abr-jun): ventas ¥16.680M (+23,6% i.a.), oper. income ¥1.840M vs ¥122M año previo, margen 11,0% (BigGo Finance/TDnet, 07-08-2026).\n- HECHO: pedidos ¥24.130M (+55,7% i.a.), ≈¥3.000M son pedidos médicos no recurrentes (BigGo Finance, 07-08-2026).\n- HECHO: guidance FY3/27 elevado: ventas ¥74.500M (+25,1%), neto ¥6.000M (+272,9%) (TipRanks, 07-08-2026).\n- LECTURA: pese al beat operativo, el EPS quedó bajo el consenso ya elevado, explicando gran parte de la reacción negativa.\n- LECTURA: automotriz (Nissan) sigue débil; recuperación depende de semis/robótica y de que los pedidos 'one-time' se repitan.",
+  "valuacion": "- HECHO: P/E TTM disperso entre 380x y 571x, distorsionado por la base deprimida de FY3/26 (StockAnalysis, CompaniesMarketCap, Investing.com, ago-2026).\n- LECTURA: con el guidance neto FY3/27 (¥6.000M) el forward P/E ronda 90-100x — caro vs. maquinaria industrial japonesa (~13-15x).\n- HECHO: market cap ≈¥534.870M (Investing.com, 01-09-2026), -15% desde fines de agosto.\n- LECTURA: target consenso disperso entre proveedores (¥4.400-6.800): no verificable con precisión.\n- HECHO: percentil de precio a 1 año en 44%, justo bajo la mediana de su propio rango pese al +38% YTD.",
+  "tecnico": "- HECHO: precio ¥5.320, -5,51% en el día y -7,48% en la semana; RSI 35,0, sin sobreventa extrema (TradingView, 02-09-2026).\n- HECHO: MACD -324,70 bajo señal -297,23, pero la brecha se angostó fuerte vs. hace una semana (-313 vs -239): pierde momentum bajista.\n- HECHO: -13,4% vs SMA20, -21,4% vs SMA50, apenas +5,1% sobre SMA200 — a un paso de romper la tendencia alcista de largo plazo.\n- HECHO: volumen 0,82x el promedio de 20 días pese a la caída: sin volumen de pánico.\n- LECTURA: el detector interno marca divergencia alcista de RSI (piso incipiente), a confirmar con precio.",
+  "catalizadores": "**Catalizadores:**\n- Resultados Q2 FY3/27, fecha aún no confirmada (estimado nov-2026): primer test de si el guidance elevado se sostiene.\n- Confirmación de que los pedidos humanoides de EE.UU. no eran solo el componente médico 'one-time' del trimestre.\n- Recuperación cíclica en semis/AI compute que sostiene la demanda de equipos de manufactura.\n- Estabilización técnica si se confirma la divergencia alcista de RSI con reconquista de SMA20.\n\n**Riesgos (por materialidad):**\n- Ruptura de SMA200 (la primera del año) confirmaría cambio de tendencia de largo plazo, no solo corrección.\n- ≈¥3.000M de pedidos médicos 'one-time' inflan el crecimiento de órdenes (+55,7%); sin repetición, el ritmo real es menor.\n- Competencia china: Leaderdrive ~18% de share global, HDSI+Leaderdrive concentran >63% del mercado (ResearchAndMarkets, 2026).\n- Valuación forward (~90-100x) sigue exigiendo ejecución casi perfecta pese a la caída de 26% desde el pico.",
+  "sentimiento": "- HECHO: consenso de analistas mayoritariamente 'Buy' pero con fuerte dispersión de price targets entre proveedores tras el reporte (múltiples fuentes, ago-sep 2026).\n- HECHO: la acción cayó ~11% en la sesión siguiente al reporte (10-ago-2026) pese al beat operativo y la mejora de guidance.\n- LECTURA (contrarian): castigar tan fuerte una elevación de guidance FY3/27 (+272,9% neto) sugiere pesimismo ya extremo, no un deterioro real del negocio.\n- LECTURA: sin ratings específicos de casas japonesas (Nomura, Daiwa, SMBC Nikko) verificables en fuentes en inglés — declarado como laguna de cobertura.",
+  "conclusion": "HDSY combina un negocio que mejoró (guidance FY3/27 elevado, ventas y órdenes creciendo con fuerza) con un precio que cayó 26% desde el reporte del 7-ago, ampliando el margen de seguridad pero sin confirmar aún un piso técnico: la acción está a un paso de perder la SMA200 por primera vez en el año. La divergencia alcista de RSI y el volumen bajo en la caída son señales tempranas de agotamiento vendedor, no una confirmación. Con el próximo catalizador (Q2 FY3/27) recién en noviembre, conviene esperar confirmación técnica o de que los pedidos no médicos sostengan el ritmo antes de aumentar exposición."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 55,
+   "just": "La caída de -7,5% semanal no es momentum puro: RSI 35 sin sobreventa extrema, volumen 0,82x (sin pánico) y una divergencia alcista de RSI detectada automáticamente sugieren piso en formación, aunque el quiebre de SMA200 aún no se confirma."
+  },
+  "fundamental": {
+   "score": 60,
+   "just": "El guidance FY3/27 elevado (+272,9% neto) y un Q1 que batió el propio plan de la empresa mejoran la base fundamental, pero ≈¥3.000M de pedidos médicos one-time y un EPS bajo consenso matizan la fuerza real de la recuperación."
+  },
+  "sentimiento": {
+   "score": 50,
+   "just": "Consenso 'Buy' mayoritario pero targets muy dispersos; leído en contrario, la dureza de la caída (-11% al día siguiente del reporte) pese a mejor guidance sugiere pesimismo ya extremo más que deterioro genuino del negocio."
+  },
+  "riesgo": {
+   "score": 38,
+   "just": "Volatilidad extrema (30d ~100%) y valuación forward aún exigente (~90-100x) mantienen alto el riesgo de pérdida de múltiplo, aunque la caída de 26% desde el pico amplía algo el margen de seguridad frente al guidance elevado."
+  },
+  "conviccion": {
+   "score": 53,
+   "just": "La asimetría mejoró tras el castigo del precio pese a un guidance mejor, pero sin confirmación técnica de piso ni catalizador inmediato (próximo reporte recién en noviembre) la convicción se mantiene moderada."
+  }
+ },
+ "sources": [
+  "BigGo Finance (TDnet), 07/08/2026 - [6324.T FY2026 Q1 Earnings Call] sharply raises full-year operating profit forecast",
+  "TipRanks, 07/08/2026 - Harmonic Drive Systems Swings Back to Profit and Lifts FY2027 Outlook",
+  "TipRanks, 2026 - Harmonic Drive Systems Issues 1Q FY 2027 Results With Caution on Outlook",
+  "Investing.com, 01/09/2026 - Harmonic Drive Systems Inc Stock Price Today (TYO:6324)",
+  "StockAnalysis.com, 2026 - Harmonic Drive Systems (TYO:6324) Statistics & Valuation Metrics",
+  "companiesmarketcap.com, 2026 - Harmonic Drive Systems Market Capitalization / P/E ratio",
+  "ResearchAndMarkets, 2026 - Harmonic Drive Market Size, Competitors & Forecast to 2030 (Leaderdrive share)",
+  "TradingView scanner, 02/09/2026 - datos técnicos y de precio",
+  "Simply Wall St, 2026 - Harmonic Drive Systems (TSE:6324): Is Robotics Growth Driving an Overvalued Stock?"
+ ],
+ "opportunity": {
+  "cats": {
+   "valuacion_hist": {
+    "score": 38,
+    "just": "Forward P/E ~90-100x sigue muy por sobre la industria japonesa (~13-15x) pese a la caída; percentil de precio 1 año en 44% ubica al activo apenas bajo la mediana de su propio rango, no realmente barato."
+   },
+   "calidad": {
+    "score": 55,
+    "just": "Balance sólido y liderazgo técnico en reductores armónicos (~50% share histórico), pero la ganancia FY3/26 aún está deprimida, el cliente automotriz (Nissan) sigue débil y parte del salto de pedidos no es recurrente."
+   },
+   "asimetria": {
+    "score": 58,
+    "just": "El precio cae 26% desde el pico post-guidance mientras la compañía elevó su proyección de utilidad neta +272,9% para el año: mejora el punto de entrada, aunque el quiebre de SMA200 aún no confirma un piso."
+   },
+   "catalizadores": {
+    "score": 58,
+    "just": "El próximo reporte (Q2 FY3/27) recién llega en noviembre y sin fecha confirmada; el catalizador inmediato de humanoides quedó parcialmente empañado por el componente médico one-time del trimestre."
+   },
+   "contrarian": {
+    "score": 55,
+    "just": "La reacción negativa pese al guidance elevado sugiere pesimismo ya bastante extendido, aunque el consenso sigue siendo mayoritariamente 'Buy': señal contraria moderada, no extrema."
+   }
+  },
+  "plan": {
+   "recomendacion": "Esperar gatillo",
+   "zona_compra": "¥4.800-5.300, en torno y bajo la SMA200 (¥5.064)",
+   "invalidacion": "Cierre semanal bajo ¥4.800 (pérdida confirmada de la SMA200 y de los mínimos del año) o revisión a la baja del guidance FY3/27",
+   "gatillos": [
+    "Reconquista de la SMA20 (¥6.144) con volumen creciente",
+    "Confirmación de pedidos humanoides recurrentes (no one-time) en el próximo trimestre",
+    "Materialización en el precio de la divergencia alcista de RSI"
+   ],
+   "horizonte": "6-18 meses",
+   "tamano": "Posición pequeña, ampliable solo tras confirmación técnica de piso",
+   "confianza": "media"
+  }
+ },
+ "perfil": "Harmonic Drive Systems fabrica reductores de precisión de onda de deformación, el componente que convierte el giro rápido de un motor en el par alto y sin juego que necesita una articulación robótica, además de servoactuadores y mecatrónica. Vende a integradores y OEMs de robótica industrial, semiconductores, máquina-herramienta, aeroespacial y médica, con ventas de ~¥55.700M (ejercicio a marzo de 2025) y márgenes muy comprimidos por el ciclo de semiconductores y una capacidad instalada sobre la demanda actual: apalancamiento operativo extremo, que colapsa en la baja y se multiplica en la alta. Es líder global con ~50% de cuota, con un moat de proceso (tolerancias, metalurgia, know-how) reforzado por lo lento que es rehomologar un componente crítico. La opcionalidad es el humanoide, donde reductor y actuador pueden ser 30-60% del costo de cada articulación. El riesgo central es dónde se fabricará ese humanoide: los productores chinos pasaron de ~15% del mercado en 2022 a ~38% en 2024 presionando precios, así que el peligro no es perder volumen sino quedar acorralado en el nicho premium."
 }
