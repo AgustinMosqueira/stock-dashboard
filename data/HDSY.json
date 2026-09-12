@@ -4,11 +4,11 @@
   "statsList": [
     [
       "Precio",
-      "¥5,790 (8-sep-2026)"
+      "¥5.790 (11-sep-2026)"
     ],
     [
       "Rango 52 sem.",
-      "¥2.316 – ¥9.150"
+      "¥2.416 – ¥9.150"
     ],
     [
       "Listado",
@@ -16,89 +16,89 @@
     ],
     [
       "Market cap",
-      "≈¥600.000-650.000 millones estimado (precio 8-sep-2026 sobre base de ≈¥542.440M en ago-2026; no hay cifra fresca verificada, LECTURA: ajustar proporcional al alza del precio desde entonces)"
+      "≈¥557.600 millones (~US$3,6-3,7 mil millones a ¥154/USD; Kabutan, 11-sep-2026)"
     ],
     [
       "P/E",
-      "≈380-571x TTM (base deprimida FY3/26); forward comprime tras revisión de guidance del 7-ago-2026 (beneficio operativo FY3/27 ¥8.500M, +231% i.a.), pero múltiplo exacto no recalculado por fuente primaria (StockAnalysis, CompaniesMarketCap, ago-2026)"
+      "≈91,3x TTM · P/B ≈6,74x (Kabutan, 11-sep-2026); múltiplo forward no recalculado por fuente primaria tras guidance del 7-ago-2026"
     ],
     [
       "Target consenso",
-      "Promedio agregadores ≈¥7.731 (TipRanks, rango ¥3.300-¥11.000, 11 analistas, snapshot ago-sep 2026); Goldman Sachs habría elevado su objetivo individual a ¥10.000 según blog financiero japonés (note.com, 17-may-2026) y reafirmó tesis humanoide en informe sectorial del 31-ago-2026 (Investing.com) — cifras de precio objetivo NO verificadas contra informe original, tratar como LECTURA de fuentes secundarias"
+      "≈¥8.396 (TipRanks, 7 analistas, Moderate Buy, 11-sep-2026, rango ¥5.800-¥11.000); otros agregadores dan ≈¥7.731 (StockAnalysis) — cifras de bancos (Goldman ¥11.000, Jefferies ¥10.000, Citi ¥9.700) LECTURA de agregador, no verificadas contra informe original"
     ],
     [
       "Próx. earnings",
-      "5-nov-2026 (estimado por agregadores de mercado, fecha aún no confirmada formalmente por TDnet)"
+      "~inicios nov-2026 (estimaciones divergentes: 5-nov según TipRanks/moomoo, 11-nov según MarketScreener; fecha oficial no confirmada en TDnet ni calendario IR)"
     ],
     [
       "Técnico (auto)",
-      "RSI 45.9 · MACD -230.21 / señal -275.85 (TradingView, 8-sep-2026)"
+      "RSI 45.3 · MACD -184.90 / señal -244.30 (TradingView, 10-sep-2026)"
     ]
   ],
   "technical": {
-    "price": 5790,
-    "change_1d_pct": 1.58,
-    "change_1w_pct": 1.4,
-    "rsi": 45.9,
-    "macd": -230.2074,
-    "macd_signal": -275.8523,
-    "sma20": 5852.0,
-    "sma50": 6589.2,
-    "sma200": 5138.865,
-    "ema12": 5766.2732,
-    "ema26": 5996.4805,
-    "pct_vs_sma20": -1.06,
-    "pct_vs_sma50": -12.13,
-    "pct_vs_sma200": 12.67,
-    "volume_today": 83300,
-    "volume_avg20": 1180400.0,
-    "volume_ratio": 0.07,
-    "volatility_30d": 102.71,
-    "sharpe": -0.95,
-    "sortino": -0.85,
+    "price": 5740,
+    "change_1d_pct": -4.01,
+    "change_1w_pct": 0.17,
+    "rsi": 45.3,
+    "macd": -184.8987,
+    "macd_signal": -244.3002,
+    "sma20": 5776.5,
+    "sma50": 6508.2,
+    "sma200": 5170.165,
+    "ema12": 5793.3581,
+    "ema26": 5978.2568,
+    "pct_vs_sma20": -0.63,
+    "pct_vs_sma50": -11.8,
+    "pct_vs_sma200": 11.02,
+    "volume_today": 95800,
+    "volume_avg20": 1096580.0,
+    "volume_ratio": 0.09,
+    "volatility_30d": 99.22,
+    "sharpe": -0.96,
+    "sortino": -0.87,
     "max_drawdown_1y": -40.16,
-    "price_percentile_1y": 50.1,
-    "vs_benchmark_30d_pct": -15.11,
-    "perf_1m_pct": -15.97,
-    "perf_ytd_pct": 50.39
+    "price_percentile_1y": 49.3,
+    "vs_benchmark_30d_pct": -6.24,
+    "perf_1m_pct": -11.42,
+    "perf_ytd_pct": 49.09
   },
   "risk": {
-    "volatility_30d": 102.71,
-    "sharpe": -0.95,
-    "sortino": -0.85,
+    "volatility_30d": 99.22,
+    "sharpe": -0.96,
+    "sortino": -0.87,
     "max_drawdown_1y": -40.16,
-    "n_days": 322,
+    "n_days": 324,
     "window": 30
   },
   "benchmark": {
     "ticker": "TVC:NI225",
     "label": "Nikkei 225",
-    "relative_performance_30d": -15.11,
-    "relative_performance_ytd": 22.29,
-    "price_percentile_1y": 50.1,
+    "relative_performance_30d": -6.24,
+    "relative_performance_ytd": 24.56,
+    "price_percentile_1y": 49.3,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-08T21:29:50-03:00"
+      "fetched_at": "2026-09-10T21:26:46-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-08T21:29:50-03:00"
+      "fetched_at": "2026-09-10T21:26:46-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-08T21:29:50-03:00"
+      "fetched_at": "2026-09-10T21:26:46-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "TVC:NI225",
-      "fetched_at": "2026-09-08T21:29:50-03:00"
+      "fetched_at": "2026-09-10T21:26:46-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/HDSY.json",
-      "n_days": 322
+      "n_days": 324
     }
   },
   "metricChanges": [
@@ -171,94 +171,96 @@
     "senales_techo": []
   },
   "change": {
-    "day": 1.58,
-    "week": 1.4
+    "day": -4.01,
+    "week": 0.17
   },
-  "reportDate": "9 de septiembre de 2026",
+  "reportDate": "11 de septiembre de 2026",
   "events": [
     {
       "date": "2026-09-29",
-      "label": "Fecha ex-dividendo (¥20/acción, sin cambios)",
+      "label": "Fecha ex-dividendo (¥10/acción a cuenta, guidance anual ¥20/acción sin cambios)",
       "kind": "corporate",
-      "info": "Fecha ex-dividendo estimada según agregadores de mercado; dividendo estable de ¥20/acción confirmado en guidance FY3/27 del 7-ago-2026. No confirmado directamente en TDnet."
+      "info": "Fecha ex-dividendo estimada por agregadores; dividendo intermedio de ¥10/acción y anual de ¥20/acción confirmados en guidance FY3/27 del 7-ago-2026. No confirmado directamente contra TDnet original."
     },
     {
       "date": "2026-11-05",
-      "label": "Q2 FY3/27 (semestre a sep-2026)",
+      "label": "Q2 FY3/27 (semestre a sep-2026), fecha estimada",
       "kind": "earnings",
-      "info": "Fecha estimada por patrón trimestral, aún no confirmada oficialmente por TDnet. El mercado buscará confirmar si el guidance FY3/27 elevado (beneficio operativo +231% i.a.) se sostiene y si el cliente norteamericano de robots humanoides amplía pedidos."
+      "info": "Estimaciones de agregadores divergen entre 5-nov (TipRanks/moomoo) y 11-nov-2026 (MarketScreener); ninguna fecha oficial confirmada en TDnet ni en calendario IR de la empresa. El mercado buscará si el guidance elevado (beneficio operativo +231% i.a.) se sostiene y si el 'cliente norteamericano' de humanoides se identifica o amplía pedidos."
     }
   ],
   "sections": {
-    "resumen": "HDSY (Harmonic Drive Systems, TSE 6324) cotiza en ¥5.790 (8-sep-2026), recuperando tras un Q1 FY3/27 (jun-2026) que sorprendió al alza: ventas +23,6% i.a. y pedidos de robots +especialmente fuertes desde 'un cliente norteamericano' no identificado, con guidance FY3/27 revisado a beneficio operativo +231% i.a. (agregadores de TDnet, 7-ago-2026). La tesis humanoide sigue viva (Goldman Sachs, informe sectorial 31-ago-2026), pero la competencia china (Green Harmonic, proveedor de Optimus) ya presiona: ventas en China -18,3% i.a. en el trimestre. Cobertura en inglés limitada y fragmentada; gran parte de esta actualización depende de agregadores, no de fuente primaria TDnet ni informes de research originales.",
-    "fundamental": "- HECHO: Q1 FY3/27 (abr-jun 2026): ventas ¥16.680M (+23,6% i.a.), beneficio operativo ¥1.840M, neto ¥1.270M; pedidos consolidados ¥24.100M (+55,7% i.a.) (agregadores TDnet, 7-ago-2026).\n- HECHO: Guidance FY3/27 elevado el mismo día: ventas ¥74.500M (+25,1%), beneficio operativo ¥8.500M (+231%), dividendo estable ¥20/acción (agregadores TDnet, 7-ago-2026).\n- HECHO: Pedidos de 'AI robots' abr-jun 2026 de ¥1.200-1.250M, más del doble de lo esperado, atribuidos a cliente norteamericano sin nombrar (Investing.com/BigGo Finance, 7-ago-2026).\n- LECTURA: la caída de -18,3% i.a. en ventas de China es la primera señal cuantitativa de presión competitiva regional, aunque la empresa no lo atribuyó explícitamente a rivales locales (fuente: mismo reporte).\n- No verificable en fuentes en inglés: posible segunda revisión de guidance a inicios de sep-2026 mencionada por TipRanks/Simply Wall St; podría ser repetición del anuncio de agosto.",
-    "valuacion": "- HECHO: P/E TTM ≈380-571x por base de utilidades deprimida en FY3/26 (StockAnalysis, ago-2026).\n- LECTURA: el forward P/E se comprime materialmente si se sostiene el guidance de beneficio operativo +231% para FY3/27, pero ningún agregador publicó el múltiplo forward recalculado tras el 7-ago-2026.\n- HECHO: consenso agregado de precio objetivo ≈¥7.731 (rango ¥3.300-¥11.000, 11 analistas, TipRanks); implica potencial pero con dispersión extrema, señal de desacuerdo profundo sobre cuánto humanoide ya está en el precio.\n- No verificable en fuentes en inglés: nivel exacto y fecha del objetivo de Goldman Sachs (¥10.000 citado solo por blog japonés secundario) y de un eventual upgrade de Jefferies a ¥10.000 desde ¥3.000.\n- LECTURA: con la acción ya +50% YTD y habiendo tocado ¥9.150 intra-año, gran parte del catalizador humanoide-2035 de Goldman (6,48M unidades, ~$138.000M mercado) ya podría estar parcialmente descontada.",
-    "tecnico": "- HECHO: RSI 45,9 y MACD -230,21 bajo señal -275,85 (TradingView, 8-sep-2026): momentum neutro-débil, sin sobreextensión.\n- HECHO: precio (¥5.790) está -12,13% vs SMA50 y +12,67% vs SMA200: corrección de mediano plazo dentro de tendencia alcista de base más amplia.\n- LECTURA: volumen de hoy es solo 7% del promedio de 20 días (83.300 vs 1.180.400), lo que puede reflejar secado de vendedores tras la caída de agosto, consistente con las señales de piso ya detectadas (divergencia RSI, MACD girando, volumen vendedor agotándose).\n- HECHO: drawdown máximo a 1 año de -40,16% y volatilidad anualizada de 102,71%, perfil de alta beta típico de nombre de momentum especulativo.\n- LECTURA: rendimiento YTD +50,39% pero -15,97% en el último mes sugiere una toma de ganancias post-pico de ¥9.150, no necesariamente cambio de tendencia estructural.",
-    "catalizadores": "**Catalizadores:**\n- Confirmación de cliente(s) norteamericano(s) de robots humanoides que hoy permanecen sin nombrar (HECHO parcial: pedidos ya reportados, LECTURA: revelación de identidad sería re-rating).\n- Informe sectorial de Goldman Sachs (31-ago-2026) elevando proyección global de humanoides a 6,48M unidades/2035, con 6324 nombrada como beneficiario.\n- Próximo reporte Q2 FY3/27 (~5-nov-2026 estimado), que podría confirmar o revisar de nuevo el guidance elevado en agosto.\n- Expansión de capacidad en planta de EE.UU. (Beverly, MA): +13% completada dic-2025, +33% adicional planificada para dic-2026 (hdinresearch.com).\n\n**Riesgos (por materialidad):**\n- Competencia china estructural: Green Harmonic (proveedor de Tesla Optimus) con cuota creciente y pedidos +320% i.a. citados en medios chinos; ventas de HDSY en China ya -18,3% i.a.\n- Concentración de la narrativa alcista en un solo cliente no identificado: si ese pedido se cancela o desacelera, el guidance FY3/27 pierde su pilar principal.\n- Ciclo de semiconductores/máquina-herramienta (negocio base) sigue deprimido; el apalancamiento operativo extremo castiga con la misma fuerza que premia.\n- Dispersión de objetivos de analistas (¥3.300-¥11.000) señala incertidumbre real sobre cuánto de la tesis humanoide es sostenible vs especulativo.",
-    "sentimiento": "- LECTURA en contrario: acción +50% YTD pero -15,97% en el último mes y RSI neutro (45,9) sugiere que el entusiasmo de agosto ya se enfrió parcialmente, sin llegar a pesimismo extremo.\n- HECHO: reacción de +8,2% tras earnings de nov-2025 y nuevo salto tras Q1 FY3/27 (7-ago-2026) muestra mercado hipersensible a cualquier dato de pedidos humanoides.\n- LECTURA: consenso de analistas mayormente comprador (7 de 11 en 'compra' según TipRanks) con objetivos que implican expectativas ambiciosas ya conocidas por el mercado; el riesgo es de sentimiento sobrecalentado más que de escepticismo excesivo.\n- No verificable en fuentes en inglés: nivel real de flujo institucional o posicionamiento de corto en la acción japonesa.\n- LECTURA: el volumen actual extremadamente bajo (7% del promedio) podría reflejar indecisión post-toma de ganancias, no capitulación ni euforia.",
-    "conclusion": "Señal: NEUTRAL-CONSTRUCTIVA con sesgo alcista táctico. Score compuesto ≈58/100. HDSY combina un catalizador estructural real (humanoides) con una historia validada por HECHOS de pedidos y guidance (7-ago-2026), pero la mitad de la tesis de valuación descansa en cifras de analistas no verificadas en fuente primaria y en un cliente sin nombrar. La competencia china ya es medible en los números (China -18,3%). Confianza: media. Asimetría atractiva si se confirma cliente ancla y guidance se sostiene; falsable si China erosiona cuota en gama media-alta o si el pedido concentrado decepciona en el próximo reporte."
+    "resumen": "HDSY (Harmonic Drive Systems, TSE 6324) cotiza en ¥5.790 (-3,18% en el día, 11-sep-2026, Kabutan/Yahoo Finance Japan), tras un Q1 FY3/27 que sorprendió: ventas +23,6% i.a. y pedidos de robots humanoides de un 'cliente norteamericano' no identificado, con guidance FY3/27 elevado a beneficio operativo +231% i.a. (7-ago-2026). El sentimiento de analistas giró de bajista (por competencia china) a fuertemente alcista en pocos meses: PT consenso ≈¥8.396 (TipRanks), con Goldman Sachs en ¥11.000 y Jefferies subiendo de ¥2.400 a ¥10.000. Pero ventas en China cayeron -18,3% i.a., confirmando presión competitiva. Cobertura en inglés fragmentada: no hay acceso a TDnet original ni calendario IR oficial verificado.",
+    "fundamental": "- HECHO: Q1 FY3/27 (abr-jun 2026): ventas ¥16.680M (+23,6% i.a.), beneficio operativo ¥1.840M (margen 11,0%), neto ¥1.270M (EPS ¥13,46); pedidos ¥24.130M (+55,7% i.a.), de los cuales ~¥3.000M no recurrentes de dispositivos médicos (BigGo Finance vía TDnet, 7-ago-2026).\n- HECHO: Guidance FY3/27 elevado el mismo día: ventas ¥74.500M (+25,1%), beneficio operativo ¥8.500M (+231%, margen 11,4%), neto ¥6.000M (+272,9%), dividendo ¥20/acción; supuesto cambiario de la empresa ¥156,59/USD, más débil que el nivel real actual (¥154,17, 11-sep-2026).\n- HECHO: pedidos de 'AI robots' abr-jun 2026 de ¥1.200-1.300M (más del doble de lo esperado) atribuidos a cliente norteamericano sin nombrar; management espera duplicar/triplicar la cifra en FY3/27 (Investing.com/BigGo, 7-ago-2026).\n- HECHO: ventas en China -18,3% i.a. (¥1.010M) y beneficio operativo China -35,8% i.a. (¥97M) en el mismo trimestre, primera señal cuantitativa de presión competitiva regional.\n- No verificable en fuentes en inglés: identidad del cliente norteamericano; resultado alguno posterior al 7-ago-2026 (Q2 FY3/27 cierra recién el 30-sep-2026, por lo que no hay reporte más nuevo disponible).",
+    "valuacion": "- HECHO: P/E TTM ≈91,3x y P/B ≈6,74x (Kabutan, 11-sep-2026) — múltiplo alto, ya no en el rango extremo de 380-571x visto en ago-2026, reflejando aumento de utilidades esperadas más que solo recuperación de precio.\n- LECTURA: el forward P/E se comprime significativamente si se sostiene el guidance +231% en beneficio operativo, pero ningún agregador publicó el múltiplo forward recalculado en fuente primaria.\n- HECHO: consenso TipRanks ≈¥8.396 (rango ¥5.800-¥11.000, 7 analistas, 11-sep-2026); StockAnalysis da ≈¥7.731 — dispersión amplia entre agregadores mismos, señal de desacuerdo sobre cuánto humanoide ya está en precio.\n- No verificable en fuentes en inglés: nivel y fecha exactos de los PT de Goldman Sachs (¥11.000, 03-sep-2026 según TipRanks) y Jefferies (upgrade de ¥2.400 a ¥10.000, 21-jun-2026) contra el informe original del banco.\n- LECTURA: con la acción +49% YTD y habiendo tocado ¥9.150 intra-año, buena parte del catalizador humanoide-2035 ya podría estar parcialmente descontada, aunque el reciente giro alcista casi unánime de analistas (Jefferies pasó de 'Underperform' a 'Buy') sugiere que el mercado sigue revisando al alza.",
+    "tecnico": "- HECHO: RSI 45,3 y MACD -184,90 bajo señal -244,30 (TradingView, 10-sep-2026): momentum neutro-débil, sin sobreextensión.\n- HECHO: precio -0,63% vs SMA20, -11,8% vs SMA50 y +11,02% vs SMA200: corrección de mediano plazo dentro de tendencia alcista de base más amplia.\n- LECTURA: volumen ratio de solo 0,09 (9% del promedio de 20 días) sugiere secado de vendedores, consistente con señales de piso ya detectadas (divergencia RSI, MACD girando, volumen vendedor agotándose).\n- HECHO: drawdown máximo a 1 año -40,16% y volatilidad anualizada 99,22%, perfil de alta beta típico de nombre de momentum especulativo.\n- LECTURA: caída diaria de -4,01% (10-sep) con semana prácticamente plana (+0,17%) sugiere volatilidad intradía elevada sin definición direccional clara todavía.",
+    "catalizadores": "**Catalizadores:**\n- Confirmación de identidad del/los cliente(s) norteamericano(s) de humanoides, hoy sin nombrar (HECHO parcial: pedidos ya reportados; LECTURA: revelación sería catalizador de re-rating).\n- Reporte Q2 FY3/27 (~5 a 11-nov-2026, fecha no confirmada oficialmente), que podría confirmar o volver a revisar el guidance elevado en agosto.\n- Giro casi unánime de analistas hacia 'Buy' en 2026 (Jefferies, Deutsche Bank, Citi, Bernstein, Okasan), con PT de Goldman Sachs en ¥11.000; nuevos informes bancarios podrían anclar mejor la valuación.\n- Apreciación reciente del yen (¥154,17 vs supuesto de guidance ¥156,59) es catalizador ambiguo: ligero viento en contra para exportaciones si persiste, pero dentro de rango manejable.\n\n**Riesgos (por materialidad):**\n- Competencia china estructural: ventas en China ya -18,3% i.a.; Leaderdrive (proveedor de UBTech/Agibot, cuota creciente en Unitree según fuentes chinas no verificadas en inglés) y otros rivales presionan precios en el segmento estándar.\n- Concentración de la narrativa alcista en un cliente norteamericano no identificado: si ese pedido se cancela o desacelera, el guidance FY3/27 pierde su pilar principal.\n- Ciclo de semiconductores/máquina-herramienta (negocio base) sigue débil; apalancamiento operativo extremo castiga con la misma fuerza que premia.\n- Dispersión de objetivos de analistas (¥5.800-¥11.000, o hasta ¥3.300 en lecturas más conservadoras) señala incertidumbre real sobre cuánto de la tesis humanoide es sostenible.",
+    "sentimiento": "- LECTURA en contrario: caída de -4,01% en el día con RSI neutro (45,3) sugiere que el entusiasmo de agosto se enfrió sin llegar a pesimismo extremo ni euforia.\n- HECHO: giro de sentimiento de analistas muy marcado en 2026 — Jefferies pasó de 'Underperform'/PT ¥2.400 (por preocupaciones de competencia china) a 'Buy'/PT ¥10.000 (21-jun-2026); Deutsche Bank subió a 'Buy' en feb-2026.\n- HECHO: consenso TipRanks 'Moderate Buy' (5 Buy, 2 Hold de 7 analistas, 11-sep-2026), con PT ¥8.396, implicando ~+45% de potencial desde el precio actual.\n- No verificable en fuentes en inglés: posicionamiento institucional o de corto en la acción japonesa; nivel real de flujo extranjero.\n- LECTURA: volumen ratio extremadamente bajo (0,09) podría reflejar indecisión post-toma de ganancias más que capitulación o nueva euforia compradora.",
+    "conclusion": "Señal: NEUTRAL-CONSTRUCTIVA con sesgo alcista táctico. Score compuesto ≈58/100. HDSY combina un catalizador estructural real (humanoides, con giro casi unánime de analistas hacia 'Buy' en 2026) con hechos verificados de pedidos y guidance (7-ago-2026), pero la identidad del cliente ancla y varios PT bancarios permanecen sin confirmación en fuente primaria en inglés. China ya erosiona ventas (-18,3% i.a.), medible en los números. Confianza: media. Asimetría atractiva si se confirma cliente ancla y el guidance se sostiene en el próximo reporte (~nov-2026); tesis falsable si China sigue erosionando cuota o el pedido concentrado decepciona."
   },
   "scores": {
     "tecnica": {
       "score": 56,
-      "just": "Corrección sana dentro de tendencia alcista más amplia (+12,67% vs SMA200), con señales de piso (divergencia RSI, MACD girando, volumen vendedor agotado) pero sin confirmación de nuevo impulso; RSI neutro evita ambos extremos."
+      "just": "Corrección sana dentro de tendencia alcista más amplia (+11,02% vs SMA200), con señales de piso (divergencia RSI, MACD girando, volumen vendedor agotado, ratio 0,09) pero sin confirmación de nuevo impulso; RSI neutro evita ambos extremos."
     },
     "fundamental": {
-      "score": 62,
-      "just": "Guidance FY3/27 revisado fuertemente al alza (beneficio operativo +231%) con pedidos de robots duplicando expectativas, pero base de comparación deprimida y dependencia de un solo cliente no identificado limitan la calidad de la señal."
+      "score": 64,
+      "just": "Guidance FY3/27 revisado fuertemente al alza (beneficio operativo +231%) con pedidos de robots duplicando expectativas y giro de analistas casi unánime hacia 'Buy', pero base de comparación deprimida, cliente concentrado no identificado y China ya en caída de -18,3% limitan la calidad de la señal."
     },
     "sentimiento": {
-      "score": 55,
-      "just": "Entusiasmo de agosto se enfrió (-15,97% mensual) sin caer en pesimismo; consenso analista mayormente comprador pero con dispersión extrema de objetivos, señal de mercado dividido más que eufórico o capitulado."
+      "score": 54,
+      "just": "Sentimiento de analistas giró marcadamente al alza en 2026 (Jefferies de Underperform a Buy) pero acción cae -4% en el día con RSI neutro; ni euforia ni pánico, mercado dividido sobre cuánto humanoide ya está descontado."
     },
     "riesgo": {
       "score": 40,
-      "just": "Volatilidad extrema (102,71% anualizada) y drawdown de -40,16% ya materializado reflejan alto riesgo de mercado; el riesgo de pérdida permanente (competencia china, ciclicidad de semis) es real pero aún no ha erosionado el liderazgo global (~50% cuota histórica)."
+      "just": "Volatilidad extrema (99,22% anualizada) y drawdown de -40,16% ya materializado reflejan alto riesgo de mercado; riesgo de pérdida permanente (competencia china estructural, dependencia de un cliente humanoide no confirmado, exposición cambiaria USD/JPY) es real pero el liderazgo técnico global (~50% cuota histórica) aún no se ha erosionado de forma decisiva."
     },
     "conviccion": {
-      "score": 52,
-      "just": "Asimetría interesante si la tesis humanoide se confirma con más clientes, pero la tesis es parcialmente falsable a corto plazo (próximo reporte ~nov-2026) y depende de datos no verificados en fuentes primarias; conviccion moderada, no alta."
+      "score": 54,
+      "just": "Asimetría interesante si la tesis humanoide se confirma con más clientes y el giro alcista de analistas (Goldman ¥11.000, Jefferies ¥10.000) se sostiene, pero la tesis es falsable a corto plazo (próximo reporte ~nov-2026) y depende de datos de cliente y PT bancarios no verificados en fuente primaria; conviccion moderada-alta, no extrema."
     }
   },
   "sources": [
-    "Harmonic Drive Systems Q1 FY3/27 earnings (TDnet, vía agregador) - 07/08/2026",
-    "Goldman Sachs sector report on humanoid robotics (Investing.com) - 31/08/2026",
-    "Blog financiero japonés sobre upgrade de Goldman Sachs a 6324 (note.com) - 17/05/2026",
-    "TradingView scanner (precio, RSI, MACD, SMAs, volumen) - 08/09/2026",
-    "TipRanks consenso de analistas - ago-sep/2026",
-    "Cobertura de competidores chinos (Green Harmonic, Leaderdrive) - medios financieros chinos, sin fecha precisa"
+    "Kabutan - cotización, PER, PBR, volumen (s.kabutan.jp/stocks/6324) - 11/09/2026",
+    "Yahoo Finance Japan - cotización cruzada - 11/09/2026",
+    "Harmonic Drive Systems Q1 FY3/27 earnings vía BigGo Finance (agregador de TDnet) - 07/08/2026",
+    "TipRanks consenso de analistas y objetivos de precio individuales - 11/09/2026",
+    "Investing.com - cobertura de pedidos de robots humanoides y reacción de mercado - 07/08/2026",
+    "TradingView scanner (precio, RSI, MACD, SMAs, volumen) - 10/09/2026",
+    "Cobertura de competidores chinos (Leaderdrive, Green Harmonic, Zhongda Leader, Estun) - medios financieros chinos (36kr.com) y reportes de mercado genéricos, sin fecha precisa, no verificado en fuente primaria en inglés",
+    "Tipo de cambio USD/JPY - agregadores de mercado - 11/09/2026"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 45,
-        "just": "P/E TTM extremo (380-571x) por base deprimida; forward comprime con guidance nuevo pero sin múltiplo recalculado verificado, y objetivo de consenso con dispersión de ¥3.300 a ¥11.000."
+        "score": 48,
+        "just": "P/E TTM ≈91x y P/B ≈6,74x (Kabutan) siguen elevados frente a la historia de la empresa, aunque ya no en el rango extremo de 380-571x visto en ago-2026; PT de consenso con dispersión amplia entre agregadores (¥7.731 vs ¥8.396) señala falta de anclaje claro."
       },
       "calidad": {
         "score": 68,
-        "just": "Líder global histórico (~50% cuota) con moat de proceso y switching costs altos, pero calidad de resultados actual depende de un cliente concentrado no identificado y de un ciclo de semis aún débil."
+        "just": "Líder global histórico (~50% cuota) con moat de proceso y switching costs altos, pero calidad de resultados actual depende de un cliente concentrado no identificado y de un ciclo de semis aún débil, con China ya en caída de ventas."
       },
       "asimetria": {
-        "score": 60,
-        "just": "Si la tesis humanoide escala con más clientes confirmados, el re-rating puede ser grande dado el apalancamiento operativo; a la baja, ya sufrió drawdown de -40% y el negocio base sigue deprimido, limitando el piso de caída adicional."
+        "score": 62,
+        "just": "Si la tesis humanoide escala con más clientes confirmados y el giro alcista de analistas (Jefferies, Goldman) se valida, el re-rating puede ser grande dado el apalancamiento operativo; a la baja, ya sufrió drawdown de -40% y el negocio base sigue deprimido, limitando el piso de caída adicional."
       },
       "catalizadores": {
-        "score": 58,
-        "just": "Catalizador próximo claro (reporte ~5-nov-2026) y respaldo sectorial de Goldman Sachs, pero el catalizador más potente (nombrar al cliente) no tiene fecha conocida."
+        "score": 60,
+        "just": "Catalizador próximo con fecha aproximada (reporte ~nov-2026, sin confirmar oficialmente) y giro casi unánime de bancos hacia 'Buy' en 2026, pero el catalizador más potente (nombrar al cliente norteamericano) sigue sin fecha conocida."
       },
       "contrarian": {
-        "score": 48,
-        "just": "Sentimiento ni eufórico ni capitulado: acción se enfrió tras rally de agosto sin pánico; no es una oportunidad contraria clásica en ningún extremo."
+        "score": 46,
+        "just": "Sentimiento ni eufórico ni capitulado: acción cae -4% en el día tras el rally de 2026 sin pánico evidente; no es una oportunidad contraria clásica en ningún extremo, aunque la dispersión de PT sugiere desacuerdo aprovechable."
       }
     },
     "plan": {
-      "recomendacion": "Acumular en zona",
-      "zona_compra": "¥5.100-5.900 (entre SMA200 ¥5.139 y precio actual ¥5.790), evitando perseguir sobre SMA50 ¥6.589",
+      "recomendacion": "Esperar gatillo",
+      "zona_compra": "¥5.100-5.900 (entre SMA200 ¥5.170 y precio actual ¥5.790), evitando perseguir sobre SMA50 ¥6.508",
       "invalidacion": "Cierre semanal por debajo de ¥4.600 (rompe SMA200 con margen) o guidance FY3/27 recortado en próximo reporte",
       "gatillos": [
         "Confirmación pública de identidad del cliente norteamericano de humanoides",
-        "Reporte Q2 FY3/27 (~5-nov-2026) sosteniendo o elevando guidance",
-        "Informe primario de Goldman Sachs u otro banco con objetivo de precio verificable",
+        "Reporte Q2 FY3/27 (~nov-2026, fecha no confirmada oficialmente) sosteniendo o elevando guidance",
+        "Informe primario verificable de Goldman Sachs, Jefferies u otro banco con objetivo de precio y tesis documentada",
         "Estabilización o reversión de la caída de ventas en China (-18,3% i.a.)"
       ],
       "horizonte": "6-18 meses",

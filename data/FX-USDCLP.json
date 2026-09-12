@@ -5,7 +5,7 @@
   "statsList": [
     [
       "Precio",
-      "924.70 (8-sep-2026)"
+      "939.44 (10-sep-2026)"
     ],
     [
       "Rango 120 días",
@@ -13,15 +13,15 @@
     ],
     [
       "TPM Chile / Fed",
-      "4,50% BCCh (RPM del 08-sep-2026 mantuvo la tasa por decisión unánime; minuta se publica el 16-sep) vs 3,50%-3,75% Fed (FOMC decide el 16-sep-2026, probabilidades divididas ~55-61% mantención vs ~39-45% alza de 25pb según CME FedWatch)"
+      "4,50% BCCh (RPM del 08-sep-2026 mantuvo la tasa por decisión unánime; minuta se publica el 16-sep) vs 3,50%-3,75% Fed (FOMC decide el 16-sep-2026; mercado inclinado mayoritariamente hacia un alza de 25pb tras discurso hawkish del nuevo chair Kevin Warsh y CPI de agosto sin sorpresas, CME FedWatch)"
     ],
     [
       "Cobre",
-      "665,5 ¢/lb equivalente a US$6,655/lb LME (Trading Economics, 09-sep-2026) — dato de hoy, sin desactualización"
+      "US$6,45-6,59/lb, niveles récord históricos (La Tercera/Trading Economics, 11-sep-2026) — dato de hoy, sin desactualización"
     ],
     [
       "Posicionamiento",
-      "No hay actualización pública de BCCh/SIID para septiembre; último dato disponible muestra posición neta corta en CLP de no residentes aún elevada tras el pico récord de ~US$20.000M de julio-2026 (Diario Financiero, dato de julio-2026, sin cifra puntual más reciente confirmada)"
+      "Sin actualización pública de BCCh/SIID para agosto/septiembre; último dato confirmado (julio-2026) muestra posición NDF neta vendedora de no residentes en CLP de US$20.297M, la mayor desde fines de 2020 (Diario Estrategia/BCCh, jul-2026)"
     ],
     [
       "Próximo evento",
@@ -29,73 +29,73 @@
     ],
     [
       "Técnico (auto)",
-      "RSI 50.3 · MACD +2.92 / señal +1.77 (TradingView, 8-sep-2026)"
+      "RSI 62.3 · MACD +3.36 / señal +2.22 (TradingView, 10-sep-2026)"
     ]
   ],
   "technical": {
-    "price": 924.7,
-    "change_1d_pct": -0.7,
-    "change_1w_pct": -0.69,
-    "rsi": 50.3,
-    "macd": 2.9154,
-    "macd_signal": 1.7686,
-    "sma20": 922.162,
-    "sma50": 924.9982,
-    "sma200": 905.8807,
-    "ema12": 927.484,
-    "ema26": 924.5686,
-    "pct_vs_sma20": 0.28,
-    "pct_vs_sma50": -0.03,
-    "pct_vs_sma200": 2.08,
-    "volume_today": 1520,
-    "volume_avg20": 2576.0,
-    "volume_ratio": 0.59,
-    "volatility_30d": 12.64,
-    "sharpe": -1.14,
-    "sortino": -1.46,
+    "price": 939.44,
+    "change_1d_pct": 1.46,
+    "change_1w_pct": 0.88,
+    "rsi": 62.3,
+    "macd": 3.3584,
+    "macd_signal": 2.2184,
+    "sma20": 924.118,
+    "sma50": 925.467,
+    "sma200": 905.7922,
+    "ema12": 929.1271,
+    "ema26": 925.7688,
+    "pct_vs_sma20": 1.66,
+    "pct_vs_sma50": 1.51,
+    "pct_vs_sma200": 3.71,
+    "volume_today": 2083,
+    "volume_avg20": 2466.0,
+    "volume_ratio": 0.84,
+    "volatility_30d": 12.98,
+    "sharpe": 0.9,
+    "sortino": 1.21,
     "max_drawdown_1y": -12.64,
-    "price_percentile_1y": 64.0,
-    "vs_benchmark_30d_pct": 2.85,
-    "perf_1m_pct": 2.01,
-    "perf_ytd_pct": 3.12
+    "price_percentile_1y": 76.8,
+    "vs_benchmark_30d_pct": 3.51,
+    "perf_1m_pct": 2.78,
+    "perf_ytd_pct": 4.76
   },
   "risk": {
-    "volatility_30d": 12.64,
-    "sharpe": -1.14,
-    "sortino": -1.46,
+    "volatility_30d": 12.98,
+    "sharpe": 0.9,
+    "sortino": 1.21,
     "max_drawdown_1y": -12.64,
-    "n_days": 315,
+    "n_days": 317,
     "window": 30
   },
   "benchmark": {
     "ticker": "TVC:DXY",
     "label": "DXY",
-    "relative_performance_30d": 2.85,
-    "relative_performance_ytd": 2.59,
-    "price_percentile_1y": 64.0,
+    "relative_performance_30d": 3.51,
+    "relative_performance_ytd": 3.9,
+    "price_percentile_1y": 76.8,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-08T21:29:50-03:00"
+      "fetched_at": "2026-09-10T21:26:46-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-08T21:29:50-03:00"
+      "fetched_at": "2026-09-10T21:26:46-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-08T21:29:50-03:00"
+      "fetched_at": "2026-09-10T21:26:46-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "TVC:DXY",
-      "fetched_at": "2026-09-08T21:29:50-03:00"
+      "fetched_at": "2026-09-10T21:26:46-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/FX-USDCLP.json",
-      "n_days": 315
+      "n_days": 317
     }
   },
   "metricChanges": [
@@ -115,28 +115,26 @@
     }
   ],
   "trend": {
-    "piso": 1,
+    "piso": 0,
     "techo": 2,
     "max": 7,
-    "senales_piso": [
-      "base construyéndose sobre el mínimo anual"
-    ],
+    "senales_piso": [],
     "senales_techo": [
-      "pérdida de SMA20",
+      "máximos decrecientes en tendencia alcista",
       "techo plano bajo el máximo anual"
     ]
   },
   "change": {
-    "day": -0.7,
-    "week": -0.69
+    "day": 1.46,
+    "week": 0.88
   },
-  "reportDate": "9 de septiembre de 2026",
+  "reportDate": "11 de septiembre de 2026",
   "events": [
     {
       "date": "2026-09-16",
       "label": "Reunión del FOMC (decisión de tasas)",
       "kind": "macro",
-      "info": "Probabilidades divididas ~55-61% mantención en 3,50%-3,75% vs ~39-45% alza de 25pb según CME FedWatch, tras datos de empleo de EE.UU. más fuertes de lo esperado (Yahoo Finance/CNBC, sep-2026). Un alza sorpresiva estrecharía el diferencial de tasas y presionaría al CLP a depreciarse."
+      "info": "Decisión el 16-sep-2026. El mercado (CME FedWatch) se inclina mayoritariamente hacia un alza de 25pb (a 3,75%-4,00%), un giro relevante impulsado por el tono hawkish del nuevo chair Kevin Warsh desde Jackson Hole (28-ago-2026) y un CPI de agosto sin mejora (+3,4% a/a, BLS, 11-sep-2026). Un alza estrecharía el diferencial de tasas con Chile y presionaría al CLP a depreciarse."
     },
     {
       "date": "2026-09-16",
@@ -149,42 +147,42 @@
     {
       "title": "Resumen ejecutivo",
       "nav": "Resumen",
-      "body": "El BCCh mantuvo la TPM en 4,50% el 08-sep-2026 por decisión unánime (HECHO, comunicado BCCh), sin sorpresas para el mercado. El foco ahora es el FOMC del 16-sep, con probabilidades divididas entre mantención (~55-61%) y un alza de 25pb (~39-45%, CME FedWatch) — un escenario inusual de posible endurecimiento, no de recorte. El cobre cotiza en US$6,655/lb hoy 09-sep-2026 (Trading Economics), sin desactualización. El par technical marca 924,70, con sesgo técnico neutro-alcista de corto plazo."
+      "body": "El BCCh mantuvo la TPM en 4,50% el 08-sep-2026 por decisión unánime (HECHO, comunicado BCCh). El foco es el FOMC del 16-sep: el mercado se inclina mayoritariamente hacia un ALZA de 25pb (no recorte), tras el tono hawkish del nuevo chair Kevin Warsh y un CPI de agosto en 3,4% a/a sin mejora (HECHO, BLS, 11-sep-2026). El cobre cotiza en niveles récord (~US$6,45-6,59/lb, 11-sep-2026), viento de cola estructural para el CLP. Precio technical: 939,44, con sesgo técnico alcista de corto plazo."
     },
     {
       "title": "Diferencial de tasas y política monetaria",
       "nav": "Tasas",
-      "body": "BCCh: TPM sin cambios en 4,50% tras RPM del 08-sep-2026, decisión unánime en un contexto de alta incertidumbre externa y debilidad de la actividad interna (HECHO, comunicado BCCh); minuta se conoce el 16-sep. Fed: decisión el mismo 16-sep-2026, con mercado dividido entre pausa en 3,50%-3,75% y un alza de 25pb (LECTURA: swaps/FedWatch, fuentes divergen entre 55% y 61% de probabilidad de mantención). Si la Fed sube tasas de forma sorpresiva, el diferencial se estrecha y presiona al CLP a depreciarse."
+      "body": "BCCh: TPM sin cambios en 4,50% tras RPM del 08-sep-2026, decisión unánime en contexto de alta incertidumbre externa (HECHO, comunicado BCCh); minuta se conoce el 16-sep. Fed: decisión el mismo 16-sep-2026, con mercado inclinado mayoritariamente hacia un alza de 25pb a 3,75%-4,00% (LECTURA: CME FedWatch, cifras dispersas 60-69% según agregador, pero dirección consistente), impulsado por el discurso hawkish del nuevo chair Kevin Warsh en Jackson Hole (28-ago-2026, HECHO) y un CPI de agosto de 3,4% a/a sin sorpresas (HECHO, BLS, 11-sep-2026). Un alza sorpresiva estrecha el diferencial real y presiona al CLP a depreciarse."
     },
     {
       "title": "Balanza de pagos y flujos",
       "nav": "Balanza",
-      "body": "El cobre representa cerca de la mitad de las exportaciones chilenas; su fortaleza actual (US$6,655/lb, cerca de máximos históricos, +40% interanual promedio acumulado según Trading Economics) es un viento de cola estructural para el peso vía términos de intercambio, aunque no se ha traducido en apreciación sostenida por la fuerza global del dólar y el riesgo geopolítico (LECTURA)."
+      "body": "El cobre representa cerca de la mitad de las exportaciones chilenas; su cotización actual en niveles récord (~US$6,45-6,59/lb, ≈US$14.500/tonelada, 11-sep-2026, La Tercera/Trading Economics) es un viento de cola estructural para el peso vía términos de intercambio, aunque no se ha traducido en apreciación sostenida por la fortaleza global del dólar (DXY ~99,1) y el riesgo geopolítico (petróleo cerca de US$100/barril por tensiones en Medio Oriente, citado por el BCCh) (LECTURA)."
     },
     {
       "title": "Posicionamiento",
       "nav": "Posicionamiento",
-      "body": "No aplica COT tradicional para este par; el proxy es el informe de derivados no residentes del BCCh/SIID. El último dato confirmado (julio-2026) mostró un pico récord de ~US$20.000M netos cortos en CLP por parte de no residentes, el mayor desde fines de 2020, mientras la banca residente pasó a neto largo USD (~US$4.300M, agosto-2026, Diario Financiero). No se identificó una actualización pública más reciente al 09-sep-2026 (HECHO: sin dato nuevo publicado)."
+      "body": "No aplica COT tradicional para este par; el proxy es el informe de derivados no residentes del BCCh/SIID. El último dato confirmado (julio-2026) mostró una posición NDF neta vendedora de no residentes en CLP de US$20.297M (vs. US$17.578M en junio), la mayor desde fines de 2020, dentro de una posición vendedora total en derivados de US$26.400M (Diario Estrategia, jul-2026). No se identificó una actualización pública de agosto al 11-sep-2026 (HECHO: sin dato nuevo publicado; el BCCh suele publicarlo con varias semanas de rezago)."
     },
     {
       "title": "Análisis técnico",
       "nav": "Técnico",
-      "body": "RSI 50,3 y MACD +2,92 sobre señal +1,77 (TradingView, 08-sep-2026) describen un momentum neutro con sesgo levemente positivo, sin sobreextensión. Precio 924,70 está 0,28% sobre SMA20 y apenas -0,03% bajo SMA50, pero +2,08% sobre SMA200 — estructura de rango con piso construyéndose sobre el mínimo anual y techo plano bajo el máximo (score trend piso 1/techo 2 de 7)."
+      "body": "RSI 62,3 y MACD +3,36 sobre señal +2,22 (TradingView, 10-sep-2026) describen momentum alcista sin sobreextensión severa. Precio 939,44 está +1,66% sobre SMA20, +1,51% sobre SMA50 y +3,71% sobre SMA200 — estructura de tendencia alcista con techo plano bajo el máximo anual y sin piso claro aún formado (trend: piso 0/techo 2 de 7), sugiriendo posible extensión pero con resistencia técnica cercana."
     },
     {
       "title": "Intervención y riesgo de banco central",
       "nav": "Intervención",
-      "body": "No hay señales de intervención cambiaria activa del BCCh al 09-sep-2026 (HECHO: sin comunicado); el precio se mantiene dentro del rango reciente (919-949 en jul-2026) y lejos de extremos que gatillaron intervenciones históricas de USD 20.000-25.000M (2019, 2022). El riesgo de intervención es bajo en el nivel actual pero podría reactivarse si el FOMC sorprende con un alza y el CLP se deprecia con volatilidad acelerada."
+      "body": "No hay señales de intervención cambiaria activa del BCCh al 11-sep-2026 (HECHO: sin comunicado); el precio se mantiene dentro del rango reciente (919-949 en jul-2026, ahora testeando el techo). El riesgo de intervención es moderado-bajo en el nivel actual pero podría reactivarse si el FOMC sorprende con un alza y el CLP se deprecia con volatilidad acelerada hacia niveles que históricamente gatillaron intervenciones de USD 20.000-25.000M (2019, 2022)."
     },
     {
       "title": "Correlaciones macro",
       "nav": "Correlaciones",
-      "body": "El DXY cerró en torno a 98,85 el 08-sep-2026 (Trading Economics), sostenido por datos de empleo de EE.UU. más fuertes de lo esperado que reforzaron las apuestas por un alza de la Fed; esto es consistente con la correlación históricamente positiva DXY-USD/CLP. La correlación negativa con el cobre (-0,6 a -0,8 histórica) sigue vigente: el metal fuerte compensa parcialmente la fortaleza del dólar global sobre el peso."
+      "body": "El DXY cotiza en torno a 99,11 el 11-sep-2026 (FXStreet), sostenido por las apuestas de alza de la Fed y el tono hawkish de Kevin Warsh; esto es consistente con la correlación históricamente positiva DXY-USD/CLP. La correlación negativa con el cobre (-0,6 a -0,8 histórica) sigue vigente: el metal en niveles récord compensa parcialmente la fortaleza del dólar global sobre el peso, aunque el par igual muestra tendencia alcista."
     },
     {
       "title": "Conclusión",
       "nav": "Conclusión",
-      "body": "Con la TPM local ya definida (mantención unánime) y el cobre firme pero sin traducirse en apreciación del CLP, el próximo catalizador es el FOMC del 16-sep-2026, con riesgo asimétrico hacia un alza de tasas en EE.UU. que fortalecería al USD. Sesgo direccional: neutral con ligero sesgo alcista para USD/CLP hacia el evento, dado el posicionamiento aún cargado de no residentes contra el peso y un DXY sostenido. Confianza: media, por la incertidumbre genuina del FOMC."
+      "body": "Con la TPM local ya definida (mantención unánime) y el cobre en récords sin frenar la depreciación del peso, el catalizador dominante es el FOMC del 16-sep-2026, donde el mercado se inclina hacia un alza de tasas que fortalecería al USD y ampliaría la tendencia alcista técnica ya visible. Sesgo direccional: alcista para USD/CLP hacia el evento, dado el diferencial de tasas en riesgo de estrecharse, el DXY sostenido y el posicionamiento de no residentes aún cargado en cortos de CLP. Confianza: media, por la incertidumbre genuina del resultado del FOMC."
     }
   ],
   "scoreIndex": 8,
@@ -217,67 +215,69 @@
   ],
   "scores": {
     "tasas": {
-      "score": 48,
-      "just": "BCCh mantuvo TPM en 4,50% sin sorpresas; el diferencial con la Fed queda en suspenso hasta el FOMC del 16-sep, con probabilidad no trivial (~40-45%) de un alza que estrecharía el diferencial real y presionaría al CLP."
+      "score": 62,
+      "just": "BCCh mantuvo TPM en 4,50% sin sorpresas; el diferencial con la Fed queda en riesgo de estrecharse en el FOMC del 16-sep, donde el mercado se inclina mayoritariamente hacia un alza de 25pb (favorable al USD, no al CLP), tras el giro hawkish del nuevo chair Kevin Warsh."
     },
     "macro": {
-      "score": 58,
-      "just": "Cobre firme cerca de máximos históricos (US$6,655/lb) es viento de cola para el CLP (cobre fuerte = negativo para USD en este par), pero el DXY sostenido en ~98,85 por datos laborales de EE.UU. compensa ese impulso."
+      "score": 45,
+      "just": "Cobre en niveles récord históricos (~US$6,45-6,59/lb) es viento de cola fuerte para el CLP (cobre fuerte = negativo para USD en este par), pero el DXY sostenido en ~99,1 por el sesgo hawkish de la Fed y el riesgo geopolítico (petróleo ~US$100) compensan y de hecho dominan ese impulso, ya que el par muestra tendencia alcista pese al cobre fuerte."
     },
     "tecnico": {
-      "score": 52,
-      "just": "RSI 50,3 y MACD positivo pero sin sobreextensión describen momentum neutro; precio oscilando entre SMA20 y SMA50 sin cambio de carácter claro en ningún sentido."
+      "score": 60,
+      "just": "RSI 62,3 y MACD positivo con precio sobre las tres medias móviles describen un cambio de carácter hacia tendencia alcista consolidada, aunque con techo plano bajo el máximo anual que exige confirmación de ruptura para extender el movimiento."
     },
     "posicionamiento": {
-      "score": 40,
-      "just": "Posicionamiento no residente aún cargado en cortos de CLP (proxy de forwards BCCh, pico récord de julio-2026 sin desarme confirmado), lo que deja espacio para un short-covering que fortalezca al peso, pero sin dato fresco que confirme cambio de sesgo."
+      "score": 38,
+      "just": "Posicionamiento no residente muy cargado en cortos de CLP (proxy forwards BCCh, récord de US$20.297M en julio-2026 sin desarme confirmado), lo que deja espacio para un short-covering que fortalezca al peso como contrapeso al sesgo alcista actual, aunque sin dato fresco que confirme cambio de sesgo."
     },
     "intervencion": {
-      "score": 70,
-      "just": "Sin señales de intervención activa y precio dentro de rangos históricos recientes; riesgo de cola bajo en el nivel actual, aunque podría subir si el FOMC gatilla una depreciación abrupta del CLP."
+      "score": 62,
+      "just": "Sin señales de intervención activa, pero el precio testea el techo del rango reciente (919-949) en tendencia alcista; el riesgo de cola ya no es trivial si el FOMC gatilla una depreciación abrupta adicional del CLP hacia niveles que históricamente motivaron intervenciones de USD 20.000-25.000M."
     }
   },
   "sources": [
     "Banco Central de Chile - Comunicado RPM septiembre 2026, https://www.bcentral.cl - 08/09/2026",
     "Chócale - Banco Central mantiene la tasa de interés en 4,5%, https://chocale.cl - 08/09/2026",
-    "Rankia - Próxima reunión FED: 15-16 septiembre 2026, https://www.rankia.com - sep-2026",
-    "Yahoo Finance - FOMC September 2026 Odds for a Rate Hike Surpass 50%, https://finance.yahoo.com - sep-2026",
-    "Trading Economics - Cobre, https://es.tradingeconomics.com/commodity/copper - 09/09/2026",
-    "Diario Financiero - Las claves de la apuesta extranjera contra el peso chileno, https://www.df.cl - jul-2026",
-    "Infobae - Dólar hoy en Chile: cotización de cierre del 9 de septiembre, https://www.infobae.com - 09/09/2026",
-    "Trading Economics - DXY / United States Dollar, https://tradingeconomics.com - 08/09/2026"
+    "Federal Reserve - Kevin Warsh asume como chair, https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm - 22/05/2026",
+    "Federal Reserve - Discurso Jackson Hole Kevin Warsh, https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm - 28/08/2026",
+    "U.S. Bureau of Labor Statistics - CPI agosto 2026 (USDL-26-1496), https://www.bls.gov/news.release/cpi.nr0.htm - 11/09/2026",
+    "La Tercera - Precio del cobre, https://www.latercera.com - 11/09/2026",
+    "Diario Estrategia - Mercado de derivados no residentes BCCh, https://www.diarioestrategia.cl - jul-2026",
+    "Infobae - Dólar hoy en Chile: cotización de cierre del 11 de septiembre, https://www.infobae.com - 11/09/2026",
+    "FXStreet - DXY consolida en torno a 99,00 previo al CPI, https://www.fxstreet.com - 11/09/2026",
+    "TradingView scanner (feed VANTAGE) - datos técnicos USD/CLP - 10/09/2026"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 58,
-        "just": "Precio en percentil 64% de su rango de 1 año; ni barato ni caro en términos históricos, con espacio moderado hacia el techo del rango reciente (919-949)."
+        "score": 72,
+        "just": "Precio en percentil 76,8% de su rango de 1 año, cerca del techo, tras un alza reciente de 1,46% diario; valuación exigente para nuevas entradas largas en USD sin corrección previa."
       },
       "calidad": {
-        "score": 55,
-        "just": "Régimen macro de EE.UU. (divisa base) sólido pero con incertidumbre de política monetaria activa: inflación sobre objetivo y mercado laboral debilitándose, lo que divide al FOMC entre pausa y alza."
+        "score": 48,
+        "just": "Régimen macro de EE.UU. (divisa base) con inflación aún en 3,4% a/a sin mejora y un nuevo chair (Kevin Warsh) políticamente designado que presiona hacia tasas más altas pese a señales mixtas de actividad, lo que introduce riesgo de credibilidad institucional y volatilidad de política."
       },
       "asimetria": {
-        "score": 50,
-        "just": "Asimetría balanceada: cobre fuerte y posicionamiento corto en CLP limitan el upside del USD, pero un FOMC hawkish y el DXY sostenido podrían gatillar un salto rápido hacia el techo del rango."
+        "score": 58,
+        "just": "Asimetría moderadamente a favor del USD: un alza del FOMC podría empujar el par sobre 950 (techo reciente) hacia el máximo de rango de 980, pero el cobre en récords y el posicionamiento corto en CLP limitan el recorrido y aumentan el riesgo de reversión hacia 920-925 (SMA20/50)."
       },
       "catalizadores": {
-        "score": 65,
-        "just": "FOMC del 16-sep-2026 es catalizador binario y cercano, con dot plot que definirá el sesgo de tasas de EE.UU. para los próximos meses; minuta BCCh el mismo día añade contexto local."
+        "score": 68,
+        "just": "FOMC del 16-sep-2026 es catalizador binario e inminente, con probabilidad mayoritaria de alza según CME FedWatch; minuta BCCh el mismo día añade contexto local sobre el momento del primer recorte chileno."
       },
       "contrarian": {
-        "score": 45,
-        "just": "El consenso apunta a apreciación del CLP en el segundo semestre por cobre fuerte, pero el posicionamiento corto aún elevado en no residentes y el riesgo geopolítico global limitan la convicción de ese consenso."
+        "score": 42,
+        "just": "El consenso apunta a mayor fortaleza del USD por el giro hawkish de la Fed, pero el posicionamiento corto récord en CLP de no residentes (US$20.297M, jul-2026) ya está muy cargado en esa misma dirección, limitando el recorrido adicional si el FOMC no sorprende al alza de forma contundente."
       }
     },
     "plan": {
       "recomendacion": "Esperar gatillo",
-      "zona_compra": "920-925 (soporte técnico cercano a SMA20/SMA50)",
-      "invalidacion": "Cierre sostenido bajo 905 (SMA200) o sobre 950 sin catalizador claro",
+      "zona_compra": "920-925 (soporte técnico cercano a SMA20/SMA50, ante eventual corrección previa al FOMC)",
+      "invalidacion": "Cierre sostenido bajo 905 (SMA200) o reversión brusca bajo 919 tras el FOMC",
       "gatillos": [
-        "Resultado y dot plot del FOMC (16-sep-2026)",
+        "Resultado y forward guidance del FOMC (16-sep-2026)",
         "Publicación de minuta RPM BCCh (16-sep-2026)",
-        "Actualización de posicionamiento de forwards no residentes (BCCh/SIID)"
+        "Actualización de posicionamiento de forwards no residentes (BCCh/SIID, informe de agosto pendiente)"
       ],
       "horizonte": "6-18 meses",
       "tamano": "Posición táctica pequeña hasta conocer resultado del FOMC",

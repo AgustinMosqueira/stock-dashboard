@@ -4,97 +4,97 @@
   "statsList": [
     [
       "Precio",
-      "$1.025,0 CLP (8-sep-2026)"
+      "$1.010,9 CLP (11-sep-2026)"
     ],
     [
       "Rango 52 sem.",
-      "$1.015 – $1.599 CLP"
+      "$988 – $1.514 CLP"
     ],
     [
       "Market cap",
-      "CLP ~2,54-2,68 billones (~US$2.700-2.900M, sep-2026; stockanalysis.com/TradingView, 9-sep-2026)"
+      "CLP ~2,51 billones (~US$2.650-2.750M, sep-2026; stockanalysis.com/Investing.com, 11-sep-2026)"
     ],
     [
       "P/B y EV-EBITDA",
-      "P/B ~0,28x · EV/EBITDA ~8x (EBITDA de fondo de ciclo; forward P/E ~14,9x, stockanalysis.com, 9-sep-2026)"
+      "P/B ~0,28x · EV/EBITDA ~8x (EBITDA de fondo de ciclo; forward P/E ~14,9x, stockanalysis.com, 9/11-sep-2026)"
     ],
     [
       "Deuda neta-EBITDA",
-      "4,17x en 2T26 (ago-2026), sube desde 4,10x en 1T26 — sobre rango objetivo 2,5x-3,5x; S&P bajó a BBB- el 11-feb-2026 y afirmó rating con outlook NEGATIVO por riesgo Natureza (spglobal.com, 2026); Fitch/Moody's sin confirmación reciente de acción 2026 (último Moody's: Baa3 estable, sep-2023)"
+      "4,17x en 2T26 (reporte 7-ago-2026), sube desde 4,10x en 1T26 y 3,97x en 2025 — sobre rango objetivo 2,5x-3,5x; S&P y Fitch en BBB-/estable, Moody's en Baa3/negativo (confirmado en earnings call 2T26, 7-ago-2026; sin acción de rating posterior verificada al 11-sep-2026)"
     ],
     [
       "Próx. earnings",
-      "3T26: estimado 5-nov-2026 (calendario IR/Investing.com), coherente con patrón histórico (3T25: 6-nov-2025)"
+      "3T26: 5-nov-2026 confirmado por calendarios de MarketScreener y findata.cl (17:00 hrs)"
     ],
     [
       "Técnico (auto)",
-      "RSI 47.3 · MACD -1.47 / señal -2.11 (TradingView, 8-sep-2026)"
+      "RSI 42.6 · MACD -5.17 / señal -2.87 (TradingView, 10-sep-2026)"
     ]
   ],
   "technical": {
-    "price": 1025,
-    "change_1d_pct": -1.25,
-    "change_1w_pct": -0.49,
-    "rsi": 47.3,
-    "macd": -1.4711,
-    "macd_signal": -2.1125,
-    "sma20": 1030.06,
-    "sma50": 1044.608,
-    "sma200": 1192.8645,
-    "ema12": 1034.9584,
-    "ema26": 1036.4296,
-    "pct_vs_sma20": -0.49,
-    "pct_vs_sma50": -1.88,
-    "pct_vs_sma200": -14.07,
-    "volume_today": 2187891,
-    "volume_avg20": 2498882.0,
-    "volume_ratio": 0.88,
-    "volatility_30d": 23.87,
-    "sharpe": -2.29,
-    "sortino": -2.14,
-    "max_drawdown_1y": -35.69,
-    "price_percentile_1y": 7.0,
-    "vs_benchmark_30d_pct": 0.84,
-    "perf_1m_pct": -0.39,
-    "perf_ytd_pct": -27.51
+    "price": 1002.2,
+    "change_1d_pct": -1.16,
+    "change_1w_pct": -2.7,
+    "rsi": 42.6,
+    "macd": -5.1653,
+    "macd_signal": -2.8705,
+    "sma20": 1030.12,
+    "sma50": 1043.792,
+    "sma200": 1189.708,
+    "ema12": 1027.1904,
+    "ema26": 1032.3557,
+    "pct_vs_sma20": -2.71,
+    "pct_vs_sma50": -3.98,
+    "pct_vs_sma200": -15.76,
+    "volume_today": 2069566,
+    "volume_avg20": 2367212.0,
+    "volume_ratio": 0.87,
+    "volatility_30d": 21.53,
+    "sharpe": -2.86,
+    "sortino": -2.67,
+    "max_drawdown_1y": -36.25,
+    "price_percentile_1y": 2.7,
+    "vs_benchmark_30d_pct": 0.03,
+    "perf_1m_pct": -3.77,
+    "perf_ytd_pct": -29.12
   },
   "risk": {
-    "volatility_30d": 23.87,
-    "sharpe": -2.29,
-    "sortino": -2.14,
-    "max_drawdown_1y": -35.69,
-    "n_days": 323,
+    "volatility_30d": 21.53,
+    "sharpe": -2.86,
+    "sortino": -2.67,
+    "max_drawdown_1y": -36.25,
+    "n_days": 325,
     "window": 30
   },
   "benchmark": {
     "ticker": "CBOE:ECH",
     "label": "ECH (proxy Chile/IPSA)",
-    "relative_performance_30d": 0.84,
-    "relative_performance_ytd": -28.89,
-    "price_percentile_1y": 7.0,
+    "relative_performance_30d": 0.03,
+    "relative_performance_ytd": -27.07,
+    "price_percentile_1y": 2.7,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-08T21:29:50-03:00"
+      "fetched_at": "2026-09-10T21:26:46-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-08T21:29:50-03:00"
+      "fetched_at": "2026-09-10T21:26:46-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-08T21:29:50-03:00"
+      "fetched_at": "2026-09-10T21:26:46-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CBOE:ECH",
-      "fetched_at": "2026-09-08T21:29:50-03:00"
+      "fetched_at": "2026-09-10T21:26:46-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/CMPC.json",
-      "n_days": 323
+      "n_days": 325
     }
   },
   "metricChanges": [],
@@ -109,99 +109,101 @@
     "senales_techo": []
   },
   "change": {
-    "day": -1.25,
-    "week": -0.49
+    "day": 0.87,
+    "week": -2.7
   },
-  "reportDate": "9 de septiembre de 2026",
+  "reportDate": "11 de septiembre de 2026",
   "events": [
     {
       "date": "2026-11-05",
-      "label": "Earnings 3T26 (fecha estimada, no confirmada por CMPC)",
+      "label": "Earnings 3T26",
       "kind": "earnings",
-      "info": "Fecha estimada por patrón histórico (1T26: 8-may; 2T26: 6-ago). Foco: si el desapalancamiento revierte desde 4,17x deuda neta/EBITDA y si la recuperación secuencial de celulosa/Softys de 2T26 se sostiene."
+      "time": "17:00 hrs",
+      "info": "Fecha confirmada por calendarios de MarketScreener y findata.cl. Foco: si el desapalancamiento revierte desde 4,17x deuda neta/EBITDA (2T26) y si la recuperación secuencial de celulosa/Softys se sostiene."
     }
   ],
   "sections": {
-    "resumen": "CMPC transita un cuadro mixto: celulosa mostró recuperación secuencial en 2T26 (hardwood +7% QoQ) pero deuda neta/EBITDA subió a 4,17x, muy sobre el rango objetivo (2,5x-3,5x). S&P bajó el rating a BBB- en feb-2026 y lo mantiene con outlook negativo, a un escalón de perder el investment grade. El proyecto Natureza en Brasil (US$4.600M) sigue sin licencia ambiental ni decisión final de inversión, lo que mantiene la incertidumbre sobre el capex futuro. Consenso mixto: Itaú BBA underweight (PO $1.030), MBI sobreponderar (PO $2.077), consenso agregado ~$1.505 (Hold).",
-    "fundamental": "- HECHO: Deuda neta/EBITDA 4,17x en 2T26, sube desde 4,10x en 1T26 (Investing.com, ago-2026), sobre el rango objetivo 2,5x-3,5x.\n- HECHO: EBITDA 2T26 ~US$270M (+6% QoQ, -19% YoY); celulosa +16% QoQ a US$180M por mejor precio hardwood y menor costo de caja (Gurufocus, ago-2026).\n- HECHO: Utilidad neta 1S26 cae 74% YoY a US$33M, sostenida por Brasil/México (Diario Financiero, 2026).\n- HECHO: S&P bajó BBB→BBB- (11-feb-2026) y luego afirmó BBB- con outlook negativo, citando riesgo de que Natureza vuelva a presionar el capex (spglobal.com, 2026).\n- LECTURA: la recuperación operativa secuencial es real, pero el desapalancamiento depende de monetizar activos (forestales Argentina) y de cómo se financie Natureza; el riesgo de downgrade a especulativo (BB+) es la variable crítica a vigilar.",
-    "valuacion": "- HECHO: Market cap ~CLP 2,54-2,68 billones (~US$2,7-2,9 mil M), forward P/E ~14,9x, dividend yield 0,92% (stockanalysis.com, 9-sep-2026).\n- HECHO: Precio objetivo consenso agregado $1.505 CLP (~48% upside), rating consenso 'Hold'; rango de PO va de $1.030 (Itaú BBA, underweight, ago-2026) a $2.077 (MBI, sobreponderar, 2026).\n- LECTURA: la acción cotiza en percentil 7% de su rango de 52 semanas y con EV/EBITDA de fondo de ciclo (~8x), lo que sugiere que el mercado ya castiga fuerte el apalancamiento y la incertidumbre de Natureza.\n- LECTURA: la dispersión extrema de precios objetivo (de $1.030 a $2.077) refleja que el mercado no tiene consenso sobre si Natureza es catalizador o lastre — esto es inusual y aumenta el rango de resultados posibles.\n- HECHO: P/B ~0,28x, muy bajo respecto a libros, consistente con descuento por ciclo bajo de celulosa y riesgo crediticio.",
-    "tecnico": "- HECHO: RSI 47,3 y MACD -1,47/-2,11 (señal), zona neutra sin momentum claro (TradingView, 8-sep-2026).\n- HECHO: precio (1.025) por debajo de SMA20 (1.030), SMA50 (1.045) y muy por debajo de SMA200 (1.193), con drawdown 1Y de -35,7% y percentil de precio 1Y en solo 7%.\n- LECTURA: volumen hoy (2,19M) bajo el promedio de 20 días (2,50M, ratio 0,88x), coherente con secado de volumen vendedor cerca de mínimos anuales.\n- LECTURA: la base se está construyendo sobre el mínimo del año pese a la tendencia bajista de mediano plazo, un cambio de carácter incipiente que merece seguimiento sin ser aún señal de piso confirmada.\n- HECHO: performance YTD -27,5% y vs. benchmark ECH +0,84% en 30 días, es decir relativamente estable frente al proxy Chile pese a la debilidad absoluta.",
-    "catalizadores": "**Catalizadores:**\n- Recuperación de precio de celulosa hardwood en China si se sostienen curtailments (Thunder Bay, Bracell retiran ~600kt) frente a nueva oferta (Suzano, UPM, futuro Arauco Sucuriú 2027).\n- Monetización de activos forestales no estratégicos (Argentina) para acelerar desapalancamiento.\n- Resolución favorable de la Licença Prévia y eventual decisión final de inversión de Natureza con estructura de financiamiento que no dispare más el apalancamiento.\n- Reporte 3T26 (est. 5-nov-2026) confirmando si la recuperación secuencial de celulosa y Softys se mantiene.\n\n**Riesgos (por materialidad):**\n- CRÍTICO: downgrade adicional de S&P/Fitch/Moody's que saque a CMPC del investment grade (BBB- es el último escalón antes de BB+ especulativo), encareciendo el costo de deuda.\n- Aprobación de Natureza (US$4.600M) sin plan de financiamiento claro, disparando el apalancamiento más allá de 4,5x-5x.\n- Sobreoferta de celulosa persistente si las nuevas plantas (UPM, Suzano, Arauco) superan en volumen a los curtailments anunciados.\n- Litigio indígena/ambiental en Brasil que retrase indefinidamente Natureza y erosione la confianza del mercado en el guidance de la administración.",
-    "sentimiento": "- HECHO: consenso agregado 'Hold' con PO $1.505 (stockanalysis.com, 9-sep-2026); Itaú BBA underweight PO $1.030 (ago-2026, el más bajo de 15 casas); MBI sobreponderar PO $2.077 (2026).\n- HECHO: JPMorgan Neutral con PO recortado a $1.400 (oct-2025, dato más reciente con detalle hallado; no se confirmó actualización 2026).\n- LECTURA EN CONTRARIO: la dispersión y el sesgo hacia cautela/venta conviven con datos operativos de 2T26 que muestran recuperación secuencial en celulosa y Softys — si esa mejora se consolida en 3T26, el consenso pesimista podría revertirse rápido, típico de zonas de sobrerreacción.\n- LECTURA: la ausencia de coberturas recientes de Credicorp/BICE/BCI sugiere baja convicción direccional del sell-side local, más que consenso fuerte en un sentido.\n- HECHO: beta reportado muy bajo (~0,12), inconsistente con la volatilidad realizada de 23,9%, sugiriendo posible distorsión de datos de fuente agregadora.",
-    "conclusion": "Score 52/100. Señal: Mantener/Observar. Confianza: media. La tesis es binaria: si Natureza se financia sin disparar el apalancamiento y la celulosa sostiene su recuperación 2T26, CMPC recupera investment grade holgado y re-rating de múltiplos; si el rating cae a especulativo, el costo de capital sube y el descuento actual (P/B 0,28x) queda justificado, no barato. El punto crítico a monitorear semana a semana es cualquier acción de S&P/Fitch/Moody's y la decisión final de inversión de Natureza."
+    "resumen": "CMPC cotiza en $1.010,9 CLP, cerca de su mínimo anual, con apalancamiento en 4,17x deuda neta/EBITDA (2T26, sobre rango objetivo 2,5x-3,5x). S&P y Fitch mantienen BBB-/estable y Moody's Baa3/negativo, sin acción de rating confirmada tras agosto-2026. Celulosa en China muestra recuperación moderada (fibra corta ~4.557 RMB/t, +0,51% semanal, SunSirs 4-sep-2026, equivalente a ~US$640/t). Proyecto Natureza en Brasil sin licencia principal; riesgo de posponer la decisión de inversión a 2027 por presión de apalancamiento. Consenso mixto: Itaú BBA underweight ($1.030), MBI sobreponderar ($2.077), consenso Bloomberg ~$1.500.",
+    "fundamental": "- HECHO: Deuda neta/EBITDA 4,17x en 2T26 (7-ago-2026), sube desde 4,10x en 1T26 y 3,97x en 2025, sobre el rango objetivo 2,5x-3,5x.\n- HECHO: EBITDA 2T26 US$270M (margen 14,1%, +6% QoQ, -19% YoY); utilidad neta 2T26 solo US$9M (-65% QoQ, -89% YoY) por pérdidas cambiarias en pasivos BRL/MXN (Investing.com/GuruFocus, ago-2026).\n- HECHO: S&P y Fitch en BBB-/estable, Moody's en Baa3/negativo, confirmado en la conference call de resultados 2T26 (7-ago-2026); no se identificó acción de rating posterior a esa fecha.\n- LECTURA: la recuperación operativa secuencial en celulosa es real pero insuficiente para revertir el apalancamiento; la administración reitera 'disciplina de capital' sin guidance numérico concreto para 3T26.\n- LECTURA: financiamiento de Natureza depende de vender ~US$1.000-1.500M en activos forestales (incluye posible venta de Bosques del Plata en Argentina, con JPMorgan como asesor), lo cual es un catalizador de desapalancamiento aún no ejecutado.",
+    "valuacion": "- HECHO: Market cap ~CLP 2,51 billones (~US$2,65-2,75 mil M), forward P/E ~14,9x (stockanalysis.com, 11-sep-2026).\n- HECHO: Precio objetivo consenso Bloomberg ~$1.500 CLP (15 casas); rango de $1.030 (Itaú BBA, underweight, ago-2026) a $2.077 (MBI, sobreponderar, 2026).\n- LECTURA: la acción cotiza en percentil ~3% de su rango de 52 semanas y con EV/EBITDA de fondo de ciclo (~8x), reflejando que el mercado ya castiga con fuerza el apalancamiento y la incertidumbre de Natureza.\n- LECTURA: la dispersión extrema de precios objetivo (de $1.030 a $2.077) confirma que no hay consenso sobre si Natureza es catalizador o lastre.\n- HECHO: P/B ~0,28x, muy bajo respecto a libros, consistente con descuento por ciclo bajo de celulosa y riesgo crediticio persistente.",
+    "tecnico": "- HECHO: RSI 42,6 y MACD -5,17/-2,87 (señal), zona sin momentum claro con sesgo bajista de corto plazo (TradingView, 10-sep-2026).\n- HECHO: precio (1.002-1.011) por debajo de SMA20 (1.030), SMA50 (1.044) y muy por debajo de SMA200 (1.190), con drawdown 1Y de -36,3% y percentil de precio 1Y en solo 2,7%.\n- LECTURA: volumen hoy (2,07M) bajo el promedio de 20 días (2,37M, ratio 0,87x), coherente con secado de volumen vendedor cerca de mínimos anuales.\n- LECTURA: la base se está construyendo sobre el mínimo del año pese a la tendencia bajista de mediano plazo, un cambio de carácter incipiente sin confirmación técnica de piso.\n- HECHO: performance YTD -29,1% y vs. benchmark ECH +0,03% en 30 días, es decir relativamente estable frente al proxy Chile pese a la debilidad absoluta.",
+    "catalizadores": "**Catalizadores:**\n- Recuperación de precio de celulosa en China (fibra corta ~4.557 RMB/t, +0,51% semanal al 4-sep-2026, SunSirs) si se sostiene frente a nueva oferta.\n- Monetización de activos forestales no estratégicos (Argentina, posible venta de Bosques del Plata, ~94.000 ha) para acelerar desapalancamiento, con JPMorgan como asesor del proceso.\n- Avance de licencia de Natureza (LP de terminal portuaria ya obtenida en jun-2026) y eventual decisión final de inversión con plan de financiamiento que no dispare más el apalancamiento.\n- Reporte 3T26 (5-nov-2026, confirmado) mostrando si la recuperación secuencial de celulosa y Softys se mantiene y si el ratio de apalancamiento comienza a revertir.\n\n**Riesgos (por materialidad):**\n- CRÍTICO: downgrade adicional de S&P/Fitch (BBB-) o de Moody's (Baa3, ya con outlook negativo) que saque a CMPC del investment grade, encareciendo el costo de deuda.\n- Riesgo de que la decisión final de inversión de Natureza (US$4.600M) se posponga a 2027 por el apalancamiento actual, según nota de JPMorgan citada por prensa local (sep-2026), prolongando la incertidumbre.\n- Sobreoferta de celulosa persistente: expansión de capacidad regional (Arauco Sucuriú, avance físico 62,1%, operativo fines de 2027; UPM Paso de los Toros en ramp-up) sin cierres compensatorios relevantes de Suzano/UPM/Bracell identificados en 2026.\n- Litigio del Ministerio Público Federal de Brasil contra el licenciamiento de Natureza (rechazado en tribunales en jul/sep-2026, pero acción civil pública sigue abierta), que puede seguir retrasando el proyecto.",
+    "sentimiento": "- HECHO: consenso Bloomberg ~$1.500 CLP (15 casas); Itaú BBA underweight PO $1.030 (ago-2026, el más bajo); MBI sobreponderar PO $2.077 (2026, potencial +50%).\n- HECHO: BTG Pactual con cobertura neutral-positiva, CMPC pondera 7,5% en su cartera recomendada de ago-2026; BCI Corredora con visión similar neutral-positiva.\n- LECTURA EN CONTRARIO: JPMorgan mantiene sesgo cauteloso/vendedor (recomendación de venta mencionada por La Tercera en 2026, con recortes de precio objetivo), pero esto convive con datos operativos de 2T26 que muestran recuperación secuencial en celulosa — si se consolida en 3T26, el consenso pesimista podría revertirse.\n- LECTURA: no se encontró cobertura reciente y específica de Credicorp Capital ni BICE Inversiones sobre CMPC en 2026, sugiriendo baja convicción direccional de parte del sell-side local.\n- HECHO: rating técnico de corto plazo de TradingView es 'venta' con PO algorítmico promedio $1.711,7 CLP (rango $1.271,8-$2.793,3), reflejando polarización similar a las casas de research.",
+    "conclusion": "Score 50/100. Señal: Mantener/Observar. Confianza: media. La tesis sigue siendo binaria: si Natureza se financia sin disparar el apalancamiento y la celulosa sostiene su recuperación, CMPC recupera margen de rating y re-rating de múltiplos; si el rating cae a especulativo o el FID de Natureza se posterga a 2027 (riesgo señalado por JPMorgan), el descuento actual (P/B 0,28x) queda justificado, no barato. Monitorear semana a semana cualquier acción de S&P/Fitch/Moody's y la evolución del litigio de Natureza en Brasil."
   },
   "scores": {
     "tecnica": {
-      "score": 58,
-      "just": "Base construyéndose sobre mínimo anual con volumen vendedor secándose (bullish incipiente), pero sin cruce de medias ni RSI/MACD confirmando giro; tendencia de fondo sigue bajista (precio bajo SMA200 en -14%)."
+      "score": 56,
+      "just": "Base construyéndose sobre mínimo anual con volumen vendedor secándose (bullish incipiente), pero sin cruce de medias ni RSI/MACD confirmando giro; tendencia de fondo sigue bajista (precio bajo SMA200 en -15,8%)."
     },
     "fundamental": {
-      "score": 42,
-      "just": "Apalancamiento en 4,17x sobre rango objetivo y en aumento trimestre a trimestre es la variable dominante; recuperación operativa en celulosa/Softys es real pero insuficiente aún para compensar el riesgo crediticio y la incertidumbre de Natureza."
+      "score": 40,
+      "just": "Apalancamiento en 4,17x sobre rango objetivo y en aumento trimestre a trimestre sigue siendo la variable dominante; recuperación operativa en celulosa/Softys es real pero la utilidad neta se desplomó 89% YoY en 2T26 por efecto cambiario, y el FID de Natureza podría posponerse a 2027."
     },
     "sentimiento": {
-      "score": 55,
-      "just": "Consenso sell-side dividido y mayormente cauteloso (Hold/underweight predominante) mientras datos operativos mejoran secuencialmente — leído en contrario, deja espacio a sorpresa positiva si 3T26 confirma la recuperación."
+      "score": 53,
+      "just": "Consenso sell-side polarizado (JPMorgan cauteloso/vendedor vs. MBI/BTG constructivos) mientras datos operativos mejoran secuencialmente — leído en contrario, deja espacio a sorpresa positiva si 3T26 confirma la recuperación, pero la polarización en sí misma no es una señal extrema clara."
     },
     "riesgo": {
-      "score": 35,
-      "just": "CRÍTICO: BBB- con outlook negativo, a un solo escalón de perder investment grade; esto es riesgo de pérdida permanente de valor (mayor costo de deuda, posible venta forzada por fondos con mandato IG) y no solo volatilidad de precio."
+      "score": 32,
+      "just": "CRÍTICO: apalancamiento en 4,17x y subiendo, con Moody's ya en outlook negativo y S&P/Fitch a un escalón del especulativo; riesgo de posible postergación del FID de Natureza a 2027 añade incertidumbre de solvencia real, no solo volatilidad de precio de celulosa."
     },
     "conviccion": {
-      "score": 45,
-      "just": "Asimetría existe (P/B 0,28x, percentil 1Y de 7%) pero la tesis es falsable solo con la resolución de dos eventos concretos y cercanos (rating y Natureza), que aún no tienen fecha ni resultado claro."
+      "score": 43,
+      "just": "Asimetría existe (P/B 0,28x, percentil 1Y de 2,7%) pero la tesis es falsable solo con la resolución de eventos concretos sin fecha firme (rating, FID Natureza), y el deterioro de utilidad neta en 2T26 resta margen de error."
     }
   },
   "sources": [
-    "S&P Global Ratings / Investing.com, 11/02/2026 - CMPC downgrade BBB a BBB-",
-    "La Tercera, 02/03/2026 - CMPC a un escalón de perder el grado de inversión tras recorte de S&P",
-    "S&P Global Ratings (spglobal.com), 2026 - S&P revisa outlook de CMPC a negativo, afirma BBB-",
-    "Investing.com/Gurufocus, agosto 2026 - CMPC Q2 2026 slides: pulp recovery offset by leverage concerns",
-    "Diario Financiero, agosto 2026 - Itaú BBA recorta precio objetivo de CMPC a $1.030",
-    "Fastmarkets, 12/11/2025 - curtailments de capacidad BSK/BHK 2026",
-    "The Clinic / El Diario Santiago, 06/09/2026 - Avance proyecto Natureza y licencia ambiental pendiente",
-    "Argentina Forestal / Campo Galego, 2026 - Arauco Sucuriú avance físico 62,1%",
-    "stockanalysis.com, 09/09/2026 - CMPC consenso analistas, PO y ratios",
-    "Diario Financiero, 14/10/2025 - JPMorgan Neutral, PO $1.400",
-    "TradingView scanner, 08/09/2026 - Datos técnicos RSI, MACD, SMA, benchmark"
+    "S&P Global Ratings / Investing.com, 11/02/2026 - CMPC downgrade BBB a BBB-, outlook estable",
+    "Investing.com / GuruFocus, 07/08/2026 - CMPC Q2 2026 earnings call: S&P y Fitch BBB-/estable, Moody's Baa3/negativo",
+    "Investing.com, 11-12/09/2026 - Precio acción CMPC, rango 52 semanas, market cap",
+    "stockanalysis.com, 09-11/09/2026 - CMPC consenso analistas, PO y ratios",
+    "SunSirs, 04/09/2026 - Precio celulosa fibra corta/larga mercado Shandong, China",
+    "Diario Financiero, agosto 2026 - Itaú BBA recorta precio objetivo de CMPC a $1.030 (underweight)",
+    "Diario Financiero / redimin.cl, 2026 - MBI recorta PO a $2.077, mantiene sobreponderar",
+    "The Clinic / El Diario Santiago, 06/09/2026 - Riesgo de postergar FID de Natureza a 2027 (nota JPMorgan)",
+    "Argentina Forestal / Campo Galego, 2026 - Arauco Sucuriú avance físico 62,1%; venta de Bosques del Plata",
+    "MarketScreener / findata.cl, 2026 - Calendario earnings 3T26 confirmado 5-nov-2026",
+    "La Tercera, 2026 - JPMorgan recomienda vender CMPC, acción cae a mínimo de casi dos años",
+    "TradingView scanner, 10/09/2026 - Datos técnicos RSI, MACD, SMA, benchmark, consenso algorítmico"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
         "score": 68,
-        "just": "P/B 0,28x y percentil de precio 1Y de solo 7% marcan valorización históricamente muy comprimida, aunque justificada en parte por riesgo crediticio real."
+        "just": "P/B 0,28x y percentil de precio 1Y de solo 2,7% marcan valorización históricamente muy comprimida, aunque parcialmente justificada por riesgo crediticio real y caída de utilidad neta."
       },
       "calidad": {
-        "score": 50,
-        "just": "Negocio integrado y diversificado geográficamente, pero actualmente precio-tomador en un ciclo de celulosa débil y con apalancamiento fuera de rango objetivo."
+        "score": 47,
+        "just": "Negocio integrado y diversificado geográficamente, pero precio-tomador en ciclo de celulosa débil, con apalancamiento fuera de rango objetivo que no muestra mejora trimestre a trimestre (3,97x a 4,10x a 4,17x)."
       },
       "asimetria": {
-        "score": 55,
-        "just": "Downside acotado por valorización ya deprimida, pero upside condicionado a resolución binaria de rating/Natureza; no es asimetría limpia."
+        "score": 53,
+        "just": "Downside acotado por valorización ya deprimida, pero upside condicionado a resolución binaria de rating/Natureza/FID; el riesgo de postergación a 2027 reduce la ventana de catalizador cercano."
       },
       "catalizadores": {
         "score": 45,
-        "just": "Catalizadores identificables (3T26, curtailments de oferta, resolución Natureza) pero sin fechas firmes ni certeza de resultado favorable."
+        "just": "Catalizadores identificables y con fecha (3T26 confirmado 5-nov-2026, venta de activos en curso) pero sin certeza de resultado favorable ni fecha firme para FID de Natureza."
       },
       "contrarian": {
-        "score": 58,
-        "just": "Consenso sell-side mayormente cauteloso mientras operativamente hay mejora secuencial; contrarian parcial pero no extremo dado que persiste el riesgo de rating."
+        "score": 55,
+        "just": "Consenso polarizado (JPMorgan vendedor vs. MBI/BTG constructivos) mientras operativamente hay mejora secuencial en celulosa; contrarian parcial, no extremo, dado que persiste el riesgo de rating y de postergación del FID."
       }
     },
     "plan": {
       "recomendacion": "Esperar gatillo",
       "zona_compra": "Bajo $950-1.000 CLP, idealmente con confirmación de piso técnico (cruce sobre SMA20/SMA50)",
-      "invalidacion": "Downgrade de S&P/Fitch/Moody's a especulativo (BB+ o menor), o quiebre de mínimo anual (~$1.015) con expansión de volumen",
+      "invalidacion": "Downgrade de S&P/Fitch/Moody's a especulativo (BB+/Ba1 o menor), o quiebre de mínimo anual (~$988) con expansión de volumen",
       "gatillos": [
-        "Reporte 3T26 (est. 5-nov-2026) confirmando desapalancamiento secuencial",
-        "Resolución de Licença Prévia / decisión final de inversión de Natureza con plan de financiamiento claro",
+        "Reporte 3T26 (5-nov-2026, confirmado) mostrando si el apalancamiento comienza a revertir desde 4,17x",
+        "Avance de licencia principal de Natureza o anuncio de decisión final de inversión con plan de financiamiento claro",
         "Acción de rating crediticio (afirmación o downgrade) de S&P/Fitch/Moody's",
-        "Confirmación de sostenimiento de precio de celulosa hardwood en China sobre US$650-700/t"
+        "Confirmación de sostenimiento de precio de celulosa en China (fibra corta) sobre 4.500-4.600 RMB/t (~US$630-650/t)"
       ],
       "horizonte": "6-18 meses",
       "tamano": "posición pequeña-inicial, ampliable solo tras confirmación de catalizador de rating o desapalancamiento",
       "confianza": "media"
     }
   },
-  "perfil": "CMPC es un grupo forestal-industrial chileno integrado verticalmente, desde plantaciones propias de pino y eucalipto hasta celulosa de mercado, papeles y consumo masivo, con operaciones en ocho países. Se organiza en Pulp (celulosa y madera), Softys (tissue y cuidado personal) y Biopackaging. En 2025 facturó ~USD 7.480 millones con un mix de ventas de Softys 45-47%, Pulp 39-40% y Biopackaging 14%, pero la caja se concentra en Pulp, que aportó 59% del EBITDA del 4T25 con margen 21,9% frente a 12,4% de Softys. Chile pesa solo ~16% de las ventas: México y Brasil son los mayores mercados de consumo y Asia absorbe el grueso de la celulosa exportada. Estructuralmente es un negocio precio-tomador, atado al ciclo de la celulosa BHKP y a la demanda china, con Softys como contrapeso de menor margen pero flujo estable. El calce cambiario ayuda (ingresos en dólares contra costos en CLP y BRL) pero la deuda también es dolarizada: el apalancamiento subió a 3,97x EBITDA al cierre de 2025, y sobre eso pesa el proyecto Natureza en Brasil (+USD 4.500 millones), que define el perfil de riesgo de los próximos años."
+  "perfil": "CMPC es un grupo forestal-industrial chileno integrado verticalmente, desde plantaciones propias de pino y eucalipto hasta celulosa de mercado, papeles y consumo masivo, con operaciones en ocho países. Se organiza en Pulp (celulosa y madera), Softys (tissue y cuidado personal) y Biopackaging. En 2025 facturó ~USD 7.480 millones con un mix de ventas de Softys 45-47%, Pulp 39-40% y Biopackaging 14%, pero la caja se concentra en Pulp, que aportó 59% del EBITDA del 4T25 con margen 21,9% frente a 12,4% de Softys. Chile pesa solo ~16% de las ventas: México y Brasil son los mayores mercados de consumo y Asia absorbe el grueso de la celulosa exportada. Estructuralmente es un negocio precio-tomador, atado al ciclo de la celulosa BHKP y a la demanda china, con Softys como contrapeso de menor margen pero flujo estable. El calce cambiario ayuda (ingresos en dólares contra costos en CLP y BRL) pero la deuda también es dolarizada: el apalancamiento subió a 4,17x EBITDA en 2T26, y sobre eso pesa el proyecto Natureza en Brasil (+USD 4.500 millones), que define el perfil de riesgo de los próximos años."
 }

@@ -1,248 +1,249 @@
 {
- "ticker": "CLSK",
- "company": "CleanSpark, Inc.",
- "statsList": [
-  [
-   "Precio",
-   "$12.80 (10-sep-2026)"
+  "ticker": "CLSK",
+  "company": "CleanSpark, Inc.",
+  "statsList": [
+    [
+      "Precio",
+      "$13.85 (11-sep-2026, intradía)"
+    ],
+    [
+      "Rango 52 sem.",
+      "US$8,00 - US$23,61"
+    ],
+    [
+      "Market cap",
+      "~US$3,56 mil M (~256,6M acciones en circulación, precio 11-sep-2026)"
+    ],
+    [
+      "Hashrate",
+      "50 EH/s pico / 38,3 EH/s promedio (update agosto 2026, publicado 8-sep-2026)"
+    ],
+    [
+      "BTC en tesorería",
+      "13.703 BTC al 31-ago-2026 (produjo 593 BTC, vendió 821 BTC; ~3.951 BTC empeñados en derivados)"
+    ],
+    [
+      "Próx. earnings",
+      "16-dic-2026 (proyectado por consenso de calendario, Q4 FY2026; sin confirmación oficial de la compañía)"
+    ],
+    [
+      "Técnico (auto)",
+      "RSI 51.3 · MACD -0.07 / señal -0.28 (TradingView, 10-sep-2026)"
+    ]
   ],
-  [
-   "Rango 52 sem.",
-   "US$8,00 - US$23,61"
-  ],
-  [
-   "Market cap",
-   "~US$3,28 mil M (256,6M acciones en circulación tras buyback, precio 10-sep-2026)"
-  ],
-  [
-   "Hashrate",
-   "50 EH/s pico / 38,3 EH/s promedio (update agosto 2026, publicado 9-sep-2026)"
-  ],
-  [
-   "BTC en tesorería",
-   "13.703 BTC al 31-ago-2026 (produjo 593 BTC, vendió 821 BTC; ~3.951 BTC empeñados en derivados)"
-  ],
-  [
-   "Próx. earnings",
-   "16-dic-2026 (proyectado por consenso de calendario, Q4 FY2026; sin confirmación oficial de la compañía)"
-  ],
-  [
-   "Técnico (auto)",
-   "RSI 51.3 · MACD -0.07 / señal -0.28 (TradingView, 10-sep-2026)"
-  ]
- ],
- "technical": {
-  "price": 12.8,
-  "change_1d_pct": -3.61,
-  "change_1w_pct": 0.87,
-  "rsi": 51.3,
-  "macd": -0.0697,
-  "macd_signal": -0.2814,
-  "sma20": 12.215,
-  "sma50": 12.9254,
-  "sma200": 12.5702,
-  "ema12": 12.521,
-  "ema26": 12.5907,
-  "pct_vs_sma20": 4.79,
-  "pct_vs_sma50": -0.97,
-  "pct_vs_sma200": 1.83,
-  "volume_today": 13551174,
-  "volume_avg20": 18252755.0,
-  "volume_ratio": 0.74,
-  "volatility_30d": 106.48,
-  "sharpe": -0.58,
-  "sortino": -0.7,
-  "max_drawdown_1y": -64.74,
-  "price_percentile_1y": 30.7,
-  "vs_benchmark_30d_pct": -15.29,
-  "perf_1m_pct": 4.92,
-  "perf_ytd_pct": 23.14
- },
- "risk": {
-  "volatility_30d": 106.48,
-  "sharpe": -0.58,
-  "sortino": -0.7,
-  "max_drawdown_1y": -64.74,
-  "n_days": 325,
-  "window": 30
- },
- "benchmark": {
-  "ticker": "CRYPTO:BTCUSD",
-  "label": "Bitcoin",
-  "relative_performance_30d": -15.29,
-  "relative_performance_ytd": 35.37,
-  "price_percentile_1y": 30.7,
-  "partial": false
- },
- "sourcesMeta": {
-  "price": {
-   "origin": "TradingView scanner",
-   "fetched_at": "2026-09-10T20:01:18-03:00"
+  "technical": {
+    "price": 12.8,
+    "change_1d_pct": -3.61,
+    "change_1w_pct": 0.87,
+    "rsi": 51.3,
+    "macd": -0.0697,
+    "macd_signal": -0.2814,
+    "sma20": 12.215,
+    "sma50": 12.9254,
+    "sma200": 12.5702,
+    "ema12": 12.521,
+    "ema26": 12.5907,
+    "pct_vs_sma20": 4.79,
+    "pct_vs_sma50": -0.97,
+    "pct_vs_sma200": 1.83,
+    "volume_today": 13571835,
+    "volume_avg20": 18253788.0,
+    "volume_ratio": 0.74,
+    "volatility_30d": 106.48,
+    "sharpe": -0.58,
+    "sortino": -0.7,
+    "max_drawdown_1y": -64.74,
+    "price_percentile_1y": 30.7,
+    "vs_benchmark_30d_pct": -15.98,
+    "perf_1m_pct": 4.92,
+    "perf_ytd_pct": 23.14
   },
-  "rsi_macd": {
-   "origin": "TradingView scanner",
-   "fetched_at": "2026-09-10T20:01:18-03:00"
-  },
-  "smas_volume": {
-   "origin": "TradingView scanner",
-   "fetched_at": "2026-09-10T20:01:18-03:00"
+  "risk": {
+    "volatility_30d": 106.48,
+    "sharpe": -0.58,
+    "sortino": -0.7,
+    "max_drawdown_1y": -64.74,
+    "n_days": 325,
+    "window": 30
   },
   "benchmark": {
-   "origin": "TradingView scanner",
-   "symbol": "CRYPTO:BTCUSD",
-   "fetched_at": "2026-09-10T20:01:18-03:00"
+    "ticker": "CRYPTO:BTCUSD",
+    "label": "Bitcoin",
+    "relative_performance_30d": -15.98,
+    "relative_performance_ytd": 35.4,
+    "price_percentile_1y": 30.7,
+    "partial": false
   },
-  "risk_metrics": {
-   "origin": "data/history/CLSK.json",
-   "n_days": 325
-  }
- },
- "metricChanges": [
-  {
-   "ticker": "CLSK",
-   "date": "2026-09-05",
-   "metric": "precio_pct",
-   "from": 11.33,
-   "to": 12.69
+  "sourcesMeta": {
+    "price": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-09-10T21:26:46-03:00"
+    },
+    "rsi_macd": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-09-10T21:26:46-03:00"
+    },
+    "smas_volume": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-09-10T21:26:46-03:00"
+    },
+    "benchmark": {
+      "origin": "TradingView scanner",
+      "symbol": "CRYPTO:BTCUSD",
+      "fetched_at": "2026-09-10T21:26:46-03:00"
+    },
+    "risk_metrics": {
+      "origin": "data/history/CLSK.json",
+      "n_days": 325
+    }
   },
-  {
-   "ticker": "CLSK",
-   "date": "2026-08-08",
-   "metric": "precio_pct",
-   "from": 13.5,
-   "to": 12.3
-  },
-  {
-   "ticker": "CLSK",
-   "date": "2026-08-04",
-   "metric": "score",
-   "from": 50,
-   "to": 60
-  },
-  {
-   "ticker": "CLSK",
-   "date": "2026-07-30",
-   "metric": "precio_pct",
-   "from": 12.01,
-   "to": 14.53
-  },
-  {
-   "ticker": "CLSK",
-   "date": "2026-07-29",
-   "metric": "precio_pct",
-   "from": 13.48,
-   "to": 12.01
-  }
- ],
- "trend": {
-  "piso": 1,
-  "techo": 1,
-  "max": 7,
-  "senales_piso": [
-   "histograma MACD girando al alza"
+  "metricChanges": [
+    {
+      "ticker": "CLSK",
+      "date": "2026-09-05",
+      "metric": "precio_pct",
+      "from": 11.33,
+      "to": 12.69
+    },
+    {
+      "ticker": "CLSK",
+      "date": "2026-08-08",
+      "metric": "precio_pct",
+      "from": 13.5,
+      "to": 12.3
+    },
+    {
+      "ticker": "CLSK",
+      "date": "2026-08-04",
+      "metric": "score",
+      "from": 50,
+      "to": 60
+    },
+    {
+      "ticker": "CLSK",
+      "date": "2026-07-30",
+      "metric": "precio_pct",
+      "from": 12.01,
+      "to": 14.53
+    },
+    {
+      "ticker": "CLSK",
+      "date": "2026-07-29",
+      "metric": "precio_pct",
+      "from": 13.48,
+      "to": 12.01
+    }
   ],
-  "senales_techo": [
-   "pérdida de SMA20"
-  ]
- },
- "change": {
-  "day": -3.61,
-  "week": 0.87
- },
- "reportDate": "10 de septiembre de 2026",
- "events": [
-  {
-   "date": "2026-10-06",
-   "label": "Actualización operacional de septiembre 2026",
-   "kind": "corporate",
-   "info": "Actualización mensual de BTC minados, hashrate y tesorería; el patrón habitual es publicarla el 5-6 del mes siguiente (crypto.news/StockTitan, 9-sep-2026)."
+  "trend": {
+    "piso": 1,
+    "techo": 1,
+    "max": 7,
+    "senales_piso": [
+      "histograma MACD girando al alza"
+    ],
+    "senales_techo": [
+      "pérdida de SMA20"
+    ]
   },
-  {
-   "date": "2026-12-16",
-   "label": "Earnings Q4 FY2026 (cierre fiscal 30-sep-2026)",
-   "kind": "earnings",
-   "info": "Fecha proyectada por consenso de calendario (MarketBeat, 10-sep-2026), aún sin confirmación oficial de la compañía. Foco: guía de capex 2027 para el HPC de Sandersville y el portafolio texano tras la emisión de convertibles de agosto."
-  }
- ],
- "sections": {
-  "resumen": "CLSK cae 3,6% a US$12,80 (10-sep-2026, TradingView) en una jornada roja para las mineras de bitcoin, arrastrada por BTC bajando a ~US$76.850 (-1,8% d/d, -4,4% semanal). El RSI se enfría a 51,3 y el MACD sigue bajo cero pero con el histograma girando al alza; a la vez el precio gatilló una pérdida técnica de SMA20 en la sesión, dejando señales mixtas de piso y techo simultáneas. Sin noticias operativas nuevas desde el reporte de agosto (593 BTC producidos, tesorería de 13.703 BTC), la tesis sigue anclada al pivote HPC: el arriendo de Sandersville (~US$6.600-11.600M) y la exclusividad sobre el portafolio texano de 885 MW. Earnings Q4 FY2026 quedan proyectados para el 16-dic-2026.",
-  "fundamental": "- HECHO: agosto produjo 593 BTC (38,3 EH/s promedio) vs 586 BTC en julio, con hashprice promedio de US$34,63/PH/día, el mejor desde mayo (crypto.news, 9-sep-2026).\n- HECHO: tesorería cayó de 13.931 a 13.703 BTC en agosto porque vendió 821 BTC contra 593 producidos; ~3.951 BTC quedan como colateral de derivados (tronweekly, 9-sep-2026).\n- HECHO: cerró en agosto una emisión de US$1.150M en notas convertibles a 0% cupón (2032) y recompró 30,6M de acciones (~10,9% del float) por ~US$460M (PR Newswire).\n- LECTURA: la recompra reduce dilución futura pero no compensa el deterioro de ingresos (-30,5% a/a) ni la pérdida trimestral de US$239,8M reportada en Q3 (Nasdaq, ago-2026).\n- HECHO: earnings Q4 FY2026 (cierre fiscal 30-sep-2026) quedaron proyectados para el 16-dic-2026 según consenso de calendario (MarketBeat, 10-sep-2026), aún sin confirmación oficial de la compañía.",
-  "valuacion": "- Market cap ~US$3,28 mil M con ~256,6M acciones en circulación (precio 10-sep-2026), tras la recompra de agosto.\n- HECHO: rango 52 semanas US$8,00-US$23,61; el precio actual (US$12,80) implica percentil 30,7% del año, cerca de la zona baja.\n- LECTURA: el mercado sigue sin poner en precio pleno el contrato de US$6.600-11.600M de HPC (25+ años de flujo contratado con contraparte investment-grade).\n- LECTURA: comparar cap bursátil vs. valor de 13.703 BTC (~US$1.053M a US$76.850) confirma que el mercado paga sobre todo por la opcionalidad de HPC, no por el balance cripto.\n- Sin múltiplo EV/EBITDA limpio publicado en fuentes revisadas por transición contable del negocio; declarado dato no disponible = 50 en scoring de valuación relativa.",
-  "tecnico": "- Precio US$12,80, -3,61% d/d y +0,87% en la semana (TradingView, 10-sep-2026), con volumen bajo el promedio (ratio 0,74x vs 20d).\n- RSI 51,3 (bajó desde 54,5) y MACD -0,07 sobre señal -0,28: el histograma sigue girando al alza (señal de piso) pero la sesión también gatilló pérdida de SMA20 (señal de techo) — lectura mixta, sin tendencia clara.\n- Precio aún sobre SMA200 (+1,83%) pero ya bajo SMA50 (-0,97%): el rebote de agosto perdió tracción esta semana.\n- Percentil de precio 30,7% en el año (bajó desde 33,8%): sigue en zona baja del rango, sin sobreextensión.\n- Rendimiento relativo a BTC de -15,3% en 30 días (+35,4% YTD); Sharpe/Sortino 30d cayeron a -0,58/-0,70, reflejando el deterioro de retornos ajustados por riesgo esta semana.",
-  "catalizadores": "**Catalizadores:**\n- Actualización operacional de septiembre (~inicios de octubre 2026): foco en si el hashrate promedio sigue subiendo hacia 50 EH/s.\n- Conversión de la LOI sobre el portafolio texano (718 acres, hasta 885 MW) en contrato firme.\n- Earnings Q4 FY2026 (proyectado 16-dic-2026): primera guía completa post-lease de HPC.\n- Estabilización de BTC si retoma sobre US$80.000 tras la caída de esta semana.\n\n**Riesgos (por materialidad):**\n- Dependencia de BTC: la caída de esta semana (-1,8% d/d, -4,4% semanal) ya golpea a toda la cesta de mineras, CLSK incluida.\n- Pérdida de SMA20 y de SMA50 esta semana: el piso técnico que se venía formando pierde fuerza si el precio no reconquista esos niveles.\n- Ejecución del pivote a HPC atada a plazos hacia 2027; retrasos erosionan la tesis de re-rating.\n- Dilución histórica recurrente vía convertibles y halving 2028, que reducirá a la mitad el subsidio del negocio minero puro.",
-  "sentimiento": "- HECHO: consenso de 12 analistas sigue en 'Buy' con precio objetivo US$23,58 al 8-sep-2026 (agregador financiero), muy por sobre el precio actual.\n- HECHO: el COO Taylor Monnig vendió ~US$393.652 en acciones el 4 y 8-sep-2026 bajo un plan 10b5-1 vigente desde may-2026, más ventas por retención de impuestos de RSU (The Cerbat Gem, 9-sep-2026).\n- LECTURA: la venta es programada y de tamaño acotado; no es señal de alarma, pero suma cautela de corto plazo junto a la caída técnica.\n- LECTURA: consenso alcista (+84% implícito) conviviendo con percentil de precio de 30,7% sugiere que el mercado no capitula ni euforiza — hay espacio en ambas direcciones.\n- LECTURA en contrario: si el precio objetivo no se ajusta pese al deterioro de ingresos y a la pérdida de momentum técnico esta semana, buena parte del optimismo de analistas sigue anclado a la opcionalidad HPC, elevando el riesgo de decepción si esa tesis se demora.",
-  "conclusion": "Score 55/100. Señal: acumulación táctica con cautela creciente, no convicción plena. Esta semana CLSK perdió tracción técnica (RSI a 51,3, pérdida de SMA20 y SMA50, Sharpe/Sortino 30d cayendo a -0,58/-0,70) en línea con una BTC más débil (~US$76.850), aunque el histograma MACD sigue girando al alza y el precio se mantiene sobre SMA200. El catalizador estructural real —HPC de Sandersville y la opción sobre el portafolio texano— no cambió, y earnings quedaron proyectados para el 16-dic-2026. La tesis sigue dependiendo de ejecución 2026-2027 y del precio de BTC como colateral. Confianza: media."
- },
- "scores": {
-  "tecnica": {
-   "score": 54,
-   "just": "Señales mixtas: histograma MACD girando al alza pero pérdida de SMA20/SMA50 en la semana y Sharpe/Sortino 30d empeorando a -0,58/-0,70; sin sobreextensión (percentil 30,7%), pero el piso pierde limpieza."
+  "change": {
+    "day": 8.3,
+    "week": 20.0
   },
-  "fundamental": {
-   "score": 48,
-   "just": "Sin datos operativos nuevos desde el reporte de agosto: ingresos y hashprice del negocio minero base siguen comprimidos (-30,5% a/a, pérdida trimestral de US$239,8M), compensado parcialmente por el contrato HPC que aún no genera caja."
+  "reportDate": "11 de septiembre de 2026",
+  "events": [
+    {
+      "date": "2026-10-06",
+      "label": "Actualización operacional de septiembre 2026",
+      "kind": "corporate",
+      "info": "Actualización mensual de BTC minados, hashrate y tesorería; el patrón habitual es publicarla a inicios del mes siguiente (PRNewswire/StockTitan, 8-sep-2026)."
+    },
+    {
+      "date": "2026-12-16",
+      "label": "Earnings Q4 FY2026 (cierre fiscal 30-sep-2026)",
+      "kind": "earnings",
+      "info": "Fecha proyectada por consenso de calendario (TipRanks/Investing.com/Zacks/Nasdaq, sep-2026), aún sin confirmación oficial de la compañía. Foco: guía de capex 2027 para el HPC de Sandersville y el portafolio texano tras la emisión de convertibles de agosto."
+    }
+  ],
+  "sections": {
+    "resumen": "CLSK repunta con fuerza a ~US$13,85 (11-sep-2026, intradía, +8,3% d/d) tras cerrar en US$12,80 el 10-sep, en una semana con alza acumulada cercana a +20%. El movimiento desacopla de BTC, que cae a ~US$76.500-77.700 (-1 a -2,2% d/d) en espera de datos de inflación en EE.UU. El rally responde más al relato de pivote HPC/IA que a fundamentos mineros: B. Riley elevó su precio objetivo a US$26 (desde US$19) valorando por partes el arriendo de Sandersville (~US$6.270M) más opcionalidad en Sealy y Brazoria County, Texas. Sin novedades operativas desde el update de agosto (593 BTC producidos, tesorería de 13.703 BTC). Earnings Q4 FY2026 proyectados para el 16-dic-2026.",
+    "fundamental": "- HECHO: agosto produjo 593 BTC (38,3 EH/s promedio, 50 EH/s pico) vs 586 BTC en julio, hashprice promedio de US$34,63/PH/día, el mejor desde mayo (PRNewswire/StockTitan, 8-sep-2026).\n- HECHO: tesorería cayó de 13.931 a 13.703 BTC en agosto porque vendió 821 BTC (77 spot, 500 por ejercicio de calls, 244 por basis trade) contra 593 producidos; ~3.951 BTC quedan como colateral de derivados.\n- HECHO: Q3 FY2026 (trimestre a jun-2026): ingresos de US$138M (-30,5% a/a), pérdida neta de US$239,8M (US$-0,89 por acción vs. consenso de US$-0,33), EBITDA ajustado normalizado positivo de US$20M excluyendo el cargo no-caja por valuación de BTC (PRNewswire/StockTitan, ago-2026).\n- HECHO: cerró en 2025 una emisión de US$1.150M en notas convertibles a 0% cupón (2032, conversión ~US$19,16) y recompró >30M de acciones (~US$460M) con parte de los fondos; ~US$670M restantes para capex y deuda.\n- LECTURA: el mercado premia el pivote HPC (Sandersville, Texas) por sobre el deterioro del negocio minero base; costo de producción por BTC actualizado no disponible en fuentes revisadas (declarado no verificable).",
+    "valuacion": "- Market cap ~US$3,56 mil M con ~256,6M acciones en circulación (precio 11-sep-2026, cifra aproximada, no cruzada con el 10-Q más reciente).\n- HECHO: rango 52 semanas US$8,00-US$23,61; el precio actual implica estar cerca de zona media-baja del rango tras el rally de la semana.\n- LECTURA: B. Riley valora por partes el activo HPC en hasta ~US$17.200M sumando Sandersville, Sealy y Brazoria County, muy por sobre el market cap total de CLSK — el mercado aún no lo refleja completo.\n- LECTURA: comparar cap bursátil vs. valor de 13.703 BTC (~US$1.050M a US$76.500) confirma que el precio de la acción depende sobre todo de la opcionalidad HPC, no del balance cripto.\n- Sin múltiplo EV/EBITDA limpio publicado en fuentes revisadas por transición contable del negocio; declarado dato no disponible = 50 en scoring de valuación relativa.",
+    "tecnico": "- Precio ~US$13,85 intradía (11-sep-2026), +8,3% d/d tras cierre de US$12,80 el día previo; semana con alza acumulada de ~20% desde mínimos de US$11 (TradersUnion/StocksToTrade, 11-sep-2026).\n- RSI 51,3 y MACD -0,07 sobre señal -0,28 (dato de cierre 10-sep, previo al rally): histograma girando al alza, aunque la sesión previa gatilló pérdida de SMA20.\n- Precio sobre SMA200 (+1,83%) y con el rally de hoy probablemente recuperando SMA50 y SMA20; el carácter técnico mejora respecto al deterioro visto días atrás.\n- Percentil de precio 30,7% en el año (dato previo al rally); el movimiento de hoy debería empujarlo al alza.\n- Rendimiento relativo a BTC de -15,98% en 30 días (+35,4% YTD) según último corte disponible; el desacople de hoy (CLSK +8% con BTC -1 a -2%) es la señal más reciente de fortaleza idiosincrática.",
+    "catalizadores": "**Catalizadores:**\n- Conversión de la LOI/exclusividad sobre el portafolio texano (718 acres, hasta 885 MW) en contrato firme, replicando el modelo de Sandersville.\n- Actualización operacional de septiembre (~inicios de octubre 2026): foco en si el hashrate promedio sigue subiendo hacia 50 EH/s.\n- Earnings Q4 FY2026 (proyectado 16-dic-2026): primera guía completa post-lease de HPC y post-convertibles.\n- Revisiones adicionales de precio objetivo por parte de analistas tras el re-rating de B. Riley (US$26).\n\n**Riesgos (por materialidad):**\n- Dilución vía convertibles: si CLSK cotiza sobre US$19,16 (precio de conversión), los tenedores de notas convierten y diluyen a accionistas actuales — riesgo ya vigente dado el 52-week high de US$23,61.\n- Dependencia de BTC: aunque hoy hubo desacople positivo, la caída de BTC a ~US$76.500-77.700 sigue siendo el ancla de fondo del negocio minero.\n- Ejecución del pivote a HPC atada a plazos hacia 2027 (primera entrega en Sandersville Q4 2027); retrasos erosionan la tesis de re-rating.\n- Deterioro del negocio minero base: ingresos -30,5% a/a y pérdida trimestral de US$239,8M en Q3 FY2026, con costo de producción por BTC actualizado no disponible.",
+    "sentimiento": "- HECHO: consenso de ~12-13 analistas en 'Buy'/'Strong Buy', con precio objetivo promedio que varía entre ~US$19-24 según agregador; B. Riley elevó su objetivo a US$26 (desde US$19) tras valorar por partes el activo HPC.\n- HECHO: el COO Taylor Monnig vendió ~US$393.652 en acciones el 4 y 8-sep-2026 (The Cerbat Gem, 9-sep-2026), bajo lo que parece un plan programado de venta por RSU/impuestos.\n- LECTURA: paradójicamente, la cobertura de esas ventas de insider coincidió con el rally del 11-sep, sugiriendo que el mercado leyó la noticia como ruido, no como señal bajista.\n- LECTURA: el desacople de hoy (CLSK +8% con BTC cayendo) indica que el sentimiento ya empieza a pesar más la narrativa HPC/IA que el precio de BTC en el corto plazo, un cambio de carácter respecto a semanas previas.\n- LECTURA en contrario: con consenso ya mayoritariamente alcista y objetivo B. Riley muy por sobre el precio actual, gran parte del optimismo depende de que el portafolio texano se confirme como contrato firme; una demora sería el principal disparador de decepción.",
+    "conclusion": "Score 58/100. Señal: mejora de carácter técnico y narrativo, aún no convicción plena. CLSK repunta ~8% hoy y ~20% en la semana desacoplándose de una BTC más débil, impulsado por la narrativa HPC/IA (Sandersville, Texas) reforzada por el upgrade de precio objetivo de B. Riley a US$26. Los fundamentos del negocio minero base siguen débiles (ingresos -30,5% a/a, pérdida de US$239,8M en Q3), y el riesgo de dilución por convertibles se activa si el precio supera US$19,16. La tesis depende de que la LOI texana se convierta en contrato firme y de la ejecución hacia 2027. Confianza: media."
   },
-  "sentimiento": {
-   "score": 43,
-   "just": "Consenso 'Buy' y venta rutinaria de insider (plan 10b5-1) leídos en contrario: optimismo de analistas ya alto (objetivo +84%) deja poco margen de sorpresa positiva mientras el momentum técnico se enfría."
+  "scores": {
+    "tecnica": {
+      "score": 62,
+      "just": "Cambio de carácter relevante: rally de +8% hoy y +20% en la semana desacoplado de BTC (que cae), revirtiendo la pérdida de SMA20/SMA50 de días previos; aún sin confirmar sostenibilidad más allá de una sesión."
+    },
+    "fundamental": {
+      "score": 45,
+      "just": "Negocio minero base sigue débil (ingresos -30,5% a/a, pérdida trimestral de US$239,8M en Q3 FY2026), compensado solo parcialmente por el contrato HPC que aún no genera caja; costo de producción por BTC actualizado no disponible."
+    },
+    "sentimiento": {
+      "score": 48,
+      "just": "Consenso 'Buy'/'Strong Buy' ya optimista y venta rutinaria de insider leídos en contrario: el mercado empieza a pesar más la narrativa HPC que BTC (desacople de hoy), pero el optimismo de analistas deja menos margen de sorpresa positiva pura."
+    },
+    "riesgo": {
+      "score": 36,
+      "just": "Volatilidad 30d de ~106% y drawdown de -64,7% en 12 meses siguen severos; riesgo de dilución material y concreto si el precio supera US$19,16 (conversión de notas), sumado al ~29% de la tesorería empeñado en derivados."
+    },
+    "conviccion": {
+      "score": 60,
+      "just": "Asimetría reforzada por la valoración por partes de B. Riley (hasta ~US$17.200M en activos HPC vs. market cap de US$3,56 mil M) y por el desacople positivo de hoy frente a BTC; tesis falsable: si la LOI texana no se convierte en contrato firme hacia mediados de 2027, el re-rating pierde sustento."
+    }
   },
-  "riesgo": {
-   "score": 38,
-   "just": "Volatilidad 30d de ~106% y drawdown de -64,7% en 12 meses siguen severos, y los retornos ajustados por riesgo empeoraron esta semana (Sharpe/Sortino negativos); el riesgo de pérdida permanente sigue en la dilución y el 29% de la tesorería empeñado en derivados."
+  "sources": [
+    "PRNewswire / StockTitan, 08/09/2026 - CleanSpark Releases August 2026 Operational Update",
+    "The Cerbat Gem, 09/09/2026 - Insider Selling: Cleanspark (NASDAQ:CLSK) COO Sells 25,249 Shares",
+    "TradersUnion / StocksToTrade / TimothySykes, 11/09/2026 - CLSK stock rally coverage",
+    "Yahoo Finance / Fortune, 11/09/2026 - Bitcoin price ~$76,500-77,665",
+    "Yahoo Finance / Blockspace, agosto 2026 - B. Riley eleva precio objetivo de CLSK a $26 (sum-of-the-parts HPC)",
+    "PRNewswire / StockTitan / Investing.com, agosto 2026 - CleanSpark Reports Third Fiscal Quarter 2026 Results",
+    "PRNewswire, julio 2026 - CleanSpark Secures Twenty-Year Lease with High-Investment Grade Global Technology Company (Sandersville)",
+    "DataCenterDynamics, 2026 - CleanSpark Texas portfolio LOI (718 acres, hasta 885 MW)",
+    "TipRanks / Investing.com / Zacks / Nasdaq earnings calendars, sep-2026 - CLSK Q4 FY2026 earnings date estimado",
+    "GuruFocus, 10/09/2026 - CLSK closing price $12.80",
+    "TradingView scanner, 10/09/2026 - RSI, MACD, SMAs, benchmark BTC"
+  ],
+  "opportunity": {
+    "cats": {
+      "valuacion_hist": {
+        "score": 60,
+        "just": "Precio aún en zona media-baja de su rango de 52 semanas pese al rally de hoy; muy por debajo de la valoración por partes de B. Riley (~US$26) y de la suma de activos HPC potenciales (~US$17.200M)."
+      },
+      "calidad": {
+        "score": 45,
+        "just": "Balance con tesorería BTC relevante y equity/deuda ya colocada para financiar el HPC, pero ingresos del negocio base cayendo -30,5% a/a y pérdidas trimestrales amplias en Q3 FY2026."
+      },
+      "asimetria": {
+        "score": 68,
+        "just": "Contrato HPC de Sandersville (~US$6.270M valorado) más opcionalidad en Sealy y Brazoria County frente a un market cap de ~US$3,56 mil M ofrece asimetría real si la LOI texana se firma en firme."
+      },
+      "catalizadores": {
+        "score": 60,
+        "just": "Calendario cercano y concreto: update operacional de octubre, posible conversión de LOI texana en contrato firme, y earnings Q4 FY2026 (16-dic-2026, aún no confirmado oficialmente)."
+      },
+      "contrarian": {
+        "score": 48,
+        "just": "Sentimiento de analistas ya optimista (consenso Buy, objetivos entre US$19-26) limita la lectura contraria pura, aunque el desacople positivo de hoy frente a una BTC débil sugiere que el mercado empieza a mirar más allá del ciclo cripto."
+      }
+    },
+    "plan": {
+      "recomendacion": "Esperar gatillo",
+      "zona_compra": "US$11-15 (entre SMA20/SMA50 y el rally reciente, con confirmación técnica aún en curso)",
+      "invalidacion": "Retroceso total del rally de hoy con cierre sostenido bajo SMA200 (~US$12,57) por varias ruedas, o cancelación/retraso material de la LOI texana o del contrato de Sandersville",
+      "gatillos": [
+        "Conversión de la LOI texana (885 MW) en contrato firme",
+        "Actualización operacional de octubre con hashrate promedio subiendo hacia 50 EH/s",
+        "Nuevas revisiones al alza de precio objetivo tras el modelo sum-of-the-parts de B. Riley"
+      ],
+      "horizonte": "6-18 meses",
+      "tamano": "Posición pequeña-moderada dada la volatilidad de ~106% anualizada",
+      "confianza": "media"
+    }
   },
-  "conviccion": {
-   "score": 55,
-   "just": "Asimetría intacta si el pivote a HPC se ejecuta (recontratación del portafolio texano), con tesis falsable: si no hay nuevos contratos de HPC firmados hacia mediados de 2027, la tesis de re-rating pierde sustento."
-  }
- },
- "sources": [
-  "crypto.news, 09/09/2026 - CleanSpark produces 593 BTC and sells 821 in August",
-  "StockTitan, 09/09/2026 - CleanSpark August Update: 593 Bitcoin Produced",
-  "tronweekly, 09/09/2026 - CleanSpark Bitcoin Production Hits 593 BTC As Treasury Falls",
-  "Blockspace, 14/07/2026 - CleanSpark jumps 10% on 20-year, $6.6 billion Sandersville lease, adds Texas exclusivity pact",
-  "PR Newswire, 14/07/2026 - CleanSpark Secures Twenty-Year Lease with High-Investment Grade Global Technology Company",
-  "PR Newswire, agosto 2026 - CleanSpark Announces Closing of Upsized $1.15 Billion Zero-Coupon Convertible Notes Offering",
-  "The Cerbat Gem, 09/09/2026 - Insider Selling: Cleanspark (NASDAQ:CLSK) COO Sells 25,249 Shares",
-  "MarketBeat, 10/09/2026 - Cleanspark (CLSK) Earnings Date and Reports 2026",
-  "Yahoo Finance / WallStreetZen, 10/09/2026 - CleanSpark (CLSK) Stock Price, News & Quote",
-  "TradingView scanner, 10/09/2026 - precio, RSI, MACD, SMAs, benchmark BTC"
- ],
- "opportunity": {
-  "cats": {
-   "valuacion_hist": {
-    "score": 58,
-    "just": "Precio en percentil 30,7% del rango anual (bajó desde 33,8%), más barato vs su propia historia y muy por debajo del consenso de analistas (US$23,58); sin múltiplo limpio EV/EBITDA por la transición de negocio."
-   },
-   "calidad": {
-    "score": 45,
-    "just": "Balance con tesorería BTC relevante y equity ya financiado para el HPC, pero ingresos del negocio base cayendo -30,5% a/a y pérdidas trimestrales amplias."
-   },
-   "asimetria": {
-    "score": 65,
-    "just": "Contrato HPC de hasta US$11.600M frente a un market cap de US$3,28 mil M ofrece asimetría real si se confirma la expansión al portafolio texano (885 MW adicionales)."
-   },
-   "catalizadores": {
-    "score": 60,
-    "just": "Calendario cercano y concreto: update operacional de octubre, posible ampliación del contrato de Texas y earnings Q4 FY2026 (16-dic-2026)."
-   },
-   "contrarian": {
-    "score": 50,
-    "just": "Sentimiento de analistas ya muy optimista (Buy consensus, objetivo +84%), lo que limita la lectura contraria pura; no hay pesimismo extremo que explotar pese a la debilidad técnica de la semana."
-   }
-  },
-  "plan": {
-   "recomendacion": "Acumular en zona",
-   "zona_compra": "US$11-14 (entre SMA20 y SMA200, con piso técnico aún no confirmado)",
-   "invalidacion": "Cierre sostenido bajo SMA200 (~US$12,57) por varias ruedas con nuevo mínimo de 52 semanas, o cancelación/retraso material del contrato de Sandersville",
-   "gatillos": [
-    "Confirmación de contrato firme sobre el portafolio texano (885 MW)",
-    "Actualización operacional de octubre con hashrate promedio subiendo hacia 50 EH/s",
-    "Reconquista de SMA20/SMA50 con BTC estabilizándose sobre US$80.000"
-   ],
-   "horizonte": "6-18 meses",
-   "tamano": "Posición pequeña-moderada dada la volatilidad de ~106% anualizada",
-   "confianza": "media"
-  }
- },
- "perfil": "CleanSpark es un operador de centros de datos que monetiza electricidad: compra energía barata en Georgia, Tennessee, Wyoming y Texas, opera infraestructura y máquinas propias —sin hosting de terceros— y convierte kilovatios en bitcoin. Facturó $766,3M en FY2025 (+102%), superó los 50 EH/s y retiene una tesorería de ~12.800 BTC. El modelo está mutando: la compresión post-halving hundió los ingresos trimestrales ~25% a/a, y firmó un arriendo triple neto a 20 años por 175 MW con una tecnológica de grado de inversión (~$6.600M contratados, margen casi íntegro). Ahí está la tesis: el activo escaso no son las máquinas sino su cartera de 1,45 GW de energía contratada e interconexiones, justo lo que demanda la IA. Como minero es tomador de precio doblemente cíclico, con dilución permanente y el halving de 2028 recortando el subsidio a la mitad; la variable crítica es el financiamiento, que ata la reconversión a HPC al costo de capital y al precio del bitcoin que sirve de colateral."
+  "perfil": "CleanSpark es un operador de centros de datos que monetiza electricidad: compra energía barata en Georgia, Tennessee, Wyoming y Texas, opera infraestructura y máquinas propias —sin hosting de terceros— y convierte kilovatios en bitcoin. Facturó $766,3M en FY2025 (+102%), superó los 50 EH/s y retiene una tesorería de ~13.700 BTC. El modelo está mutando: la compresión post-halving hundió los ingresos trimestrales ~30% a/a, y firmó un arriendo triple neto a 20 años por 175 MW con una tecnológica de grado de inversión (~$6.600M contratados, margen casi íntegro), además de una LOI de exclusividad sobre su portafolio texano de hasta 885 MW. Ahí está la tesis: el activo escaso no son las máquinas sino su cartera de energía contratada e interconexiones, justo lo que demanda la IA. Como minero es tomador de precio doblemente cíclico, con dilución permanente (incluida la potencial por convertibles sobre US$19,16) y el halving de 2028 recortando el subsidio a la mitad; la variable crítica es el financiamiento, que ata la reconversión a HPC al costo de capital y al precio del bitcoin que sirve de colateral."
 }
