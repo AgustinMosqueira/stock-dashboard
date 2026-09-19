@@ -4,11 +4,11 @@
   "statsList": [
     [
       "Precio",
-      "¥5,880 (15-sep-2026)"
+      "¥6.140 (17-sep-2026)"
     ],
     [
       "Rango 52 sem.",
-      "¥2.420 – ¥9.150 (Investing.com/TradingView, 12-sep-2026; LECTURA: coincide con rango previo, variación mínima de ¥4 en el piso probablemente por redondeo de fuente)"
+      "¥2.420 – ¥9.150 (agregado TradingView/CNBC, 18-sep-2026; LECTURA: rango sin cambios vs semana previa, mínimo de marzo-2026 (¥3.465 según nota japonesa aikabu_analysis) y máximo de fines de mayo-2026 (¥8.000, tras rally por guidance) probablemente ya superado intradía en algún pico no capturado por este agregado)"
     ],
     [
       "Listado",
@@ -16,89 +16,89 @@
     ],
     [
       "Market cap",
-      "≈¥548.100 millones (~US$3,5-3,6 mil millones a ¥154/USD; Investing.com/TipRanks, 12-sep-2026; HECHO: cifra baja levemente vs ¥557.600M del 11-sep, coherente con caída de precio intradía)"
+      "≈¥579.900 millones (~US$3,7-3,8 mil millones a ~¥153/USD; HECHO: Kabutan y stockanalysis.com reportan ¥586.900M-¥597.100M al 18-sep-2026 con precio ¥6.200, cifra escalada proporcionalmente a ¥6.140; GAP DE COBERTURA: pequeña disparidad entre fuentes por timing de share count)"
     ],
     [
       "P/E",
-      "≈91x TTM (Kabutan-style, no verificado directamente el 14-sep por bloqueo 403 de Kabutan) · LECTURA: fuente secundaria (companiesmarketcap) reporta P/E TTM de 571x, cifra muy discordante — probablemente denominador de beneficio neto TTM distinto o desactualizado; GAP DE COBERTURA declarado, no se pudo reconciliar con fuente primaria"
+      "≈97,8x TTM (Kabutan, 18-sep-2026, con precio de referencia ¥6.200) · PBR ≈7,21x · LECTURA: sigue sin reconciliarse contra otra fuente secundaria que en semanas previas reportó cifras muy discordantes (hasta 571x) — GAP DE COBERTURA persistente, se prioriza Kabutan por ser fuente japonesa primaria del mercado local"
     ],
     [
       "Target consenso",
-      "≈¥7.731 (Investing.com, 7-10 analistas, Buy, rango ¥3.300-¥11.000, 12-sep-2026); TipRanks reporta consenso más bajo (~¥4.076-8.396 según ventana de 3 meses usada) — GAP DE COBERTURA: alta dispersión entre agregadores por distinta muestra de analistas y ventanas temporales. Jefferies (Sho Fukuhara) pasó de Underperform ¥2.600 (16-dic-2025) a Buy ¥10.000 (fecha exacta no reconciliada entre fuentes, posterior al guidance del 7-ago-2026) — giro de sentimiento sell-side muy marcado en 2026."
+      "≈¥7.731 (MarketScreener, 10 analistas, Buy, rango ¥3.300-¥11.000, consultado 18-sep-2026); confirma cifra ya vista en semanas previas. Jefferies (Sho Fukuhara) completó giro histórico: Underperform ¥2.400 (15-oct-2025, por competencia china) → alza de target a ¥2.600 (16-dic-2025) → upgrade a Buy con target ¥10.000 (~16-jun-2026, fecha con confianza moderada, no leída directamente de fuente primaria). Tokai Tokyo Securities bajó de Outperform a Neutral el 4-mar-2026 con target ¥4.170 — sell-side sigue dividido pese al giro de Jefferies."
     ],
     [
       "Próx. earnings",
-      "~inicios-mediados nov-2026 (Investing.com/TipRanks agregan 5-nov-2026; el patrón histórico de la empresa —el semestre FY3/26 tuvo aviso de diferencia de previsión el 12-nov-2025 y presentación a inversionistas el 19-nov-2025— sugiere que el Q2 FY3/27 podría concentrarse en esa misma ventana de inicios-mediados de noviembre; SIN confirmación oficial en TDnet ni calendario IR de hds.co.jp al 15-sep-2026)"
+      "~5-nov-2026 (stockanalysis.com/agregadores, consultado 18-sep-2026); el patrón histórico (semestre FY3/26 reportado 18/19-nov-2025) deja abierta la posibilidad de deslizamiento a mediados de noviembre. SIN confirmación oficial en TDnet ni calendario IR de hds.co.jp al 18-sep-2026 — GAP DE COBERTURA."
     ],
     [
       "Técnico (auto)",
-      "RSI 48.0 · MACD -132.95 / señal -196.31 (TradingView, 15-sep-2026)"
+      "RSI 53.6 · MACD -75.41 / señal -156.73 (TradingView, 17-sep-2026)"
     ]
   ],
   "technical": {
-    "price": 5880,
-    "change_1d_pct": 0.51,
-    "change_1w_pct": 1.55,
-    "rsi": 48.0,
-    "macd": -132.9492,
-    "macd_signal": -196.3148,
-    "sma20": 5750.0,
-    "sma50": 6343.2,
-    "sma200": 5217.885,
-    "ema12": 5822.7574,
-    "ema26": 5955.7066,
-    "pct_vs_sma20": 2.26,
-    "pct_vs_sma50": -7.3,
-    "pct_vs_sma200": 12.69,
-    "volume_today": 79300,
-    "volume_avg20": 1085600.0,
-    "volume_ratio": 0.07,
-    "volatility_30d": 94.92,
-    "sharpe": -0.64,
-    "sortino": -0.57,
+    "price": 6140,
+    "change_1d_pct": 2.85,
+    "change_1w_pct": 5.87,
+    "rsi": 53.6,
+    "macd": -75.4087,
+    "macd_signal": -156.7342,
+    "sma20": 5783.5,
+    "sma50": 6276.6,
+    "sma200": 5250.985,
+    "ema12": 5900.6452,
+    "ema26": 5976.0539,
+    "pct_vs_sma20": 6.16,
+    "pct_vs_sma50": -2.18,
+    "pct_vs_sma200": 16.93,
+    "volume_today": 267100,
+    "volume_avg20": 923845.0,
+    "volume_ratio": 0.29,
+    "volatility_30d": 89.75,
+    "sharpe": -0.75,
+    "sortino": -0.61,
     "max_drawdown_1y": -40.16,
-    "price_percentile_1y": 51.4,
-    "vs_benchmark_30d_pct": -3.32,
-    "perf_1m_pct": -11.04,
-    "perf_ytd_pct": 52.73
+    "price_percentile_1y": 55.3,
+    "vs_benchmark_30d_pct": 10.39,
+    "perf_1m_pct": 7.16,
+    "perf_ytd_pct": 59.48
   },
   "risk": {
-    "volatility_30d": 94.92,
-    "sharpe": -0.64,
-    "sortino": -0.57,
+    "volatility_30d": 89.75,
+    "sharpe": -0.75,
+    "sortino": -0.61,
     "max_drawdown_1y": -40.16,
-    "n_days": 327,
+    "n_days": 329,
     "window": 30
   },
   "benchmark": {
     "ticker": "TVC:NI225",
     "label": "Nikkei 225",
-    "relative_performance_30d": -3.32,
-    "relative_performance_ytd": 28.12,
-    "price_percentile_1y": 51.4,
+    "relative_performance_30d": 10.39,
+    "relative_performance_ytd": 32.74,
+    "price_percentile_1y": 55.3,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-15T21:43:47-03:00"
+      "fetched_at": "2026-09-17T21:43:28-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-15T21:43:47-03:00"
+      "fetched_at": "2026-09-17T21:43:28-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-15T21:43:47-03:00"
+      "fetched_at": "2026-09-17T21:43:28-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "TVC:NI225",
-      "fetched_at": "2026-09-15T21:43:47-03:00"
+      "fetched_at": "2026-09-17T21:43:28-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/HDSY.json",
-      "n_days": 327
+      "n_days": 329
     }
   },
   "metricChanges": [
@@ -160,110 +160,108 @@
     }
   ],
   "trend": {
-    "piso": 3,
+    "piso": 1,
     "techo": 0,
     "max": 7,
     "senales_piso": [
-      "divergencia RSI alcista",
-      "histograma MACD girando al alza",
-      "secado del volumen vendedor"
+      "histograma MACD girando al alza"
     ],
     "senales_techo": []
   },
   "change": {
-    "day": 0.51,
-    "week": 1.55
+    "day": 2.85,
+    "week": 5.87
   },
-  "reportDate": "14 de septiembre de 2026",
+  "reportDate": "18 de septiembre de 2026",
   "events": [
     {
       "date": "2026-09-29",
       "label": "Fecha ex-dividendo confirmada (intermedio ¥10/acción, pago 07-dic-2026)",
       "kind": "corporate",
-      "info": "HECHO: guidance FY3/27 (7-ago-2026) confirma dividendo anual ¥20/acción (¥10 interino + ¥10 final), sin cambio interanual, payout objetivo ~35% del beneficio neto atribuible (política IR oficial, hds.co.jp/ir/stock/dividend). HECHO: agregador de dividendos (Digrin, consultado 15-sep-2026) confirma ex-dividendo 29-sep-2026 y fecha de pago 07-dic-2026, coherente con el mes de derecho de septiembre habitual de la empresa."
+      "info": "HECHO: guidance FY3/27 confirma dividendo anual ¥20/acción (¥10 interino + ¥10 final), sin cambio interanual, payout objetivo ~35% del beneficio neto atribuible (política IR oficial, hds.co.jp/ir/stock/dividend). HECHO: agregador de dividendos (ad-hoc-news.de, consultado 18-sep-2026) confirma ex-dividendo 29-sep-2026, fecha de registro 30-sep-2026 y fecha de pago 07-dic-2026."
     },
     {
       "date": "2026-11-05",
       "label": "Q2 FY3/27 (semestre a sep-2026), fecha estimada",
       "kind": "earnings",
-      "info": "LECTURA: agregadores (Investing.com, TipRanks) apuntan a 5-nov-2026; el propio calendario IR de la empresa no lista aún la fecha exacta del Q2 (confirmado solo Q1 el 7-ago-2026). El patrón histórico es informativo: el semestre FY3/26 tuvo aviso de diferencia de previsión el 12-nov-2025 y presentación a inversionistas con Q&A el 19-nov-2025 (hds.co.jp), por lo que el Q2 FY3/27 podría deslizarse a mediados de noviembre. Foco: si el guidance elevado (ventas +25,1%, oper. +231%, neto +272,9% i.a.) se sostiene, si el pipeline de pedidos de robots de AI/humanoides (¥2.500M meta FY3/26, management guía a 'más del doble' en FY3/27 según Q&A previo) escala, y si se identifica por nombre al cliente norteamericano."
+      "info": "LECTURA: agregadores (stockanalysis.com, consultado 18-sep-2026) apuntan a 5-nov-2026; el propio calendario IR de la empresa no lista aún la fecha exacta del Q2. El patrón histórico es informativo: el semestre FY3/26 se reportó el 18/19-nov-2025, por lo que el Q2 FY3/27 podría deslizarse a mediados de noviembre. Foco: si el guidance elevado dos veces en 2026 (ventas ¥74.500M, oper. ¥8.500M, neto ¥6.000M para FY3/27) se sostiene, si los pedidos de robots de IA/humanoides (¥1.200M solo en Q1 FY3/27 de un cliente norteamericano no identificado) siguen acelerando, y si se identifica por nombre al cliente."
     },
     {
       "date": "2026-12-01",
       "label": "Cierre esperado de ampliación de capacidad en EE.UU. -Massachusetts- (+50%)",
       "kind": "corporate",
-      "info": "HECHO (fuente japonesa primaria, Nikkan Kogyo Shimbun, 20-feb-2026, replicada por Fisco/Yahoo Finance Japan/Kabutan/Minkabu el mismo día): la empresa reportó que ampliaría en ~50% la capacidad de manufactura de su planta de Massachusetts (EE.UU.) con objetivo de mediados de 2026 (jun-jul), para atender demanda de robots de IA/humanoides. LECTURA: no se ubicó comunicado TDnet formal (release.tdnet.info) confirmando cierre definitivo de la obra ni fecha exacta de operación plena; se usa diciembre 2026 como fecha estimada conservadora de maduración plena de la capacidad, pendiente de confirmación en el próximo informe semestral."
+      "info": "HECHO (fuente japonesa primaria, Nikkan Kogyo Shimbun, 20-feb-2026, replicada por Fisco/Yahoo Finance Japan/Kabutan/Minkabu el mismo día): la empresa reportó que ampliaría en ~50% la capacidad de manufactura de su planta de Massachusetts (EE.UU.) con objetivo de mediados de 2026 (jun-jul), para atender demanda de robots de IA/humanoides. LECTURA: sigue sin ubicarse comunicado TDnet formal confirmando cierre definitivo de la obra ni fecha exacta de operación plena; se usa diciembre 2026 como fecha estimada conservadora de maduración plena de la capacidad, pendiente de confirmación en el próximo informe semestral."
     }
   ],
   "sections": {
-    "resumen": "HDSY (Harmonic Drive Systems, TSE:6324) cotiza en ¥5.880, tras corrección del -11% mensual pero +52,7% YTD, en rango técnico neutro (RSI 48, bajo SMA50 pero sobre SMA200). El guidance FY3/27 (7-ago-2026) proyecta ventas +25%, operativo +231% y neto +273% i.a., impulsado por pedidos de robots de IA/humanoides (~¥2.500M meta FY3/26, management guía a duplicar en FY3/27) y una ampliación confirmada del 50% de capacidad en su planta de Massachusetts (Nikkan Kogyo, 20-feb-2026). El giro de Jefferies de Underperform (¥2.600, dic-2025) a Buy (¥10.000, 2026) ilustra el cambio radical de percepción sell-side, aunque el cliente norteamericano de humanoides sigue sin nombre confirmado. Riesgo estructural: Leaderdrive controla 80-90% del mercado chino de reductores para humanoides y ya negocia canales de venta en Japón para 2026 (J.P. Morgan/Goldman Sachs, ago-2026).",
-    "fundamental": "- Guidance FY3/27 (7-ago-2026, oficial/TDnet): ventas ¥74.500M (+25,1%), oper. ¥8.500M (+231%), neto ¥6.000M (+273% i.a.) — recuperación en V tras ciclo de semiconductores deprimido.\n- Q1 FY3/27 (7-ago-2026, TDnet): ventas ¥16.700M (+23,6% i.a.), oper. ¥1.800M (vs ¥100M año previo), pedidos +55,7% i.a. a ¥24.128M, impulsados por automatización global, pedidos de robots quirúrgicos en Norteamérica y demanda de equipos de semiconductores avanzados ligados a IA generativa.\n- Ampliación de capacidad en EE.UU. (Massachusetts, +50%, objetivo jun-jul 2026): confirmada por prensa japonesa especializada (Nikkan Kogyo, 20-feb-2026) tras filtración que movió la acción; SIN comunicado TDnet formal localizado que confirme cierre/operación plena — GAP DE COBERTURA declarado.\n- Dividendo FY3/27 confirmado: ¥20/acción anual (¥10 interino ex-div 29-sep-2026, pago 7-dic-2026 + ¥10 final), sin cambio i.a., payout objetivo ~35% del beneficio neto.\n- P/E TTM ~91x según agregador principal, pero otra fuente reporta 571x — GAP DE COBERTURA: discrepancia no reconciliada; tratar con cautela.",
-    "valuacion": "- Market cap ≈¥548 mil millones (~US$3,5-3,6 mil millones), con P/E TTM elevado (~91x, con fuerte disparidad entre fuentes) que ya descuenta gran parte de la recuperación de utilidades.\n- Consenso de precio objetivo diverge marcadamente entre agregadores: Investing.com ¥7.731 (7-10 analistas, Buy, rango ¥3.300-¥11.000) vs TipRanks con muestras más chicas y ventanas de 3 meses que arrojan cifras muy distintas (¥4.076-8.396) — el mercado no tiene un ancla de valuación estable.\n- Giro extremo de Jefferies: de Underperform ¥2.600 (16-dic-2025) a Buy ¥10.000 en 2026 (fecha exacta no reconciliada entre fuentes) — un salto de ~4x en el target de un mismo analista en menos de un año, señal de reescritura completa de tesis más que de ajuste incremental.\n- El re-rating YTD (+52,7%) ya asume ejecución fuerte en robots de IA/humanoides; cualquier decepción en el Q2 o el guidance revertiría múltiplos rápidamente dado el apalancamiento operativo.\n- Tokai Tokyo Securities mantuvo Hold el 18-ago-2026 (post-guidance), mostrando que no todo el sell-side comparte el optimismo de Jefferies/consenso agregado.",
-    "tecnico": "- Precio ¥5.880, sobre SMA20 (¥5.750, +2,3%) pero -7,3% bajo SMA50 (¥6.343) y +12,7% sobre SMA200 (¥5.218) — estructura mixta, base en construcción tras corrección de agosto-septiembre.\n- RSI 48,0 y MACD (-132,95) bajo señal (-196,31) pero con histograma mejorando — consistente con las 3 señales de piso activas (divergencia RSI alcista, MACD girando, volumen vendedor secándose).\n- Volumen del día muy bajo (79.300 vs promedio de 20 días de 1.085.600, ratio 0,07x) tras el pico de volumen del 11-sep (2,22M, +137% vs día previo) ligado a la reacción post-Q1 — el mercado ya digirió el catalizador reciente.\n- Máximo drawdown de 1 año -40,2%, Sharpe -0,64 y Sortino -0,57: el perfil de riesgo/retorno de corto plazo sigue siendo pobre pese al rally YTD.\n- Persisten señales de piso sin señales de techo (0 de 7) — cuadro técnico consistente con acumulación, no con clímax de venta ni de compra.",
-    "sentimiento": "- Consenso sell-side mayoritariamente constructivo pero con dispersión inusual de targets (¥3.300-¥11.000 según agregador), señal de incertidumbre genuina, no solo de rezago de cobertura.\n- Giro dramático de Jefferies (Underperform ¥2.600 en dic-2025 a Buy ¥10.000 en 2026) es el caso más extremo de revisión sell-side observado, mientras Tokai Tokyo se mantiene cauteloso (Hold, 18-ago-2026) — el sell-side está dividido, no unánime.\n- Medios especializados en robótica (Pandaily, 36Kr Japan, humanoid.guide) mantienen narrativa alcista sobre HDSY como 'proxy' de humanoides, lo que puede sesgar el sentimiento minorista sin corroboración de pedidos concretos por cliente.\n- Cobertura en inglés sobre la empresa sigue siendo escasa: la confirmación de la ampliación de capacidad en EE.UU. proviene solo de prensa japonesa (Nikkan Kogyo) sin traducción oficial ni comunicado TDnet en inglés localizado — GAP DE COBERTURA explícito.\n- Ausencia de identificación del cliente norteamericano mantiene una prima de especulación que podría revertirse abruptamente si el nombre se revela y decepciona (o se confirma positivamente).",
-    "catalizadores": "**Catalizadores:**\n- Confirmación de fecha e identidad del 'cliente norteamericano' de humanoides — el catalizador de mayor impacto potencial, aún pendiente (gap de cobertura activo).\n- Reporte Q2 FY3/27 (~5-nov a mediados-nov-2026, fecha no confirmada oficialmente) — validará si el guidance elevado del 7-ago se sostiene y si los pedidos de IA/humanoides siguen acelerando.\n- Fecha ex-dividendo confirmada 29-sep-2026 (¥10/acción interino, pago 7-dic-2026) — evento corporativo menor pero confirma sostenibilidad del payout pese al alza de utilidades.\n- Maduración de la ampliación de capacidad en EE.UU. (Massachusetts, +50%, objetivo jun-jul 2026 según Nikkan Kogyo) — de confirmarse en TDnet/IR oficial, señalaría compromiso de largo plazo con clientes norteamericanos.\n\n**Riesgos (por materialidad):**\n- Dependencia de cliente único/concentrado: la tesis de re-rating descansa en pedidos de humanoides de EE.UU. no identificados por nombre — riesgo de materialidad alta si el pipeline no se traduce en volumen.\n- Competencia estructural china acelerando: Leaderdrive tiene 80-90% del mercado chino de reductores para humanoides (Goldman Sachs, ago-2026) y 30-40% del mercado chino total (J.P. Morgan), y ya prueba canales de venta en Japón para 2026 y con clientes como FANUC (~1,5 años de pruebas) — riesgo de erosión del moat geográfico de HDS, no solo de precio.\n- Apalancamiento operativo extremo: la recuperación de +231% en beneficio operativo funciona igual de violento a la baja si el ciclo de semiconductores o pedidos de humanoides decepcionan.\n- Riesgo de calendario/comunicación: fecha de Q2 FY3/27 no confirmada oficialmente (TDnet) y ampliación de capacidad en EE.UU. sin comunicado oficial localizado generan incertidumbre de timing para los catalizadores más cercanos.",
-    "conclusion": "HDSY combina un catalizador estructural real (robots de IA/humanoides, capacidad en EE.UU. ampliándose 50%) con máxima incertidumbre de ejecución: guidance FY3/27 robusto y confirmado oficialmente, pero el cliente ancla sigue sin nombre y Leaderdrive escala agresivamente en China y ya apunta a Japón. Técnicamente, las 3 señales de piso activas sugieren que la corrección de agosto-septiembre podría estar agotándose, pero la volatilidad extrema (95% anualizada) y el consenso de targets muy disperso (¥3.300-¥11.000, con Jefferies pasando de ¥2.600 a ¥10.000 en menos de un año) reflejan que el mercado no tiene ancla de valuación. Confianza media: postura de esperar el Q2 FY3/27 y/o la identificación del cliente antes de aumentar exposición."
+    "resumen": "HDSY (Harmonic Drive Systems, TSE:6324) cotiza en ¥6.140, +2,85% día y +5,87% semana, tras ascenso a TSE Prime (27-feb-2026) y guidance FY3/27 elevado dos veces: ventas ¥74.500M (+25,1%), operativo ¥8.500M (+231%), neto ¥6.000M (+273% i.a.), validado por Q1 FY3/27 (7-ago) que superó plan interno (pedidos +55,7% i.a.). Motor: reductores para robots de IA/humanoides (¥1.200M en Q1, cliente EE.UU. sin nombrar) y ampliación 50% de capacidad en Massachusetts. Jefferies giró de Underperform ¥2.400 a Buy ¥10.000 en 2026. Riesgo: fabricantes chinos (Leaderdrive/Green Harmonic, Shuanghuan, Zhongdali) ya superan 50% del mercado doméstico chino y proveerían a Optimus/Unitree/Figure.",
+    "fundamental": "- Guidance FY3/27 (revisado 13-ago, oficial): ventas ¥74.500M (+25,1%), oper. ¥8.500M (+231%), neto ¥6.000M (+273% i.a.) — segunda alza del año, recuperación en V.\n- Q1 FY3/27 (7-ago, TDnet): ventas ¥16.680M (+23,6% i.a.), oper. ¥1.840M/margen 11,0% (vs ¥122M previo), pedidos +55,7% i.a. a ¥24.130M, incl. ¥4.400M dispositivos médicos y ¥1.200M de cliente IA-robots norteamericano.\n- Ampliación capacidad EE.UU. (Massachusetts, +50%, jun-jul 2026): solo prensa japonesa (Nikkan Kogyo, 20-feb) — GAP DE COBERTURA, sin TDnet formal.\n- Dividendo FY3/27: ¥20/acción anual (¥10 interino ex-div 29-sep, pago 7-dic + ¥10 final), payout ~35%.\n- P/E TTM ~97,8x (Kabutan) sin reconciliar vs fuentes secundarias discordantes — GAP DE COBERTURA persistente.",
+    "valuacion": "- Market cap ≈¥580 mil millones (~US$3,7-3,8 mil millones), P/E TTM ~97,8x (Kabutan) que ya descuenta gran parte de la recuperación de utilidades FY3/27.\n- Consenso ¥7.731 (MarketScreener, 10 analistas, Buy) con rango amplísimo ¥3.300-¥11.000 — sin ancla de valuación estable, reflejo de tesis de humanoides aún no monetizada.\n- Giro histórico de Jefferies: Underperform ¥2.400 (15-oct-2025) a Buy ¥10.000 (~jun-2026), salto ~4x en menos de un año — probable capitulación ante momentum más que ajuste fundamental gradual.\n- El rally (+59,5% YTD) ya asume ejecución fuerte en humanoides; el mercado mostró señales de \"vender la noticia\" tras el guidance de agosto pese al alza.\n- Tokai Tokyo bajó de Outperform a Neutral (4-mar-2026, target ¥4.170) — sell-side dividido, no unánime con Jefferies.",
+    "tecnico": "- Precio ¥6.140, sobre SMA20 (+6,2%) pero -2,2% bajo SMA50 y +16,9% sobre SMA200 — recuperación más consolidada que semanas previas.\n- RSI 53,6 neutro-alcista; MACD (-75,41) bajo señal (-156,73) pero histograma mejorando — única señal de piso activa (MACD girando al alza).\n- Volumen del día bajo (267.100 vs promedio 20d de 923.845, ratio 0,29x) — sin convicción que confirme el movimiento.\n- Drawdown 1a -40,2%, Sharpe -0,75, Sortino -0,61: riesgo/retorno de corto plazo débil pese a +59,5% YTD.\n- 1 señal de piso y 0 de techo (de 7) — recuperación en curso, sin clímax de venta ni sobrecompra.",
+    "sentimiento": "- Consenso sell-side mayoritariamente Buy (10 analistas) pero con dispersión extrema de targets (¥3.300-¥11.000) — incertidumbre genuina, no solo rezago de cobertura.\n- Jefferies giró 180° (Underperform ¥2.400 en oct-2025 a Buy ¥10.000 en 2026) mientras Tokai Tokyo se volvió más cauteloso (Neutral, 4-mar-2026) — sell-side dividido.\n- Interés en corto del ADR OTC (HSYDF) cayó 47,5% (Daily Political, 15-sep-2026) — bajistas capitulando tras el rally.\n- Cobertura en inglés escasa: ampliación EE.UU. y pedidos humanoides dependen de prensa japonesa y blogs sin traducción oficial — GAP DE COBERTURA explícito.\n- Ausencia de identificación del cliente norteamericano mantiene prima especulativa reversible si el nombre decepciona.",
+    "catalizadores": "**Catalizadores:**\n- Confirmación de fecha e identidad del \"cliente norteamericano\" de humanoides — mayor impacto potencial, aún pendiente.\n- Reporte Q2 FY3/27 (~5-nov-2026, no confirmado oficialmente) — validará si el guidance elevado dos veces se sostiene.\n- Ex-dividendo confirmado 29-sep-2026 (¥10/acción, pago 7-dic-2026) — confirma sostenibilidad del payout.\n- Maduración de ampliación de capacidad EE.UU. (Massachusetts +50%, jun-jul 2026 según Nikkan Kogyo) — de confirmarse en TDnet, señalaría compromiso de largo plazo.\n\n**Riesgos (por materialidad):**\n- Competencia china acelerando y diversificándose: Leaderdrive/Green Harmonic, Shuanghuan y Zhongdali ya superan 50% del mercado doméstico chino y proveerían (fuentes de terceros, no confirmadas) a Optimus, Unitree y Figure — motivo original del downgrade de Jefferies en oct-2025.\n- Nueva competencia occidental: Schaeffler anunció strain wave gears por conformado (-25% costo, -75% material), mass manufacturing desde 2027.\n- Dependencia de cliente único no identificado: riesgo alto si el pipeline no se traduce en volumen sostenido.\n- Apalancamiento operativo extremo: +231% en oper. funciona igual de violento a la baja si el ciclo decepciona; ya hubo señales de \"vender la noticia\" tras el guidance de agosto.",
+    "conclusion": "HDSY combina un catalizador estructural real (humanoides, TSE Prime, capacidad EE.UU. +50%, guidance elevado dos veces) con máxima incertidumbre de ejecución: el cliente ancla sigue sin nombre y la competencia china (mayoría del mercado doméstico chino) avanza hacia Tesla/Unitree/Figure, mientras Schaeffler suma amenaza occidental desde 2027. Técnicamente la recuperación es más sólida (sobre SMA20/SMA200, RSI neutro-alcista) pero sin convicción de volumen. El consenso disperso (¥3.300-¥11.000) y el giro de 4x de Jefferies confirman que el mercado no tiene ancla de valuación. Confianza media: esperar Q2 FY3/27 y/o identificación del cliente antes de aumentar exposición."
   },
   "scores": {
     "tecnica": {
-      "score": 56,
-      "just": "Las 3 señales de piso (divergencia RSI, MACD girando, volumen vendedor secándose) persisten y el precio recuperó la SMA20, pero sigue bajo SMA50 y la volatilidad extrema impide confirmar cambio de carácter genuino."
+      "score": 58,
+      "just": "La señal de piso (MACD girando al alza) se mantiene y el precio ya recuperó SMA20 y SMA200 con RSI en zona neutra-alcista (53,6), aunque sigue bajo SMA50 y el volumen bajo (0,29x promedio) no confirma convicción del movimiento."
     },
     "fundamental": {
-      "score": 66,
-      "just": "Guidance oficial FY3/27 con crecimiento explosivo (oper. +231%) confirmado por TDnet real (7-ago) y ampliación de capacidad en EE.UU. reportada por prensa japonesa primaria, pero P/E ya elevado y discrepancias de datos entre fuentes bajan algo de confianza en la calidad de la valuación reportada."
+      "score": 68,
+      "just": "Guidance FY3/27 elevado dos veces en 2026 y Q1 real ya por encima de plan interno confirman ejecución sólida, con ampliación de capacidad en EE.UU. reportada por prensa japonesa primaria, pero P/E ya muy elevado (~98x) y discrepancias de datos entre fuentes moderan la confianza."
     },
     "sentimiento": {
-      "score": 52,
-      "just": "Consenso sell-side constructivo pero dividido (giro extremo de Jefferies a Buy vs Hold cauteloso de Tokai Tokyo); narrativa mediática en inglés sobregira sobre humanoides sin corroboración de cliente, lo que exige leer el sentimiento con escepticismo."
+      "score": 54,
+      "just": "Consenso sell-side mayoritariamente Buy con caída fuerte de interés en corto (-47,5%) sugiere optimismo consolidándose, pero la dispersión extrema de targets y la cautela de Tokai Tokyo exigen leer el sentimiento con escepticismo, no como unanimidad."
     },
     "riesgo": {
-      "score": 36,
-      "just": "Volatilidad extrema es coyuntural, pero dependencia de cliente no identificado y avance agresivo de Leaderdrive (80-90% del mercado chino de humanoides, ya probando canales en Japón) son riesgos de pérdida permanente de tesis, no solo de precio."
+      "score": 34,
+      "just": "Volatilidad extrema es coyuntural, pero dependencia de cliente no identificado, avance de múltiples competidores chinos (ya mayoría del mercado doméstico chino) y nueva amenaza occidental de Schaeffler desde 2027 son riesgos de pérdida permanente de tesis, no solo de precio."
     },
     "conviccion": {
-      "score": 53,
-      "just": "Asimetría real si el cliente norteamericano se confirma y escala, pero tesis es falsable y binaria en el corto plazo (Q2 FY3/27); posición moderada justificada, no de alta convicción."
+      "score": 54,
+      "just": "Asimetría real si el cliente norteamericano se confirma y escala, pero tesis sigue siendo falsable y binaria en el corto plazo (Q2 FY3/27); posición moderada justificada, no de alta convicción."
     }
   },
   "sources": [
     "Kabutan",
-    "Yahoo Finance Japan",
-    "TipRanks",
-    "Investing.com",
+    "stockanalysis.com",
+    "BigGo Finance (agregador TDnet)",
     "MarketScreener",
-    "StockAnalysis/companiesmarketcap",
+    "Investing.com",
+    "Simply Wall St",
     "hds.co.jp (IR oficial)",
-    "Nikkei (TDnet aggregator)",
     "Nikkan Kogyo Shimbun",
-    "Digrin",
-    "Pandaily",
-    "36Kr Japan",
-    "Finimize",
-    "humanoid.guide",
+    "ad-hoc-news.de",
+    "note.com/aikabu_analysis",
+    "The Robot Report / Schaeffler press release",
+    "nextfinancial.substack.com",
+    "Daily Political",
+    "webull.com",
     "TradingView"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 45,
-        "just": "P/E TTM elevado (~91x, con discrepancia de fuente hasta 571x sin reconciliar) deja poco margen de seguridad pese a la corrección reciente de -11% mensual; percentil de precio a 1 año en zona media (51,4%)."
+        "score": 42,
+        "just": "P/E TTM muy elevado (~97,8x, Kabutan) deja poco margen de seguridad pese a que el precio corrigió desde su pico de mayo (¥8.000); percentil de precio a 1 año en zona media (55,3%)."
       },
       "calidad": {
-        "score": 65,
-        "just": "Líder global histórico en reductores armónicos con moat de proceso real y ampliación de capacidad en EE.UU. en marcha, pero márgenes volátiles por ciclo de semiconductores y presión creciente de Leaderdrive en China."
+        "score": 64,
+        "just": "Líder global histórico en reductores armónicos con moat de proceso real, ascenso a TSE Prime y ampliación de capacidad en EE.UU. en marcha, pero márgenes volátiles por ciclo de semiconductores y presión creciente de múltiples competidores chinos."
       },
       "asimetria": {
         "score": 60,
-        "just": "Optionality de robots de IA/humanoides es genuina y con capacidad física en construcción, pero aún no monetizada por nombre de cliente; el downside ya refleja parte del riesgo de decepción."
+        "just": "Optionality de robots de IA/humanoides es genuina, con pedidos ya materializados (¥1.200M en Q1) y capacidad física en construcción, pero aún no monetizada por nombre de cliente confirmado."
       },
       "catalizadores": {
         "score": 58,
         "just": "Tres catalizadores con fecha aproximada (ex-dividendo 29-sep confirmado, Q2 FY3/27 en nov, maduración de capacidad EE.UU.) más la posible revelación del cliente norteamericano, aunque sin fecha fija."
       },
       "contrarian": {
-        "score": 42,
-        "just": "El consenso ya es mayoritariamente alcista y Jefferies giró de Underperform a Buy ¥10.000 en meses; el ángulo contrarian real sería cuestionar si el rally de humanoides está sobre-descontado antes de confirmación de pedidos."
+        "score": 40,
+        "just": "El consenso ya es mayoritariamente alcista, el interés en corto colapsó 47,5% y Jefferies giró de Underperform a Buy ¥10.000; el ángulo contrarian real sería cuestionar si el rally de humanoides está sobre-descontado antes de confirmación de pedidos por nombre."
       }
     },
     "plan": {

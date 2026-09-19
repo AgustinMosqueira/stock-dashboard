@@ -4,7 +4,7 @@
   "statsList": [
     [
       "Precio",
-      "$143.49 (15-sep-2026)"
+      "$154.81 (17-sep-2026)"
     ],
     [
       "Rango desde IPO",
@@ -24,81 +24,81 @@
     ],
     [
       "Target consenso",
-      "US$220-232 promedio (34-47 analistas según agregador, S&P Global/TipRanks/MarketBeat, rango US$117-450); Wells Fargo Overweight target US$212; Pivotal Research inició Buy con target US$220 (CNBC, 08-sep-2026)"
+      "US$222-235 promedio (36-43 analistas según agregador, S&P Global/TipRanks/ChartMill, sep-2026); Morgan Stanley target más alto US$300 (Overweight); Wells Fargo Overweight target US$212 (bajado de US$215); Pivotal Research Buy target US$220 (08-sep-2026)"
     ],
     [
       "Próx. earnings",
-      "Q3 2026, estimado 03-nov-2026 (no confirmado oficialmente por la compañía; discrepancia entre fuentes 3 vs 5-nov, Wall Street Horizon)"
+      "Q3 2026, estimado 03/05-nov-2026 (NO confirmado oficialmente por la compañía; discrepancia Investing.com vs Wall Street Horizon)"
     ],
     [
       "Técnico (auto)",
-      "RSI 51.3 · MACD +3.15 / señal +2.92 (TradingView, 15-sep-2026)"
+      "RSI 60.1 · MACD +3.72 / señal +3.14 (TradingView, 17-sep-2026)"
     ]
   ],
   "technical": {
-    "price": 143.49,
-    "change_1d_pct": -3.15,
-    "change_1w_pct": -5.11,
-    "rsi": 51.3,
-    "macd": 3.1521,
-    "macd_signal": 2.9155,
-    "sma20": 143.264,
-    "sma50": 134.459,
+    "price": 154.81,
+    "change_1d_pct": 2.6,
+    "change_1w_pct": 2.38,
+    "rsi": 60.1,
+    "macd": 3.7229,
+    "macd_signal": 3.1413,
+    "sma20": 144.399,
+    "sma50": 134.6174,
     "sma200": null,
-    "ema12": 145.8789,
-    "ema26": 142.7268,
-    "pct_vs_sma20": 0.16,
-    "pct_vs_sma50": 6.72,
+    "ema12": 147.9039,
+    "ema26": 144.181,
+    "pct_vs_sma20": 7.21,
+    "pct_vs_sma50": 15.0,
     "pct_vs_sma200": null,
-    "volume_today": 72742768,
-    "volume_avg20": 93862515.0,
-    "volume_ratio": 0.77,
-    "volatility_30d": 93.94,
-    "sharpe": 3.98,
-    "sortino": 4.6,
+    "volume_today": 83985910,
+    "volume_avg20": 99975730.0,
+    "volume_ratio": 0.84,
+    "volatility_30d": 91.79,
+    "sharpe": 13.0,
+    "sortino": 15.24,
     "max_drawdown_1y": -46.35,
-    "price_percentile_1y": 32.0,
-    "vs_benchmark_30d_pct": 3.24,
-    "perf_1m_pct": 0.41,
-    "perf_ytd_pct": -4.34
+    "price_percentile_1y": 41.4,
+    "vs_benchmark_30d_pct": 10.82,
+    "perf_1m_pct": 10.01,
+    "perf_ytd_pct": 3.21
   },
   "risk": {
-    "volatility_30d": 93.94,
-    "sharpe": 3.98,
-    "sortino": 4.6,
+    "volatility_30d": 91.79,
+    "sharpe": 13.0,
+    "sortino": 15.24,
     "max_drawdown_1y": -46.35,
-    "n_days": 54,
+    "n_days": 56,
     "window": 30
   },
   "benchmark": {
     "ticker": "SP:SPX",
     "label": "S&P 500",
-    "relative_performance_30d": 3.24,
-    "relative_performance_ytd": -14.63,
-    "price_percentile_1y": 32.0,
+    "relative_performance_30d": 10.82,
+    "relative_performance_ytd": -7.84,
+    "price_percentile_1y": 41.4,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-15T21:43:47-03:00"
+      "fetched_at": "2026-09-17T21:43:28-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-15T21:43:47-03:00"
+      "fetched_at": "2026-09-17T21:43:28-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-15T21:43:47-03:00"
+      "fetched_at": "2026-09-17T21:43:28-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "SP:SPX",
-      "fetched_at": "2026-09-15T21:43:47-03:00"
+      "fetched_at": "2026-09-17T21:43:28-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/SPCX.json",
-      "n_days": 54
+      "n_days": 56
     }
   },
   "metricChanges": [
@@ -124,100 +124,101 @@
       "to": 125.33
     }
   ],
-  "reportDate": "14 de septiembre de 2026",
+  "reportDate": "18 de septiembre de 2026",
   "change": {
-    "day": -3.15,
-    "week": -5.11
+    "day": 2.6,
+    "week": 2.38
   },
   "events": [
     {
-      "date": "2026-09-22",
-      "label": "Starship Flight 14 (primer vuelo orbital Block 3, NET, con satélites Starlink V3)",
+      "date": "2026-09-24",
+      "label": "Lockup: tramo de hasta 328,4M acciones",
       "kind": "corporate",
-      "info": "HECHO: FAA Current Operations Plan Advisory confirma ventana NET 22-sep-2026 (12:15-14:14 UTC, backup 23-sep), tras retraso desde NET 18-sep; Ship 42 completó pruebas de \"chopsticks\"; será el primer vuelo con carga comercial en vivo (Starlink V3, conteo discrepante 20-26 satélites según fuente) (NASASpaceFlight.com/TeslaNorth vía FAA, 15-sep-2026).",
+      "info": "HECHO: tercer tramo del calendario escalonado de liberación, tras el de 9-sep (319M acciones, acción cayó -3,9/-4% ese día con volumen +40%); precedente sugiere presión de venta significativa aunque no garantizada (The Motley Fool, 15-sep-2026).",
+      "time": "09:30"
+    },
+    {
+      "date": "2026-09-28",
+      "label": "Starship Flight 14 (primer vuelo orbital, satélites Starlink V3)",
+      "kind": "corporate",
+      "info": "HECHO: retrasado desde NET 22-sep a NET 28-sep (ventana de 75 min desde 07:15 CT), \"pendiente de aprobación regulatoria\" de la FAA; SpaceX no especificó el motivo del retraso. Sería el primer vuelo orbital (no suborbital) de Starship (Space.com/@SpaceX, 17-sep-2026).",
       "time": "09:15"
     },
     {
-      "date": "2026-09-24",
-      "label": "Lockup: tramo Day-105, ~328,4M acciones",
+      "date": "2026-10-09",
+      "label": "Lockup: tramo adicional de hasta 328,4M acciones",
       "kind": "corporate",
-      "info": "HECHO: tras el release de Day-91 (9-10-sep, porcentaje del float liberado con discrepancia entre fuentes ~7-17%; acción cayó ~3,9% ese día), el próximo tramo de ~328,4M acciones vence el 24-sep-2026; siguen tramos en oct. y el cierre final el 8-dic (purepowerpicks.com/stockalarm, sep-2026)."
+      "info": "HECHO: cuarto tramo del calendario escalonado post-IPO, mismo tamaño que los tramos de sep-2026 (The Motley Fool, 15-sep-2026)."
     },
     {
-      "date": "2026-11-03",
-      "label": "Earnings Q3 2026 (fecha estimada, no confirmada)",
+      "date": "2026-11-04",
+      "label": "Earnings Q3 2026 (fecha estimada, NO confirmada oficialmente)",
       "kind": "earnings",
-      "info": "Estimado no confirmado oficialmente (discrepancia entre fuentes 3 vs 5-nov, Wall Street Horizon); tras Q2 (revenue $7,8 mil M, +92% YoY, EPS -$0,09 vs -$0,26), el mercado buscará continuidad en Starlink (12M suscriptores) y visibilidad de retorno del fuerte capex de IA/Starship (capex Q2 $18,4 mil M, por sobre lo esperado) (Wall Street Horizon/CNBC, sep-2026)."
-    },
-    {
-      "date": "2026-12-08",
-      "label": "Vencimiento final del lockup estándar de 180 días",
-      "kind": "corporate",
-      "info": "LECTURA: cierre del calendario escalonado de liberaciones post-IPO (180 días desde el 11-jun); libera el remanente de acciones de empleados/inversores tempranos (no incluye a Musk, con acciones bloqueadas hasta jun-2027) (purepowerpicks.com, sep-2026)."
+      "info": "LECTURA: estimación de terceros (Investing.com ~5-nov, Wall Street Horizon marca 3-nov como \"unconfirmed\"); tras Q2 (revenue $7,81 mil M, +92% YoY, EPS -$0,09 vs -$0,26, pero capex $18,4 mil M disparó caída post-mercado), el mercado buscará visibilidad de retorno del capex de IA/Starship. Un tramo grande de lockup (~1.300M acciones) vence poco después de esta fecha (Investing.com/Wall Street Horizon/Motley Fool, sep-2026)."
     }
   ],
   "sections": {
-    "resumen": "SPCX cotiza en US$143,49 (-3,15% día, -5,11% semana, 15-sep-2026), corrigiendo tras el rally post-IPO y aún lejos del máximo de US$225,64 (jun-2026). El Q2 2026 (revenue US$7,8 mil M, +92% YoY, EPS -US$0,09 vs -US$0,26 esperado) sorprendió, aunque un capex de US$18,4 mil M por sobre lo esperado generó cautela. Starship Flight 14 quedó postergado a NET 22-sep-2026 (FAA, confirmado), y el calendario de lockups sigue presionando la oferta hasta dic-2026 (próximo tramo 24-sep, ~328M acciones). Consenso de analistas se mantiene \"Buy\" con targets dispersos entre US$220-232 (S&P Global/TipRanks/MarketBeat, sep-2026), aunque persisten discrepancias entre agregadores sobre el nivel exacto de RSI/short interest.",
-    "fundamental": "- Revenue Q2 2026 US$7,81 mil M (+92% YoY), superó consenso de ~US$6,8-6,93 mil M; EBITDA ajustado US$3,5 mil M (+191% YoY) (HECHO: CNBC/Fortune, 04-ago-2026).\n- Pérdida neta GAAP de US$541 M (-US$0,09/acción), mejora vs -US$1.000 M del año previo; consenso esperaba -US$0,26/acción (HECHO: CNBC/SEC 8-K, ago-2026).\n- Connectivity (Starlink) US$4,3 mil M (+66% YoY), único segmento con utilidad operativa (US$1,66 mil M); Starlink superó 12M suscriptores (vs 6M año previo), meta declarada 20M (HECHO, ago-2026).\n- Capex del trimestre US$18,4 mil M, por sobre los ~US$13 mil M esperados por el mercado, generando caída de hasta -8% after-hours pese al beat de revenue; el crecimiento del segmento AI/xAI (reportado +247% YoY) no pudo confirmarse en fuentes primarias adicionales (LECTURA/HECHO parcial, sep-2026).\n- LECTURA: hay apalancamiento operativo real en Starlink, pero el salto de capex de IA es ahora el factor que el mercado está empezando a cuestionar en cuanto a retorno y timing.",
-    "valuacion": "- P/E no aplicable por pérdida GAAP; múltiplo EV/Sales se ubica en un rango amplio según fuente (~65x-85x ventas anualizadas), propio de una tesis de crecimiento/opcionalidad más que de flujo de caja actual (LECTURA, fuentes con dispersión notable).\n- Consenso de precio objetivo US$220-232 (rango 34-47 analistas según agregador) implica upside de ~53-62% desde US$143,49, pero el rango de targets (US$117-450) y la dispersión entre agregadores reflejan alta incertidumbre de modelo (HECHO, sep-2026).\n- Wells Fargo mantiene \"Overweight\" con target US$212 (fecha exacta no confirmada en fuente primaria); Pivotal Research inició cobertura con \"Buy\"/Strong Buy y target US$220 el 08-sep-2026 (HECHO: CNBC, 08-sep-2026).\n- Market cap ~US$1,95-2,06 billones (trillion) según distintas fuentes (companiesmarketcap.com/stockanalysis.com) vs US$1,77 billones al IPO (HECHO, sep-2026).\n- LECTURA: la valuación exige ejecución impecable de Starship y Starlink/wireless simultáneamente; la reacción negativa al capex de Q2 sugiere que el mercado ya empieza a exigir visibilidad de retorno, no solo crecimiento de revenue.",
-    "tecnico": "- Precio US$143,49 está prácticamente en línea con SMA20 (US$143,26, +0,16%) pero por sobre SMA50 (US$134,46, +6,72%), señal de consolidación de corto plazo tras el rally previo (HECHO: dato técnico dado).\n- RSI 51,3 (zona neutral) y MACD (+3,15) sobre señal (+2,92) — momentum aún positivo pero perdiendo fuerza; nota: agregadores externos (Barchart, ~11-sep) muestran RSI/MACD más débiles (45,7 / señal de venta), lo que sugiere que el deterioro técnico se aceleró en los últimos días (LECTURA sobre datos parcialmente discrepantes).\n- Volumen de hoy (72,7M) muy por debajo del promedio de 20 días (93,9M, ratio 0,77x): la caída del -3,15% ocurre con volumen liviano, no es una capitulación con convicción vendedora fuerte (LECTURA, cambio de carácter incipiente favorable).\n- Volatilidad anualizada 30d de 93,94% y drawdown máximo de -46,35% en 1 año confirman que el activo sigue siendo de alto riesgo idiosincrático (HECHO: dato técnico dado).\n- Percentil de precio 1 año en 32% y rendimiento YTD de -4,34% muestran que, pese al rally post-IPO, el activo cotiza en la mitad inferior de su rango — hay recorrido si los catalizadores confirman, pero la corrección reciente (-5,11% semana) resta margen de maniobra de corto plazo (LECTURA).",
-    "catalizadores": "**Catalizadores:**\n- Starship Flight 14 (NET 22-sep-2026, confirmado por FAA): primer perfil orbital Block 3 con carga comercial real (Starlink V3); éxito valida la tesis de abaratamiento de lanzamiento que sostiene el moat de Starlink (HECHO: NASASpaceFlight/FAA, 15-sep-2026).\n- Entrada a wireless/spectrum: FCC aprobó (12-may-2026) la incorporación de ~65 MHz de espectro de EchoStar (~US$17 mil M); transferencia completa esperada ~nov-2027, pero el mercado ya empieza a valorar la opcionalidad de disrupción de bajo capex frente a T-Mobile/AT&T/Verizon (HECHO: SpaceNews/orden FCC, 2026).\n- Contratos gubernamentales robustos: Space Force (~US$4,16 mil M + US$2,29 mil M) y ~US$1,6 mil M en 18 lanzamientos militares en 2026, más NASA sumando 6 misiones Commercial Crew adicionales tras problemas de Starliner/Boeing (HECHO: CNBC/Payload Space, 2026).\n- Earnings Q3 2026 (~03-nov, no confirmado): primer chequeo post-lockups masivos; el mercado buscará visibilidad de retorno del capex de IA/Starship tras la sorpresa negativa de capex en Q2 (HECHO/LECTURA, sep-2026).\n\n**Riesgos (por materialidad):**\n- Calendario de lockups sep-dic 2026 (24-sep ~328M acciones; cierre final 8-dic): presión de oferta recurrente ya se tradujo en caídas puntuales (~-3,9% el 9-sep) (HECHO: sep-2026).\n- Capex de IA/Starship por sobre lo esperado (US$18,4 mil M en Q2 vs ~US$13 mil M esperados) sin visibilidad clara de retorno de la integración xAI, generando ya una reacción negativa del mercado (HECHO: ago-2026).\n- Competencia de Amazon Leo (ex-Kuiper): más de 373 satélites en órbita a sep-2026, aún sin servicio comercial lanzado, pero presionando expectativas de precios en contratos empresariales futuros (HECHO/LECTURA, sep-2026).\n- Dependencia binaria de Musk/xAI: el fundador mantiene una porción relevante de acciones bloqueadas hasta jun-2027; la integración con xAI añade quema de caja de IA sin retorno probado (HECHO/LECTURA, 2026).",
-    "sentimiento": "- Consenso de analistas se mantiene mayoritariamente \"Buy\"/\"Moderate Buy\", con targets promedio dispersos entre US$220-232 según el agregador consultado (HECHO: TipRanks/MarketBeat/S&P Global, sep-2026) — sentimiento sell-side sigue positivo.\n- Pivotal Research inició cobertura el 08-sep-2026 con Buy y target US$220; Wells Fargo mantiene Overweight con target US$212 — ambos validan la tesis estructural pese a moderar expectativas de corto plazo (HECHO: CNBC, sep-2026).\n- Acción cayó ~3,9% el 9-sep coincidiendo con el release de lockup Day-91, y el precio retrocedió otro -3,15% el 15-sep, evidencia de sensibilidad a oferta de acciones y a la digestión del capex de Q2 más que a un deterioro de fundamentales (HECHO: sep-2026).\n- Short interest: dato con discrepancia entre fuentes (~184M-220M acciones según agregador, sep-2026); free float aún reducido por lockups pendientes, lo que puede amplificar movimientos en ambas direcciones (LECTURA sobre datos no verificados cruzadamente).\n- LECTURA CONTRARIAN: el consenso sell-side sigue mayoritariamente alcista mientras el precio corrige (-5,11% semana) y el capex de IA genera dudas — el optimismo estructural persiste pero el mercado está empezando a exigir evidencia de retorno, sugiriendo cautela táctica de corto plazo pese a la tesis de largo plazo intacta.",
-    "conclusion": "SPCX combina fundamentales que siguen mejorando (revenue +92%, pérdida por acción menor a lo esperado) con un capex de IA/Starship que ya generó la primera señal de fricción con el mercado, sumado a una oferta de acciones inestable por lockups hasta dic-2026. El catalizador inmediato es Starship Flight 14 (confirmado NET 22-sep por la FAA), seguido por el lockup del 24-sep y earnings Q3 (~3-nov, no confirmado). El consenso sigue alcista (target ~US$220-232) pero la corrección reciente (-5,11% semana) y la volatilidad (94% anualizada) exigen prudencia táctica. Confianza: media — la tesis estructural (Starlink + wireless + Starship) es sólida, pero el ruido de oferta y capex de corto plazo puede dominar el precio antes que los fundamentales."
+    "resumen": "SPCX cotiza en US$154,81 (+2,6% día, +2,38% semana, 17-sep-2026), impulsado por el lanzamiento exitoso de la misión Space Force USSF-259 (16-sep), un nuevo contrato NASA (+US$946M, 18-sep) y especulación de fusión Tesla-SpaceX tras comentarios de Musk. Starship Flight 14 se retrasó de NET 22-sep a NET 28-sep por aprobación pendiente de la FAA, sin motivo especificado. El lockup del 24-sep (~328,4M acciones) es el catalizador bajista inmediato: los dos tramos previos (20-ago, 9-sep) generaron caídas de ~4%. Consenso de analistas sigue \"Buy\" con targets US$212-300 (Morgan Stanley el más alto); earnings Q3 aún sin fecha oficial (~3/5-nov estimado).",
+    "fundamental": "- Revenue Q2 2026 US$7,81 mil M (+92% YoY), superó consenso ~US$6,8-6,93 mil M; EBITDA ajustado +191% YoY; segmento IA +247% a US$2,56 mil M (HECHO: CNBC, 04-ago-2026).\n- Pérdida GAAP -US$541 M (-US$0,09/acción) vs consenso -US$0,26/acción; capex US$18,4 mil M por sobre ~US$13 mil M esperados, gatillando caída post-mercado (HECHO: CNBC, ago-2026).\n- Nuevo contrato NASA (Commercial Crew): +3 misiones (total 17), +US$946M, acumulado ~US$5,92 mil M hasta 2030 (HECHO: GuruFocus, 18-sep-2026).\n- Starlink: 12M suscriptores a cierre Q2 (jun-2026), +1,7M en el trimestre; sin cifra oficial de Q3 aún (LECTURA/laguna: proyecciones a 24M para 2027 son especulación, no dato).\n- LECTURA: el flujo de contratos gubernamentales (NASA, Space Force/USSF-259) sostiene la narrativa de calidad, pero el mercado sigue exigiendo evidencia de retorno del capex de IA antes del próximo earnings.",
+    "valuacion": "- P/E no aplicable por pérdida GAAP; múltiplo EV/Sales en rango amplio ~65-85x ventas anualizadas, propio de tesis de crecimiento/opcionalidad (LECTURA, dispersión notable entre fuentes).\n- Consenso de precio objetivo US$222-235 (36-43 analistas según agregador) implica upside ~43-52% desde US$154,81; Morgan Stanley con el target más alto de Wall Street (US$300) (HECHO: S&P Global/TipRanks/ChartMill, sep-2026).\n- Wells Fargo recortó target de US$215 a US$212 mientras mantiene Overweight (~08-sep-2026, cronología exacta no verificable con certeza); Pivotal Research inició Buy con target US$220 (08-sep-2026) (HECHO: CNBC/The Cerbat Gem, sep-2026).\n- Market cap ~US$1,95-2,06 billones vs US$1,77 billones al IPO; short interest 11,73% del float (173,6M acciones, dato al 31-ago, publicado 10-sep, sin actualización posterior verificable) (HECHO: Fintel, sep-2026).\n- LECTURA: la dispersión de targets (US$212-300) y la ausencia de dato de short interest de septiembre reflejan que el mercado aún no converge en un precio justo; la valuación exige ejecución simultánea en Starship, Starlink y retorno de IA.",
+    "tecnico": "- Precio US$154,81 está 7,2% sobre SMA20 (US$144,40) y 15% sobre SMA50 (US$134,62): tendencia de corto plazo claramente positiva, recuperando el terreno perdido en la corrección de la semana previa (HECHO: dato técnico dado).\n- RSI 60,1 y MACD (+3,72) sobre señal (+3,14): momentum positivo sin estar sobrecomprado (RSI<70), zona saludable, no de sobreextensión vertical (LECTURA sobre dato técnico dado).\n- Volumen de hoy (84,0M) por debajo del promedio 20d (100,0M, ratio 0,84x): el repunte de +2,6% ocurre con volumen moderado-liviano, sugiere convicción compradora aún no explosiva más que un blow-off top (LECTURA, cambio de carácter incipiente).\n- Volatilidad anualizada 30d 91,79% y drawdown máximo -46,35% en 1 año confirman riesgo idiosincrático alto pese al repunte (HECHO: dato técnico dado).\n- Percentil de precio 1 año en 41,4% (zona media-baja del rango) y perf. 1m +10,01% muestran recuperación reciente sin llegar a extremos de sobrecompra estructural; hay margen antes de zona de riesgo técnico (percentil>95) (LECTURA).",
+    "catalizadores": "**Catalizadores:**\n- Nuevo contrato NASA (+US$946M, 17 misiones Commercial Crew, ~US$5,92 mil M acumulado) y lanzamiento exitoso USSF-259 (16-sep) refuerzan el pilar gubernamental (HECHO: GuruFocus/Benzinga, 16-18-sep-2026).\n- Starship Flight 14 (NET 28-sep, retrasado desde 22-sep): primer vuelo orbital con despliegue de Starlink V3; éxito valida la tesis de abaratamiento de lanzamiento (HECHO: Space.com, 17-sep-2026).\n- Especulación de fusión Tesla-SpaceX reavivada por Musk en podcast \"All In\" junto a Gwynne Shotwell; sin confirmación formal, pero alimenta el sentimiento (HECHO: Benzinga/FXLeaders, 15-17-sep-2026).\n- Earnings Q3 (~3/5-nov, no confirmado): primer chequeo tras el capex elevado de Q2; catalizador de re-rating en ambas direcciones (LECTURA/HECHO parcial, sep-2026).\n\n**Riesgos (por materialidad):**\n- Lockup 24-sep (~328,4M acciones) con precedente de caídas ~4% en tramos previos (20-ago, 9-sep); persisten tramos en oct., nov. (post-earnings, ~1.300M acciones) y cierre 8-dic (HECHO: Motley Fool, 15-sep-2026).\n- FAA aún no aprueba Flight 14; motivo del retraso no especificado, recuerda el fallo de Flight 12 (mayo-2026) que pausó pruebas por investigación de \"mishap\" (HECHO: Space.com/TechCrunch, 2026).\n- Capex de IA/Starship (US$18,4 mil M en Q2) sin visibilidad clara de retorno de la integración xAI; tramo de lockup ligado a earnings Q3 es ~4x mayor al de sep. (HECHO/LECTURA, ago-sep-2026).\n- Sin dato de short interest posterior al 31-ago (laguna de cobertura) y sin cifra oficial de suscriptores Starlink más reciente que jun-2026: visibilidad reducida sobre presión de oferta y crecimiento operativo actual (LECTURA, laguna de cobertura declarada).",
+    "sentimiento": "- Consenso sell-side se mantiene mayoritariamente \"Buy\"/\"Moderate Buy\" sin downgrades detectados en 30-60 días; Morgan Stanley con target street-high US$300, ampliando la dispersión alcista (HECHO: agregadores, sep-2026) — sentimiento sell-side sigue muy positivo.\n- Short interest 11,73% del float (dato 31-ago) tras haber caído desde un pico previo ~34% (fecha exacta no verificable): cobertura de cortos ya ocurrió en gran parte, reduciendo el combustible de short squeeze futuro (HECHO/LECTURA, Fintel/CNBC, ago-sep-2026).\n- Acción subió +2,6% el 17-sep pese al retraso de Flight 14 el mismo día, evidencia de que el mercado prioriza el flujo de contratos y noticias de fusión Tesla sobre el ruido operativo puntual (HECHO: Invezz, 17-sep-2026).\n- Precedente de caídas de ~4% en cada lockup (20-ago, 9-sep) muestra sensibilidad recurrente a la oferta de acciones, un patrón mecánico más que un cambio de tesis (HECHO, ago-sep-2026).\n- LECTURA CONTRARIAN: el consenso sell-side extremadamente unánime (sin ratings bajistas) en un activo con drawdown 1y de -46% y volatilidad 92% es una señal de cautela táctica — el optimismo estructural es válido, pero deja poco margen de sorpresa positiva adicional en el corto plazo.",
+    "conclusion": "SPCX combina fundamentales sólidos (revenue +92%, contratos NASA/Space Force crecientes, EPS mejor a lo esperado) con un patrón mecánico de caídas por lockups (24-sep es el próximo, ~328,4M acciones) y un catalizador binario pendiente (Starship Flight 14, NET 28-sep, sujeto a aprobación FAA no garantizada). El repunte reciente (+2,6% día) ocurre con volumen moderado y RSI aún no sobrecomprado, dejando margen técnico. El consenso sell-side unánimemente alcista (targets US$212-300) reduce el valor contrarian de entrar aquí. Confianza: media — tesis estructural intacta, pero oferta de acciones y resultado de Flight 14 dominarán el precio en las próximas 2 semanas antes que los fundamentales de largo plazo."
   },
   "scores": {
     "tecnica": {
-      "score": 52,
-      "just": "Precio en línea con SMA20 y sobre SMA50, pero RSI/MACD perdiendo fuerza y volumen liviano en la caída reciente (0,77x) — hay un indicio de secado de volumen vendedor (señal levemente positiva de cambio de carácter), pero aún sin confirmación de piso; nota moderada."
+      "score": 58,
+      "just": "Precio recuperó terreno sobre SMA20/SMA50 con RSI 60 (positivo sin sobrecompra) y volumen del repunte aún moderado (0,84x promedio) — hay cambio de carácter alcista genuino pero sin volumen de convicción explosiva; nota moderada-alta, sin señales de sobreextensión (percentil 41%, RSI<70)."
     },
     "fundamental": {
-      "score": 60,
-      "just": "Revenue +92% YoY y pérdida por acción muy por debajo del consenso muestran apalancamiento operativo real en Starlink; sin embargo el capex de IA/Starship sorprendió al alza sin visibilidad de retorno, moderando la nota vs el trimestre previo."
+      "score": 62,
+      "just": "Revenue +92% YoY, pérdida por acción muy por debajo de consenso y nuevo contrato NASA (+US$946M) muestran ejecución sólida y diversificación de ingresos gubernamentales; capex de IA sin retorno visible aún modera la nota."
     },
     "sentimiento": {
-      "score": 47,
-      "just": "Consenso sell-side sigue mayoritariamente alcista, señal contraria de cautela; el mercado ya reaccionó dos veces a la baja en dos semanas (lockup 9-sep, corrección 15-sep) pese al buen tono de analistas, indicando fragilidad de corto plazo."
+      "score": 42,
+      "just": "Consenso sell-side unánimemente alcista sin ningún rating bajista detectado, señal contraria de cautela; short interest ya cubrió gran parte de su pico previo (34%→11,7%), reduciendo combustible de squeeze adicional — poco margen de sorpresa positiva de corto plazo."
     },
     "riesgo": {
-      "score": 38,
-      "just": "La volatilidad (94% anualizada) es alta, pero el riesgo real de pérdida permanente está en la dilución recurrente por lockups hasta dic-2026 y en el capex de IA creciendo más rápido que la visibilidad de retorno; dependencia binaria de Musk/xAI se mantiene sin resolver."
+      "score": 40,
+      "just": "Volatilidad (92% anualizada) es alta, pero el riesgo de pérdida permanente está en la dilución recurrente por lockups (patrón de -4% cada tramo, próximo 24-sep) y en la dependencia binaria del resultado de Flight 14 (aprobación FAA no garantizada); capex de IA sin retorno probado se mantiene como riesgo estructural."
     },
     "conviccion": {
-      "score": 53,
-      "just": "Asimetría razonable dado el gap a targets de consenso (+53-62%), pero la tesis no es falsable hasta ver el resultado de Starship Flight 14 (22-sep, ya confirmado por FAA) y la digestión de capex en Q3; conviccion media."
+      "score": 55,
+      "just": "Asimetría razonable dado el gap a targets de consenso (+43-52%) y contratos gubernamentales crecientes, pero la tesis no es falsable hasta conocer el resultado de Flight 14 (28-sep, aprobación pendiente) y la digestión del lockup del 24-sep; convicción media."
     }
   },
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 44,
-        "just": "El precio corrigió a percentil 32% de su rango de 1 año (vs 38% hace una semana), levemente más barato en términos relativos, pero el múltiplo sobre ventas (~65-85x según fuente) sigue exigiendo ejecución perfecta; ni claramente barato ni caro vs su propia historia corta."
+        "score": 48,
+        "just": "Percentil de precio 1 año en 41,4%, zona media de su rango corto como cotizante pública; múltiplo sobre ventas (~65-85x) sigue exigiendo ejecución perfecta — ni claramente barato ni caro vs su propia historia."
       },
       "calidad": {
-        "score": 63,
-        "just": "Moat de costo/cadencia real (Falcon 9 reutilizable, ~82% del mercado comercial), Starlink rentable a nivel operativo con 12M suscriptores, y contratos gubernamentales de largo plazo (Space Force, NASA); la calidad subyacente sigue alta, aunque el salto de capex de IA introduce una duda incremental sobre disciplina de capital."
+        "score": 65,
+        "just": "Moat de costo/cadencia (Falcon 9 reutilizable), Starlink rentable operativamente con 12M suscriptores, y contratos gubernamentales crecientes (NASA +US$946M, Space Force) sostienen calidad alta; capex de IA sin retorno probado introduce duda incremental sobre disciplina de capital."
       },
       "asimetria": {
-        "score": 56,
-        "just": "Upside de ~53-62% a targets de consenso frente a downside hacia el mínimo IPO (US$104,83, -27% desde el precio actual); asimetría moderadamente favorable, algo mejor que la semana pasada por la corrección de precio, pero aún condicionada a Starship Flight 14 y a la digestión de capex en Q3."
+        "score": 54,
+        "just": "Upside ~43-52% a targets de consenso frente a downside hacia el mínimo IPO (US$104,83, -32% desde el precio actual) y riesgo binario de Flight 14 (28-sep, aprobación FAA no garantizada); asimetría moderada, condicionada a dos eventos próximos concretos."
       },
       "catalizadores": {
-        "score": 62,
-        "just": "Starship Flight 14 con fecha confirmada por la FAA (22-sep), lockup del 24-sep, y earnings Q3 (~3-nov) son catalizadores concretos y próximos con potencial de re-rating en ambas direcciones; ruta fechada clara en las próximas 6-8 semanas."
+        "score": 64,
+        "just": "Lockup 24-sep, Starship Flight 14 (NET 28-sep) y earnings Q3 (~3/5-nov) forman una ruta fechada y concentrada de catalizadores en las próximas 7 semanas, con potencial de re-rating en ambas direcciones."
       },
       "contrarian": {
-        "score": 47,
-        "just": "El consenso alcista de analistas sigue dominando pese a la corrección reciente, lo que reduce el valor contrarian de comprar aquí; el ángulo contrarian más claro sigue siendo esperar la presión de venta de los lockups de sep-dic (y la digestión del capex de Q2) para entrar a mejor precio."
+        "score": 40,
+        "just": "Consenso sell-side unánimemente alcista (sin ratings bajistas, target street-high US$300) reduce fuertemente el valor contrarian de comprar aquí; el ángulo contrarian más claro sigue siendo esperar la presión de venta mecánica de los lockups de sep-oct-nov para mejorar el precio de entrada."
       }
     },
     "plan": {
       "recomendacion": "Esperar gatillo",
-      "zona_compra": "US$120-135 (soporte SMA50 ampliado y zona de digestión de lockups, ante presión de oferta hasta dic-2026)",
+      "zona_compra": "US$125-140 (zona de digestión de lockups sep-oct, cercana a SMA50 ampliada)",
       "invalidacion": "Cierre semanal bajo US$104,83 (mínimo histórico IPO) o fallo material/pérdida de vehículo en Starship Flight 14",
       "gatillos": [
-        "Resultado de Starship Flight 14 (NET confirmado 22-sep-2026 por FAA)",
-        "Reacción del mercado al lockup del 24-sep (~328M acciones)",
-        "Guidance de capex IA/Starship y caja en earnings Q3 (~3-nov-2026, no confirmado)"
+        "Reacción del mercado al lockup del 24-sep (~328,4M acciones)",
+        "Resultado de Starship Flight 14 (NET 28-sep-2026, sujeto a aprobación FAA)",
+        "Confirmación oficial de fecha y guidance de capex en earnings Q3 (~nov-2026)"
       ],
       "horizonte": "6-18 meses",
       "tamano": "posición reducida (1-2%)",
@@ -225,26 +226,24 @@
     }
   },
   "sources": [
-    "MarketBeat SPCX Forecast (sep-2026)",
-    "TipRanks SPCX Forecast (sep-2026)",
-    "NASASpaceFlight.com - Starship Flight 14 NET Sept. 22 (15-sep-2026)",
-    "TeslaNorth.com - FAA Current Operations Plan Advisory, Flight 14 delay (15-sep-2026)",
-    "CNBC - SpaceX Q2 2026 earnings, capex miss (04-ago-2026)",
+    "Benzinga - SpaceX Stock Extends Rally: What's Going On Today? (17-sep-2026)",
+    "Invezz - SpaceX stock gains even as Starship Flight 14 gets new launch date (17-sep-2026)",
+    "FXLeaders - SPCX price action (17-sep-2026)",
+    "Space.com - SpaceX pushes next Starship launch back to Sept. 28 (17-sep-2026)",
+    "GuruFocus - NASA Expands SpaceX (SPCX) Contract by $946M for Three Additional Missions (18-sep-2026)",
+    "The Motley Fool - SpaceX's Next Share Unlock Is Coming. History Says This Is What Happens Next. (15-sep-2026)",
+    "The Motley Fool - Up to $48 Billion in SpaceX Insider Selling Pressure Can Hit the Tape Next Week (15-sep-2026)",
+    "Benzinga - SpaceX Falls More Than 4% as 319 Million Shares Unlock (09-sep-2026)",
+    "CNBC - SpaceX (SPCX) Q2 2026 Earnings Report: Live updates (04-ago-2026)",
     "CNBC - Pivotal Research initiates Buy, target $220 (08-sep-2026)",
-    "purepowerpicks.com - SPCX Lockup Schedule (sep-2026)",
-    "Forbes - Nearly 1 Billion SpaceX Shares Unlock (04-ago-2026)",
-    "Fortune - SpaceX revenue surges 92% (04-ago-2026)",
-    "The Motley Fool - SPCX Q2 2026 Earnings Call Transcript (11-ago-2026)",
-    "SEC 8-K earnings release Q2 2026",
+    "Fintel.io - SPCX Short Interest (dato al 31-ago-2026, publicado 10-sep-2026)",
+    "CNBC - SpaceX short sellers are running out of bullets as stock rebounds more than 40% off low (12-ago-2026)",
+    "TipRanks / S&P Global / ChartMill - SPCX analyst consensus price targets (sep-2026)",
+    "Investing.com / Wall Street Horizon - SpaceX Q3 2026 Earnings Calendar (estimado no confirmado, sep-2026)",
     "companiesmarketcap.com - SPCX Market Cap (16-sep-2026)",
     "stockanalysis.com - SPCX Market Cap (14-sep-2026)",
-    "MarketBeat - Wells Fargo SPCX price target $212, Overweight (sep-2026)",
-    "SpaceNews - FCC approval EchoStar spectrum transaction (2026)",
-    "Payload Space / CNBC - Space Force and NASA contracts 2026",
-    "IEEE Spectrum / Scientific American - Amazon Leo/Kuiper deployment status (16-sep-2026)",
-    "Barchart/ChartMill - SPCX technical indicators (11-sep-2026, dato discrepante)",
-    "Fintel/Nasdaq - SPCX Short Interest (sep-2026, dato discrepante entre fuentes)",
-    "Wall Street Horizon - SpaceX Earnings Calendar"
+    "TechCrunch / Spaceflight Now / Bloomberg - Starship Flight 12 mishap, FAA investigation (27-may-2026)",
+    "Benzinga - Musk revives Tesla-SpaceX merger speculation on All In podcast (15-16-sep-2026)"
   ],
   "perfil": "SpaceX diseña y opera vehículos de lanzamiento (Falcon 9 y Starship), cápsulas Dragon, la constelación de banda ancha Starlink y la línea gubernamental Starshield; desde feb-2026 consolida además xAI. El dinero no viene del cohete sino del ancho de banda: sobre ingresos de ~$15-16 mil millones en 2025, Starlink aportó ~$11,8 mil millones con más de 10 millones de clientes en 160 mercados, mientras los lanzamientos (~82% del mercado comercial global) son la infraestructura de costo que hace viable desplegar la constelación. El segundo pilar es gubernamental: más de $22 mil millones acumulados con NASA, DoD y Space Force. Lo estructural: el moat es de costo y cadencia (reutilización más integración vertical), pero exige capex perpetuo — los satélites duran ~5 años, así que Starlink es una fábrica de reposición cuyo margen depende de que Starship abarate el kilo en órbita. Riesgos: espectro y licencias, dependencia de un cliente soberano y de su fundador, competencia de Kuiper y China, y la quema de caja de xAI."
 }
