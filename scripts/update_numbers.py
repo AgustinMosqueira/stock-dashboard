@@ -54,6 +54,7 @@ MAP = {
     "ASML": ("NASDAQ:ASML", ("$", "", 2, ",", ".")),
     "TTWO": ("NASDAQ:TTWO", ("$", "", 2, ",", ".")),
     "ORCL": ("NYSE:ORCL", ("$", "", 2, ",", ".")),
+    "NIKE": ("NYSE:NKE", ("$", "", 2, ",", ".")),
     "BTC":     ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),
     # OJO: FX_IDC (ICE) viene ~0,35% desviado vs el cierre real chileno (verificado
     # 29-jul-2026 contra er-api, currency-api y cierre de mercado); VANTAGE calza.
@@ -78,6 +79,7 @@ BENCH = {
     "ASML": ("SP:SPX", "S&P 500"),
     "TTWO": ("SP:SPX", "S&P 500"),
     "ORCL": ("SP:SPX", "S&P 500"),
+    "NIKE": ("SP:SPX", "S&P 500"),
     "HDSY": ("TVC:NI225", "Nikkei 225"),
     "USD/CLP": ("TVC:DXY", "DXY"),
     "EUR/USD": ("TVC:DXY", "DXY"),
