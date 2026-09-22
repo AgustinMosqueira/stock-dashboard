@@ -91,6 +91,11 @@ jobs:
             2>&1 | tee /tmp/claude_out.txt
           tail -c 900 /tmp/claude_out.txt > /tmp/claude_tail.txt
 
+      - name: Reconstruir el sitio (garantizado, no depende del agente)
+        id: rebuild
+        if: always()
+        run: python3 scripts/rebuild_and_verify.py "${{ steps.req.outputs.ticker }}"
+
       - name: Commit y publicación
         id: push
         if: always()
@@ -104,7 +109,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TICKER: ${{ steps.req.outputs.ticker }}
-          ESTADO: ${{ (steps.run.outcome == 'success' && steps.push.outcome == 'success') && 'success' || 'failure' }}
+          ESTADO: ${{ (steps.run.outcome == 'success' && steps.rebuild.outcome == 'success' && steps.push.outcome == 'success') && 'success' || 'failure' }}
         run: |
           [ -z "$TELEGRAM_BOT_TOKEN" ] && exit 0
           RESUMEN=$(cat /tmp/claude_tail.txt 2>/dev/null | tr -d '*_`[]' | head -c 700)
@@ -123,7 +128,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           TICKER: ${{ steps.req.outputs.ticker }}
-          ESTADO: ${{ (steps.run.outcome == 'success' && steps.push.outcome == 'success') && 'success' || 'failure' }}
+          ESTADO: ${{ (steps.run.outcome == 'success' && steps.rebuild.outcome == 'success' && steps.push.outcome == 'success') && 'success' || 'failure' }}
         run: |
           {
             if [ "$ESTADO" = "success" ]; then
