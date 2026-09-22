@@ -56,7 +56,6 @@ MAP = {
     "ORCL": ("NYSE:ORCL", ("$", "", 2, ",", ".")),
     "NIKE": ("NYSE:NKE", ("$", "", 2, ",", ".")),
     "LATAM": ("NYSE:LTM", ("$", "", 2, ",", ".")),
-    "LATAM-CLP": ("BCS:LTM", ("$", " CLP", 1, ".", ",")),
     "BTC":     ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),
     # OJO: FX_IDC (ICE) viene ~0,35% desviado vs el cierre real chileno (verificado
     # 29-jul-2026 contra er-api, currency-api y cierre de mercado); VANTAGE calza.
@@ -83,7 +82,6 @@ BENCH = {
     "ORCL": ("SP:SPX", "S&P 500"),
     "NIKE": ("SP:SPX", "S&P 500"),
     "LATAM": ("SP:SPX", "S&P 500"),
-    "LATAM-CLP": ("CBOE:ECH", "ECH (proxy Chile/IPSA)"),
     "HDSY": ("TVC:NI225", "Nikkei 225"),
     "USD/CLP": ("TVC:DXY", "DXY"),
     "EUR/USD": ("TVC:DXY", "DXY"),
@@ -93,7 +91,7 @@ BENCH = {
 # tasa libre de riesgo anual para Sharpe/Sortino (activos en CLP usan TPM Chile aprox.)
 RISK_FREE_DEFAULT = 0.045
 RISK_FREE_CLP = 0.05
-CLP_ASSETS = {"CCU", "CMPC", "CENCOSUD", "LATAM-CLP"}
+CLP_ASSETS = {"CCU", "CMPC", "CENCOSUD"}
 
 COLS = ["close", "change", "change|1W", "RSI", "MACD.macd", "MACD.signal",
         "SMA20", "SMA50", "SMA200", "EMA12", "EMA26",
