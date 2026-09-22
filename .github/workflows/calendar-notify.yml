@@ -1,0 +1,40 @@
+name: Avisos de calendario (Telegram)
+
+# Cada 5 min revisa data/econ-calendar.json y avisa por Telegram:
+#  1) a las 19:00 Chile, el resumen COMPLETO de lo que trae el calendario para mañana
+#  2) durante el día, 10-15 min antes de cada dato que tiene horario propio
+# No toca el dashboard ni los precios — solo lee el calendario y guarda en
+# data/calendar-alert-state.json qué ya avisó, para no repetir.
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: calendar-notify
+  cancel-in-progress: false
+
+env:
+  TZ: America/Santiago
+
+jobs:
+  avisos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Revisar calendario y avisar si corresponde
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 scripts/calendar_notify.py
+
+      - name: Publicar el estado de avisos ya enviados
+        run: scripts/safe_push.sh "Avisos de calendario: estado $(date '+%F %H:%M')"
