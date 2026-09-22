@@ -4,100 +4,107 @@
   "statsList": [
     [
       "Precio",
-      "$153.92 (18-sep-2026, +16,39% en el día tras rally de BTC)"
+      "$153.92 (18-sep-2026)"
     ],
     [
       "Rango 52 sem.",
-      "US$81,81 (26-jun-2026) - US$365,21 (6-oct-2025); percentil de precio a 1 año: 17,8% (technical, 17-sep-2026, previo al salto del 18-sep)"
+      "US$81,81 (26-jun-2026) - US$365,21 (6-oct-2025); percentil de precio a 1 año: 25,4% (technical, 18-sep-2026)"
     ],
     [
       "Market cap",
-      "~US$59-60 mil M tras el rally del 18-sep (base ~US$51,1-51,9 mil M al 17-sep; stockanalysis.com, MarketBeat)"
+      "~US$59,1 mil M (TradingView, 21-sep-2026, tras rally adicional de +7,6-8% con MSTR en ~US$169-170)"
     ],
     [
       "BTC en tesorería",
-      "845.050 BTC, costo agregado US$63,73 mil M, costo prom. US$75.412/BTC; tercera semana consecutiva sin compras/ventas (sin 8-K nuevo desde el 14-sep); próximo 8-K semanal esperado ~21-sep (SEC 8-K 14-sep-2026, The Block, bitcointreasuries.net)"
+      "846.000 BTC, costo agregado US$63,80 mil M, costo prom. US$75.416/BTC; retomó compras el 21-sep tras dos semanas de pausa: +950 BTC (semana 14-20 sep) a US$79.670/BTC promedio (SEC 8-K 21-sep-2026, Coindesk, Investing.com)"
     ],
     [
       "mNAV",
-      "~1,04x bajo la definición 'enterprise' de Strategy (mnav.com, stockanalysis.com, 18-sep-2026); trackers de mNAV básico mostraban descuento (~0,78x) días atrás con BTC en US$76.000 — el rally conjunto de BTC (+~6% intradía a ~US$80.000-81.000) y MSTR (+16,4%) el 18-sep probablemente acerca ambas métricas, sin cifra básica actualizada verificada post-rally"
+      "~1,06x-1,10x bajo la definición 'enterprise' de Strategy (mnav.com, 21-sep-2026), premium modesto restaurado tras el rally conjunto de BTC (~US$84.500-85.800) y MSTR; fue tan bajo como ~0,68x-0,78x en ago-2026 bajo la métrica básica"
     ],
     [
       "Próx. earnings",
-      "Q3 2026: ~4-nov-2026 después del cierre (TipRanks, Investing.com, WallStreetZen; sin confirmación oficial primaria de Strategy a la fecha de este informe)"
+      "Q3 2026: ~4-nov-2026 después del cierre (TipRanks, Investing.com; sin confirmación oficial primaria de Strategy a la fecha de este informe)"
     ],
     [
       "Técnico (auto)",
-      "RSI 56.0 · MACD +6.34 / señal +7.51 (TradingView, 17-sep-2026, antes del salto de precio del 18-sep)"
+      "RSI 66.1 · MACD +7.76 / señal +7.56 (TradingView, 18-sep-2026)"
     ]
   ],
   "technical": {
-    "price": 132.25,
-    "change_1d_pct": 4.81,
-    "change_1w_pct": 0.98,
-    "rsi": 56.0,
-    "macd": 6.3383,
-    "macd_signal": 7.5058,
-    "sma20": 129.5675,
-    "sma50": 109.6146,
-    "sma200": 137.1299,
-    "ema12": 130.1751,
-    "ema26": 123.8369,
-    "pct_vs_sma20": 2.07,
-    "pct_vs_sma50": 20.65,
-    "pct_vs_sma200": -3.56,
-    "volume_today": 18591656,
-    "volume_avg20": 20975111.0,
-    "volume_ratio": 0.89,
-    "volatility_30d": 104.73,
-    "sharpe": 12.12,
-    "sortino": 19.68,
+    "price": 153.92,
+    "change_1d_pct": 16.39,
+    "change_1w_pct": 17.52,
+    "rsi": 66.1,
+    "macd": 7.7629,
+    "macd_signal": 7.5572,
+    "sma20": 131.644,
+    "sma50": 110.8152,
+    "sma200": 137.0424,
+    "ema12": 133.8282,
+    "ema26": 126.0652,
+    "pct_vs_sma20": 16.92,
+    "pct_vs_sma50": 38.9,
+    "pct_vs_sma200": 12.32,
+    "volume_today": 54673862,
+    "volume_avg20": 23014076.0,
+    "volume_ratio": 2.38,
+    "volatility_30d": 112.44,
+    "sharpe": 30.97,
+    "sortino": 53.98,
     "max_drawdown_1y": -77.12,
-    "price_percentile_1y": 17.8,
-    "vs_benchmark_30d_pct": 20.0,
-    "perf_1m_pct": 38.0,
-    "perf_ytd_pct": -14.45
+    "price_percentile_1y": 25.4,
+    "vs_benchmark_30d_pct": 45.54,
+    "perf_1m_pct": 62.81,
+    "perf_ytd_pct": -0.43
   },
   "risk": {
-    "volatility_30d": 104.73,
-    "sharpe": 12.12,
-    "sortino": 19.68,
+    "volatility_30d": 112.44,
+    "sharpe": 30.97,
+    "sortino": 53.98,
     "max_drawdown_1y": -77.12,
-    "n_days": 321,
+    "n_days": 322,
     "window": 30
   },
   "benchmark": {
     "ticker": "CRYPTO:BTCUSD",
     "label": "Bitcoin",
-    "relative_performance_30d": 20.0,
-    "relative_performance_ytd": -1.6,
-    "price_percentile_1y": 17.8,
+    "relative_performance_30d": 45.54,
+    "relative_performance_ytd": 6.77,
+    "price_percentile_1y": 25.4,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-17T21:43:28-03:00"
+      "fetched_at": "2026-09-18T22:30:15-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-17T21:43:28-03:00"
+      "fetched_at": "2026-09-18T22:30:15-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-17T21:43:28-03:00"
+      "fetched_at": "2026-09-18T22:30:15-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CRYPTO:BTCUSD",
-      "fetched_at": "2026-09-17T21:43:28-03:00"
+      "fetched_at": "2026-09-18T22:30:15-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/MSTR.json",
-      "n_days": 321
+      "n_days": 322
     }
   },
   "metricChanges": [
+    {
+      "ticker": "MSTR",
+      "date": "2026-09-18",
+      "metric": "precio_pct",
+      "from": 132.25,
+      "to": 153.92
+    },
     {
       "ticker": "MSTR",
       "date": "2026-09-05",
@@ -129,125 +136,121 @@
   ],
   "trend": {
     "piso": 0,
-    "techo": 1,
+    "techo": 0,
     "max": 7,
     "senales_piso": [],
-    "senales_techo": [
-      "histograma MACD girando a la baja"
-    ]
+    "senales_techo": []
   },
   "change": {
-    "day": 4.81,
-    "week": 0.98
+    "day": 16.39,
+    "week": 17.52
   },
   "reportDate": "18 de septiembre de 2026",
   "events": [
     {
-      "date": "2026-09-21",
-      "label": "Próxima actualización semanal de tesorería BTC (8-K, típicamente lunes)",
-      "kind": "corporate",
-      "info": "Tras tres semanas consecutivas sin compras de BTC (último 8-K, 14-sep: 0 BTC, tesorería sin cambios en 845.050) y con BTC repuntando con fuerza el 18-sep (~US$76.000 a ~US$80.000-81.000 intradía) junto a un salto de +16,4% en MSTR, el mercado vigila si Strategy retoma compras de BTC aprovechando el rally o mantiene la pausa priorizando buybacks de preferentes (SEC EDGAR, The Block, 14 y 18-sep-2026)."
-    },
-    {
       "date": "2026-09-30",
       "label": "Cierre de consulta pública MSCI sobre elegibilidad de 'non-operating companies'",
       "kind": "corporate",
-      "info": "Consulta de MSCI (lanzada ago-2026) propone un filtro de activos operativos <50% + 5 ratios financieros; aplicado con datos de may-2026, habría excluido a Strategy, Metaplanet y Yellow Cake del MSCI ACWI IMI (~US$2,8 mil M de capital indexado en juego según Coindesk). Saylor y Strategy respondieron públicamente calificándola de discriminatoria contra tesoros de activos digitales (Coindesk, Crowdfund Insider, Yahoo Finance, ago-sep-2026)."
+      "info": "Consulta de MSCI (lanzada ago-2026) propone excluir compañías cuyos gastos operativos caigan bajo 5% de activos totales; el balance de BTC a valor razonable de Strategy activa ese umbral pese a que la empresa argumenta no gatillar 4 de los otros 5 filtros. JPMorgan estima ~US$2,8 mil M en salidas pasivas si se excluye (hasta US$8,8 mil M si FTSE Russell y S&P siguen a MSCI) (Yahoo Finance, AMBCrypto, CryptoTimes, Seeking Alpha/JPMorgan, sep-2026)."
     },
     {
       "date": "2026-10-16",
       "label": "Anuncio de resultados de la consulta MSCI",
       "kind": "corporate",
-      "info": "MSCI espera anunciar resultados a mediados de octubre (~16-oct); de aprobarse, la implementación sería en la revisión de índices de noviembre-2026, con ventas pasivas forzadas sobre el free float de Strategy. Sin cambios de calendario detectados en la última semana (MSCI index consultations, Coindesk, Yahoo Finance, sep-2026)."
+      "info": "MSCI espera anunciar resultados a mediados de octubre (~16-oct); de aprobarse, la implementación sería en la revisión de índices de noviembre-2026, con ventas pasivas forzadas sobre el free float de Strategy. Strategy ya fue confirmada en índices MSCI en una revisión previa de 2026, pero la nueva consulta reabre el riesgo (Yahoo Finance, MSCI Index Consultations, sep-2026)."
     },
     {
       "date": "2026-11-04",
       "label": "Earnings Q3 2026",
       "kind": "earnings",
-      "info": "Fecha estimada por TipRanks/Investing.com (after-close), pendiente de confirmación oficial de Strategy. El mercado buscará BTC Yield actualizado (4,5% YTD a jun-2026 tras 5,0% Q2/3,2% Q1) y guía sobre ritmo de buybacks de preferentes vs. compras de BTC tras el rally de BTC de mediados de septiembre."
+      "info": "Fecha estimada por TipRanks/Investing.com (after-close), pendiente de confirmación oficial de Strategy. El mercado buscará BTC Yield actualizado (5,0% en Q2 tras 3,2% en Q1) y guía sobre ritmo de compras de BTC tras la reanudación del 21-sep y el rally de BTC a ~US$85.000."
     }
   ],
   "sections": {
-    "resumen": "Strategy vivió un 18-sep explosivo: MSTR saltó +16,4% (a ~US$153,92) arrastrado por un repunte fuerte de BTC (de ~US$76.000 a ~US$80.000-81.000 intradía), tras semanas de pausa en compras (845.050 BTC sin cambios desde el 14-sep, tercera semana sin actividad). El mNAV 'enterprise' de Strategy ronda 1,04x; el mNAV básico, en descuento días atrás (~0,78x), probablemente se recupera con el rally aunque no hay cifra verificada post-salto. La consulta MSCI sobre 'non-operating companies' (cierre 30-sep, resultado ~16-oct) sigue siendo el catalizador binario más relevante. Consenso Wall Street Strong Buy con targets ~US$225 sigue por sobre el precio pese al repunte.",
-    "fundamental": "- Tesorería: 845.050 BTC a costo promedio US$75.412 (~US$63,73 mil M invertidos); tercera semana sin compras/ventas, sin 8-K posterior al 14-sep (SEC 8-K, 14-sep-2026).\n- mNAV: ~1,04x bajo la métrica 'enterprise' de Strategy al 18-sep (mnav.com, stockanalysis.com); trackers de mNAV básico independientes mostraban ~0,78x de descuento antes del rally — ambas cifras probablemente convergen tras el salto conjunto de BTC y MSTR, sin dato básico post-rally confirmado.\n- BTC Yield: 3,2% Q1, 5,0% Q2 (4,5% YTD a jun-2026); sin actualización oficial posterior; el objetivo de 1 millón de BTC para fin de 2026 luce fuera de alcance sin retomar compras (implicaría ~155.000 BTC adicionales en poco más de 3 meses).\n- Preferentes vivas (~US$15 mil M): STRC recibió buybacks en sep (US$176M semana 7-sep, US$139,3M semana 13-sep) financiados con el pool 'USD Cash' (Digital Credit Capital Framework, 24-ago); STRK, STRF y STRD sin buybacks recientes reportados.\n- Programa de recompra de preferentes duplicado a US$2.000M (de US$1.000M) a inicios de sep, priorizado sobre nuevas compras de BTC durante la pausa.",
-    "valuacion": "- mNAV 'enterprise' ~1,04x (Strategy/mnav.com) vs. mNAV básico de trackers independientes en descuento (~0,78x) antes del rally del 18-sep; la doble métrica sigue dificultando fijar el nivel 'real' de valuación relativa a BTC.\n- Market cap saltó de ~US$51-52 mil M a ~US$59-60 mil M en el día (18-sep) vs. valor de mercado de sus 845.050 BTC (~US$68 mil M a US$80.500/BTC) — el descuento básico se habría comprimido fuerte con el rally conjunto.\n- Consenso analistas Strong Buy con target promedio ~US$225 (S&P Global/stockanalysis.com) — upside ahora ~46% tras el salto de precio, menor que antes del rally pero aún relevante.\n- Percentil de precio a 1 año de solo 17,8% (dato pre-rally del 17-sep) — el salto del 18-sep probablemente lo eleva, pero la acción sigue lejos de sus máximos de 52 semanas (US$365,21, oct-2025).\n- Movimientos de este tipo (mNAV y precio saltando junto con BTC en un solo día) confirman que la valuación de MSTR es, en la práctica, un derivado apalancado del precio de BTC más que de fundamentos propios.",
-    "tecnico": "- Dato 'technical' calculado (17-sep, pre-rally): RSI 56,0 y MACD +6,34 vs. señal +7,51 (histograma girando a la baja); el salto de +16,4% del 18-sep no está aún incorporado en estos indicadores.\n- Precio pre-rally (US$132,25) vs. SMA200 (US$137,13, -3,6%) pero muy por encima de SMA50 (US$109,61, +20,7%) — el salto del 18-sep probablemente rompe la SMA200 al alza si se sostiene.\n- Volatilidad anualizada 30d de 104,7% y drawdown máximo a 1 año de -77,1% siguen ilustrando el perfil extremo típico del apalancamiento implícito sobre BTC, agravado por saltos diarios de doble dígito como el de hoy.\n- Volumen del 17-sep levemente bajo el promedio de 20 días (ratio 0,89); es esperable un salto de volumen el 18-sep dado el movimiento de precio, sin dato aún verificado en el bloque técnico.\n- Cambio de carácter a confirmar: el rally del 18-sep podría marcar un quiebre de la fase defensiva de las últimas semanas si BTC sostiene el nivel de US$80.000+.",
-    "catalizadores": "**Catalizadores:**\n- Sostenimiento de BTC sobre US$80.000 tras el rally del 18-sep: reabriría la ventana de mNAV premium y permitiría retomar compras acretivas de BTC.\n- Resultado favorable de la consulta MSCI (retiro de la propuesta, ~16-oct): eliminaría el riesgo de ventas pasivas forzadas sobre el free float.\n- Reporte de BTC Yield Q3 en mejora sobre el 5,0% de Q2, mostrando que la maquinaria de creación de valor por acción sigue funcionando.\n- Reanudación de compras semanales de BTC en el 8-K del 21-sep, aprovechando el rally de BTC como señal de que el management retoma la acumulación.\n\n**Riesgos (por materialidad):**\n- Reversión del rally de BTC del 18-sep: si BTC vuelve a US$75.000-76.000 o menos, el salto de MSTR se revertiría con mayor severidad dado su beta amplificado (correlación 90d ~0,97 con BTC, beta histórica 1,5-1,8x).\n- Exclusión confirmada de índices MSCI (anuncio ~16-oct, implementación en revisión de noviembre): forzaría ventas pasivas (~US$2,8 mil M de capital indexado) y presionaría el mNAV.\n- Persistencia de compras de BTC pausadas por trimestres: cerraría el argumento de crecimiento de la tesorería, dejando solo el rol de gestor de preferentes.\n- Preferentes (STRK, STRF, STRD, STRC) con historial reciente de cotizar bajo par sugieren que el mercado de crédito sigue vigilando el riesgo de refinanciamiento pese al rally accionario.",
-    "sentimiento": "- Consenso sell-side Strong Buy con targets promedio ~US$225 — sentimiento institucional se mantiene muy optimista, y el rally del 18-sep lo valida parcialmente.\n- Múltiples casas (B. Riley, Canaccord, Barclays, Bernstein, Alliance Global) mantienen ratings alcistas con targets US$160-350, reforzando la narrativa de 'compra apalancada de BTC' tras el salto de precio.\n- Cobertura de prensa (StocksToTrade, TimothySykes, The Block) enmarca el 18-sep como 'resurgimiento' ligado a BTC y a upgrades de Wall Street, cambiando el tono defensivo de semanas previas.\n- Narrativa de 'death spiral' por mNAV bajo 1x pierde fuerza momentáneamente con el rally conjunto de BTC y MSTR, aunque la consulta MSCI sigue generando cautela.\n- Movimiento de +16,4% en un día sin catalizador idiosincrático propio (solo BTC) confirma que el sentimiento de MSTR sigue 100% derivado del sentimiento sobre BTC.",
-    "conclusion": "MSTR sigue siendo, en esencia, un derivado apalancado de BTC: el salto de +16,4% del 18-sep refleja el repunte de BTC hacia US$80.000-81.000, no un cambio fundamental propio, mientras la tesorería permanece congelada en 845.050 BTC por tercera semana. El mNAV 'enterprise' (~1,04x) y el probable cierre del descuento básico validan el rally, pero la consulta MSCI (resultado ~16-oct) y la pausa de compras siguen siendo riesgos estructurales sin resolver. Si BTC sostiene US$80.000+ y MSCI no excluye, el momentum puede continuar; si BTC revierte hacia US$75.000 o MSCI excluye, la caída sería amplificada por el beta de MSTR. Confianza: media, casi enteramente condicionada a BTC."
+    "resumen": "Strategy retomó compras de BTC el 21-sep tras dos semanas de pausa: +950 BTC (US$75,7M) a US$79.670 promedio, llevando la tesorería a 846.000 BTC (costo prom. US$75.416). El anuncio coincidió con un rally de BTC a ~US$84.500-85.800 (máximo de 8 meses) y MSTR saltó +7-8% adicional el 21-sep (tras +16,4% el 18-sep), con Wall Street (B.Riley, Canaccord, Barclays) subiendo targets a US$160-179. El mNAV 'enterprise' se recuperó a ~1,06-1,10x. La consulta MSCI sobre 'non-operating companies' (cierre 30-sep, resultado ~16-oct) sigue siendo el riesgo binario estructural más relevante, con hasta US$8,8 mil M en salidas pasivas potenciales según JPMorgan.",
+    "fundamental": "- Tesorería: 846.000 BTC a costo promedio US$75.416 (~US$63,80 mil M invertidos); retomó compras el 21-sep (+950 BTC a US$79.670) tras dos semanas de pausa (SEC 8-K, 21-sep-2026, Coindesk).\n- mNAV: ~1,06x-1,10x 'enterprise' al 21-sep (mnav.com), recuperado desde el mínimo de ~0,68x básico de ago-2026, impulsado por el rally conjunto de BTC y MSTR.\n- BTC Yield: 3,2% Q1, 5,0% Q2 2026; sin cifra Q3 oficial aún (se reportará en earnings ~4-nov); el objetivo de 1 millón de BTC para fin de 2026 requeriría ~154.000 BTC adicionales en poco más de 3 meses, ritmo elevado vs. las 950 BTC recién compradas.\n- Preferentes vivas (~US$15 mil M): STRK (8%, convertible 10:1 a comunes), STRC (12% variable, recompras activas en sep), STRF (10%, penalidad hasta 18% si hay impago), STRD (10%); Strategy sigue usando el programa ATM de hasta US$21 mil M en acciones Clase A para financiar compras y dividendos.\n- Capital allocation declarado: bajo 2,5x mNAV emite tácticamente solo para intereses/dividendos preferentes; entre 2,5x-4,0x emite oportunistamente para comprar BTC; sobre 4,0x emite activamente — con mNAV actual ~1,06-1,10x, la emisión de comunes para comprar BTC sigue siendo poco acretiva.",
+    "valuacion": "- mNAV 'enterprise' ~1,06x-1,10x (mnav.com, 21-sep-2026), banda de 52 semanas 0,95x-1,43x — el activo cotiza cerca del extremo bajo de su propio rango histórico de valuación relativa.\n- Market cap ~US$59,1 mil M (TradingView, 21-sep) vs. valor de mercado de sus 846.000 BTC (~US$71-73 mil M a US$84.500-85.800/BTC) — persiste una brecha entre ambas métricas dependiendo de la definición de mNAV usada.\n- Consenso analistas Strong Buy con target promedio ~US$230-250 (varios trackers) tras alzas recientes de B. Riley, Canaccord y Barclays (este último a US$160 desde US$125, 15-sep) — upside relevante incluso post-rally.\n- Percentil de precio a 1 año de 25,4% (technical, 18-sep) — la acción sigue lejos de sus máximos de 52 semanas (US$365,21, oct-2025) pese al doble rally del 18 y 21-sep.\n- La reanudación de compras de BTC justo cuando el mNAV volvió a premium confirma la lógica reflexiva del modelo: emitir/comprar solo cuando el mercado paga sobre el valor del BTC subyacente.",
+    "tecnico": "- Dato 'technical' calculado (18-sep): RSI 66,1 y MACD +7,76 vs. señal +7,56 — zona de sobrecompra moderada, sin cruce bajista aún.\n- Precio de referencia (US$153,92, 18-sep) muy por encima de SMA50 (US$110,82, +38,9%) y sobre SMA200 (US$137,04, +12,3%) — ruptura alcista confirmada de ambas medias.\n- El rally adicional del 21-sep (+7-8%, MSTR a ~US$169-170) no está aún incorporado en el bloque técnico calculado (18-sep), lo que sugiere que RSI y percentil de precio probablemente suben más en la próxima actualización.\n- Volatilidad anualizada 30d de 112,4% y drawdown máximo a 1 año de -77,1% siguen ilustrando el perfil extremo típico del apalancamiento implícito sobre BTC.\n- Volumen 2,38x el promedio de 20 días (18-sep) confirma participación fuerte en el movimiento, coherente con un cambio de carácter tras semanas de consolidación.",
+    "catalizadores": "**Catalizadores:**\n- Sostenimiento de BTC sobre US$84.000-85.000 (máximo de 8 meses, 21-sep): reabre la ventana de mNAV premium y permite retomar compras acretivas de BTC a mayor ritmo.\n- Resultado favorable de la consulta MSCI (retiro de la propuesta, ~16-oct): eliminaría el riesgo de ventas pasivas forzadas sobre el free float.\n- Reporte de BTC Yield Q3 en earnings (~4-nov) mostrando continuidad de la mejora desde 3,2% (Q1) a 5,0% (Q2).\n- Ritmo sostenido de compras semanales de BTC tras la reanudación del 21-sep, señal de que el management retoma la acumulación de forma estructural y no puntual.\n\n**Riesgos (por materialidad):**\n- Reversión del rally de BTC: si BTC vuelve a US$75.000-76.000 (cerca del costo promedio de Strategy, US$75.416) o menos, MSTR caería con mayor severidad dado su beta amplificado (correlación 90d ~0,97 con BTC, beta histórica 1,5-1,8x).\n- Exclusión confirmada de índices MSCI (anuncio ~16-oct, implementación en revisión de noviembre): forzaría ventas pasivas de hasta US$2,8-8,8 mil M según JPMorgan.\n- Compras de BTC financiadas con más dilución vía ATM (programa de hasta US$21 mil M) con mNAV apenas sobre 1x implica emisión poco acretiva para los accionistas actuales.\n- ~US$15 mil M en preferentes perpetuas (STRK/STRF/STRD/STRC) representan una obligación de caja continua; STRF puede escalar su dividendo hasta 18% si hay impago, presionando el balance en un escenario de BTC a la baja.",
+    "sentimiento": "- Consenso sell-side Strong Buy con targets ~US$230-250 y alzas recientes de B. Riley, Canaccord y Barclays (a US$160 desde US$125, 15-sep) — sentimiento institucional muy optimista, reforzado por el doble rally del 18 y 21-sep.\n- Cobertura de prensa (StocksToTrade, TimothySykes, Coindesk, Invezz) enmarca el 21-sep como confirmación de que Strategy 'vuelve a comprar', cambiando el tono cauto de las semanas de pausa.\n- 14 ratings Buy vs. 2 Hold y 0 Sell entre analistas cubiertos (Benzinga/ChartMill, sep-2026) — sesgo alcista extendido, sin voces bajistas relevantes.\n- Narrativa de 'death spiral' por mNAV bajo 1x pierde fuerza tras la recuperación a ~1,06-1,10x, aunque la consulta MSCI mantiene un piso de cautela estructural.\n- Movimiento de doble dígito en dos sesiones consecutivas (18 y 21-sep) sin catalizador idiosincrático propio más allá del rally de BTC confirma que el sentimiento de MSTR sigue derivado casi enteramente del sentimiento sobre BTC.",
+    "conclusion": "MSTR retomó su rol de derivado apalancado de BTC en su forma más pura: la reanudación de compras (+950 BTC, 21-sep) coincidió con un rally de BTC a ~US$85.000 y un salto adicional de +7-8% en la acción, tras el +16,4% del 18-sep. El mNAV volvió a premium modesto (~1,06-1,10x), reabriendo la ventana de emisión acretiva, pero la consulta MSCI (resultado ~16-oct) sigue siendo el riesgo estructural no resuelto, con hasta US$8,8 mil M en salidas pasivas potenciales. Si BTC sostiene US$84.000+ y MSCI no excluye, el momentum puede continuar; si BTC revierte hacia el costo promedio (US$75.416) o MSCI excluye, la caída sería amplificada por el beta de MSTR. Confianza: media, condicionada casi enteramente a BTC."
   },
   "scores": {
     "tecnica": {
-      "score": 58,
-      "just": "Salto de +16,4% el 18-sep sobre indicadores previos ya neutros-positivos (RSI 56, MACD aún sin cruce claro) sugiere posible cambio de carácter, pero el bloque técnico calculado no incorpora aún el movimiento de hoy; falta confirmación de que rompe la SMA200 y sostiene volumen. Se pondera con cautela ante la falta de datos post-rally verificados."
+      "score": 62,
+      "just": "Ruptura confirmada sobre SMA50 y SMA200 con volumen 2,38x el promedio (18-sep), y el rally continuó el 21-sep (+7-8% adicional, aún no incorporado al bloque técnico). RSI 66,1 empieza a acercarse a zona de sobrecompra, pero sin divergencia bajista visible; cambio de carácter razonablemente confirmado tras semanas de consolidación previa."
     },
     "fundamental": {
-      "score": 42,
-      "just": "mNAV 'enterprise' cerca de 1x y probable cierre del descuento básico con el rally son positivos, pero la tesorería sigue congelada por tercera semana y el BTC Yield oficial más reciente (4,5% YTD a jun) no refleja aún el repunte de precio. Prioridad en buybacks de preferentes sobre compras de BTC sigue mostrando gestión táctica, no de crecimiento."
+      "score": 50,
+      "just": "La reanudación de compras de BTC (21-sep) y el mNAV recuperado a premium (~1,06-1,10x) son positivos y reabren la vía de emisión acretiva, pero el ritmo de compra (950 BTC) es bajo frente al objetivo de 1 millón de BTC para fin de 2026, y ~US$15 mil M en preferentes perpetuas siguen exigiendo acceso continuo a mercados de capital."
     },
     "sentimiento": {
-      "score": 55,
-      "just": "El salto de precio del 18-sep reduce la divergencia contrarian previa (consenso Strong Buy vs. precio deprimido), pero targets (~US$225) siguen por sobre el nuevo precio (~US$154), manteniendo algo de sesgo contrario a favor, aunque menos extremo que antes del rally."
+      "score": 42,
+      "just": "Consenso analistas y prensa uniformemente alcistas (14 Buy/2 Hold/0 Sell, targets ~US$230-250) tras dos sesiones de rally fuerte — la euforia relativamente unánime y la ausencia de voces bajistas sugieren que gran parte del optimismo ya está incorporado, lectura contraria moderadamente cautelosa pese al momentum positivo."
     },
     "riesgo": {
-      "score": 30,
-      "just": "Riesgo elevado por materialidad: ~US$15 mil M en preferentes perpetuas, riesgo binario MSCI con resultado en ~4 semanas, y un salto de +16,4% en un día ilustra la amplificación de beta que funciona en ambas direcciones — una reversión de BTC golpearía a MSTR con mayor severidad. Volatilidad 30d de 104,7% y drawdown -77% a 1 año agravan el perfil estructural."
+      "score": 28,
+      "just": "Riesgo elevado por materialidad: ~US$15 mil M en preferentes perpetuas con posible escalamiento de dividendos (STRF hasta 18%), riesgo binario MSCI con resultado en ~4 semanas (hasta US$8,8 mil M en salidas pasivas), y dos saltos consecutivos de doble dígito (18 y 21-sep) confirman amplificación de beta que funciona en ambas direcciones. Volatilidad 30d de 112,4% y drawdown -77% a 1 año agravan el perfil estructural."
     },
     "conviccion": {
-      "score": 47,
-      "just": "Asimetría atada 100% a BTC, confirmada hoy: el rally de MSTR es un reflejo directo del repunte de BTC, sin catalizador propio. Si BTC sostiene US$80.000+ y MSCI no excluye, la tesis alcista se refuerza; si BTC revierte o MSCI excluye, el riesgo estructural persiste. Catalizadores fechados (21-sep, 30-sep, 16-oct, 4-nov) mantienen la tesis falsable en el corto plazo."
+      "score": 50,
+      "just": "Asimetría atada casi 100% a BTC: la reanudación de compras y el mNAV en premium son señales de que el flywheel vuelve a funcionar, pero el ritmo de acumulación sigue siendo modesto frente al objetivo anual. Catalizadores fechados (30-sep, 16-oct, 4-nov) mantienen la tesis falsable en el corto-mediano plazo, con downside acotado por el costo promedio de BTC (US$75.416) pero amplificado por el beta si se pierde ese nivel."
     }
   },
   "sources": [
-    "SEC EDGAR (CIK 0001050446) — 8-K 14-sep-2026",
+    "SEC EDGAR (CIK 0001050446) — 8-K 21-sep-2026",
+    "Coindesk",
+    "Investing.com",
     "The Block",
     "Yahoo Finance",
     "stockanalysis.com",
     "bitcointreasuries.net",
     "mnav.com",
-    "Coindesk",
-    "Crowdfund Insider",
+    "TradingView",
+    "AMBCrypto",
+    "CryptoTimes",
+    "Seeking Alpha (JPMorgan estimate)",
     "StocksToTrade",
     "TimothySykes",
-    "MarketBeat",
+    "Benzinga / ChartMill",
     "MSCI Index Consultations",
     "TipRanks",
-    "S&P Global Market Intelligence (vía stockanalysis.com forecast)",
+    "Fortune",
     "Strategy.com (press releases Q1/Q2 2026)",
     "TradingView scanner"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 55,
-        "just": "mNAV 'enterprise' ~1,04x tras el rally del 18-sep; el mNAV básico, en descuento (~0,78x) días atrás, probablemente se comprime con el salto conjunto de BTC y MSTR, aunque sin cifra post-rally verificada — la valuación sigue oscilando entre premium leve y paridad según la métrica."
+        "score": 58,
+        "just": "mNAV 'enterprise' ~1,06x-1,10x (21-sep) tras haber tocado ~0,68x básico en ago-2026; dentro de la banda de 52 semanas (0,95x-1,43x) está en el tercio bajo, y el precio de la acción sigue en el percentil 25,4% de su rango a 1 año pese al doble rally reciente — barata vs. su propia historia de premium (llegó a 3,4x en 2024)."
       },
       "calidad": {
-        "score": 33,
-        "just": "Tesorería de 845.050 BTC intacta pero sin compras hace tres semanas; el rally de BTC del 18-sep no vino acompañado de nueva acumulación, y ~US$15 mil M en preferentes perpetuas siguen exigiendo acceso continuo a mercados de capital."
+        "score": 38,
+        "just": "Tesorería de 846.000 BTC a costo prom. US$75.416, con compras retomadas el 21-sep tras la pausa; ~US$15 mil M en preferentes perpetuas (STRK/STRF/STRD/STRC) siguen exigiendo acceso continuo a mercados de capital y el ATM de US$21 mil M implica dilución estructural permanente."
       },
       "asimetria": {
-        "score": 62,
-        "just": "El salto de +16,4% del 18-sep ilustra la asimetría al alza cuando BTC repunta; el downside sigue acotado por la tesorería pero amplificado por el beta histórico (1,5-1,8x) si BTC revierte hacia el costo promedio de adquisición (US$75.412)."
+        "score": 60,
+        "just": "El doble rally del 18 y 21-sep (BTC a ~US$85.000) ilustra el upside cuando BTC repunta; downside acotado en la zona del costo promedio de adquisición (US$75.416/BTC, ~US$76.000-77.000 en precio de BTC) pero amplificado por beta histórico 1,5-1,8x si BTC revierte con fuerza."
       },
       "catalizadores": {
-        "score": 54,
-        "just": "Consulta MSCI (cierre 30-sep, resultado ~16-oct) y earnings Q3 (~4-nov) son catalizadores binarios con fecha concreta; el 8-K del 21-sep es el gatillo más inmediato para confirmar si Strategy retoma compras de BTC aprovechando el rally."
+        "score": 58,
+        "just": "Consulta MSCI (cierre 30-sep, resultado ~16-oct) y earnings Q3 (~4-nov) son catalizadores binarios con fecha concreta; el ritmo de compras semanales de BTC post-reanudación (21-sep) es el gatillo más inmediato para confirmar si el flywheel vuelve a operar de forma sostenida."
       },
       "contrarian": {
-        "score": 52,
-        "just": "El rally del 18-sep reduce parcialmente la divergencia entre consenso alcista de analistas (targets ~US$225) y precio deprimido, aunque el upside remanente (~46%) sigue siendo mayor al de un escenario de consenso plenamente descontado."
+        "score": 40,
+        "just": "El consenso de analistas y prensa es uniformemente alcista (14 Buy/2 Hold/0 Sell) tras dos sesiones de rally fuerte, reduciendo la señal contraria; el optimismo generalizado sugiere que buena parte del catalizador positivo (reanudación de compras, mNAV en premium) ya está descontado en el precio."
       }
     },
     "plan": {
       "recomendacion": "Esperar gatillo",
-      "zona_compra": "US$115-140 si BTC retrocede y se estabiliza sobre US$76.000-78.000, o confirmación de reanudación de compras de BTC en un próximo 8-K semanal",
-      "invalidacion": "Pérdida de soporte BTC bajo US$73.000-74.000 (bajo el costo promedio de Strategy), o exclusión MSCI confirmada (~16-oct) con implementación en revisión de noviembre",
+      "zona_compra": "US$120-145 si BTC retrocede hacia US$76.000-78.000 y se estabiliza, o confirmación de ritmo sostenido de compras de BTC en próximos 8-K semanales",
+      "invalidacion": "Pérdida de soporte BTC bajo US$73.000-75.000 (en o bajo el costo promedio de Strategy), o exclusión MSCI confirmada (~16-oct) con implementación en revisión de noviembre",
       "gatillos": [
-        "Reanudación de compras semanales de BTC en el próximo 8-K (~21-sep)",
+        "Continuidad de compras semanales de BTC en 8-K sucesivos tras la reanudación del 21-sep",
         "Resultado de consulta MSCI (~16-oct)",
-        "BTC Yield Q3 mostrando mejora sobre 5,0% de Q2",
-        "Sostenimiento de BTC sobre US$80.000 y del rally de MSTR más allá del 18-sep"
+        "BTC Yield Q3 (en earnings ~4-nov) mostrando mejora sobre 5,0% de Q2",
+        "Sostenimiento de BTC sobre US$84.000-85.000 más allá de la semana del 21-sep"
       ],
       "horizonte": "6-18 meses",
       "tamano": "Posición pequeña-moderada",

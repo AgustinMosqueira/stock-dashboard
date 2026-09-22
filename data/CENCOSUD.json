@@ -2,34 +2,13 @@
   "ticker": "CENCOSUD",
   "company": "Cencosud S.A.",
   "statsList": [
-    [
-      "Precio",
-      "$2.090,0 CLP (17-sep-2026)"
-    ],
-    [
-      "Rango 52 sem.",
-      "$1.882 – $3.238 CLP (HECHO: stockanalysis.com, sep-2026)"
-    ],
-    [
-      "Market cap",
-      "~CLP 5,56-5,59 billones (~US$5,8-5,9 MM) (HECHO: stockanalysis.com/Investing.com, sep-2026)"
-    ],
-    [
-      "P/E · P/B",
-      "P/E normalizado ~62,5x (stockanalysis.com) vs trailing ~21x-35,5x según otra fuente — fuerte dispersión y distorsión por caída de utilidad, provisiones no operacionales y ajuste hiperinflacionario Argentina; forward ~12,3x-15,3x (LECTURA: dispersión entre proveedores de datos, sep-2026); P/B no verificable con fuente confiable en esta ventana"
-    ],
-    [
-      "Target consenso",
-      "$2.734-3.022 CLP según fuente (stockanalysis.com: 13 analistas, Hold, TP $2.734 +34,7%; otro proveedor: 11 analistas, TP $3.022), consenso Neutral/Hold (2-3 compra/mayoría mantener/1 venta) (HECHO: stockanalysis.com/MarketScreener, sep-2026). Señal de sentimiento local: BICE Inversiones retiró a Cencosud de su cartera recomendada en ago-2026 pese a mantener rating; MBI ratifica Sobreponderar con TP $2.700 (23-jun-2026)"
-    ],
-    [
-      "Próx. earnings",
-      "~3-nov-2026 (3T26, fecha ESTIMADA por patrón histórico —1T26: 7-may, 2T26: 6-ago, 3T25 fue 4-nov-2025—; no se encontró confirmación oficial de Cencosud IR a la fecha de este informe, sep-2026)"
-    ],
-    [
-      "Técnico (auto)",
-      "RSI 55.5 · MACD +17.80 / señal +10.78 (TradingView, 17-sep-2026)"
-    ]
+    ["Precio", "$2.090,0 CLP (18-sep-2026)"],
+    ["Rango 52 sem.", "$1.882 – $3.238 CLP (HECHO: stockanalysis.com, sep-2026)"],
+    ["Market cap", "~CLP 5,56-5,59 billones (~US$5,8-5,9 MM) (HECHO: stockanalysis.com/Investing.com, sep-2026)"],
+    ["P/E · P/B", "P/E normalizado ~62,5x (stockanalysis.com) vs trailing ~21x-35,5x según otra fuente — fuerte dispersión y distorsión por caída de utilidad, provisiones no operacionales y ajuste hiperinflacionario Argentina; forward ~12,3x-15,3x (LECTURA: dispersión entre proveedores de datos, sep-2026); P/B no verificable con fuente confiable en esta ventana"],
+    ["Target consenso", "$2.734-3.131 CLP según fuente (stockanalysis.com: 13 analistas, Hold, TP $2.734 +34,7%; otro proveedor: 11 analistas, TP promedio $3.131, rango $1.840-$3.800, 3 compra/7 mantener/1 venta) (HECHO: stockanalysis.com/MarketScreener, sep-2026). Credicorp Capital mantiene TP $3.150 (+50% potencial), citando descuento excesivo (HECHO: Diario Financiero, 2026). MBI ratifica Sobreponderar con TP $2.700 (23-jun-2026)"],
+    ["Próx. earnings", "~5-nov-2026 (3T26, fecha ESTIMADA por patrón histórico —1T26: 7-may, 2T26: 7-ago, 3T25 fue 4-nov-2025—; no se encontró confirmación oficial de Cencosud IR a la fecha de este informe, sep-2026)"],
+    ["Técnico (auto)", "RSI 55.5 · MACD +17.80 / señal +10.78 (TradingView, 18-sep-2026)"]
   ],
   "technical": {
     "price": 2090,
@@ -47,54 +26,54 @@
     "pct_vs_sma50": 3.61,
     "pct_vs_sma200": -14.44,
     "volume_today": 5630174,
-    "volume_avg20": 2952485.0,
-    "volume_ratio": 1.91,
-    "volatility_30d": 34.95,
-    "sharpe": 1.1,
-    "sortino": 1.15,
+    "volume_avg20": 3099253.0,
+    "volume_ratio": 1.82,
+    "volatility_30d": 34.82,
+    "sharpe": 0.72,
+    "sortino": 0.74,
     "max_drawdown_1y": -40.62,
     "price_percentile_1y": 15.3,
-    "vs_benchmark_30d_pct": 9.59,
+    "vs_benchmark_30d_pct": 11.02,
     "perf_1m_pct": 7.9,
     "perf_ytd_pct": -27.78
   },
   "risk": {
-    "volatility_30d": 34.95,
-    "sharpe": 1.1,
-    "sortino": 1.15,
+    "volatility_30d": 34.82,
+    "sharpe": 0.72,
+    "sortino": 0.74,
     "max_drawdown_1y": -40.62,
-    "n_days": 321,
+    "n_days": 322,
     "window": 30
   },
   "benchmark": {
     "ticker": "CBOE:ECH",
     "label": "ECH (proxy Chile/IPSA)",
-    "relative_performance_30d": 9.59,
-    "relative_performance_ytd": -25.51,
+    "relative_performance_30d": 11.02,
+    "relative_performance_ytd": -25.14,
     "price_percentile_1y": 15.3,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-17T21:43:28-03:00"
+      "fetched_at": "2026-09-18T22:30:15-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-17T21:43:28-03:00"
+      "fetched_at": "2026-09-18T22:30:15-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-09-17T21:43:28-03:00"
+      "fetched_at": "2026-09-18T22:30:15-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CBOE:ECH",
-      "fetched_at": "2026-09-17T21:43:28-03:00"
+      "fetched_at": "2026-09-18T22:30:15-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/CENCOSUD.json",
-      "n_days": 321
+      "n_days": 322
     }
   },
   "metricChanges": [
@@ -111,9 +90,7 @@
     "techo": 1,
     "max": 7,
     "senales_piso": [],
-    "senales_techo": [
-      "histograma MACD girando a la baja"
-    ]
+    "senales_techo": ["histograma MACD girando a la baja"]
   },
   "change": {
     "day": -0.52,
@@ -122,109 +99,109 @@
   "reportDate": "18 de septiembre de 2026",
   "events": [
     {
-      "date": "2026-11-03",
+      "date": "2026-11-05",
       "label": "Earnings 3T26 (fecha estimada, no confirmada por IR)",
       "kind": "earnings",
-      "info": "Sin calendario IR oficial que confirme la fecha; se estima por patrón histórico (1T26: 7-may, 2T26: 6-ago, 3T25 fue 4-nov-2025). El mercado buscará si el margen de supermercados Chile sostiene el registro de doble dígito (27° trimestre consecutivo confirmado en 2T26) y si Argentina consolida el avance de +50pb de participación de mercado y el salto de EBITDA ajustado supermercados (+105,7% en moneda local, 2T26) (HECHO: mercado.com.ar/Peru Retail, ago-2026)."
+      "info": "Sin calendario IR oficial que confirme la fecha; se estima por patrón histórico (1T26: 7-may, 2T26: 7-ago, 3T25 fue 4-nov-2025). Management guió a un 3T26 mejor que el 2T26, con margen de supermercados Chile sosteniéndose sobre 10% y recuperación gradual conforme baja la presión promocional (HECHO: Investing.com transcript 2T26, ago-2026)."
     },
     {
       "date": "2026-12-01",
       "label": "Resolución SIC Colombia sobre adquisición de Makro (fecha aproximada, sin actualización)",
       "kind": "corporate",
-      "info": "La Superintendencia de Industria y Comercio de Colombia inició análisis formal el 24-jul-2026 tras solicitud de preevaluación; a inicios de sep-2026 el proceso sigue en evaluación de efectos en libre competencia, sin fecha de resolución confirmada (Infobae/La República, ago-2026; sin novedad verificada en sep-2026). LECTURA: no se encontró ninguna actualización que adelante o retrase la resolución más allá de lo ya estimado."
+      "info": "La SIC inició análisis formal el 24-jul-2026 tras solicitud de preevaluación; en ago-2026 medios colombianos describieron el proceso como más lento de lo esperado ('embolatada') por nueva postura del gobierno Petro en materia de libre competencia, sin fecha de resolución confirmada (Infobae/La República/Portafolio, ago-2026)."
     },
     {
       "date": "2026-12-15",
       "label": "Aprobación CADE (Brasil) para compra de St. Marche (fecha aproximada, sin actualización)",
       "kind": "corporate",
-      "info": "El cierre de la adquisición de St. Marche (32 tiendas premium en São Paulo, ventas ~US$216MM LTM mar-2026) sigue condicionado a la conversión y homologación del proceso de recuperación judicial del vendedor y a la aprobación del CADE; no se encontró confirmación de avance o cierre a sep-2026 (Capital Aberto/NeoFeed/Yahoo Noticias, jun-2026; sin actualización verificada en sep-2026)."
+      "info": "El cierre de la adquisición de St. Marche (32 tiendas premium en São Paulo, ventas ~US$216MM LTM mar-2026) sigue condicionado a la conversión y homologación del proceso de recuperación judicial del vendedor y a la aprobación del CADE; management reafirmó en ago-2026 que la integración de St. Marche sigue como prioridad de asignación de capital, sin fecha de cierre confirmada (Investing.com/Capital Aberto, ago-2026)."
     },
     {
       "date": "2026-12-31",
       "label": "Meta de ~40 locales Don Salva (hard discount) (fecha aproximada)",
       "kind": "corporate",
-      "info": "Lanzado en Chile en may-2026 como respuesta a la consolidación del hard discount (Walmart Chile fortaleciendo precios bajos); a inicios de sep-2026 la cadena continúa en expansión en la Región Metropolitana, aún lejos de la meta de ~40 locales a fin de año (HECHO: Diario Financiero, sep-2026; LECTURA: conteo exacto de locales no reverificado en esta ventana)."
+      "info": "Lanzado en Chile en may-2026 como respuesta a la consolidación del hard discount; management reafirmó en la presentación 2T26 la meta de ~40 locales Don Salva antes de fin de año como palanca para compensar la guerra promocional en supermercados tradicionales (HECHO: Chócale/Investing.com, ago-2026)."
     }
   ],
   "sections": {
-    "resumen": "Cencosud cotiza en $2.090 CLP, técnico estable (RSI 55,5, sobre SMA20/50 pero -14% bajo SMA200). El 2T26 mostró EBITDA ajustado CLP 307.898M y pérdida neta de -US$20,1MM (mayores costos financieros por deuda reajustada y efectos cambiarios), pero con señales operativas positivas: Chile completó 27 trimestres consecutivos con margen de supermercados en doble dígito, Argentina ganó 50pb de participación con EBITDA ajustado supermercados +105,7% en moneda local, y Colombia casi duplicó su EBITDA ajustado (+92,9% CLP). Las adquisiciones St. Marche (Brasil, CADE) y Makro Colombia (SIC) siguen sin resolución regulatoria. Guidance FY2026 (EBITDA US$1.815MM) sin revisión formal. Consenso Neutral/Hold con TP disperso $2.734-3.022. Confianza: media.",
-    "fundamental": "- Ingresos 2T26 CLP 4.094.746M (US$4.552MM); EBITDA ajustado CLP 307.898M (US$342MM); pérdida neta -CLP 18.074M (-US$20,1MM) por mayores costos financieros de deuda reajustada por inflación y movimientos cambiarios (HECHO: mercado.com.ar/Peru Retail/Investing.com, ago-2026; nota: cifra de EBITDA difiere de otra fuente que reportó CLP 329.000M, dispersión entre proveedores).\n- Chile: 27° trimestre consecutivo con margen EBITDA de supermercados en doble dígito; ganancia de 100pb de participación de mercado en el semestre (HECHO: Peru Retail/mercado.com.ar, ago-2026).\n- Argentina: +50pb de participación de mercado en supermercados en 2T26, +2,1pp en e-commerce (jun-2026), y EBITDA ajustado del negocio de supermercados +105,7% en moneda local interanual (HECHO: mercado.com.ar, ago-2026); persisten mayores provisiones por riesgo del negocio financiero y ajuste hiperinflacionario (NIC 29) como lastre contable no operacional.\n- Colombia: EBITDA ajustado +92,9% en CLP y +73,8% en moneda local, por productividad, consolidación de Plaza Central y avance en venta de estaciones de servicio (HECHO: Halcones y Palomas, ago-2026).\n- Guidance FY2026 (ene-2026, Cenco Day Buenos Aires): ingresos consolidados US$18.413MM y EBITDA ajustado US$1.815MM (+15% vs 2025), márgenes de doble dígito en Chile/Perú/EE.UU., plan de inversión ~US$600MM; sin revisión formal tras 2T26 (HECHO: cencosud.com, ene-2026; LECTURA: sin confirmación de ajuste a sep-2026). Leverage neto no reverificado con cifra puntual esta ventana (última referencia ~3,6x en 2T26); LECTURA: riesgo de apalancamiento sobre el objetivo de largo plazo (~3,0x) persiste dado el ritmo de adquisiciones simultáneas.",
-    "valuacion": "- Fuerte dispersión de múltiplos entre proveedores: P/E normalizado ~62,5x (stockanalysis.com) vs trailing ~21x-35,5x (otra fuente), y forward ~12,3x-15,3x, reflejando la distorsión de la caída de utilidad por cargos hiperinflacionarios no operacionales (LECTURA: sep-2026).\n- Market cap ~CLP 5,56-5,59 billones (~US$5,8-5,9MM); precio en percentil ~15% de su rango de 52 semanas tras caída YTD de -27,8% (HECHO: technical dado).\n- Target consenso disperso: stockanalysis.com (13 analistas) marca $2.734 CLP (+34,7%, Hold) y otro proveedor (11 analistas) promedia $3.022 CLP; ambos con mayoría de recomendaciones Mantener (HECHO: stockanalysis.com/MarketScreener, sep-2026).\n- MBI mantiene Sobreponderar con TP $2.700 (23-jun-2026), asumiendo normalización inflacionaria en Argentina (HECHO: Diario Financiero, 23-jun-2026).\n- Señal de cautela: BICE Inversiones sacó a Cencosud de su cartera recomendada en el rebalanceo de agosto 2026 pese a rating previo de Sobreponderar (HECHO: Diario Financiero, ago-2026).",
-    "tecnico": "- Precio $2.090 sobre SMA20 ($2.059) y SMA50 ($2.017), pero -14,4% bajo SMA200 ($2.443): estructura de recuperación de corto plazo dentro de tendencia bajista mayor.\n- RSI 55,5 en zona neutral-alcista, moderando desde lecturas más altas tras el cambio de carácter iniciado a fines de agosto (saltó de 37,55 a 58,56 el 23-ago).\n- MACD +17,80 sobre su señal (+10,78): histograma aún positivo, aunque las señales de techo (giro a la baja del histograma) sugieren pérdida de momentum de corto plazo.\n- Volumen 1,91x el promedio de 20 días, confirmando actividad por sobre lo normal aunque menos extrema que en la lectura previa.\n- Percentil de precio 1 año en 15,3%: la acción sigue cerca de mínimos anuales; máximo drawdown 1 año de -40,6%.",
-    "sentimiento": "- Consenso Neutral/Hold con dispersión de precios objetivo entre proveedores ($2.734 a $3.022 CLP), reflejando falta de convicción direccional tras varios trimestres de resultados netos negativos por efectos no operacionales.\n- Divergencia relevante: BICE retiró la acción de su cartera top (ago-2026) mientras MBI ratifica Sobreponderar (jun-2026) citando normalización esperada en Argentina — el mercado sigue dividido sobre el punto de inflexión.\n- La mejora operativa real en Argentina (+50pb share, EBITDA supermercados +105,7% en moneda local) y en Colombia (EBITDA ajustado +92,9%) contrasta con el resultado neto negativo consolidado, lo que puede ser una señal contraria si el mercado empieza a mirar más allá de la línea final.\n- Señales de techo técnico (histograma MACD girando a la baja) moderan el entusiasmo del rebote reciente, sugiriendo que el mercado aún no valida un cambio de tendencia estructural.\n- Cobertura mediática sigue centrada en la guerra promocional y el hard discount (Don Salva vs Walmart Chile) más que en las mejoras operativas fuera de Chile, manteniendo el sentimiento cauto de corto plazo.",
-    "catalizadores": "**Catalizadores:**\n- Reporte 3T26 (~3-nov-2026 estimado): validar si el margen Chile sostiene doble dígito y si Argentina/Colombia consolidan sus mejoras operativas.\n- Resolución regulatoria SIC Colombia sobre Makro (proceso iniciado 24-jul-2026, sin fecha de cierre) — destrabaría sinergias del negocio mayorista.\n- Aprobación CADE Brasil para St. Marche, condicionada también a la homologación judicial del vendedor — sumaría ~US$216MM en ventas premium en São Paulo.\n- Ejecución de Don Salva (hard discount) en Chile, camino a la meta de ~40 locales a fin de año — señal temprana de si el formato compensa la presión de márgenes en supermercados tradicionales.\n\n**Riesgos (por materialidad):**\n- Guerra promocional y consolidación del hard discount en Chile (Walmart Chile agresivo en precios bajos); riesgo de erosión estructural del margen de supermercados si la intensidad no cede.\n- Apalancamiento elevado tras adquisiciones simultáneas (Makro Argentina/Colombia, The Fresh Market, St. Marche); sensibilidad a tasas y a indexación UF, con cifra de leverage neto puntual no reverificada en esta ventana.\n- Argentina: pese a la ganancia de share y mejora operativa en moneda local, persisten mayores provisiones por riesgo del negocio financiero y contabilidad hiperinflacionaria (NIC 29) que distorsionan el resultado neto reportado, con volatilidad cambiaria como riesgo latente.\n- Ejecución de integraciones simultáneas (Makro Colombia, Makro/Basualdo Argentina, St. Marche, The Fresh Market) sin resolución regulatoria en dos de ellas (CADE, SIC) eleva riesgo operacional y de foco gerencial en un entorno de consumo débil.",
-    "conclusion": "Cencosud combina fundamentos operativos mixtos: Chile sostiene su margen de doble dígito en supermercados por 27° trimestre consecutivo, Argentina y Colombia muestran mejoras genuinas en moneda local (+105,7% y +92,9% de EBITDA ajustado respectivamente), pero el resultado neto consolidado sigue negativo por efectos financieros y cambiarios no operacionales. El técnico se mantiene constructivo pero con señales tempranas de pérdida de momentum (MACD girando). Los riesgos más materiales son la guerra promocional/hard discount en Chile y el apalancamiento tras adquisiciones simultáneas, con dos integraciones (St. Marche, Makro Colombia) aún sin resolución regulatoria. Guidance FY2026 sin revisión formal. Consenso Neutral con dispersión alta entre casas de análisis. Confianza: media."
+    "resumen": "Cencosud cotiza en $2.090 CLP, técnico estable (RSI 55,5) pero -14% bajo SMA200. El 2T26 decepcionó: EBITDA ajustado CLP 329.000M (-12,3% i.a.), pérdida neta -CLP 18.000M, y en Chile el EBITDA cayó -22,9% por alta presión promocional (margen supermercados aun así 10,5%, 27° trimestre sobre 10%). Contrapeso: Argentina (+105,7% EBITDA supermercados en moneda local, +50pb share) y Colombia (+80% EBITDA) traccionan fuerte. St. Marche (CADE) y Makro Colombia (SIC, proceso 'embolatado' por postura del gobierno Petro) siguen sin resolución regulatoria. Guidance FY2026 (EBITDA US$1.815MM) sin revisión formal; management guió a mejora en 3T26. Consenso Neutral/Hold, TP disperso $2.734-3.150. Confianza: media.",
+    "fundamental": "- 2T26: ingresos CLP ~4,1 billones (-1,2% i.a. reportado, +4,5% orgánico); EBITDA ajustado CLP 329.000M (-12,3% i.a.); pérdida neta -CLP 18.000M/-US$20,1MM, resultado bajo expectativas del management (HECHO: Investing.com transcript/Peru Retail, ago-2026).\n- Chile: EBITDA ajustado -22,9% i.a. por mayores gastos logísticos y \"trimestre altamente promocional\"; margen de supermercados se sostuvo en 10,5%, 27° trimestre consecutivo sobre 10% (HECHO: Investing.com transcript, ago-2026).\n- Argentina: +50pb de participación de mercado en supermercados, EBITDA ajustado supermercados +105,7% en moneda local; a nivel país el EBITDA ajustado total creció +39,1% en moneda local excluyendo extraordinarios, lastrado por mayores provisiones de riesgo del negocio financiero (HECHO: mercado.com.ar/Forbes Argentina, ago-2026).\n- Colombia +80% EBITDA ajustado i.a. y Brasil +8,1% pese a caída de ingresos (mejora de rentabilidad por plan de transformación) (HECHO: Investing.com transcript, ago-2026).\n- Guidance FY2026 (ene-2026): ingresos US$18.413MM y EBITDA ajustado US$1.815MM (+15% vs 2025); sin revisión formal tras 2T26, management reiteró objetivo de leverage neto de largo plazo 3,0x y extendió vida media de deuda de 5,5 a 7,3 años (HECHO: cencosud.com/Investing.com, ene-ago 2026). Cifra puntual de leverage neto actual no reverificada esta ventana.",
+    "valuacion": "- Fuerte dispersión de múltiplos: P/E normalizado ~62,5x (stockanalysis.com) vs trailing ~21x-35,5x y forward ~12,3x-15,3x, distorsionado por pérdida neta con cargos no operacionales (LECTURA: sep-2026).\n- Acción cayó -25,7% en 2026, peor desempeño del IPSA; margen EBITDA LTM se contrajo a 8,4%, mínimo desde la pandemia (HECHO: Diario Financiero, 2026).\n- Target consenso disperso: stockanalysis.com $2.734 (Hold, 13 analistas) vs otro proveedor $3.131 promedio (rango $1.840-$3.800, 11 analistas, 3 compra/7 mantener/1 venta) (HECHO: stockanalysis.com/MarketScreener, sep-2026).\n- Credicorp Capital mantiene TP $3.150 (+50% potencial), con analista citando \"un nivel de descuento tremendo\" en la valorización actual (HECHO: Diario Financiero, 2026).\n- MBI ratifica Sobreponderar TP $2.700 (23-jun-2026); BICE retiró la acción de su cartera recomendada en ago-2026 pese a mantener rating — divergencia de convicción entre casas locales.",
+    "tecnico": "- Precio $2.090 sobre SMA20 ($2.059) y SMA50 ($2.017), pero -14,4% bajo SMA200 ($2.443): recuperación de corto plazo dentro de tendencia bajista mayor.\n- RSI 55,5 en zona neutral-alcista, moderando desde el salto de carácter de fines de agosto (37,55 a 58,56 el 23-ago).\n- MACD +17,80 sobre señal +10,78: histograma positivo pero con señales de giro a la baja, sugiriendo pérdida de momentum de corto plazo.\n- Volumen 1,82x el promedio de 20 días, confirmando actividad por sobre lo normal.\n- Percentil de precio 1 año en 15,3%, aún cerca de mínimos anuales; drawdown 1 año de -40,6%.",
+    "sentimiento": "- Consenso Neutral/Hold con fuerte dispersión de TP entre proveedores ($2.734-$3.150), reflejando falta de convicción tras resultados 2T26 \"por debajo de lo esperado\" según el propio CEO (HECHO: Investing.com, ago-2026).\n- Divergencia real entre casas: BICE retiró la acción de su cartera (ago-2026) vs Credicorp Capital y MBI sobreponderando con upside de 30-50%, citando descuento excesivo vs fundamentos.\n- La mejora operativa genuina en Argentina (+105,7% EBITDA supermercados) y Colombia (+80% EBITDA) contrasta con el foco mediático en la caída de -22,9% del EBITDA Chile y la pérdida neta — posible señal contraria si el mercado sigue anclado a la línea final.\n- Management reconoció explícitamente el trimestre débil pero guió a mejora en 3T26, un patrón de expectativas bajas que puede favorecer sorpresas positivas.\n- Señales de techo técnico (MACD girando) moderan el entusiasmo de corto plazo pese al sentimiento fundamental mixto/negativo.",
+    "catalizadores": "**Catalizadores:**\n- Reporte 3T26 (~5-nov-2026 estimado): el propio management guió a mejora vs 2T26 y a recuperación gradual del margen Chile conforme baja la presión promocional.\n- Resolución regulatoria SIC Colombia sobre Makro, actualmente más lenta de lo esperado por postura del gobierno Petro — destrabaría sinergias del negocio mayorista.\n- Aprobación CADE Brasil para St. Marche, condicionada también a homologación judicial del vendedor — sumaría ~US$216MM en ventas premium en São Paulo.\n- Ejecución de Don Salva (hard discount) en Chile, con meta reafirmada de ~40 locales a fin de año, como palanca para compensar la guerra promocional en supermercados tradicionales.\n\n**Riesgos (por materialidad):**\n- Guerra promocional en Chile: EBITDA Chile ya cayó -22,9% en 2T26; si la intensidad promocional no cede como guió el management, el margen de supermercados podría perder su racha de 27 trimestres sobre 10%.\n- Apalancamiento tras adquisiciones simultáneas (Makro Colombia, St. Marche, Makro/Basualdo Argentina, The Fresh Market); objetivo de largo plazo 3,0x vs nivel actual no reverificado esta ventana.\n- Argentina: pese a la ganancia de share y mejora operativa en moneda local, persisten mayores provisiones por riesgo del negocio financiero y contabilidad hiperinflacionaria (NIC 29) que distorsionan el resultado neto reportado.\n- Ejecución de integraciones simultáneas sin resolución regulatoria en dos de ellas (CADE, SIC) eleva riesgo operacional y de foco gerencial en un entorno de consumo débil y fragmentación de compra entre formatos.",
+    "conclusion": "Cencosud combina un 2T26 débil (EBITDA Chile -22,9%, pérdida neta) con tracción real en Argentina (+105,7% EBITDA supermercados) y Colombia (+80% EBITDA), que el mercado no está premiando: la acción cae -25,7% en 2026, peor del IPSA. Management guió a mejora en 3T26 y reafirmó el guidance FY2026 (EBITDA US$1.815MM) sin revisión formal. Casas como Credicorp (TP $3.150) ven descuento excesivo; BICE retiró la acción de su cartera. Riesgos materiales: guerra promocional en Chile, apalancamiento por adquisiciones simultáneas (St. Marche, Makro Colombia) aún sin resolución regulatoria. Confianza: media."
   },
   "scores": {
     "tecnica": {
       "score": 56,
-      "just": "RSI 55,5 y MACD +17,80 sobre señal +10,78 con volumen 1,91x el promedio muestran continuidad del cambio de carácter de fines de agosto, pero las señales de techo (histograma girando a la baja) y la moderación del RSI sugieren pérdida de fuerza vs la lectura anterior. Precio sigue -14% bajo SMA200."
+      "just": "RSI 55,5 y MACD +17,80 sobre señal +10,78 con volumen 1,82x el promedio muestran continuidad del cambio de carácter de fines de agosto, pero las señales de techo (histograma girando a la baja) sugieren pérdida de fuerza. Precio sigue -14% bajo SMA200."
     },
     "fundamental": {
-      "score": 46,
-      "just": "Pérdida neta reportada en 2T26 (-US$20,1MM) y EBITDA ajustado con dispersión de cifras entre fuentes reflejan ruido contable relevante, pero las métricas operativas (margen Chile doble dígito, Argentina y Colombia con EBITDA ajustado en fuerte alza en moneda local) muestran un negocio subyacente más sano que el resultado neto consolidado."
+      "score": 42,
+      "just": "2T26 decepcionó explícitamente (según el propio CEO): EBITDA Chile -22,9% i.a. por guerra promocional y pérdida neta consolidada; el margen EBITDA LTM cayó a 8,4%, mínimo desde la pandemia. Argentina (+105,7%) y Colombia (+80%) atenúan pero no compensan el deterioro del negocio ancla (Chile)."
     },
     "sentimiento": {
-      "score": 55,
-      "just": "Consenso Neutral con sesgo de pesimismo de corto plazo (BICE retiró la acción de su cartera); en contrario, las mejoras operativas en Argentina y Colombia no están siendo premiadas por el mercado, que sigue anclado al resultado neto negativo, lo que abre asimetría si el foco cambia hacia el negocio subyacente."
+      "score": 52,
+      "just": "Consenso Neutral con divergencia marcada: BICE retiró la acción de su cartera mientras Credicorp ve 'descuento tremendo' (TP $3.150, +50%); el mercado sigue anclado al resultado neto negativo pese a mejoras operativas fuera de Chile, dejando espacio a sorpresa si el 3T26 confirma la guía de mejora del management."
     },
     "riesgo": {
-      "score": 55,
-      "just": "Volatilidad 30d alta (35,0%) y drawdown -40,6% reflejan riesgo de precio, pero el riesgo de pérdida permanente es más acotado: Chile mantiene margen positivo estable y Argentina/Colombia ganan tracción operativa; el apalancamiento por adquisiciones y las aprobaciones regulatorias pendientes (CADE, SIC) son los puntos a vigilar, sin cifra de leverage puntual reverificada esta ventana."
+      "score": 50,
+      "just": "Volatilidad 30d alta (34,8%) y drawdown -40,6% reflejan riesgo de precio; el deterioro del margen Chile (-22,9% EBITDA) es una señal de riesgo de negocio más seria que en el informe previo, aunque Argentina/Colombia ganan tracción y el leverage objetivo de largo plazo (3,0x) y extensión de duración de deuda (5,5→7,3 años) reducen el riesgo financiero de corto plazo."
     },
     "conviccion": {
-      "score": 51,
-      "just": "Tesis falsable: si Chile sostiene margen de doble dígito y el 3T26 confirma que Argentina y Colombia consolidan su mejora operativa, hay asimetría atractiva desde niveles cercanos a mínimos de 52 semanas; si el margen Chile se erosiona por la guerra promocional o el leverage sigue subiendo sin resolución regulatoria de las integraciones pendientes, la tesis se invalida."
+      "score": 47,
+      "just": "Tesis falsable: si el 3T26 confirma la mejora guiada por management (margen Chile recuperándose, Argentina/Colombia consolidando) hay asimetría atractiva desde niveles cercanos a mínimos de 52 semanas con TP de casas como Credicorp; si la guerra promocional persiste y erosiona más el margen Chile, o las integraciones (SIC, CADE) siguen sin resolución, la tesis pierde fuerza. Balance algo más cauto que el informe anterior por el deterioro confirmado en Chile."
     }
   },
   "sources": [
     "Cencosud S.A. Press Release 2Q2026 (7-ago-2026)",
-    "Investing.com (Q2 2026 slides, transcripts, consensus estimates)",
+    "Investing.com (transcript resultados Q2 2026, consensus estimates)",
     "mercado.com.ar",
     "Peru Retail",
-    "Halcones y Palomas",
-    "Diario Financiero (df.cl) — varias notas ago-sep 2026",
-    "Forbes Chile",
+    "Forbes Argentina",
+    "Diario Financiero (df.cl) — 'Por qué el mercado castiga a Cencosud' y otras notas ago-sep 2026",
+    "Chócale",
     "stockanalysis.com",
     "MarketScreener",
     "Infobae Colombia",
     "La República (Colombia)",
-    "Capital Aberto / NeoFeed (Brasil)",
-    "Yahoo Noticias",
+    "Portafolio (Colombia)",
     "TradingView",
+    "cencosud.com (guidance FY2026, ene-2026)",
     "CMF Chile"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 62,
-        "just": "Precio en percentil 15,3% de su rango de 1 año y P/E forward ~12,3x-15,3x, muy por debajo de niveles históricos, tras una caída YTD de -27,8%; dispersión relevante de múltiplos entre proveedores resta precisión a la lectura."
+        "score": 64,
+        "just": "Precio en percentil 15,3% de su rango de 1 año, caída de -25,7% en 2026 (peor del IPSA) y P/E forward ~12,3x-15,3x muy por debajo de niveles históricos; Credicorp Capital cita 'descuento tremendo' vs fundamentos (Diario Financiero, 2026)."
       },
       "calidad": {
-        "score": 52,
-        "just": "Margen de supermercados Chile resiliente en doble dígito (27° trimestre consecutivo) y mejoras operativas fuertes en Argentina (+105,7% EBITDA ajustado en moneda local) y Colombia (+92,9%), pero resultado neto consolidado negativo por efectos financieros/cambiarios y apalancamiento elevado tras adquisiciones."
+        "score": 45,
+        "just": "Deterioro confirmado en el negocio ancla: EBITDA Chile -22,9% en 2T26 por guerra promocional, margen EBITDA LTM en mínimo desde pandemia (8,4%); parcialmente compensado por tracción real en Argentina (+105,7% EBITDA supermercados) y Colombia (+80%), pero la calidad del negocio consolidado es más frágil que en el trimestre previo."
       },
       "asimetria": {
         "score": 58,
-        "just": "Upside de consenso relevante (según proveedor, +12% a +35%) frente a downside más acotado tras confirmación técnica previa de piso; la mejora operativa en Argentina y Colombia reduce parte de la cola de riesgo percibida, aunque señales de techo técnico moderan la convicción de corto plazo."
+        "just": "Upside de consenso relevante (rango 34,7% a +50% según casa) frente a downside acotado por soporte técnico reciente; el deterioro confirmado del margen Chile resta algo de margen de seguridad vs la lectura previa, pero la dispersión entre TP sugiere que parte del pesimismo ya está incorporado."
       },
       "catalizadores": {
-        "score": 46,
-        "just": "Reporte 3T26 (~3-nov, estimado) y resoluciones regulatorias de Makro Colombia (SIC) y St. Marche Brasil (CADE, condicionada además a recuperación judicial del vendedor) son catalizadores concretos pero sin fecha oficial confirmada ni certeza de resultado; ninguna actualización de plazo detectada en sep-2026."
+        "score": 48,
+        "just": "Reporte 3T26 (~5-nov, estimado, con guía explícita de management hacia mejora) y resoluciones regulatorias de Makro Colombia (SIC, proceso más lento de lo esperado) y St. Marche Brasil (CADE) son catalizadores concretos pero sin fecha oficial confirmada ni certeza de resultado."
       },
       "contrarian": {
-        "score": 57,
-        "just": "Sentimiento negativo pero extendido (BICE retiró la acción de su cartera) mientras Argentina y Colombia muestran mejoras operativas genuinas no reflejadas en el resultado neto — lectura en contra sugiere que el pesimismo está mayormente incorporado, aunque la pérdida de momentum técnico reciente pide cautela en el timing."
+        "score": 55,
+        "just": "Sentimiento negativo y extendido (peor acción del IPSA en 2026, BICE fuera de cartera) mientras algunas casas (Credicorp, MBI) ven descuento excesivo — lectura en contra sugiere pesimismo mayormente incorporado, pero el deterioro operativo confirmado en Chile (a diferencia del informe previo) reduce la fuerza de la señal contraria."
       }
     },
     "plan": {
       "recomendacion": "Esperar gatillo",
       "zona_compra": "CLP 1.950-2.150",
-      "invalidacion": "Quiebre sostenido bajo CLP 1.882 con margen Chile cayendo bajo doble dígito o deterioro adicional del apalancamiento",
+      "invalidacion": "Quiebre sostenido bajo CLP 1.882 con margen Chile cayendo bajo 10% o deterioro adicional del apalancamiento",
       "gatillos": [
-        "Confirmación/ratificación formal del guidance EBITDA en 3T26",
+        "Reporte 3T26 (~5-nov-2026) confirmando la mejora guiada por management y recuperación del margen Chile sobre 10%",
         "Resolución regulatoria SIC Colombia (Makro) y CADE Brasil (St. Marche)",
-        "Reporte 3T26 (~3-nov-2026) mostrando consolidación de mejoras operativas en Argentina y Colombia y sostenimiento de margen en Chile"
+        "Confirmación/ratificación formal del guidance EBITDA FY2026 (US$1.815MM)"
       ],
       "horizonte": "6-18 meses",
       "tamano": "posición reducida (3-5%)",
