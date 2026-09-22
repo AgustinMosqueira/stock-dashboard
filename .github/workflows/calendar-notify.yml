@@ -37,4 +37,5 @@ jobs:
         run: python3 scripts/calendar_notify.py
 
       - name: Publicar el estado de avisos ya enviados
-        run: scripts/safe_push.sh "Avisos de calendario: estado $(date '+%F %H:%M')"
+        run: |
+          scripts/safe_push.sh "Avisos de calendario: estado $(date '+%F %H:%M')"
