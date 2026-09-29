@@ -1,253 +1,251 @@
 {
-  "ticker": "BTC",
-  "company": "Bitcoin",
-  "statsList": [
-    [
-      "Precio",
-      "$84.604 (24-sep-2026)"
-    ],
-    [
-      "Rango 52 sem.",
-      "US$57.877 – US$126.110 (Investing.com/TradingView, 25-sep-2026)"
-    ],
-    [
-      "Market cap",
-      "~US$1,7 billones (tv-hub.org/CoinGecko, 25-sep-2026)"
-    ],
-    [
-      "Dominancia BTC",
-      "~57,6% (tv-hub.org, 25-sep-2026), estable, sin altseason confirmado"
-    ],
-    [
-      "Flujos ETF spot",
-      "Racha de 6 sesiones consecutivas positivas (21 al 25-sep) por ~US$2,8B acumulados: 22-sep +US$714,7M, 23-sep +US$346,9M, 24-sep +US$190,7M, 25-sep IBIT +US$162,6M parcial (Farside Investors/HedgeCo/Cryptonomist, 22-25/09/2026)"
-    ],
-    [
-      "Próximo evento",
-      "Reunión del FOMC del 27-28 de octubre de 2026 (decisión de tasas 28-oct, 15:00 hora Chile aprox.)"
-    ],
-    [
-      "Técnico (auto)",
-      "RSI 65.9 · MACD +2520.72 / señal +2093.79 (TradingView, 24-sep-2026)"
-    ]
+ "ticker": "BTC",
+ "company": "Bitcoin",
+ "statsList": [
+  [
+   "Precio",
+   "US$83.244 (CryptoTimes/Investing.com, 28-sep-2026)"
   ],
-  "change": {
-    "day": 0.26,
-    "week": 4.26
-  },
-  "events": [
-    {
-      "date": "2026-10-02",
-      "label": "Inicio del receso del Senado de EE.UU. (impacto en agenda legislativa CLARITY Act)",
-      "kind": "macro",
-      "info": "El Senado entra en receso desde el 2-oct hasta después de las elecciones de medio término. Sigue sin fecha de segunda votación confirmada tras fallar cloture 49-50 el 15-sep (4 republicanos en contra: Collins, Hawley, Moran, Tillis), pese a una versión revisada con nuevas restricciones éticas (CNBC/Troutman/Bitget, 15-24-09-2026)."
-    },
-    {
-      "date": "2026-10-20",
-      "label": "Cierre de comentarios públicos de la SEC sobre 'Regulation Crypto Assets'",
-      "kind": "macro",
-      "info": "Propuesta de ago-2026 (File No. S7-2026-27) que crea dos exenciones de registro (hasta US$5M/4 años y US$75M/12 meses) y un puerto seguro para contratos de inversión cripto. Deadline confirmado 20-oct-2026; regla final no se espera antes del 1T-2027 (SEC.gov/Phemex/White & Case, ago-sep 2026)."
-    },
-    {
-      "date": "2026-10-27",
-      "label": "Reunión del FOMC (decisión de tasas)",
-      "kind": "macro",
-      "time": "15:00",
-      "info": "Reunión de dos días (27-28 oct), decisión el 28-oct a las 14:00 ET (15:00 Chile aprox.), sin nuevas proyecciones (dot plot). Probabilidad de otra alza de 25pb subió a ~75,8% según CME FedWatch (25-sep), frente a ~54-56% la semana previa, tras el hike del 16-sep a 3,75-4% (CME FedWatch/MacroMicro/Schwab, 16-25-09-2026)."
-    }
+  [
+   "Rango 52 sem.",
+   "US$57.833 – US$126.186 (Investing.com/TradingView, 28-sep-2026)"
   ],
-  "sections": {
-    "resumen": "BTC sostiene el breakout: tras cerrar sobre su SMA de 50 semanas el 20-sep (primera vez en 45 semanas), encadena su sexta sesión ETF consecutiva en verde (21 al 25-sep, ~US$2,8B acumulados), con Strategy comprando 846.000 BTC. El Fear & Greed bajó de 78 'Extreme Greed' a 55 'Neutral' (25-sep), moderando la euforia previa. El riesgo macro subió: probabilidad de alza del FOMC saltó a ~76%. CLARITY Act sigue estancado sin fecha de revote.",
-    "fundamental": "- Halving ~abril-2028 reduce subsidio a 1,5625 BTC/bloque; ciclo ~50% completado (CoinWarz/The Block, sep-2026). HECHO.\n- Racha ETF de 6 sesiones en verde (21-25 sep) por ~US$2,8B, revierte el año a flujo neto positivo (Cryptonomist/HedgeCo, 24-25-09-2026). HECHO.\n- Strategy sumó 950 BTC en la semana al 20-sep (US$79.670 promedio), llega a 846.000 BTC; recompró US$174M de STRC (Bloomberg/247wallst, 21-24-09-2026). HECHO.\n- Whale addresses (100+ BTC) acumularon ~60.000 BTC en agosto; balance total ~3,06M BTC (CryptoQuant, ago-sep 2026). HECHO.\n- Seguridad de red depende casi íntegramente del subsidio, no de comisiones. LECTURA.",
-    "valuacion": "- Precio -33% desde ATH ~US$126.110 (oct-2025); percentil 1 año 39,2% (dado).\n- MVRV Z-Score en 0,95 (20-21 sep, sube desde 0,76 el 17-sep) pero sin cruzar zona de sobrevaloración histórica (MacroMicro/LookIntoBitcoin, sep-2026). LECTURA.\n- Dominancia BTC ~57,6%, estable en rango 53-64% del último año, sin altseason (tv-hub.org, 25-sep-2026). HECHO.\n- Sharpe 14,52 y Sortino 35,99 (dado) pese a volatilidad 30d de 68,2%.\n- Soporte SMA de 50 semanas (~US$78.786) valida el breakout; sostenido una semana más. LECTURA.",
-    "tecnico": "- RSI 65,9 en zona neutral-alta, similar a la semana previa, sin sobrecompra extrema (dado). HECHO.\n- MACD (+2.520,72) sobre su señal (+2.093,79), momentum positivo sostenido. Dado.\n- Precio +19,3% sobre SMA200 y +12,3% sobre SMA50, estructura alcista de mediano plazo intacta.\n- Racha de 6 sesiones ETF en verde confirma continuidad del cambio de carácter iniciado el 20-21 sep. LECTURA.\n- Prueba superada: sostuvo el nivel post-squeeze durante toda la semana sin retroceso significativo. LECTURA.",
-    "catalizadores": "**Catalizadores:**\n- Racha ETF de 6 sesiones consecutivas en verde (21-25 sep, ~US$2,8B), revirtiendo el año a flujo neto positivo.\n- Strategy en 846.000 BTC, convicción de tesorería corporativa reiterada.\n- Whale accumulation de ~60.000 BTC en agosto sostiene demanda estructural.\n- Deadline de comentarios SEC 'Regulation Crypto Assets' (20-oct-2026).\n\n**Riesgos (por materialidad):**\n- Probabilidad de alza del FOMC (28-oct) saltó a ~76% (CME FedWatch, 25-sep), riesgo hawkish creciente.\n- CLARITY Act sin fecha de revote; Senado entra en receso el 2-oct hasta después de elecciones.\n- Fear&Greed cedió de 78 a 55, moderando el impulso de sentimiento que sostuvo el rally.\n- Presupuesto de seguridad de la red depende casi enteramente del subsidio de bloque.",
-    "sentimiento": "- Fear & Greed bajó de 78 'Extreme Greed' (22-sep) a 55 'Neutral' (25-sep), moderación tras el rally, sin euforia unánime. LECTURA.\n- Racha ETF de 6 sesiones en verde sugiere demanda institucional sostenida, no solo reversión puntual. LECTURA.\n- Strategy sumó 950 BTC y recompró US$174M de STRC, convicción institucional reiterada (Bloomberg, sep-2026). HECHO.\n- Whale addresses (100+ BTC) acumularon ~60.000 BTC en agosto; balance ~3,06M BTC, tendencia de acumulación no de distribución (CryptoQuant, ago-sep 2026). HECHO.\n- Sentimiento moderado + flujos estables en zona media es lectura constructiva, no contrarian extrema. LECTURA.\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 21-sep-2026 | +US$999,0M | Mayor día de 2026; IBIT +US$381,4M, ARKB +US$289,1M, FBTC +US$238,8M, MSBT +US$61,7M, BITB +US$21,6M (Farside Investors/HedgeCo/InvestingLive) |\n| 22-sep-2026 | +US$714,7M | IBIT +US$350,3M, FBTC +US$257,4M (~85% del total), MSBT +US$99M (Farside Investors/247wallst) |\n| 23-sep-2026 | +US$346,9M | Tercera sesión consecutiva en verde, moderando el ritmo tras el pico del 21-sep (Cryptonomist) |\n| 24-sep-2026 | +US$190,7M | Extiende racha a 6 sesiones (~US$2,8B acumulados); IBIT ~US$163M lidera (HedgeCo/Farside) |\n| 25-sep-2026 | +US$162,6M (parcial, IBIT) | Dato intradía solo de IBIT; total del día aún no consolidado (Farside Investors, X) |\n\nStrategy sumó 950 BTC en la semana al 20-sep (846.000 BTC totales) y recompró US$174M de acciones STRC (Bloomberg/Investing.com, sep-2026). HECHO. Whale addresses (100+ BTC) acumularon ~60.000 BTC en agosto, con balance total ~3,06M BTC frente a un piso de ~2,87M BTC en dic-2025, patrón de acumulación contracíclica (CryptoQuant, ago-sep 2026). HECHO.",
-    "conclusion": "BTC consolidó el breakout de la SMA de 50 semanas con una racha ETF de 6 sesiones en verde (21-25 sep, ~US$2,8B), Strategy en 846.000 BTC y whales acumulando ~60.000 BTC en agosto. El sentimiento se moderó de codicia extrema a neutral (78→55), leído como saludable, no como debilidad. El riesgo principal subió: probabilidad de alza del FOMC saltó a ~76% para el 28-oct, y el CLARITY Act sigue sin fecha de revote con el Senado en receso desde el 2-oct. Confianza: media."
-  },
-  "scores": {
-    "tecnica": {
-      "score": 66,
-      "just": "RSI 65,9 se mantiene en zona neutral-alta sin deteriorarse ni sobrecomprarse más que la semana previa; el cambio de carácter (cierre sobre SMA de 50 semanas) ya no está pendiente de confirmación sino sostenido durante una semana completa con racha ETF de 6 sesiones, lo que consolida la señal de fondo sin llegar a sobreextensión (percentil 1y 39,2%, lejos de >95)."
-    },
-    "fundamental": {
-      "score": 65,
-      "just": "Demanda estructural se refuerza: racha ETF de 6 sesiones consecutivas (~US$2,8B) revierte el año a positivo, Strategy sigue comprando (846.000 BTC) y whales acumularon ~60.000 BTC en agosto; contrapesa presupuesto de seguridad dependiente casi 100% del subsidio de bloque."
-    },
-    "sentimiento": {
-      "score": 58,
-      "just": "Fear&Greed cedió de 78 'Extreme Greed' a 55 'Neutral' en tres días pese a que los flujos ETF y la acumulación de ballenas se mantuvieron firmes: en lectura contraria, sentimiento moderado con evidencia on-chain/flujos estable sube la nota frente a la semana previa, cuando la euforia relativa penalizaba el score."
-    },
-    "riesgo": {
-      "score": 48,
-      "just": "Volatilidad 30d de 68,2% típica del activo, pero el riesgo macro material aumentó: probabilidad de alza del FOMC saltó de ~55% a ~76% en una semana (CME FedWatch), mientras el CLARITY Act sigue estancado sin fecha y el Senado entra en receso el 2-oct, reduciendo ventanas de claridad regulatoria en el corto plazo."
-    },
-    "conviccion": {
-      "score": 62,
-      "just": "Tesis de mediano plazo (adopción institucional estructural + emisión decreciente + racha de flujos ETF positivos sostenida) se refuerza con la consolidación técnica y el patrón de acumulación de ballenas; se invalida con pérdida sostenida de la SMA de 50 semanas (~US$78.786) o ruptura de SMA200 con volumen. Catalizadores regulatorios binarios (CLARITY Act, FOMC 28-oct) siguen pendientes y ahora con sesgo más hawkish."
-    }
-  },
-  "sources": [
-    "CoinGecko",
-    "CoinMarketCap",
-    "CFGI.io/Milk Road/CoinStats/Coinbase Predictions",
-    "Farside Investors/HedgeCo/Cryptonomist/247wallst/InvestingLive/Bloomberg",
-    "CME FedWatch/MacroMicro/Schwab",
-    "CryptoQuant/LookIntoBitcoin",
-    "Federal Reserve",
-    "The Block",
-    "CNBC",
-    "Troutman Financial Services",
-    "Bitget",
-    "CoinDesk/Fortune/Yahoo Finance",
-    "SEC.gov/Federal Register/Phemex/White & Case",
-    "Investing.com/TradingView",
-    "CoinWarz",
-    "tv-hub.org"
+  [
+   "Market cap",
+   "~US$1,67 billones (CryptoTimes/CoinMarketCap, 28-sep-2026)"
   ],
-  "opportunity": {
-    "cats": {
-      "valuacion_hist": {
-        "score": 63,
-        "just": "MVRV Z-Score en 0,95 (sube desde 0,76 el 17-sep) sin cruzar zona de sobrevaloración histórica, y percentil 1 año de 39,2%, sugieren valuación on-chain moderada dentro de su propio ciclo, aunque la racha de flujos y el rebote de precio reducen algo el margen de infravaloración frente a dos semanas atrás."
-      },
-      "calidad": {
-        "score": 68,
-        "just": "Red con seguridad económica robusta y demanda institucional estructural en franca expansión: racha ETF de 6 sesiones (~US$2,8B), Strategy en 846.000 BTC y whales acumulando ~60.000 BTC en agosto; persiste dependencia casi total del subsidio de bloque para el presupuesto de seguridad."
-      },
-      "asimetria": {
-        "score": 62,
-        "just": "Upside a ATH (~US$126.110) implica +49% desde el precio de referencia; downside a soporte SMA de 50 semanas (~US$78.786) implica -7%. La asimetría de precio se mantiene favorable, similar a la semana previa, con el nivel de invalidación técnica sin cambios."
-      },
-      "catalizadores": {
-        "score": 45,
-        "just": "El catalizador técnico principal (recuperación SMA50-semanal y flujos récord) ya se materializó y se está consolidando; los próximos catalizadores fechados siguen siendo binarios e inciertos, con el FOMC del 28-oct ahora con sesgo más hawkish (~76% de probabilidad de alza) y el CLARITY Act sin fecha de revote."
-      },
-      "contrarian": {
-        "score": 52,
-        "just": "El sentimiento se normalizó de codicia extrema (78) a neutral (55) en tres días pese a flujos y acumulación de ballenas sostenidos, lo que recupera algo de valor contrarian frente a la semana previa (cuando la euforia unánime penalizaba la señal), sin llegar a niveles de pesimismo que maximicen la lectura contraria."
-      }
-    },
-    "plan": {
-      "recomendacion": "Esperar gatillo",
-      "zona_compra": "US$76.000 - US$85.000",
-      "invalidacion": "Pérdida sostenida de la SMA de 50 semanas (~US$78.786) confirmada en cierre semanal, o ruptura de SMA200 con volumen",
-      "gatillos": [
-        "Continuidad de la racha de flujos ETF netos positivos más allá de la sexta sesión (25-sep)",
-        "Resultado del deadline de comentarios SEC (20-oct) y tono FOMC del 28-oct menos hawkish de lo actualmente descontado (~76%)",
-        "Reactivación del CLARITY Act tras el receso del Senado (post-elecciones de medio término)"
-      ],
-      "horizonte": "6-18 meses",
-      "tamano": "Posición moderada",
-      "confianza": "media"
-    }
+  [
+   "Dominancia BTC",
+   "~58,8% (CoinMarketCap, 27-sep-2026), subiendo desde ~57,6% del jueves, sin altseason"
+  ],
+  [
+   "Flujos ETF spot",
+   "Semana 22-26 sep +US$2,4B (mayor semanal desde oct-2025): 22-sep +US$999,0M, 23-sep +US$714,7M, 24-sep +US$347,0M, 25-sep +US$190,6M, 26-sep +US$134,5M; racha de 7 sesiones en verde desde 17-sep; año 2026 vuelve a positivo ~+US$934M-1,1B YTD (The Block/Decrypt/Farside Investors, 26-sep-2026)"
+  ],
+  [
+   "Próximo evento",
+   "Reunión del FOMC del 27-28 de octubre de 2026 (decisión de tasas 28-oct)"
+  ],
+  [
+   "Técnico (auto)",
+   "RSI 40,5 · MACD -186,6 / señal negativa, resumen medias móviles en Compra fuerte (Investing.com, 28-sep-2026)"
+  ]
+ ],
+ "change": {
+  "day": -1.6,
+  "week": -1.0
+ },
+ "events": [
+  {
+   "date": "2026-10-02",
+   "label": "Inicio del receso del Senado de EE.UU. hasta después de las elecciones de medio término",
+   "kind": "macro",
+   "info": "El Senado entra en receso desde el 2-oct y retoma actividad legislativa recién tras las elecciones de medio término. El CLARITY Act sigue sin fecha de revote confirmada tras fallar cloture 49-50 el 15-sep (Collins, Hawley, Moran y Tillis en contra); la moción de reconsideración de Tillis deja abierta la puerta a una segunda votación, similar al precedente del GENIUS Act en 2025 (CoinDesk/NPR/FinTech Weekly/CoinGape, 15-26-09-2026)."
   },
-  "perfil": "Bitcoin no es una empresa sino una red de liquidación entre pares con libro contable público, emisión fijada por software y un techo terminal de 21 millones de unidades. Su seguridad es económica: los mineros gastan electricidad para producir prueba de trabajo y compiten por un subsidio hoy de 3,125 BTC por bloque, que se recorta a la mitad hacia marzo de 2028. El presupuesto de seguridad (~$45 millones diarios) proviene casi íntegramente de ese subsidio: las comisiones colapsaron a una fracción marginal, lo que deja abierta la pregunta de si podrán reemplazarlo. Del lado de la demanda el mercado dejó de ser minorista: los ETFs spot concentran ~1,3 millones de BTC (~6% de la oferta), más tesorerías corporativas y mandatos institucionales. Lo estructural: es un activo de altísima duración y beta a la liquidez global que en shocks se comporta como riesgo y no como oro; la tenencia está concentrada en pocos vehículos y exchanges, generando reflexividad entre flujos y precio; y la regulación sigue siendo el principal vector exógeno.",
-  "technical": {
-    "price": 84604.22,
-    "change_1d_pct": 0.26,
-    "change_1w_pct": 4.26,
-    "rsi": 65.9,
-    "macd": 2520.7161,
-    "macd_signal": 2093.792,
-    "sma20": 79986.061,
-    "sma50": 75330.7856,
-    "sma200": 70933.3001,
-    "ema12": 82291.286,
-    "ema26": 79770.5699,
-    "pct_vs_sma20": 5.77,
-    "pct_vs_sma50": 12.31,
-    "pct_vs_sma200": 19.27,
-    "volume_today": null,
-    "volume_avg20": null,
-    "volume_ratio": null,
-    "volatility_30d": 68.2,
-    "sharpe": 14.52,
-    "sortino": 35.99,
-    "max_drawdown_1y": -39.58,
-    "price_percentile_1y": 39.2,
-    "vs_benchmark_30d_pct": -1.51,
-    "perf_1m_pct": 7.76,
-    "perf_ytd_pct": -3.37
+  {
+   "date": "2026-10-20",
+   "label": "Cierre de comentarios públicos de la SEC sobre 'Regulation Crypto Assets'",
+   "kind": "macro",
+   "info": "Propuesta de ago-2026 (File No. S7-2026-27) que crea dos exenciones de registro (hasta US$5M/4 años y US$75M/12 meses) y un puerto seguro para contratos de inversión cripto. Deadline confirmado 20-oct-2026; regla final no se espera antes del 1T-2027 (SEC.gov/Phemex/White & Case, ago-sep 2026). No verificado con búsqueda fresca esta semana, se mantiene del informe previo."
   },
-  "risk": {
-    "volatility_30d": 68.2,
-    "sharpe": 14.52,
-    "sortino": 35.99,
-    "max_drawdown_1y": -39.58,
-    "n_days": 336,
-    "window": 30
+  {
+   "date": "2026-10-28",
+   "label": "Reunión del FOMC (decisión de tasas)",
+   "kind": "macro",
+   "time": "15:00",
+   "info": "Reunión de dos días (27-28 oct), decisión el 28-oct. Probabilidad de otra alza de 25pb subió a ~72,3% según CME FedWatch (28-sep), tras el hike del 16-sep a 3,75-4% (el primero desde 2023). Riesgo hawkish se mantiene elevado, en línea con la semana previa (CME FedWatch/MacroMicro, 16-28-09-2026)."
+  }
+ ],
+ "sections": {
+  "resumen": "BTC retrocedió a ~US$83.200 (-1,6% 24h) tras el rechazo de Trump a la propuesta iraní de 7 días, revirtiendo parte del rally que lo había llevado a ~US$87.000 a mitad de semana. Pese al retroceso de precio, los ETFs spot mostraron su mejor semana en casi un año: +US$2,4B (22-26 sep), séptima sesión consecutiva en verde, revirtiendo el año a flujo neto positivo. El Fear & Greed subió de 55 a 72 'Greed', el CLARITY Act sigue estancado (Senado en receso desde 2-oct) y la probabilidad de alza del FOMC se mantiene alta (~72%).",
+  "fundamental": "- Halving ~abril-2028 reduce subsidio a 1,5625 BTC/bloque; ciclo ~50% completado (CoinWarz/The Block, sep-2026). HECHO.\n- Semana ETF 22-26 sep +US$2,4B, la mayor desde oct-2025; año 2026 gira a positivo (~+US$934M YTD) tras estar en -US$5,8B en julio (The Block/Decrypt, 26-sep-2026). HECHO.\n- Strategy sumó 1.670 BTC el 28-sep (US$142,7M), llega a 847.670 BTC; sigue siendo el mayor tenedor corporativo (Gurufocus/Yahoo Finance, 28-sep-2026). HECHO.\n- Hashrate ~886-934 EH/s, pero concentración de pools preocupa: SpiderPool+AntPool ~45% del hashrate, tercer reorg de cadena en 4 semanas (11-sep) (CoinDesk/Shattered.io, sep-2026). HECHO.\n- Seguridad de red depende casi íntegramente del subsidio, no de comisiones; hashrate lleva el año en baja (~-4%) por migración de mineros a IA/HPC. LECTURA.",
+  "valuacion": "- Precio -34% desde ATH ~US$126.186 (oct-2025); dentro del rango 52 sem. US$57.833-126.186.\n- MVRV Z-Score en ~0,99-1,04 (fines de sep), sube desde 0,95 el 20-sep pero sigue lejos de zona de sobrevaloración histórica (>7) (MacroMicro/LookIntoBitcoin, sep-2026). LECTURA.\n- Dominancia BTC ~58,8%, subiendo desde 57,6% hace tres días, reforzando el liderazgo de BTC sobre altcoins (CoinMarketCap, 27-sep-2026). HECHO.\n- Realized price ~US$53.500, lo que sitúa el precio actual ~55% por encima del costo base agregado de la red (MacroMicro, sep-2026). LECTURA.\n- Retroceso de precio (-1,6% día) pese a semana ETF récord sugiere que el riesgo geopolítico (Irán) pesa más que la demanda estructural en el muy corto plazo. LECTURA.",
+  "tecnico": "- RSI 40,5 en zona neutral-baja, señal 'Sell' de momentum tras la corrección del fin de semana (Investing.com, 28-sep-2026). HECHO.\n- MACD -186,6 por debajo de su señal, momentum de corto plazo se volvió negativo tras el retroceso desde ~US$87.000. HECHO.\n- Pese a los osciladores negativos, el resumen técnico agregado de medias móviles marca 'Compra fuerte', reflejando que la estructura de mediano plazo (SMA50/SMA200) sigue intacta. LECTURA.\n- Precio retrocedió de un intento de ~US$87.000 a mitad de semana hacia ~US$83.000-85.000, consolidando en el rango medio de la semana previa. LECTURA.\n- Cambio de carácter: primera corrección técnica desde el breakout de la SMA de 50 semanas (20-sep), a vigilar si rompe soporte ~US$78.800. LECTURA.",
+  "catalizadores": "**Catalizadores:**\n- Semana ETF 22-26 sep +US$2,4B, la mayor en casi un año; año 2026 gira a flujo neto positivo.\n- Strategy sumó 1.670 BTC (28-sep), llega a 847.670 BTC, convicción de tesorería corporativa reiterada.\n- Dominancia BTC subiendo (~58,8%) refuerza el liderazgo relativo frente a altcoins.\n- Deadline de comentarios SEC 'Regulation Crypto Assets' (20-oct-2026).\n\n**Riesgos (por materialidad):**\n- Escalada geopolítica EE.UU.-Irán (Trump rechaza propuesta de 7 días) presiona activos de riesgo, incluido BTC, el 28-sep.\n- Probabilidad de alza del FOMC (28-oct) se mantiene en ~72%, riesgo hawkish persistente.\n- CLARITY Act sin fecha de revote; Senado en receso desde el 2-oct hasta después de las elecciones de medio término.\n- Concentración de pools de minería (SpiderPool+AntPool ~45%) generó 3 reorgs de cadena en 4 semanas, riesgo de seguridad estructural creciente.",
+  "sentimiento": "- Fear & Greed subió de 55 'Neutral' (25-sep) a 72 'Greed' (27-sep), acercándose a zona de codicia extrema pese al retroceso de precio del 28-sep; en lectura contraria, el sentimiento se calienta más rápido que el precio. LECTURA.\n- Semana ETF récord (+US$2,4B) sugiere demanda institucional sostenida, ligada según Bloomberg (Balchunas) al programa de recompra de bonos largos del Tesoro de EE.UU. LECTURA.\n- Strategy sumó 1.670 BTC el 28-sep (847.670 BTC totales), convicción institucional reiterada pese a la caída de precio (Gurufocus, sep-2026). HECHO.\n- Whale cohort mixto: en la semana reciente 354 holders pasaron a distribución (-138.966 BTC neto) mientras 297 acumularon (+117.955 BTC neto), rebalanceo más que tendencia unidireccional (Swiss Whale Intelligence/Blockonomi, sep-2026). HECHO.\n- Balances en exchanges siguen cayendo (~3,5% de salida neta en ventana de 30 días, la más fuerte desde fines de 2024), reduciendo oferta líquida disponible. LECTURA.\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 22-sep-2026 | +US$999,0M | Mayor día de 2026; IBIT lidera junto con FBTC y ARKB (The Block/Farside Investors) |\n| 23-sep-2026 | +US$714,7M | Segunda sesión más fuerte de la semana, ritmo institucional sostenido (The Block) |\n| 24-sep-2026 | +US$347,0M | Modera el ritmo tras el pico del 22-sep, sigue en verde (The Block/Decrypt) |\n| 25-sep-2026 | +US$190,6M | Extiende racha a 6 sesiones consecutivas (Decrypt/HedgeCo) |\n| 26-sep-2026 | +US$134,5M | Séptima sesión consecutiva en verde; IBIT +US$97,0M, BITB -US$11,8M (único fondo en rojo) (Decrypt/The Block) |\n\nSemana total +US$2,4B (22-26 sep), la mayor desde octubre de 2025: IBIT ~US$1,2B, FBTC US$701,7M, ARKB US$294,7M, MSBT US$203,3M (The Block, 26-sep-2026). HECHO. Strategy sumó 1.670 BTC el 28-sep (US$142,7M, ~US$85.500 promedio), alcanzando 847.670 BTC totales; funded por una colocación de acciones que levantó US$246,2M netos (Gurufocus/TechTimes, 28-sep-2026). HECHO. Ballenas (100+ BTC) mostraron comportamiento mixto: 354 direcciones distribuyeron ~139.000 BTC neto mientras 297 acumularon ~118.000 BTC neto en la semana, sin sesgo direccional claro, mientras los balances agregados en exchanges siguen en descenso estructural (Swiss Whale Intelligence/Blockonomi, sep-2026). HECHO.",
+  "conclusion": "BTC retrocedió a ~US$83.200 por riesgo geopolítico (Irán) justo cuando los ETFs spot registraron su mejor semana en casi un año (+US$2,4B, séptima sesión en verde), revirtiendo el año a flujo neto positivo. Strategy sumó 1.670 BTC pese a la caída, y la dominancia BTC sube (~58,8%). El sentimiento se recalentó (Fear&Greed 55→72) más rápido que el precio, señal de fragilidad si el flujo institucional se frena. Riesgos: FOMC hawkish (~72% prob. alza, 28-oct), CLARITY Act estancado con Senado en receso, y concentración de pools mineros. Confianza: media."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 54,
+   "just": "El retroceso desde ~US$87.000 a ~US$83.000 marca la primera corrección de carácter desde el breakout de la SMA de 50 semanas (20-sep); RSI 40,5 y MACD negativo reflejan pérdida de momentum de corto plazo, pero sin sobreextensión bajista ni ruptura de soporte estructural, por lo que la nota baja moderadamente frente a la semana previa sin señalar un giro de tendencia confirmado."
+  },
+  "fundamental": {
+   "score": 63,
+   "just": "Demanda estructural se refuerza: semana ETF récord (+US$2,4B, mejor en casi un año) y Strategy sumando 1.670 BTC más pese a la caída de precio; pero la concentración de pools de minería (~45% en dos actores, 3er reorg en 4 semanas) y la caída del hashrate por migración a IA introducen un deterioro de seguridad de red que no existía hace dos semanas, moderando la nota."
+  },
+  "sentimiento": {
+   "score": 45,
+   "just": "Fear&Greed saltó de 55 'Neutral' a 72 'Greed' en dos días pese a que el precio retrocedió por riesgo geopolítico: en lectura contraria, sentimiento recalentándose más rápido que el precio sube el riesgo de una corrección si los flujos ETF se frenan, penalizando la nota frente a la semana previa cuando la moderación del sentimiento era constructiva."
+  },
+  "riesgo": {
+   "score": 42,
+   "just": "A la probabilidad de alza del FOMC ya elevada (~72%) y el CLARITY Act estancado (Senado en receso desde 2-oct) se suma un shock geopolítico nuevo (tensión EE.UU.-Irán) y evidencia de concentración de pools mineros con reorgs recurrentes, elevando el riesgo de cola (regulatorio + geopolítico + seguridad de red) por sobre la volatilidad típica ya reflejada en el precio."
+  },
+  "conviccion": {
+   "score": 58,
+   "just": "Tesis de mediano plazo (adopción institucional estructural vía ETFs + emisión decreciente) se mantiene, reforzada por la semana ETF récord y compras de Strategy sostenidas pese a la caída de precio; se invalida con pérdida sostenida de la SMA de 50 semanas (~US$78.800) o si el shock geopolítico deriva en salida de capital de riesgo generalizada. Catalizadores regulatorios (CLARITY Act, FOMC) siguen pendientes sin resolución."
+  }
+ },
+ "sources": [
+  "CoinGecko",
+  "CoinMarketCap",
+  "CFGI.io/Milk Road/CoinStats/Coinbase Predictions",
+  "Farside Investors/The Block/Decrypt/HedgeCo/247wallst",
+  "CME FedWatch/MacroMicro",
+  "CryptoQuant/LookIntoBitcoin/Swiss Whale Intelligence/Blockonomi",
+  "Federal Reserve",
+  "CoinDesk/Fortune/Yahoo Finance/Gurufocus/TechTimes",
+  "NPR/FinTech Weekly/CoinGape/AMINA Bank",
+  "SEC.gov/Federal Register/Phemex/White & Case",
+  "Investing.com/TradingView",
+  "CoinWarz/Shattered.io",
+  "CryptoTimes"
+ ],
+ "opportunity": {
+  "cats": {
+   "valuacion_hist": {
+    "score": 60,
+    "just": "MVRV Z-Score en ~0,99-1,04 (sube desde 0,95) sin cruzar zona de sobrevaloración histórica, con precio -34% desde ATH y realized price ~US$53.500; valuación on-chain moderada dentro del ciclo post-halving, algo menos holgada que hace tres días por el rebote intra-semana."
+   },
+   "calidad": {
+    "score": 62,
+    "just": "Demanda institucional estructural en expansión (semana ETF récord +US$2,4B, Strategy en 847.670 BTC) contrapesada por deterioro incipiente en seguridad de red: concentración de pools mineros (~45% en dos actores) con 3 reorgs de cadena en 4 semanas y hashrate en baja por migración a IA/HPC, riesgo nuevo que no estaba presente en el informe anterior."
+   },
+   "asimetria": {
+    "score": 58,
+    "just": "Upside a ATH (~US$126.186) implica +52% desde el precio actual (~US$83.200); downside a soporte SMA de 50 semanas (~US$78.800) implica -5%. La asimetría de precio se mantiene favorable pero algo menos holgada que la semana previa por el retroceso hacia la parte baja del rango semanal."
+   },
+   "catalizadores": {
+    "score": 42,
+    "just": "El catalizador de flujos ETF ya se materializó (semana récord) y ahora enfrenta un contrapeso geopolítico nuevo (tensión Irán); los próximos catalizadores fechados siguen binarios: FOMC del 28-oct con sesgo hawkish (~72% prob. alza) y CLARITY Act sin fecha de revote hasta después de elecciones de medio término."
+   },
+   "contrarian": {
+    "score": 40,
+    "just": "El sentimiento se recalentó de 55 a 72 'Greed' en dos días pese a la corrección de precio, lo que reduce el valor contrarian frente a la semana previa (cuando la moderación de la euforia era constructiva); ahora el sentimiento corre por delante de los fundamentos de precio, señal de mayor cautela táctica."
+   }
+  },
+  "plan": {
+   "recomendacion": "Esperar gatillo",
+   "zona_compra": "US$76.000 - US$83.000",
+   "invalidacion": "Pérdida sostenida de la SMA de 50 semanas (~US$78.800) confirmada en cierre semanal, o escalada geopolítica que gatille salida generalizada de activos de riesgo",
+   "gatillos": [
+    "Continuidad de los flujos ETF netos positivos más allá de la séptima sesión (26-sep) pese al shock geopolítico",
+    "Resolución (o escalada) de la tensión EE.UU.-Irán en los próximos días, y tono FOMC del 28-oct menos hawkish de lo actualmente descontado (~72%)",
+    "Reactivación del CLARITY Act tras el receso del Senado (post-elecciones de medio término)",
+    "Evidencia de que la concentración de pools mineros no deriva en un incidente de seguridad mayor"
+   ],
+   "horizonte": "6-18 meses",
+   "tamano": "Posición moderada",
+   "confianza": "media"
+  }
+ },
+ "perfil": "Bitcoin no es una empresa sino una red de liquidación entre pares con libro contable público, emisión fijada por software y un techo terminal de 21 millones de unidades. Su seguridad es económica: los mineros gastan electricidad para producir prueba de trabajo y compiten por un subsidio hoy de 3,125 BTC por bloque, que se recorta a la mitad hacia marzo de 2028. El presupuesto de seguridad (~$45 millones diarios) proviene casi íntegramente de ese subsidio: las comisiones colapsaron a una fracción marginal, lo que deja abierta la pregunta de si podrán reemplazarlo. Del lado de la demanda el mercado dejó de ser minorista: los ETFs spot concentran ~1,3 millones de BTC (~6% de la oferta), más tesorerías corporativas y mandatos institucionales. Lo estructural: es un activo de altísima duración y beta a la liquidez global que en shocks se comporta como riesgo y no como oro; la tenencia está concentrada en pocos vehículos y exchanges, generando reflexividad entre flujos y precio; y la regulación sigue siendo el principal vector exógeno.",
+ "technical": {
+  "price": 84057.43,
+  "change_1d_pct": -0.01,
+  "change_1w_pct": 3.58,
+  "rsi": 64.2,
+  "macd": 2442.0831,
+  "macd_signal": 2156.6755,
+  "sma20": 80144.98,
+  "sma50": 75704.118,
+  "sma200": 71001.1271,
+  "ema12": 82493.6953,
+  "ema26": 80051.6121,
+  "pct_vs_sma20": 4.88,
+  "pct_vs_sma50": 11.03,
+  "pct_vs_sma200": 18.39,
+  "volume_today": null,
+  "volume_avg20": null,
+  "volume_ratio": null,
+  "volatility_30d": 68.36,
+  "sharpe": 12.7,
+  "sortino": 32.57,
+  "max_drawdown_1y": -39.58,
+  "price_percentile_1y": 38.4,
+  "vs_benchmark_30d_pct": -1.87,
+  "perf_1m_pct": 6.38,
+  "perf_ytd_pct": -3.99
+ },
+ "risk": {
+  "volatility_30d": 68.36,
+  "sharpe": 12.7,
+  "sortino": 32.57,
+  "max_drawdown_1y": -39.58,
+  "n_days": 337,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "CRYPTOCAP:TOTAL",
+  "label": "Cripto total (ciclo)",
+  "relative_performance_30d": -1.87,
+  "relative_performance_ytd": -1.48,
+  "price_percentile_1y": 38.4,
+  "partial": false
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-25T22:53:34-03:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-25T22:53:34-03:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-25T22:53:34-03:00"
   },
   "benchmark": {
-    "ticker": "CRYPTOCAP:TOTAL",
-    "label": "Cripto total (ciclo)",
-    "relative_performance_30d": -1.51,
-    "relative_performance_ytd": -0.81,
-    "price_percentile_1y": 39.2,
-    "partial": false
+   "origin": "TradingView scanner",
+   "symbol": "CRYPTOCAP:TOTAL",
+   "fetched_at": "2026-09-25T22:53:34-03:00"
   },
-  "sourcesMeta": {
-    "price": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-09-24T21:43:39-03:00"
-    },
-    "rsi_macd": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-09-24T21:43:39-03:00"
-    },
-    "smas_volume": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-09-24T21:43:39-03:00"
-    },
-    "benchmark": {
-      "origin": "TradingView scanner",
-      "symbol": "CRYPTOCAP:TOTAL",
-      "fetched_at": "2026-09-24T21:43:39-03:00"
-    },
-    "risk_metrics": {
-      "origin": "data/history/BTC.json",
-      "n_days": 336
-    }
+  "risk_metrics": {
+   "origin": "data/history/BTC.json",
+   "n_days": 337
+  }
+ },
+ "metricChanges": [
+  {
+   "ticker": "BTC",
+   "date": "2026-09-02",
+   "metric": "rsi",
+   "from": 82.18,
+   "to": 64.79
   },
-  "metricChanges": [
-    {
-      "ticker": "BTC",
-      "date": "2026-09-02",
-      "metric": "rsi",
-      "from": 82.18,
-      "to": 64.79
-    },
-    {
-      "ticker": "BTC",
-      "date": "2026-08-23",
-      "metric": "percentil_1y",
-      "from": 7.7,
-      "to": 28.5
-    },
-    {
-      "ticker": "BTC",
-      "date": "2026-08-23",
-      "metric": "precio_pct",
-      "from": 63022.98,
-      "to": 77246.82
-    },
-    {
-      "ticker": "BTC",
-      "date": "2026-08-23",
-      "metric": "rsi",
-      "from": 43.16,
-      "to": 78.71
-    }
-  ],
-  "trend": {
-    "piso": 0,
-    "techo": 2,
-    "max": 7,
-    "senales_piso": [],
-    "senales_techo": [
-      "divergencia RSI bajista",
-      "histograma MACD girando a la baja"
-    ]
+  {
+   "ticker": "BTC",
+   "date": "2026-08-23",
+   "metric": "percentil_1y",
+   "from": 7.7,
+   "to": 28.5
   },
-  "reportDate": "23 de septiembre de 2026"
+  {
+   "ticker": "BTC",
+   "date": "2026-08-23",
+   "metric": "precio_pct",
+   "from": 63022.98,
+   "to": 77246.82
+  },
+  {
+   "ticker": "BTC",
+   "date": "2026-08-23",
+   "metric": "rsi",
+   "from": 43.16,
+   "to": 78.71
+  }
+ ],
+ "trend": {
+  "piso": 0,
+  "techo": 2,
+  "max": 7,
+  "senales_piso": [],
+  "senales_techo": [
+   "divergencia RSI bajista",
+   "histograma MACD girando a la baja"
+  ]
+ },
+ "reportDate": "25 de septiembre de 2026"
 }
