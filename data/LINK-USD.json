@@ -1,0 +1,211 @@
+{
+ "ticker": "LINK/USD",
+ "company": "Chainlink",
+ "statsList": [
+  [
+   "Precio",
+   "$14.31 (30-sep-2026)"
+  ],
+  [
+   "Rango 52 sem.",
+   "US$7,02 – US$23,72 (TradingView, 30-sep-2026)"
+  ],
+  [
+   "Market cap",
+   "~US$10.700 millones (748.099.970 de 1.000.000.000 LINK circulantes, ~75%; CoinGecko/CoinMarketCap, 29-sep-2026)"
+  ],
+  [
+   "Adopción institucional",
+   "CCIP asegura >US$84.000M en valor de tokens; 24 instituciones (SWIFT, UBS, Wellington, ANZ, Fidelity International, Euroclear) ya usan CCIP para 'corporate actions' (Sibos 2026, 28-sep-2026)"
+  ],
+  [
+   "Próximo evento",
+   "Link:NYC (evento institucional con Nazarov/SWIFT/ICE), 29-oct-2026"
+  ],
+  [
+   "Técnico (auto)",
+   "RSI 62.3 · MACD +0.86 / señal +0.69 (TradingView, 30-sep-2026)"
+  ]
+ ],
+ "change": {
+  "day": -1.99,
+  "week": 2.07
+ },
+ "events": [
+  {
+   "date": "2026-10-28",
+   "label": "Reunión del FOMC (decisión de tasas)",
+   "kind": "macro",
+   "time": "15:00",
+   "info": "Reunión de dos días (27-28 oct), decisión el 28-oct. Probabilidad de otra alza de 25pb ~72,3% según CME FedWatch (28-sep-2026), tras el hike del 16-sep a 3,75-4%. LINK es un activo de riesgo con alta beta al apetito general por cripto, no solo a su propio catalizador (CME FedWatch/MacroMicro, 16-28-sep-2026)."
+  },
+  {
+   "date": "2026-10-29",
+   "label": "Link:NYC (evento institucional Chainlink)",
+   "kind": "corporate",
+   "info": "Evento por invitación en Nueva York con Sergey Nazarov (Chainlink), representantes de SWIFT (Jonathan Ehrenfeld Solé), ICE (Michael Blaugrund) y Fidelity Digital Asset Management (Cynthia Lo Bessette); agenda centrada en RWA tokenizados, finanzas agénticas e interoperabilidad de mercados financieros. Transmitido en vivo por los canales oficiales de Chainlink (chain.link/events/linknyc, sept-2026)."
+  },
+  {
+   "date": "2026-12-31",
+   "label": "Lanzamiento estimado de la 'DTCC Collateral AppChain' con Chainlink CRE (fecha aproximada, ventana 4T-2026)",
+   "kind": "corporate",
+   "info": "DTCC —cámara de compensación que custodia ~US$114 billones en activos— anunció que integrará el Chainlink Runtime Environment (CRE) en su nueva 'Collateral AppChain', con lanzamiento previsto para el cuarto trimestre de 2026 sin día exacto confirmado aún (Ledger Insights/Genfinity, 12-may-2026). Es el catalizador institucional de mayor magnitud potencial para la tesis de adopción de Chainlink en mercados de colateral/repo."
+  }
+ ],
+ "sections": {
+  "resumen": "LINK cotiza en US$14,31 (30-sep, -1,99% día), tras un rally que lo llevó a US$15,44 el 29-sep (máximo de dos semanas) impulsado por el lanzamiento de CCIP 2.0 en Sibos 2026 (SWIFT) y el debut de Chainlink Fulcrum junto a DTCC (HECHO, 28-30-sep-2026). HECHO: CCIP ya asegura >US$84.000M en valor de tokens, con 24 instituciones (UBS, Wellington, ANZ, Fidelity International, Euroclear) usándolo para corporate actions. HECHO: ballenas acumularon 2,5M LINK en 10 días mientras el minorista tomaba utilidades tras la noticia. Próximo catalizador fechado: evento institucional Link:NYC el 29-oct-2026, con Nazarov, SWIFT e ICE.",
+  "fundamental": "- HECHO: CCIP 2.0 lanzado el 28-sep-2026 en Sibos (SWIFT), agrega 'Cross-Chain Verifier' con controles KYC/AML; CCIP ya asegura >US$84.000M en valor de tokens (CryptoBriefing, 28-29-sep-2026).\n- HECHO: DTCC integrará el Chainlink Runtime Environment en su 'Collateral AppChain' (~US$114 billones en activos), lanzamiento previsto para el 4T-2026 (Ledger Insights/Genfinity, 12-may-2026).\n- HECHO: Coinbase eligió a Chainlink como oráculo oficial de sus 'Tokenized Stocks' en Base (PR Newswire, 24-ago-2026).\n- HECHO: Chainlink Fulcrum (colateral/repo cross-chain institucional) lanzado el 30-sep-2026, demostrado junto a DTCC en Sibos (KuCoin/Genfinity, 30-sep-2026).\n- LECTURA: staking v0.2 retiene ~45M LINK (~6% del circulante) al 4,5% anual, sin emisión inflacionaria adicional — mecanismo de retención de oferta más que de ingreso pasivo relevante (Chainlink blog, 2026).",
+  "valuacion": "- HECHO: market cap ~US$10.700M, supply circulante 748,1M de 1.000M LINK (~75%), sin unlocks pendientes del cronograma original (terminó nov-2024) (CoinGecko/CoinMarketCap, 29-sep-2026).\n- HECHO: percentil 43,7% de su rango de 52 semanas (US$7,02–US$23,72) — ni sobrecomprado ni barato vs. su propio año (TradingView, 30-sep-2026).\n- HECHO: +20,6% vs. Bitcoin a 30 días y +21,8% YTD — outperformance relevante frente al benchmark cripto (TradingView, 30-sep-2026).\n- LECTURA: sin ingresos por fees de CCIP reportados de forma auditable/estandarizada, la valuación descansa en adopción institucional anunciada, no en múltiplos tradicionales de flujo de caja.\n- HECHO: Standard Chartered reitera objetivo de US$200 a 2030, señalando que LINK ya superó en +9% su propio 'milestone' 2026 de US$13 (hipther.com, 29-sep-2026).",
+  "tecnico": "- HECHO: precio +51% sobre su SMA200 (US$9,47) y +12,5% sobre su SMA20 (US$12,72) — tendencia de fondo firmemente alcista (datos calculados, 30-sep-2026).\n- HECHO: RSI 62,3 y MACD positivo (+0,86 vs señal +0,69) — momentum constructivo, ya sin sobrecompra extrema tras el retroceso desde el pico de US$15,44 del 29-sep (TradingView, 30-sep-2026).\n- LECTURA: la caída de -1,99% del día luce a toma de utilidades ('buy the rumor, sell the news') tras el anuncio SWIFT/CCIP 2.0, no a un cambio de carácter técnico.\n- HECHO: volatilidad/Sharpe/Sortino 'Acumulando datos' — activo recién incorporado al dashboard, aún sin serie histórica propia.\n- LECTURA: divergencia on-chain — ballenas (≥1.000 LINK) acumulando 2,5M LINK en 10 días, con direcciones en ese umbral en máximo desde dic-2025, mientras el minorista vende (Santiment vía Parameter.io/Blockonomi, sept-2026).",
+  "catalizadores": "**Catalizadores:**\n- Link:NYC, 29-oct-2026: evento institucional con Nazarov, SWIFT e ICE centrado en RWA tokenizados y finanzas agénticas.\n- DTCC Collateral AppChain (~US$114 billones en activos) integrando el Chainlink Runtime Environment, lanzamiento previsto 4T-2026.\n- Expansión de CCIP 2.0 tras Sibos: nuevas instituciones sumándose a las 24 ya activas en 'corporate actions'.\n- Chainlink Fulcrum recién lanzado: primer producto de colateral/repo cross-chain institucional, con potencial tracción bancaria.\n\n**Riesgos (por materialidad):**\n- Concentración de tokens no circulantes en Chainlink Labs (análisis de terceros sin confirmación oficial estima ~300M LINK sin vesting exigible) — presión de venta estructural potencial.\n- Competencia de oráculos más baratos: RedStone (60-80% más económico en L2s, ~US$9.000M TVS) y modelos 'first-party' como API3.\n- Dependencia de que la narrativa de adopción institucional/RWA se sostenga; sin ella no hay flujo de caja tradicional que respalde la valuación.\n- Vocería concentrada casi exclusivamente en Sergey Nazarov (Casa Blanca, CFTC, Sibos, Link:NYC) — riesgo de 'key person' estructural, aún no señalado por analistas.",
+  "sentimiento": "- HECHO: ballenas (≥1.000 LINK) acumularon 2,5M LINK en 10 días; direcciones con ese umbral en máximo desde dic-2025, mientras el minorista tomaba utilidades (Santiment/Parameter.io, sept-2026).\n- HECHO: Standard Chartered reitera target US$200 a 2030 y destaca que LINK ya superó su propio 'milestone' 2026 (hipther.com, 29-sep-2026).\n- LECTURA: cobertura mediática mayormente alcista pero no eufórica; ausencia de cobertura directa de medios de referencia (CoinDesk/The Block) en la ventana reciente sugiere narrativa aún no saturada.\n- HECHO: Caliber (Nasdaq, real estate en dificultades) se convirtió en la primera tesorería corporativa pública centrada en LINK (~562.535 LINK, ~US$5,5M) — cobertura con matiz de escepticismo por el pivot desde un negocio en problemas (DailyCoin/Bitget, sept-2026).\n- LECTURA: sin señales de euforia extrema (RSI 62 vs. otros cripto del dashboard rozando 100 esta semana) — sentimiento constructivo con margen, no en zona de alerta contraria.",
+  "conclusion": "Chainlink llega a US$14,31 tras validar en una semana tres hitos institucionales reales —CCIP 2.0 en Sibos, extensión con DTCC/SWIFT y el lanzamiento de Fulcrum— que refuerzan su rol de capa de interoperabilidad para RWA tokenizados, con ballenas acumulando mientras el minorista toma utilidades. El técnico es sólido (muy por sobre sus medias) pero ya sin sobrecompra extrema tras el retroceso post-noticia. Los riesgos —concentración de tokens no circulantes, competencia de oráculos más baratos y dependencia de que la narrativa RWA se sostenga— son reales pero no inminentes. Próximo catalizador fechado: Link:NYC el 29-oct. Confianza media: tesis de adopción genuina, conviene esperar mejor punto de entrada tras el rally reciente."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 58,
+   "just": "Precio muy por sobre sus medias (+51% SMA200, +12,5% SMA20) con RSI 62 y MACD positivo, pero sin sobrecompra extrema (percentil 43,7% de su rango 1A) tras el retroceso desde el pico de US$15,44 del 29-sep — evidencia de tendencia sana consolidando, no de rally vertical sobreextendido que la filosofía anti-momentum penalizaría."
+  },
+  "fundamental": {
+   "score": 68,
+   "just": "CCIP 2.0, la extensión con DTCC/SWIFT (24 instituciones activas) y Chainlink Fulcrum son validación institucional concreta y creciente, no solo narrativa; resta que los ingresos por fees de CCIP no se reportan de forma auditable y estandarizada, dejando la tesis apoyada en adopción anunciada más que en flujo de caja verificable."
+  },
+  "sentimiento": {
+   "score": 55,
+   "just": "Divergencia on-chain favorable (ballenas acumulando mientras el minorista vende) y cobertura mayormente alcista pero no eufórica ni saturada por medios de referencia — zona media sin señal contraria extrema en ningún sentido, se sigue la evidencia disponible."
+  },
+  "riesgo": {
+   "score": 48,
+   "just": "No hay litigio activo ni catalizador binario de corto plazo, y la adopción está diversificada entre varias instituciones (no un solo cliente); pero persisten riesgos estructurales no resueltos: concentración de tokens no circulantes en Chainlink Labs, competencia de oráculos más baratos y dependencia de una narrativa (RWA) aún no monetizada de forma verificable."
+  },
+  "conviccion": {
+   "score": 50,
+   "just": "Asimetría moderada al precio actual: percentil medio de su rango anual (43,7%) y catalizadores fechados reales (Link:NYC, DTCC 4T-2026), pero el rally de la última semana ya incorporó buena parte de las noticias positivas recientes, comprimiendo el upside inmediato sin ofrecer todavía una entrada claramente descontada."
+  }
+ },
+ "sources": [
+  "CryptoBriefing",
+  "The Coin Republic",
+  "Ledger Insights",
+  "Genfinity",
+  "PR Newswire",
+  "KuCoin",
+  "CryptoTimes",
+  "CryptoTicker",
+  "Parameter.io/Blockonomi",
+  "Santiment",
+  "DailyCoin/Bitget",
+  "hipther.com (Standard Chartered)",
+  "chain.link (Chainlink blog/eventos)",
+  "CoinGecko/CoinMarketCap",
+  "TradingView",
+  "Cryptonomist",
+  "24/7 Wall St."
+ ],
+ "opportunity": {
+  "cats": {
+   "valuacion_hist": {
+    "score": 48,
+    "just": "Percentil 43,7% de su rango de 52 semanas (US$7,02–US$23,72): ni cerca de mínimos ni de su máximo de 2026, sin margen de seguridad claro pero tampoco sobrevaluado vs. su propio año."
+   },
+   "calidad": {
+    "score": 65,
+    "just": "Adopción institucional real y diversificada (SWIFT, DTCC, Coinbase) mejora genuinamente la calidad del negocio frente a otros oráculos; resta la falta de reporte auditable de ingresos por fees y la concentración de tokens en Chainlink Labs."
+   },
+   "asimetria": {
+    "score": 58,
+    "just": "Upside al máximo de 52 semanas (~US$23,7, +66%) frente a downside a soporte técnico en SMA50 (~US$11,7, -18%): relación razonable pero no extrema, comprimida por el rally ya ocurrido esta semana."
+   },
+   "catalizadores": {
+    "score": 62,
+    "just": "Ruta fechada y concreta: Link:NYC el 29-oct-2026 y lanzamiento estimado de la DTCC Collateral AppChain en el 4T-2026, ambos capaces de traer nueva adopción verificable en los próximos 6-18 meses."
+   },
+   "contrarian": {
+    "score": 45,
+    "just": "Sin euforia extrema ni pesimismo: ballenas acumulando y minorista vendiendo es una divergencia mildly favorable, pero la cobertura ya es mayormente positiva tras el rally, sin el descuento típico de una oportunidad contraria fuerte."
+   }
+  },
+  "plan": {
+   "recomendacion": "Esperar gatillo",
+   "zona_compra": "US$11,50 – US$12,70 (zona de SMA50/SMA20, en caso de retroceso desde el pico de septiembre) o confirmación de tracción real post Link:NYC",
+   "invalidacion": "Pérdida de la SMA50 (~US$11,70) en cierre diario, o evidencia hacia 2027 de que la adopción institucional anunciada (SWIFT/DTCC/Coinbase) no se traduce en volumen/fees verificables",
+   "gatillos": [
+    "Confirmación de fecha y alcance del lanzamiento de la DTCC Collateral AppChain (4T-2026)",
+    "Nuevas instituciones sumándose a CCIP tras Sibos/Link:NYC (29-oct-2026)",
+    "Cifra pública de ingresos/fees generados por CCIP o crecimiento sostenido de Chainlink Reserve que valide la adopción anunciada"
+   ],
+   "horizonte": "6-18 meses",
+   "tamano": "Posición pequeña-moderada (3-6%), acorde a la volatilidad típica cripto y a la falta de historial propio de riesgo en el dashboard",
+   "confianza": "media"
+  }
+ },
+ "perfil": "Chainlink es una red descentralizada de oráculos que conecta smart contracts en más de 60 blockchains con datos del mundo real —precios de activos, tipos de cambio, clima, resultados— y con sistemas fuera de cadena, resolviendo el problema de que una blockchain no puede acceder por sí sola a información externa confiable. No es una blockchain propia ni compite por transacciones: vende infraestructura de datos e interoperabilidad (CCIP) a protocolos DeFi, bancos y gestoras de activos, cobrando por el uso de sus feeds y servicios de mensajería cross-chain. El core del negocio está migrando de los feeds de precio tradicionales —que sostuvieron buena parte del ecosistema DeFi desde 2019— hacia CCIP y el Chainlink Runtime Environment, con foco reciente en tokenización de activos del mundo real (RWA) para instituciones como SWIFT, DTCC y bancos globales. El token LINK paga los servicios de la red y sirve de colateral de los nodos operadores vía staking, con supply fijo en 1.000 millones. Consideraciones permanentes: que la adopción institucional anunciada se traduzca en uso recurrente y verificable (no solo pilotos), competencia de oráculos alternativos más baratos o especializados, y una porción relevante de tokens en manos de Chainlink Labs sin calendario de venta público.",
+ "reportDate": "30 de septiembre de 2026",
+ "technical": {
+  "price": 14.307,
+  "change_1d_pct": -1.99,
+  "change_1w_pct": 2.07,
+  "rsi": 62.3,
+  "macd": 0.8648,
+  "macd_signal": 0.686,
+  "sma20": 12.7228,
+  "sma50": 11.7345,
+  "sma200": 9.4675,
+  "ema12": 13.693,
+  "ema26": 12.8281,
+  "pct_vs_sma20": 12.45,
+  "pct_vs_sma50": 21.92,
+  "pct_vs_sma200": 51.12,
+  "volume_today": null,
+  "volume_avg20": null,
+  "volume_ratio": null,
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "price_percentile_1y": 43.7,
+  "vs_benchmark_30d_pct": 20.59,
+  "perf_1m_pct": 28.27,
+  "perf_ytd_pct": 17.34
+ },
+ "risk": {
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "n_days": 1,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "CRYPTO:BTCUSD",
+  "label": "Bitcoin",
+  "relative_performance_30d": 20.59,
+  "relative_performance_ytd": 21.79,
+  "price_percentile_1y": 43.7,
+  "partial": false
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T17:47:24-03:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T17:47:24-03:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T17:47:24-03:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "CRYPTO:BTCUSD",
+   "fetched_at": "2026-09-30T17:47:24-03:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/FX-LINKUSD.json",
+   "n_days": 1
+  }
+ },
+ "metricChanges": []
+}
