@@ -1,0 +1,198 @@
+{
+ "ticker": "IOTA/USD",
+ "company": "IOTA",
+ "statsList": [
+  [
+   "Precio",
+   "$0.05 (30-sep-2026)"
+  ],
+  [
+   "Rango 52 sem.",
+   "US$0,031 – ~US$0,12 (ciclo actual, CoinGecko/CoinMarketCap, sep-2026)"
+  ],
+  [
+   "Market cap",
+   "~US$243 millones (~4.670M IOTA circulantes de oferta inicial 4.600M, sin tope fijo; CoinMarketCap, sep-2026)"
+  ],
+  [
+   "TVL en IOTA",
+   "~US$36M (récord post-Rebased, crypto.news, ago-2026)"
+  ],
+  [
+   "IOTA en staking",
+   "~2.330M IOTA (~50% del circulante), rendimiento 10-15% APY (crypto.news, ago-2026)"
+  ],
+  [
+   "Próximo evento",
+   "Reunión del FOMC (decisión de tasas), 28-oct-2026"
+  ],
+  [
+   "Técnico (auto)",
+   "RSI 64.4 · MACD +0.00 / señal +0.00 (TradingView, 30-sep-2026)"
+  ]
+ ],
+ "change": {
+  "day": 1.67,
+  "week": 3.74
+ },
+ "events": [
+  {
+   "date": "2026-10-28",
+   "label": "Reunión del FOMC (decisión de tasas)",
+   "kind": "macro",
+   "time": "15:00",
+   "info": "Reunión de dos días (27-28-oct), decisión el 28-oct. Probabilidad de otra alza de 25pb ~72,3% según CME FedWatch (28-sep). IOTA, como activo cripto de alta beta, es sensible a la política monetaria de la Fed (CME FedWatch/MacroMicro, 16-28-sep-2026)."
+  }
+ ],
+ "sections": {
+  "resumen": "IOTA cotiza en US$0,0531 (+1,7% día, +3,7% semana, +35% mes), con estructura técnica alcista —sobre sus tres medias y RSI 64 sin sobrecompra— pero aún en el percentil 13% de su rango anual, cerca de su mínimo de ciclo de julio (US$0,0311). HECHO: tras el upgrade Rebased (may-2025) la red opera con staking, contratos inteligentes y el consenso Starfish (abr-2026); TVL en récord de US$36M y ~50% del circulante en staking. HECHO: su producto TWIN entró en producción con Kenia, Reino Unido y Argentina (INCUCAI, jul-2026), primera adopción estatal real. Pesa un litigio no resuelto por tokens heredados ante BaFin. Confianza: media-baja.",
+  "fundamental": "- HECHO: TWIN (comercio internacional) en producción en mainnet desde ene-2026, con Kenia y Reino Unido (Cabinet Office) operando nodos reales (blog.iota.org, ene-jul-2026).\n- HECHO: Argentina INCUCAI (trasplantes) opera en mainnet desde jun-2026, 24 agencias provinciales verificadas on-chain — solo hashes, sin datos de pacientes (biometricupdate.com).\n- HECHO: TVL en récord de ~US$36M tras el upgrade Rebased, ~50% del circulante en staking a 10-15% APY (crypto.news, ago-2026).\n- HECHO: actividad on-chain aún modesta, ~780.000 tx en 30 días (+31%), volumen bajo vs L1s comparables (crypto.news, sep-2026).\n- LECTURA: ~176M tokens heredados sin reclamar, reclamos de usuarios sin resolver y denuncia ante BaFin — pasivo reputacional pendiente (Hacker News/Tokenomist, 2025-2026).",
+  "valuacion": "- HECHO: percentil 13% de su rango de 52 semanas (~US$0,031 – ~US$0,12 según fuente), cerca de su piso de ciclo (CoinGecko/CoinMarketCap, sep-2026).\n- HECHO: market cap ~US$243M, ~4.670M IOTA circulantes de oferta inicial 4.600M, sin tope fijo (CoinMarketCap, sep-2026).\n- HECHO: +35% en 30 días y +27,6% de desempeño relativo vs BTC (TradingView, 30-sep-2026).\n- HECHO: -34% en lo que va del año, el rally reciente no revirtió el rezago anual (TradingView, 30-sep-2026).\n- HECHO: market cap muy por debajo de VeChain (#51) y Hedera, pares del segmento IoT/comercio, pese al único caso de uso gubernamental verificable en producción (bitdegree.org, sep-2026).",
+  "tecnico": "- HECHO: RSI 64,4, zona alcista sin sobrecompra extrema (TradingView, 30-sep-2026).\n- HECHO: MACD +0,0033 sobre su señal (+0,0027): momentum de corto plazo positivo.\n- HECHO: precio +14,3% sobre SMA20, +25,9% sobre SMA50 y +11,8% sobre SMA200 — reconquista de las tres medias tras el mínimo de julio.\n- HECHO: mínimo de ciclo en US$0,0311 el 31-jul-2026 — el repunte parte de ese piso, no de una sobreextensión.\n- HECHO: volatilidad/Sharpe/Sortino: \"Acumulando datos\" (activo recién agregado).",
+  "catalizadores": "**Catalizadores:**\n- Expansión de TWIN y ADAPT en África (3 países confirmados, 5 en piloto) durante 2026.\n- Consenso Starfish (en producción desde abr-2026) y mejoras del roadmap Q4 (IOTA Names, Validator Score).\n- Nuevos despliegues gubernamentales tipo INCUCAI como referencia para otros estados.\n- Reunión del FOMC (28-oct-2026): sensibilidad al apetito de riesgo que fije la Fed.\n\n**Riesgos (por materialidad):**\n- Litigio no resuelto por tokens heredados (~176M IOTA, ~US$30M) ante BaFin, sin fecha de resolución.\n- Oferta sin tope con emisión diaria (hasta ~6%/año) — dilución estructural.\n- Actividad on-chain (TVL US$36M, ~780.000 tx/mes) aún marginal frente a sus anuncios institucionales.\n- Historial de incidentes de seguridad (Trinity Wallet, 2019) y arquitectura reciente (may-2025) sin trayectoria larga.",
+  "sentimiento": "- HECHO: Fear & Greed cripto general en 74 (\"Codicia\"), promedio 7 días 73 (bloomingbit.io, 28-sep-2026) — no hay índice específico de IOTA.\n- HECHO: ~50% del circulante en staking (10-15% APY) — reduce oferta líquida y presión de venta (crypto.news, ago-2026).\n- HECHO: el rally del 35% mensual coincidió con la difusión del caso INCUCAI (30-jul-2026), reacción a una noticia puntual (biometricupdate.com).\n- LECTURA: el sentimiento cripto general ya elevado (74) deja poco margen para leer en contrario un pesimismo específico de IOTA.\n- HECHO: cobertura mediática dominada por sitios de \"price prediction\" de baja calidad y rangos muy dispersos.",
+  "conclusion": "IOTA cotiza en US$0,0531, con técnico en reconquista (sobre sus tres medias, RSI 64) pero aún en el percentil 13% de su rango anual, cerca de su piso de ciclo (US$0,0311, jul-2026). Lo más relevante del período es el salto de adopción gubernamental real: TWIN en producción con Kenia y Reino Unido, y Argentina (INCUCAI) operando en mainnet desde junio. Contrapesa un litigio no resuelto por tokens heredados ante BaFin y una escala on-chain (TVL US$36M) todavía marginal frente al ruido institucional. La tesis es de reconstrucción temprana, no de convicción alta. Confianza: media-baja; posición pequeña si se toma exposición."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 58,
+   "just": "Reconquista simultánea de las tres medias móviles (+14,3% SMA20, +25,9% SMA50, +11,8% SMA200) con RSI 64 sin sobrecompra extrema, patrón de piso construyéndose desde el mínimo de ciclo de julio (US$0,0311) más que de sobreextensión. Se modera porque el activo sigue en el percentil 13% de su rango anual, lejos de confirmar una reversión de tendencia mayor."
+  },
+  "fundamental": {
+   "score": 44,
+   "just": "Primera evidencia concreta de adopción estatal en producción (TWIN con Kenia/Reino Unido, INCUCAI en Argentina desde jun-2026) diferencia a IOTA de proyectos que solo anuncian pilotos, y el TVL en récord post-Rebased (US$36M) con 50% del circulante en staking respalda cierta tracción real. Pesa la escala aún marginal de la actividad on-chain y un litigio sin resolver por tokens heredados que compromete la credibilidad de la Fundación."
+  },
+  "sentimiento": {
+   "score": 42,
+   "just": "Leído en contrario: el Fear & Greed cripto general ya está en 'Codicia' (74), lo que deja poco margen para un contrarian play específico pese a que IOTA sigue en el percentil bajo de su rango. El repunte reciente respondió a una noticia puntual (INCUCAI) más que a un cambio de flujo sostenido, y la cobertura mediática es de baja calidad institucional."
+  },
+  "riesgo": {
+   "score": 36,
+   "just": "Más allá de la volatilidad cripto típica, existen riesgos de pérdida de tesis estructurales: oferta sin tope con emisión diaria (~6%/año), un litigio no resuelto por tokens heredados denunciado ante BaFin, e historial de incidentes de seguridad (Trinity Wallet, 2019). La arquitectura Rebased es reciente (may-2025) y aún no tiene trayectoria larga bajo estrés de mercado."
+  },
+  "conviccion": {
+   "score": 41,
+   "just": "La asimetría es moderada: el percentil bajo (13%) y la adopción gubernamental confirmada abren una vía de revalorización, pero sin catalizador estructural fechado que cierre la brecha de valor en el corto plazo — el roadmap (TWIN/ADAPT) es de ejecución gradual, no de un evento binario. Es más una apuesta a la continuidad del piso que una asimetría medible hoy."
+  }
+ },
+ "sources": [
+  "CoinMarketCap/CoinGecko",
+  "IOTA Foundation (blog.iota.org)",
+  "crypto.news",
+  "biometricupdate.com",
+  "blockchain.news",
+  "TradingView",
+  "bloomingbit.io/chaincatcher (Fear & Greed)",
+  "Tokenomist",
+  "Hacker News (reclamos legacy)",
+  "bitdegree.org (comparación sectorial)",
+  "CME FedWatch/MacroMicro"
+ ],
+ "opportunity": {
+  "cats": {
+   "valuacion_hist": {
+    "score": 62,
+    "just": "Percentil 13% de su rango de 52 semanas, muy cerca de su mínimo de ciclo (US$0,0311, jul-2026) — de los más bajos entre las cripto cubiertas en este dashboard; la oferta sin tope reduce el atractivo relativo de estar 'barato' frente a sí mismo."
+   },
+   "calidad": {
+    "score": 44,
+    "just": "Único activo del sector IoT/comercio con casos de uso gubernamentales verificables en producción (TWIN en Kenia/Reino Unido, INCUCAI en Argentina), pero la escala (TVL US$36M, ~780.000 tx/mes) sigue siendo marginal y el litigio por tokens heredados pesa sobre la reputación institucional de la Fundación."
+   },
+   "asimetria": {
+    "score": 56,
+    "just": "Upside a la zona alta de su rango reciente (~US$0,12) implica ~125% desde el precio actual, frente a un downside acotado a su mínimo de ciclo (~US$0,031, -42%) — relación riesgo/retorno cercana a 3:1, aunque sin un nivel de soporte intermedio muy validado."
+   },
+   "catalizadores": {
+    "score": 42,
+    "just": "Ruta de expansión con fechas relativamente concretas (ADAPT con 3 países confirmados y 5 en piloto durante 2026, roadmap Q4 con IOTA Names y Validator Score), pero de naturaleza incremental — no hay un evento binario fechado que por sí solo cierre la brecha de valor en 6-18 meses."
+   },
+   "contrarian": {
+    "score": 46,
+    "just": "Señal mixta: el precio sigue deprimido en su rango (percentil 13%) pese al rally, lo que sugiere pesimismo latente específico, pero el Fear & Greed cripto general ya en 'Codicia' (74) reduce el margen para leer el sentimiento en contrario de forma clara."
+   }
+  },
+  "plan": {
+   "recomendacion": "Esperar gatillo",
+   "zona_compra": "US$0,045 - US$0,053 (zona actual, cerca del percentil bajo de su rango anual)",
+   "invalidacion": "Pérdida del mínimo de ciclo ~US$0,031 en cierre semanal, o evidencia de que TWIN/ADAPT no escalan en transacciones reales verificables",
+   "gatillos": [
+    "Crecimiento sostenido y verificable de transacciones on-chain de TWIN/ADAPT en los países ya desplegados (no solo nuevos anuncios de pilotos)",
+    "Resolución (positiva) del litigio por tokens heredados ante BaFin, que remueve un overhang reputacional/legal",
+    "Nuevos gobiernos o instituciones sumándose a la red con casos de uso en producción, no solo pruebas de concepto",
+    "Rotación amplia de capital cripto hacia altcoins de menor capitalización (caída de dominancia BTC)"
+   ],
+   "horizonte": "6-18 meses",
+   "tamano": "Posición pequeña (alta volatilidad, escala on-chain aún reducida y litigio legal pendiente sin fecha de resolución; dimensionar acorde)",
+   "confianza": "baja"
+  }
+ },
+ "perfil": "IOTA es una red blockchain de capa 1 fundada en 2015 en Berlín, orientada a infraestructura de identidad digital y comercio internacional para gobiernos y empresas, no a pagos especulativos. Tras el upgrade \"Rebased\" de mayo de 2025 abandonó su arquitectura Tangle original (sin bloques, feeless) y migró a una máquina virtual basada en Move con staking de validadores y contratos inteligentes; el consenso \"Starfish\", en producción desde abril de 2026, sostiene la red aunque parte de los validadores queden rezagados. Su producto insignia, TWIN (Trade Worldwide Information Network), digitaliza documentos de comercio exterior (aduanas, identidad, trazabilidad) para gobiernos —Kenia, Reino Unido y la iniciativa ADAPT en África— anclados en la red. El token partió con oferta inicial de 4.600 millones sin tope máximo fijo, con emisión diaria acotada (crecimiento anual máximo ~6%) compensada parcialmente por quema de comisiones. Consideración permanente: la demanda depende de que los pilotos gubernamentales se traduzcan en volumen transaccional sostenido y no solo en anuncios, y persiste un litigio no resuelto sobre tokens heredados que pesa sobre la credibilidad institucional de la Fundación.",
+ "reportDate": "30 de septiembre de 2026",
+ "technical": {
+  "price": 0.053085,
+  "change_1d_pct": 1.67,
+  "change_1w_pct": 3.74,
+  "rsi": 64.4,
+  "macd": 0.0033,
+  "macd_signal": 0.0027,
+  "sma20": 0.0465,
+  "sma50": 0.0422,
+  "sma200": 0.0475,
+  "ema12": 0.05,
+  "ema26": 0.0466,
+  "pct_vs_sma20": 14.28,
+  "pct_vs_sma50": 25.93,
+  "pct_vs_sma200": 11.8,
+  "volume_today": null,
+  "volume_avg20": null,
+  "volume_ratio": null,
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "price_percentile_1y": 13.4,
+  "vs_benchmark_30d_pct": 27.55,
+  "perf_1m_pct": 35.06,
+  "perf_ytd_pct": -34.27
+ },
+ "risk": {
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "n_days": 1,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "CRYPTO:BTCUSD",
+  "label": "Bitcoin",
+  "relative_performance_30d": 27.55,
+  "relative_performance_ytd": -29.67,
+  "price_percentile_1y": 13.4,
+  "partial": false
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T16:56:10-03:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T16:56:10-03:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T16:56:10-03:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "CRYPTO:BTCUSD",
+   "fetched_at": "2026-09-30T16:56:10-03:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/FX-IOTAUSD.json",
+   "n_days": 1
+  }
+ },
+ "metricChanges": []
+}
