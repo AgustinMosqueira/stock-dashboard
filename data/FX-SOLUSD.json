@@ -1,0 +1,208 @@
+{
+ "ticker": "SOL/USD",
+ "company": "Solana",
+ "statsList": [
+  [
+   "Precio",
+   "$118.57 (30-sep-2026)"
+  ],
+  [
+   "Rango 52 sem.",
+   "US$60,20 – US$237,63 (CoinGecko/Investing.com, 30-sep-2026)"
+  ],
+  [
+   "Market cap",
+   "~US$71.260 millones (588M SOL circulantes, CoinMarketCap, 30-sep-2026)"
+  ],
+  [
+   "SOL en staking",
+   "~68% del circulante (~422M SOL, ~790 validadores), APY neto ~5,7% (Datawallet, 30-sep-2026)"
+  ],
+  [
+   "Flujos ETF spot",
+   "Acumulado ~US$1.490M desde el lanzamiento (28-oct-2025); semana récord ~US$188M (21-26-sep-2026) (Farside Investors/247wallst.com, 30-sep-2026)"
+  ],
+  [
+   "Próximo evento",
+   "Activación de Alpenglow en mainnet (ventana ago-oct 2026, sin fecha fija)"
+  ],
+  [
+   "Técnico (auto)",
+   "RSI 62.6 · MACD +5.78 / señal +5.67 (TradingView, 30-sep-2026)"
+  ]
+ ],
+ "change": {
+  "day": -0.42,
+  "week": -2.78
+ },
+ "events": [
+  {
+   "date": "2026-10-31",
+   "label": "Activación de Alpenglow en mainnet (ventana ago-oct 2026, fecha exacta no fijada)",
+   "kind": "corporate",
+   "info": "Nuevo mecanismo de consenso que reduciría la finalidad de transacción de ~12,8s a ~150ms; requiere que los validadores registren claves BLS y pase el 'Validator Admission Ticket'. La Fundación apunta al release Agave 4.3 dentro de la ventana ago-oct 2026, sin día fijo; Anza desmintió el 28-sep que ya se hubiera activado ese día (Tatum/CryptoTicker/24-7 Wall St., 28-30-sep-2026)."
+  },
+  {
+   "date": "2026-10-28",
+   "label": "Reunión del FOMC (decisión de tasas)",
+   "kind": "macro",
+   "time": "15:00",
+   "info": "Reunión de dos días (27-28 oct), decisión el 28-oct. Probabilidad de otra alza de 25pb ~72,3% según CME FedWatch (28-sep), tras el hike del 16-sep a 3,75-4% (el primero desde 2023). Activo de riesgo con beta a la política monetaria de la Fed (CME FedWatch/MacroMicro, 16-28-sep-2026)."
+  },
+  {
+   "date": "2026-11-15",
+   "label": "Solana Breakpoint 2026 (conferencia, Londres)",
+   "kind": "corporate",
+   "info": "Conferencia insignia de la comunidad Solana, 15-17 nov en Olympia, Londres — primera vez en el Reino Unido. Históricamente trae anuncios de producto, partnerships y actualizaciones de roadmap técnico (SolanaCompass/solana.com, 30-sep-2026)."
+  }
+ ],
+ "sections": {
+  "resumen": "SOL cotiza en US$118,57 (-0,42% día, -2,78% semana), en el percentil 33% de su rango de 52 semanas (US$60,20-US$237,63) y -4,8% en 2026, pese a un rally de +16,4% mensual que lo dejó sobre sus tres medias móviles. La red lidera en actividad real: stablecoins en récord (~US$17.300M), volumen DEX semanal superior al de Ethereum y adopción de pagos institucionales (Visa, PayPal, Western Union). Los ETFs spot de SOL tuvieron su mejor semana del año (~US$188M) mientras los de BTC se enfriaban. Pesan la concentración decreciente de validadores y un incidente de infraestructura de agosto.",
+  "fundamental": "- Stablecoins en Solana en récord ~US$17.300M (25-sep) y volumen DEX semanal (US$11.490M) superó a Ethereum (US$7.620M) (SolanaCompass/coinlaw.io, 25-30-sep-2026). HECHO.\n- TVL DeFi ~US$6.600M, 2° tras Ethereum (US$53.300M), pero muy atrás en desarrolladores activos (17.708 vs 31.869) (DefiLlama, 27-30-sep-2026). HECHO.\n- Pagos institucionales avanzan: Visa, PayPal/Stripe y Western Union liquidan stablecoins sobre Solana; Pump.fun sumó US$124,7M de ingresos en 1T-2026. HECHO.\n- Gobernanza aprobó en 2026 (67% apoyo) acelerar la desinflación, recortando ~18,9M SOL proyectados en 6 años; el número exacto de propuesta (SIMD) es ambiguo entre fuentes. HECHO/LECTURA.\n- ~68% del circulante (~422M SOL) en staking con ~790 validadores, pero el coeficiente de Nakamoto cayó a 18 (desde 31 en 2023): concentración creciente. HECHO.",
+  "valuacion": "- Percentil 33% de su rango de 52 semanas (US$60,20-US$237,63): lejos del techo, no en el extremo inferior (CoinGecko/Investing.com, 30-sep-2026). HECHO.\n- Market cap ~US$71.260M (588M SOL circulantes, sin oferta máxima), 7° lugar cripto (CoinMarketCap, 30-sep-2026). HECHO.\n- 2026 en -4,8% YTD pese al +16,4% del último mes: recuperación que aún no revierte el año. HECHO.\n- Frente a BTC, SOL +8,5% en 30 días y -0,6% YTD relativo: rezago anual que se revirtió en el margen. HECHO.\n- Altcoin Season Index en 56-57 (neutral, subiendo desde 48): rotación hacia altcoins en marcha, no confirmada (CryptoRank/KuCoin, 29-30-sep-2026). HECHO.",
+  "tecnico": "- RSI 62,6, zona alcista sin sobrecompra (TradingView, 30-sep-2026). HECHO.\n- MACD +5,78 sobre su señal (+5,67): momentum de corto plazo positivo y confirmado. HECHO.\n- Precio +6,4% sobre su SMA20, +17,2% sobre su SMA50 y +38,8% sobre su SMA200: estructura alcista consistente en los tres plazos. HECHO.\n- Percentil 33% de su rango de 52 semanas: el rally no luce sobreextendido frente a su propio historial anual. HECHO.\n- Volatilidad/Sharpe/Sortino: 'Acumulando datos' (activo recién agregado, sin histórico de 30 ruedas). HECHO.",
+  "catalizadores": "**Catalizadores:**\n- Alpenglow en mainnet (ventana ago-oct 2026): finalidad de ~12,8s a ~150ms.\n- Solana Breakpoint 2026 (15-17 nov, Londres): historial de anuncios de producto/partnerships.\n- ETFs spot de SOL en racha (~US$188M semana récord, 12 semanas consecutivas positivas).\n- Expansión de pagos institucionales y crecimiento de stablecoins sobre la red.\n\n**Riesgos (por materialidad):**\n- Concentración de validadores en descenso (Nakamoto en 18, desde 31 en 2023) y el incidente de agosto que acercó el stake afectado al umbral de detención (28,83% vs 33%).\n- Quiebra de FTX/Alameda aún retiene ~3,5M SOL (~US$294-320M), con ventas mensuales aprobadas por la corte.\n- Competencia de Ethereum (TVL 8x mayor, casi el doble de desarrolladores) y nuevas L1/L2 de brokers.\n- Sentimiento cripto general en 'Codicia' (71): si escala a extremo, históricamente precede correcciones.",
+  "sentimiento": "- Fear & Greed cripto general en 71 ('Codicia'), sostenido toda la última semana de sep (Alternative.me, 25-30-sep-2026). HECHO.\n- No existe índice de miedo/codicia específico de SOL; se usa el general como proxy (no verificable un índice propio). HECHO.\n- ETFs de SOL tuvieron su mejor semana del año (~US$188M) mientras los de BTC se enfriaban: rotación institucional hacia SOL (247wallst.com/Farside, 19-28-sep-2026). HECHO.\n- Altcoin Season Index en 56-57, zona neutral, sin confirmar 'temporada de altcoins' (umbral 75) (CryptoRank/KuCoin, 29-30-sep-2026). HECHO.\n- Codicia general (71) no extrema: se sigue la evidencia de flujos reales hacia SOL antes que leerla en contrario. LECTURA.",
+  "conclusion": "SOL cotiza en US$118,57 (-0,42% día, -2,78% semana), con estructura alcista en los tres plazos (sobre SMA20/50/200) pero sin sobrecompra (RSI 62,6) y en el percentil 33% de su rango anual: el rally mensual no luce sobreextendido. Los fundamentos on-chain mejoran (stablecoins y DEX en récord, ETFs con su mejor semana del año) mientras la descentralización se deteriora (Nakamoto en 18) y persiste el riesgo de infraestructura tras el incidente de agosto. Alpenglow y Breakpoint (15-17 nov) son los catalizadores más cercanos. Confianza: media."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 64,
+   "just": "Estructura alcista en los tres plazos (+6,4% sobre SMA20, +17,2% sobre SMA50, +38,8% sobre SMA200) con RSI 62,6 sin sobrecompra y MACD confirmando momentum positivo. El percentil 33% de su rango anual evita la sobreextensión (sin señal de parabólico ni percentil >90), lo que sostiene la nota sin premiar solo la dirección reciente."
+  },
+  "fundamental": {
+   "score": 62,
+   "just": "La red acelera en métricas reales: supply de stablecoins en récord (~US$17.300M), volumen DEX semanal superando a Ethereum y expansión de rieles de pago institucionales (Visa, PayPal/Stripe, Western Union). Resta nota la concentración decreciente de validadores (coeficiente de Nakamoto en 18) y la brecha aún amplia frente a Ethereum en TVL y desarrolladores activos."
+  },
+  "sentimiento": {
+   "score": 56,
+   "just": "El Fear & Greed cripto general marca 'Codicia' (71) pero sin llegar a zona extrema, por lo que se sigue mayormente la evidencia: los ETFs de SOL tuvieron su mejor semana del año mientras los de BTC se enfriaban, señal de rotación institucional real hacia el activo más que de euforia especulativa generalizada."
+  },
+  "riesgo": {
+   "score": 52,
+   "just": "El incidente de infraestructura de agosto (28,83% del stake afectado, cerca del umbral de detención de 33%) y la caída sostenida del coeficiente de Nakamoto (18, desde 31 en 2023) son riesgos estructurales de fondo, no solo volatilidad de precio. Compensa que la red lleva 30 meses sin un outage total y que la emisión es desinflacionaria por diseño."
+  },
+  "conviccion": {
+   "score": 58,
+   "just": "Asimetría moderada: percentil 33% de su rango anual deja espacio al alza si Alpenglow se activa sin incidentes o los flujos de ETFs sostienen el ritmo récord; se invalida con pérdida de la SMA200 (~US$85) o un nuevo incidente de infraestructura que erosione la confianza en la red. Tesis anclada a la adopción real (pagos, stablecoins) más que al precio."
+  }
+ },
+ "sources": [
+  "CoinMarketCap/CoinGecko/CoinDesk",
+  "DefiLlama/SolanaCompass",
+  "Farside Investors/247wallst.com",
+  "The Block/Messari",
+  "CFGI.io/Alternative.me/CryptoRank",
+  "TradingView/Investing.com/Yahoo Finance",
+  "Solana Foundation/solana.com",
+  "CME FedWatch/MacroMicro",
+  "Nasdaq/The Block (tesorerías corporativas)"
+ ],
+ "risk": {
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "n_days": 1,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "CRYPTO:BTCUSD",
+  "label": "Bitcoin",
+  "relative_performance_30d": 8.53,
+  "relative_performance_ytd": -0.55,
+  "price_percentile_1y": 32.9,
+  "partial": false
+ },
+ "technical": {
+  "price": 118.57,
+  "change_1d_pct": -0.42,
+  "change_1w_pct": -2.78,
+  "rsi": 62.6,
+  "macd": 5.7808,
+  "macd_signal": 5.6697,
+  "sma20": 111.4549,
+  "sma50": 101.1893,
+  "sma200": 85.4292,
+  "ema12": 116.6159,
+  "ema26": 110.835,
+  "pct_vs_sma20": 6.38,
+  "pct_vs_sma50": 17.18,
+  "pct_vs_sma200": 38.79,
+  "volume_today": null,
+  "volume_avg20": null,
+  "volume_ratio": null,
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "price_percentile_1y": 32.9,
+  "vs_benchmark_30d_pct": 8.53,
+  "perf_1m_pct": 16.45,
+  "perf_ytd_pct": -4.79
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T16:06:30-03:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T16:06:30-03:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T16:06:30-03:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "CRYPTO:BTCUSD",
+   "fetched_at": "2026-09-30T16:06:30-03:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/FX-SOLUSD.json",
+   "n_days": 1
+  }
+ },
+ "metricChanges": [],
+ "opportunity": {
+  "cats": {
+   "valuacion_hist": {
+    "score": 58,
+    "just": "Percentil 33% de su rango de 52 semanas (US$60,20-US$237,63) y -4,8% YTD pese al rally reciente: ni barato en extremo ni caro frente a su propio historial anual."
+   },
+   "calidad": {
+    "score": 60,
+    "just": "Red con actividad on-chain real y creciente (stablecoins y DEX volume en récord, rieles de pago institucionales), contrapesada por la concentración decreciente de validadores y la brecha frente a Ethereum en TVL y desarrolladores."
+   },
+   "asimetria": {
+    "score": 55,
+    "just": "Upside a la zona de máximos de 2026 (~US$148) implica +25% desde el precio actual; downside a la SMA200 (~US$85) implica -28%. Relación riesgo/retorno moderada (~0,9:1), sin niveles de convicción extrema en ningún sentido."
+   },
+   "catalizadores": {
+    "score": 58,
+    "just": "Ruta de catalizadores con fecha aproximada: Alpenglow (finalidad ~150ms, ventana ago-oct 2026) y Breakpoint (15-17 nov, Londres) son concretos pero ninguno resuelve la tesis por sí solo en el corto plazo."
+   },
+   "contrarian": {
+    "score": 52,
+    "just": "Sentimiento cripto general en 'Codicia' (71) sin ser extremo; la rotación de flujos de ETFs hacia SOL mientras los de BTC se enfrían es una señal contraria leve, no un extremo de pesimismo ni de euforia que amerite una nota alta."
+   }
+  },
+  "plan": {
+   "recomendacion": "Esperar gatillo",
+   "zona_compra": "US$95 - US$108",
+   "invalidacion": "Pérdida sostenida de la SMA200 (~US$85) confirmada en cierre semanal, o ruptura del mínimo de 52 semanas (~US$60)",
+   "gatillos": [
+    "Activación exitosa de Alpenglow en mainnet sin incidentes de infraestructura",
+    "Flujos de ETFs spot de SOL sosteniendo el ritmo récord (>US$150M semanales) más de un mes",
+    "Estabilización o mejora del coeficiente de Nakamoto, sin nuevos incidentes de concentración de validadores",
+    "Altcoin Season Index superando 75, confirmando rotación sostenida hacia altcoins"
+   ],
+   "horizonte": "6-18 meses",
+   "tamano": "Posición moderada (activo de alta volatilidad y alto beta al ciclo cripto, dimensionar acorde)",
+   "confianza": "media"
+  }
+ },
+ "perfil": "Solana es una blockchain Layer-1 sin empresa matriz que la controle: combina Proof of History con Proof of Stake para procesar transacciones con alto rendimiento (miles de TPS reales) y costos mínimos (~US$0,0002 por transacción), operada por una red descentralizada de validadores; la Fundación Solana y firmas como Jump Crypto (autora del cliente Firedancer) impulsan su desarrollo técnico. El core de su propuesta es servir de infraestructura para aplicaciones de alto volumen: DeFi (TVL ~US$6.600M, segundo lugar detrás de Ethereum), stablecoins (supply récord ~US$17.300M, liderado por USDC) y trading de memecoins (Pump.fun), y crecientemente rieles de pago institucionales (Visa, PayPal/Stripe, Western Union liquidan stablecoins sobre la red). SOL no tiene oferta máxima fija, pero su emisión es desinflacionaria (~15% de reducción anual, acelerada por una propuesta aprobada en 2026) y ~68% del circulante está en staking. Consideraciones permanentes: concentración de validadores en descenso, dependencia de pocos proveedores de infraestructura, competencia de Ethereum y otras L1s, e historial de outages que exige monitorear la resiliencia de la red.",
+ "reportDate": "30 de septiembre de 2026"
+}
