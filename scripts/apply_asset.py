@@ -13,13 +13,24 @@ import sys
 HERE = pathlib.Path(__file__).resolve().parent.parent
 
 
+def safe_name(ticker):
+    """'USD/CLP' -> 'FX-USDCLP' (misma convención que history_store.py y data/*.json);
+    resto igual. Un ticker con '/' (FX, o cripto como 'QNT/USD') NO puede ser un nombre
+    de archivo tal cual — se rompía silenciosamente antes de este fix (bug detectado con
+    QNT/USD, 30-sep-2026: buscaba data/QNT/USD.json, un path inexistente)."""
+    if "/" in ticker:
+        return "FX-" + ticker.replace("/", "")
+    return ticker
+
+
 def main():
     if len(sys.argv) < 2:
         raise SystemExit("Uso: python3 scripts/apply_asset.py TICKER")
     ticker = sys.argv[1].strip().upper()
-    src = HERE / "data" / f"{ticker}.json"
+    fname = safe_name(ticker) + ".json"
+    src = HERE / "data" / fname
     if not src.exists():
-        raise SystemExit(f"❌ No existe data/{ticker}.json — no hay nada que reinyectar.")
+        raise SystemExit(f"❌ No existe data/{fname} — no hay nada que reinyectar.")
     obj = json.load(open(src))
     if obj.get("ticker", "").upper() != ticker:
         raise SystemExit(f"❌ data/{ticker}.json contiene el ticker «{obj.get('ticker')}».")

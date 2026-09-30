@@ -14,6 +14,17 @@ TICKER="${2:-}"
 SYMBOL="${3:-}"
 INTENTOS=6
 
+# 'USD/CLP' -> 'FX-USDCLP' (misma convención que history_store.py/apply_asset.py):
+# un ticker con '/' (FX, o cripto como 'QNT/USD') no puede ser un nombre de archivo
+# tal cual. Bug detectado con QNT/USD (30-sep-2026): buscaba data/QNT/USD.json, un
+# path inexistente, y la reintegración fallaba en voz alta en vez de arriesgar el informe.
+safe_name() {
+  case "$1" in
+    */*) echo "FX-${1//\//}" ;;
+    *) echo "$1" ;;
+  esac
+}
+
 git config user.name  "dashboard-bot"
 git config user.email "actions@users.noreply.github.com"
 
@@ -40,9 +51,10 @@ for i in $(seq 1 $INTENTOS); do
   fi
 
   # Con activo: guardamos SU informe, volvemos al remoto limpio y lo reaplicamos.
+  FNAME="$(safe_name "$TICKER").json"
   KEEP=$(mktemp -d)
-  cp -a "data/${TICKER}.json" "$KEEP/" 2>/dev/null || {
-    echo "❌ No encuentro data/${TICKER}.json — no puedo reintegrar sin arriesgar el informe."; exit 1; }
+  cp -a "data/${FNAME}" "$KEEP/" 2>/dev/null || {
+    echo "❌ No encuentro data/${FNAME} — no puedo reintegrar sin arriesgar el informe."; exit 1; }
   git fetch -q origin main || { echo "❌ No pude traer el remoto."; exit 1; }
   git reset -q --hard origin/main
 
@@ -52,7 +64,7 @@ for i in $(seq 1 $INTENTOS); do
       echo "❌ No pude recablear ${TICKER} sobre el remoto nuevo."; exit 1; }
   fi
 
-  cp -a "$KEEP/${TICKER}.json" "data/${TICKER}.json"
+  cp -a "$KEEP/${FNAME}" "data/${FNAME}"
   python3 scripts/apply_asset.py "$TICKER" || { echo "❌ Falló la reinyección de ${TICKER}."; exit 1; }
   python3 scripts/update_numbers.py || { echo "❌ Falló la reconstrucción."; exit 1; }
 
