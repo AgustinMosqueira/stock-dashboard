@@ -1,0 +1,208 @@
+{
+ "ticker": "XLM/USD",
+ "company": "Stellar",
+ "statsList": [
+  [
+   "Precio",
+   "$0.23 (30-sep-2026)"
+  ],
+  [
+   "Rango 52 sem.",
+   "US$0,1433 – US$0,4117 (Yahoo Finance/CoinLore, 30-sep-2026)"
+  ],
+  [
+   "Market cap",
+   "~US$7.910 millones (35.010M XLM circulantes, CoinMarketCap, 30-sep-2026)"
+  ],
+  [
+   "RWA tokenizados en Stellar",
+   "~US$2.750 millones, x3,5 desde ~US$785M en enero 2026 (BENJI de Franklin Templeton >US$650M, PYUSD de PayPal) (247wallst.com, 25-sep-2026)"
+  ],
+  [
+   "Reservas SDF",
+   "~16.660M XLM (~33% de la oferta total de 50.000M) en poder de la Fundación para grants y desarrollo (Messari, State of Stellar 1T-2026)"
+  ],
+  [
+   "Próximo evento",
+   "Protocolo 29 en mainnet (parche de seguridad crítico), 1-oct-2026"
+  ],
+  [
+   "Técnico (auto)",
+   "RSI 63.1 · MACD +0.01 / señal +0.01 (TradingView, 30-sep-2026)"
+  ]
+ ],
+ "change": {
+  "day": 1.74,
+  "week": 4.76
+ },
+ "risk": {
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "n_days": 1,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "CRYPTO:BTCUSD",
+  "label": "Bitcoin",
+  "relative_performance_30d": 21.62,
+  "relative_performance_ytd": 17.01,
+  "price_percentile_1y": 32.3,
+  "partial": false
+ },
+ "technical": {
+  "price": 0.22604,
+  "change_1d_pct": 1.74,
+  "change_1w_pct": 4.76,
+  "rsi": 63.1,
+  "macd": 0.0115,
+  "macd_signal": 0.0092,
+  "sma20": 0.202,
+  "sma50": 0.1875,
+  "sma200": 0.1796,
+  "ema12": 0.2145,
+  "ema26": 0.203,
+  "pct_vs_sma20": 11.89,
+  "pct_vs_sma50": 20.53,
+  "pct_vs_sma200": 25.83,
+  "volume_today": null,
+  "volume_avg20": null,
+  "volume_ratio": null,
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "price_percentile_1y": 32.3,
+  "vs_benchmark_30d_pct": 21.62,
+  "perf_1m_pct": 29.34,
+  "perf_ytd_pct": 12.6
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T16:15:41-03:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T16:15:41-03:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T16:15:41-03:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "CRYPTO:BTCUSD",
+   "fetched_at": "2026-09-30T16:15:41-03:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/FX-XLMUSD.json",
+   "n_days": 1
+  }
+ },
+ "metricChanges": [],
+ "events": [
+  {
+   "date": "2026-10-01",
+   "label": "Protocolo 29 en mainnet (parche de seguridad crítico)",
+   "kind": "corporate",
+   "info": "Activación en el ledger de mainnet el 1-oct-2026, tras el aviso de la SDF a node operators del 24-sep-2026. Es un parche de seguridad crítico sin cambios de XDR (no exige cambios de código para desarrolladores), pero los validadores deben actualizar antes de esa fecha para seguir sincronizados con la red (stellar.org/GitHub stellar-protocol, 24-29-sep-2026)."
+  },
+  {
+   "date": "2026-10-28",
+   "label": "Reunión del FOMC (decisión de tasas)",
+   "kind": "macro",
+   "time": "15:00",
+   "info": "Reunión de dos días (27-28 oct), decisión el 28-oct. Probabilidad de otra alza de 25pb ~72,3% según CME FedWatch (28-sep), tras el hike del 16-sep a 3,75-4%. XLM, como activo de riesgo correlacionado a BTC, es sensible a la política monetaria de la Fed (CME FedWatch/MacroMicro, 16-28-sep-2026)."
+  },
+  {
+   "date": "2026-10-28",
+   "label": "Stellar Meridian 2026 (conferencia, Lisboa)",
+   "kind": "corporate",
+   "info": "Conferencia insignia de la comunidad Stellar, 28-29 oct en el Convento do Beato, Lisboa. Históricamente trae anuncios de partnerships institucionales y actualizaciones de roadmap técnico (Build on Stellar/meridian.stellar.org, sep-2026)."
+  }
+ ],
+ "sections": {
+  "resumen": "XLM cotiza en US$0,226 (+1,74% día, +4,76% semana), en el percentil 32% de su rango de 52 semanas (US$0,1433-US$0,4117) tras un rally mensual de +29,3% que lo dejó sobre sus tres medias móviles. La red lidera en tokenización de activos reales: el valor tokenizado en Stellar saltó de ~US$785M a ~US$2.750M en 2026, con el fondo BENJI de Franklin Templeton (>US$650M) y el stablecoin PYUSD de PayPal como pilares institucionales. La clasificación de XLM como 'digital commodity' por SEC/CFTC (marzo 2026) despejó incertidumbre regulatoria. Pesan la concentración de holders, ~33% del supply aún en manos de la Fundación, y usuarios activos semanales estancados (~60.000) pese al crecimiento institucional.",
+  "fundamental": "- Valor tokenizado en Stellar saltó de ~US$785M (ene) a ~US$2.750M (sep): BENJI de Franklin Templeton supera los US$650M y PYUSD de PayPal corre sobre la red desde jun-2025 (247wallst.com, 25-sep-2026). HECHO.\n- Volumen de pagos con stablecoins llegó a US$5.500M en el 1T-2026 (+72% interanual); TVL DeFi ~US$220-262M y volumen DEX semanal ~US$31M (+85% semanal) (Messari/DefiLlama, 2026). HECHO.\n- La red procesa >3M transacciones diarias (picos de hasta 11,6M) y más de 300M en los últimos 30 días, pero los usuarios activos semanales se mantienen estancados en ~60.000 pese al alza de precio. HECHO.\n- SEC y CFTC clasificaron conjuntamente a XLM como 'digital commodity' (17-mar-2026), despejando la disputa regulatoria y habilitando su inclusión en el ETF activo de T. Rowe Price (12-jun-2026) (CoinMarketCap/CLARITY Act). HECHO.\n- La compatibilidad ISO 20022 (interoperable con SWIFT y sistemas de bancos centrales) ya no es diferencial exclusivo: XRP, HBAR y ALGO comparten el mismo estándar. LECTURA.",
+  "valuacion": "- Percentil 32% de su rango de 52 semanas (US$0,1433-US$0,4117): lejos del techo anual, no en el extremo inferior (Yahoo Finance/CoinLore, 30-sep-2026). HECHO.\n- Market cap ~US$7.910M (35.010M XLM circulantes de una oferta máxima fija de ~50.000M, 70%) (CoinMarketCap, 30-sep-2026). HECHO.\n- A precio actual, XLM cotiza ~76% por debajo de su máximo histórico de US$0,938 (ene-2018), pese a que el valor tokenizado en la red hoy es muchísimo mayor que entonces. LECTURA.\n- +12,6% YTD y +29,3% en el último mes; frente a BTC, +17,0% YTD y +21,6% en 30 días: outperformance reciente marcado. HECHO.\n- ~33% de la oferta total (~16.660M XLM) sigue en manos de la Fundación Stellar para grants y desarrollo (Messari, 1T-2026): overhang estructural de oferta. HECHO.",
+  "tecnico": "- RSI 63,1, zona alcista sin sobrecompra (TradingView, 30-sep-2026). HECHO.\n- MACD +0,0115 sobre su señal (+0,0092): momentum de corto plazo positivo y confirmado. HECHO.\n- Precio +11,9% sobre su SMA20, +20,5% sobre su SMA50 y +25,8% sobre su SMA200: estructura alcista consistente en los tres plazos. HECHO.\n- Percentil 32% de su rango de 52 semanas: el rally no luce sobreextendido frente a su propio historial anual. HECHO.\n- Volatilidad/Sharpe/Sortino: 'Acumulando datos' (activo recién agregado, sin histórico de 30 ruedas). HECHO.",
+  "catalizadores": "**Catalizadores:**\n- Protocolo 29 activo en mainnet (1-oct-2026): parche de seguridad crítico para la estabilidad de la red.\n- Stellar Meridian 2026 (28-29-oct, Lisboa): historial de anuncios de partnerships y roadmap técnico.\n- Expansión sostenida de RWA tokenizados (BENJI, PYUSD, fondo de State Street Galaxy desde 29-sep) y rieles de pago institucionales.\n- Roadmap de criptografía post-cuántica (etapa 1 en Soroban, 2026) y avance institucional hacia un eventual ETF spot dedicado.\n\n**Riesgos (por materialidad):**\n- ~33% del supply total en manos de la SDF (~16.660M XLM): liberaciones futuras pueden presionar el precio.\n- Alta concentración de holders (los 10 mayores wallets concentran cerca de la mitad de la oferta).\n- Competencia de XRP en pagos institucionales bancarios (Ripple ODL superó US$15.000M en 2024, +32% anual), con mayor penetración bancária.\n- Alta correlación con Bitcoin: una caída de BTC bajo soportes clave arrastraría a XLM hacia el piso de su rango 2026 (~US$0,15) independiente de sus fundamentos propios.",
+  "sentimiento": "- Fear & Greed cripto general en 71 ('Codicia'), sostenido toda la última semana de sep (Alternative.me, 30-sep-2026). HECHO.\n- No existe índice de miedo/codicia específico de XLM; se usa el general como proxy (no verificable un índice propio). HECHO.\n- XLM supera a BTC en +21,6% a 30 días y +17,0% YTD: rotación reciente hacia el activo, no solo arrastre del ciclo. HECHO.\n- El token viene históricamente 'rezagado' frente a sus propios fundamentos (adopción institucional triplicada vs. precio semi-plano en 2026), narrativa que se diluye tras el rally del último mes. LECTURA.\n- Codicia general (71) no extrema: se sigue la evidencia de flujos institucionales reales antes que leerla en contrario. LECTURA.",
+  "conclusion": "XLM cotiza en US$0,226 (+1,74% día, +4,76% semana), con estructura alcista en los tres plazos (sobre SMA20/50/200) y RSI 63,1 sin sobrecompra, en el percentil 32% de su rango anual: el rally mensual (+29,3%) no luce sobreextendido. Los fundamentos de la red mejoran con fuerza (RWA tokenizados x3,5 en el año, clasificación regulatoria favorable) mientras la adopción retail permanece plana (~60.000 usuarios activos semanales) y ~33% del supply sigue en manos de la Fundación. Protocolo 29 (1-oct) y Meridian 2026 (28-29-oct) son los catalizadores más cercanos. Confianza: media."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 65,
+   "just": "Estructura alcista en los tres plazos (+11,9% sobre SMA20, +20,5% sobre SMA50, +25,8% sobre SMA200) con RSI 63,1 sin sobrecompra y MACD confirmando momentum positivo. El percentil 32% de su rango anual evita la sobreextensión (sin percentil >90 ni RSI >75), lo que sostiene la nota sin premiar solo la dirección reciente."
+  },
+  "fundamental": {
+   "score": 60,
+   "just": "La red acelera en adopción institucional real: RWA tokenizados x3,5 en el año (BENJI, PYUSD), volumen de pagos con stablecoins +72% interanual y clasificación regulatoria favorable (digital commodity). Resta nota que la actividad de usuarios retail permanece estancada (~60.000 WAU) y que el diferencial ISO 20022 ya no es exclusivo frente a XRP/HBAR/ALGO."
+  },
+  "sentimiento": {
+   "score": 54,
+   "just": "El Fear & Greed cripto general marca 'Codicia' (71) sin ser extremo. XLM supera a BTC en 30 días y YTD, señal de rotación real hacia el activo, pero el rally mensual de +29,3% ya capturó buena parte del salto en el relato de 'token rezagado frente a sus fundamentos', reduciendo el margen contrario."
+  },
+  "riesgo": {
+   "score": 47,
+   "just": "Más allá de la volatilidad típica cripto, hay riesgos estructurales: ~33% de la oferta total sigue en manos de la SDF (overhang de sobreoferta), alta concentración de holders y correlación elevada con BTC. Compensa parcialmente la oferta fija sin inflación desde 2019 y la creciente base de activos institucionales tokenizados sobre la red."
+  },
+  "conviccion": {
+   "score": 56,
+   "just": "Asimetría moderada: percentil 32% de su rango anual deja espacio al alza si la tokenización de RWA sostiene su ritmo y Protocolo 29/Meridian 2026 refuerzan la confianza en la red; se invalida con pérdida sostenida de la SMA200 (~US$0,18) o ruptura del piso 2026 (~US$0,15). Tesis anclada a la adopción institucional real, no al precio."
+  }
+ },
+ "sources": [
+  "CoinMarketCap/CoinGecko/CoinDesk",
+  "Messari (State of Stellar)/DefiLlama",
+  "247wallst.com/Bitget",
+  "Stellar Development Foundation (stellar.org)",
+  "SEC.gov/CFTC",
+  "CME FedWatch/MacroMicro",
+  "Alternative.me/CryptoRank",
+  "TradingView/Yahoo Finance/CoinLore",
+  "Build on Stellar/meridian.stellar.org"
+ ],
+ "opportunity": {
+  "cats": {
+   "valuacion_hist": {
+    "score": 57,
+    "just": "Percentil 32% de su rango de 52 semanas (US$0,1433-US$0,4117) y ~76% bajo su máximo histórico de 2018: ni barato en extremo ni caro frente a su propio historial, con el agravante de que el supply de la Fundación aún no se refleja del todo en el precio."
+   },
+   "calidad": {
+    "score": 62,
+    "just": "Adopción institucional real y creciente (Franklin Templeton, PayPal, State Street) con clasificación regulatoria favorable, contrapesada por la concentración de holders, el overhang de la SDF (~33% del supply) y competencia directa de XRP en pagos bancarios."
+   },
+   "asimetria": {
+    "score": 53,
+    "just": "Upside a la zona alta de su rango 2026 (~US$0,30-0,31) implica ~35% desde el precio actual; downside a la SMA200 (~US$0,18) implica ~20%. Relación riesgo/retorno moderada (~1,7:1), sin niveles de convicción extrema en ningún sentido."
+   },
+   "catalizadores": {
+    "score": 55,
+    "just": "Ruta de catalizadores con fecha confirmada de corto plazo: Protocolo 29 (1-oct) y Meridian 2026 (28-29-oct) son concretos pero de impacto acotado; la expansión de RWA es el catalizador estructural de mayor peso, sin fecha única que cierre la brecha de valor."
+   },
+   "contrarian": {
+    "score": 48,
+    "just": "Sentimiento cripto general en 'Codicia' (71) sin ser extremo; la narrativa de 'token rezagado frente a sus fundamentos' pierde fuerza contraria tras el rally de +29,3% del último mes, que ya compensó parte del descuento."
+   }
+  },
+  "plan": {
+   "recomendacion": "Esperar gatillo",
+   "zona_compra": "US$0,185 - US$0,205",
+   "invalidacion": "Pérdida sostenida de la SMA200 (~US$0,18) confirmada en cierre semanal, o ruptura del piso del rango 2026 (~US$0,15)",
+   "gatillos": [
+    "Activación exitosa del Protocolo 29 en mainnet sin incidentes de red",
+    "Anuncios institucionales relevantes en Stellar Meridian 2026 (nuevos partners o RWA tokenizados)",
+    "Aceleración del ritmo de RWA tokenizados por sobre los ~US$2.750M actuales",
+    "Avance concreto hacia un ETF spot dedicado de XLM, más allá del fondo activo de T. Rowe Price"
+   ],
+   "horizonte": "6-18 meses",
+   "tamano": "Posición pequeña-moderada (alta volatilidad cripto, competencia directa con XRP y riesgo de sobreoferta de la SDF; dimensionar acorde)",
+   "confianza": "media"
+  }
+ },
+ "perfil": "Stellar es una red blockchain Layer-1 sin empresa controladora, diseñada para pagos transfronterizos baratos y la emisión/tokenización de activos del mundo real (RWA); usa el Protocolo de Consenso Stellar (SCP), una variante de consenso federado (no Proof of Work ni Proof of Stake), mantenida por validadores descentralizados y desarrollada técnicamente por la Stellar Development Foundation (SDF), su entidad sin fines de lucro. El core de la red es servir de infraestructura para rieles de pago y activos tokenizados: el fondo BENJI de Franklin Templeton (>US$650M) y el stablecoin PYUSD de PayPal operan sobre Stellar, y el valor tokenizado total en la red saltó de ~US$785M a ~US$2.750M en 2026. XLM tiene oferta máxima fija en ~50.000M (tras la quema de 2019 que eliminó la inflación anual del 1%), con ~35.000M circulantes y ~16.660M (33%) aún en manos de la SDF para grants y desarrollo. Consideraciones permanentes: concentración de holders, overhang de oferta por las reservas de la SDF, y competencia directa de XRP/Ripple en pagos institucionales.",
+ "reportDate": "30 de septiembre de 2026"
+}

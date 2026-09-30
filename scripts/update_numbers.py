@@ -59,6 +59,7 @@ MAP = {
     "ETH/USD": ("CRYPTO:ETHUSD", ("$", "", 2, ",", ".")),
     "XRP/USD": ("CRYPTO:XRPUSD", ("$", "", 2, ",", ".")),
     "SOL/USD": ("CRYPTO:SOLUSD", ("$", "", 2, ",", ".")),
+    "XLM/USD": ("CRYPTO:XLMUSD", ("$", "", 2, ",", ".")),
     "BTC/USD": ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),
     # OJO: FX_IDC (ICE) viene ~0,35% desviado vs el cierre real chileno (verificado
     # 29-jul-2026 contra er-api, currency-api y cierre de mercado); VANTAGE calza.
@@ -88,6 +89,7 @@ BENCH = {
     "ETH/USD": ("CRYPTO:BTCUSD", "Bitcoin"),
     "XRP/USD": ("CRYPTO:BTCUSD", "Bitcoin"),
     "SOL/USD": ("CRYPTO:BTCUSD", "Bitcoin"),
+    "XLM/USD": ("CRYPTO:BTCUSD", "Bitcoin"),
     "HDSY": ("TVC:NI225", "Nikkei 225"),
     "USD/CLP": ("TVC:DXY", "DXY"),
     "EUR/USD": ("TVC:DXY", "DXY"),
