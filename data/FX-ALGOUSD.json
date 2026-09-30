@@ -1,0 +1,209 @@
+{
+ "ticker": "ALGO/USD",
+ "company": "Algorand",
+ "statsList": [
+  [
+   "Precio",
+   "$0.12 (30-sep-2026)"
+  ],
+  [
+   "Rango 52 sem.",
+   "US$0,0757 – ~US$0,29 (CoinMarketCap/CoinGecko, sep-2026)"
+  ],
+  [
+   "Market cap",
+   "~US$1.130-1.180 millones (~9.050M ALGO circulantes de 10.000M máx., CoinMarketCap, sep-2026)"
+  ],
+  [
+   "TVL en Algorand",
+   "US$32-67M según fuente (Foundation vs prensa/DefiLlama, ago-sep-2026) — vs ATH de ~US$362M (2023)"
+  ],
+  [
+   "ALGO en staking",
+   "~2.070M ALGO (~23% del circulante), 81% comunidad / 19% Fundación (Algorand Foundation, jul-2026)"
+  ],
+  [
+   "Próximo evento",
+   "Multichain Day, TOKEN2049 Singapur (Algorand Title Partner), 6-oct-2026"
+  ]
+ ],
+ "change": {
+  "day": -0.8,
+  "week": 4.16
+ },
+ "events": [
+  {
+   "date": "2026-10-06",
+   "label": "Multichain Day — TOKEN2049 Singapur (Algorand Title Partner)",
+   "kind": "corporate",
+   "time": null,
+   "info": "Algorand es 'Title Partner' del día dedicado a interoperabilidad multichain dentro de TOKEN2049 Singapur (7-8-oct-2026); se esperan anuncios de partnerships y actualizaciones de roadmap bajo el nuevo CEO William Herkelrath, en el marco de la estrategia 'Algorand 2.0' de autosuficiencia financiera de la Fundación (algorand.co, sep-2026)."
+  },
+  {
+   "date": "2026-10-18",
+   "label": "EasyA x Algorand London Hackathon",
+   "kind": "corporate",
+   "time": null,
+   "info": "Hackathon de desarrolladores en Londres (18-19-oct-2026) junto a EasyA; el mercado mirará si genera proyectos con tracción real de usuarios, dado el patrón histórico de baja conversión de eventos de desarrolladores en actividad on-chain sostenida (algorand.co, sep-2026)."
+  },
+  {
+   "date": "2026-10-28",
+   "label": "Reunión del FOMC (decisión de tasas)",
+   "kind": "macro",
+   "time": "15:00",
+   "info": "Reunión de dos días (27-28-oct), decisión el 28-oct. Probabilidad de otra alza de 25pb ~72,3% según CME FedWatch (28-sep), tras el hike del 16-sep a 3,75-4%. ALGO, como activo cripto de alta beta, es sensible a la política monetaria de la Fed (CME FedWatch/MacroMicro, 16-28-sep-2026)."
+  }
+ ],
+ "sections": {
+  "resumen": "ALGO cotiza en US$0,1245 (-0,8% día, +4,2% semana, +47% mes), recuperando con fuerza pero aún en el percentil 31% de su rango anual; técnico sólido (sobre sus tres medias, RSI 64,6 sin sobrecompra). HECHO: en marzo-2026 Algorand Foundation absorbió completo el desarrollo del protocolo y estrenó CEO (William Herkelrath, ex-Chainlink) en agosto. HECHO: la demanda real sigue débil — TVL de solo US$32-67M (vs ATH US$362M) y RWA verificado en US$71M, muy por debajo de los US$268-425M que reclama la narrativa oficial. El CBDC insignia (Islas Marshall) fue cancelado en 2025 tras 7 años sin lanzar. Confianza: baja.",
+  "fundamental": "- HECHO: TVL en DeFi sobre Algorand de solo US$32-67M según la fuente (prensa/DefiLlama vs Foundation, ago-sep-2026), ~82-83% bajo su propio ATH de ~US$362M (2023).\n- HECHO: RWA tokenizado verificado por RWA.xyz en US$71,4M, muy por debajo de los US$268-425M que reclama la narrativa oficial — brecha no resuelta.\n- HECHO: stablecoins sobre Algorand apenas US$43-44M (95-97% USDC), ~0,07% del mercado global — nicho marginal.\n- HECHO: el CBDC insignia de Islas Marshall (SOV) fue derogado en ago-2025 sin lanzar en 7 años — pesa sobre la credibilidad de otros anuncios.\n- HECHO: wallets activas +29,6% en ago-2026 (522.000→677.000); Fundación comprometió ≥US$15M tras unificar el desarrollo (mar-2026).",
+  "valuacion": "- HECHO: percentil 31% de su rango de 52 semanas (US$0,0757 – ~US$0,29): lejos de máximos recientes pese al repunte mensual.\n- HECHO: market cap ~US$1.130-1.180M, ~9.050M ALGO circulantes (90,6% del tope de 10.000M) — dilución remanente mínima.\n- HECHO: cotiza ~96% bajo su ATH de US$3,28-3,56 (jun-2019) — mayor brecha precio/tecnología entre L1 grandes según analistas. LECTURA.\n- HECHO: +47% en 30 días y +39,1% de perf. relativa vs BTC — outperformance frente al mercado cripto general.\n- HECHO: market cap ~3,7x menor que XRP y ~63x menor que Solana, pese a TVL similar a Hedera/XRPL.",
+  "tecnico": "- HECHO: RSI 64,6, zona alcista sin sobrecompra extrema (TradingView, 30-sep-2026).\n- HECHO: MACD +0,0089 sobre su señal (+0,0069): momentum de corto plazo positivo.\n- HECHO: precio +16,4% sobre su SMA20, +29,7% sobre su SMA50 y +27,1% sobre su SMA200 — estructura alcista en los tres plazos.\n- HECHO: swing reciente de alta volatilidad — rally hasta ~US$0,14 y reversión de ~10% en pocos días (CoinMarketCap, sep-2026), más especulativo que reconquista gradual.\n- HECHO: volatilidad/Sharpe/Sortino: \"Acumulando datos\" (activo recién agregado).",
+  "catalizadores": "**Catalizadores:**\n- Multichain Day en TOKEN2049 Singapur (6-oct, Title Partner) y hackathon EasyA en Londres (18-19-oct).\n- Funcionalidad post-cuántica (Falcon-1024, activa desde 20-ago-2026) como diferenciador técnico real.\n- Compromiso de la Fundación de invertir ≥US$15M tras unificar el desarrollo (mar-2026), meta de autosuficiencia (\"Algorand 2.0\").\n- Wallets activas +29,6% en ago-2026 y partnership con Flow Traders para liquidez institucional 24/7.\n\n**Riesgos (por materialidad):**\n- Brecha persistente entre narrativa oficial (RWA, TVL) y trackers independientes (RWA.xyz, DefiLlama).\n- Presión de venta de la Fundación (50M+4M ALGO a exchanges en 2026) y ~54% del supply en ballenas (IntoTheBlock).\n- Solo 9% de los holders de ALGO están en ganancia (BeInCrypto) — overhang de venta en cualquier repunte.\n- Clasificación regulatoria favorable (SEC/CFTC, mar-2026) no evitó un recorte de 25% de la plantilla al día siguiente.",
+  "sentimiento": "- HECHO: Fear & Greed cripto general en 75 (\"Codicia\"), pico de 78 el 22-sep; no existe índice específico de ALGO (alternative.me, 28-sep-2026).\n- HECHO: ballenas controlan ~54% del supply y subieron tenencias +5,1% en 30 días, mientras retail redujo exposición (IntoTheBlock).\n- HECHO: solo 9% de los holders de ALGO están en ganancia (BeInCrypto) — la mayoría sigue bajo su precio de compra.\n- HECHO: el 29-sep ALGO subió 10,3% con la aparición del CEO Herkelrath en FinTechTV — reacción de \"cara nueva\" más que dato fundamental.\n- LECTURA: ballenas acumulando con Fear & Greed ya elevado (75) es señal mixta, sin pesimismo extremo que leer en contrario.",
+  "conclusion": "ALGO cotiza en US$0,1245, con técnico sólido (RSI 64,6, sobre sus tres medias) pero aún en el percentil 31% de su rango anual y un swing reciente de alta volatilidad. Los fundamentos no acompañan la narrativa: TVL de US$32-67M (vs ATH US$362M), RWA verificado en US$71M frente a los US$268-425M que reclama la Fundación, y el CBDC insignia cancelado tras 7 años. La unificación operativa de marzo-2026 y el nuevo CEO abren una ventana de reconstrucción de credibilidad aún sin confirmar en datos on-chain. Confianza: baja; posición pequeña si se toma exposición."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 55,
+   "just": "Estructura alcista sostenida en los tres plazos (+16,4% SMA20, +29,7% SMA50, +27,1% SMA200) con RSI 64,6 sin sobrecompra extrema y aún en el percentil 31% de su rango anual, lo que evita la lectura de sobreextensión. Se modera por un swing reciente de alta volatilidad (rally a ~US$0,14 con reversión de ~10% en pocos días), patrón más especulativo que de reconquista técnica gradual y limpia."
+  },
+  "fundamental": {
+   "score": 33,
+   "just": "La demanda real de la red sigue muy por debajo de su capacidad técnica y de la narrativa institucional: TVL de solo US$32-67M (82-83% bajo su propio ATH), RWA verificado en US$71M frente a los US$268-425M que reclama la Fundación, y stablecoins marginales (~0,07% del mercado global). El CBDC insignia (Islas Marshall) fue cancelado tras 7 años sin lanzar, antecedente que pesa sobre la credibilidad de futuros anuncios pese a señales incipientes de tracción (wallets activas +29,6%)."
+  },
+  "sentimiento": {
+   "score": 42,
+   "just": "Leído en contrario: no hay pesimismo extremo específico de ALGO que aprovechar — el Fear & Greed cripto general ya está en 'Codicia' (75) y las ballenas acumulan mientras retail vende, una señal mixta más que una oportunidad contraria clara. Que solo el 9% de los holders esté en ganancia añade ambigüedad: puede leerse como capitulación ya descontada o como overhang de venta latente en cualquier repunte."
+  },
+  "riesgo": {
+   "score": 32,
+   "just": "Más allá de la volatilidad cripto típica, persisten riesgos de pérdida permanente de tesis: brecha no resuelta entre cifras oficiales y trackers independientes (RWA, TVL), presión de venta activa de la Fundación (50M+4M ALGO a exchanges en 2026) y ~54% del supply concentrado en ballenas. El historial del proyecto (CBDC cancelado, recorte de plantilla del 25% en mar-2026) suma riesgo de ejecución sobre el riesgo de mercado propio de cualquier cripto."
+  },
+  "conviccion": {
+   "score": 36,
+   "just": "Asimetría limitada al precio actual: el percentil bajo (31%) y la reciente unificación operativa con nuevo CEO abren una vía de reconstrucción de credibilidad, pero sin catalizadores fechados que confirmen una brecha de valor concreta y con fundamentos on-chain que aún no validan la narrativa institucional. La tesis es más una apuesta a la ejecución de 'Algorand 2.0' que una asimetría medible hoy."
+  }
+ },
+ "sources": [
+  "CoinMarketCap/CoinGecko",
+  "Algorand Foundation (algorand.co, Transparency/Algo Insights Reports)",
+  "RWA.xyz",
+  "DefiLlama (vía prensa)",
+  "IntoTheBlock",
+  "BeInCrypto",
+  "CoinDesk",
+  "PR Newswire",
+  "alternative.me (Fear & Greed)",
+  "CME FedWatch/MacroMicro",
+  "TradingView",
+  "Morgan Lewis (clasificación SEC/CFTC)"
+ ],
+ "opportunity": {
+  "cats": {
+   "valuacion_hist": {
+    "score": 55,
+    "just": "Percentil 31% de su rango de 52 semanas y ~96% bajo su ATH de 2019 (aunque esa comparación es poco relevante 7 años después); dilución remanente mínima (90,6% del supply máximo ya circulante) deja poco overhang por emisión futura."
+   },
+   "calidad": {
+    "score": 30,
+    "just": "Tecnología diferenciada (finalidad inmediata, post-cuántico) pero demanda real débil: TVL y RWA muy por debajo de la narrativa oficial, stablecoins marginales, y antecedente de proyecto insignia (CBDC) cancelado tras 7 años sin resultados."
+   },
+   "asimetria": {
+    "score": 38,
+    "just": "Upside a la zona alta de su rango reciente (~US$0,29) es amplio en términos relativos, pero sin niveles de soporte/resistencia consolidados ni catalizador que cierre la brecha; downside a la zona de SMA50/SMA200 (~US$0,096-0,098) no ofrece una relación riesgo/retorno claramente superior a 3:1."
+   },
+   "catalizadores": {
+    "score": 38,
+    "just": "Ruta de corto plazo con fechas concretas (TOKEN2049 6-oct, hackathon 18-19-oct) pero de naturaleza mayormente narrativa/de marca; no hay un catalizador estructural fechado (upgrade mayor, listado grande, resolución regulatoria) que por sí solo cierre la brecha de valor en 6-18 meses."
+   },
+   "contrarian": {
+    "score": 48,
+    "just": "Señal mixta: solo 9% de holders en ganancia y precio aún muy lejos de máximos sugieren pesimismo latente específico de ALGO, pero el Fear & Greed cripto general ya en 'Codicia' (75) reduce el margen para leer el sentimiento en contrario de forma clara."
+   }
+  },
+  "plan": {
+   "recomendacion": "Mantener / Observar",
+   "zona_compra": "US$0,096 - US$0,105 (zona de SMA50/SMA200)",
+   "invalidacion": "Pérdida sostenida de la SMA200 (~US$0,098) en cierre semanal, o nueva evidencia de caída del TVL/stablecoins sobre Algorand",
+   "gatillos": [
+    "Recuperación y crecimiento sostenido del TVL y las stablecoins sobre Algorand, verificado por trackers independientes (DefiLlama, RWA.xyz), no solo por reportes de la Fundación",
+    "Partnerships institucionales que se traduzcan en actividad on-chain medible, no solo en anuncios",
+    "Reducción de las ventas de tesorería de la Fundación bajo el nuevo CEO, con avances verificables hacia la autosuficiencia financiera de 'Algorand 2.0'",
+    "Rotación amplia de capital cripto hacia altcoins (caída de dominancia BTC) que beneficie a ALGO por beta"
+   ],
+   "horizonte": "6-18 meses",
+   "tamano": "Posición pequeña (alta volatilidad, historial de underperformance persistente y brecha no resuelta entre narrativa y datos on-chain verificados; dimensionar acorde)",
+   "confianza": "baja"
+  }
+ },
+ "perfil": "Algorand es una red blockchain de capa 1 fundada en 2017 por Silvio Micali (Premio Turing, MIT), con consenso Pure Proof-of-Stake (PPoS) y selección aleatoria de validadores vía sortición criptográfica, logrando finalidad inmediata sin forks y comisiones de fracciones de centavo. Su propuesta de valor es infraestructura de pagos y tokenización de bajo costo para casos institucionales: tokenización de activos del mundo real (bienes raíces, créditos de carbono, trazabilidad de cadenas de suministro), stablecoins y, en el pasado, proyectos de moneda digital de banco central (CBDC). El token ALGO tiene oferta máxima fija de 10.000 millones, sin mecanismo de quema; desde marzo de 2026 Algorand Foundation absorbió completamente el desarrollo del protocolo (antes en Algorand Technologies), comprometiéndose a financiarlo con capital propio. Consideraciones permanentes: la demanda real de la red (TVL, stablecoins, transacciones) ha sido consistentemente muy inferior a su capacidad técnica y a la narrativa institucional del proyecto; depende de que los anuncios de adopción se traduzcan en actividad on-chain verificable y sostenida, no solo en comunicados.",
+ "reportDate": "30 de septiembre de 2026",
+ "technical": {
+  "price": 0.12446,
+  "change_1d_pct": -0.8,
+  "change_1w_pct": 4.16,
+  "rsi": 64.6,
+  "macd": 0.0089,
+  "macd_signal": 0.0069,
+  "sma20": 0.1069,
+  "sma50": 0.0959,
+  "sma200": 0.098,
+  "ema12": 0.1167,
+  "ema26": 0.1078,
+  "pct_vs_sma20": 16.39,
+  "pct_vs_sma50": 29.74,
+  "pct_vs_sma200": 27.06,
+  "volume_today": null,
+  "volume_avg20": null,
+  "volume_ratio": null,
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "price_percentile_1y": 31.4,
+  "vs_benchmark_30d_pct": 39.13,
+  "perf_1m_pct": 46.98,
+  "perf_ytd_pct": 12.8
+ },
+ "risk": {
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "n_days": 1,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "CRYPTO:BTCUSD",
+  "label": "Bitcoin",
+  "relative_performance_30d": 39.13,
+  "relative_performance_ytd": 17.09,
+  "price_percentile_1y": 31.4,
+  "partial": false
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T16:43:54-03:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T16:43:54-03:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T16:43:54-03:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "CRYPTO:BTCUSD",
+   "fetched_at": "2026-09-30T16:43:54-03:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/FX-ALGOUSD.json",
+   "n_days": 1
+  }
+ },
+ "metricChanges": []
+}
