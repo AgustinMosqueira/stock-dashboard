@@ -133,9 +133,9 @@ def main():
     # 1) update_numbers.py: MAP, BENCH y (si aplica) CLP_ASSETS
     fmt_py = f'("{fmt[0]}", "{fmt[1]}", {fmt[2]}, "{fmt[3]}", "{fmt[4]}")'
     patch("scripts/update_numbers.py",
-          '    "BTC":     ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),',
+          '    "BTC/USD": ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),',
           f'    "{ticker}": ("{symbol}", {fmt_py}),\n'
-          '    "BTC":     ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),',
+          '    "BTC/USD": ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),',
           "update_numbers.MAP")
     patch("scripts/update_numbers.py",
           '    "HDSY": ("TVC:NI225", "Nikkei 225"),',
@@ -163,9 +163,9 @@ def main():
         print("  ✓ template.ORDER")
     fmt_js = f'["{fmt[0]}", "{fmt[1]}", {fmt[2]}, "{fmt[3]}", "{fmt[4]}"]'
     patch("template.html",
-          '    "BTC":     ["CRYPTO:BTCUSD", ["$", "", 0, ",", "."]],',
+          '    "BTC/USD": ["CRYPTO:BTCUSD", ["$", "", 0, ",", "."]],',
           f'    "{ticker}": ["{symbol}", {fmt_js}],\n'
-          '    "BTC":     ["CRYPTO:BTCUSD", ["$", "", 0, ",", "."]],',
+          '    "BTC/USD": ["CRYPTO:BTCUSD", ["$", "", 0, ",", "."]],',
           "template.LIVE_MAP")
     patch("template.html",
           '    "CCU": "BCS:CCU",',

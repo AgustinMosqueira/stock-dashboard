@@ -1,0 +1,207 @@
+{
+ "ticker": "ETH/USD",
+ "company": "Ethereum",
+ "statsList": [
+  [
+   "Precio",
+   "$2,673.61 (30-sep-2026)"
+  ],
+  [
+   "Rango 52 sem.",
+   "US$1.507 – US$4.755 (Barchart/Investing.com, 30-sep-2026)"
+  ],
+  [
+   "Market cap",
+   "~US$325.600 millones (CoinDesk/Coinbase, 30-sep-2026)"
+  ],
+  [
+   "ETH en staking",
+   "~43,5M ETH (~35% de la oferta circulante de ~122M), yield ~2,5-2,6% anual; cola de entrada 1,68M ETH vs. 154.000 ETH esperando salir (The Block/24-7 Wall St., 23-25-sep-2026)"
+  ],
+  [
+   "Flujos ETF spot",
+   "Semana 22-26 sep +US$689,9M (mejor racha desde fines de ago), cortada el 29-sep con salida de -US$2,8M (Farside Investors/The Block/Yahoo Finance, sep-2026)"
+  ],
+  [
+   "Próximo evento",
+   "Fork de prueba de Glamsterdam en Sepolia, 6-oct-2026 (13:53 UTC)"
+  ]
+ ],
+ "change": {
+  "day": -0.11,
+  "week": -0.54
+ },
+ "events": [
+  {
+   "date": "2026-10-06",
+   "label": "Fork de prueba de Glamsterdam en Sepolia",
+   "kind": "corporate",
+   "info": "Activación en el testnet Sepolia a las 13:53 UTC, primera prueba pública real de Glamsterdam (ePBS, Block-Level Access Lists) tras devnets internos. Si corre sin problemas, allana el camino a un mainnet estimado (no oficial) para el 4T-2026 (Cointelegraph/CryptoPotato/TokenPost, 27-29-sep-2026)."
+  },
+  {
+   "date": "2026-10-13",
+   "label": "Kalshi cierra su programa de incentivos de volumen (revisión CFTC de perpetuos ETH)",
+   "kind": "corporate",
+   "info": "Kalshi planea terminar su 'Volume Incentive Program' no antes del 13-oct, tras la revisión de la CFTC sobre ~US$5.000M en operaciones de futuros perpetuos de ETH con patrones casi idénticos agrupados en ~US$5.500. Kalshi niega una investigación formal; el desenlace puede afectar la lectura de liquidez/volumen de derivados de ETH (WSJ/CoinDesk/The Block, 23-30-sep-2026)."
+  },
+  {
+   "date": "2026-10-28",
+   "label": "Reunión del FOMC (decisión de tasas)",
+   "kind": "macro",
+   "time": "15:00",
+   "info": "Reunión de dos días (27-28 oct), decisión el 28-oct. Probabilidad de otra alza de 25pb ~72,3% según CME FedWatch (28-sep), tras el hike del 16-sep a 3,75-4% (el primero desde 2023). Activo de riesgo con alta beta a la política monetaria de la Fed (CME FedWatch/MacroMicro, 16-28-sep-2026)."
+  }
+ ],
+ "sections": {
+  "resumen": "ETH cotiza en ~US$2.674 (-0,1% 24h, -0,5% semana), en el percentil 35,9% de su rango de 52 semanas y ~44% bajo su ATH de ~US$4.755. La red entra en una ventana de catalizadores: el fork de prueba de Glamsterdam activa en Sepolia el 6-oct, camino a un mainnet estimado para el 4T-2026. La SEC aclaró el 25-sep que el staking de ETH no lo convierte en un valor, abriendo la puerta a ETFs con staking. Los flujos de ETFs spot fueron volátiles: una racha de 7 sesiones en verde (+US$689,9M la semana del 22-sep) se cortó el 29-sep. El Fear & Greed bajó de 'Greed' a 'Neutral' (55).",
+  "fundamental": "- Staking: ~43,5M ETH bloqueados (~35% de la oferta), yield ~2,5-2,6%; cola de entrada 1,68M ETH (The Block, sep-2026). HECHO.\n- SEC aclaró el 25-sep que el staking no es un valor, habilitando ETFs con staking (Nasdaq ya presentó ETHA de BlackRock). HECHO.\n- Emisión neta volvió a +0,23% anual: la migración a L2s redujo la quema de comisiones, debilitando 'ultrasound money'. LECTURA.\n- BitMine supera 6M ETH (~4,9% de la oferta) y SharpLink ~867.800 ETH en tesorería corporativa (TipRanks, sep-2026). HECHO.\n- Base y Arbitrum concentran ~77% del TVL de L2; el DeFi de Ethereum ronda US$53,7B, +38% en el 3T-2026. HECHO.",
+  "valuacion": "- Precio -44% desde el ATH (~US$4.755) y percentil 35,9% de su rango de 52 semanas (TradingView, 30-sep-2026). HECHO.\n- 2026 en -9,9% YTD pese al +10,6% del último mes: recuperación parcial desde niveles deprimidos. HECHO.\n- Dominancia ETH ~11,5% vs. BTC ~58,6%; Altcoin Season Index subió a 64 (desde 48), sin cruzar el umbral de 75. HECHO.\n- Frente a BTC, ETH +2,7% en 30 días pero -5,7% en el año: outperformance táctica, no un cambio de tendencia. HECHO.\n- Ratio ETH/BTC ≈0,0319, todavía lejos de sus máximos de ciclos previos: ETH sigue rezagado frente a BTC. LECTURA.",
+  "tecnico": "- RSI 61,2, zona alcista moderada, sin sobrecompra (TradingView, 30-sep-2026). HECHO.\n- MACD +77,4 bajo su señal (+85,5): cruce reciente a la baja, momentum de corto plazo se enfría. HECHO.\n- Precio +2,4% sobre su SMA20, +9,8% sobre su SMA50 y +26,7% sobre su SMA200: la estructura de fondo sigue alcista. HECHO.\n- Percentil 35,9% sin señales de sobreextensión: fase de recuperación, no de euforia. LECTURA.\n- Volatilidad/Sharpe/Sortino: 'Acumulando datos' (activo recién agregado, sin histórico de 30 ruedas). HECHO.",
+  "catalizadores": "**Catalizadores:**\n- Fork de prueba de Glamsterdam en Sepolia el 6-oct, camino a mainnet estimado para el 4T-2026.\n- Posible aprobación de ETFs con staking tras la aclaración de la SEC (25-sep); Nasdaq ya presentó ETHA de BlackRock.\n- Tesorerías corporativas (BitMine, SharpLink) siguen comprando y stakeando ETH pese a la volatilidad.\n- Altcoin Season Index en 64 (desde 48): rotación hacia altcoins gana tracción sin confirmar el umbral de 75.\n\n**Riesgos (por materialidad):**\n- CLARITY Act estancado (falló cloture 15-sep); Senado en receso desde el 2-oct hasta después de las elecciones de medio término.\n- CFTC revisa ~US$5.000M en perpetuos de ETH en Kalshi con patrones casi idénticos; Kalshi lo niega y cierra su incentivo el 13-oct.\n- La emisión neta en terreno positivo debilita el argumento de escasez que sostuvo ciclos alcistas previos.\n- Concentración de ETH en pocas tesorerías (BitMine ~4,9% de la oferta): riesgo de venta forzada.",
+  "sentimiento": "- Fear & Greed bajó de 'Greed' (69-73) a 'Neutral' (55) hacia fin de mes: enfriamiento sin pánico (CFGI.io, sep-2026). HECHO.\n- Flujos ETF spot volátiles: racha de 7 sesiones en verde (+US$689,9M semana del 22-sep) cortada por una salida menor el 29-sep. HECHO.\n- Demanda de staking se mantiene alta: cola de entrada de 1,68M ETH vs. 154.000 ETH esperando salir, señal de convicción de largo plazo. HECHO.\n- El enfriamiento llega tras semanas de Greed sostenido: en lectura contraria, baja el riesgo de una corrección por euforia. LECTURA.\n- Tono regulatorio mixto: la aclaración de la SEC calma el humor de largo plazo, mientras la CFTC a Kalshi agrega ruido de corto plazo. LECTURA.",
+  "conclusion": "ETH cotiza ~44% bajo su ATH, en el percentil 35,9% de su rango anual, con estructura técnica de mediano plazo alcista (sobre sus tres medias) pero momentum de corto plazo mixto (MACD cruzando a la baja). La red encara catalizadores fechados: Glamsterdam entra a pruebas en Sepolia el 6-oct camino a mainnet en el 4T-2026, y la aclaración de la SEC sobre staking (25-sep) abre la puerta a ETFs con staking. Contrapesan el CLARITY Act estancado, la revisión de la CFTC sobre Kalshi y una emisión neta que volvió a ser levemente positiva. Confianza: media."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 58,
+   "just": "Estructura de mediano plazo intacta (+9,8% sobre SMA50, +26,7% sobre SMA200) con percentil anual bajo (35,9%), evidencia de recuperación sin sobreextensión (RSI 61,2, sin sobrecompra); pero el cruce bajista reciente del MACD bajo su señal resta algo de momentum de corto plazo, moderando la nota frente a una lectura puramente alcista."
+  },
+  "fundamental": {
+   "score": 55,
+   "just": "La aclaración de la SEC sobre staking (25-sep) y la acumulación sostenida de tesorerías corporativas (BitMine, SharpLink) refuerzan la demanda estructural, pero la emisión neta volvió a terreno levemente positivo por la migración de actividad a L2s, debilitando el argumento de escasez que sostenía el caso alcista de mediano plazo."
+  },
+  "sentimiento": {
+   "score": 52,
+   "just": "El Fear & Greed se enfrió de 'Greed' (69-73) a 'Neutral' (55) sin señal de pánico, y los flujos ETF muestran una racha positiva reciente cortada por una salida menor: sentimiento en zona media, sin extremos que ameriten una lectura contraria, por lo que la nota sigue la evidencia mixta disponible."
+  },
+  "riesgo": {
+   "score": 46,
+   "just": "El CLARITY Act estancado (Senado en receso hasta después de las elecciones de medio término) y la revisión de la CFTC sobre el volumen de perpetuos de ETH en Kalshi mantienen un riesgo regulatorio/de microestructura elevado, similar al de BTC; se suma la concentración de ETH en pocas tesorerías corporativas (BitMine ~4,9% de la oferta), un riesgo de venta forzada que no existía hace un año."
+  },
+  "conviccion": {
+   "score": 57,
+   "just": "La asimetría es favorable al precio actual: percentil 35,9% de su rango anual, -44% del ATH, con catalizadores fechados (Glamsterdam, posible staking en ETFs) que pueden cerrar la brecha de valor en 6-18 meses; se invalida con pérdida sostenida de la SMA200 (~US$2.110) o si el rezago frente a BTC en el año se profundiza."
+  }
+ },
+ "sources": [
+  "CoinDesk/Coinbase/Fortune/MetaMask",
+  "Farside Investors/The Block/Yahoo Finance",
+  "Cointelegraph/CryptoPotato/TokenPost/Decrypt",
+  "TipRanks/SeekingAlpha/CoinGecko/CoinMarketCap",
+  "MEXC/Bitget/Bit Digital",
+  "The Wall Street Journal/CoinDesk/The Block/CNBC/DisruptionBanking",
+  "24/7 Wall St./The Block/AOL",
+  "AmbCrypto/CryptoRank/BeInCrypto",
+  "DefiLlama/CoinLaw/BlockEden",
+  "CFGI.io/The Block",
+  "Barchart/Investing.com/Yahoo Finance",
+  "CME FedWatch/MacroMicro"
+ ],
+ "opportunity": {
+  "cats": {
+   "valuacion_hist": {
+    "score": 60,
+    "just": "Percentil 35,9% de su rango de 52 semanas y -44% desde el ATH (~US$4.755); barato vs. su propia historia reciente, aunque lejos del extremo inferior del rango (~US$1.507), por lo que no es una valuación de pánico total."
+   },
+   "calidad": {
+    "score": 58,
+    "just": "Red líder en contratos inteligentes con staking clarificado regulatoriamente, demanda institucional creciente (tesorerías, cola de staking) y ecosistema L2 dominante en DeFi; contrapesado por una emisión neta que volvió a ser positiva, debilitando el caso de escasez estructural del activo."
+   },
+   "asimetria": {
+    "score": 66,
+    "just": "Upside al ATH (~US$4.755) implica +78% desde el precio actual (~US$2.674); downside a la SMA200 (~US$2.110) implica -21%. Relación riesgo/retorno favorable aunque no extrema, dado que un quiebre de esa media abriría espacio hacia el mínimo de 52 semanas (~US$1.507)."
+   },
+   "catalizadores": {
+    "score": 60,
+    "just": "Ruta fechada con el fork de prueba de Glamsterdam en Sepolia (6-oct) camino a un mainnet estimado para el 4T-2026, y una posible aprobación de ETFs con staking tras la aclaración de la SEC (25-sep); catalizadores concretos pero sin fecha de resolución binaria cercana para el mainnet."
+   },
+   "contrarian": {
+    "score": 50,
+    "just": "El sentimiento se enfrió a 'Neutral' (55) sin caer en pánico ni euforia; sin una señal contraria clara en ningún sentido, la nota queda en el punto medio a la espera de un extremo que la justifique."
+   }
+  },
+  "plan": {
+   "recomendacion": "Esperar gatillo",
+   "zona_compra": "US$2.300 - US$2.600",
+   "invalidacion": "Pérdida sostenida de la SMA200 (~US$2.110) confirmada en cierre semanal, o ruptura del rango de 52 semanas bajo ~US$1.900",
+   "gatillos": [
+    "Confirmación de fecha de mainnet para Glamsterdam tras el fork de prueba en Sepolia (6-oct)",
+    "Aprobación de staking en ETFs spot de Ethereum (Nasdaq ya presentó la solicitud para ETHA de BlackRock)",
+    "Altcoin Season Index cruzando 75 con dominancia BTC bajo 55%",
+    "Flujos ETF spot de ETH recuperando una racha positiva sostenida tras el outflow del 29-sep"
+   ],
+   "horizonte": "6-18 meses",
+   "tamano": "Posición moderada (activo de alta volatilidad, dimensionar acorde)",
+   "confianza": "media"
+  }
+ },
+ "perfil": "Ethereum es la red de contratos inteligentes programable más usada: sostiene DeFi, stablecoins, tokenización de activos y el ecosistema de rollups de Capa 2 que heredan su seguridad. Desde el Merge (2022) funciona bajo Proof-of-Stake: validadores bloquean ETH (~43,5 millones, ~35% de la oferta de ~122 millones) para producir bloques a cambio de emisión (~1.700 ETH/día). Esa emisión compite con la quema de comisiones (EIP-1559): con alta actividad on-chain el balance es deflacionario, pero desde que el tráfico migró a L2s más baratas la quema cayó y la oferta volvió a crecer levemente, debilitando la narrativa de 'dinero ultrasónico'. El core del valor de la red es ser la capa de liquidación y seguridad de un ecosistema de rollups donde Base y Arbitrum concentran ~77% del TVL de L2, más la demanda creciente de staking institucional. Consideraciones permanentes: competencia de otras L1 por desarrolladores, dependencia de que el valor generado en L2s retorne a L1, y un marco regulatorio evolutivo como principal vector exógeno.",
+ "reportDate": "30 de septiembre de 2026",
+ "risk": {
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "n_days": 1,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "CRYPTO:BTCUSD",
+  "label": "Bitcoin",
+  "relative_performance_30d": 2.69,
+  "relative_performance_ytd": -5.69,
+  "price_percentile_1y": 35.9,
+  "partial": false
+ },
+ "technical": {
+  "price": 2673.61,
+  "change_1d_pct": -0.11,
+  "change_1w_pct": -0.54,
+  "rsi": 61.2,
+  "macd": 77.3632,
+  "macd_signal": 85.5359,
+  "sma20": 2609.5985,
+  "sma50": 2435.3748,
+  "sma200": 2109.7515,
+  "ema12": 2659.958,
+  "ema26": 2582.5948,
+  "pct_vs_sma20": 2.45,
+  "pct_vs_sma50": 9.78,
+  "pct_vs_sma200": 26.73,
+  "volume_today": null,
+  "volume_avg20": null,
+  "volume_ratio": null,
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "price_percentile_1y": 35.9,
+  "vs_benchmark_30d_pct": 2.69,
+  "perf_1m_pct": 10.59,
+  "perf_ytd_pct": -9.94
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T15:43:59-03:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T15:43:59-03:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T15:43:59-03:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "CRYPTO:BTCUSD",
+   "fetched_at": "2026-09-30T15:43:59-03:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/FX-ETHUSD.json",
+   "n_days": 1
+  }
+ },
+ "metricChanges": []
+}
