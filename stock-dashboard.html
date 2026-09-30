@@ -920,7 +920,7 @@
     /* barra de pestañas inferior estilo iOS */
     .tabbar {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0,1fr));
+      grid-template-columns: repeat(5, minmax(0,1fr));
       position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; width: 100vw;
       background: var(--surface);
       border-top: 1px solid var(--hairline);
@@ -979,6 +979,7 @@
   <div class="mode-switch" id="modeSwitch" role="tablist" aria-label="Cambiar de dashboard">
     <button type="button" data-mode="equity" class="active" role="tab" aria-selected="true">Equity Research</button>
     <button type="button" data-mode="fx" role="tab" aria-selected="false">FX Research</button>
+    <button type="button" data-mode="cripto" role="tab" aria-selected="false">Crypto Research</button>
     <button type="button" data-mode="calendar" role="tab" aria-selected="false">Calendario</button>
     <button type="button" data-mode="tech" role="tab" aria-selected="false">Panel Técnico</button>
   </div>
@@ -1005,6 +1006,9 @@
   <button type="button" data-mode="fx" aria-label="FX">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
     <span>FX</span></button>
+  <button type="button" data-mode="cripto" aria-label="Crypto">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="6.5"/><circle cx="15" cy="15" r="6.5"/></svg>
+    <span>Crypto</span></button>
   <button type="button" data-mode="calendar" aria-label="Calendario">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
     <span>Calendario</span></button>
@@ -1099,6 +1103,10 @@
     "independiente antes de tomar decisiones financieras.";
 
   const DATA_DATE = "30-sep-2026";
+  const CRYPTO_TICKERS = new Set([
+    "BTC/USD", "ETH/USD", "XRP/USD", "SOL/USD", "XLM/USD", "XDC/USD",
+    "HBAR/USD", "ALGO/USD", "IOTA/USD", "ONDO/USD", "QNT/USD",
+  ]);
   const MODES = {
     equity: {
       title: "Stock Research — Dashboard de Equity Research",
@@ -1119,7 +1127,17 @@
         "posicionamiento 15% · riesgo de intervención 15%). La señal explicita ambos lados del par " +
         "(p. ej. 'Compra USD / Venta CLP'): score alto favorece a la divisa base, score bajo a la contraparte. " +
         "Es una lectura cuantitativa, no una recomendación.",
-      filter: (s) => s.ticker.includes("/"),
+      filter: (s) => s.ticker.includes("/") && !CRYPTO_TICKERS.has(s.ticker),
+    },
+    cripto: {
+      title: "Stock Research — Dashboard Crypto Research",
+      brand: "Crypto Research",
+      meta: "Research de criptomonedas + score compuesto · investigado vía web search el " + DATA_DATE,
+      note:
+        "El score 0–100 pondera 5 categorías (técnica 25% · fundamental 25% · sentimiento 20% · " +
+        "riesgo 15% · convicción 15%). Es una lectura cuantitativa, no una recomendación. " +
+        "Los pesos son ajustables en la sección de score.",
+      filter: (s) => CRYPTO_TICKERS.has(s.ticker),
     },
     calendar: {
       title: "Stock Research — Calendario de eventos",
@@ -1773,7 +1791,7 @@
       b.addEventListener("click", () => {
         const t = b.dataset.goto;
         state.ticker = t;
-        applyMode(t.includes("/") ? "fx" : "equity");
+        applyMode(t.includes("/") ? (CRYPTO_TICKERS.has(t) ? "cripto" : "fx") : "equity");
       })
     );
     document.querySelectorAll("#main .cal-fclear").forEach((b) =>
@@ -1877,7 +1895,7 @@
       td.addEventListener("click", () => {
         const t = td.dataset.goto;
         state.ticker = t;
-        applyMode(t.includes("/") ? "fx" : "equity");
+        applyMode(t.includes("/") ? (CRYPTO_TICKERS.has(t) ? "cripto" : "fx") : "equity");
       })
     );
   }
@@ -2441,7 +2459,7 @@
   //   publicación. El navegador (o el service worker) puede servir un index.html viejo
   //   de su caché; version.json se pide siempre con no-store, así que si el build
   //   publicado no coincide con el que tiene esta pestaña, se recarga saltando la caché.
-  const BUILD_ID = "20260930203350";
+  const BUILD_ID = "20260930203242";
   let recargando = false;
   async function chequearVersion() {
     if (recargando || location.protocol !== "https:") return;
