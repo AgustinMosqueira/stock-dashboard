@@ -64,6 +64,7 @@ MAP = {
     "ALGO/USD": ("CRYPTO:ALGOUSD", ("$", "", 2, ",", ".")),
     "IOTA/USD": ("CRYPTO:IOTAUSD", ("$", "", 2, ",", ".")),
     "ONDO/USD": ("CRYPTO:ONDOUSD", ("$", "", 2, ",", ".")),
+    "XDC/USD": ("CRYPTO:XDCUSD", ("$", "", 2, ",", ".")),
     "BTC/USD": ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),
     # OJO: FX_IDC (ICE) viene ~0,35% desviado vs el cierre real chileno (verificado
     # 29-jul-2026 contra er-api, currency-api y cierre de mercado); VANTAGE calza.
@@ -98,6 +99,7 @@ BENCH = {
     "ALGO/USD": ("CRYPTO:BTCUSD", "Bitcoin"),
     "IOTA/USD": ("CRYPTO:BTCUSD", "Bitcoin"),
     "ONDO/USD": ("CRYPTO:BTCUSD", "Bitcoin"),
+    "XDC/USD": ("CRYPTO:BTCUSD", "Bitcoin"),
     "HDSY": ("TVC:NI225", "Nikkei 225"),
     "USD/CLP": ("TVC:DXY", "DXY"),
     "EUR/USD": ("TVC:DXY", "DXY"),

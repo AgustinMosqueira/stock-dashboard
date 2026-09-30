@@ -1,0 +1,208 @@
+{
+ "ticker": "XDC/USD",
+ "company": "XDC Network",
+ "statsList": [
+  [
+   "Precio",
+   "$0.03 (30-sep-2026)"
+  ],
+  [
+   "Rango 52 sem.",
+   "US$0,0259 – US$0,1036 (TradingView, 30-sep-2026)"
+  ],
+  [
+   "Market cap",
+   "~US$722M circulante (~21,4B de ~38,1B XDC en circulación, 56%; CoinGecko/CoinMarketCap, 30-sep-2026)"
+  ],
+  [
+   "RWA tokenizado / TVL",
+   "~US$717M en activos tokenizados reportados (Trade Fi Network) vs. ~US$3,8M de TVL on-chain verificable (DeFiLlama, sep-2026)"
+  ],
+  [
+   "Próximo evento",
+   "Cierre de Sibos Miami 2026 (Contour/XDC), 1-oct-2026"
+  ],
+  [
+   "Técnico (auto)",
+   "RSI 69.1 · MACD +0.00 / señal +0.00 (TradingView, 30-sep-2026)"
+  ]
+ ],
+ "change": {
+  "day": 3.58,
+  "week": 3.19
+ },
+ "events": [
+  {
+   "date": "2026-10-01",
+   "label": "Cierre de Sibos Miami 2026 (Contour/XDC)",
+   "kind": "corporate",
+   "info": "Sibos Miami (28-sep al 1-oct) reúne a bancos e infraestructura de pagos globales; Contour, red de trade finance construida sobre XDC, presenta su integración con estándares SWIFT MT/MX, UCP e ISBP y liquidación en fiat/stablecoins. Se esperan anuncios adicionales de adopción bancaria (Swift.com/TFDI, sep-2026)."
+  },
+  {
+   "date": "2026-10-28",
+   "label": "Reunión del FOMC (decisión de tasas)",
+   "kind": "macro",
+   "time": "15:00",
+   "info": "Reunión de dos días (27-28-oct), decisión el 28-oct. Probabilidad de otra alza de 25pb ~72,3% según CME FedWatch (28-sep). XDC, como activo cripto de alta beta aun lejos de sus máximos de rango, es sensible al apetito de riesgo global que fija la política monetaria de la Fed (CME FedWatch/MacroMicro, 16-28-sep-2026)."
+  }
+ ],
+ "sections": {
+  "resumen": "XDC cotiza en US$0,0344 (+3,5% día, +3,1% semana), aun -32,5% en lo que va del año y ~83% bajo su máximo histórico de 2021, aunque supera a Bitcoin por 18pp en 30 días. Es un L1 compatible con EVM enfocado en tokenización de trade finance y activos del mundo real (RWA), con presencia activa en Sibos Miami junto a Contour, un nuevo validador institucional surcoreano (DSRV) y una alianza de yield con BASIS.pro. Pero el TVL on-chain verificable (DeFiLlama, ~US$3,8M) es una fracción mínima de los ~US$717M en \"activos tokenizados\" que reporta Trade Fi Network: hay una brecha real entre narrativa institucional y actividad medible en cadena. Oferta sin techo (~38.100M XDC) con quema parcial de comisiones. Confianza: media.",
+  "fundamental": "- HECHO: agosto 2026 fue mes récord con 27,7M de transacciones y validator set sobre 320 nodos (XDC Pulse/Crypto Economy, sep-2026).\n- HECHO: XDC participa en Sibos Miami (28-sep al 1-oct-2026) junto a Contour, presentando integración con estándares SWIFT MT/MX, UCP e ISBP (Swift.com/TFDI, sep-2026).\n- HECHO: DSRV, VASP regulado surcoreano, se sumó como validador masternode el 18-sep-2026; BASIS.pro anunció partnership de yield institucional el 17-sep-2026 (CoinMarketCap AI, sep-2026).\n- LECTURA: Trade Fi Network reporta >US$717M en \"activos tokenizados\" en la red, pero el TVL on-chain medible por DeFiLlama es de solo ~US$3,8M — gran parte del volumen institucional no es verificable directamente en cadena (DeFiLlama/BTCC, sep-2026).\n- HECHO: Reino Unido movilizó >£500M en cuentas por cobrar de cadena de suministro hacia XDC a inicios de 2026, tras su \"Digital Trade Roadmap\" (Bitget Academy, 2026).",
+  "valuacion": "- HECHO: market cap circulante ~US$722M (~21,4B de ~38,1B XDC en circulación, ~56%; CoinGecko/CoinMarketCap, 30-sep-2026); valor totalmente diluido ~US$1.280M.\n- HECHO: cotiza ~83% bajo su ATH de US$0,194 (ago-2021), percentil 16,9% de su rango de 52 semanas (US$0,0259–US$0,1036; TradingView, 30-sep-2026).\n- HECHO: oferta sin techo máximo, con mecanismo de quema parcial de comisiones estilo EIP-1559 que compensa solo parte de la emisión (Findas, 2026).\n- HECHO: próximo desbloqueo recién en feb-2027 (asignación a desarrollo de ecosistema) — sin presión de oferta cercana tras el desbloqueo de 841M XDC de feb-2026 (Tokenomist, 2026).\n- LECTURA: la valuación depende de que la narrativa RWA/trade finance se traduzca en demanda real de XDC (gas, colateral, staking), no solo en TVL de instrumentos custodiados fuera de cadena.",
+  "tecnico": "- HECHO: RSI 68,9, MACD +0,0015 sobre su señal +0,0009 — momentum positivo sin sobrecompra extrema (TradingView, 30-sep-2026).\n- HECHO: precio +15,6% sobre SMA20, +20,1% sobre SMA50 y +16,8% sobre SMA200 — reconquista simultánea de las tres medias móviles.\n- HECHO: +3,5% día y +3,1% semana, pero percentil de solo 16,9% en su rango anual — el rebote ocurre desde niveles deprimidos, no desde una zona sobreextendida.\n- HECHO: outperformance de +18,1pp vs. Bitcoin en 30 días; +25,8% en el último mes.\n- HECHO: volatilidad/Sharpe/Sortino: \"Acumulando datos\" (activo recién agregado).",
+  "catalizadores": "**Catalizadores:**\n- Resultados concretos de Sibos Miami 2026 (28-sep/1-oct) para Contour/XDC en integración con bancos y estándares SWIFT.\n- Despliegue comercial de XDC 2.0 (auditado por CertiK) y expansión de la alianza QAIX (computación cuántica + IA, lanzada ago-2026).\n- Tracción verificable de XDC AI / estándar x402 (pagos agénticos con USDC) más allá del anuncio.\n- Nuevos listados en exchanges Tier-1 y expansión de validadores institucionales regulados (tras DSRV).\n\n**Riesgos (por materialidad):**\n- Concentración de masternodes: se requieren 10M XDC + KYC para validar, lo que \"concentra la producción de bloques en pocas entidades semi-confiables\" (arXiv, 2024, vigente 2026).\n- Oferta sin techo máximo; el mecanismo de quema no garantiza superar la emisión futura.\n- Riesgo regulatorio sobre el ETP de staking de 21Shares (precedente de la SEC contra el \"staking-as-a-service\").\n- Brecha entre el volumen institucional anunciado (US$717M) y la actividad on-chain verificable (TVL DeFiLlama ~US$3,8M).",
+  "sentimiento": "- HECHO: Fear & Greed cripto en 71-72 (\"Codicia\"), según Alternative.me (30-sep-2026).\n- LECTURA: el sentimiento cripto general ya elevado deja poco margen contrarian amplio, aunque XDC individualmente cotiza en el percentil 16,9% de su propio rango anual — rezagado frente al apetito de riesgo general.\n- HECHO: consenso de precio para fin de 2026 muy disperso: US$0,032-US$0,06 en escenarios base, hasta US$0,15 si la adopción RWA institucional se acelera (BingX/CoinEx, 2026).\n- HECHO: cobertura mayoritariamente constructiva en medios cripto en torno a Sibos, QAIX y el ETP de 21Shares con staking (sep-2026).\n- LECTURA: el precio ya subió ~+26% en 30 días; parte del catalizador de sentimiento (ETP, Sibos) puede estar ya descontado en el corto plazo.",
+  "conclusion": "XDC combina avances reales de adopción institucional —Sibos, DSRV, BASIS.pro, transacciones récord— con una brecha notoria entre la narrativa de US$717M en activos tokenizados y apenas US$3,8M de TVL on-chain verificable. Técnicamente reconquistó sus tres medias móviles sin sobrecompra extrema, cotizando aun en el percentil 16,9% de su rango anual y ~83% bajo su máximo de 2021. El riesgo estructural es la centralización vía masternodes (10M XDC + KYC) y una oferta sin techo. Tesis de seguimiento condicionada a que la adopción se traduzca en actividad on-chain medible, no solo en anuncios. Confianza: media; posición pequeña."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 62,
+   "just": "Reconquista simultánea de las tres medias móviles (+15,4% SMA20, +19,9% SMA50, +16,6% SMA200) con RSI 68,9 sin sobrecompra extrema y percentil bajo (16,8%) de su rango anual — el rebote parte de niveles deprimidos, no de una zona sobreextendida, lo que reduce el riesgo de reversión inmediata."
+  },
+  "fundamental": {
+   "score": 52,
+   "just": "Ejecución institucional real (Sibos, DSRV, BASIS.pro, récord de transacciones) convive con una brecha grande entre el volumen de activos tokenizados anunciado (US$717M) y el TVL on-chain verificable (US$3,8M) — la narrativa institucional aún no se traduce en actividad medible en cadena a esa escala."
+  },
+  "sentimiento": {
+   "score": 44,
+   "just": "Leído en contrario: el Fear & Greed cripto general ya está en \"Codicia\" (71-72), lo que deja poco margen contrarian amplio pese a que XDC individualmente sigue rezagado en el percentil 16,9% de su propio rango anual. El rally reciente responde a catalizadores puntuales (Sibos, ETP), no a un giro de sentimiento específico del activo."
+  },
+  "riesgo": {
+   "score": 35,
+   "just": "Más allá de la volatilidad cripto típica, hay riesgo de pérdida permanente de tesis: concentración de la producción de bloques en masternodes de alto capital (10M XDC + KYC), oferta sin techo máximo con quema que no garantiza compensar la emisión, y riesgo regulatorio sobre el ETP de staking de 21Shares."
+  },
+  "conviccion": {
+   "score": 46,
+   "just": "La asimetría depende de que la adopción institucional (Sibos, TFDI, bancos) se convierta en actividad on-chain verificable y no quede en anuncios; el negocio de infraestructura avanza, pero la tesis de comprar el token hoy requiere apostar a que esa brecha se cierre."
+  }
+ },
+ "sources": [
+  "xdc.org",
+  "xinfin.org",
+  "CoinGecko",
+  "CoinMarketCap",
+  "CoinMarketCap AI",
+  "DeFiLlama",
+  "Tokenomist",
+  "TradingView",
+  "Alternative.me (Fear & Greed)",
+  "Swift.com",
+  "Trade Finance Distribution Initiative (TFDI)",
+  "Crypto Economy",
+  "Bitget Academy",
+  "BingX",
+  "CoinEx",
+  "arXiv (2408.02115)",
+  "BTCC/Cryptopolitan",
+  "KuCoin",
+  "CME FedWatch/MacroMicro"
+ ],
+ "opportunity": {
+  "cats": {
+   "valuacion_hist": {
+    "score": 68,
+    "just": "Percentil 16,8% de su rango de 52 semanas y ~83% bajo su máximo histórico (US$0,194) — barato vs. su propia historia, en la zona baja de su rango anual pese al rebote reciente."
+   },
+   "calidad": {
+    "score": 50,
+    "just": "Infraestructura y equipo con credenciales reales (veteranos de SWIFT, membresía TFDI, validadores institucionales regulados), pero calidad aún condicionada por la centralización de masternodes y por una actividad on-chain verificable muy por debajo del volumen institucional anunciado."
+   },
+   "asimetria": {
+    "score": 65,
+    "just": "Upside hacia el techo de su rango de 52 semanas (~US$0,1036, +200%) frente a downside acotado a la zona de SMA200/mínimo anual (~US$0,0295–US$0,0259, -14% a -25%) — relación riesgo/retorno favorable con niveles técnicos claros."
+   },
+   "catalizadores": {
+    "score": 55,
+    "just": "Ruta de catalizadores identificable y con fechas cercanas (Sibos Miami en curso, XDC 2.0, QAIX, LayerZero/Stargate) aunque varios sin hitos comerciales confirmados todavía dentro de 6-18 meses."
+   },
+   "contrarian": {
+    "score": 46,
+    "just": "Señal mixta: el sentimiento cripto general ya está en \"Codicia\", pero XDC individualmente sigue rezagado en el percentil 16,9% de su propio rango anual, lo que deja algo de margen relativo frente al resto del mercado."
+   }
+  },
+  "plan": {
+   "recomendacion": "Esperar gatillo",
+   "zona_compra": "US$0,028 – US$0,030 (zona de SMA50/SMA200, antes de agregar en fuerza)",
+   "invalidacion": "Pérdida de SMA200 (~US$0,0295) en cierre semanal, o quiebre del mínimo anual (~US$0,0259)",
+   "gatillos": [
+    "Confirmación de flujo real de activos tokenizados medido en TVL on-chain (DeFiLlama), no solo en anuncios de partnerships",
+    "Acuerdos concretos post-Sibos Miami con bancos o Contour con volumen verificable",
+    "Avance comercial medible de la alianza QAIX y de XDC AI/x402 (pagos agénticos)",
+    "Nueva validación institucional (más VASPs regulados como DSRV) sin eventos de censura o centralización"
+   ],
+   "horizonte": "6-18 meses",
+   "tamano": "Posición pequeña (alta dependencia narrativa vs. actividad on-chain verificable, concentración de masternodes y oferta sin techo; dimensionar con cautela)",
+   "confianza": "media"
+  }
+ },
+ "perfil": "XDC Network (antes XinFin) es una blockchain de capa 1 compatible con EVM que se posiciona como infraestructura para trade finance, tokenización de activos del mundo real (RWA) y pagos transfronterizos entre bancos, empresas e instituciones. Su core de negocio no es una empresa con ingresos propios sino una red: el valor se genera si actores institucionales usan la cadena para liquidar cartas de crédito, cuentas por cobrar y otros instrumentos de comercio, en asociación con redes como Contour y consorcios como la Trade Finance Distribution Initiative. Usa el consenso XDPoS 2.0 (Chained HotStuff, finalidad en ~2 bloques), con 108 masternodes seleccionados por época entre validadores que deben depositar 10 millones de XDC y pasar KYC. La oferta no tiene techo máximo (~38.100 millones de XDC emitidos), con un mecanismo de quema parcial de comisiones que compensa solo parte de la emisión. Consideraciones permanentes: la exigencia de capital y KYC para validar concentra la producción de bloques en pocas entidades; y la demanda real de XDC depende de que la adopción institucional anunciada se traduzca en actividad on-chain medible, no solo en partnerships y cobertura de prensa.",
+ "reportDate": "30 de septiembre de 2026",
+ "risk": {
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "n_days": 1,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "CRYPTO:BTCUSD",
+  "label": "Bitcoin",
+  "relative_performance_30d": 18.17,
+  "relative_performance_ytd": -28.01,
+  "price_percentile_1y": 17.0,
+  "partial": false
+ },
+ "technical": {
+  "price": 0.03448,
+  "change_1d_pct": 3.58,
+  "change_1w_pct": 3.19,
+  "rsi": 69.1,
+  "macd": 0.0015,
+  "macd_signal": 0.0009,
+  "sma20": 0.0298,
+  "sma50": 0.0287,
+  "sma200": 0.0295,
+  "ema12": 0.0316,
+  "ema26": 0.0302,
+  "pct_vs_sma20": 15.72,
+  "pct_vs_sma50": 20.18,
+  "pct_vs_sma200": 16.91,
+  "volume_today": null,
+  "volume_avg20": null,
+  "volume_ratio": null,
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "price_percentile_1y": 17.0,
+  "vs_benchmark_30d_pct": 18.17,
+  "perf_1m_pct": 25.88,
+  "perf_ytd_pct": -32.43
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T17:23:40-03:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T17:23:40-03:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T17:23:40-03:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "CRYPTO:BTCUSD",
+   "fetched_at": "2026-09-30T17:23:40-03:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/FX-XDCUSD.json",
+   "n_days": 1
+  }
+ },
+ "metricChanges": []
+}
