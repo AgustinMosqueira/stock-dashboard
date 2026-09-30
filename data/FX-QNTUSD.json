@@ -1,0 +1,201 @@
+{
+ "ticker": "QNT/USD",
+ "company": "Quant",
+ "statsList": [
+  [
+   "Precio",
+   "$287.42 (30-sep-2026)"
+  ],
+  [
+   "Rango 52 sem.",
+   "US$53,70 – US$368,71 (TradingView, 30-sep-2026)"
+  ],
+  [
+   "Market cap",
+   "~US$3.470 millones circulante (12.072.738 de 14.612.493 QNT, 82,6% circulante; CoinGecko/Tokenomist, 30-sep-2026)"
+  ],
+  [
+   "Adopción bancaria",
+   "7 bancos UK (Barclays, HSBC, Lloyds, NatWest, Santander, Monzo) en producción + red de 25 bancos EE.UU. vía The Clearing House, apertura prevista 1S-2027 (Genfinity/KuCoin, 24-29-sep-2026)"
+  ],
+  [
+   "Próximo evento",
+   "Reunión del FOMC (decisión de tasas), 28-oct-2026"
+  ],
+  [
+   "Técnico (auto)",
+   "RSI 80.9 · MACD +48.91 / señal +24.94 (TradingView, 30-sep-2026)"
+  ]
+ ],
+ "change": {
+  "day": 7.8,
+  "week": 0.29
+ },
+ "events": [
+  {
+   "date": "2026-10-28",
+   "label": "Reunión del FOMC (decisión de tasas)",
+   "kind": "macro",
+   "time": "15:00",
+   "info": "Reunión de dos días (27-28 oct), decisión el 28-oct. Probabilidad de otra alza de 25pb ~72,3% según CME FedWatch (28-sep-2026), tras el hike del 16-sep a 3,75-4%. QNT es un activo de riesgo con alta beta al apetito general por cripto, no solo a su propio catalizador (CME FedWatch/MacroMicro, 16-28-sep-2026)."
+  },
+  {
+   "date": "2027-06-30",
+   "label": "Apertura prevista de la red On-Chain Money Initiative de The Clearing House (fecha aproximada, ventana 1S-2027)",
+   "kind": "corporate",
+   "info": "The Clearing House —cámara que procesa ~US$2 billones diarios entre 25 bancos de EE.UU., incluidos JPMorgan y Bank of America— eligió a Quant como capa de interoperabilidad para su iniciativa de depósitos tokenizados (anuncio 24-sep-2026). Apertura a instituciones participantes prevista para el primer semestre de 2027, sin fecha exacta confirmada; es el catalizador binario central de la tesis de adopción (Genfinity/KuCoin, 24-29-sep-2026)."
+  }
+ ],
+ "sections": {
+  "resumen": "QNT protagonizó uno de los rallies más violentos del año cripto: pasó de ~US$50 a un pico de US$373 (28-sep) tras conocerse que The Clearing House —cámara que mueve US$2 billones diarios entre 25 bancos de EE.UU., incluidos JPMorgan y Bank of America— eligió a Quant como capa de interoperabilidad para tokenizar depósitos, con apertura prevista 1S-2027 (Genfinity, 24-sep-2026). Días antes, siete bancos del Reino Unido ya habían liquidado el primer pago real con depósitos tokenizados vía Quant. Hoy cotiza en US$287, -23% desde el pico, con RSI que bajó de ~100 a 81 tras ventas de ballenas dormidas desde 2023. Sigue 33% bajo su máximo histórico de 2021 (US$428).",
+  "fundamental": "- The Clearing House eligió a Quant como proveedor de su On-Chain Money Initiative (24-sep-2026): 25 bancos de EE.UU., apertura prevista 1S-2027 (Genfinity/KuCoin).\n- Depósitos tokenizados en libras pasaron de prueba a producción real: el 26-sep, seis bancos UK (Barclays, HSBC, Lloyds, NatWest, Santander, Monzo) liquidaron un refinanciamiento hipotecario real sobre Overledger (Genfinity, 29-sep-2026).\n- Fusion Rollup está en mainnet desde el 2-jun-2026, conectando 74 blockchains — base técnica de los anuncios bancarios recientes (Disruption Banking, jun-2026).\n- Ingresos: licencia anual de Overledger pagada en QNT, con tokens bloqueados hasta 12 meses; sin dato público de ingresos recurrentes ni clientes activos (coinstats.app, sep-2026).\n- Competencia: Chainlink CCIP ya conecta con Swift (11.500 bancos) desde nov-2025, mismo mercado institucional desde otro ángulo (BSCNews, sep-2026).",
+  "valuacion": "- Market cap ~US$3.470M, 82,6% circulante (12.072.738 de 14.612.493 QNT, supply fijo) — CoinGecko/Tokenomist, 30-sep-2026.\n- Percentil 74% de su rango de 52 semanas (US$53,70–US$368,71): ya no barato vs. su propio año (TradingView, 30-sep-2026).\n- Cotiza 33% bajo su ATH de sep-2021 (US$428,45) — techo técnico de referencia.\n- Outperformance extremo vs. Bitcoin: +370% en 30 días, efecto de la noticia puntual, no tendencia sostenible (TradingView, 30-sep-2026).\n- Sin ingresos públicos: no hay múltiplo de flujo de caja calculable; la valuación descansa en expectativa de adopción.",
+  "tecnico": "- RSI 80,9, bajando desde un pico cercano a 100 el 28-sep — sobrecompra vigente pero en descompresión (TradingView, 30-sep-2026).\n- Precio +294% sobre su SMA200 y +155% sobre su SMA20 — extensión extrema típica de un evento de noticia, no de tendencia orgánica.\n- Soporte inmediato ~US$255; ruptura abre zona Fibonacci US$227–243; resistencia US$303–373 (Cryptonomist, 25-30-sep-2026).\n- Volatilidad, Sharpe y drawdown: \"Acumulando datos\" — activo recién incorporado, sin serie histórica propia.\n- Ballenas dormidas desde 2023 movieron ~US$10M a exchanges el 29-sep, toma de utilidades tras el pico (TheCryptoBasic, 29-sep-2026).",
+  "catalizadores": "**Catalizadores:**\n- Apertura operativa de la red de The Clearing House (25 bancos EE.UU.), prevista 1S-2027 — hito binario de adopción real.\n- Expansión del piloto UK de prueba de concepto a volumen comercial sostenido.\n- Nuevos bancos/instituciones sumándose a Overledger tras la validación del deal.\n- FOMC 28-oct-2026: ~72% de prob. de otra alza de tasas, afecta apetito por riesgo cripto.\n\n**Riesgos (por materialidad):**\n- Adopción sin ingresos verificables: no hay cifra pública de licencias pagadas ni volumen transaccional.\n- Corrección técnica en curso tras RSI cercano a 100 y ventas de ballenas; QNT tiene historial de caídas >70% tras picos parabólicos (ciclo 2021).\n- ~2M QNT en tesorería de la empresa, liberables sin calendario público — riesgo de dilución.\n- Competencia de Chainlink CCIP, ya conectado a Swift con 11.500 bancos miembro.",
+  "sentimiento": "- Euforia minorista: 645 transacciones grandes de ballenas en un día (récord, Santiment 28-sep) y RSI rozando 100 — sobrecalentamiento, no entrada contraria.\n- Ballenas dormidas desde 2023 (una movió US$10M) vendieron durante la suba — distribución, no acumulación nueva.\n- Cobertura mediática saturada (\"surge 322%\", \"ATH a la vista\") típica de un pico de atención (Cryptonomist/BeInCrypto, 25-28-sep-2026).\n- Leído en contrario: la euforia unánime sugiere cautela de corto plazo, aunque el catalizador de fondo es genuino, no solo narrativa.",
+  "conclusion": "QNT combina un catalizador fundamental genuino —adopción bancaria real— con una reacción de precio extrema y probablemente insostenible en lo inmediato: RSI que rozó 100, ballenas dormidas vendiendo y un salto de +300% en una semana que el mercado ya corrige (-23% desde el pico). La tesis de mediano plazo es sólida y fechada (apertura 1S-2027), pero comprar hoy significa pagar una noticia ya conocida, sin ingresos recurrentes que la validen todavía. Conviene esperar que el precio decante antes de construir posición. Confianza: media."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 32,
+   "just": "Extensión extrema (+294% sobre SMA200, RSI 80,9 tras rozar 100) es evidencia de sobreextensión, no de cambio de carácter constructivo — la filosofía anti-momentum penaliza esto aunque la tendencia sea alcista. Sin serie histórica propia para confirmar sostenibilidad."
+  },
+  "fundamental": {
+   "score": 60,
+   "just": "El deal con The Clearing House y la producción real de depósitos tokenizados en UK son validación institucional genuina, poco común en cripto. Pero no hay dato público de ingresos recurrentes ni clientes activos que confirme que la adopción se traduce en flujo de caja."
+  },
+  "sentimiento": {
+   "score": 28,
+   "just": "Leído en contrario: euforia unánime, cobertura mediática saturada, RSI cercano a 100 y ballenas dormidas vendiendo en la suba — el patrón típico de un techo de corto plazo, no de una oportunidad contraria."
+  },
+  "riesgo": {
+   "score": 40,
+   "just": "Más allá de la volatilidad típica cripto: ~2M QNT en tesorería sin calendario de venta público, dependencia de un fundador único, y adopción anunciada sin verificación de ingresos. La mejora de calidad del negocio es real pero no compensa del todo la opacidad financiera."
+  },
+  "conviccion": {
+   "score": 35,
+   "just": "La asimetría al precio actual es pobre: el mercado ya incorporó la noticia buena con un salto de +300%, comprimiendo el upside inmediato. La tesis de largo plazo es falsable (apertura de la red en 1S-2027) pero no urge pagarla al precio de hoy."
+  }
+ },
+ "sources": [
+  "Genfinity",
+  "KuCoin",
+  "Cryptonomist",
+  "BeInCrypto",
+  "TheCryptoBasic",
+  "Disruption Banking",
+  "coinstats.app",
+  "CoinGecko/CoinMarketCap",
+  "Tokenomist",
+  "Santiment",
+  "BSCNews",
+  "TradingView",
+  "CME FedWatch/MacroMicro"
+ ],
+ "risk": {
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "n_days": 1,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "CRYPTO:BTCUSD",
+  "label": "Bitcoin",
+  "relative_performance_30d": 370.51,
+  "relative_performance_ytd": 318.36,
+  "price_percentile_1y": 74.2,
+  "partial": false
+ },
+ "technical": {
+  "price": 287.42,
+  "change_1d_pct": 7.8,
+  "change_1w_pct": 0.29,
+  "rsi": 80.9,
+  "macd": 48.9117,
+  "macd_signal": 24.9396,
+  "sma20": 112.6837,
+  "sma50": 82.4963,
+  "sma200": 72.8466,
+  "ema12": 175.2462,
+  "ema26": 126.3345,
+  "pct_vs_sma20": 155.07,
+  "pct_vs_sma50": 248.4,
+  "pct_vs_sma200": 294.56,
+  "volume_today": null,
+  "volume_avg20": null,
+  "volume_ratio": null,
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "price_percentile_1y": 74.2,
+  "vs_benchmark_30d_pct": 370.51,
+  "perf_1m_pct": 378.26,
+  "perf_ytd_pct": 313.98
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T17:27:57-03:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T17:27:57-03:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-09-30T17:27:57-03:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "CRYPTO:BTCUSD",
+   "fetched_at": "2026-09-30T17:27:57-03:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/FX-QNTUSD.json",
+   "n_days": 1
+  }
+ },
+ "metricChanges": [],
+ "opportunity": {
+  "cats": {
+   "valuacion_hist": {
+    "score": 38,
+    "just": "Percentil 74% de su rango de 52 semanas y solo 33% bajo su ATH de 2021 — ya no está barato vs. su propia historia tras el salto de +300% en una semana."
+   },
+   "calidad": {
+    "score": 58,
+    "just": "Validación institucional real (The Clearing House, producción UK) mejora genuinamente la calidad del negocio, pero la opacidad sobre ingresos recurrentes y el token de tesorería sin calendario le restan puntos."
+   },
+   "asimetria": {
+    "score": 50,
+    "just": "Upside al ATH de 2021 (~US$428, +49%) frente a downside a la zona de soporte US$227–255 (-21% a -30%) — relación razonable pero comprimida por la extensión técnica actual, no una asimetría extrema."
+   },
+   "catalizadores": {
+    "score": 70,
+    "just": "Ruta fechada y concreta: apertura de la red de The Clearing House en 1S-2027, expansión del piloto UK, y adopción bancaria adicional ya validada por la marca — catalizadores reales, no especulativos."
+   },
+   "contrarian": {
+    "score": 25,
+    "just": "Señal débil: hay euforia, no pesimismo — cobertura mediática saturada, RSI rozando 100 y ballenas vendiendo en la suba son lo opuesto a una lectura contraria favorable."
+   }
+  },
+  "plan": {
+   "recomendacion": "Mantener / Observar",
+   "zona_compra": "US$220 – US$255 (zona de soporte/Fibonacci post-corrección, antes de agregar tras el enfriamiento del RSI)",
+   "invalidacion": "Pérdida de la zona US$220 en cierre diario, o evidencia hacia 2027 de que la adopción anunciada no se traduce en licencias/ingresos verificables",
+   "gatillos": [
+    "RSI semanal volviendo a zona neutral (<60) tras el enfriamiento actual",
+    "Primeros datos públicos de ingresos recurrentes o volumen transaccional de la red de The Clearing House",
+    "Nuevas instituciones confirmando integración a Overledger tras la validación del deal bancario"
+   ],
+   "horizonte": "6-18 meses",
+   "tamano": "Posición pequeña mientras dure la descompresión técnica (RSI aún sobrecomprado, ballenas vendiendo); ampliar solo en confirmación de gatillos",
+   "confianza": "media"
+  }
+ },
+ "perfil": "Quant Network es una empresa británica de infraestructura blockchain que vende a bancos, gobiernos y grandes empresas la interoperabilidad entre múltiples redes distribuidas y los sistemas bancarios tradicionales, a través de su plataforma Overledger. No es una blockchain propia ni un protocolo DeFi: es un sistema operativo regulado que conecta cadenas públicas y privadas sin que cada institución deba integrarse una por una con cada red. El token QNT es de utilidad, no de gobernanza: las empresas pagan una licencia anual de Overledger en QNT y bloquean tokens para operar, por lo que su demanda depende de adopción comercial real, no de un ecosistema de apps. El suministro es fijo en 14.612.493 QNT, sin emisión inflacionaria. Consideraciones permanentes: dependencia crítica de que la adopción bancaria anunciada se traduzca en ingresos recurrentes verificables (hoy sin reporte público), equipo reducido y fundador único (Gilbert Verdian) frente a rivales mejor financiados, y competencia de otros protocolos de interoperabilidad —como Chainlink CCIP— desde el lado cripto-nativo.",
+ "reportDate": "30 de septiembre de 2026"
+}
