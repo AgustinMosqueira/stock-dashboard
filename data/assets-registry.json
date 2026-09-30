@@ -1,6 +1,6 @@
 {
  "_comentario": "Lista maestra de activos del dashboard. Un activo solo sale de aquí ejecutando scripts/remove_asset.py. update_numbers.py verifica este registro en cada corrida y RESTAURA automáticamente desde data/<TICKER>.json cualquier activo que falte en stocks-data.json (protege contra pérdidas por conflictos de git o corridas fallidas).",
- "actualizado": "2026-09-22",
+ "actualizado": "2026-09-30",
  "activos": [
   "AAPL",
   "MSFT",
@@ -11,7 +11,7 @@
   "MU",
   "MP",
   "SPCX",
-  "BTC",
+  "BTC/USD",
   "HDSY",
   "CLSK",
   "MSTR",

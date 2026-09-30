@@ -56,7 +56,7 @@ MAP = {
     "ORCL": ("NYSE:ORCL", ("$", "", 2, ",", ".")),
     "NIKE": ("NYSE:NKE", ("$", "", 2, ",", ".")),
     "LATAM": ("BCS:LTM", ("$", " CLP", 2, ".", ",")),
-    "BTC":     ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),
+    "BTC/USD": ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),
     # OJO: FX_IDC (ICE) viene ~0,35% desviado vs el cierre real chileno (verificado
     # 29-jul-2026 contra er-api, currency-api y cierre de mercado); VANTAGE calza.
     "USD/CLP": ("VANTAGE:USDCLP", ("", "", 2, ",", ".")),
@@ -73,7 +73,7 @@ BENCH = {
     "AMZN": BENCH_US, "TSLA": BENCH_US, "MU": BENCH_US, "SPCX": BENCH_US, "MP": BENCH_US,
     "CCU": ("CBOE:ECH", "ECH (proxy Chile/IPSA)"),
     "CMPC": ("CBOE:ECH", "ECH (proxy Chile/IPSA)"),
-    "BTC": ("CRYPTOCAP:TOTAL", "Cripto total (ciclo)"),
+    "BTC/USD": ("CRYPTOCAP:TOTAL", "Cripto total (ciclo)"),
     "CLSK": ("CRYPTO:BTCUSD", "Bitcoin"),
     "MSTR": ("CRYPTO:BTCUSD", "Bitcoin"),
     "CENCOSUD": ("CBOE:ECH", "ECH (proxy Chile/IPSA)"),
