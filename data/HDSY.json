@@ -1,291 +1,284 @@
 {
- "ticker": "HDSY",
- "company": "Harmonic Drive Systems Inc.",
- "statsList": [
-  [
-   "Precio",
-   "¥6.400 (cierre 26-sep-2026, viernes; stockanalysis.com/MarketScreener/Investing.com convergen 26-sep-28-sep-2026)"
+  "ticker": "HDSY",
+  "company": "Harmonic Drive Systems Inc.",
+  "statsList": [
+    [
+      "Precio",
+      "¥6,500 (1-oct-2026)"
+    ],
+    [
+      "Rango 52 sem.",
+      "¥2.420 – ¥9.150 (stockanalysis.com, 2-oct-2026; mínimo marzo-2026, máximo fines mayo-2026, sin cambios)"
+    ],
+    [
+      "Listado",
+      "Bolsa de Tokio: 6324"
+    ],
+    [
+      "Market cap",
+      "≈¥586.930 millones (~US$3,7 mil millones; stockanalysis.com, 2-oct-2026), +125,4% interanual — HECHO: baja levemente vs. ¥605.870M de la semana previa por precio algo menor, no por cambio de acciones en circulación"
+    ],
+    [
+      "P/E",
+      "Sigue disperso: Kabutan reporta trailing 103,6x (PBR 7,64x) vs. forward 2027 ~82x-92x (Investing.com/MarketScreener) · GAP DE COBERTURA: no reconciliado, distintas bases de EPS (TTM vs. forecast)"
+    ],
+    [
+      "Target consenso",
+      "≈¥7.597 (10-11 analistas; stockanalysis.com/TipRanks agregado, 2-oct-2026), +16,9% vs. precio actual — HECHO: sin cambio relevante vs. semana previa. GAP DE COBERTURA: ninguna nota nueva de Bernstein/Goldman/Citi/Jefferies/Morgan Stanley confirmada entre 28-sep y 2-oct-2026; targets previos (Deutsche Securities ¥9.900, Citi ¥9.700, Morgan Stanley ¥5.800, Jefferies ¥10.000) siguen siendo la referencia más reciente verificada."
+    ],
+    [
+      "Próx. earnings",
+      "~5-nov-2026 estimado por patrón histórico (semestre FY3/26 se reportó 19-nov-2025 según PDF IR oficial hds.co.jp). LECTURA, sin fecha oficial en calendario IR hds.co.jp/ir/event/calendar al 2-oct-2026, que solo muestra estructura genérica — GAP DE COBERTURA persiste sin cambios."
+    ],
+    [
+      "Técnico (auto)",
+      "RSI 59.0 · MACD +114.01 / señal +21.83 (TradingView, 1-oct-2026)"
+    ]
   ],
-  [
-   "Rango 52 sem.",
-   "¥2.420 – ¥9.150 (stockanalysis.com/Investing.com/MarketScreener, 26/28-sep-2026; mínimo de marzo-2026, máximo de fines de mayo-2026, sin cambios vs. semana previa)"
+  "change": {
+    "day": -1.66,
+    "week": 3.17
+  },
+  "events": [
+    {
+      "date": "2026-11-05",
+      "label": "Q2 FY3/27 (semestre a sep-2026), fecha estimada",
+      "kind": "earnings",
+      "info": "LECTURA: estimación por patrón histórico (semestre FY3/26 reportado 19-nov-2025). Calendario IR oficial (hds.co.jp/ir/event/calendar) verificado de nuevo el 2-oct-2026 sigue sin fecha concreta — GAP DE COBERTURA sin cambios. Foco: sostenibilidad de guidance (ventas ¥74.500M, oper. ¥8.500M), pedidos humanoides, cliente(s) norteamericano(s)."
+    },
+    {
+      "date": "2026-10-15",
+      "label": "Ventana de posible avance IPO Hong Kong de Leaderdrive",
+      "kind": "corporate",
+      "info": "LECTURA: Leaderdrive sigue pendiente de aprobación de accionistas/reguladores (CSRC, HKEX) tras aprobación de directorio 26-ago-2026; verificado 2-oct-2026 sin fecha de pricing/debut aún. De completarse, dará visibilidad comparativa sobre capacidad/pedidos del competidor chino."
+    }
   ],
-  [
-   "Listado",
-   "Bolsa de Tokio: 6324"
+  "sections": {
+    "resumen": "HDSY (TSE:6324) cotiza ¥6.500 (1-oct), -1,66% día, +3,17% semana. El ex-dividendo de ¥10/acción se ejecutó el 29-sep según lo previsto (HECHO: stockanalysis.com/Kabutan, 2-oct), sin impacto de precio relevante dado el bajo yield (~0,16% sobre ¥6.300). Sin TDnet nuevo desde el acuerdo Riken NPR (18/24-sep) — GAP DE COBERTURA confirmado tras nueva búsqueda. Se aclara que el proveedor de actuadores de Boston Dynamics (Atlas) es Hyundai Mobis vía acuerdo de enero-2026, sin vínculo documentado con HDS — ni confirmación ni desmentido de relación indirecta. Leaderdrive (China) sigue sin completar su IPO en Hong Kong; consenso de precio objetivo estable en ¥7.597.",
+    "fundamental": "- Sin comunicado TDnet nuevo entre 24-sep y 2-oct-2026 (verificado de nuevo); acuerdo Riken NPR (resina) sigue siendo el último hito corporativo.\n- Guidance FY3/27 sin cambios: ventas ¥74.500M (+25,1%), oper. ¥8.500M (+231%), neto ¥6.000M (+273%).\n- Ex-dividendo ¥10/acción ejecutado 29-sep como estaba previsto (HECHO), confirma payout ~35% y dividendo anual ¥20; sin sorpresas.\n- ACLARACIÓN: el acuerdo Mobis-Boston Dynamics para actuadores de Atlas data de enero-2026 (CES), no de esta semana, y ninguna fuente vincula a HDS con ese acuerdo directa o indirectamente — se retira la lectura previa de \"cliente perdido\", queda como ambigüedad sin resolver.\n- GAP DE COBERTURA: sin TDnet sobre pedidos de humanoides ni fecha oficial de Q2 FY3/27 en la ventana 28-sep-2-oct-2026.",
+    "valuacion": "- Market cap ≈¥586.930M (baja levemente vs. semana previa por precio), P/E sigue exigente (trailing 103,6x Kabutan vs. forward ~82x-92x), GAP DE COBERTURA de reconciliación persiste.\n- Consenso ¥7.597 (+16,9%) sin cambios relevantes vs. semana previa; rango de targets sigue amplio (¥5.800 Morgan Stanley a ¥10.000-11.000 Jefferies/otro banco), sin nota nueva confirmada en la ventana.\n- PBR 7,64x (Kabutan) confirma múltiplo de crecimiento, no de valor — mercado sigue pagando por optionality de humanoides, no por utilidades actuales.\n- Leaderdrive (IPO HK aún pendiente) y Laifual Drive (cotiza en HK desde 30-jun-2026, ingresos H1 +80%) siguen siendo la presión estructural de capital/escala del sector, sin novedad esta semana.",
+    "tecnico": "- Precio ¥6.500 (1-oct), -1,66% día pero +3,17% semana; RSI 59,0 en zona neutra-alcista, sin sobrecompra.\n- MACD +114,01 sobre señal +21,83 — momentum positivo y ampliándose, señal de continuidad más que de agotamiento.\n- Precio sobre SMA20 (¥6.029,5, +7,8%), SMA50 (¥6.153,0, +5,64%) y SMA200 (¥5.365,9, +21,14%) — estructura de tendencia alcista intacta en los tres plazos.\n- Percentil 1 año 60,6% (tercio superior del rango), drawdown 1 año -40,16% — recuperación fuerte desde mínimos pero aún lejos del máximo de 52 semanas (¥9.150).\n- Supera a Nikkei 225 en 30 días por +11,95% — fortaleza relativa clara, sin señal de cambio de carácter bajista.",
+    "catalizadores": "**Catalizadores:**\n- Reporte Q2 FY3/27 (~5-nov-2026 estimado, sin fecha oficial) — validará sostenibilidad de guidance y pedidos.\n- Posible avance/pricing del listado en Hong Kong de Leaderdrive (aprobado 26-ago, aún pendiente de reguladores) — visibilidad comparativa sobre capacidad china.\n- Primera aplicación comercial concreta del acuerdo Riken NPR (resina) con cliente nombrado — sin fecha aún.\n- Confirmación de cliente(s) humanoides norteamericanos entre los >15 prospectos — sigue pendiente; sin vínculo confirmado ni descartado con el ecosistema Boston Dynamics/Mobis.\n\n**Riesgos (por materialidad):**\n- Competencia china con acceso a capital: Laifual Drive ya cotiza en HK (ingresos H1 +80%) y Leaderdrive avanza hacia su propio listado — presión estructural sobre múltiplos del sector.\n- Apalancamiento operativo extremo (+231% guidance) funciona igual de violento a la baja; sin evidencia nueva de pedidos que sostenga el guidance ya revisado dos veces.\n- Ambigüedad sin resolver sobre el mapa de clientes occidentales de humanoides: ningún proveedor confirmado nombrado para HDS, mientras competidores sí muestran acuerdos concretos (Mobis-Boston Dynamics).\n- Valuación exigente (P/E 82x-103x) deja poco margen de error si Q2 FY3/27 no sorprende al alza.",
+    "sentimiento": "- Consenso sell-side mayoritariamente Buy (7 Buy/2 Hold-Sell sobre ~10-11 analistas) con target promedio estable en ¥7.597 — sin nuevo deterioro esta semana, a diferencia de la caída observada la semana anterior.\n- Sin nota nueva confirmada de bancos grandes desde el 28-sep; flujo de coberturas sigue frío. Notas previas (Deutsche Securities ¥9.900, Citi ¥9.700) siguen siendo la referencia.\n- Leído en contrario: la ausencia de pánico tras el ex-dividendo y la falta de nuevas coberturas sugiere consolidación de expectativas, no deterioro de tesis.\n- GAP DE COBERTURA: short interest del ADR OTC (HSYDF) sigue sin actualización desde el 31-ago-2026 (-47,5%, días para cubrir 197,3), dato ya reportado, sin novedad.",
+    "conclusion": "HDSY ejecutó su ex-dividendo sin sobresaltos (HECHO) y sostiene fortaleza técnica clara: +21% sobre SMA200, +11,95% vs. Nikkei en 30 días, MACD expandiéndose. Pero la semana fue fundamentalmente tranquila: sin TDnet nuevo, sin nota de bancos, sin avance del IPO de Leaderdrive, y la narrativa de cliente humanoide occidental sigue sin resolverse (ni confirmada ni descartada). El mercado paga múltiplos de crecimiento (P/E ~100x) sobre una tesis aún no validada por pedidos concretos. Confianza media: el momentum técnico es sólido, pero sin catalizador fundamental nuevo el riesgo de sobreextensión hacia Q2 FY3/27 (~5-nov) aumenta."
+  },
+  "scores": {
+    "tecnica": {
+      "score": 64,
+      "just": "Cambio de carácter alcista confirmado: precio sobre las tres medias móviles, MACD expandiéndose (+114 vs señal +21,8), RSI 59 sin sobrecompra, fortaleza relativa +11,95% vs. Nikkei en 30 días — momentum sano sin señales de sobreextensión aún."
+    },
+    "fundamental": {
+      "score": 60,
+      "just": "Sin deterioro ni mejora: ex-dividendo ejecutado sin sorpresas, guidance intacto, pero sin TDnet nuevo que confirme avance de pedidos humanoides; se retira la lectura previa de 'cliente perdido' (Mobis-BD es de enero-2026, sin vínculo con HDS) pero tampoco hay confirmación positiva."
+    },
+    "sentimiento": {
+      "score": 52,
+      "just": "Leído en contrario: consenso estable sin pánico ni euforia tras una semana tranquila; ausencia de nuevas coberturas bancarias ni de deterioro de targets sugiere mercado en pausa, sin extremo que ofrezca señal contraria clara."
+    },
+    "riesgo": {
+      "score": 32,
+      "just": "Riesgo de pérdida permanente sin cambios mayores: competencia china sigue ganando acceso a capital (Laifual ya cotiza, Leaderdrive en trámite) pero sin aceleración esta semana; principal riesgo sigue siendo valuación exigente (P/E ~100x) sin pedidos concretos que la sostengan."
+    },
+    "conviccion": {
+      "score": 48,
+      "just": "Asimetría neutra: el momentum técnico mejora la lectura a corto plazo, pero el catalizador binario (cliente ancla norteamericano) sigue sin resolverse y el mercado ya paga múltiplos de crecimiento altos — poco margen de sorpresa positiva sin evidencia dura de pedidos."
+    }
+  },
+  "sources": [
+    "stockanalysis.com",
+    "MarketScreener",
+    "Investing.com",
+    "TipRanks",
+    "moomoo",
+    "hds.co.jp (IR oficial)",
+    "Kabutan",
+    "Nikkei",
+    "Yahoo Finance Japan",
+    "Gasgoo",
+    "BigGo Finance",
+    "Marklines",
+    "Diamond Zai",
+    "Korea Herald",
+    "PR Newswire",
+    "Sahm Capital",
+    "Nikkan Kogyo",
+    "HKEX News",
+    "CNBC",
+    "Acnnewswire",
+    "TradingView",
+    "Kabuyoho"
   ],
-  [
-   "Market cap",
-   "≈¥605.870 millones (~US$3,85 mil millones; stockanalysis.com/MarketScreener/Investing.com, 26/28-sep-2026), +138% interanual"
-  ],
-  [
-   "P/E",
-   "Sigue muy disperso: forward 2027 ≈82x-92x (Investing.com forward 82,25x; MarketScreener P/E-2027 91,9x) vs. trailing ≈207x-210x (stockanalysis.com, Investing.com) · GAP DE COBERTURA: no reconciliado entre fuentes, probablemente por bases de EPS distintas (TTM vs. forecast)"
-  ],
-  [
-   "Target consenso",
-   "≈¥7.597 (10 analistas; stockanalysis.com/MarketScreener/Investing.com, 26-28-sep-2026), +18,7% vs. precio actual — HECHO: baja frente a los ¥8.074-8.128 reportados la semana previa (TipRanks/MarketScreener, 22-25-sep), posiblemente por incorporación de coberturas más conservadoras o recálculo de promedio. GAP DE COBERTURA: sin nota nueva de Bernstein/Goldman/Citi/Jefferies confirmada entre 23-sep y 28-sep-2026; targets previos (Bernstein ¥7.800, Goldman ¥11.000, Citi ¥9.700, Jefferies ¥10.000, Morgan Stanley ¥5.800, Tokai-Tokyo ¥6.470) siguen siendo la referencia más reciente verificada."
-  ],
-  [
-   "Próx. earnings",
-   "~5-nov-2026 estimado por patrón histórico (semestre FY3/26 se reportó 19-nov-2025 según deck IR oficial hds.co.jp, no 12-nov como se estimó antes; Q1 FY3/27 se reportó 7-ago-2026). LECTURA, sin fecha oficial confirmada en el calendario IR de hds.co.jp/ir/event/calendar al 28-sep-2026 — GAP DE COBERTURA persiste."
-  ],
-  [
-   "Técnico (auto)",
-   "RSI ~45-49 (Investing.com/TipRanks/nikkeiyosoku.com, 26-28-sep-2026, zona neutra) · MACD con lecturas muy dispersas entre fuentes automatizadas (posible ruido de datos, no reconciliado) — GAP DE COBERTURA en cifra exacta de MACD/señal"
-  ]
- ],
- "change": {
-  "day": 0.16,
-  "week": 2.68
- },
- "events": [
-  {
-   "date": "2026-09-29",
-   "label": "Fecha ex-dividendo confirmada (intermedio ¥10/acción, pago 07-dic-2026)",
-   "kind": "corporate",
-   "info": "HECHO: guidance FY3/27 confirma dividendo anual ¥20/acción (¥10 interino + ¥10 final), payout objetivo ~35% del beneficio neto atribuible (hds.co.jp/ir/stock/dividend). Yield ~0,3%, no es tesis de ingreso."
+  "opportunity": {
+    "cats": {
+      "valuacion_hist": {
+        "score": 36,
+        "just": "P/E sigue muy elevado (82x-103x según base), precio en tercio superior de su rango de 52 semanas; sin mejora ni deterioro adicional vs. semana previa."
+      },
+      "calidad": {
+        "score": 56,
+        "just": "Líder global con moat de proceso reforzado por Riken NPR; competencia china avanza en escala y capital (Laifual ya cotiza en HK) pero sin aceleración esta semana."
+      },
+      "asimetria": {
+        "score": 50,
+        "just": "Optionality de humanoides intacta; se retira la lectura negativa de 'cliente perdido' ante Mobis-Boston Dynamics (vínculo no confirmado con HDS), pero sigue sin cliente ancla norteamericano confirmado — asimetría neutra, ligera mejora vs. semana previa."
+      },
+      "catalizadores": {
+        "score": 52,
+        "just": "Q2 FY3/27 (~5-nov estimado) y posible avance del IPO de Leaderdrive siguen como catalizadores con fecha aproximada; sin novedad de pedidos ni guidance esta semana."
+      },
+      "contrarian": {
+        "score": 44,
+        "just": "Mercado en pausa sin pánico ni euforia; el ángulo contrarian se sostiene solo parcialmente en la narrativa de 'cliente perdido' corregida, que mejora algo la lectura marginal."
+      }
+    },
+    "plan": {
+      "recomendacion": "Mantener / Observar",
+      "zona_compra": "¥5.100-5.900",
+      "invalidacion": "Cierre semanal bajo ¥4.600 o recorte del guidance FY3/27",
+      "gatillos": [
+        "Identificación de cliente(s) norteamericano(s) de humanoides entre los >15 prospectos",
+        "Reporte Q2 FY3/27 (~5-nov-2026, confirmación de fecha y cifras)",
+        "Primera aplicación comercial concreta del acuerdo Riken NPR (resina) con cliente nombrado",
+        "Pricing/debut del listado en Hong Kong de Leaderdrive (visibilidad comparativa de capacidad/pedidos chinos)"
+      ],
+      "horizonte": "6-18 meses",
+      "tamano": "Posición moderada (3-5%)",
+      "confianza": "media"
+    }
   },
-  {
-   "date": "2026-11-05",
-   "label": "Q2 FY3/27 (semestre a sep-2026), fecha estimada",
-   "kind": "earnings",
-   "info": "LECTURA: estimación por patrón histórico (Q1 FY3/27 reportado 7-ago-2026; semestre FY3/26 reportado 19-nov-2025 según deck IR oficial). Sin confirmación en calendario IR oficial (hds.co.jp/ir/event/calendar) al 28-sep-2026, que solo muestra estructura genérica de eventos sin fechas concretas — GAP DE COBERTURA. Foco: sostenibilidad del guidance elevado dos veces (ventas ¥74.500M, oper. ¥8.500M), avance de pedidos humanoides, identificación de cliente(s) norteamericano(s)."
+  "perfil": "Harmonic Drive Systems fabrica reductores de precisión de onda de deformación, el componente que convierte el giro rápido de un motor en el par alto y sin juego que necesita una articulación robótica, además de servoactuadores y mecatrónica. Vende a integradores y OEMs de robótica industrial, semiconductores, máquina-herramienta, aeroespacial y médica, con ventas de ~¥55.700M (ejercicio a marzo de 2025) y márgenes muy comprimidos por el ciclo de semiconductores y una capacidad instalada sobre la demanda actual: apalancamiento operativo extremo, que colapsa en la baja y se multiplica en la alta. Es líder global con ~50% de cuota, con un moat de proceso (tolerancias, metalurgia, know-how) reforzado por lo lento que es rehomologar un componente crítico. La opcionalidad es el humanoide, donde reductor y actuador pueden ser 30-60% del costo de cada articulación. El riesgo central es dónde se fabricará ese humanoide: los productores chinos pasaron de ~15% del mercado en 2022 a ~38% en 2024 presionando precios, así que el peligro no es perder volumen sino quedar acorralado en el nicho premium.",
+  "technical": {
+    "price": 6500,
+    "change_1d_pct": -1.66,
+    "change_1w_pct": 3.17,
+    "rsi": 59.0,
+    "macd": 114.0053,
+    "macd_signal": 21.8334,
+    "sma20": 6029.5,
+    "sma50": 6153.0,
+    "sma200": 5365.875,
+    "ema12": 6287.8758,
+    "ema26": 6173.8705,
+    "pct_vs_sma20": 7.8,
+    "pct_vs_sma50": 5.64,
+    "pct_vs_sma200": 21.14,
+    "volume_today": 259800,
+    "volume_avg20": 548645.0,
+    "volume_ratio": 0.47,
+    "volatility_30d": 69.93,
+    "sharpe": 0.31,
+    "sortino": 0.2,
+    "max_drawdown_1y": -40.16,
+    "price_percentile_1y": 60.6,
+    "vs_benchmark_30d_pct": 11.95,
+    "perf_1m_pct": 16.49,
+    "perf_ytd_pct": 68.83
   },
-  {
-   "date": "2026-10-15",
-   "label": "Ventana de posible actualización de pedidos humanoides / IPO Hong Kong de Leaderdrive",
-   "kind": "corporate",
-   "info": "LECTURA: sin fecha exacta. Leaderdrive (China, competidor directo) presentó solicitud de listado en Hong Kong Stock Exchange (aprobado por directorio 26-ago-2026, HECHO: Gasgoo/BigGo Finance); de completarse en las próximas semanas, dará más visibilidad a cifras de pedidos/capacidad del competidor chino, con posible impacto en sentimiento comparado."
-  }
- ],
- "sections": {
-  "resumen": "HDSY (TSE:6324) cotiza ¥6.400 (cierre 26-sep), +2,68% semana, sin TDnet nuevo desde el acuerdo Riken NPR (18-sep) — confirmado vía disclosure de Yahoo Finance Japan al 28-sep. Consenso baja levemente a ¥7.597 (10 analistas, +18,7%) desde ¥8.074 la semana previa, sin nota nueva de bancos grandes verificada. Leaderdrive (China) avanza con IPO en Hong Kong (aprobado 26-ago) y resultados 1H2026 +38,6% ingresos/+31,3% utilidad — competencia gana acceso a capital. Boston Dynamics confirmó a Hyundai Mobis (no HDS) como proveedor de actuadores para Atlas, matizando el relato de cliente humanoide. Sin novedad de cliente ancla norteamericano.",
-  "fundamental": "- Sin comunicado TDnet nuevo entre 18-sep y 28-sep-2026 (verificado en disclosure Yahoo Finance Japan); el acuerdo Riken NPR (resina) sigue siendo el último hito corporativo.\n- Guidance FY3/27 sin cambios: ventas ¥74.500M (+25,1%), oper. ¥8.500M (+231%), neto ¥6.000M (+273%); Q1 ya por encima de plan, pedidos +55,7% interanual.\n- HECHO nuevo: Boston Dynamics confirmó en CES 2026 a Hyundai Mobis como proveedor de actuadores para el nuevo Atlas — reduce (no elimina) la narrativa de HDS como proveedor universal de humanoides occidentales.\n- GAP DE COBERTURA: sin TDnet sobre pedidos de humanoides ni revisión de guidance en la ventana 22-28-sep-2026; calendario IR oficial no lista fecha exacta de Q2 FY3/27.",
-  "valuacion": "- Market cap ≈¥605.870M, P/E sigue exigente y disperso (forward ~82x-92x vs. trailing ~207x-210x según base), sin resolución del GAP DE COBERTURA previo.\n- Consenso ¥7.597 (+18,7%) retrocede frente a ¥8.074-8.128 de la semana anterior; rango de targets sigue amplio (¥5.800 Morgan Stanley a ¥11.000 Goldman Sachs), sin nota nueva confirmada que lo explique — posible recálculo de muestra de analistas más que cambio de tesis.\n- Rally YTD ~+72,5% (MarketScreener) ya asume ejecución fuerte en humanoides; riesgo de \"vender la noticia\" si Q2 FY3/27 no sorprende.\n- Leaderdrive y Laifual Drive (competidores chinos) ya cotizan/buscan listar en Hong Kong, dándoles acceso a capital para escalar capacidad — presión estructural sobre múltiplos de todo el sector, no solo sobre HDS.",
-  "tecnico": "- Precio ¥6.400, +2,68% en la semana (MarketScreener); recuperación se mantiene sobre medias de corto y mediano plazo según nikkeiyosoku.com (5d +8,9%, 25d +3,7%, 75d +7,9%, 200d +28,8%).\n- RSI ~45-49 (Investing.com/TipRanks/nikkeiyosoku.com) — zona neutra, sin sobrecompra ni sobreventa.\n- MACD con lecturas muy dispersas entre fuentes automatizadas (TradingView mostró datos inconsistentes en el fetch directo) — GAP DE COBERTURA, no se puede reconciliar cifra exacta esta semana.\n- Sin señal de cambio de carácter fuerte: el precio se mueve lateral-alcista dentro del rango post-recuperación, sin ruptura de nuevo máximo ni quiebre de soporte relevante.\n- 52 semanas sin cambios (¥2.420-¥9.150); precio actual en el tercio superior del rango.",
-  "sentimiento": "- Consenso sell-side mayoritariamente Buy (7 Buy/2 Hold/1 Sell sobre 10 analistas, TipRanks/moomoo) pero el target promedio bajó a ¥7.597 desde ¥8.074 — matiz de moderación, no giro bajista.\n- Sin nota nueva confirmada de bancos grandes (Bernstein/Goldman/Citi/Jefferies) desde el 23-sep; el flujo de coberturas se enfrió esta semana tras varias semanas activas.\n- Persistente: freeze regulatorio chino sobre IPOs de humanoides tras caída de Unitree ~55% desde su pico sigue enfriando el sentimiento sectorial en China, sin evidencia de contagio directo a pedidos de HDS.\n- GAP DE COBERTURA: short interest del ADR OTC (HSYDF) sigue sin actualización desde el dato del 31-ago-2026 (-47,5%, días para cubrir 197,3) — dato ya reportado la semana previa, aún el más reciente disponible.",
-  "catalizadores": "**Catalizadores:**\n- Reporte Q2 FY3/27 (~5-nov-2026 estimado, sin fecha oficial) — validará si guidance y pedidos (+55,7% Q1) se sostienen.\n- Posible avance/finalización del listado en Hong Kong de Leaderdrive (aprobado 26-ago) — dará visibilidad comparativa sobre capacidad y pedidos del competidor chino.\n- Primera aplicación comercial concreta del acuerdo Riken NPR (resina) con cliente nombrado — sin fecha aún.\n- Confirmación de cliente(s) humanoides norteamericanos entre los >15 prospectos — sigue pendiente, sin fecha; matizado por confirmación de Hyundai Mobis como proveedor de Boston Dynamics (no HDS).\n\n**Riesgos (por materialidad):**\n- Competencia china ganando acceso a capital: Leaderdrive (IPO Hong Kong aprobado 26-ago, ingresos 1H2026 +38,6%, utilidad neta +31,3%) y Laifual Drive (listada en Hong Kong desde fin-jun-2026) son ya las únicas dos chinas con capacidad de producción en masa de reductores para humanoides.\n- Concentración de clientes robóticos: Tesla Optimus depende ~70% de proveedores chinos (incl. Leaderdrive, ya validado); Boston Dynamics confirmó a Hyundai Mobis (no HDS) para actuadores de Atlas — el mapa de clientes occidentales es menos favorable a HDS de lo asumido.\n- Contagio de sentimiento: freeze de IPOs chinas de humanoides podría frenar flujos especulativos hacia toda la cadena, incluido HDS.\n- Apalancamiento operativo extremo (+231% guidance) funciona igual de violento a la baja; guidance ya revisado dos veces, poco margen para sorpresas adicionales sin nueva evidencia de pedidos.",
-  "conclusion": "HDSY mantiene el catalizador estructural de humanoides (guidance elevado dos veces, resina vía Riken NPR), pero esta semana suma matices bajistas: el consenso de precio objetivo retrocedió (¥7.597 vs. ¥8.074) sin nueva cobertura de bancos grandes, y dos datos debilitan la narrativa de cliente occidental — Hyundai Mobis (no HDS) provee actuadores a Atlas, y Leaderdrive/Laifual ya acceden a capital vía Hong Kong. Técnicamente la acción se mantiene estable (+2,68% semana, RSI neutro), sin TDnet nuevo. Confianza media: esperar Q2 FY3/27 y/o un cliente ancla confirmado antes de aumentar exposición."
- },
- "scores": {
-  "tecnica": {
-   "score": 55,
-   "just": "Consolidación lateral-alcista sin cambio de carácter claro: +2,68% semana, RSI neutro (~45-49), sin ruptura de máximos ni quiebre de soporte — momentum estable pero sin confirmación de nueva pierna alcista."
-  },
-  "fundamental": {
-   "score": 62,
-   "just": "Guidance estable sin deterioro y sin TDnet nuevo en la semana (neutro, no negativo), pero la confirmación de Hyundai Mobis como proveedor de Boston Dynamics resta algo de peso a la narrativa de cliente humanoide occidental exclusivo para HDS."
-  },
-  "sentimiento": {
-   "score": 48,
-   "just": "Leído en contrario: el retroceso del target de consenso (¥8.074 a ¥7.597) sin pánico visible sugiere moderación racional más que capitulación; no hay euforia extrema ni pesimismo genuino que ofrezca asimetría clara en ningún sentido."
-  },
-  "riesgo": {
-   "score": 28,
-   "just": "La pérdida permanente de tesis se refuerza: Leaderdrive y Laifual Drive ya tienen o buscan acceso a capital internacional (Hong Kong) para escalar capacidad, y el cliente ancla occidental (Boston Dynamics/Atlas) resultó ser de un competidor (Hyundai Mobis), no HDS — el riesgo de concentración/sustitución es más concreto que hace una semana."
-  },
-  "conviccion": {
-   "score": 43,
-   "just": "Asimetría se reduce ligeramente: catalizador binario (cliente ancla norteamericano) sigue sin resolverse, el consenso de precio objetivo retrocedió, y la evidencia de que competidores chinos ganan escala y capital reduce el margen de sorpresa positiva frente a la lectura previa."
-  }
- },
- "sources": [
-  "stockanalysis.com",
-  "MarketScreener",
-  "Investing.com",
-  "TipRanks",
-  "moomoo",
-  "Simply Wall St",
-  "hds.co.jp (IR oficial)",
-  "Yahoo Finance Japan (disclosure/TDnet)",
-  "nikkeiyosoku.com",
-  "Kabutan",
-  "Nikkei",
-  "Gasgoo",
-  "BigGo Finance",
-  "CNBC",
-  "Benzinga",
-  "Technology.org",
-  "Korea Herald",
-  "Barchart",
-  "Daily Political",
-  "36kr",
-  "nextfinancial.substack.com",
-  "TradingView",
-  "Google Finance",
-  "Stockopedia",
-  "SCMP"
- ],
- "opportunity": {
-  "cats": {
-   "valuacion_hist": {
-    "score": 38,
-    "just": "P/E muy elevado bajo cualquier lectura (82x-210x según base) sin cambio desde baseline; precio en tercio superior de su rango de 52 semanas tras +72,5% YTD, consenso de target retrocediendo."
-   },
-   "calidad": {
-    "score": 55,
-    "just": "Líder global con moat de proceso reforzado por Riken NPR, pero la competencia china (Leaderdrive, Laifual) ya no es solo amenaza potencial: gana escala real y ahora también acceso a capital vía Hong Kong."
-   },
-   "asimetria": {
-    "score": 48,
-    "just": "Optionality de humanoides genuina pero el mapa de clientes occidentales se complica: Boston Dynamics eligió a Hyundai Mobis (no HDS) para Atlas, y sin cliente ancla norteamericano confirmado la asimetría se mantiene sin mejora, con sesgo levemente negativo vs. semana previa."
-   },
-   "catalizadores": {
-    "score": 50,
-    "just": "Un catalizador con fecha dura (ex-dividendo 29-sep) más Q2 FY3/27 (~5-nov, estimado) y posible avance del IPO de Leaderdrive; sin novedad de cliente humanoide ni revisión de guidance en la semana."
-   },
-   "contrarian": {
-    "score": 42,
-    "just": "El retroceso del consenso de precio objetivo sin pánico sugiere moderación racional, no capitulación; el ángulo contrarian solo se sostiene en el enfriamiento sectorial chino, que no impacta directamente a HDS."
-   }
-  },
-  "plan": {
-   "recomendacion": "Mantener / Observar",
-   "zona_compra": "¥5.100-5.900",
-   "invalidacion": "Cierre semanal bajo ¥4.600 o recorte del guidance FY3/27",
-   "gatillos": [
-    "Identificación de cliente(s) norteamericano(s) de humanoides entre los >15 prospectos",
-    "Reporte Q2 FY3/27 (~5-nov-2026, confirmación de fecha y cifras)",
-    "Primera aplicación comercial concreta del acuerdo Riken NPR (resina) con cliente nombrado",
-    "Resultado del listado en Hong Kong de Leaderdrive (visibilidad comparativa de capacidad/pedidos chinos)"
-   ],
-   "horizonte": "6-18 meses",
-   "tamano": "Posición moderada (3-5%)",
-   "confianza": "media"
-  }
- },
- "perfil": "Harmonic Drive Systems fabrica reductores de precisión de onda de deformación, el componente que convierte el giro rápido de un motor en el par alto y sin juego que necesita una articulación robótica, además de servoactuadores y mecatrónica. Vende a integradores y OEMs de robótica industrial, semiconductores, máquina-herramienta, aeroespacial y médica, con ventas de ~¥55.700M (ejercicio a marzo de 2025) y márgenes muy comprimidos por el ciclo de semiconductores y una capacidad instalada sobre la demanda actual: apalancamiento operativo extremo, que colapsa en la baja y se multiplica en la alta. Es líder global con ~50% de cuota, con un moat de proceso (tolerancias, metalurgia, know-how) reforzado por lo lento que es rehomologar un componente crítico. La opcionalidad es el humanoide, donde reductor y actuador pueden ser 30-60% del costo de cada articulación. El riesgo central es dónde se fabricará ese humanoide: los productores chinos pasaron de ~15% del mercado en 2022 a ~38% en 2024 presionando precios, así que el peligro no es perder volumen sino quedar acorralado en el nicho premium.",
- "technical": {
-  "price": 6300,
-  "change_1d_pct": -0.79,
-  "change_1w_pct": 1.61,
-  "rsi": 56.4,
-  "macd": -2.3189,
-  "macd_signal": -105.0061,
-  "sma20": 5846.0,
-  "sma50": 6223.0,
-  "sma200": 5285.225,
-  "ema12": 6027.1893,
-  "ema26": 6029.5082,
-  "pct_vs_sma20": 7.77,
-  "pct_vs_sma50": 1.24,
-  "pct_vs_sma200": 19.2,
-  "volume_today": 814800,
-  "volume_avg20": 671930.0,
-  "volume_ratio": 1.21,
-  "volatility_30d": 80.49,
-  "sharpe": 2.62,
-  "sortino": 2.0,
-  "max_drawdown_1y": -40.16,
-  "price_percentile_1y": 57.7,
-  "vs_benchmark_30d_pct": 6.17,
-  "perf_1m_pct": 7.33,
-  "perf_ytd_pct": 63.64
- },
- "risk": {
-  "volatility_30d": 80.49,
-  "sharpe": 2.62,
-  "sortino": 2.0,
-  "max_drawdown_1y": -40.16,
-  "n_days": 335,
-  "window": 30
- },
- "benchmark": {
-  "ticker": "TVC:NI225",
-  "label": "Nikkei 225",
-  "relative_performance_30d": 6.17,
-  "relative_performance_ytd": 33.54,
-  "price_percentile_1y": 57.7,
-  "partial": false
- },
- "sourcesMeta": {
-  "price": {
-   "origin": "TradingView scanner",
-   "fetched_at": "2026-09-25T22:53:34-03:00"
-  },
-  "rsi_macd": {
-   "origin": "TradingView scanner",
-   "fetched_at": "2026-09-25T22:53:34-03:00"
-  },
-  "smas_volume": {
-   "origin": "TradingView scanner",
-   "fetched_at": "2026-09-25T22:53:34-03:00"
+  "risk": {
+    "volatility_30d": 69.93,
+    "sharpe": 0.31,
+    "sortino": 0.2,
+    "max_drawdown_1y": -40.16,
+    "n_days": 339,
+    "window": 30
   },
   "benchmark": {
-   "origin": "TradingView scanner",
-   "symbol": "TVC:NI225",
-   "fetched_at": "2026-09-25T22:53:34-03:00"
+    "ticker": "TVC:NI225",
+    "label": "Nikkei 225",
+    "relative_performance_30d": 11.95,
+    "relative_performance_ytd": 35.22,
+    "price_percentile_1y": 60.6,
+    "partial": false
   },
-  "risk_metrics": {
-   "origin": "data/history/HDSY.json",
-   "n_days": 335
-  }
- },
- "metricChanges": [
-  {
-   "ticker": "HDSY",
-   "date": "2026-08-23",
-   "metric": "precio_pct",
-   "from": 6510,
-   "to": 5680
+  "sourcesMeta": {
+    "price": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-10-01T22:46:56-03:00"
+    },
+    "rsi_macd": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-10-01T22:46:56-03:00"
+    },
+    "smas_volume": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-10-01T22:46:56-03:00"
+    },
+    "benchmark": {
+      "origin": "TradingView scanner",
+      "symbol": "TVC:NI225",
+      "fetched_at": "2026-10-01T22:46:56-03:00"
+    },
+    "risk_metrics": {
+      "origin": "data/history/HDSY.json",
+      "n_days": 339
+    }
   },
-  {
-   "ticker": "HDSY",
-   "date": "2026-08-10",
-   "metric": "precio_pct",
-   "from": 7160,
-   "to": 6380
+  "metricChanges": [
+    {
+      "ticker": "HDSY",
+      "date": "2026-08-23",
+      "metric": "precio_pct",
+      "from": 6510,
+      "to": 5680
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-08-10",
+      "metric": "precio_pct",
+      "from": 7160,
+      "to": 6380
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-08-05",
+      "metric": "precio_pct",
+      "from": 6840,
+      "to": 7390
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-08-04",
+      "metric": "precio_pct",
+      "from": 6330,
+      "to": 6840
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-07-31",
+      "metric": "precio_pct",
+      "from": 5500,
+      "to": 6140
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-07-27",
+      "metric": "precio_pct",
+      "from": 6560,
+      "to": 5940
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-07-22",
+      "metric": "score",
+      "from": 44,
+      "to": 56
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-07-21",
+      "metric": "precio_pct",
+      "from": 6470,
+      "to": 7150
+    }
+  ],
+  "trend": {
+    "piso": 0,
+    "techo": 1,
+    "max": 7,
+    "senales_piso": [],
+    "senales_techo": [
+      "histograma MACD girando a la baja"
+    ]
   },
-  {
-   "ticker": "HDSY",
-   "date": "2026-08-05",
-   "metric": "precio_pct",
-   "from": 6840,
-   "to": 7390
-  },
-  {
-   "ticker": "HDSY",
-   "date": "2026-08-04",
-   "metric": "precio_pct",
-   "from": 6330,
-   "to": 6840
-  },
-  {
-   "ticker": "HDSY",
-   "date": "2026-07-31",
-   "metric": "precio_pct",
-   "from": 5500,
-   "to": 6140
-  },
-  {
-   "ticker": "HDSY",
-   "date": "2026-07-27",
-   "metric": "precio_pct",
-   "from": 6560,
-   "to": 5940
-  },
-  {
-   "ticker": "HDSY",
-   "date": "2026-07-22",
-   "metric": "score",
-   "from": 44,
-   "to": 56
-  },
-  {
-   "ticker": "HDSY",
-   "date": "2026-07-21",
-   "metric": "precio_pct",
-   "from": 6470,
-   "to": 7150
-  }
- ],
- "trend": {
-  "piso": 0,
-  "techo": 0,
-  "max": 7,
-  "senales_piso": [],
-  "senales_techo": []
- },
- "reportDate": "25 de septiembre de 2026"
+  "reportDate": "2 de octubre de 2026"
 }

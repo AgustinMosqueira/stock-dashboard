@@ -1,235 +1,230 @@
 {
- "ticker": "CENCOSUD",
- "company": "Cencosud S.A.",
- "statsList": [
-  [
-   "Precio",
-   "$1.948,9 CLP (28-sep-2026, cierre; HECHO: Investing.com/stockanalysis.com)"
+  "ticker": "CENCOSUD",
+  "company": "Cencosud S.A.",
+  "statsList": [
+    [
+      "Precio",
+      "$1.890,0 CLP (1-oct-2026)"
+    ],
+    [
+      "Rango 52 sem.",
+      "$1.862 – $3.238 CLP (HECHO: stockanalysis.com, 2-oct-2026; leve ampliación del piso vs $1.882 citado el 28-sep)"
+    ],
+    [
+      "Market cap",
+      "~CLP 5,23-5,37 billones según proveedor (HECHO: stockanalysis.com, 2-oct-2026); ~2.750M acciones en circulación"
+    ],
+    [
+      "P-E y P-B",
+      "P/E trailing 33,5x, forward 11,6x (HECHO: stockanalysis.com, 2-oct-2026); brecha persiste por pérdida neta y cargos no operacionales 2T26 (LECTURA). P/B ~1,14x (sin dato más reciente verificado; LECTURA: previsiblemente similar, precio casi sin cambio neto desde may-2026)"
+    ],
+    [
+      "Target consenso",
+      "$2.691,8 CLP promedio, 13 analistas, Hold (+41,7%) (HECHO: stockanalysis.com, 2-oct-2026, prácticamente idéntico al informe previo). Divergencia creciente entre casas: Credicorp mantiene Cencosud en cartera (6,5% peso, HECHO: Diario Financiero, ago-2026) pero ya no la destaca como 'top pick' explícito desde jul-2026 (LECTURA de cambio de tono); MBI la retiró de su cartera recomendada en ago-2026 reemplazándola por Cenco Malls, citando que 'decepcionó al mercado en el 2T con presión en márgenes de supermercados' (HECHO: Diario Financiero, ago-2026) — revierte su 'sobreponderar' de jun-2026; BCI también la sacó; Itaú en cambio subió ponderación de 5% a 10% buscando 'valorizaciones más atractivas tras la caída acumulada' (HECHO: Diario Financiero, ago-2026)"
+    ],
+    [
+      "Próx. earnings",
+      "5-nov-2026 (3T26), confirmado de forma consistente por stockanalysis.com (HECHO: 2-oct-2026); aún sin confirmación explícita en el calendario IR propio de Cencosud (no verificable con fuente primaria)"
+    ],
+    [
+      "Técnico (auto)",
+      "RSI 33.1 · MACD -29.59 / señal -9.60 (TradingView, 1-oct-2026)"
+    ]
   ],
-  [
-   "Rango 52 sem.",
-   "$1.882 – $3.238 CLP (HECHO: Investing.com y stockanalysis.com, 28-sep-2026, coinciden)"
+  "change": {
+    "day": -0.79,
+    "week": -5.03
+  },
+  "events": [
+    {
+      "date": "2026-10-02",
+      "label": "Activación principal 'Cenco Black' en Argentina (2-4 oct)",
+      "kind": "corporate",
+      "info": "Arranque online el 28-sep, activación física entre el 2 y 4 de octubre con Jumbo, Disco, Vea, Makro, Easy, Blaisten, CencoPay y malls (Unicenter, Plaza Oeste, Palmas del Pilar, Portal Rosario): descuentos de hasta 60%, 24 cuotas sin interés y sorteo de CLP/ARS 50 millones (HECHO: Infobae/TotalMedios/Web Retail, 28-sep-2026). Catalizador de tráfico más inmediato del trimestre; en curso hoy."
+    },
+    {
+      "date": "2026-11-05",
+      "label": "Earnings 3T26",
+      "kind": "earnings",
+      "info": "Fecha 5-nov-2026 reconfirmada por stockanalysis.com (HECHO: 2-oct-2026). Management señaló en el conference call del 2T26 (7-ago-2026) expectativa de mejora en 2S26 citando mejores tendencias de 3T26, sin cifra concreta nueva (HECHO parcial, fuente secundaria vía Investing.com). El mercado buscará evidencia de que el deterioro de margen en supermercados Chile se frena."
+    },
+    {
+      "date": "2026-12-01",
+      "label": "Resolución SIC Colombia sobre adquisición de Makro (fecha aproximada, sin resolución nueva)",
+      "kind": "corporate",
+      "info": "Sin novedad desde jul-ago-2026: la SIC sigue analizando la operación (US$158MM, 21 locales) y a esta búsqueda (2-oct-2026) no se halló aprobación, objeción ni nueva fecha (HECHO: ausencia de cobertura posterior verificada)."
+    },
+    {
+      "date": "2026-12-15",
+      "label": "Aprobación CADE (Brasil) y homologación judicial del plan de recuperación de Hortus/St. Marche (fecha aproximada)",
+      "kind": "corporate",
+      "info": "Sin novedad desde jun-2026: el cierre de la compra de St. Marche (32 locales, ~US$216MM ventas 12M a mar-2026) sigue condicionado a aprobación del CADE y homologación judicial del plan de recuperación de Grupo Hortus, sin resolución publicada a esta fecha (HECHO: ausencia de cobertura posterior verificada, búsqueda 2-oct-2026)."
+    }
   ],
-  [
-   "Market cap",
-   "~CLP 5,37-5,48 billones según proveedor (HECHO: Investing.com CLP 5,37bn / stockanalysis.com CLP 5,48bn, ambos 28-sep-2026); ~2.750M acciones en circulación (HECHO: stockanalysis.com, sep-2026)"
+  "sections": {
+    "resumen": "Cencosud cotiza $1.890 CLP (1-oct-2026), a solo ~1,5% de su mínimo de 52 semanas, con técnico mixto: RSI subió a 33,1 desde 25 (menos sobreventa) pero MACD se profundizó a -29,59. Hoy arranca la activación física de 'Cenco Black' en Argentina (2-4 oct), sin resultados de tráfico aún. Chile sigue perdiendo la carrera de ventas comparables frente a Tottus. MBI sacó a Cencosud de su cartera tras el 2T26 débil; Itaú la subió apostando al descuento. St. Marche (Brasil) y Makro (Colombia) siguen sin resolución regulatoria. Target consenso +41,7%, Hold. Confianza: media.",
+    "fundamental": "- 2T26: EBITDA ajustado CLP 329.000M, margen 8,0%, -12,3% YoY por viento en contra cambiario; pérdida neta ~US$20,1MM por factores no operacionales (inflación/FX), pese a crecimiento orgánico +4,5% (HECHO: Investing.com/Yahoo Finance earnings call, ago-2026; cifra de EBITDA levemente distinta a la citada en el informe previo —CLP 307.898M—, posible ajuste de fuente).\n- Chile: Cencosud creció solo 0,4% en ingresos 2T26 vs. 8,2% de Tottus (SSS Chile +7,1%) y 1,8% de SMU — brecha sin cambios verificados desde entonces (HECHO: theclinic.cl, 19-ago-2026, sin actualización 3T a esta fecha).\n- Argentina: 'Cenco Black' (arranque 28-sep, activación física 2-4 oct) es la respuesta comercial más visible tras el +105,7% EBITDA supermercados y +50pb de share del 2T26; sin cifra nueva de incobrabilidad de tarjetas verificada esta ventana (LECTURA de continuidad del riesgo).\n- Guidance FY2026 (EBITDA ajustado US$1.815MM, anunciado en Cenco Day ene-2026) sigue sin reconfirmación ni revisión formal localizada; management solo expresó 'confianza' en mejora de 2S26 en el call del 2T26, sin cifra puntual (HECHO parcial, ago-2026).\n- Divergencia de analistas se profundizó: MBI pasó de 'sobreponderar' (jun-2026) a sacarla de cartera (ago-2026) citando presión de márgenes en supermercados; Itaú hizo el movimiento contrario, duplicando ponderación por valorización.",
+    "valuacion": "- P/E trailing 33,5x (vs 34,4-35,1x previo) y forward 11,6x (vs 12,2-12,4x) — leve compresión ambos múltiplos, consistente con utilidades esperadas algo mayores o precio algo menor (HECHO: stockanalysis.com, 2-oct-2026).\n- Target consenso prácticamente sin cambio: $2.691,8 CLP (+41,7%), 13 analistas, Hold (HECHO: stockanalysis.com, 2-oct-2026) — la dispersión entre casas se mantiene (Credicorp defensor del descuento, MBI y BCI ahora fuera, Itaú comprando más).\n- Rango 52 semanas se amplió levemente hacia abajo ($1.862 vs $1.882), confirmando que el piso técnico sigue bajando, no formándose aún con claridad.\n- Peor acción del IPSA en 12 meses (-35%, Emol jul-2026), sin verificación de cambio de ranking a esta fecha.\n- Sin dato nuevo de P/B ni de margen EBITDA LTM desde el informe previo; persiste la tesis de descuento frente a activos inmobiliarios (malls ~80% margen) que sostienen Credicorp/Itaú (LECTURA).",
+    "tecnico": "- RSI(14) subió a 33,1 (1-oct) desde 25,0 (28-sep): salida de la sobreventa más extrema, aunque sigue en zona débil, no neutral.\n- MACD se profundizó a -29,59 (señal -9,60) desde -22,52: el histograma empeoró pese a la mejora del RSI — señal mixta, no hay divergencia alcista clara todavía.\n- Precio ($1.890) bajo SMA20 ($2.019,5), SMA50 ($2.007,8) y SMA200 ($2.400,2): estructura bajista intacta en los tres horizontes, con el quiebre vs SMA200 ampliándose a -21,3%.\n- Percentil de precio 1 año en 2,0 (prácticamente el mínimo del año) y drawdown 1Y de -40,9%: la acción está en su peor nivel relativo de los últimos 12 meses, pese al respiro puntual del RSI.\n- Lectura de carácter: el repunte del RSI sin confirmación del MACD ni de volumen (ratio 0,87x, por debajo del promedio de 20 días) sugiere estabilización incipiente, no un piso confirmado (LECTURA).",
+    "catalizadores": "**Catalizadores:**\n- 'Cenco Black' en Argentina, activación física hoy 2-4 oct: catalizador de tráfico/ventas más inmediato, sin resultados aún.\n- Reporte 3T26 (5-nov-2026, fecha reconfirmada): clave si Chile frena el deterioro de margen y Argentina sostiene tracción.\n- Itaú duplicando ponderación (5%→10%) es señal de flujo institucional comprador en el precio actual.\n- Resolución regulatoria SIC Colombia (Makro) y/o CADE Brasil (St. Marche), ambas sin fecha.\n\n**Riesgos (por materialidad):**\n- Guerra promocional estructural en Chile: Cencosud sigue rezagada en ventas comparables (0,4% vs Tottus 8,2%), sin señal de mejora verificada post-2T26.\n- Erosión de respaldo analista: MBI y BCI sacaron a Cencosud de cartera en ago-2026 citando presión de márgenes, revirtiendo recomendaciones de compra previas.\n- Guidance FY2026 (US$1.815MM EBITDA) no reconfirmado ni revisado tras 2T26 débil; solo 'confianza' verbal sin cifra.\n- Ejecución simultánea de integraciones (Makro Colombia, St. Marche Brasil) sin resolución regulatoria, ya con más de 3 meses de espera en ambos casos.",
+    "sentimiento": "- Divergencia de casas se amplió: MBI y BCI salieron de Cencosud (ago-2026) justo cuando Itaú dobló su apuesta — señal de desacuerdo genuino, no de consenso bajista uniforme.\n- Técnico mixto (RSI sale de sobreventa extrema, pero MACD empeora) es leído en contrario con cautela: el mercado aún no confirma piso pese al respiro parcial.\n- Precio en percentil 2,0 de su rango anual (prácticamente el mínimo) sostiene la lectura contraria mecánica de extremos, aunque menos marcada que con RSI 25.\n- Volumen por debajo del promedio (0,87x) sugiere que el movimiento reciente no viene acompañado de convicción compradora fuerte todavía.\n- El lanzamiento simultáneo de 'Cenco Black' (hoy) en plena divergencia de analistas sugiere que management sigue actuando activamente sobre el problema de tráfico, un elemento constructivo no reflejado aún en el consenso.",
+    "conclusion": "Cencosud muestra técnico mixto: RSI sale de la sobreventa extrema (25→33) pero el MACD se profundiza y el precio toca su percentil más bajo del año (2,0), sin piso confirmado. El fundamental sigue dividido: Chile pierde la carrera de ventas frente a Tottus sin señal de mejora, mientras Argentina activa 'Cenco Black' hoy como respuesta comercial directa. La novedad más relevante es la ruptura de consenso entre casas: MBI y BCI abandonaron la tesis de compra en agosto citando márgenes, justo cuando Itaú dobló su apuesta por valorización. Target consenso +41,7% sin cambio, Hold. Falta catalizador confirmado hasta el 3T26 (5-nov) o resultados de Cenco Black. Confianza: media."
+  },
+  "scores": {
+    "tecnica": {
+      "score": 38,
+      "just": "RSI 33,1 mejora desde 25 (sale de sobreventa extrema) pero el MACD se profundiza a -29,59 y el precio marca el percentil más bajo del año (2,0): señal de carácter mixta, no un cambio de régimen confirmado. El volumen por debajo del promedio (0,87x) indica que la mejora parcial del RSI no viene con convicción compradora, por lo que no hay aún evidencia de piso formado, solo de que la sobreventa más extrema se alivió."
+    },
+    "fundamental": {
+      "score": 43,
+      "just": "Chile sigue perdiendo la carrera de crecimiento comparable (0,4% vs Tottus 8,2%) sin señal de mejora verificada; el guidance FY2026 sigue sin reconfirmación formal. El factor nuevo negativo es que MBI y BCI revirtieron sus recomendaciones de compra citando presión de márgenes, aunque Argentina ('Cenco Black' hoy) y el flujo comprador de Itaú sostienen parcialmente la tesis. Ligeramente más débil que el informe previo por la erosión de respaldo analista."
+    },
+    "sentimiento": {
+      "score": 58,
+      "just": "La ruptura de consenso entre casas (MBI/BCI fuera vs Itaú doblando apuesta) es la señal más reveladora: el pesimismo no es unánime, hay dinero institucional local comprando el descuento activamente. El técnico mixto (RSI ya no en sobreventa extrema) matiza la lectura contraria mecánica, pero el percentil de precio en el mínimo anual sigue siendo un extremo que suele leerse en contra."
+    },
+    "riesgo": {
+      "score": 50,
+      "just": "El riesgo de pérdida permanente sigue concentrado en la guerra promocional estructural en Chile y la ejecución dual de integraciones sin fecha regulatoria cierta (Makro Colombia, St. Marche Brasil), sin cambio relevante desde el informe previo. La salida de MBI/BCI de sus carteras es una señal de riesgo de flujo, no de riesgo estructural nuevo; se distingue de la volatilidad técnica de corto plazo, que se mantiene elevada (30,49% anualizada)."
+    },
+    "conviccion": {
+      "score": 45,
+      "just": "Tesis falsable: si 'Cenco Black' (resultados en próximas semanas) y el 3T26 (5-nov) muestran que Argentina sostiene tracción y Chile frena el deterioro relativo, el precio en mínimos de 52 semanas ofrece entrada asimétrica hacia el TP consenso (+41,7%). La salida de MBI y BCI de sus carteras en agosto introduce una duda legítima sobre el momentum fundamental que no estaba tan marcada en el informe previo, moderando la convicción pese al técnico algo menos extremo."
+    }
+  },
+  "sources": [
+    "stockanalysis.com (quote, statistics, 2-oct-2026)",
+    "Investing.com (equities/cencosud, earnings call Q2 2026, 2-oct-2026)",
+    "TradingView (BCS:CENCOSUD, technicals, 1-oct-2026)",
+    "Diario Financiero (df.cl) — 'Carteras recomendadas agosto: Cenco Malls entra en dos portafolios, Cencosud sale' (ago-2026)",
+    "Infobae / TotalMedios / Web Retail — 'Cenco Black' Argentina (28-sep-2026)",
+    "theclinic.cl — 'En la nueva batalla de los supermercados... Tottus corre con ventaja' (19-ago-2026)",
+    "Yahoo Finance — Cencosud Q2 FY2026 earnings call transcript (ago-2026)",
+    "Emol — 'Acción de Cencosud se hunde 35% en un año' (jul-2026)",
+    "cencosud.com — guidance FY2026 y plan de inversiones (ene-2026)",
+    "Forbes Argentina — resultados supermercados Argentina 2T26 (ago-2026, dato de referencia sin actualización verificada)",
+    "Búsquedas sin resultado nuevo verificado: resolución CADE Brasil (St. Marche), resolución SIC Colombia (Makro), resultados de tráfico/ventas de 'Cenco Black' — todas a 2-oct-2026"
   ],
-  [
-   "P-E y P-B",
-   "P/E trailing 34,4x-35,1x, forward 12,2x-12,4x (HECHO: Investing.com/stockanalysis.com, 28-sep-2026); brecha trailing/forward por pérdida neta y cargos no operacionales 2T26 (LECTURA). P/B ~1,14x (HECHO: Yahoo Finance, may-2026, sin dato más reciente verificado; LECTURA: probablemente similar hoy dado que el precio bajó menos de 2% desde entonces y el patrimonio no cambió materialmente)"
-  ],
-  [
-   "Target consenso",
-   "$2.692-2.990 CLP promedio, 13 analistas, Hold (+38% a +40,6%) (HECHO: stockanalysis.com, 28-sep-2026); consenso Bloomberg de 10 analistas en $2.974 (+38%) (HECHO: Diario Financiero, jun-2026). Credicorp Capital mantiene TP $3.150 (+~50%, Macarena Gutiérrez, 'tremendo descuento', jul-2026: la nombró top pick); MBI Corredores subió de neutral a 'sobreponderar' con TP $2.700 (+24%, jun-2026), una de las pocas casas con recomendación de compra; BICE Inversiones más cauto, sin catalizadores claros de tráfico físico (may-2026, sin nota posterior localizada) (todo HECHO con fuente y fecha indicada)"
-  ],
-  [
-   "Próx. earnings",
-   "5-nov-2026 (3T26), fecha ahora consistente entre stockanalysis.com e Investing.com (HECHO: ambos proveedores, 28-sep-2026); aún sin hallar confirmación explícita en el calendario IR propio de Cencosud en esta búsqueda (no verificable con fuente primaria)"
-  ],
-  [
-   "Técnico (auto)",
-   "RSI(14) 25,0 · MACD -22,52 / señal por debajo, régimen 'Venta fuerte' (Investing.com Technical Summary, 28-sep-2026 21:11 GMT); precio bajo MA5/MA50/MA200 (1.955/2.029/2.041 CLP) con 12 señales de venta y 0 de compra"
-  ]
- ],
- "change": {
-  "day": -2.07,
-  "week": -2.06
- },
- "events": [
-  {
-   "date": "2026-11-05",
-   "label": "Earnings 3T26",
-   "kind": "earnings",
-   "info": "Fecha 5-nov-2026 ahora reportada de forma consistente por stockanalysis.com e Investing.com (HECHO: 28-sep-2026), confirmando la estimación del informe previo; no se localizó aún un comunicado explícito del propio calendario IR de Cencosud confirmando la fecha con carácter oficial (no verificable con fuente primaria). El mercado buscará evidencia de que el 3T26 mejora vs. el 2T26 débil (EBITDA ajustado -22,9%, supermercados -16,6%)."
+  "opportunity": {
+    "cats": {
+      "valuacion_hist": {
+        "score": 66,
+        "just": "Precio en percentil 2,0 de su rango de 52 semanas, P/E forward 11,6x y target consenso +41,7%; múltiplos levemente comprimidos vs informe previo. El descuento histórico se mantiene, sin deterioro ni mejora relevante en tres días."
+      },
+      "calidad": {
+        "score": 48,
+        "just": "Chile sigue perdiendo la carrera de crecimiento comparable frente a Tottus sin mejora verificada; Argentina (+105,7% EBITDA super, 'Cenco Black' como respuesta activa) sostiene la tesis de calidad operativa fuera del negocio ancla. Ligera baja vs informe previo por la salida de MBI/BCI citando presión de márgenes."
+      },
+      "asimetria": {
+        "score": 56,
+        "just": "Upside de consenso relevante (+41,7%) contra downside que luce acotado en términos históricos (precio en mínimo percentil anual); la falta de reconfirmación de guidance y la ruptura de consenso entre casas moderan la convicción en el ratio riesgo/retorno."
+      },
+      "catalizadores": {
+        "score": 50,
+        "just": "'Cenco Black' (2-4 oct, en curso hoy) es el catalizador más inmediato, aún sin resultados; el reporte 3T26 (5-nov, fecha reconfirmada) es el catalizador central. Makro Colombia y St. Marche Brasil siguen sin fecha de resolución regulatoria, sin cambio."
+      },
+      "contrarian": {
+        "score": 58,
+        "just": "La ruptura de consenso entre casas (MBI/BCI fuera, Itaú doblando apuesta) es la señal contraria más potente de esta ventana: hay flujo institucional comprando activamente el descuento mientras otros capitulan, en un precio que marca mínimos del año. Sin capitulación técnica tan extrema como el informe previo (RSI ya no en 25), pero con una divergencia de opinión más clara y explotable."
+      }
+    },
+    "plan": {
+      "recomendacion": "Esperar gatillo",
+      "zona_compra": "CLP 1.860-1.950 (acumulación inicial solo táctica/reducida; ampliar tras confirmación)",
+      "invalidacion": "Quiebre sostenido bajo CLP 1.862 (nuevo mínimo de 52 semanas) o nueva caída de EBITDA Chile/consolidado en el 3T26 que confirme deterioro estructural adicional",
+      "gatillos": [
+        "Resultados de tráfico/ventas del evento 'Cenco Black' (2-4 oct-2026) en Argentina",
+        "Reporte 3T26 (5-nov-2026) confirmando freno al deterioro de margen en Chile y sostenimiento de tracción en Argentina",
+        "Resolución regulatoria SIC Colombia (Makro) y/o CADE Brasil (St. Marche)",
+        "Reconfirmación formal del guidance EBITDA FY2026 (US$1.815MM) o nueva guía de casas que hoy están fuera (MBI, BCI)"
+      ],
+      "horizonte": "6-18 meses",
+      "tamano": "posición reducida (3-5%), ampliable tras gatillo",
+      "confianza": "media"
+    }
   },
-  {
-   "date": "2026-10-02",
-   "label": "Activación principal 'Cenco Black' en Argentina (2-4 oct)",
-   "kind": "corporate",
-   "info": "Cencosud lanzó el 28-sep-2026 'Cenco Black', primer evento que reúne a todo su ecosistema de marcas en Argentina (Jumbo, Disco, Vea, Easy, Cencopay) en una sola propuesta de descuentos, cuotas y premios, con arranque online el lunes 28-sep y activación física principal entre el 2 y 4 de octubre (HECHO: Infobae, 28-sep-2026). Es el catalizador de tráfico/ventas más inmediato para el trimestre en curso."
+  "perfil": "Cencosud es el mayor operador de retail multiformato de origen chileno, con más de 1.300 locales en seis países y cinco unidades: supermercados (Jumbo, Santa Isabel, Disco, The Fresh Market), mejoramiento del hogar (Easy), tiendas por departamento (Paris), centros comerciales y servicios financieros. El core es alimentos: los supermercados explican 70-75% de los ingresos, y por país Chile aporta 44%, Argentina 20% y Estados Unidos 12%. La rentabilidad, en cambio, está mucho más concentrada: Chile es el ancla del resultado y el negocio inmobiliario es desproporcionadamente rentable —los malls operan con márgenes EBITDA en torno a 80%— frente a supermercados (11-12%) y tiendas por departamento, de un dígito bajo. En 2025 los ingresos fueron ~CLP 16,6 billones con utilidad +70,4%, y leverage neto de ~3,5x tras comprar Makro Argentina y el resto de The Fresh Market. Lo estructural: exposición a Argentina (donde la contabilidad hiperinflacionaria distorsiona las cifras, aunque su peso relativo en el EBITDA consolidado ha caído a ~11,6%), traslación cambiaria que reduce contablemente el aporte externo cuando el peso chileno se fortalece, y una estructura de costos rígida que hace al margen muy sensible a pequeños cambios en las ventas comparables.",
+  "technical": {
+    "price": 1890,
+    "change_1d_pct": -0.79,
+    "change_1w_pct": -5.03,
+    "rsi": 33.1,
+    "macd": -29.5889,
+    "macd_signal": -9.5965,
+    "sma20": 2019.535,
+    "sma50": 2007.792,
+    "sma200": 2400.2075,
+    "ema12": 1975.7255,
+    "ema26": 2005.3144,
+    "pct_vs_sma20": -6.41,
+    "pct_vs_sma50": -5.87,
+    "pct_vs_sma200": -21.26,
+    "volume_today": 2726347,
+    "volume_avg20": 3118868.0,
+    "volume_ratio": 0.87,
+    "volatility_30d": 35.49,
+    "sharpe": -0.86,
+    "sortino": -0.95,
+    "max_drawdown_1y": -40.94,
+    "price_percentile_1y": 2.0,
+    "vs_benchmark_30d_pct": 3.43,
+    "perf_1m_pct": -5.03,
+    "perf_ytd_pct": -34.69
   },
-  {
-   "date": "2026-12-01",
-   "label": "Resolución SIC Colombia sobre adquisición de Makro (fecha aproximada, sin resolución nueva)",
-   "kind": "corporate",
-   "info": "La SIC inició análisis formal el 24-jul-2026 tras la solicitud de preevaluación; a esta búsqueda (28-sep-2026) no se encontró resolución, objeción ni aprobación publicada — el propio proceso fue descrito como 'embolatado' (más lento de lo esperado) por una nueva medida del gobierno Petro en libre competencia (HECHO: Infobae Colombia, 2-ago-2026, sin actualización posterior verificada)."
-  },
-  {
-   "date": "2026-12-15",
-   "label": "Aprobación CADE (Brasil) y homologación judicial del plan de recuperación de Hortus/St. Marche (fecha aproximada)",
-   "kind": "corporate",
-   "info": "El cierre de la compra de St. Marche (32 locales, ~US$216MM ventas 12M a mar-2026) sigue condicionado a la aprobación del CADE y a la homologación judicial del plan de recuperación de Grupo Hortus; no se halló novedad de cierre o aprobación a sep-2026 (HECHO: Capital Aberto, jun-2026, sin actualización posterior verificada en esta búsqueda)."
-  }
- ],
- "sections": {
-  "resumen": "Cencosud cierra el 28-sep-2026 en $1.948,9 CLP, mínimo cercano a su piso de 52 semanas ($1.882), con técnico en 'venta fuerte' (RSI 25, MACD -22,5). Chile sigue bajo guerra promocional: Tottus crece 8,2% en ingresos 2T26 vs. solo 0,4% de Cencosud, mientras el EBITDA ajustado consolidado cayó 22,9% en 2T26. Argentina mantiene tracción real (+105,7% EBITDA supermercados, +50pb share) y lanza 'Cenco Black' el 28-sep como catalizador de tráfico. Makro Colombia y St. Marche Brasil siguen sin resolución regulatoria. Consenso Hold con TP disperso ($2.692-3.150), Credicorp y MBI comprando la tesis de descuento. Confianza: media.",
-  "fundamental": "- 2T26 (reportado ago-2026): ingresos CLP 4,09 billones, EBITDA ajustado CLP 307.898M (-22,9% YoY), pérdida neta -CLP 18.074M por factores no operacionales; utilidad acumulada 1S26 CLP 84.070M (HECHO: mercado.com.ar/Forbes Argentina, ago-2026).\n- Chile: crecimiento de ingresos de solo 0,4% en 2T26 vs. 8,2% de Tottus y 1,8% de SMU — Cencosud es el más rezagado de los tres grandes en ventas comparables pese a mantener liderazgo de mercado (HECHO: theclinic.cl, 19-ago-2026). CEO Rodrigo Larraín reconoció 'competencia agresiva, particularmente en Chile' (HECHO: Diario Financiero, 2026).\n- Argentina: EBITDA supermercados +105,7% en moneda local (2T26), +50pb de share, marcas propias subiendo de 17,8% a 20% de ventas —el mercado con mayor expansión de marca propia del grupo— (HECHO: Forbes Argentina, ago-2026). Provisiones por incobrabilidad de tarjetas (operación in-house) siguen siendo mencionadas como contrapeso, sin cifra puntual nueva verificada esta ventana (LECTURA).\n- Movimiento estratégico: Cencosud registra la marca 'Giga Cencosud' para entrar al canal mayorista en Chile y competir directamente con SMU y Walmart, ampliando el frente competitivo doméstico (HECHO: Emol, 18-jul-2026).\n- Guidance FY2026 (ingresos US$18.413MM, EBITDA ajustado US$1.815MM, doble dígito en Chile/Perú/EE.UU., anunciado en Cenco Day ene-2026) sigue sin revisión formal localizada tras el 2T26 débil; MBI proyecta de forma independiente ingresos ~US$19.200MM y utilidad ~US$637MM para 2026 (HECHO: Diario Financiero, jun-2026), cifra más optimista que el guidance oficial de EBITDA.",
-  "valuacion": "- P/E trailing 34-35x muy elevado por la base de utilidad neta deprimida (pérdida 2T26); forward 12,2-12,4x sugiere expectativa de normalización de utilidades (HECHO: Investing.com/stockanalysis.com, 28-sep-2026).\n- P/B ~1,14x (dato de may-2026, sin verificación más reciente) luce bajo para un operador con activos inmobiliarios de alto margen (malls ~80% EBITDA), coherente con la tesis de descuento de Credicorp/MBI (LECTURA).\n- Peor acción del IPSA en 12 meses (-32,7% a -35% según fecha de corte y proveedor) y segunda peor rentabilidad regional entre pares Bloomberg LatAm, solo detrás de Grupo Mateus (Brasil) (HECHO: Bloomberg Línea, 2026).\n- TP disperso: consenso $2.692-2.990 Hold (13 analistas, stockanalysis.com) vs. $2.974 (10 analistas, Bloomberg vía DF) vs. Credicorp $3.150 (+50%, top pick jul-2026) vs. MBI $2.700 (+24%, jun-2026, 'sobreponderar', una de las pocas casas compradoras).\n- Márgenes EBITDA en mínimos desde 2020 (8,4% LTM citado en may-2026); sin confirmación de que hayan mejorado tras el 2T26, que mostró deterioro adicional (LECTURA de continuidad).",
-  "tecnico": "- RSI(14) en 25,0 — sobreventa marcada, la lectura más débil de las últimas semanas (Investing.com Technical Summary, 28-sep-2026 21:11 GMT), frente al RSI ~43-44 neutral del informe del 25-sep: deterioro técnico adicional en solo tres sesiones.\n- MACD -22,52, muy por debajo de su señal, y resumen técnico agregado en 'Venta fuerte' con 12 señales de venta (0 de compra) en el set de medias móviles.\n- Precio ($1.948,9) por debajo de MA5 ($1.955,6), MA50 ($2.029,0) y MA200 ($2.040,8): estructura bajista confirmada en los tres horizontes.\n- Caída diaria -2,07% (28-sep) continúa la tendencia negativa; el precio se ubica muy cerca de su piso de 52 semanas ($1.882), a solo ~3,5% de distancia.\n- Lectura de carácter: el RSI en 25 (sobreventa profunda, no solo débil) empieza a acercarse a zonas históricas de capitulación, aunque sin confirmación de piso o divergencia alcista todavía (LECTURA).",
-  "catalizadores": "**Catalizadores:**\n- 'Cenco Black' en Argentina (arranque 28-sep, activación física 2-4 oct-2026): evento de todo el ecosistema de marcas, primer catalizador de tráfico/ventas medible del trimestre en curso.\n- Reporte 3T26 (5-nov-2026, fecha ahora consistente entre proveedores): clave si Chile detiene el deterioro de EBITDA y si Argentina sostiene el +105,7%.\n- Resolución regulatoria SIC Colombia (Makro) y CADE Brasil (St. Marche), ambas sin fecha ni novedad desde jul-ago-2026.\n- Entrada al canal mayorista ('Giga Cencosud') como palanca de crecimiento adicional frente a SMU/Walmart, en fase temprana de registro de marca.\n\n**Riesgos (por materialidad):**\n- Guerra promocional estructural en Chile: Cencosud crece solo 0,4% en ingresos 2T26 vs. 8,2% de Tottus, perdiendo la carrera de ventas comparables pese a mantener el liderazgo de mercado.\n- Argentina: provisiones por incobrabilidad de tarjetas y contabilidad hiperinflacionaria distorsionan el resultado neto pese a la fuerte mejora operativa.\n- Ejecución simultánea de integraciones (Makro Colombia, St. Marche Brasil) sin resolución regulatoria a sep-2026, con Brasil y Colombia ya de menor margen relativo.\n- Guidance FY2026 (US$1.815MM EBITDA) no reconfirmado tras un 2T26 débil y un deterioro técnico adicional que sugiere que el mercado no ve mejora inminente.",
-  "sentimiento": "- Consenso Hold con dispersión real: Credicorp (TP $3.150, top pick) y MBI ($2.700, 'sobreponderar') compran la tesis de descuento, mientras BICE se mantiene cauto por falta de catalizadores de tráfico físico.\n- Técnico en sobreventa profunda (RSI 25, 'Venta fuerte'): la lectura contraria se refuerza mecánicamente en extremos, más que en el informe previo (RSI 44).\n- El mercado sigue premiando a Tottus (crecimiento de ingresos 8,2%) sobre Cencosud (0,4%), lo que explica gran parte del pesimismo relativo, más allá del ciclo macro.\n- Cencosud fue la 4ª acción más comprada por AFP en abril-2026 (HECHO: Diario Financiero, may-2026), señal de que inversionistas institucionales locales ya toman posiciones contrarias pese al sentimiento negativo agregado.\n- El lanzamiento de 'Cenco Black' en plena semana de deterioro técnico sugiere que management está actuando activamente sobre el problema de tráfico en Argentina, en paralelo a Don Salva en Chile.",
-  "conclusion": "Cencosud profundizó su deterioro técnico entre el 25 y 28-sep (RSI de 44 a 25, señal 'Venta fuerte'), cerca de su piso de 52 semanas, mientras el fundamental sigue dividido: Chile pierde la carrera de ventas comparables frente a Tottus (0,4% vs 8,2%) por guerra promocional persistente, pero Argentina sorprende (+105,7% EBITDA super) y lanza 'Cenco Black' como catalizador inmediato. Makro (Colombia) y St. Marche (Brasil) siguen sin resolución regulatoria. Consenso Hold dividido: Credicorp y MBI compran el descuento (TP $2.700-3.150), BICE cauto. La sobreventa técnica mejora la asimetría táctica, pero falta catalizador fundamental hasta el 3T26 (5-nov). Confianza: media."
- },
- "scores": {
-  "tecnica": {
-   "score": 33,
-   "just": "RSI 25 y MACD -22,52 marcan sobreventa profunda y régimen técnico de 'venta fuerte' con precio bajo las tres medias móviles clave, deterioro claro respecto al RSI 44 del informe previo. No hay aún divergencia alcista ni señal de piso confirmado, pero la profundidad de la sobreventa (cerca del mínimo de 52 semanas) empieza a acercarse a zonas donde históricamente se gesta un cambio de carácter, sin premiar la caída reciente en sí misma."
-  },
-  "fundamental": {
-   "score": 45,
-   "just": "Chile pierde claramente la carrera de crecimiento (0,4% vs Tottus 8,2%) bajo guerra promocional que ya lleva varios trimestres, aunque mantiene liderazgo de mercado; Argentina (+105,7% EBITDA super, +50pb share) y la expansión de marca propia sostienen el otro lado de la tesis. La falta de reconfirmación del guidance FY2026 tras un 2T26 débil y el estancamiento regulatorio de dos integraciones pesan en contra."
-  },
-  "sentimiento": {
-   "score": 55,
-   "just": "Consenso Hold con divergencia real entre casas (Credicorp/MBI compradores del descuento vs BICE cauto) y técnico en sobreventa profunda (RSI 25) que, leído en contrario, sugiere pesimismo ya muy extendido en el precio. La compra institucional local (4ª más comprada por AFP en abril) es una señal contraria adicional que no estaba tan clara en el informe previo."
-  },
-  "riesgo": {
-   "score": 52,
-   "just": "El riesgo de pérdida permanente sigue concentrado en la guerra promocional estructural en Chile (pérdida de share de crecimiento frente a Tottus), Argentina (incobrabilidad de tarjetas, hiperinflación) y la ejecución dual de integraciones sin fecha regulatoria cierta (Makro Colombia, St. Marche Brasil). La volatilidad de corto plazo (sobreventa técnica) es distinta del riesgo estructural, que no ha mejorado desde el informe previo."
-  },
-  "conviccion": {
-   "score": 48,
-   "just": "Tesis falsable: si el 3T26 (5-nov) muestra que Chile detiene el deterioro relativo frente a Tottus y Argentina sostiene su tracción tras 'Cenco Black', la sobreventa técnica actual (RSI 25, cerca del piso anual) ofrece una entrada asimétrica hacia los TP de Credicorp/MBI ($2.700-3.150). Si la guerra promocional sigue erosionando el crecimiento de Chile o las integraciones se traban más, la tesis pierde fuerza. Ligeramente mayor que el informe previo por la sobreventa más profunda, pero sin catalizador confirmado todavía."
-  }
- },
- "sources": [
-  "stockanalysis.com (quote, statistics, 28-sep-2026)",
-  "Investing.com (equities/cencosud, equities/cencosud-technical, consensus estimates, 28-sep-2026)",
-  "TradingView (BCS:CENCOSUD, technicals, forecast)",
-  "Forbes Argentina — 'Cencosud apuesta por la Argentina: gana mercado y duplica las ganancias de sus supermercados' (ago-2026)",
-  "Infobae Colombia — Makro SIC (jun-2026, ago-2026) y 'Cenco Black' Argentina (28-sep-2026)",
-  "Diario Financiero (df.cl) — 'Por qué el mercado castiga a Cencosud' (may-2026), 'Brasil y Colombia, la arremetida de Cencosud en la región' (jun-2026), 'MBI recomienda sobreponderar Cencosud' (jun-2026)",
-  "Emol — 'Acción de Cencosud se hunde 35% en un año' (jul-2026), 'Giga Cencosud' mayorista (jul-2026)",
-  "theclinic.cl — 'Tottus lidera el ajuste del mercado supermercadista en Chile' (19-ago-2026)",
-  "Bloomberg Línea (cotización, comparación regional retail)",
-  "Peru Retail / Meganoticias / Portal Innova — Don Salva (ago-sep 2026)",
-  "Capital Aberto (Brasil) — St. Marche/CADE/Hortus (jun-2026)",
-  "cencosud.com — guidance FY2026 y plan de inversiones (ene-2026)",
-  "mercado.com.ar (resultados 2T26, ago-2026)",
-  "Yahoo Finance (P/B, may-2026)"
- ],
- "opportunity": {
-  "cats": {
-   "valuacion_hist": {
-    "score": 68,
-    "just": "Precio a ~3,5% de su piso de 52 semanas, P/B ~1,14x, P/E forward 12,2-12,4x y margen EBITDA LTM en mínimos desde 2020; upside de consenso 38-50% según casa (Credicorp/MBI/Bloomberg). El descuento es más profundo que hace tres días por la caída técnica adicional."
-   },
-   "calidad": {
-    "score": 50,
-    "just": "Chile pierde la carrera de crecimiento comparable (0,4% vs Tottus 8,2%) aunque retiene liderazgo de mercado; Argentina y la expansión de marca propia (17,8%→20%) sostienen la tesis de calidad operativa fuera del negocio ancla, con Brasil/Colombia aún de menor margen relativo."
-   },
-   "asimetria": {
-    "score": 58,
-    "just": "Upside de consenso relevante (24%-50%) contra downside que ya luce muy acotado en términos históricos (precio cerca de mínimo de 52 semanas); la falta de reconfirmación de guidance y el estancamiento regulatorio de las integraciones moderan la convicción plena en el ratio riesgo/retorno."
-   },
-   "catalizadores": {
-    "score": 48,
-    "just": "'Cenco Black' (28-sep a 4-oct) es un catalizador concreto e inmediato de tráfico en Argentina; el reporte 3T26 (5-nov, ahora con fecha más consistente entre proveedores) es el catalizador central. Makro Colombia y St. Marche Brasil siguen sin fecha de resolución regulatoria."
-   },
-   "contrarian": {
-    "score": 60,
-    "just": "Sobreventa técnica profunda (RSI 25, 'Venta fuerte') junto con Cencosud siendo la 4ª acción más comprada por AFP en abril-2026 y casas como Credicorp/MBI acumulando activamente sugieren que el pesimismo ya está muy incorporado en el precio, aunque sin capitulación ni piso técnico confirmado todavía."
-   }
-  },
-  "plan": {
-   "recomendacion": "Esperar gatillo",
-   "zona_compra": "CLP 1.880-2.000 (acumulación inicial solo táctica/reducida; ampliar tras confirmación)",
-   "invalidacion": "Quiebre sostenido bajo CLP 1.882 (mínimo de 52 semanas) o nueva caída del EBITDA Chile/consolidado en el 3T26 que confirme deterioro estructural adicional",
-   "gatillos": [
-    "Resultados del evento 'Cenco Black' (2-4 oct-2026) mostrando recuperación de tráfico en Argentina",
-    "Reporte 3T26 (5-nov-2026) confirmando freno al deterioro de EBITDA en Chile y sostenimiento de la tracción en Argentina",
-    "Resolución regulatoria SIC Colombia (Makro) y/o CADE Brasil (St. Marche)",
-    "Reconfirmación formal del guidance EBITDA FY2026 (US$1.815MM)"
-   ],
-   "horizonte": "6-18 meses",
-   "tamano": "posición reducida (3-5%), ampliable tras gatillo",
-   "confianza": "media"
-  }
- },
- "perfil": "Cencosud es el mayor operador de retail multiformato de origen chileno, con más de 1.300 locales en seis países y cinco unidades: supermercados (Jumbo, Santa Isabel, Disco, The Fresh Market), mejoramiento del hogar (Easy), tiendas por departamento (Paris), centros comerciales y servicios financieros. El core es alimentos: los supermercados explican 70-75% de los ingresos, y por país Chile aporta 44%, Argentina 20% y Estados Unidos 12%. La rentabilidad, en cambio, está mucho más concentrada: Chile es el ancla del resultado y el negocio inmobiliario es desproporcionadamente rentable —los malls operan con márgenes EBITDA en torno a 80%— frente a supermercados (11-12%) y tiendas por departamento, de un dígito bajo. En 2025 los ingresos fueron ~CLP 16,6 billones con utilidad +70,4%, y leverage neto de ~3,5x tras comprar Makro Argentina y el resto de The Fresh Market. Lo estructural: exposición a Argentina (donde la contabilidad hiperinflacionaria distorsiona las cifras, aunque su peso relativo en el EBITDA consolidado ha caído a ~11,6%), traslación cambiaria que reduce contablemente el aporte externo cuando el peso chileno se fortalece, y una estructura de costos rígida que hace al margen muy sensible a pequeños cambios en las ventas comparables.",
- "technical": {
-  "price": 1990,
-  "change_1d_pct": -0.5,
-  "change_1w_pct": -4.78,
-  "rsi": 43.2,
-  "macd": -1.273,
-  "macd_signal": 7.2434,
-  "sma20": 2040.535,
-  "sma50": 2015.368,
-  "sma200": 2420.383,
-  "ema12": 2037.3392,
-  "ema26": 2038.6122,
-  "pct_vs_sma20": -2.48,
-  "pct_vs_sma50": -1.26,
-  "pct_vs_sma200": -17.78,
-  "volume_today": 1719925,
-  "volume_avg20": 2941034.0,
-  "volume_ratio": 0.58,
-  "volatility_30d": 34.67,
-  "sharpe": 1.28,
-  "sortino": 1.28,
-  "max_drawdown_1y": -40.62,
-  "price_percentile_1y": 8.0,
-  "vs_benchmark_30d_pct": 0.67,
-  "perf_1m_pct": -5.87,
-  "perf_ytd_pct": -31.24
- },
- "risk": {
-  "volatility_30d": 34.67,
-  "sharpe": 1.28,
-  "sortino": 1.28,
-  "max_drawdown_1y": -40.62,
-  "n_days": 327,
-  "window": 30
- },
- "benchmark": {
-  "ticker": "CBOE:ECH",
-  "label": "ECH (proxy Chile/IPSA)",
-  "relative_performance_30d": 0.67,
-  "relative_performance_ytd": -27.58,
-  "price_percentile_1y": 8.0,
-  "partial": false
- },
- "sourcesMeta": {
-  "price": {
-   "origin": "TradingView scanner",
-   "fetched_at": "2026-09-25T22:53:34-03:00"
-  },
-  "rsi_macd": {
-   "origin": "TradingView scanner",
-   "fetched_at": "2026-09-25T22:53:34-03:00"
-  },
-  "smas_volume": {
-   "origin": "TradingView scanner",
-   "fetched_at": "2026-09-25T22:53:34-03:00"
+  "risk": {
+    "volatility_30d": 35.49,
+    "sharpe": -0.86,
+    "sortino": -0.95,
+    "max_drawdown_1y": -40.94,
+    "n_days": 331,
+    "window": 30
   },
   "benchmark": {
-   "origin": "TradingView scanner",
-   "symbol": "CBOE:ECH",
-   "fetched_at": "2026-09-25T22:53:34-03:00"
+    "ticker": "CBOE:ECH",
+    "label": "ECH (proxy Chile/IPSA)",
+    "relative_performance_30d": 3.43,
+    "relative_performance_ytd": -25.49,
+    "price_percentile_1y": 2.0,
+    "partial": false
   },
-  "risk_metrics": {
-   "origin": "data/history/CENCOSUD.json",
-   "n_days": 327
-  }
- },
- "metricChanges": [
-  {
-   "ticker": "CENCOSUD",
-   "date": "2026-08-23",
-   "metric": "rsi",
-   "from": 37.55,
-   "to": 58.56
-  }
- ],
- "trend": {
-  "piso": 1,
-  "techo": 0,
-  "max": 7,
-  "senales_piso": [
-   "mínimos crecientes en tendencia bajista"
+  "sourcesMeta": {
+    "price": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-10-01T22:46:56-03:00"
+    },
+    "rsi_macd": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-10-01T22:46:56-03:00"
+    },
+    "smas_volume": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-10-01T22:46:56-03:00"
+    },
+    "benchmark": {
+      "origin": "TradingView scanner",
+      "symbol": "CBOE:ECH",
+      "fetched_at": "2026-10-01T22:46:56-03:00"
+    },
+    "risk_metrics": {
+      "origin": "data/history/CENCOSUD.json",
+      "n_days": 331
+    }
+  },
+  "metricChanges": [
+    {
+      "ticker": "CENCOSUD",
+      "date": "2026-08-23",
+      "metric": "rsi",
+      "from": 37.55,
+      "to": 58.56
+    }
   ],
-  "senales_techo": []
- },
- "reportDate": "25 de septiembre de 2026"
+  "trend": {
+    "piso": 0,
+    "techo": 0,
+    "max": 7,
+    "senales_piso": [],
+    "senales_techo": []
+  },
+  "reportDate": "2 de octubre de 2026"
 }
