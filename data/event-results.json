@@ -1,62 +1,14 @@
 [
  {
-  "ticker": "HDSY",
-  "date": "2026-09-29",
-  "label": "Fecha ex-dividendo confirmada (intermedio ¥10/acción, pago 07-dic-2026)",
-  "result": "RESULTADO: ejecutado según lo previsto. Último día con derecho 28-sep (cierre ¥6.300), ex-dividendo 29-sep, fecha de registro 30-sep — confirmado en stockanalysis.com y Kabutan (2-oct-2026). Sin impacto de precio relevante: el título subió a ¥6.570-6.610 el 1-2-oct, absorbiendo el ajuste de ¥10 (~0,16% del precio) dentro de la volatilidad normal. No se emitió TDnet separado solo para la ejecución (práctica estándar en Japón, la fecha ya estaba fijada en el anuncio original de dividendo); pago de ¥10/acción confirmado para el 07-dic-2026."
- },
- {
-  "ticker": "CLSK",
-  "date": "2026-09-30",
-  "label": "Cierre de año fiscal FY2026",
-  "result": "RESULTADO: fue únicamente el cierre contable-calendario del año fiscal; no se identificó comunicado operacional, de guidance o update específico de la empresa asociado a esta fecha (revisión de investors.cleanspark.com y PRNewswire al 2-oct-2026). El dato relevante pendiente sigue siendo el update operacional de septiembre, que a esta fecha tampoco se ha publicado pese a que el patrón mensual sugería los primeros días de octubre."
- },
- {
-  "ticker": "MSTR",
-  "date": "2026-09-30",
-  "label": "Cierre de consulta pública MSCI sobre elegibilidad de 'non-operating companies'",
-  "result": "RESULTADO: el comment period cerró formalmente el 30-sep según lo previsto, sin extensión ni cambios de calendario. No hay noticia nueva más allá del cierre formal: MSCI no filtró decisión ni comentario adicional; Strategy mantiene su oposición pública (strategy.com/msci) y BPI publicó un informe cuestionando el proceso interno de MSCI, pero sin indicios sobre el resultado. Veredicto esperado 'on or before' el 16-oct (CryptoSlate, KuCoin, TFTC, oct-2026)."
- },
- {
-  "ticker": "MU",
-  "date": "2026-09-30",
-  "label": "Earnings Q4 FY2026",
-  "result": "RESULTADO: Micron pulverizó su propio guidance y el consenso: revenue US$54.230M (guidance US$50.000M±1.000M, consenso ~US$51.200M), EPS no-GAAP US$33,42 (guidance US$31,00±1,00, consenso ~US$31,56-31,61), margen bruto no-GAAP 87% (guidance ~86%). Guidance Q1 FY27 también superó ampliamente expectativas: revenue US$61.500M±1.500M, EPS US$38,15±1,00 (SEC 8-K/press release, CNBC, 30-sep-2026). La acción apenas se movió en after-hours/premarket (clásico 'sell the news' tras +273% YTD), pero cerró el 1-oct en US$1.097,39 (+3,03%); lluvia posterior de subas de price target (DA Davidson a US$2.100, Rosenblatt a US$1.900, Mizuho a US$1.400) sin ningún downgrade (247wallst.com/finbold/CNBC, 1-2-oct-2026)."
- },
- {
-  "ticker": "NIKE",
-  "date": "2026-10-01",
-  "label": "Earnings Q1 FY2027",
-  "result": "RESULTADO: EPS real US$0,48 vs consenso US$0,44 (LSEG/23 analistas), revenue real US$11,2B vs consenso ~US$11,33B (caída de 4-5% interanual, con Greater China -26% currency-neutral). Guidance FY2027: caída de ingresos a tasa de un dígito alto y EPS ajustado US$1,15-1,35 (vs ~US$2,10 en FY2026), muy por debajo de lo esperado; Nike anunció además un plan de restructuración con despidos. Reacción: acción cayó ~6-8% en after-hours el 1-oct, y cerró con otra baja de ~5,8% el 2-oct a US$33,10 (CNBC 1-oct-2026; StockTitan/TradingPedia 2-oct-2026; stockanalysis.com)."
- },
- {
-  "ticker": "XDC/USD",
-  "date": "2026-10-01",
-  "label": "Cierre de Sibos Miami 2026 (Contour/XDC)",
-  "result": "RESULTADO: Contour (impulsado por XDC Network) tuvo presencia con stand propio en Sibos Miami 2026 (28 sep-1 oct), mostrando su infraestructura de trade finance digital con integración a estándares SWIFT MT/MX, UCP e ISBP y liquidación en fiat/stablecoins; el co-fundador Atul Khekade dio entrevistas en el evento. No se identificó un anuncio formal de nueva alianza, piloto o novedad regulatoria en el cierre del evento (KuCoin News/Swift.com, octubre 2026)."
- },
- {
-  "ticker": "XLM/USD",
-  "date": "2026-10-01",
-  "label": "Protocolo 29 en mainnet (parche de seguridad crítico)",
-  "result": "RESULTADO: Protocol 29 (stellar-core 29.0.0) se desplegó en mainnet el 01/10/2026 a las 17:00 UTC tras anuncio urgente de la SDF del 24/09/2026 a operadores de nodos; versiones pre-29 del captive-core se detenían en el ledger de votación, confirmado por releases oficiales de stellar-core, Horizon, RPC y Galexie v29.0.0 en GitHub. No se reportaron incidentes de red post-despliegue en las fuentes consultadas. XLM subió ~3,16% ese día hasta ~$0,227, pero el movimiento se atribuyó a rotación general de altcoins, no específicamente a este parche (GitHub stellar/stellar-core releases; Crypto Daily/CoinMarketCap, 01-02/10/2026)."
- },
- {
-  "ticker": "XRP/USD",
-  "date": "2026-10-01",
-  "label": "Liberación mensual de escrow de XRP",
-  "result": "RESULTADO: Ripple liberó 1.000M XRP (~$1,47-1,49B) el 1-oct-2026 en 4 transacciones (400M+300M+200M+100M), y relockeó 700M XRP (~$1,05-1,4B) en 2 transacciones (400M+300M), dejando un incremento neto de circulante de ~300M XRP. Patrón consistente con meses previos (relock habitual 700-800M); escrow total remanente ~31.845B XRP (CoinGape, U.Today, Hokanews, cryptonews.net, 1-2 oct 2026)."
- },
- {
   "ticker": "BTC/USD",
   "date": "2026-10-02",
   "label": "Inicio del receso del Senado de EE.UU. hasta después de las elecciones de medio término",
-  "result": "RESULTADO: El Senado entró en receso el 2-oct sin re-votar el CLARITY Act; la moción de reconsideración de Tillis (tras el fallo de cloture 49-50 del 15-sep) sigue técnicamente viva pero sin fecha, y el calendario legislativo lo empuja efectivamente a después de las elecciones de medio término o a 2027 (CBS News/The Hill/NOTUS, 1-2-oct-2026). No hubo sorpresas de último momento: el receso ocurrió según lo previsto, sin votación de emergencia ni nueva propuesta de texto."
+  "result": "RESULTADO: el Senado entró en receso el 2-oct sin re-votar el CLARITY Act; la moción de reconsideración de Tillis (tras el fallo de cloture 49-50 del 15-sep) sigue técnicamente viva pero sin fecha, y el calendario legislativo lo empuja efectivamente a después de las elecciones de medio término o a 2027 (CBS News/The Hill/NOTUS, 1-2-oct-2026). Sin novedad adicional verificada hacia el 5-oct-2026: no hubo convocatoria de emergencia ni nuevo texto presentado."
  },
  {
   "ticker": "CENCOSUD",
   "date": "2026-10-02",
   "label": "Activación principal 'Cenco Black' en Argentina (2-4 oct)",
-  "result": "RESULTADO: evento en curso, sin cifras de resultado (tráfico, ventas o facturación) publicadas todavía. La activación física arrancó hoy 2-oct y se extiende hasta el 4-oct; la cobertura disponible (Infobae, TotalMedios, Web Retail, Supermercado Al Día, todas 28-sep-2026) describe el lanzamiento y la mecánica promocional (descuentos hasta 60%, 24 cuotas sin interés, sorteo de 50 millones), pero ninguna fuente reporta aún números de tráfico o ventas del primer día. Búsqueda de seguimiento específica (2-oct-2026) no encontró notas posteriores con resultados preliminares; es razonable esperar la primera lectura cualitativa recién la próxima semana y cifras duras recién en el reporte 3T26 (5-nov-2026)."
+  "result": "RESULTADO: la activación física (2-4 oct) concluyó sin que se publicaran cifras de tráfico, ventas o facturación del evento (verificado 5-oct-2026, Infobae/Web Retail/Zona Norte Diario). El sorteo de ARS 50MM en premios asociado a la campaña permanece abierto hasta el 11-oct-2026. La primera evidencia dura de impacto comercial quedará recién en el reporte 3T26 de Cencosud (5-nov-2026)."
  }
 ]

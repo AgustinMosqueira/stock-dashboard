@@ -4,128 +4,136 @@
   "statsList": [
     [
       "Precio",
-      "$1,097.39 (1-oct-2026)"
+      "$1.074,89 (4-oct-2026)"
     ],
     [
       "Rango 52 sem.",
-      "$154,65 – $1.255,00 (stockanalysis.com, 28-sep-2026)"
+      "$179,61 – $1.255,00 (stockanalysis.com, 5-oct-2026)"
     ],
     [
       "Market cap",
-      "~US$1,24 billones (~1.130M acciones en circulación a precio post-earnings, stockanalysis.com, 1-oct-2026)"
+      "~US$1,20 billones (stockanalysis.com, 5-oct-2026)"
     ],
     [
       "P/E",
-      "~16,4x trailing (EPS no-GAAP FY26 US$75,52) / ~7,2x forward (sobre guidance Q1 FY27 US$38,15, anualizado) (stockanalysis.com/cálculo propio, 1-oct-2026) — compresión fuerte del trailing tras el salto de utilidades de Q4"
+      "~14,3x trailing / ~6,0x forward (stockanalysis.com, 5-oct-2026) — sigue comprimiéndose tras el salto de utilidades de Q4 FY26"
     ],
     [
       "Target consenso",
-      "~US$1.430 promedio (26 analistas, 25 Buy/1 Hold, stockanalysis.com, 2-oct-2026); tras earnings: Rosenblatt a US$1.900 (desde US$1.500), DA Davidson a US$2.100 (desde US$2.000), Mizuho a US$1.400 (desde US$1.300), Goldman Sachs a US$1.250 (desde US$1.100, Neutral), JPMorgan reitera Overweight PT US$1.540 (247wallst.com/finbold/CNBC, 1-2-oct-2026); máximo en la calle US$2.100"
+      "~US$1.386 promedio (46 analistas, 41 Buy/5 Hold/0 Sell, MarketBeat, 5-oct-2026); máximo US$2.100 (DA Davidson), mínimo US$300; revisiones post-earnings: Rosenblatt US$1.900, Mizuho US$1.400, Goldman US$1.250 (Neutral), JPMorgan Overweight US$1.540"
     ],
     [
       "Próx. earnings",
-      "Q1 FY2027 estimado 16-23 dic-2026 (sin confirmar oficialmente; wallstreethorizon/marketchameleon, 2-oct-2026). Guidance ya emitido el 30-sep: revenue US$61.500M±1.500M, margen bruto no-GAAP ~86,25% (piso del año), EPS no-GAAP US$38,15±1,00 — todos muy por encima del consenso previo (~US$57.240M/margen~85%)"
+      "Q1 FY2027 estimado 16-23 dic-2026 (sin confirmación oficial de Micron IR; MarketBeat/Wall Street Horizon, 5-oct-2026). Guidance ya emitido 30-sep: revenue US$61.500M±1.500M, margen no-GAAP ~86,25% (piso del año), EPS no-GAAP US$38,15±1,00"
     ],
     [
       "Técnico (auto)",
-      "RSI 63.5 · MACD +36.02 / señal +30.21 (TradingView, 1-oct-2026)"
+      "RSI 59,3 · MACD +35,29 / señal +31,23 (TradingView, 4-oct-2026)"
     ]
   ],
   "change": {
-    "day": 3.03,
-    "week": 1.4
+    "day": -2.05,
+    "week": -0.68
   },
   "events": [
+    {
+      "date": "2026-10-14",
+      "label": "Fecha ex-dividendo trimestral (US$0,15/acción)",
+      "kind": "corporate",
+      "time": null,
+      "info": "HECHO: ex-dividendo 14-oct-2026, pago 29-oct-2026 (MarketScreener, 5-oct-2026). Monto sin cambios vs. trimestres previos; relevancia marginal para la tesis de inversión."
+    },
     {
       "date": "2026-11-07",
       "label": "Fecha estimada de 'target completion date' del caso ITC 337-TA-1523 (Netlist, patentes DDR5)",
       "kind": "corporate",
       "time": null,
-      "info": "LECTURA: el ITC debe fijar el 'target completion date' dentro de 45 días de la institución (23-sep-2026), por lo que debería anunciarse hacia inicios de nov-2026 (USITC.gov, práctica estándar); aún no publicado a la fecha. HECHO adicional: Netlist presentó el 29-sep-2026 una SEGUNDA demanda ante el ITC, esta vez sobre patentes HBM3E/HBM4/HBM4E (patentes US 12.308.087 y 12.646.537), nombrando también a Nvidia, Broadcom y Google como clientes aguas abajo (PRNewswire/GuruFocus/TradingView, 29-sep-2026) — el frente legal se amplía justo al corazón del negocio de IA de Micron."
+      "info": "LECTURA: el ITC debe fijar la fecha objetivo dentro de 45 días de la institución (23-sep-2026), por lo que se esperaría hacia inicios de nov-2026; aún no publicada al 5-oct. HECHO: Netlist presentó el 29-sep una segunda demanda ITC sobre patentes HBM3E/HBM4/HBM4E contra Micron, Nvidia, Broadcom y Google; al 5-oct la ITC todavía no votó instituir esa investigación (sin número de caso asignado)."
     },
     {
       "date": "2026-12-16",
       "label": "Earnings Q1 FY2027 (estimado, sin confirmar)",
       "kind": "earnings",
       "time": null,
-      "info": "LECTURA: fecha estimada entre 16 y 23-dic-2026 según distintos trackers (Wall Street Horizon, MarketChameleon, 2-oct-2026), sin confirmación oficial de Micron IR aún. HECHO: guidance oficial ya fijado el 30-sep-2026 (revenue US$61.500M±1.500M, margen ~86,25%, EPS US$38,15±1,00), muy por encima del consenso previo a Q4; management advirtió que el margen de Q1 FY27 será el 'piso' del año por ~US$1.000M en mayores costos de compensación por incentivos y arranque de capacidad, con mejora esperada el resto del año fiscal."
+      "info": "LECTURA: fecha estimada entre 16 y 23-dic-2026 según distintos trackers (MarketBeat, Wall Street Horizon, 5-oct-2026), sin confirmación oficial de Micron IR. HECHO: guidance oficial ya fijado el 30-sep-2026 (revenue US$61.500M±1.500M, margen ~86,25%, EPS US$38,15±1,00); management advirtió que el margen de Q1 FY27 será el 'piso' del año por mayores costos de compensación e inicio de capacidad."
     }
   ],
   "sections": {
-    "resumen": "HECHO: Micron reportó Q4 FY26 el 30-sep (after-hours) muy por encima de todo: revenue US$54.230M (guidance US$50.000M, consenso ~US$51.200M), EPS no-GAAP US$33,42 (guidance US$31, consenso ~US$31,6), margen bruto 87% (guidance ~86%). HECHO: guidance Q1 FY27 también pulverizó expectativas (revenue US$61.500M, EPS US$38,15). HECHO: la acción apenas se movió en after-hours/premarket pese al beat masivo ('sell the news'), pero cerró el 1-oct en US$1.097,39 (+3,03%) tras digerir la noticia. HECHO: lluvia de subas de PT (Rosenblatt a US$1.900, DA Davidson a US$2.100) y nueva demanda ITC de Netlist sobre patentes HBM (29-sep).",
-    "fundamental": "- HECHO: Q4 FY26 superó guidance: revenue US$54.230M (guía US$50.000M), EPS US$33,42 (vs US$31,00), margen bruto 87% (vs ~86%) (SEC 8-K, 30-sep-2026).\n- HECHO: DRAM récord US$39.800M (+343% YoY) y NAND récord US$14.100M (+526% YoY) por demanda IA (Micron, 30-sep-2026).\n- HECHO: guidance Q1 FY27 acelera: revenue US$61.500M±1.500M, EPS US$38,15±1,00, sobre consenso previo ~US$57.240M (CNBC, 1-oct-2026).\n- HECHO: capex 1S FY27 ~US$25.000M (~US$11.500M en Q1), foco en construcción de cleanroom hacia fines de 2028 (earnings call, 30-sep-2026).\n- LECTURA: margen Q1 FY27 (~86,25%) es 'piso' del año; HBM 2027 ya mayormente contratado con subas de precio acorta brecha vs DRAM convencional.",
-    "valuacion": "- HECHO: market cap ~US$1,24 billones post-earnings, con EPS no-GAAP FY26 de US$75,52 (+811% YoY) comprimiendo el trailing P/E a ~16,4x desde ~24,4x.\n- HECHO: forward P/E ~7,2x sobre el nuevo guidance Q1 FY27, similar al previo pese al salto de precio, porque las utilidades subieron más que la cotización.\n- HECHO: target consenso ~US$1.430 (26 analistas, 25 Buy/1 Hold, 2-oct), máximo en la calle US$2.100 (DA Davidson) — upside ~30% al consenso, ~91% al máximo.\n- LECTURA: la reacción 'apenas se movió' en after-hours confirma que gran parte del resultado ya estaba descontado tras +273% YTD; el cierre del 1-oct (+3,03%) valida el guidance de margen como más que suficiente, no como decepción.",
-    "tecnico": "- HECHO: precio US$1.097,39 (1-oct, +3,03% día, +1,4% semana), tras reacción inicial plana en after-hours/premarket (CNBC, 1-oct) — el mercado tardó una sesión en pricear el beat.\n- HECHO: RSI 63,5 y MACD +36,02/señal +30,21 en zona alcista sin sobrecompra extrema; percentil 1 año en 85,3, precio ~62% sobre SMA200 y ~8% sobre SMA20.\n- LECTURA: el guidance despejó el riesgo de 'sell the news' que anticipaba el informe previo, pero el percentil 85,3 y el drawdown de -39,1% en 1 año recuerdan que el patrón de shocks violentos sigue latente; vigilar sobreextensión.\n- HECHO: +16,2% vs S&P 500 en 30 días confirma momentum relativo reforzado por el reporte.",
-    "catalizadores": "**Catalizadores:**\n- Guidance Q1 FY27 sobre consenso (revenue US$61.500M, EPS US$38,15), con margen mejorando tras el piso del trimestre.\n- Subas de PT post-earnings (DA Davidson US$2.100, Rosenblatt US$1.900, Mizuho US$1.400) sin downgrades.\n- HBM calendario 2027 mayormente contratado con subas de precio interanuales.\n- Capex FY27 acelerado (~US$25.000M en 1S) para capacidad hacia fines de 2028.\n\n**Riesgos:**\n- Netlist sumó el 29-sep una segunda demanda ITC sobre patentes HBM3E/HBM4/HBM4E (nombra a Nvidia/Broadcom/Google), sumada al caso DDR5 ya instituido.\n- Apple pidió al gobierno de EE.UU. autorización para comprar DRAM de CXMT.\n- CXMT proyecta ~350.000 wafers DRAM/mes para fin de 2026, cerca de los ~375.000 de Micron, sin acceso a EUV.\n- Reacción inicial plana pese al beat muestra que el mercado exige cada vez más; un bache de ejecución en 2027 podría gatillar corrección dado el beta alto.",
-    "sentimiento": "- HECHO: consenso se volvió aún más optimista (25/26 Buy, ningún downgrade; PT's como DA Davidson a US$2.100), profundizando la ausencia de voces discordantes.\n- HECHO: la reacción inicial plana del mercado contrasta con el entusiasmo analista — señal de expectativas ya muy altas antes del reporte.\n- No se halló nuevo Form 4 de venta del CEO Mehrotra posterior al 21-ago-2026 (SEC EDGAR, 2-oct-2026); sin cambios vs informe anterior.\n- LECTURA en contrario: PT's a extremos (US$2.100) junto a cero downgrades tras superar un guidance exigente es consenso sin fisuras — el mercado sigue sin pricear escenarios adversos pese a dos frentes legales activos y avance de CXMT.",
-    "conclusion": "Micron pulverizó su guidance en Q4 FY26 (revenue US$54.230M vs US$50.000M, EPS US$33,42 vs US$31, margen 87%) y guió Q1 FY27 muy por encima del consenso. La acción, que apenas reaccionó en after-hours, subió 3% al cierre siguiente, validando la tesis de HBM/contratos plurianuales. Pero el consenso se volvió aún más unánime (PT hasta US$2.100) sin voces críticas, Netlist amplió su ofensiva legal al corazón del negocio HBM y CXMT sigue cerrando la brecha. Confianza media: fundamentals confirmados y acelerando, pero consenso extremo y riesgo legal/competitivo creciente piden posición acotada dado el beta ~2,1."
+    "resumen": "HECHO: tras el beat masivo de Q4 FY26 (30-sep) y el salto a US$1.097,39 el 1-oct, la acción retrocedió a US$1.074,89 (4-oct) en una semana de toma de utilidades y cautela macro (jobs report), acumulando ~-3% desde el pico. HECHO: consenso de analistas (MarketBeat, 46 analistas) muestra 41 Buy/5 Hold/0 Sell, PT promedio ~US$1.386, máximo US$2.100. HECHO: TrendForce proyecta DRAM +10-15% y NAND +15-20% QoQ en 4T26, HBM +121% interanual en 2027; HBM3E/HBM4 'sold out' hasta 2027 según el earnings call. Litigio Netlist sobre patentes HBM aún sin institución formal en ITC al 5-oct.",
+    "fundamental": "- HECHO: HBM3E y HBM4 'sold out' hasta calendario 2027 con compromisos ya para 2028; +US$1.000M de HBM4 embarcados para Vera Rubin de Nvidia (earnings call, 30-sep-2026).\n- HECHO: TrendForce (30-sep-2026) proyecta contratos DRAM +10-15% y NAND +15-20% QoQ en 4T26, moderando frente a saltos de +90%+ en trimestres previos de 2026.\n- HECHO: déficit de mercado reportado DRAM 4,9%/NAND 4,2%/HBM 5,1%, los más altos desde 2011 (datos de industria, oct-2026).\n- HECHO: HBM4E custom con Nvidia ('NV-HBM') confirmado usando TSMC como foundry para die base, volumen esperado en 2027.\n- LECTURA: el ramp de HBM4 avanza ~2x más rápido que el de HBM3E el año anterior (TrendForce/The Elec), reduciendo riesgo de ejecución del ramp.",
+    "valuacion": "- HECHO: P/E trailing ~14,3x y forward ~6,0x (stockanalysis.com, 5-oct), compresión adicional vs. el ~16,4x/7,2x de días previos por la combinación de EPS creciente y precio algo más bajo.\n- HECHO: PT consenso MarketBeat (46 analistas) ~US$1.386 vs. precio ~US$1.075 — upside ~29% al consenso, ~95% al máximo (US$2.100, DA Davidson).\n- LECTURA: la caída post-pico (-3% desde el 1-oct) confirma que buena parte del beat ya estaba descontada; el forward P/E de ~6x sigue bajo para un negocio con HBM 'sold out' a precios crecientes, pero refleja también el riesgo de reversión del ciclo que el mercado no olvida.\n- HECHO: discrepancia menor entre proveedores de datos (MarketBeat vs. stockanalysis.com forecast) en el PT promedio (~US$1.386 vs. ~US$1.536), sin alterar la dirección de la lectura.",
+    "tecnico": "- HECHO: precio US$1.074,89 (4-oct), retrocediendo ~2% en el día tras el pico post-earnings de US$1.097,39 (1-oct); RSI 59,3 y MACD +35,29/señal +31,23, zona alcista pero sin sobrecompra extrema.\n- HECHO: percentil de precio 1 año en 83,3, +57,7% sobre SMA200 y +4,87% sobre SMA20 — sobreextensión estructural que persiste pese al retroceso reciente.\n- LECTURA: el enfriamiento de esta semana (toma de utilidades + jobs report) es un respiro sano dentro de una tendencia que sigue extendida; el verdadero cambio de carácter ya ocurrió el 1-oct (validación del guidance), no ahora.\n- HECHO: +14,32% vs. S&P 500 en 30 días y +264,22% YTD confirman momentum relativo aún muy por encima del mercado, con drawdown máximo 1 año de -39,1% como recordatorio de la violencia potencial de las correcciones en este nombre.",
+    "catalizadores": "**Catalizadores:**\n- Guidance Q1 FY27 confirmado (revenue US$61.500M, EPS US$38,15) con HBM 2027 'sold out' a precios crecientes (+121% interanual proyectado por TrendForce).\n- Déficit de mercado DRAM/NAND/HBM más alto desde 2011, sosteniendo poder de pricing en 4T26 y 2027.\n- HBM4E custom con Nvidia (NV-HBM) y ramp HBM4 avanzando 2x más rápido que el ciclo HBM3E previo.\n- Earnings Q1 FY27 (estimado dic-2026) como próxima validación del guidance.\n\n**Riesgos (por materialidad):**\n- Nueva demanda ITC de Netlist sobre patentes HBM3E/HBM4/HBM4E (nombra a Nvidia/Broadcom/Google) aún sin institución formal al 5-oct; se suma al caso DDR5 ya activo.\n- CXMT sigue en pugna por el waiver de Apple sin resolución oficial; oposición de Comercio de EE.UU. y senadores se mantiene.\n- Retroceso de precio post-pico (-3% desde el 1-oct) sugiere que el mercado exige cada vez más tras un rally de +264% YTD.\n- Beta ~2,1 y percentil de precio en 83,3 mantienen expuesto el nombre a correcciones abruptas ante cualquier sorpresa negativa.",
+    "sentimiento": "- HECHO: consenso MarketBeat (46 analistas) 41 Buy/5 Hold/0 Sell, sin ningún downgrade identificado tras el reporte; PT's siguen revisándose al alza (DA Davidson US$2.100).\n- HECHO: no se halló ningún Form 4 de venta del CEO Mehrotra desde el 21-ago-2026 (SEC EDGAR, verificado 5-oct-2026); los Form 4 nuevos del 2-oct corresponden a RSU de directores, no transacciones discrecionales.\n- HECHO: el retroceso de precio (-3% desde el pico) pese al consenso eufórico y a un ciclo fundamental en aceleración es una divergencia a vigilar.\n- LECTURA en contrario: cero downgrades y PT's en máximos históricos (hasta US$2.100) sin ninguna voz discordante, justo cuando el precio empieza a ceder, es el patrón clásico de consenso sin fisuras que antecede pausas o correcciones, no una señal de comodidad adicional.",
+    "conclusion": "Micron confirma el ciclo más fuerte de su historia: HBM 'sold out' hasta 2027, déficit de mercado DRAM/NAND/HBM el más alto desde 2011, y guidance Q1 FY27 muy por encima de consenso. Pero el precio ya cedió ~3% desde el pico post-earnings en una semana de toma de utilidades, mientras el consenso analista se volvió aún más unánime (41 Buy/0 Sell, PT hasta US$2.100) sin ninguna voz crítica — divergencia que exige cautela. Litigios de Netlist sobre patentes HBM y el avance político de CXMT/Apple siguen sin resolverse. Confianza media: fundamentals sólidos y acelerando, pero consenso extremo, sobreextensión técnica (percentil 83,3) y riesgo legal/competitivo creciente piden posición acotada dado el beta ~2,1. Confianza: media."
   },
   "scores": {
     "tecnica": {
-      "score": 58,
-      "just": "El precio cerró en US$1.097,39 (+3,03%) recién el 1-oct, un día después de un reporte que apenas movió la acción en after-hours/premarket — cambio de carácter real: de la caída pre-earnings (-2,6/-3,7% el 28-sep) a una validación alcista post-resultado que rompe al alza la consolidación previa. Se modera la nota porque el percentil 1 año ya está en 85,3 y el precio corre ~62% sobre su SMA200, zona de sobreextensión que exige vigilancia aunque el fundamento del salto (guidance real, no especulación) sea de mejor calidad que el run-up previo."
+      "score": 55,
+      "just": "El cambio de carácter relevante (ruptura alcista tras beat real el 1-oct) ya ocurrió; esta semana el precio retrocedió ~2% (US$1.097 a US$1.074) en toma de utilidades, un enfriamiento sano pero no un nuevo cambio de carácter. Se penaliza por sobreextensión: percentil 1 año en 83,3 y +57,7% sobre SMA200, zona que históricamente precede pausas o correcciones abruptas en este nombre de alta beta."
     },
     "fundamental": {
       "score": 80,
-      "just": "Resultado real superó el guidance oficial en las tres métricas (revenue, EPS, margen) y el guidance de Q1 FY27 superó ampliamente el consenso previo, con la mayoría del bit-supply HBM 2027 ya contratado a precios crecientes. Resta algo: management reconoció que el margen de Q1 FY27 será el 'piso' del año (no el techo), y el capex acelerado de ~US$25.000M en el primer semestre eleva el riesgo de ejecución si el ciclo gira antes de monetizar la nueva capacidad."
+      "just": "HBM3E/HBM4 'sold out' hasta 2027 con compromisos ya para 2028, déficit de mercado DRAM/NAND/HBM el más alto desde 2011, y guidance Q1 FY27 confirmado muy por encima del consenso previo. Resta algo: management ya advirtió que el margen de Q1 FY27 es el 'piso' del año, y el capex acelerado eleva el riesgo de ejecución si el ciclo gira antes de monetizar la nueva capacidad."
     },
     "sentimiento": {
-      "score": 15,
-      "just": "Leído en contrario: consenso se volvió MÁS unánime tras earnings (25/26 Buy, cero downgrades, PT's disparados hasta US$2.100), una fisura de cautela que existía pre-earnings (selloff del 28-sep) se cerró por completo. La combinación de euforia analista total con una reacción inicial del mercado apenas plana sugiere que prácticamente no queda margen para sorpresas positivas no descontadas en el corto plazo — extremo de complacencia más marcado que el informe anterior."
+      "score": 12,
+      "just": "Leído en contrario: consenso analista en su punto más extremo (41 Buy/5 Hold/0 Sell, PT's hasta US$2.100, ninguna voz discordante) justo cuando el precio empezó a ceder esta semana (-3% desde el pico). Esta divergencia entre euforia total del sell-side y debilidad incipiente de precio es la señal de alerta clásica de consenso sin fisuras, no de comodidad — se mantiene en zona de alerta máxima."
     },
     "riesgo": {
-      "score": 38,
-      "just": "El riesgo de ejecución del trimestre quedó despejado (beat real, no solo guidance), pero el riesgo estructural se amplió: Netlist sumó una SEGUNDA demanda ITC (29-sep) apuntando directamente a patentes HBM3E/HBM4/HBM4E —el corazón del crecimiento de Micron— además del caso DDR5 ya instituido, y Apple pidió autorización formal para comprar DRAM de CXMT, validando políticamente a un competidor subsidiado. Beta ~2,1 y percentil de precio en 85,3 mantienen el riesgo de drawdown violento si cualquiera de estos frentes se materializa negativamente."
+      "score": 36,
+      "just": "El riesgo de ejecución trimestral quedó despejado (beat real), pero el riesgo estructural de pérdida permanente se mantiene elevado: segunda demanda ITC de Netlist apunta directo a patentes HBM (sin institución formal aún, por lo que el desenlace sigue abierto), y CXMT/Apple siguen presionando por un waiver que validaría políticamente a un competidor subsidiado. Esto es distinto del drawdown ya ocurrido (-39,1% en 1 año, beta ~2,1), que es volatilidad conocida, no tesis rota."
     },
     "conviccion": {
-      "score": 48,
-      "just": "La asimetría mejora frente al informe previo porque el catalizador binario ya se resolvió a favor de la tesis (beat real + guidance superior), pero el precio post-earnings (US$1.097) ya refleja buena parte de esa buena noticia y el consenso analista extremo (PT hasta US$2.100, sin downgrades) deja poco margen de sorpresa adicional en el corto plazo. La ampliación del frente legal de Netlist hacia HBM y el avance de CXMT son nuevos elementos que templan la convicción pese a la validación fundamental; posición moderada justificada."
+      "score": 45,
+      "just": "La asimetría al precio actual (~US$1.075) sigue siendo razonable al consenso (~29% upside) pero se achica frente al pico reciente tras el retroceso de la semana, mientras el consenso extremo deja poco margen de sorpresa adicional no descontada en el corto plazo. Los dos frentes legales activos sobre HBM y el avance de CXMT son elementos que templan la convicción pese a fundamentals en aceleración; posición moderada sigue siendo la asignación coherente."
     }
   },
   "sources": [
-    "SEC EDGAR / Form 8-K Micron (press release Q4 FY26, 30-sep-2026)",
-    "Micron Investor Relations/GlobeNewswire",
-    "CNBC (reacción de precio y analistas, 30-sep/1-oct-2026)",
-    "stockanalysis.com (precio, forecast, transcript, 1-2-oct-2026)",
-    "Investing.com/Benzinga/TheStreet (earnings call transcript, 30-sep-2026)",
-    "247wallst.com/finbold.com (price targets post-earnings, 1-2-oct-2026)",
-    "TradingView/Yahoo Finance (earnings call highlights, capex y HBM4, 30-sep-2026)",
-    "PRNewswire/GuruFocus/TradingView (nueva demanda ITC Netlist sobre HBM, 29-sep-2026)",
-    "USITC.gov (caso 337-TA-1523, institución 23-sep-2026)",
-    "DigiTimes/MacRumors/TechPowerUp/Wccftech (CXMT, waiver Apple, DUV, ago-sep-2026)",
-    "SEC EDGAR Form 4 (Mehrotra, sin nuevas ventas desde 21-ago-2026)",
-    "WallStreetHorizon/MarketChameleon (estimación próximo earnings, 2-oct-2026)"
+    "SEC EDGAR / Form 8-K Micron (accession 0000723125-26-000018, press release Q4 FY26, 30-sep-2026)",
+    "stockanalysis.com (precio, P/E, forecast, 5-oct-2026)",
+    "MarketBeat (consenso de analistas, PT's, ex-dividendo, 5-oct-2026)",
+    "CNBC ('How Nvidia, Micron and a surprising jobs report drove last week's stock action', 3-oct-2026)",
+    "The Motley Fool (reacción de precio post-earnings, 5-oct-2026)",
+    "TrendForce ('AI Server Demand Sustains Memory Contract Price Increases in 4Q26', 30-sep-2026)",
+    "Seoul Economic Daily (proyección de precio HBM +121% en 2027, 30-sep/1-oct-2026)",
+    "PRNewswire/GuruFocus/TradingView/Yahoo Finance (nueva demanda ITC Netlist sobre HBM, 29-30-sep-2026)",
+    "USITC.gov / IAM Media (caso 337-TA-1523, institución 23-sep-2026; estado 2-oct-2026)",
+    "24/7wallst.com/Benzinga/Yahoo Finance (revisiones de price target post-earnings, oct-2026)",
+    "SEC EDGAR Form 4 (CIK 0000723125, Mehrotra sin ventas desde 21-ago-2026; RSU de directores 2-oct-2026)",
+    "MarketScreener (calendario de dividendos, 5-oct-2026)",
+    "TradingView (datos técnicos RSI/MACD, 4-oct-2026)"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 50,
-        "just": "El trailing P/E se comprimió a ~16,4x (desde ~24,4x) por el salto de utilidades real, y el forward ~7,2x sobre el nuevo guidance confirma que el mercado sigue sin pagar un múltiplo de ciclo pico pese al beat; pero el precio ya subió al cierre del 1-oct y el consenso de PT se disparó en conjunto, por lo que la ventana de entrada barata relativa se achica frente al informe previo."
+        "score": 52,
+        "just": "P/E trailing ~14,3x y forward ~6,0x (stockanalysis.com, 5-oct) siguen comprimidos frente a la historia del ciclo pese al rally, porque las utilidades crecieron más que el precio; pero tras el retroceso semanal la ventana de entrada no mejoró sustancialmente frente al informe previo, solo se mantuvo estable."
       },
       "calidad": {
         "score": 68,
-        "just": "El resultado real confirma la tesis estructural: HBM 2027 mayormente contratado con subas de precio interanuales, récords en DRAM y NAND, y capex acelerado para capacidad de largo plazo. Pero la calidad del foso está bajo presión creciente en dos frentes nuevos: Netlist amplió su litigio directamente a patentes HBM (el producto de mayor crecimiento) y Apple busca aval político para CXMT, validando a un competidor subsidiado que antes era marginal."
+        "just": "HBM 'sold out' hasta 2027, déficit de mercado el más alto desde 2011 y calificación confirmada en plataformas Nvidia refuerzan el oligopolio DRAM/HBM; pero el foso está bajo presión creciente por la segunda demanda ITC de Netlist sobre patentes HBM (aún sin institución) y por el avance político de CXMT/Apple hacia una posible validación de un competidor subsidiado."
       },
       "asimetria": {
-        "score": 42,
-        "just": "El catalizador binario se resolvió favorablemente (beat + guidance superior), pero el precio post-earnings ya incorpora gran parte de esa noticia (+3% al cierre siguiente) y el consenso de PT extremo (hasta US$2.100) deja menos recorrido de sorpresa no descontada; la asimetría mejora marginalmente sobre el informe previo pero sigue por debajo de un umbral cómodo de entrada nueva dado el riesgo legal ampliado."
+        "score": 45,
+        "just": "Tras el retroceso de ~3% desde el pico post-earnings, el precio actual (~US$1.075) ofrece ~29% de upside al consenso (~US$1.386) y ~95% al máximo (US$2.100), una asimetría algo más favorable que inmediatamente después del reporte, pero aún limitada por el consenso extremo que ya descuenta buena parte del catalizador fundamental."
       },
       "catalizadores": {
-        "score": 72,
-        "just": "Guidance Q1 FY27 concreto y oficial (revenue US$61.500M, EPS US$38,15) ya supera ampliamente el consenso previo, con HBM 2027 mayormente contratado a precios crecientes y capex de ~US$25.000M en 1S FY27 construyendo capacidad adicional hacia 2028 — catalizadores estructurales de mediano plazo más sólidos que antes del reporte."
+        "score": 70,
+        "just": "Guidance Q1 FY27 confirmado y HBM 2027 ya contratado a precios crecientes (+121% proyectado por TrendForce) dan una ruta fechada sólida hacia el próximo earnings (dic-2026) y la resolución de los litigios ITC (target completion esperado nov-2026), catalizadores estructurales de mediano plazo que se mantienen intactos."
       },
       "contrarian": {
-        "score": 15,
-        "just": "El consenso se volvió aún más unánime tras earnings (25/26 Buy, PT's disparados, cero downgrades), cerrando por completo la fisura de cautela que había aparecido en el selloff pre-earnings del 28-sep — señal de complacencia colectiva en su punto más extremo del seguimiento de este activo, sin ninguna voz discordante visible."
+        "score": 13,
+        "just": "El consenso se mantiene en su punto más extremo (41 Buy/5 Hold/0 Sell, PT's hasta US$2.100, cero downgrades) incluso mientras el precio cede esta semana — la divergencia entre euforia total del sell-side y debilidad incipiente de precio es la señal contraria más marcada del seguimiento de este activo, sin ninguna voz discordante visible."
       }
     },
     "plan": {
-      "recomendacion": "Mantener / Observar",
+      "recomendacion": "Esperar gatillo",
       "zona_compra": "$950-1.020 (retroceso a SMA50/SMA20) o $900 en caso de shock exógeno sectorial",
-      "invalidacion": "Guidance de margen cae bajo el piso comunicado (~86,25%) en Q1 FY27 real, orden de exclusión adversa en cualquiera de los dos casos ITC de Netlist (DDR5 o HBM), o aprobación regulatoria de CXMT para Apple que acelere sustitución de volumen",
+      "invalidacion": "Guidance de margen cae bajo el piso comunicado (~86,25%) en el reporte real de Q1 FY27, orden de exclusión adversa en cualquiera de los dos casos ITC de Netlist (DDR5 o HBM), o aprobación regulatoria de CXMT para Apple que acelere sustitución de volumen",
       "gatillos": [
         "Earnings Q1 FY27 (estimado dic-2026) confirmando mejora de margen más allá del piso 86,25% guiado",
-        "Resolución o fijación de 'target completion date' del caso ITC 337-TA-1523 (esperado inicios nov-2026) y evolución de la nueva demanda HBM de Netlist (29-sep-2026)",
+        "Institución formal y fijación de 'target completion date' de la nueva demanda ITC de Netlist sobre HBM, y resolución del caso DDR5 337-TA-1523 (esperado desde nov-2026)",
         "Decisión de EE.UU. sobre la solicitud de Apple para usar DRAM de CXMT",
         "Primer downgrade o cuestionamiento serio de un analista sell-side, que rompería el consenso unánime actual"
       ],
@@ -136,69 +144,69 @@
   },
   "perfil": "Micron fabrica memoria semiconductora —DRAM y NAND— y la vende a fabricantes de servidores y aceleradores de IA, smartphones, PCs, automoción e industria; es el único productor estadounidense de DRAM a escala y uno de los tres que dominan el mercado con Samsung y SK Hynix, oligopolio que en 2026 cayó por primera vez en más de una década por debajo del 90% combinado del DRAM mundial ante el avance de CXMT. Es un negocio de commodity con costes fijos enormes: el precio, no el volumen, determina el resultado, con apalancamiento operativo extremo en ambas direcciones. DRAM es el core absoluto y dentro de DRAM la HBM —la memoria que se vende apilada junto a los aceleradores de IA— cambió el perfil del negocio: nube y centro de datos ya pesan más que móvil y automoción juntos. La magnitud del ciclo se ve en las cifras: de un negocio con márgenes deprimidos en FY2025 a US$41.500M en un solo trimestre con 84,9% de margen bruto GAAP en el 3T FY2026, con acuerdos plurianuales que comprometen ingreso mínimo hasta 2030. Pero la simetría opera igual a la baja: en FY2023 facturó US$15.500M con margen bruto de -9% y perdió US$5.800M. El foso no es tecnológico sino de escala y disciplina de una industria de tres actores, hoy desafiada por un cuarto entrante chino subsidiado por el estado.",
   "technical": {
-    "price": 1097.39,
-    "change_1d_pct": 3.03,
-    "change_1w_pct": 1.4,
-    "rsi": 63.5,
-    "macd": 36.0163,
-    "macd_signal": 30.214,
-    "sma20": 1019.165,
-    "sma50": 954.3521,
-    "sma200": 677.4273,
-    "ema12": 1050.5975,
-    "ema26": 1014.5812,
-    "pct_vs_sma20": 7.68,
-    "pct_vs_sma50": 14.99,
-    "pct_vs_sma200": 61.99,
-    "volume_today": 45733441,
-    "volume_avg20": 26764796.0,
-    "volume_ratio": 1.71,
-    "volatility_30d": 64.1,
-    "sharpe": 16.13,
-    "sortino": 21.26,
+    "price": 1074.89,
+    "change_1d_pct": -2.05,
+    "change_1w_pct": -0.68,
+    "rsi": 59.3,
+    "macd": 35.2863,
+    "macd_signal": 31.2284,
+    "sma20": 1025.0015,
+    "sma50": 956.0457,
+    "sma200": 681.6143,
+    "ema12": 1054.3348,
+    "ema26": 1019.0485,
+    "pct_vs_sma20": 4.87,
+    "pct_vs_sma50": 12.43,
+    "pct_vs_sma200": 57.7,
+    "volume_today": 27337329,
+    "volume_avg20": 26010334.0,
+    "volume_ratio": 1.05,
+    "volatility_30d": 61.24,
+    "sharpe": 7.81,
+    "sortino": 9.78,
     "max_drawdown_1y": -39.1,
-    "price_percentile_1y": 85.3,
-    "vs_benchmark_30d_pct": 16.2,
-    "perf_1m_pct": 16.6,
-    "perf_ytd_pct": 271.84
+    "price_percentile_1y": 83.3,
+    "vs_benchmark_30d_pct": 14.32,
+    "perf_1m_pct": 15.48,
+    "perf_ytd_pct": 264.22
   },
   "risk": {
-    "volatility_30d": 64.1,
-    "sharpe": 16.13,
-    "sortino": 21.26,
+    "volatility_30d": 61.24,
+    "sharpe": 7.81,
+    "sortino": 9.78,
     "max_drawdown_1y": -39.1,
-    "n_days": 332,
+    "n_days": 335,
     "window": 30
   },
   "benchmark": {
     "ticker": "SP:SPX",
     "label": "S&P 500",
-    "relative_performance_30d": 16.2,
-    "relative_performance_ytd": 260.38,
-    "price_percentile_1y": 85.3,
+    "relative_performance_30d": 14.32,
+    "relative_performance_ytd": 251.94,
+    "price_percentile_1y": 83.3,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-01T22:46:56-03:00"
+      "fetched_at": "2026-10-04T22:09:52-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-01T22:46:56-03:00"
+      "fetched_at": "2026-10-04T22:09:52-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-01T22:46:56-03:00"
+      "fetched_at": "2026-10-04T22:09:52-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "SP:SPX",
-      "fetched_at": "2026-10-01T22:46:56-03:00"
+      "fetched_at": "2026-10-04T22:09:52-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/MU.json",
-      "n_days": 332
+      "n_days": 335
     }
   },
   "metricChanges": [
@@ -233,10 +241,12 @@
   ],
   "trend": {
     "piso": 0,
-    "techo": 0,
+    "techo": 1,
     "max": 7,
     "senales_piso": [],
-    "senales_techo": []
+    "senales_techo": [
+      "histograma MACD girando a la baja"
+    ]
   },
-  "reportDate": "2 de octubre de 2026"
+  "reportDate": "5 de octubre de 2026"
 }
