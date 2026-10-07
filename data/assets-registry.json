@@ -1,6 +1,6 @@
 {
  "_comentario": "Lista maestra de activos del dashboard. Un activo solo sale de aquí ejecutando scripts/remove_asset.py. update_numbers.py verifica este registro en cada corrida y RESTAURA automáticamente desde data/<TICKER>.json cualquier activo que falte en stocks-data.json (protege contra pérdidas por conflictos de git o corridas fallidas).",
- "actualizado": "2026-09-30",
+ "actualizado": "2026-10-07",
  "activos": [
   "AAPL",
   "MSFT",
@@ -36,6 +36,7 @@
   "ONDO/USD",
   "XDC/USD",
   "QNT/USD",
-  "LINK/USD"
+  "LINK/USD",
+  "UBER"
  ]
 }
