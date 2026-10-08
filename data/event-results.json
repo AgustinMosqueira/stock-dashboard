@@ -1,14 +1,5 @@
 [
- {
-  "ticker": "BTC/USD",
-  "date": "2026-10-02",
-  "label": "Inicio del receso del Senado de EE.UU. hasta después de las elecciones de medio término",
-  "result": "RESULTADO: el Senado entró en receso el 2-oct sin re-votar el CLARITY Act; la moción de reconsideración de Tillis (tras el fallo de cloture 49-50 del 15-sep) sigue técnicamente viva pero sin fecha, y el calendario legislativo lo empuja efectivamente a después de las elecciones de medio término o a 2027 (CBS News/The Hill/NOTUS, 1-2-oct-2026). Sin novedad adicional verificada hacia el 5-oct-2026: no hubo convocatoria de emergencia ni nuevo texto presentado."
- },
- {
-  "ticker": "CENCOSUD",
-  "date": "2026-10-02",
-  "label": "Activación principal 'Cenco Black' en Argentina (2-4 oct)",
-  "result": "RESULTADO: la activación física (2-4 oct) concluyó sin que se publicaran cifras de tráfico, ventas o facturación del evento (verificado 5-oct-2026, Infobae/Web Retail/Zona Norte Diario). El sorteo de ARS 50MM en premios asociado a la campaña permanece abierto hasta el 11-oct-2026. La primera evidencia dura de impacto comercial quedará recién en el reporte 3T26 de Cencosud (5-nov-2026)."
- }
+  {"ticker":"ALGO/USD","date":"2026-10-06","label":"Multichain Day — TOKEN2049 Singapur (Algorand Title Partner)","result":"RESULTADO: Algorand actuó como Title Partner de Multichain Day, celebrado el 6-oct-2026 en The Westin Singapore junto a TOKEN2049, con CertiK, Flare, Stellar y Ymax como partners presentadores; la agenda cubrió interoperabilidad, expansión de red, DeFi, infraestructura, AI y herramientas dev Web3 (algorand.co/events, luma.com/multichaindaysingapore, 6-oct-2026). No se identificó un anuncio puntual de partnership o producto nuevo más allá de la participación como patrocinador principal del evento."},
+  {"ticker":"ETH/USD","date":"2026-10-06","label":"Fork de prueba de Glamsterdam en Sepolia","result":"RESULTADO: El fork se ejecutó exitosamente en Sepolia el 6-oct-2026 a las 13:53:36 UTC (época 353.024) y finalizó 7 épocas después, activando ePBS (separación proposer-builder, EIP-7732), Block-Level Access Lists (EIP-7928) y repricing de gas por costos de estado (EIP-8037), con límite de gas opcional de 200M (vs ~60M actual) (cointribune.com, cryptotimes.io, tokenpost.com, 6-oct-2026). Previo al fork hubo advertencias de bugs críticos y una posible vulnerabilidad de 'builder attack' en el sistema de subastas de bloques, pero no se reportaron fallos en la ejecución final; próximo testnet es Hoodi el 26-oct-2026, con mainnet tentativo para el 2-dic-2026."},
+  {"ticker":"HDSY","date":"2026-10-07","label":"Feria Mechanical Elements Tokyo (Osaka) — participación de HDS","result":"RESULTADO: sin cobertura verificable aún al 7-oct-2026 (búsqueda en japonés e inglés sobre Harmonic Drive Systems y 機械要素技術展 大阪 2026). Se confirma que la 29ª edición de 'Monozukuri World Osaka' (機械要素技術展 [大阪]) se celebra del 7 al 9 de octubre de 2026 en INTEX Osaka con numerosos expositores de componentes mecánicos, pero no se halló nota de prensa ni confirmación directa de participación, productos exhibidos o pedidos de Harmonic Drive Systems en esta edición."}
 ]

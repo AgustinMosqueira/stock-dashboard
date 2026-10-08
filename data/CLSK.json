@@ -4,201 +4,202 @@
   "statsList": [
     [
       "Precio",
-      "$12.74 (4-oct-2026)"
+      "$11.51 (7-oct-2026)"
     ],
     [
       "Rango 52 sem.",
-      "US$8,00 - US$23,61 (stockanalysis.com, 5-oct-2026)"
+      "US$8,00 - US$23,61 (agregadores financieros, 7-oct-2026)"
     ],
     [
       "Market cap",
-      "~US$3,21 mil M (256,8M acciones en circulación; stockanalysis.com, 5-oct-2026)"
+      "~US$2,96-3,16 mil M (precio ~$11,52; discrepancia menor entre agregadores, 7-oct-2026)"
     ],
     [
       "Hashrate",
-      "50 EH/s operacional pico (201.269 mineros, promedio operativo 38,3 EH/s en agosto, eficiencia 16,07 J/Th; PRNewswire, update de agosto publicado 8-sep-2026); update de septiembre AÚN sin publicar al 5-oct-2026, superando en días el atraso ya señalado el 2-oct (el año pasado el equivalente salió el 3-oct-2025)"
+      "50 EH/s nameplate, eficiencia pico 16,07 J/Th, 1,8 GW bajo contrato (update de AGOSTO, publicado 8-sep-2026; update de septiembre AÚN sin publicar al 7-oct-2026)"
     ],
     [
       "BTC en tesorería",
-      "13.703 BTC al 31-ago-2026 (3.951 en colateral/receivable), tras producir 593 BTC en agosto (PRNewswire, 8-sep-2026); dato sin cambios porque el update de septiembre sigue sin publicarse al 5-oct-2026"
+      "13.703 BTC al 31-ago-2026 (593 BTC producidos, 821 BTC vendidos en agosto); dato sin cambios, update de septiembre con retraso confirmado"
     ],
     [
       "Próx. earnings",
-      "Estimado 16-dic-2026, Q4 FY2026 (cierre fiscal 30-sep-2026 ya ocurrido) — fecha de terceros (TipRanks/Investing.com), sin confirmación oficial 8-K al 5-oct-2026"
+      "Estimado ~16-dic-2026, Q4/cierre FY2026, sin 8-K oficial que confirme fecha (TipRanks/MarketBeat, oct-2026)"
     ],
     [
       "Técnico (auto)",
-      "RSI 45.9 · MACD +0.06 / señal +0.23 (TradingView, 4-oct-2026)"
+      "RSI 37.4 · MACD -0.19 / señal +0.06 (TradingView, 7-oct-2026)"
     ]
   ],
   "change": {
-    "day": 1.76,
-    "week": -8.67
+    "day": -6.35,
+    "week": -9.65
   },
   "events": [
     {
       "date": "2026-10-08",
-      "label": "Actualización operacional de septiembre 2026 (estimada, ya atrasada)",
+      "label": "Actualización operacional de septiembre 2026 (atrasada, aún no publicada al 7-oct)",
       "kind": "corporate",
-      "info": "HECHO: updates de julio y agosto salieron el 5-ago y 8-sep-2026 vía PRNewswire; el equivalente de septiembre del año pasado salió el 3-oct-2025. Al 5-oct-2026 sigue sin publicarse. LECTURA: el atraso se extiende y es ahora el dato más esperado del mes — confirmará tesorería BTC, producción/venta y hashrate tras el cierre de deuda y el cierre de año fiscal FY2026."
+      "info": "No se encontró el comunicado en investors.cleanspark.com/PRNewswire al 7-oct-2026; el de agosto salió el 8-sep-2026, por lo que ya acumula retraso (fuente: búsqueda directa, 7-oct-2026)."
     },
     {
       "date": "2026-12-10",
       "label": "Fecha límite objetivo de auditoría ERCOT/PUCT sobre centros de datos en Texas",
-      "kind": "corporate",
-      "info": "HECHO: ERCOT apunta a completar la auditoría de ~300 proyectos de datacenters (directiva del gobernador Abbott, ago-2026) antes de la reunión de PUCT de diciembre; CleanSpark figura entre las empresas comprometidas públicamente con los estándares de Abbott (gov.texas.gov). LECTURA: sigue sin resolución específica sobre el portafolio texano de CleanSpark (hasta 885 MW en Sealy-Brazoria, bajo LOI de exclusividad con Meta); KBW estimaba que el mercado solo reconoce ~16% de ese potencial por la incertidumbre regulatoria."
+      "kind": "macro",
+      "info": "PUCT/ERCOT deben auditar ~300 proyectos en cola (474 GW) antes de fin de 2026, por orden del gobernador Abbott; CleanSpark ya recibió clasificación condicional 'Batch Zero' para 585 MW baseload + 300 MW studied load en Texas (fuente: Community Impact / update de agosto CleanSpark, ago-sep 2026)."
     },
     {
       "date": "2026-12-16",
-      "label": "Earnings Q4 FY2026 (estimado)",
+      "label": "Earnings Q4/cierre FY2026 (estimado, no confirmado por 8-K)",
       "kind": "earnings",
-      "info": "HECHO: fecha estimada por terceros (TipRanks/Investing.com), sin confirmación oficial 8-K al 5-oct-2026. LECTURA: primer trimestre completo con la deuda de US$2.276 mil M en el balance (servicio anual >US$170M) y, probablemente, con la resolución (o no) de la auditoría PUCT/ERCOT ya conocida."
+      "info": "Estimación de agregadores (TipRanks, MarketBeat); el año fiscal de CleanSpark cierra el 30-sep. Q3 FY2026 se reportó el 6-ago-2026 (fuente: PRNewswire, 6-ago-2026)."
     }
   ],
   "sections": {
-    "resumen": "CLSK cerró en US$12,48 el 5-oct-2026 (-2,0% día), tras un repunte anómalo de +7,4% el 2-oct (a ~US$13,45) en volumen 85% por debajo del promedio, sin catalizador identificado. El update operacional de septiembre sigue sin publicarse, ya más atrasado que el ciclo anterior (el equivalente 2025 salió el 3-oct). BTC subió a ~US$86.100-86.500 (5-oct), aliviando presión sobre tesorería/colateral. El consenso de analistas mejoró levemente: ahora 10 Strong Buy + 4 Buy (sin Hold), PT US$23,89. Insiders (Garrison, Monnig) solo vendieron bajo planes 10b5-1, sin compras. Confianza: media.",
-    "fundamental": "- HECHO: update operacional de septiembre sigue sin publicarse al 5-oct-2026, ahora con más atraso que el reportado el 2-oct; última cifra dura es agosto (593 BTC minados, tesorería 13.703 BTC; PRNewswire, 8-sep-2026).\n- HECHO: deuda de US$2.276 mil M (7,875%, 2031) cerrada el 25-sep-2026 para financiar Sandersville; no se halló calificación crediticia pública (Moody's/S&P) ni novedad de uso de fondos posterior.\n- HECHO: LOI de exclusividad de Meta/Anviran cubre también el portafolio texano completo de CleanSpark (718 acres, hasta 885 MW), vigente sin resolución nueva.\n- HECHO: auditoría ERCOT/PUCT sobre ~300 proyectos de datacenters en Texas mantiene objetivo de cierre 10-dic-2026, sin desarrollo específico a CleanSpark esta semana.\n- LECTURA: la falta de update de septiembre, ahora con atraso inusual frente al patrón histórico, añade una incógnita de corto plazo justo cuando el mercado más necesita confirmar que la operación minera sostiene caja bajo el nuevo apalancamiento.",
-    "valuacion": "- HECHO: market cap ~US$3,21 mil M (stockanalysis.com, 5-oct-2026), estable frente al reporte previo.\n- HECHO: consenso de 14 analistas mejoró a 10 Strong Buy + 4 Buy, sin Hold (antes 12 buy/5 strong buy/2 hold), PT promedio US$23,89, rango US$21-27 (stockanalysis.com, dato del 28-sep-2026).\n- HECHO: brecha precio-PT se mantiene amplia en ~+91% al precio de referencia US$12,74.\n- LECTURA: la mejora de mix hacia Strong Buy sin ningún Hold, justo cuando el precio no se recupera, profundiza la divergencia entre sell-side y mercado observada en el informe previo.\n- HECHO (dado): percentil del rango de 52 semanas ~30%, drawdown 1 año -64,74%.",
-    "tecnico": "- HECHO (dado): RSI 45,9 y MACD por debajo de su señal (0,065 vs 0,227) — momentum de corto plazo débil, similar al cierre del informe previo.\n- HECHO (dado): precio US$12,74 vs. SMA20 US$13,49, SMA50 US$12,94 y SMA200 US$12,57 — por debajo de SMA20, pero ya recuperado sobre SMA50 y SMA200.\n- HECHO: repunte intradía de +7,4% el 2-oct en volumen muy bajo (-85% vs. promedio) no se sostuvo, revirtiendo a US$12,48 el 5-oct.\n- HECHO (dado): volatilidad 30d 67,7%, Sharpe +0,46, drawdown 1 año -64,74% — mejora frente al Sharpe negativo del informe previo.\n- LECTURA: el repunte sin volumen sugiere ruido más que cambio de carácter; la recuperación sobre SMA50/SMA200 es la primera señal de estabilización desde la caída de tres semanas, pero aún no confirmada.",
-    "catalizadores": "**Catalizadores:**\n- Update operacional de septiembre (pendiente, ya más atrasado que el ciclo histórico) — el dato más inmediato.\n- BTC en ~US$86.100-86.500 (5-oct), en recuperación, alivia presión sobre colateral/tesorería.\n- Consenso de analistas mejorado (10 Strong Buy + 4 Buy, PT US$23,89, +91%), sin ningún Hold.\n- Primer earnings con la deuda nueva en el balance (estimado 16-dic) definirá cobertura real del servicio de deuda.\n\n**Riesgos (por materialidad):**\n- Ausencia prolongada del update de septiembre genera incertidumbre creciente sobre producción/tesorería bajo apalancamiento alto.\n- Apalancamiento estructural de US$2.276 mil M (7,875%) sin calificación crediticia pública verificada ni alivio reciente.\n- Auditoría ERCOT/PUCT sobre 885 MW en Texas sigue sin resolución, objetivo recién hacia dic-2026.\n- Repunte de precio sin volumen (2-oct) ya revertido, sugiriendo que el mercado no confirma aún una mejora de carácter técnico.",
-    "sentimiento": "- HECHO: insiders (Garrison, Monnig) continuaron vendiendo bajo planes 10b5-1 preestablecidos entre fines de sep. y 1-oct-2026 (ventas de ~US$191K-337K), sin compras registradas (SEC Form 4/144).\n- HECHO: consenso de analistas mejoró (ahora sin ningún Hold) pese a que el precio no se recuperó de forma sostenida — divergencia entre sell-side y precio que se amplía.\n- LECTURA: la combinación de mejora de consenso + ventas de insiders + precio estancado sugiere que el mercado sigue descontando un riesgo operativo (el update pendiente) que el sell-side no está incorporando.\n- LECTURA (contrario): con percentil de 52 semanas ~30% y RSI neutral (45,9), el pesimismo de precio sigue siendo considerable; un update de septiembre en línea podría gatillar un rebote técnico relevante, como insinuó el repunte fallido del 2-oct.\n- HECHO: BTC subió a ~US$86.100-86.500 (5-oct) consolidando su recuperación, mientras CLSK retrocedió el mismo día, manteniendo la divergencia negativa específica de la acción.",
-    "conclusion": "El mercado sigue a la espera del update operacional de septiembre, ahora con un atraso inusual frente al patrón histórico, justo cuando el apalancamiento nuevo (US$2.276 mil M) exige confirmar que la caja operativa es sólida. El repunte técnico del 2-oct (+7,4%, bajo volumen) se revirtió, dejando el precio bajo SMA20 pero sobre SMA50/SMA200 — señal mixta, no un cambio de carácter confirmado. El consenso de analistas mejoró (sin Holds, PT US$23,89) ampliando la brecha con el precio, mientras insiders solo venden. BTC se recupera y da soporte al colateral. Sin deterioro fundamental nuevo pero con un dato clave pendiente y técnico aún indeciso. Confianza: media."
+    "resumen": "CLSK cae -6,35% en el día y -9,65% en la semana, underperformando a Bitcoin (-9,79% relativo en 30 días) mientras BTC se mantiene estable (~$83.300, prácticamente plano desde fines de septiembre). La caída parece idiosincrática: el mercado digiere los $2.276M en notas senior garantizadas al 7,875% (cerradas 25-sep-2026) que apalancan el balance para financiar Sandersville. El update operacional de septiembre sigue sin publicarse, dato más esperado del mes. En paralelo, la tesis estructural avanza: clasificación condicional favorable de ERCOT para el portafolio texano (885 MW) y exclusividad de Meta sobre esos activos. RSI en 37,4 sugiere sobreventa sin pánico extremo (HECHO: RSI 37.4, 7-oct-2026).",
+    "fundamental": "- Deuda nueva: $2.276 mil M en notas senior garantizadas al 7,875% (vto. 2031), cerrada 25-sep-2026, vía subsidiaria CSDC Finance I (HECHO: 8-K SEC, 18/25-sep-2026).\n- No hay evidencia de dilución por equity reciente; la presión viene de apalancamiento, no de nuevas acciones (LECTURA: riesgo de solvencia distinto al de dilución).\n- Tesorería estancada en 13.703 BTC desde el 31-ago (último dato oficial); update de septiembre atrasado (HECHO: sin publicación al 7-oct-2026).\n- Portafolio texano (885 MW) recibió clasificación condicional 'Batch Zero' de ERCOT: 585 MW baseload + 300 MW studied load (HECHO: update agosto, 8-sep-2026).\n- Contrato Sandersville con Meta ($6,6 mil M contratados, hasta $11,6 mil M si se extiende) ya confirmado como contraparte, reduciendo incertidumbre de la tesis HPC (HECHO: Yahoo Finance/8-K, sep-2026).",
+    "valuacion": "- Price percentile 1y de 22,5% indica que la acción cotiza cerca de la parte baja de su propio rango anual (HECHO).\n- Consenso de analistas (~97% buy) ubica precio objetivo promedio entre $21,9-23,7, muy por encima del precio actual $11,51 (LECTURA: puede reflejar rezago en incorporar el apalancamiento reciente).\n- Market cap ~$3,0 mil M vs. $6,6 mil M+ ya contratados solo en Sandersville sugiere que el mercado aún no pondera el pivot a HPC (LECTURA, no HECHO).\n- Volatilidad 30d de 67% y Sharpe -0,59 reflejan que el \"descuento\" también es compensación por riesgo real, no solo oportunidad.\n- No verificable: cambios individuales de rating en últimas semanas; solo datos de consenso agregados (declarado explícitamente).",
+    "tecnico": "- RSI 37,4 en zona de sobreventa moderada, sin señal de capitulación extrema todavía (HECHO: TradingView, 7-oct-2026).\n- MACD (-0,19) por debajo de señal (+0,06) confirma momentum bajista activo, sin cruce de giro aún.\n- Precio ($11,51) por debajo de SMA20 ($13,33), SMA50 ($12,82) y SMA200 ($12,58): estructura de corto y mediano plazo deteriorada.\n- Max drawdown 1y de -64,74% ya consumido; la pregunta relevante es si hay piso formándose, no si \"ya cayó mucho\" (LECTURA).\n- Sortino -0,73 confirma que las caídas pesan más que las subidas en el perfil reciente; aún sin evidencia de reversión técnica confirmada.",
+    "catalizadores": "**Catalizadores:**\n- Publicación del update operacional de septiembre (BTC producido/vendido, tesorería), ya atrasado, podría salir en cualquier momento (fuente: patrón histórico, confirmado sin publicar al 7-oct).\n- Resolución de la auditoría ERCOT/PUCT hacia fin de 2026, con CleanSpark ya mejor posicionada que pares tras clasificación condicional favorable.\n- Earnings Q4/cierre FY2026, estimado ~16-dic-2026 (no confirmado oficialmente).\n- Avance de contratos HPC adicionales sobre el resto del portafolio texano (885 MW) bajo exclusividad con Meta.\n\n**Riesgos (por materialidad):**\n- Apalancamiento elevado tras $2.276M en deuda al 7,875%: sensibilidad a tasas y a precio de BTC como colateral indirecto.\n- Precio de BTC estable hoy, pero sigue siendo la variable que determina el flujo de caja minero y el valor del colateral.\n- Ejecución regulatoria incierta en Texas (ERCOT/PUCT podría imponer condiciones más estrictas de lo esperado).\n- Halving 2028 recorta subsidio a la mitad, presión estructural de largo plazo sobre el negocio minero puro.",
+    "sentimiento": "- Caída de -9,65% semanal con volumen por debajo del promedio (12,48M vs 15,28M) sugiere ausencia de pánico vendedor masivo (HECHO: GuruFocus, 7-oct-2026).\n- Consenso de analistas extremadamente alcista (~97% buy, objetivo promedio ~$22-24) contrasta con el precio actual, lectura contraria: exceso de optimismo institucional vs. precio de mercado (LECTURA).\n- Caída parece ligada a digestión de apalancamiento, no a deterioro del BTC (que subió +6,36% en septiembre y está casi plano en octubre).\n- RSI 37,4 sin estar en sobreventa extrema (<30) sugiere que el sentimiento retail aún no capitula del todo.\n- Falta de catalizador inmediato (update de septiembre atrasado) genera vacío informativo que amplifica nerviosismo de corto plazo.",
+    "conclusion": "La tesis estructural (energía contratada + HPC con Meta) sigue intacta y hasta mejoró con la clasificación ERCOT favorable, pero el mercado está penalizando el apalancamiento reciente ($2.276M en deuda) más que el negocio. BTC estable descarta que la caída sea por el activo subyacente. Confianza media: faltan el update de septiembre y la resolución regulatoria para confirmar que el piso técnico se sostiene. Zona de interés para acumulación gradual, no de convicción plena mientras no haya confirmación de estabilización técnica y claridad sobre servicio de la nueva deuda."
   },
   "scores": {
     "tecnica": {
-      "score": 38,
-      "just": "El repunte del 2-oct (+7,4%, volumen -85% del promedio) se revirtió sin confirmar cambio de carácter, pero el precio ya recuperó SMA50 y SMA200 tras la caída de tres semanas, y el Sharpe 30d pasó a positivo (+0,46 vs -1,06 del informe previo). Se ajusta al alza vs. el reporte previo (33) porque hay primera evidencia de estabilización, aunque sin confirmación por volumen ni ruptura de SMA20."
+      "score": 42,
+      "just": "RSI 37,4 y precio bajo las tres medias móviles reflejan deterioro activo (MACD aún no cruza), pero sin sobreventa extrema que confirme capitulación; no hay piso técnico confirmado todavía."
     },
     "fundamental": {
-      "score": 44,
-      "just": "Sin deterioro ni mejora fundamental confirmada: la deuda y el margen minero amplio ya estaban reflejados en el score previo. Se mantiene igual (44) porque el atraso del update de septiembre, ya mayor que el ciclo histórico, sigue sin permitir verificar si la operación se sostiene bajo el nuevo apalancamiento; el LOI texano y la auditoría regulatoria no aportan información incremental esta semana."
+      "score": 64,
+      "just": "Energía contratada y HPC con Meta (885 MW, $6,6-11,6 mil M) son un activo escaso real y la clasificación ERCOT favorece a CleanSpark, pero el apalancamiento nuevo ($2.276M deuda) y la dependencia del precio de BTC limitan la nota."
     },
     "sentimiento": {
-      "score": 40,
-      "just": "Insiders solo venden (sin compras) y la acción diverge negativamente de un BTC en recuperación sostenida, pero el consenso de analistas mejoró a 10 Strong Buy + 4 Buy sin ningún Hold — divergencia sell-side/precio que se amplía. Se ajusta levemente al alza vs. el reporte previo (36) porque la mejora de consenso, leída en contrario, sugiere que el pesimismo de precio podría estar sobrecastigando el riesgo real; el repunte fallido del 2-oct confirma que hay apetito comprador latente."
+      "score": 55,
+      "just": "Volumen bajo el promedio en la caída y consenso de analistas muy alcista sugieren que el pesimismo de precio no está acompañado de pánico generalizado; lectura contraria moderada."
     },
     "riesgo": {
-      "score": 22,
-      "just": "Sin cambio material vs. el reporte previo (20): la deuda de US$2.276 mil M sigue siendo estructural (deuda > equity) y conocida, sin calificación crediticia pública verificada que confirme deterioro de crédito nuevo. Ligero ajuste al alza porque BTC en recuperación (~US$86.100-86.500) sostiene el valor del colateral y el Sharpe 30d volvió a terreno positivo, reduciendo el componente de riesgo de volatilidad de corto plazo frente a la pérdida permanente estructural que sigue pesando."
+      "score": 48,
+      "just": "El drawdown de -64,74% ya ocurrido no se penaliza dos veces, pero la deuda nueva al 7,875% introduce riesgo de solvencia/servicio de deuda real que antes no existía, distinto de la volatilidad pura."
     },
     "conviccion": {
-      "score": 44,
-      "just": "La asimetría al precio de referencia (US$12,74) se mantiene amplia — brecha vs. PT consenso ~+91%, ahora respaldada por un mix de analistas aún más favorable (sin Holds) — y el técnico muestra primeros signos de estabilización (SMA50/SMA200 recuperadas). Ajuste leve al alza vs. el reporte previo (42) por la mejora de consenso y Sharpe positivo, aunque el update de septiembre sigue pendiente. Tesis falsable: se invalida con update mostrando caída de tesorería/hashrate o quiebre sostenido bajo US$11; se valida con update en línea y recuperación sobre US$13,50 (SMA20) con volumen."
+      "score": 58,
+      "just": "Asimetría atractiva si el update de septiembre y la resolución ERCOT confirman la tesis, pero sin esos catalizadores materializados aún la convicción es media, no alta."
     }
   },
   "sources": [
-    "PRNewswire / investors.cleanspark.com (updates operacionales, cierre de notas senior)",
-    "SEC EDGAR (Form 4, Form 144, Form 8-K, CIK 0000827876)",
-    "MarketBeat / Investing.com / TipRanks / StockTitan (reacción de mercado, analistas, insiders)",
-    "stockanalysis.com (precio, market cap, consenso analistas, 5-oct-2026)",
-    "Blockspace Media / Yahoo Finance (lease Sandersville/Meta, LOI Texas)",
-    "gov.texas.gov / DataCenterDynamics (cronograma auditoría ERCOT/PUCT Texas)",
-    "Yahoo Finance / Fortune (precio BTC, 5-oct-2026)",
-    "TradingView (técnico)"
+    "PRNewswire, 'CleanSpark Releases August 2026 Operational Update', 8-sep-2026",
+    "8-K SEC CSDC Finance I / CleanSpark (notas senior garantizadas $2.276M), 18 y 25-sep-2026",
+    "8-K SEC CleanSpark, Sandersville Lease, 10-jul-2026",
+    "Yahoo Finance / Blockspace, 'CleanSpark reveals Meta as tenant behind $6.6B Sandersville lease', sep-2026",
+    "Community Impact / Blockspace, auditoría ERCOT/PUCT centros de datos Texas, ago-2026",
+    "The Block, 'Bernstein says Texas data center audit could boost value of existing bitcoin mining and AI sites', 4-ago-2026",
+    "GuruFocus, 'Is Cleanspark Inc (CLSK) a Bargain After 6.3% Drop?', 7-oct-2026",
+    "CoinDesk / Yahoo Finance / Fortune, precio de Bitcoin, 7-oct-2026",
+    "Simplemining.io, 'Bitcoin Market Report September 2026'",
+    "TipRanks / MarketBeat, estimación fecha earnings Q4 FY2026, consultado oct-2026",
+    "TradingView, datos técnicos CLSK, 7-oct-2026"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 63,
-        "just": "Precio en percentil ~30% de su rango de 52 semanas, con brecha a PT promedio (US$23,89) de ~+91%; tesorería de 13.703 BTC (dato de agosto) sigue aportando colchón. Ajuste marginal al alza vs. el reporte previo (62) porque el consenso de analistas mejoró (sin Holds) sin que el precio lo reflejara, ampliando la lectura de descuento."
+        "score": 62,
+        "just": "Price percentile 1y de 22,5% ubica la acción en zona baja de su propio rango; pero el apalancamiento nuevo cambia el perfil de riesgo vs. el histórico, limitando la comparación directa."
       },
       "calidad": {
-        "score": 40,
-        "just": "Ligero ajuste al alza vs. el reporte previo (38): BTC en recuperación mejora el colchón de colateral y el Sharpe 30d volvió a terreno positivo, aunque el apalancamiento (deuda > equity) sigue sin cambio y el update de septiembre —clave para confirmar calidad operativa— continúa sin publicarse."
+        "score": 68,
+        "just": "Cartera de energía contratada (1,8 GW) y diversificación HPC confirmada con Meta (885 MW, hasta $11,6 mil M) son de alta calidad estructural, pero el balance se apalancó recientemente con $2.276M en deuda al 7,875%."
       },
       "asimetria": {
-        "score": 58,
-        "just": "610-885 MW de exclusividad texana con Meta como contraparte (KBW estimaba solo ~16% reconocido en el precio), frente a un market cap de ~US$3,21 mil M. Sin cambio vs. el reporte previo (58): el riesgo regulatorio binario (auditoría ERCOT/PUCT) sigue abierto hacia dic-2026, pero el descuento de valuación se mantiene amplio."
+        "score": 60,
+        "just": "Al precio actual ($11,51), upside hacia objetivo de consenso (~$22-24) es ~2x, pero downside hacia soporte técnico roto (SMA200 $12,58 ya perdida) deja margen de caída adicional; no alcanza 3:1 claro."
       },
       "catalizadores": {
-        "score": 55,
-        "just": "Calendario inmediato: update operacional de septiembre (cada vez más atrasado), auditoría ERCOT/PUCT con objetivo dic-2026, earnings Q4 FY2026 (estimado 16-dic). Sin cambio vs. el reporte previo (55): el catalizador más cercano sigue sin materializarse, pero el calendario de fondo no se ha movido."
+        "score": 70,
+        "just": "Ruta fechada clara: update de septiembre (inminente), resolución ERCOT hacia dic-2026, earnings ~16-dic-2026, todos dentro de 6-18 meses."
       },
       "contrarian": {
-        "score": 50,
-        "just": "Consenso de analistas mejoró a 10 Strong Buy + 4 Buy sin ningún Hold pese al precio estancado, divergencia que favorece una lectura contraria; insiders siguen vendiendo solo bajo 10b5-1, sin pánico corporativo visible. Ligero ajuste al alza vs. el reporte previo (48) porque la mejora de consenso sin correlato de precio, sumada al repunte fallido del 2-oct, sugiere apetito comprador latente que el mercado aún no confirma."
+        "score": 58,
+        "just": "Pesimismo de precio tras caída semanal de -9,65% no está acompañado de pánico de volumen ni de deterioro del BTC subyacente, lo que sugiere sobrerreacción parcial, aunque no extrema."
       }
     },
     "plan": {
       "recomendacion": "Esperar gatillo",
-      "zona_compra": "US$10,50-12,50",
-      "invalidacion": "Cierre sostenido bajo US$10,50 (mínimos de varios meses) o resolución regulatoria adversa en la auditoría ERCOT/PUCT de los 885 MW texanos",
+      "zona_compra": "US$9,50 - US$11,00 (cerca de soporte psicológico y por debajo de SMA200 rota)",
+      "invalidacion": "Pérdida sostenida bajo US$8,00 (mínimo 52 sem.) o deterioro del servicio de la nueva deuda (señales de stress de liquidez)",
       "gatillos": [
-        "Publicación del update operacional de septiembre con tesorería BTC estable/creciente y hashrate en línea",
-        "Confirmación técnica sobre SMA20 (~US$13,50) con volumen, validando el repunte fallido del 2-oct",
-        "Primer 10-Q con la nueva deuda mostrando cobertura de servicio de deuda sólida vs. flujo operativo",
-        "Resolución favorable de la auditoría PUCT/ERCOT sobre los 885 MW en Sealy-Brazoria"
+        "Publicación del update operacional de septiembre con tesorería/producción estables o crecientes",
+        "Resolución favorable o avance concreto de la auditoría ERCOT/PUCT para el portafolio texano de 885 MW"
       ],
       "horizonte": "6-18 meses",
-      "tamano": "Posición pequeña-moderada (beta alta a BTC/mercado, dimensionar como apuesta apalancada, no como proxy directo de bitcoin)",
+      "tamano": "Posición pequeña-moderada dada volatilidad 30d de 67% y naturaleza doblemente cíclica (BTC + apalancamiento nuevo)",
       "confianza": "media"
     }
   },
   "perfil": "CleanSpark es un operador de centros de datos que monetiza electricidad: compra energía barata en Georgia, Tennessee, Wyoming y Texas, opera infraestructura y máquinas propias —sin hosting de terceros— y convierte kilovatios en bitcoin. Facturó $766,3M en FY2025 (+102%), superó los 50 EH/s y retiene una tesorería de ~13.700 BTC. El modelo está mutando: la compresión post-halving hundió los ingresos trimestrales ~30% a/a, y firmó un arriendo triple neto a 20 años por 175 MW con una tecnológica de grado de inversión (~$6.600M contratados, margen casi íntegro), además de una LOI de exclusividad sobre su portafolio texano de hasta 885 MW. Ahí está la tesis: el activo escaso no son las máquinas sino su cartera de energía contratada e interconexiones, justo lo que demanda la IA. Como minero es tomador de precio doblemente cíclico, con dilución permanente (incluida la potencial por convertibles sobre US$19,16) y el halving de 2028 recortando el subsidio a la mitad; la variable crítica es el financiamiento, que ata la reconversión a HPC al costo de capital y al precio del bitcoin que sirve de colateral.",
   "technical": {
-    "price": 12.74,
-    "change_1d_pct": 1.76,
-    "change_1w_pct": -8.67,
-    "rsi": 45.9,
-    "macd": 0.0649,
-    "macd_signal": 0.2272,
-    "sma20": 13.489,
-    "sma50": 12.9365,
-    "sma200": 12.5746,
-    "ema12": 13.3105,
-    "ema26": 13.2456,
-    "pct_vs_sma20": -5.55,
-    "pct_vs_sma50": -1.52,
-    "pct_vs_sma200": 1.32,
-    "volume_today": 18563447,
-    "volume_avg20": 17466302.0,
-    "volume_ratio": 1.06,
-    "volatility_30d": 67.66,
-    "sharpe": 0.46,
-    "sortino": 0.59,
+    "price": 11.51,
+    "change_1d_pct": -6.35,
+    "change_1w_pct": -9.65,
+    "rsi": 37.4,
+    "macd": -0.1937,
+    "macd_signal": 0.0645,
+    "sma20": 13.3305,
+    "sma50": 12.8216,
+    "sma200": 12.5833,
+    "ema12": 12.8092,
+    "ema26": 13.0029,
+    "pct_vs_sma20": -13.66,
+    "pct_vs_sma50": -10.23,
+    "pct_vs_sma200": -8.53,
+    "volume_today": 10427508,
+    "volume_avg20": 16809923.0,
+    "volume_ratio": 0.62,
+    "volatility_30d": 67.06,
+    "sharpe": -0.59,
+    "sortino": -0.73,
     "max_drawdown_1y": -64.74,
-    "price_percentile_1y": 30.4,
-    "vs_benchmark_30d_pct": 8.37,
-    "perf_1m_pct": 16.99,
-    "perf_ytd_pct": 22.56
+    "price_percentile_1y": 22.5,
+    "vs_benchmark_30d_pct": -9.79,
+    "perf_1m_pct": -6.12,
+    "perf_ytd_pct": 10.73
   },
   "risk": {
-    "volatility_30d": 67.66,
-    "sharpe": 0.46,
-    "sortino": 0.59,
+    "volatility_30d": 67.06,
+    "sharpe": -0.59,
+    "sortino": -0.73,
     "max_drawdown_1y": -64.74,
-    "n_days": 343,
+    "n_days": 346,
     "window": 30
   },
   "benchmark": {
     "ticker": "CRYPTO:BTCUSD",
     "label": "Bitcoin",
-    "relative_performance_30d": 8.37,
-    "relative_performance_ytd": 23.74,
-    "price_percentile_1y": 30.4,
+    "relative_performance_30d": -9.79,
+    "relative_performance_ytd": 15.59,
+    "price_percentile_1y": 22.5,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-04T22:09:52-03:00"
+      "fetched_at": "2026-10-07T15:35:27-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-04T22:09:52-03:00"
+      "fetched_at": "2026-10-07T15:35:27-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-04T22:09:52-03:00"
+      "fetched_at": "2026-10-07T15:35:27-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CRYPTO:BTCUSD",
-      "fetched_at": "2026-10-04T22:09:52-03:00"
+      "fetched_at": "2026-10-07T15:35:27-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/CLSK.json",
-      "n_days": 343
+      "n_days": 346
     }
   },
   "metricChanges": [
@@ -252,5 +253,5 @@
     "senales_piso": [],
     "senales_techo": []
   },
-  "reportDate": "5 de octubre de 2026"
+  "reportDate": "7 de octubre de 2026"
 }
