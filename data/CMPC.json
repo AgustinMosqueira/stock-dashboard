@@ -4,123 +4,118 @@
   "statsList": [
     [
       "Precio",
-      "$950,0 CLP (7-oct-2026)"
+      "$968,4 CLP (8-oct-2026)"
     ],
     [
       "Rango 52 sem.",
-      "$944,2 – $1.501,1 CLP (Investing.com, 5-oct-2026); operando a 0,6% de su mínimo anual"
+      "$944,2 – $1.501,1 CLP (Investing.com, 8-oct-2026); operando a ~1,6% de su mínimo anual"
     ],
     [
       "Market cap",
-      "CLP ~2,48 billones (~US$2.500-2.600M, Investing.com, 5-oct-2026)"
+      "CLP ~2,48-2,58 billones (~US$2.500-2.700M, GuruFocus/Investing.com, 8-oct-2026)"
     ],
     [
       "P/B y EV-EBITDA",
-      "P/B ~0,28x · EV/EBITDA ~8x; P/E ~23-24x spot"
+      "P/B ~0,24-0,28x · EV/EBITDA ~8-9,5x (GuruFocus/Itaú BBA, oct-2026)"
     ],
     [
       "Deuda neta-EBITDA",
-      "4,17x en 2T26 (vs 4,10x trim. anterior); Itaú BBA proyecta ~4,8x a cierre 2026. S&P BBB-/NEGATIVO (19-ago-2026); Fitch BBB-/ESTABLE (Bloomberg Línea, 6-oct-2026) — un escalón sobre grado especulativo"
+      "4,17x en 2T26 (vs 4,10x en 1T26), sobre meta propia 2,5-3,5x; S&P BBB-/NEGATIVO (downgrade feb-2026) y Fitch BBB-/ESTABLE — un escalón sobre grado especulativo"
     ],
     [
       "Próx. earnings",
-      "3T26: 5-nov-2026 (findata.cl, calendario Bolsa de Santiago)"
+      "3T26: 5-nov-2026 (calendario Bolsa de Santiago vía findata.cl/Quartr)"
     ],
     [
       "Técnico (auto)",
-      "RSI 39.5 · MACD -14.47 / señal -14.84 (TradingView, 7-oct-2026)"
+      "RSI 45.0 · MACD -13.59 / señal -14.57 (TradingView, 8-oct-2026)"
     ]
   ],
   "change": {
-    "day": -0.87,
-    "week": -2.56
+    "day": 1.72,
+    "week": -0.68
   },
   "events": [
     {
       "date": "2026-11-05",
       "label": "Earnings 3T26",
       "kind": "earnings",
-      "info": "Fecha confirmada por calendario de Bolsa de Santiago vía findata.cl (consultado 7-oct-2026); clave para ver evolución del ratio deuda neta/EBITDA post 4,17x del 2T26."
-    },
-    {
-      "date": "2026-11-06",
-      "label": "Posible fecha alternativa earnings 3T26",
-      "kind": "earnings",
-      "info": "Algunos agregadores listan el 6-nov en vez del 5-nov (patrón histórico 3T25 fue 6-nov-2025); verificar en ir.cmpc.com cerca de la fecha."
+      "info": "Fecha estimada por calendario de Bolsa de Santiago (findata.cl/Quartr, consultado 8-oct-2026); clave para ver si el apalancamiento sigue subiendo tras el 4,17x del 2T26."
     },
     {
       "date": "2027-01-31",
-      "label": "Posible siguiente revisión de rating (S&P/Fitch/Moody's)",
+      "label": "Posible próxima revisión de rating (S&P/Fitch)",
       "kind": "corporate",
-      "info": "Sin fecha oficial agendada; se monitorea por outlook NEGATIVO de S&P (19-ago-2026) y dilema de financiamiento de Natureza (Bloomberg Línea, 6-oct-2026)."
+      "info": "Sin fecha oficial agendada; se monitorea por el outlook NEGATIVO de S&P (BBB-, desde feb-2026) y el dilema de financiamiento de Natureza."
     },
     {
       "date": "2027-06-30",
       "label": "Cierre estimado venta Corrugados a Smurfit Westrock",
       "kind": "corporate",
-      "info": "Operación por US$420M (7,6x EBITDA) sujeta a aprobación de la FNE; cierre esperado 1S2027 (Argentina Forestal, 4-oct-2026)."
+      "info": "Operación por US$420M firmada 23-sep-2026, sujeta a aprobación de la FNE; cierre esperado 1S2027 (Biobío Chile/The Clinic, 23/24-sep-2026)."
     }
   ],
   "sections": {
-    "resumen": "CMPC opera a 0,6% de su mínimo de 52 semanas (percentil 2,1), con RSI 39,5 y MACD aún negativo pero convergiendo. El nudo de la tesis es financiero, no operativo: deuda neta/EBITDA en 4,17x (2T26), S&P en BBB-/outlook NEGATIVO y Fitch en BBB-/ESTABLE, un escalón sobre grado especulativo. La celulosa BHKP china muestra recuperación moderada hacia ~US$585/t (proyección oct-2026, Argentina Forestal). CMPC ya vendió Corrugados (US$420M a Smurfit Westrock, 23-sep) como primer paso de desapalancamiento, pero Natureza (US$4.600M, Brasil) sigue sin FID ni licencia ambiental, lo que mantiene el riesgo de ampliación de capital o pérdida de investment grade (HECHO: Bloomberg Línea, 6-oct-2026).",
-    "fundamental": "- Venta de Corrugados a Smurfit Westrock por US$420M (7,6x EBITDA LTM), cierre 1S2027 sujeto a FNE (HECHO: Argentina Forestal/Diario Financiero, 23-sep/4-oct-2026).\n- Plan de monetización de activos no estratégicos US$1.000-1.500M (forestales/inmobiliarios Argentina-Chile-Brasil) asesorado por JPMorgan (HECHO: Argentina Forestal, 31-may/17-jun-2026).\n- Natureza (Brasil, US$4.600M, 2,5Mt/año) sin FID del directorio ni Licença Prévia ambiental al 6-oct-2026; litigio por consulta indígena (HECHO: The Clinic, sept-2026).\n- Inversión US$92,6M en Biobío (remanufactura Los Ángeles + aserradero Mulchén) dentro de plan bienal >US$1.000M (HECHO: Diario Financiero, 5-oct-2026).\n- LECTURA: brecha de financiamiento de hasta US$600-700M si la venta de activos rinde solo la mitad de lo proyectado, presiona hacia un posible aumento de capital.",
-    "valuacion": "- P/B 0,28x es barato vs historia propia de CMPC, consistente con cotizar en percentil 2,1 de 52 semanas.\n- EV/EBITDA ~8x no es tan barato en términos absolutos dado el apalancamiento elevado (4,17x deuda neta/EBITDA).\n- Consenso Bloomberg (compilado por Itaú BBA, 27-ago-2026): promedio de PO ~$1.500, con dispersión enorme — Itaú BBA underweight PO $1.030 vs MBI overweight PO $2.077 (Diario Financiero, ago/oct-2026).\n- LECTURA: el mercado está valuando CMPC casi como opción sobre resolución del riesgo financiero, no sobre fundamentos de celulosa.\n- A US$575/t de celulosa, según MBI, Natureza apenas sería rentable — sensibilidad de la tesis al ciclo.",
-    "tecnico": "- Precio $950 vs SMA20 $977, SMA50 $1.010, SMA200 $1.154: tendencia bajista intacta en todos los plazos.\n- RSI 39,5 no está en sobreventa extrema; MACD (-14,47) sobre su señal (-14,84) sugiere posible pérdida de momentum bajista, sin confirmar giro.\n- Percentil 2,1 en 1 año = prácticamente mínimo de 52 semanas; drawdown -36,44% y Sharpe -1,96 muestran destrucción de valor severa, no necesariamente piso.\n- Rendimiento relativo +0,43% en 30d vs ECH (proxy Chile) es marginal, no hay evidencia clara de divergencia alcista o secado de volumen vendedor verificable en las fuentes.\n- LECTURA: no hay señal técnica contundente de piso formado; el nivel de sobreventa es moderado, no extremo, así que el \"ya cayó mucho\" no basta por sí solo.",
-    "catalizadores": "**Catalizadores:**\n- Earnings 3T26 (5 o 6-nov-2026): primera lectura del apalancamiento tras la venta de Corrugados.\n- Resolución de financiamiento de Natureza (venta de activos, bonos híbridos adicionales o aumento de capital) en próximos 6-12 meses.\n- Alza sostenida de celulosa BHKP hacia ~US$585/t u más si mantenciones de oferta (2,2Mt fuera en 2026) persisten.\n- Cierre de venta de Corrugados (1S2027) libera caja y reduce ratio de apalancamiento.\n\n**Riesgos (por materialidad):**\n- Downgrade de S&P o Fitch a grado especulativo (BB+): dispararía ventas forzadas de fondos investment-grade-only.\n- Nueva oferta de celulosa (6,8Mt entre 4T26-2027, incluyendo Arauco/Sucuriú) presiona precios justo cuando Natureza busca entrar.\n- Retraso o cancelación de FID de Natureza por litigio ambiental/indígena en Brasil.\n- Aumento de capital dilutivo si la venta de activos rinde menos de lo proyectado (brecha US$600-700M).",
-    "sentimiento": "- Itaú BBA (27-ago-2026): recomendación underweight, PO $1.030 (el más bajo de 15 estimaciones Bloomberg), por celulosa débil, incertidumbre en Natureza y apalancamiento.\n- MBI Inversiones (citado 6-oct-2026): overweight, PO $2.077 (bajado de $2.417), implica upside ~50% — visión contraria fuerte dentro del propio consenso.\n- No se verificó con fuente fechada 2026 que JPMorgan mantenga \"sell\"; el dato más confiable disponible apunta a Neutral/Hold (Diario Financiero, oct-2025, última confirmación primaria).\n- LECTURA contrarian: la dispersión extrema de precios objetivo (de $1.030 a $2.077) en mínimos históricos de precio sugiere que el mercado no tiene consenso sobre si el riesgo financiero ya está en el precio.\n- Prensa económica (Bloomberg Línea) enmarca a CMPC en un \"dilema\" explícito entre crecer (Natureza) o proteger el rating, lo que mantiene el sentimiento cauteloso pero no unánimemente negativo.",
-    "conclusion": "Tesis de turnaround con riesgo financiero dominante: la acción está barata vs su historia (P/B 0,28x, percentil 2,1) y el negocio operativo (celulosa, Softys) no se ha deteriorado más allá del ciclo, pero el apalancamiento (4,17x) y el outlog negativo de S&P conviven con Natureza sin resolver. Sin señal técnica de piso confirmado y sentimiento de analistas muy dividido ($1.030 a $2.077 de PO). Confianza media: posición inicial pequeña solo justificable si se acepta el riesgo binario de rating/Natureza en los próximos 2-3 trimestres."
+    "resumen": "CMPC cotiza a $968,4 CLP, cerca de su mínimo de 52 semanas, con RSI 45 y MACD aún negativo. La tesis sigue siendo financiera: deuda neta/EBITDA en 4,17x (2T26, HECHO), S&P BBB-/NEGATIVO desde feb-2026 y Fitch BBB-/ESTABLE, un escalón sobre grado especulativo. La celulosa BHKP china muestra recuperación a ~US$570-585/t con Suzano subiendo +US$20/t en octubre hacia meta de US$600/t (HECHO: Fastmarkets/prensa sectorial, oct-2026). CMPC vendió Corrugados a Smurfit Westrock (US$420M, 23-sep-2026) como primer paso de desapalancamiento y recortó capex -48% YoY en 2T26, pero Natureza (Brasil, US$4.600M) sigue sin licencia industrial ni FID, y JPMorgan advierte riesgo de retraso a 2027 (LECTURA).",
+    "fundamental": "- EBITDA 2T26 en US$270M (+6% t/t, -19% a/a); margen EBITDA 14,1% (HECHO: Investing.com/GuruFocus, ago-2026).\n- Deuda neta/EBITDA 4,17x (2T26) vs 4,10x (1T26), sobre meta propia 2,5-3,5x (HECHO: earnings call 2T26).\n- Capex 2T26 de US$170M, -8% t/t y -48% a/a, señal de disciplina de caja activa (HECHO: Investing.com, ago-2026).\n- Venta de Corrugados a Smurfit Westrock por US$420M, cierre 1S2027 sujeto a FNE (HECHO: Biobío Chile/The Clinic, 23/24-sep-2026).\n- Natureza (Brasil) sin licencia de planta industrial al cierre de sept-2026; litigio por consulta a comunidades indígenas abierto desde mayo-2026 (HECHO: The Clinic, sept-2026).",
+    "valuacion": "- P/B ~0,24-0,28x, barato vs historia propia de CMPC, consistente con precio cerca de mínimo de 52 semanas (HECHO: GuruFocus, oct-2026).\n- EV/EBITDA ~8-9,5x no es tan barato en términos absolutos dado el apalancamiento elevado.\n- Consenso disperso: Itaú BBA underweight PO $1.030 (oct-2026, HECHO) vs MBI sobreponderar PO $2.077 (abr-2026, algo desactualizado) — potencial alcista implícito de ~6% a ~114% según la casa.\n- Bradesco bajó a underperform (sept-2026, HECHO) citando apalancamiento y riesgos de Natureza.\n- LECTURA: el mercado valúa CMPC más como opción sobre resolución del riesgo financiero que sobre fundamentos de celulosa.",
+    "tecnico": "- Precio $968,4 vs SMA20 $975, SMA50 $1.009, SMA200 $1.152: tendencia bajista intacta en todos los plazos.\n- RSI 45,0 y MACD -13,59 sobre señal -14,57: momentum bajista perdiendo fuerza, sin confirmar giro (LECTURA).\n- Percentil 5,3 en 1 año, drawdown -36,3% y Sharpe -1,42: destrucción de valor severa; volumen 3,91x el promedio no permite distinguir capitulación de acumulación (LECTURA).\n- Señales de piso previas (divergencia RSI, base sobre mínimo anual) persisten solo parcialmente: precio sin nuevo mínimo, pero RSI 45 ya no está en sobreventa extrema.\n- Rendimiento relativo +1,84% en 30d vs ECH es marginal, sin confirmación técnica robusta de piso.",
+    "catalizadores": "**Catalizadores:**\n- Earnings 3T26 (5-nov-2026): primera lectura del apalancamiento tras venta de Corrugados y recorte de capex.\n- Celulosa BHKP sostenida sobre US$570-585/t con nuevas alzas de Suzano hacia US$600/t (oct-2026).\n- Cierre efectivo de venta de Corrugados (1S2027) libera caja y reduce ratio de apalancamiento.\n- Resolución de financiamiento de Natureza (venta adicional de activos, bono híbrido) sin acción negativa de rating.\n\n**Riesgos (por materialidad):**\n- Downgrade de S&P o Fitch a grado especulativo (BB+): dispararía ventas forzadas de fondos investment-grade-only — riesgo crítico, no el drawdown ya ocurrido.\n- Retraso del proyecto Natureza a 2027 por litigio ambiental/indígena, señalado por JPMorgan (2026).\n- Arranque de nueva oferta (planta OKI en Indonesia, expansiones de Arauco/Sucuriú 2027) presiona precios de celulosa.\n- Brecha de financiamiento si venta de activos no estratégicos rinde menos de lo proyectado, abriendo puerta a aumento de capital dilutivo.",
+    "sentimiento": "- Itaú BBA (oct-2026): underweight, PO $1.030, por incertidumbre de Natureza y apalancamiento (HECHO).\n- Bradesco (sept-2026): bajó a underperform por caída de utilidades y riesgos de Brasil (HECHO).\n- JPMorgan: Neutral/Hold, PO $1.100 (9-sep-2026, HECHO); no se verificó rating \"sell\" vigente en 2026.\n- MBI mantiene sobreponderar, PO $2.077, pero el informe es de abril-2026, previo al deterioro de apalancamiento de 2T26 (LECTURA: desactualizado).\n- LECTURA contrarian: la dispersión de PO ($1.030 a $2.077) en mínimos históricos sugiere que el mercado no tiene consenso sobre si el riesgo financiero ya está en el precio.",
+    "conclusion": "Tesis de turnaround con riesgo financiero dominante: la acción está barata vs su historia (P/B ~0,25x, cerca de mínimo anual) y el negocio operativo (celulosa recuperando, Softys estable) no se deterioró más allá del ciclo, pero 4,17x de apalancamiento y el outlook negativo de S&P conviven con Natureza sin resolver. Sin señal técnica de piso confirmado y sentimiento de analistas muy dividido. Confianza media: posición inicial pequeña, justificable solo aceptando el riesgo binario de rating/Natureza en los próximos 2-3 trimestres."
   },
   "scores": {
     "tecnica": {
-      "score": 42,
-      "just": "Percentil 2,1 y RSI 39,5 sin sobreventa extrema; MACD apenas sobre su señal sugiere freno del momentum bajista pero sin divergencia ni secado de volumen confirmado. No hay evidencia sólida de piso, solo de agotamiento parcial."
+      "score": 44,
+      "just": "Percentil 5,3 y RSI 45 sin sobreventa extrema; MACD apenas sobre su señal sugiere freno del momentum bajista pero sin divergencia confirmada ni volumen claramente direccional (volume_ratio 3,91x es ambiguo). Señales de piso previas persisten solo parcialmente."
     },
     "fundamental": {
       "score": 50,
-      "just": "Negocio de celulosa/Softys estructuralmente sano (posición de costos, integración forestal) pero el apalancamiento 4,17x y outlook negativo de S&P pesan fuerte; venta de Corrugados es un paso real pero insuficiente por sí solo."
+      "just": "Negocio de celulosa/Softys estructuralmente sano (costos competitivos, integración forestal, EBITDA 2T26 +6% t/t) pero el apalancamiento 4,17x y outlook negativo de S&P pesan fuerte; venta de Corrugados y recorte de capex -48% a/a son pasos reales pero insuficientes por sí solos."
     },
     "sentimiento": {
       "score": 55,
-      "just": "Consenso de analistas muy dividido (underweight PO $1.030 vs overweight PO $2.077) en mínimos históricos de precio — la dispersión extrema es consistente con lectura contrarian moderada, no con pesimismo unánime."
+      "just": "Consenso de analistas muy dividido (underweight $1.030 vs sobreponderar $2.077, JPMorgan Neutral en medio) en mínimos históricos de precio — dispersión extrema consistente con lectura contrarian moderada, no con pesimismo unánime tipo capitulación."
     },
     "riesgo": {
-      "score": 30,
-      "just": "Riesgo dominante es financiero/estructural (posible pérdida de investment grade, brecha de financiamiento de Natureza, posible aumento de capital dilutivo), no solo volatilidad de precio; esto justifica una nota baja aunque el drawdown ya ocurrido no implique más deterioro operativo."
+      "score": 28,
+      "just": "Riesgo dominante es la posible pérdida de grado de inversión (downgrade a BB+), con brecha de financiamiento de Natureza y riesgo de aumento de capital dilutivo; esto es lo que castiga la nota, no el drawdown de -31,5% YTD ya conocido y materializado."
     },
     "conviccion": {
       "score": 45,
-      "just": "Asimetría presente (barata vs historia) pero no limpia: la tesis depende de un catalizador binario (resolución de rating/financiamiento) fechado pero incierto en resultado; posición pequeña con gatillos claros, no convicción alta."
+      "just": "Asimetría presente (barata vs historia, PO dispersos con upside hasta >100% en escenario optimista) pero no limpia: la tesis depende de un catalizador binario (rating/financiamiento de Natureza) fechado para 3T26/2027 pero de resultado incierto; posición pequeña con gatillos claros, no convicción alta."
     }
   },
   "sources": [
-    "Bloomberg Línea, 6-oct-2026 — \"CMPC arriesga grado de inversión por proyecto Natureza en Brasil\"",
-    "Diario Financiero, 5-oct-2026 — inversión US$92,6M en Biobío",
-    "Argentina Forestal, 4-oct-2026 — cierre venta Corrugados a Smurfit Westrock",
-    "Argentina Forestal, 29-sep-2026 — precios BHKP China y oferta global de celulosa",
-    "The Clinic, 6 y 14-sep-2026 — estado permisos ambientales Natureza",
-    "Itaú BBA vía Diario Financiero, 27-ago-2026 — recomendación underweight, PO $1.030",
-    "Investing.com/Gurufocus, ago-2026 — resultados 2T26, deuda neta/EBITDA 4,17x",
-    "findata.cl — calendario earnings Bolsa de Santiago, 3T26",
-    "Investing.com, 5-oct-2026 — rango 52 semanas y market cap",
-    "TradingView, 7-oct-2026 — datos técnicos RSI/MACD"
+    "Investing.com/GuruFocus, ago-2026 — resultados 2T26, EBITDA US$270M, deuda neta/EBITDA 4,17x",
+    "Investing.com, S&P downgrade a BBB- con outlook negativo, feb-2026",
+    "ir.cmpc.com (Rating Agencies) y Fitch Ratings — BBB-/Estable",
+    "Biobío Chile / The Clinic, 23/24-sep-2026 — venta de Corrugados a Smurfit Westrock por US$420M",
+    "The Clinic, sept-2026 — estado de permisos y litigio indígena de Natureza",
+    "Diario Financiero (df.cl), oct-2026 — Itaú BBA baja a CMPC a PO $1.030, underweight",
+    "Diario Financiero (df.cl) / redimin.cl, abr-2026 — MBI sobreponderar, PO $2.077",
+    "briefs.co, oct-2026 — \"CMPC's $4.6B Brazil Pulp Dilemma\" y riesgo de retraso de Natureza (JPMorgan)",
+    "Fastmarkets vía prensa sectorial (sinpapel.com.br, brasil247.com), oct-2026 — alzas de Suzano en BHKP China hacia US$600/t",
+    "GuruFocus/Investing.com, 8-oct-2026 — market cap, rango 52 semanas, P/B y EV/EBITDA",
+    "TradingView, 8-oct-2026 — datos técnicos RSI/MACD/SMAs"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
         "score": 70,
-        "just": "P/B 0,28x y percentil 2,1 son claramente baratos vs la propia historia de CMPC; descuento consistente con riesgo financiero real, no solo pánico de mercado."
+        "just": "P/B ~0,24-0,28x y percentil 5,3 son claramente baratos vs la propia historia de CMPC; descuento consistente con riesgo financiero real, no solo pánico de mercado."
       },
       "calidad": {
         "score": 50,
-        "just": "Posición competitiva sólida en celulosa de bajo costo y Softys con flujo estable, pero el apalancamiento 4,17x y outlook negativo de S&P degradan materialmente la calidad del balance."
+        "just": "Posición competitiva sólida en celulosa de bajo costo y Softys con flujo estable, pero apalancamiento 4,17x y outlook negativo de S&P degradan materialmente la calidad del balance."
       },
       "asimetria": {
         "score": 45,
-        "just": "Upside a valor libro/EBITDA normalizado es significativo si se resuelve el financiamiento de Natureza sin dilución, pero el downside de perder investment grade (repricing abrupto, costo de deuda al alza) es comparable en magnitud; no llega a 3:1 claro."
+        "just": "Upside a valor libro/EBITDA normalizado es significativo si se resuelve el financiamiento de Natureza sin dilución, pero el downside de perder investment grade (repricing abrupto, costo de deuda al alza) es comparable en magnitud; no llega a una asimetría 3:1 clara."
       },
       "catalizadores": {
         "score": 60,
-        "just": "Ruta fechada clara: earnings 3T26 (5/6-nov-2026), cierre venta Corrugados (1S2027), posible resolución de FID Natureza en 6-18 meses; falta solo la acción de rating que dispararía el catalizador mayor."
+        "just": "Ruta fechada clara: earnings 3T26 (5-nov-2026), cierre venta Corrugados (1S2027), posible resolución de FID Natureza en 6-18 meses; falta la acción de rating que dispararía el catalizador mayor."
       },
       "contrarian": {
         "score": 55,
@@ -132,8 +127,8 @@
       "zona_compra": "$880-950 CLP, con atención especial si testea el mínimo de 52 semanas ($944,2)",
       "invalidacion": "Downgrade de S&P o Fitch a grado especulativo (BB+ o menor), o anuncio de aumento de capital dilutivo no anticipado",
       "gatillos": [
-        "Confirmación de evolución del ratio deuda neta/EBITDA en earnings 3T26 (5/6-nov-2026)",
-        "Resolución del financiamiento de Natureza (venta de activos adicional, bono híbrido o FID aplazado) sin acción negativa de rating"
+        "Confirmación de evolución del ratio deuda neta/EBITDA en earnings 3T26 (5-nov-2026)",
+        "Resolución del financiamiento de Natureza (venta de activos adicional, bono híbrido o FID definido) sin acción negativa de rating"
       ],
       "horizonte": "6-18 meses",
       "tamano": "posición inicial pequeña (riesgo financiero elevado y binario); ampliar solo tras confirmación de catalizador",
@@ -142,82 +137,81 @@
   },
   "perfil": "CMPC es un grupo forestal-industrial chileno integrado verticalmente, desde plantaciones propias de pino y eucalipto hasta celulosa de mercado, papeles y consumo masivo, con operaciones en ocho países. Se organiza en Pulp (celulosa y madera), Softys (tissue y cuidado personal) y Biopackaging. En 2025 facturó ~USD 7.480 millones con un mix de ventas de Softys 45-47%, Pulp 39-40% y Biopackaging 14%, pero la caja se concentra en Pulp, que aportó la mayoría del EBITDA con márgenes muy superiores a los de Softys. Chile pesa solo ~16% de las ventas: México y Brasil son los mayores mercados de consumo y Asia absorbe el grueso de la celulosa exportada. Estructuralmente es un negocio precio-tomador, atado al ciclo de la celulosa BHKP y a la demanda china, con Softys como contrapeso de menor margen pero flujo estable. El calce cambiario ayuda (ingresos en dólares contra costos en CLP y BRL) pero la deuda también es dolarizada: el apalancamiento subió a 4,17x EBITDA en 2T26, y sobre eso pesa el proyecto Natureza en Brasil (+USD 4.500-4.600 millones), que define el perfil de riesgo de los próximos años.",
   "technical": {
-    "price": 950,
-    "change_1d_pct": -0.87,
-    "change_1w_pct": -2.56,
-    "rsi": 39.5,
-    "macd": -14.475,
-    "macd_signal": -14.8428,
-    "sma20": 977.352,
-    "sma50": 1010.4808,
-    "sma200": 1154.2767,
-    "ema12": 972.294,
-    "ema26": 986.769,
-    "pct_vs_sma20": -2.8,
-    "pct_vs_sma50": -5.99,
-    "pct_vs_sma200": -17.7,
-    "volume_today": 2935882,
-    "volume_avg20": 4127875.0,
-    "volume_ratio": 0.71,
-    "volatility_30d": 24.85,
-    "sharpe": -1.96,
-    "sortino": -1.85,
-    "max_drawdown_1y": -36.44,
-    "price_percentile_1y": 2.1,
-    "vs_benchmark_30d_pct": 0.43,
-    "perf_1m_pct": -7.77,
-    "perf_ytd_pct": -32.81
+    "price": 968.4,
+    "change_1d_pct": 1.72,
+    "change_1w_pct": -0.68,
+    "rsi": 45.0,
+    "macd": -13.5902,
+    "macd_signal": -14.5668,
+    "sma20": 975.172,
+    "sma50": 1009.1868,
+    "sma200": 1152.1797,
+    "ema12": 971.9553,
+    "ema26": 985.5455,
+    "pct_vs_sma20": -0.69,
+    "pct_vs_sma50": -4.04,
+    "pct_vs_sma200": -15.95,
+    "volume_today": 19828437,
+    "volume_avg20": 5072118.0,
+    "volume_ratio": 3.91,
+    "volatility_30d": 25.44,
+    "sharpe": -1.42,
+    "sortino": -1.33,
+    "max_drawdown_1y": -36.3,
+    "price_percentile_1y": 5.3,
+    "vs_benchmark_30d_pct": 1.84,
+    "perf_1m_pct": -6.43,
+    "perf_ytd_pct": -31.51
   },
   "risk": {
-    "volatility_30d": 24.85,
-    "sharpe": -1.96,
-    "sortino": -1.85,
-    "max_drawdown_1y": -36.44,
-    "n_days": 346,
+    "volatility_30d": 25.44,
+    "sharpe": -1.42,
+    "sortino": -1.33,
+    "max_drawdown_1y": -36.3,
+    "n_days": 347,
     "window": 30
   },
   "benchmark": {
     "ticker": "CBOE:ECH",
     "label": "ECH (proxy Chile/IPSA)",
-    "relative_performance_30d": 0.43,
-    "relative_performance_ytd": -25.41,
-    "price_percentile_1y": 2.1,
+    "relative_performance_30d": 1.84,
+    "relative_performance_ytd": -24.5,
+    "price_percentile_1y": 5.3,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-07T15:35:27-03:00"
+      "fetched_at": "2026-10-08T23:28:07-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-07T15:35:27-03:00"
+      "fetched_at": "2026-10-08T23:28:07-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-07T15:35:27-03:00"
+      "fetched_at": "2026-10-08T23:28:07-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CBOE:ECH",
-      "fetched_at": "2026-10-07T15:35:27-03:00"
+      "fetched_at": "2026-10-08T23:28:07-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/CMPC.json",
-      "n_days": 346
+      "n_days": 347
     }
   },
   "metricChanges": [],
   "trend": {
-    "piso": 3,
+    "piso": 2,
     "techo": 0,
     "max": 7,
     "senales_piso": [
       "divergencia RSI alcista",
-      "secado del volumen vendedor",
       "base construyéndose sobre el mínimo anual"
     ],
     "senales_techo": []
   },
-  "reportDate": "7 de octubre de 2026"
+  "reportDate": "9 de octubre de 2026"
 }
