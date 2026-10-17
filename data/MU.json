@@ -4,131 +4,127 @@
   "statsList": [
     [
       "Precio",
-      "$953.19 (13-oct-2026)"
+      "$878,84 (16-oct-2026, -5,63% día)"
     ],
     [
       "Rango 52 sem.",
-      "$186,25 – $1.255,00 (stockanalysis.com, 13-oct-2026)"
+      "$192,40 – $1.255,00 (stockanalysis.com/investing.com, 16-oct-2026)"
     ],
     [
       "Market cap",
-      "~US$1,06 billones (stockanalysis.com, 13-oct-2026)"
+      "~US$1,00 billón (tras la caída del 16-oct; ~US$1,05 billones el 15-oct) (stockanalysis.com, 15-16-oct-2026)"
     ],
     [
       "P/E",
-      "~13,3x trailing / ~5,6x forward (stockanalysis.com, 13-oct-2026)"
+      "~12,5x trailing / ~5,3x forward (stockanalysis.com, 15-oct-2026)"
     ],
     [
       "Target consenso",
-      "~US$1.561 promedio (49 analistas, Strong Buy; 45/49 Buy/Outperform, 0 Sell; Rosenblatt reiteró Buy US$1.900 el 13-14-oct) (stockanalysis.com / S&P Global / defenseworld.net, 13-14-oct-2026)"
+      "~US$1.560-1.561 promedio (49 analistas, Strong Buy); BofA reiteró Buy US$1.550 y KeyBanc Buy US$1.750 el 15-oct; HSBC y Daiwa calificaron la caída por CXMT como oportunidad de compra (stockanalysis.com/tradingkey.com, 15-oct-2026)"
     ],
     [
       "Próx. earnings",
-      "Q1 FY2027 estimado ~16-dic o 23-dic-2026 (fuentes difieren, sin confirmación oficial; TipRanks/Quartr vs Wall Street Horizon). Guidance emitido 29-sep: revenue US$61.500M±1.500M, EPS no-GAAP ~US$38,15±1,00, EPS GAAP ~US$37,84±1,00 (8-K SEC, 29-sep-2026)"
-    ],
-    [
-      "Técnico (auto)",
-      "RSI 40.3 · MACD +7.45 / señal +22.36 (TradingView, 13-oct-2026)"
+      "Q1 FY2027: conference call confirmado para el 16-dic-2026 18:00 ET (fecha consistente con el patrón histórico de Micron de reportar a mediados de diciembre). Guidance ya emitido: revenue US$61.500M±1.500M, margen bruto ~86,25%, EPS no-GAAP ~US$38,15±1,00 (8-K SEC, 29-sep-2026 / stocktitan.net, oct-2026)"
     ]
   ],
   "change": {
-    "day": -3.62,
-    "week": -7.37
+    "day": -5.63,
+    "week": -12.05
   },
   "events": [
     {
       "date": "2026-12-16",
-      "label": "Earnings Q1 FY2027 (estimado, sin confirmación oficial)",
+      "label": "Earnings call Q1 FY2027 (18:00 ET, fecha consistente con calendario histórico de Micron)",
       "kind": "earnings",
-      "info": "HECHO: guidance ya emitido en el 8-K del 29-sep: revenue US$61.500M±1.500M, EPS no-GAAP ~US$38,15±1,00. LECTURA: fecha estimada entre 16 y 23-dic-2026 según la fuente (Quartr/TipRanks vs Wall Street Horizon), sin confirmación oficial de Micron al 14-oct-2026."
+      "info": "HECHO: guidance ya emitido en el 8-K del 29-sep-2026: revenue US$61.500M±1.500M, margen bruto ~86,25%, EPS no-GAAP ~US$38,15±1,00. LECTURA: la fecha de conference call del 16-dic es la más citada (stocktitan.net, oct-2026), aunque algunas fuentes (Wall Street Horizon) mencionan el 23-dic como fecha de reporte; se usa el 16-dic por ser la más consistente con el patrón histórico de la compañía."
     },
     {
       "date": "2026-11-15",
-      "label": "Posible avance en el caso ITC de Netlist contra Micron por patentes HBM",
+      "label": "Ventana de seguimiento: adopción comercial de CXMT (DRAM 4F-squared) fuera de China",
       "kind": "corporate",
-      "info": "LECTURA: Netlist alega infracción de patentes en HBM3E/HBM4/HBM4E y DDR5 RDIMM/MRDIMM ante la ITC, con riesgo de orden de exclusión de importaciones; sin fecha de resolución oficial confirmada, se usa como ventana de referencia (gurufocus.com/timothysykes.com, 14-oct-2026)."
+      "info": "LECTURA: no hay fecha oficial de evento; se usa como ventana de referencia para monitorear si CXMT avanza en clientes de servidor fuera de China tras el breakthrough anunciado en oct-2026 (tomshardware.com/cnbc.com, oct-2026)."
     }
   ],
   "sections": {
-    "resumen": "MU cayó por cuarta sesión consecutiva a $953,19 (-3,62% día, -7,37% semana) en un selloff sectorial de memoria: Samsung y SK Hynix se desplomaron 13-15% desde el lunes por el avance de CXMT en DRAM de servidor (arquitectura '4F square'), más dudas sobre financiamiento de la IA tras advertencias de Intel/Broadcom (HECHO: fxleaders.com, cnbc.com, 13-14-oct-2026). Micron firmó 26 acuerdos SCA a 2030 (>35% de ingresos, ~US$100.000M mínimos garantizados), que blindan HBM4/HBM4E con bandas de precio (LECTURA: fool.com/kucoin.com, 14-oct-2026). Nuevo riesgo: demanda ITC de Netlist por patentes HBM que podría derivar en orden de exclusión (HECHO: gurufocus.com, 14-oct-2026). Ventas de Mehrotra bajo plan 10b5-1 preexistente, no reactivas (HECHO: investing.com, ago-2026).",
-    "fundamental": "- HECHO: DRAM subió ~140% en precio promedio y NAND ~130% en los primeros nueve meses de FY2026, con margen bruto GAAP cercano a 87% en el trimestre más reciente (10-K SEC/stocktitan.net, sep-2026).\n- HECHO: 26 acuerdos SCA vigentes hasta al menos 2030, representando >35% de ingresos futuros, con ~US$18.000M en depósitos en efectivo anticipados y 75% del volumen con bandas de precio mín/máx (fool.com/kucoin.com/tomshardware.com, oct-2026).\n- HECHO: HBM4 entró en producción de alto volumen en Q2 FY2026; toda la oferta HBM de 2026 está vendida con precios ya acordados (~US$14/GB vs ~US$13-17/GB de HBM3E) (intuitionlabs.ai/techmarketbriefs.com, 2026).\n- LECTURA: CXMT proyecta alcanzar ~350.000 wafers DRAM/mes a fin de 2026, cerca de los ~375.000 de Micron, y apunta directamente al segmento de servidor de alto margen (tomshardware.com/cnbc.com, oct-2026).\n- HECHO: Nueva demanda ante la ITC de EE.UU. por Netlist alegando infracción de patentes en HBM3E/HBM4/HBM4E y en DDR5 RDIMM/MRDIMM, con riesgo de prohibición de importación (gurufocus.com/timothysykes.com, 14-oct-2026).",
-    "valuacion": "- HECHO: P/E trailing ~13,3x y forward ~5,6x, comprimido por el salto de utilidades del ciclo actual (stockanalysis.com, 13-oct-2026).\n- HECHO: Target consenso ~US$1.561 (49 analistas, Strong Buy, 45/49 Buy/Outperform, sin Sell); Rosenblatt reiteró Buy en US$1.900 basado en 10x su EPS no-GAAP FY2028 estimado (stockanalysis.com/defenseworld.net, 13-14-oct-2026).\n- LECTURA: La brecha entre precio actual ($953) y el consenso implica ~64% de upside, pero refleja expectativas de que el ciclo HBM/DRAM se sostenga varios años vía SCAs (gurufocus.com, oct-2026).\n- LECTURA: Michael Burry mantiene postura bajista vía puts de junio 2026 cerca de strike US$500, apostando a una reversión brusca del ciclo de memoria IA (fxleaders.com, 13-oct-2026).\n- HECHO: Market cap ~US$1,06 billones tras la caída de la semana, muy por debajo de los máximos de ~US$1.255 de 52 semanas (stockanalysis.com, 13-oct-2026).",
-    "tecnico": "- HECHO: Precio $953,19, RSI 40,3 (zona neutral-débil, sin sobreventa extrema) (TradingView, 13-oct-2026).\n- HECHO: MACD +7,45 por debajo de su señal +22,36, histograma negativo y girando a la baja, confirmando pérdida de momentum (TradingView, 13-oct-2026).\n- HECHO: Precio perdió la SMA50 (~$982) y cotiza muy por debajo de la SMA20 (~$1.043), aunque sigue 34,5% por encima de la SMA200 (~$709) (datos technical, 13-oct-2026).\n- HECHO: Caída de cuarta sesión consecutiva, -7,37% en la semana, con volumen 14% por encima del promedio de 20 días, señal de distribución activa (fxleaders.com/datos technical, 13-oct-2026).\n- LECTURA: El patrón de caída abrupta tras un rally vertical (YTD +223%) sugiere que el carácter técnico cambió de tendencia alcista extendida a corrección de ciclo, no mero pullback.",
-    "catalizadores": "**Catalizadores:**\n1. HECHO: Ramp de HBM4/HBM4E con 26 SCAs a 2030 que blindan ingresos y márgenes (fool.com, 14-oct-2026).\n2. LECTURA: Resultados Q1 FY2027 (~dic-2026) para validar guidance de ~US$61.500M y márgenes ~87% (SEC 8-K, 29-sep-2026).\n3. LECTURA: Resolución favorable o desestimación de la demanda ITC de Netlist reduciría overhang legal sobre HBM (gurufocus.com, 14-oct-2026).\n4. LECTURA: Estabilización del sentimiento sectorial si Samsung/SK Hynix frenan su caída y el mercado descarta temporalmente la amenaza de CXMT en el corto plazo (cnbc.com, 13-oct-2026).\n\n**Riesgos (por materialidad):**\n1. HECHO: Avance acelerado de CXMT en DRAM de servidor (arquitectura 4F) amenaza el oligopolio y la disciplina de precios a mediano plazo (cnbc.com/tomshardware.com, oct-2026).\n2. HECHO: Litigio ITC de Netlist por patentes HBM con riesgo de orden de exclusión de importaciones en EE.UU. (gurufocus.com, 14-oct-2026).\n3. LECTURA: Reversión del ciclo de pricing de memoria (naturaleza históricamente cíclica del commodity, con precedente de pérdidas en FY2023) si la demanda de IA decepciona o hay exceso de capacidad (indmoney.com, oct-2026).\n4. LECTURA: Beta ~2,1 y drawdowns violentos (máximo drawdown 1 año de -39,1%) amplifican cualquier shock macro o sectorial, incluyendo dudas sobre financiamiento de capex de IA (Intel/Broadcom) (blockonomi.com, oct-2026).",
-    "sentimiento": "- HECHO: Consenso de analistas casi unánime Strong Buy (45/49 Buy/Outperform, 0 Sell, target ~US$1.561), lo que deja poco margen para sorpresas positivas adicionales en revisiones (stockanalysis.com, 13-oct-2026).\n- HECHO: Jim Cramer calificó el selloff de 'nonsense' (sin sentido), mientras otros inversores vinculan a MU con SK Hynix como 'joined at the hip' en percepción de riesgo (benzinga.com, oct-2026).\n- LECTURA: Michael Burry mantiene sesgo bajista vía opciones put, señal de escepticismo institucional sobre la sostenibilidad del ciclo (fxleaders.com, 13-oct-2026).\n- HECHO: Caída de cuarta sesión consecutiva pese a comentarios públicos de soporte (incluido Elon Musk respaldando la disciplina de precios de Micron) sugiere que el miedo a CXMT domina sobre los fundamentos de corto plazo (beincrypto.com, oct-2026).\n- LECTURA: El consenso casi unánime de Strong Buy en un contexto de caída abrupta configura una divergencia entre sentimiento institucional (alcista) y price action (bajista), típica de capitulación parcial más que de pánico generalizado.",
-    "conclusion": "MU combina fundamentos de ciclo fuerte —HBM4/HBM4E vendido y blindado por 26 SCAs a 2030, márgenes ~87%— con una corrección técnica violenta (-7,37% semanal, pérdida de SMA50, MACD girando a la baja) gatillada por el avance de CXMT y un nuevo litigio de patentes ITC. El consenso casi unánime Strong Buy y targets muy por encima del precio actual generan asimetría, pero también riesgo de complacencia: el verdadero test es si el oligopolio DRAM resiste el cuarto entrante chino. Posición viable para perfiles tolerantes a volatilidad (beta ~2,1), con tesis falsable en el resultado de Q1 FY2027 y en la resolución del caso Netlist. Confianza media."
+    "resumen": "MU cerró en $878,84 el 16-oct-2026 (-5,63% día, -12,05% semana), profundizando el selloff de memoria pese a un rebote fallido el 15-oct, por el avance de CXMT en DRAM 4F-squared que amenaza el oligopolio (HECHO: heygotrade.com, marketbeat.com, 16-oct-2026). Se resolvió el litigio Netlist (settlement 5-oct, licencia 5 años por US$600M), eliminando el overhang sobre HBM (HECHO: worldipreview.com, oct-2026). Fundamentos firmes: DRAM/NAND agotados, DRAM +15-20% t/t en Q4 CY2026 y HBM +80-100% t/t en Q1 CY2027; HSBC y Daiwa ven la caída como oportunidad (HECHO/LECTURA: benzinga.com, tradingkey.com, oct-2026).",
+    "fundamental": "- HECHO: Litigio Netlist resuelto el 5-oct-2026: licencia de 5 años sobre su portafolio (HBM3E/HBM4/HBM4E, server DIMMs) por US$600M en cuotas hasta FY2031 (worldipreview.com/SEC 8-K, oct-2026).\n- HECHO: 16 SCAs vigentes, 14 con mínimos garantizados por ~US$100.000M hasta 2030, ~US$22.000M en depósitos anticipados (techtimes.com, oct-2026).\n- HECHO: DRAM +15-20% t/t en Q4 CY2026, NAND ~20% t/t, HBM hasta +80-100% t/t en Q1 CY2027 por demanda de IA (benzinga.com/404kresearch, oct-2026).\n- HECHO: CXMT alcanzará ~350.000 wafers/mes DRAM (vs ~375.000 de Micron) y ~10% de cuota global (desde ~4%), con litografía DUV que elude el MATCH Act (tomshardware.com/wccftech.com, oct-2026).",
+    "valuacion": "- HECHO: P/E trailing ~12,5x y forward ~5,3x, comprimido frente al salto de utilidades del ciclo (TTM EPS ~US$74,33) (stockanalysis.com, 15-oct-2026).\n- HECHO: Target consenso ~US$1.560 (49 analistas, Strong Buy); BofA (US$1.550) y KeyBanc (US$1.750) reiteraron Buy el 15-oct (stockanalysis.com/tradingkey.com, 15-oct-2026).\n- LECTURA: MU cotiza a 11,9-12,5x trailing vs 77,8x de MRVL y 64,4x de CDNS, mayor colchón relativo en IA (tradingkey.com, 16-oct-2026).\n- LECTURA: brecha entre precio ($879) y consenso (~$1.560) implica ~77% de upside, apostando a ciclo sostenido vía SCAs (stockanalysis.com, 16-oct-2026).",
+    "tecnico": "- HECHO: Precio $931,24 (último con indicadores calculados), RSI 39,2 en zona neutral-débil sin sobreventa extrema (TradingView, 15-oct-2026).\n- HECHO: MACD -8,39 bajo su señal +12,28, histograma negativo, pérdida de momentum (TradingView, 15-oct-2026).\n- HECHO: Precio -10,44% vs SMA20 y -5,28% vs SMA50, aunque +30,26% sobre SMA200, tendencia larga intacta (datos technical, 15-oct-2026).\n- HECHO: Volumen 50% sobre el promedio de 20 días, señal de distribución activa (datos technical, 15-oct-2026).\n- LECTURA: la caída del 16-oct tras el rebote fallido del 15-oct confirma giro de rally vertical a corrección con riesgo de testear la SMA200.",
+    "catalizadores": "**Catalizadores:**\n1. HECHO: Netlist resuelto (US$600M, licencia 5 años) elimina overhang legal sobre HBM (worldipreview.com, 5-oct-2026).\n2. HECHO: Precios HBM +80-100% t/t en Q1 CY2027, suministro 2027 ya contratado a precios altos (techtimes.com/benzinga.com, oct-2026).\n3. LECTURA: Resultados Q1 FY2027 (16-dic-2026) validarán guidance ~US$61.500M y margen ~86,25% (SEC 8-K, 29-sep-2026).\n4. LECTURA: HSBC/Daiwa ven la corrección como oportunidad si CXMT resulta sobreestimado (tradingkey.com, 15-oct-2026).\n\n**Riesgos (por materialidad):**\n1. HECHO: Avance de CXMT en DRAM de servidor y litografía DUV que elude el MATCH Act (tomshardware.com/wccftech.com, oct-2026).\n2. HECHO: Caída de -5,63% el 16-oct tras rebote fallido del 15-oct confirma fragilidad técnica (marketbeat.com/heygotrade.com, 16-oct-2026).\n3. LECTURA: Presión sobre Apple para no usar memoria china sin resolver; un waiver validaría a CXMT global (macrumors.com/thenextweb.com, oct-2026).\n4. LECTURA: Beta ~2,1 y drawdown 1 año -39,1% amplifican shocks macro sobre capex IA.",
+    "sentimiento": "- HECHO: Consenso casi unánime Strong Buy (49 analistas, target ~US$1.560); BofA y KeyBanc reiteraron Buy durante el selloff del 15-oct (stockanalysis.com/tradingkey.com, 15-oct-2026).\n- HECHO: HSBC y Daiwa califican la caída como oportunidad de compra, viendo sobreestimado el impacto de CXMT (tradingkey.com, 15-oct-2026).\n- HECHO: Rebote fallido: MU cerró +1,87% el 15-oct tras caer -6% intradía, pero cayó -5,63% el 16-oct, sentimiento divergente del consenso (heygotrade.com/marketbeat.com, oct-2026).\n- LECTURA: el settlement con Netlist resolvió un overhang pero no contuvo la narrativa CXMT, que domina el sentimiento de corto plazo.\n- LECTURA: la divergencia entre consenso alcista y price action negativo sugiere capitulación parcial, no pánico.",
+    "conclusion": "MU combina fundamentos de ciclo muy fuertes —16 SCAs que blindan ~US$100.000M hasta 2030, litigio Netlist resuelto, HBM proyectada a duplicar precios en Q1 CY2027— con una corrección técnica severa (-12% semanal, rebote fallido el 15-oct y nueva caída de -5,63% el 16-oct) por el avance de CXMT. El consenso Strong Buy (target ~US$1.560, ~77% upside) y HSBC/Daiwa generan asimetría atractiva, pero la erosión del oligopolio DRAM por un entrante chino subsidiado es riesgo estructural no resuelto. Posición solo para perfiles tolerantes a volatilidad extrema (beta ~2,1), tesis falsable en Q1 FY2027 (16-dic). Confianza media."
   },
   "scores": {
     "tecnica": {
-      "score": 38,
-      "just": "Cambio de carácter claro: de rally vertical YTD +223% a corrección de cuatro sesiones con pérdida de SMA50 y MACD cruzando a la baja; la fortaleza previa no se premia porque ya se revirtió, y el RSI 40 no confirma sobreventa que justifique rebote inmediato (TradingView, 13-oct-2026)."
+      "score": 33,
+      "just": "Rebote fallido del 15-oct seguido de nueva caída de -5,63% el 16-oct confirma que la corrección no se estabilizó; MACD negativo y precio por debajo de SMA20/50 sin señal de sobreventa extrema que justifique rebote inmediato (TradingView/marketbeat.com, 15-16-oct-2026)."
     },
     "fundamental": {
-      "score": 78,
-      "just": "Negocio con márgenes ~87% y 26 SCAs que blindan >35% de ingresos a 2030 es excepcionalmente sólido, pero el avance real de CXMT en capacidad y tecnología de servidor introduce una duda estructural inédita en el foso competitivo (fool.com/tomshardware.com, oct-2026)."
+      "score": 80,
+      "just": "Resolución del litigio Netlist y SCAs que blindan ~US$100.000M hasta 2030 refuerzan la tesis de negocio excepcionalmente sólido con precios HBM proyectados a duplicarse en 2027, aunque el avance de CXMT en capacidad y litografía doméstica introduce una duda estructural creciente sobre el foso a largo plazo (techtimes.com/tomshardware.com, oct-2026)."
     },
     "sentimiento": {
-      "score": 28,
-      "just": "Consenso analista casi unánime Strong Buy (45/49) con targets muy elevados es señal contraria de exceso de optimismo institucional, aunque el precio ya corrigió con fuerza, lo cual mitiga parcialmente el riesgo de sentimiento extremo unidireccional (stockanalysis.com, 13-oct-2026)."
+      "score": 30,
+      "just": "Consenso analista casi unánime Strong Buy con targets muy elevados sigue siendo señal contraria de exceso de optimismo institucional; el respaldo explícito de HSBC/Daiwa tras la caída añade más presión de sentimiento unidireccional, parcialmente mitigada por el hecho de que el precio ya corrigió con fuerza (tradingkey.com, 15-oct-2026)."
     },
     "riesgo": {
-      "score": 55,
-      "just": "Distingue volatilidad (beta ~2,1, drawdown 1A -39,1%, normal en este nombre) de riesgo de pérdida permanente: el avance de CXMT y el litigio Netlist son los primeros indicios creíbles de erosión del oligopolio, aunque aún no materializados en pérdida de contratos (gurufocus.com, 14-oct-2026)."
+      "score": 58,
+      "just": "La resolución del litigio Netlist reduce un riesgo legal concreto, pero el avance de CXMT con litografía DUV doméstica que neutraliza el MATCH Act es un indicio más creíble de erosión del oligopolio que el mes anterior, aunque aún no se traduce en pérdida de contratos de clientes de IA (wccftech.com/techtimes.com, oct-2026)."
     },
     "conviccion": {
-      "score": 50,
-      "just": "Asimetría real entre valuación barata (P/E forward ~5,6x) y catalizadores de corto plazo (Q1 FY2027, resolución ITC), pero la tesis es falsable y bidireccional: si CXMT gana cuota en servidor o el litigio avanza mal, el múltiplo bajo deja de ser una ganga."
+      "score": 48,
+      "just": "Asimetría entre valuación barata (P/E forward ~5,3x) y catalizadores de corto plazo (Netlist resuelto, HBM +80-100% t/t en 2027) es real, pero la tesis sigue siendo bidireccional y falsable: la persistencia de la caída tras el rebote fallido del 15-oct sugiere que el mercado no ha terminado de descontar el riesgo de CXMT."
     }
   },
   "sources": [
-    "stockanalysis.com (13-oct-2026)",
-    "fxleaders.com (13-oct-2026)",
-    "gurufocus.com (13-14-oct-2026)",
-    "fool.com (14-oct-2026)",
-    "kucoin.com (oct-2026)",
+    "stockanalysis.com (15-16-oct-2026)",
+    "heygotrade.com (16-oct-2026)",
+    "marketbeat.com (16-oct-2026)",
+    "tradingkey.com (15-16-oct-2026)",
+    "benzinga.com (oct-2026)",
+    "404kresearch.substack.com (oct-2026)",
+    "techtimes.com (oct-2026/16-oct-2026)",
+    "worldipreview.com (oct-2026)",
     "tomshardware.com (oct-2026)",
-    "cnbc.com (13-oct-2026)",
-    "timothysykes.com (14-oct-2026)",
-    "investing.com (ago-2026)",
-    "defenseworld.net (14-oct-2026)",
-    "intuitionlabs.ai (2026)",
-    "techmarketbriefs.com (2026)",
-    "SEC 8-K/10-K/10-Q (sep-2026)",
-    "beincrypto.com (oct-2026)",
-    "benzinga.com (oct-2026)"
+    "wccftech.com (oct-2026)",
+    "macrumors.com (jul-2026)",
+    "thenextweb.com (oct-2026)",
+    "invezz.com (16-oct-2026)",
+    "stocktitan.net (sep-oct-2026)",
+    "SEC 8-K/10-K/10-Q/Form 4 (sep-oct-2026)"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 62,
-        "just": "P/E forward ~5,6x es bajo en términos absolutos e históricamente para un líder de memoria en pleno ciclo alcista, pero refleja expectativa de utilidades pico que podrían no sostenerse si CXMT presiona precios (stockanalysis.com, 13-oct-2026)."
+        "score": 64,
+        "just": "P/E forward ~5,3x es excepcionalmente bajo en términos absolutos e históricos para un líder de memoria en pleno ciclo alcista con HBM proyectado a duplicar precios en 2027, pero refleja expectativa de utilidades pico que podrían no sostenerse si CXMT presiona precios a mediano plazo (stockanalysis.com/techtimes.com, oct-2026)."
       },
       "calidad": {
-        "score": 72,
-        "just": "Oligopolio de tres (ahora con un cuarto entrante) con escala y disciplina de capex; márgenes ~87% y SCAs a 2030 son de alta calidad, pero la calidad del foso se degrada en el margen por CXMT (fool.com, 14-oct-2026)."
+        "score": 74,
+        "just": "Oligopolio reforzado por resolución del litigio Netlist y 16 SCAs que blindan ~US$100.000M hasta 2030; márgenes de HBM aún menores a DRAM convencional pero en camino a cerrar brecha en 2027, con la calidad del foso degradándose en el margen por el avance de CXMT (404kresearch.substack.com/techtimes.com, oct-2026)."
       },
       "asimetria": {
-        "score": 55,
-        "just": "Upside de consenso (~64% a target promedio) frente a downside de reversión de ciclo (precedente FY2023 con margen -9%) genera asimetría moderada, no extrema, dado que ambos escenarios son plausibles (gurufocus.com, oct-2026)."
+        "score": 56,
+        "just": "Upside de consenso (~77% a target promedio) frente a downside de reversión de ciclo o pérdida de cuota ante CXMT genera asimetría moderada; el settlement de Netlist mejora el perfil al eliminar un riesgo legal binario (stockanalysis.com/worldipreview.com, oct-2026)."
       },
       "catalizadores": {
-        "score": 60,
-        "just": "Q1 FY2027 y resolución del litigio Netlist son catalizadores binarios de corto-mediano plazo con fechas relativamente próximas (SEC 8-K/gurufocus.com, sep-oct-2026)."
+        "score": 62,
+        "just": "Litigio Netlist ya resuelto favorablemente, precios HBM proyectados a saltar 80-100% t/t en Q1 CY2027, y resultados Q1 FY2027 el 16-dic son catalizadores concretos de corto-mediano plazo (techtimes.com/SEC 8-K, oct-2026)."
       },
       "contrarian": {
-        "score": 35,
-        "just": "El consenso Strong Buy casi unánime limita el componente contrarian; el verdadero contrarian sería comprar la caída, pero muchos analistas ya lo recomiendan, reduciendo la ventaja informacional (stockanalysis.com, 13-oct-2026)."
+        "score": 38,
+        "just": "El consenso Strong Buy casi unánime y el respaldo explícito de HSBC/Daiwa tras la caída limitan el componente contrarian genuino; comprar la corrección ya es la posición mayoritaria entre analistas, reduciendo la ventaja informacional (tradingkey.com, 15-oct-2026)."
       }
     },
     "plan": {
       "recomendacion": "Esperar gatillo",
-      "zona_compra": "US$850-950 (zona de SMA50 perdida y soporte técnico previo)",
-      "invalidacion": "Cierre semanal por debajo de US$750 (cerca de SMA200 ajustada) o evidencia de pérdida de contratos SCA ante CXMT",
+      "zona_compra": "US$800-880 (zona de soporte técnico tras la ruptura de SMA50, por debajo del mínimo intradía del 15-oct de $858)",
+      "invalidacion": "Cierre semanal por debajo de US$750 (cerca de SMA200 ajustada) o evidencia concreta de pérdida de contratos SCA ante CXMT por parte de clientes de IA",
       "gatillos": [
-        "Resultados Q1 FY2027 (~dic-2026) confirmando guidance de márgenes ~87%",
-        "Resolución o desestimación del caso ITC Netlist",
-        "Estabilización de Samsung/SK Hynix sin nuevas caídas >5% diarias",
-        "Evidencia concreta (o ausencia) de adopción comercial de CXMT en servidores fuera de China"
+        "Resultados Q1 FY2027 (16-dic-2026) confirmando guidance de margen bruto ~86,25%",
+        "Confirmación de subas de precio HBM de 80-100% t/t en Q1 CY2027",
+        "Estabilización de la acción sin nuevas caídas >5% diarias tras el rebote fallido del 15-16-oct",
+        "Decisión de Washington sobre el waiver de Apple para CXMT/YMTC (favorable a Micron si se niega)"
       ],
       "horizonte": "6-12 meses",
       "tamano": "posición reducida dada beta ~2,1 y drawdowns históricos severos",
@@ -137,69 +133,69 @@
   },
   "perfil": "Micron fabrica memoria semiconductora —DRAM y NAND— y la vende a fabricantes de servidores y aceleradores de IA, smartphones, PCs, automoción e industria; es el único productor estadounidense de DRAM a escala y uno de los tres que dominan el mercado con Samsung y SK Hynix, oligopolio que en 2026 cayó por primera vez en más de una década por debajo del 90% combinado del DRAM mundial ante el avance de CXMT. Es un negocio de commodity con costes fijos enormes: el precio, no el volumen, determina el resultado, con apalancamiento operativo extremo en ambas direcciones. DRAM es el core absoluto y dentro de DRAM la HBM —la memoria que se vende apilada junto a los aceleradores de IA— cambió el perfil del negocio: nube y centro de datos ya pesan más que móvil y automoción juntos. La magnitud del ciclo se ve en las cifras: de un negocio con márgenes deprimidos en FY2025 a US$41.500M en un solo trimestre con 84,9% de margen bruto GAAP en el 3T FY2026, con acuerdos plurianuales que comprometen ingreso mínimo hasta 2030. Pero la simetría opera igual a la baja: en FY2023 facturó US$15.500M con margen bruto de -9% y perdió US$5.800M. El foso no es tecnológico sino de escala y disciplina de una industria de tres actores, hoy desafiada por un cuarto entrante chino subsidiado por el estado.",
   "technical": {
-    "price": 953.19,
-    "change_1d_pct": -3.62,
-    "change_1w_pct": -7.37,
-    "rsi": 40.3,
-    "macd": 7.4542,
-    "macd_signal": 22.3599,
-    "sma20": 1042.785,
-    "sma50": 981.9801,
-    "sma200": 708.577,
-    "ema12": 1028.3727,
-    "ema26": 1020.9184,
-    "pct_vs_sma20": -8.59,
-    "pct_vs_sma50": -2.93,
-    "pct_vs_sma200": 34.52,
-    "volume_today": 29225702,
-    "volume_avg20": 25626828.0,
-    "volume_ratio": 1.14,
-    "volatility_30d": 49.1,
-    "sharpe": -0.96,
-    "sortino": -0.85,
+    "price": 931.24,
+    "change_1d_pct": 1.87,
+    "change_1w_pct": -9.5,
+    "rsi": 39.2,
+    "macd": -8.3939,
+    "macd_signal": 12.2777,
+    "sma20": 1039.851,
+    "sma50": 983.1703,
+    "sma200": 714.9081,
+    "ema12": 998.5573,
+    "ema26": 1006.9513,
+    "pct_vs_sma20": -10.44,
+    "pct_vs_sma50": -5.28,
+    "pct_vs_sma200": 30.26,
+    "volume_today": 39094052,
+    "volume_avg20": 26105585.0,
+    "volume_ratio": 1.5,
+    "volatility_30d": 49.92,
+    "sharpe": -1.24,
+    "sortino": -1.06,
     "max_drawdown_1y": -39.1,
-    "price_percentile_1y": 71.7,
-    "vs_benchmark_30d_pct": -6.24,
-    "perf_1m_pct": -4.03,
-    "perf_ytd_pct": 222.98
+    "price_percentile_1y": 69.5,
+    "vs_benchmark_30d_pct": -2.4,
+    "perf_1m_pct": -0.67,
+    "perf_ytd_pct": 215.54
   },
   "risk": {
-    "volatility_30d": 49.1,
-    "sharpe": -0.96,
-    "sortino": -0.85,
+    "volatility_30d": 49.92,
+    "sharpe": -1.24,
+    "sortino": -1.06,
     "max_drawdown_1y": -39.1,
-    "n_days": 343,
+    "n_days": 345,
     "window": 30
   },
   "benchmark": {
     "ticker": "SP:SPX",
     "label": "S&P 500",
-    "relative_performance_30d": -6.24,
-    "relative_performance_ytd": 209.5,
-    "price_percentile_1y": 71.7,
+    "relative_performance_30d": -2.4,
+    "relative_performance_ytd": 202.95,
+    "price_percentile_1y": 69.5,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-13T22:20:55-03:00"
+      "fetched_at": "2026-10-15T21:39:19-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-13T22:20:55-03:00"
+      "fetched_at": "2026-10-15T21:39:19-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-13T22:20:55-03:00"
+      "fetched_at": "2026-10-15T21:39:19-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "SP:SPX",
-      "fetched_at": "2026-10-13T22:20:55-03:00"
+      "fetched_at": "2026-10-15T21:39:19-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/MU.json",
-      "n_days": 343
+      "n_days": 345
     }
   },
   "metricChanges": [
@@ -234,13 +230,10 @@
   ],
   "trend": {
     "piso": 0,
-    "techo": 2,
+    "techo": 0,
     "max": 7,
     "senales_piso": [],
-    "senales_techo": [
-      "pérdida de SMA50",
-      "histograma MACD girando a la baja"
-    ]
+    "senales_techo": []
   },
-  "reportDate": "13 de octubre de 2026"
+  "reportDate": "14 de octubre de 2026"
 }

@@ -4,7 +4,7 @@
   "statsList": [
     [
       "Precio",
-      "¥5,940 (13-oct-2026)"
+      "¥5.350 (16-oct-2026)"
     ],
     [
       "Listado",
@@ -12,207 +12,213 @@
     ],
     [
       "Rango 52 sem.",
-      "¥2.420 – ¥9.150 (mínimo 19-nov-2025, máximo 6-jul-2026; CNBC/Kabutan, consultado 13-oct-2026)"
+      "¥2.420 – ¥9.150 (mínimo 19-nov-2025, máximo jul-2026; stockanalysis.com/Morningstar/CNBC, consultado 16-oct-2026)"
     ],
     [
       "Market cap",
-      "≈¥556.700 millones (~US$3.700M a ¥150/US$; Kabutan, 13-oct-2026)"
+      "≈¥488.500 millones (~US$3.260M a ¥150/US$; stockanalysis.com, consultado 16-oct-2026); nota: cifra algo menor a la lectura previa (¥556.700M) por la caída de precio de la semana"
     ],
     [
       "P/E",
-      "≈91,2x (Kabutan, 13-oct-2026) sobre guidance FY3/27 ya elevado en agosto; refleja recuperación de beneficios en curso, no una lectura de burbuja aislada"
+      "HECHO: dispersión amplia entre fuentes (68,6x LTM en Investing.com; ≈91x en Kabutan 13-oct; ≈174-204x en stockanalysis/EDINET según base de EPS usada), reflejo de la volatilidad extrema de utilidades trimestrales durante la recuperación cíclica; no hay una cifra única confiable — usar con cautela"
     ],
     [
       "Target consenso",
-      "HECHO: ≈¥7.597 promedio (TipRanks/MarketBeat, ~10 analistas: 7 Buy/2 Hold/1 Sell, consultado oct-2026), +14,1% vs ¥6.660 (5-oct-2026); rango ¥3.300 a ¥11.000. Nota: baja vs. cifra previa de ¥8.128/6 analistas — cambio de muestra de analistas, no necesariamente recorte generalizado de targets individuales"
+      "HECHO: ¥7.597 promedio (TipRanks/Investing.com, 10 analistas: 7 Buy/2 Hold/1 Sell, consultado 7-oct y confirmado 16-oct-2026), sin cambio vs. lectura previa; rango ¥3.300-11.000; +42% vs ¥5.350 actual"
     ],
     [
       "Pedidos humanoides",
-      "HECHO: ≈¥1.300M en pedidos relacionados a humanoides en 1T FY3/27, guidance propio de ≈¥2.500M para FY3/26 y posible duplicación/triplicación en FY3/27 por mejor visibilidad de pedidos de prototipos de clientes en EE.UU.; pipeline de +15 clientes potenciales (Investing.com/Finimize, citando briefing de resultados, ago-2026). Sin actualización nueva desde entonces en fuentes en inglés"
+      "HECHO: ≈¥1.300M en pedidos humanoides/trimestre, guidance propio ≈¥2.500M FY3/26 y posible duplicar/triplicar en FY3/27 por mejor visibilidad de prototipos en EE.UU.; pipeline +15 clientes potenciales (Investing.com/Finimize, briefing ago-2026). Sin cifra actualizada nueva en fuentes en inglés desde entonces — sigue siendo el dato de agosto"
     ],
     [
       "Próx. earnings",
-      "HECHO: 11-nov-2026 (coincide en Investing.com, MarketScreener y TipRanks, consultados oct-2026), cubre Q2 FY3/27 (semestre a sep-2026); aún no publicado al 14-oct-2026. No verificado directamente en TDnet en inglés — GAP DE COBERTURA en fuente primaria japonesa"
-    ],
-    [
-      "Técnico (auto)",
-      "RSI 42.5 · MACD +26.57 / señal +75.16 (TradingView, 13-oct-2026)"
+      "HECHO: 11-nov-2026 (Investing.com, MarketScreener, TipRanks, ad-hoc-news, confirmado de forma cruzada 16-oct-2026), cubre Q2 FY3/27 (semestre a sep-2026); Q1 ya representó solo ~22% del guidance anual revisado, por lo que el reporte debe mostrar aceleración en los trimestres restantes. No verificado directamente en TDnet en inglés — gap de cobertura en fuente primaria japonesa"
     ]
   ],
   "change": {
-    "day": 0.17,
-    "week": -4.5
+    "day": 1.74,
+    "week": -15.59
   },
   "events": [
     {
       "date": "2026-10-20",
-      "label": "RoboBusiness 2026 (Santa Clara, EE.UU.) — sesión de HDS sobre actuadores integrados",
+      "label": "RoboBusiness 2026 (Santa Clara, EE.UU.) — presentación de HDS sobre actuadores integrados",
       "kind": "corporate",
-      "info": "HDS presenta diseño de actuadores integrados para robots colaborativos/humanoides (The Robot Report / ad-hoc-news, consultado oct-2026). Relevante para tesis humanoide; sin confirmación de anuncio de cliente nuevo."
+      "info": "HECHO: ingeniero de HDS (Marcel Almonte) presenta evaluación de actuadores integrados para robots colaborativos/humanoides el 20-oct (The Robot Report/ad-hoc-news, consultado oct-2026). Relevante para tesis humanoide; sin confirmación de anuncio de cliente nuevo."
     },
     {
       "date": "2026-11-11",
       "label": "Resultados Q2 FY3/27 (semestre a sep-2026)",
       "kind": "earnings",
-      "info": "HECHO: fecha confirmada de forma cruzada en Investing.com, MarketScreener y TipRanks (consultados oct-2026); aún no publicada al 14-oct-2026. Test del guidance elevado en agosto (ventas ¥74.500M, oper. ¥8.500M FY3/27) y de si los pedidos humanoides (~¥1.300M/trim.) se sostienen o aceleran. No confirmado en TDnet directo en fuente en inglés — gap de cobertura."
+      "info": "HECHO: fecha confirmada de forma cruzada en Investing.com, MarketScreener, TipRanks y ad-hoc-news (consultados 16-oct-2026). Test del guidance elevado en agosto (ventas ¥74.500M, oper. ¥8.500M FY3/27) — Q1 ya cubrió solo ~22% de esa meta anual, dejando el grueso de la ejecución pendiente. También prueba si los pedidos humanoides (~¥1.300M/trim.) se sostienen o aceleran. No confirmado en TDnet directo en fuente en inglés — gap de cobertura."
     },
     {
       "date": "2026-12-31",
       "label": "Plazo de referencia para meta gubernamental china de 10.000 humanoides comerciales",
       "kind": "macro",
-      "info": "LECTURA: el gobierno chino habría fijado una meta de 10.000 unidades comerciales de humanoides para fin de 2026, lo que sostiene la demanda de reductores chinos competidores de HDS (Tianxia Gongchang Research / robotics.techbuzzchina.com, citado oct-2026); dato de agregador de investigación, no verificado en fuente oficial china en inglés."
+      "info": "LECTURA: el gobierno chino habría fijado una meta de 10.000 unidades comerciales de humanoides para fin de 2026 (Tianxia Gongchang Research, citado oct-2026), dato de agregador no verificado en fuente oficial china en inglés. Contexto nuevo relevante: la CSRC endureció en sep-2026 la aprobación de IPOs de humanoides tras el desplome de Unitree (-45% en su debut del 19-ago-2026), lo que podría ralentizar el financiamiento de competidores chinos como Leaderdrive sin reducir la demanda de componentes de fondo."
     }
   ],
   "sections": {
-    "resumen": "HDSY cotiza en ¥5.940 (13-oct), tras caer desde ¥6.660 (5-oct) hacia ¥5.840 (14-oct), semana -4,5%. HECHO: Q1 FY3/27 (abr-jun) ya publicado en agosto: ventas +23,6%, pedidos +55,7%, vuelta a utilidad neta, guidance anual elevado. HECHO: pedidos humanoides ≈¥1.300M/trimestre, con management guiando a duplicar/triplicar en FY3/27. HECHO: Leaderdrive (China, SSE:688017) avanza con plan de listado en Hong Kong aprobado por su directorio (26-ago-2026), aún pendiente de aprobación regulatoria, sin novedad reportada desde entonces en inglés. Consenso de analistas bajó ligeramente a ¥7.597 (desde ¥8.128) con más cobertura (10 vs 6 analistas) y un primer Sell. Resultados Q2 el 11-nov-2026 serán el próximo catalizador verificable.",
-    "fundamental": "- HECHO: Q1 FY3/27 ventas ¥16.680M (+23,6% interanual), margen operativo 11,0% (vs ~1% año previo), vuelta a utilidad neta ¥1.274M (BigGo Finance/Nikkei, 7-ago-2026).\n- HECHO: guidance FY3/27 elevado a ventas ¥74.500M (+25,1%) y utilidad neta ¥6.000M (+272,9%) (TipRanks/hds.co.jp, ago-2026); sin confirmar si se sostiene en el reporte del 11-nov-2026.\n- HECHO: pedidos humanoides ≈¥1.300M/trimestre, guidance propio ≈¥2.500M FY3/26, management guía a duplicar/triplicar en FY3/27 por mejor visibilidad de prototipos en EE.UU. (Investing.com/Finimize, ago-2026) — sin cifra nueva desde entonces en fuentes en inglés.\n- GAP DE COBERTURA: no se halló anuncio nuevo en TDnet (en inglés) de pedidos, recompras o cambios de guidance en las últimas 2-4 semanas; la última actualización verificable sigue siendo la de agosto.\n- LECTURA: mejora de márgenes es recuperación cíclica confirmada; el componente humanoide empieza a cuantificarse pero aún es pequeño frente a ventas totales (~¥74.500M guidance anual).",
-    "valuacion": "- HECHO: P/E ≈91,2x (Kabutan, 13-oct-2026), sigue en extremo caro de su historia reciente, aunque algo menor tras la corrección de precio desde julio.\n- HECHO: rango 52 sem. ¥2.420-9.150; precio actual ¥5.940 muy por debajo del máximo de julio (¥9.150).\n- HECHO: target consenso bajó a ≈¥7.597 (TipRanks/MarketBeat, ~10 analistas, oct-2026) desde ≈¥8.128 (6 analistas, lectura previa), con rango ¥3.300-11.000 y ahora 1 Sell además de 7 Buy/2 Hold.\n- LECTURA: la ampliación de la muestra de analistas (6→10) explica parte de la baja del promedio; no está confirmado que sea un recorte generalizado de targets individuales ya existentes.\n- Upside a consenso ≈+28% desde ¥5.940, algo menor al +40,6% reportado anteriormente por el cambio de base de comparación.",
-    "tecnico": "- Precio ¥5.940 (13-oct) cayendo desde ¥6.660 (5-oct) y ¥6.220 (9-oct) hacia ¥5.840 (14-oct, agregadores) — tendencia de corto plazo negativa confirmada, semana -4,5%.\n- RSI 42,5, MACD +26,57 sobre señal +75,16 (TradingView, 13-oct-2026) — momentum debilitándose pero sin sobreventa extrema.\n- Precio bajo SMA20 (¥6.242,5, -4,85%) y SMA50 (¥6.143,4, -3,31%), pero sobre SMA200 (¥5.454,45, +8,9%) — corrección dentro de tendencia alcista de más largo plazo aún no rota.\n- Volumen muy por debajo del promedio (ratio 0,23) el 13-oct, lo que matiza la fuerza de la caída reciente — no es una capitulación de alto volumen.\n- Rinde -0,69% vs Nikkei 225 en 30d pero +21,05% YTD vs el índice — la ventaja estructural del año se mantiene pese a la corrección reciente.",
-    "catalizadores": "**Catalizadores:**\n- Resultados Q2 FY3/27 el 11-nov-2026 (fecha confirmada de forma cruzada en agregadores, no en TDnet directo) — test del guidance elevado y de si los pedidos humanoides aceleran.\n- RoboBusiness 2026 (20-oct, Santa Clara): sesión de HDS sobre actuadores integrados para robots.\n- Pipeline declarado de +15 clientes potenciales humanoides; conversión a pedido nombrado sería el catalizador mayor, aún no verificado.\n- Posible anuncio de cliente humanoide occidental nombrado tras ganar visibilidad en prototipos de EE.UU. (mencionado por management en ago-2026, sin concreción pública aún).\n\n**Riesgos (por materialidad):**\n- Leaderdrive (China, SSE:688017) avanza en plan de listado en Hong Kong (aprobado por directorio 26-ago-2026, pendiente CSRC/HKEX) que le daría más capital para expandir capacidad y presionar precios.\n- Ningún cliente humanoide final confirma públicamente a HDS como proveedor nombrado — la cifra de pedidos sigue siendo agregada y autodeclarada por la compañía.\n- Fuentes estiman cuota global de Leaderdrive entre ~10-15% (segundo lugar mundial) con capacidad creciendo fuerte (330.000 a ~790.000 unidades, 2022→2025 est.), presionando el nicho medio de especificaciones.\n- P/E ≈91x deja poco margen de error ante cualquier decepción de guidance o de pedidos humanoides en el reporte de noviembre.",
-    "sentimiento": "- HECHO: consenso sell-side mayoritariamente Buy (7 de ~10, TipRanks/MarketBeat oct-2026) pero ahora con 1 Sell además de 2 Hold — dispersión de opinión mayor que antes.\n- HECHO: target promedio bajó a ¥7.597 desde ¥8.128 de la lectura previa, en parte por ampliación de la muestra de analistas, no necesariamente por recortes individuales confirmados.\n- LECTURA: la caída desde ¥6.660 (5-oct) a ¥5.840-5.940 (13/14-oct) sugiere toma de ganancias y/o repreciación parcial del riesgo competitivo chino, sin volumen de capitulación (ratio 0,23).\n- Contrarian: RSI 42,5 aún neutral, sin sobreventa extrema — no hay señal técnica contraria fuerte en ningún sentido todavía.\n- GAP DE COBERTURA: no se halló cobertura nueva de casas japonesas locales (Nomura, Daiwa, SMBC Nikko) ni de TDnet directo sobre la caída reciente o sobre pedidos humanoides actualizados.",
-    "conclusion": "Negocio base en recuperación cíclica confirmada (Q1 FY3/27 con crecimiento de doble dígito y vuelta a utilidad) y primera cuantificación propia de pedidos humanoides, con guía a duplicar/triplicar en FY3/27. La corrección desde julio abarata parcialmente un múltiplo aún exigente (P/E ≈91x), pero el consenso de analistas también se moderó (¥7.597 vs ¥8.128 previo) y Leaderdrive sigue avanzando hacia una IPO en Hong Kong. Ningún cliente humanoide occidental confirma aún a HDS como proveedor nombrado. Tesis falsable en el reporte del 11-nov-2026. Confianza: media — negocio sólido, catalizador humanoide con más datos pero sin cliente verificado, riesgo chino estructural y en progreso."
+    "resumen": "HDSY cotiza en ¥5.350 (16-oct), tras caer a ¥5.160 el 15-oct (-11,64% en un día, sin causa identificada en fuentes en inglés) y rebote parcial; semana -15,6%. HECHO: Q1 FY3/27 (ago-2026) mostró ventas +23,6% y vuelta a utilidad neta, pero cubrió solo ~22% del guidance anual elevado — el reporte del 11-nov-2026 debe mostrar aceleración real. Pedidos humanoides ≈¥1.300M/trimestre sin cifra nueva desde agosto. NUEVO: la CSRC china endureció las IPOs de humanoides tras el desplome de Unitree, frenando posiblemente el financiamiento de Leaderdrive sin aliviar la competencia de fondo. Consenso estable en ¥7.597 (+42% vs. precio actual).",
+    "fundamental": "- HECHO: Q1 FY3/27 ventas ¥16.680M (+23,6% i.a.), margen oper. 11,0%, utilidad neta ¥1.274M (TipRanks/ad-hoc-news, ago-2026); cubrió solo ~22% del guidance anual.\n- HECHO: guidance FY3/27 elevado a ventas ¥74.500M y oper. ¥8.500M el 7-ago-2026 — sin confirmación de que se sostenga hasta el 11-nov-2026.\n- HECHO: pedidos humanoides ≈¥1.300M/trimestre, guía a duplicar/triplicar en FY3/27 (Investing.com/Finimize, ago-2026) — sin cifra nueva en 2+ meses.\n- GAP DE COBERTURA: sin anuncio nuevo en TDnet de pedidos o guidance desde agosto; Tesla Optimus 'dual-source' es de blogs, no verificado.\n- LECTURA: el apalancamiento operativo extremo amplifica el riesgo de decepcionar en noviembre.",
+    "valuacion": "- HECHO: P/E con dispersión amplia (68,6x LTM Investing.com; ≈91x Kabutan; ≈174-204x stockanalysis/EDINET) por volatilidad de utilidades — caro en cualquier medida.\n- HECHO: rango 52 sem. ¥2.420-9.150; precio actual ¥5.350, bajo el máximo de julio, cerca de la mitad del rango.\n- HECHO: target consenso se mantiene en ¥7.597 (TipRanks/Investing.com, 10 analistas, confirmado 7 y 16-oct-2026) sin cambios.\n- Upside a consenso ≈+42% desde ¥5.350, mayor al +28% previo, por la caída reciente sin que el consenso se mueva.\n- LECTURA: divergencia precio/consenso podría ser sobrerreacción o consenso aún no actualizado tras el drawdown.",
+    "tecnico": "- Precio ¥5.250 (15-oct) tras caída semanal de -15,59% — tendencia de corto plazo negativa, día de -11,64% sin causa identificada.\n- RSI 32,2, MACD -127,45 bajo señal +10,75 (TradingView, 15-oct-2026) — sobreventa incipiente, momentum negativo aún dominante.\n- Precio bajo SMA20 (¥6.177), SMA50 (¥6.117) y ahora SMA200 (¥5.469, -4,0%) — ruptura de tendencia de largo plazo, cambio técnico relevante.\n- Volumen bajo el promedio (ratio 0,38): caída sin capitulación de alto volumen, más bien iliquidez.\n- Rinde -12,29% vs Nikkei en 30d pero +8,23% YTD — ventaja del año reducida frente al +21,05% previo.",
+    "catalizadores": "**Catalizadores:**\n- Resultados Q2 FY3/27 el 11-nov-2026 — test crítico: Q1 solo cubrió ~22% del guidance anual.\n- RoboBusiness 2026 (20-oct, Santa Clara): presentación confirmada de HDS sobre actuadores integrados.\n- Pipeline de +15 clientes potenciales humanoides; conversión a pedido nombrado sería el catalizador mayor.\n- Posible rebote técnico desde sobreventa (RSI 32,2) si el mercado considera exagerada la caída del 15-oct.\n\n**Riesgos (por materialidad):**\n- Ruptura de SMA200: la tendencia alcista de largo plazo ya no está intacta.\n- Leaderdrive avanza su listado en HK (aprobado 26-ago-2026) bajo mayor escrutinio tras el freno de la CSRC post-Unitree.\n- Ningún cliente humanoide final confirma públicamente a HDS; 'dual-source' con Tesla no verificado en fuente primaria.\n- Dispersión de P/E (68x-204x) complica calibrar la valuación; poco margen ante decepción en noviembre.",
+    "sentimiento": "- HECHO: consenso sell-side estable en Buy mayoritario (7 Buy/2 Hold/1 Sell, target ¥7.597, confirmado 7 y 16-oct-2026) sin moverse.\n- HECHO: caída de -11,64% el 15-oct sin causa identificada en fuentes en inglés — posible sobrerreacción o flujo técnico.\n- LECTURA: la divergencia precio/consenso sugiere que el mercado repreció riesgo más rápido que el sell-side.\n- Contrarian: RSI 32,2 en sobreventa incipiente, cerca de niveles de rebote histórico, sin volumen de capitulación confirmatorio.\n- GAP DE COBERTURA: sin cobertura nueva de casas japonesas (Nomura, Daiwa, SMBC Nikko) sobre la caída del 15-oct.",
+    "conclusion": "Negocio base en recuperación cíclica confirmada pero con ejecución pendiente (Q1 cubrió solo ~22% del guidance anual) y pedidos humanoides sin actualizar desde agosto. La caída de -15,6% semanal y la ruptura de SMA200 marcan un cambio técnico, sin que el consenso (¥7.597) se haya movido. La CSRC frenó las IPOs de humanoides chinos tras el desplome de Unitree, demorando el financiamiento de Leaderdrive sin eliminar la competencia de fondo. Tesis falsable el 11-nov-2026. Confianza: media-baja — negocio sólido pero sin cliente humanoide verificado, técnico deteriorado y valuación dispersa."
   },
   "scores": {
     "tecnica": {
-      "score": 42,
-      "just": "Corrección de -4,5% semanal con precio bajo SMA20/50 pero aún sobre SMA200 y con volumen débil (ratio 0,23) — debilidad de corto plazo sin cambio de carácter confirmado en la tendencia de mediano plazo; RSI 42,5 neutral, sin señal de agotamiento ni de ruptura violenta."
+      "score": 38,
+      "just": "Cambio de carácter técnico confirmado: ruptura de SMA200 tras una caída semanal de -15,6% con un día puntual de -11,64%, algo que la lectura previa no mostraba (entonces el precio seguía sobre SMA200). RSI 32,2 ya en sobreventa incipiente matiza el score a la baja pero no lo suficiente para compensar la ruptura de tendencia de mediano plazo; volumen débil (ratio 0,38) resta convicción a la señal de ruptura."
     },
     "fundamental": {
-      "score": 65,
-      "just": "Recuperación de márgenes confirmada en Q1 FY3/27 (HECHO) y guidance anual elevado, con primera cifra propia de pedidos humanoides y guía a duplicar/triplicar en FY3/27; persiste dependencia de apalancamiento operativo extremo y exposición creciente a sustitución por proveedores chinos."
+      "score": 62,
+      "just": "Recuperación de márgenes confirmada en Q1 FY3/27 y guidance anual elevado se mantienen como base, pero Q1 solo representó ~22% de la meta anual revisada, dejando la ejecución del resto del año sin confirmar; sin cifra nueva de pedidos humanoides desde agosto. Ligera baja vs. lectura previa por la ausencia de actualización y la mayor exposición a la narrativa de desaceleración regulatoria china."
     },
     "sentimiento": {
-      "score": 45,
-      "just": "Consenso sell-side sigue mayoritariamente Buy pero se diversificó (apareció 1 Sell, target promedio bajó) y el precio corrigió sin volumen de capitulación — sentimiento mixto, sin extremo que habilite una lectura contraria fuerte en ningún sentido."
+      "score": 48,
+      "just": "Consenso sell-side estable (Buy mayoritario, target sin cambios) pero divergente del precio, que cayó fuerte sin causa identificada — sentimiento de mercado más negativo que el de los analistas. RSI acercándose a sobreventa ofrece una lectura contraria incipiente, pero sin volumen de capitulación que la confirme."
     },
     "riesgo": {
-      "score": 45,
-      "just": "El riesgo material no es la volatilidad de precio (parcialmente ya reflejada en el drawdown) sino la pérdida estructural de cuota ante Leaderdrive, que crece en capacidad y avanza hacia una IPO en Hong Kong que le daría más músculo financiero — riesgo de erosión de posicionamiento a mediano plazo, no solo ruido de corto plazo."
+      "score": 50,
+      "just": "El riesgo de pérdida permanente de posicionamiento aumenta levemente: aunque la CSRC frenó las IPOs de humanoides chinos (lo que demora el financiamiento de Leaderdrive), la presión competitiva estructural de fondo no desaparece, y ahora se suma el riesgo de que la caída de precio y la ruptura técnica reflejen información fundamental aún no explicada en fuentes en inglés — mayor incertidumbre que en la lectura previa."
     },
     "conviccion": {
-      "score": 48,
-      "just": "Asimetría moderada: upside a consenso ≈+28% desde ¥5.940 tras la corrección reciente, pero el consenso también se moderó y la competencia china sigue avanzando en paralelo (IPO en trámite). Tesis falsable y con fecha clara en resultados del 11-nov-2026; aún sin cliente humanoide nombrado verificable que confirme el catalizador central."
+      "score": 45,
+      "just": "Asimetría nominal mayor (upside a consenso ≈+42% vs. +28% previo) por la caída de precio, pero la falta de explicación de la caída del 15-oct, la ruptura de SMA200 y la ausencia de actualización de pedidos humanoides reducen la calidad de la señal. Tesis sigue siendo falsable con fecha clara (11-nov-2026), pero el deterioro técnico no confirmado fundamentalmente justifica cautela adicional frente a la lectura anterior."
     }
   },
   "sources": [
     "hds.co.jp/ir/achievements/forecast/ (consultado oct-2026)",
-    "BigGo Finance / Nikkei.com, resultados Q1 FY3/27 (7-ago-2026)",
-    "ad-hoc-news.de, movimientos de precio y guidance (5 a 8-oct-2026)",
+    "TipRanks / ad-hoc-news.de, resultados Q1 FY3/27 y guidance FY3/27 (7-ago-2026)",
+    "ad-hoc-news.de, movimientos de precio (5, 7-8, 15-oct-2026) y calendario de resultados (11-nov-2026)",
     "Investing.com / Finimize, pedidos y pipeline humanoide según briefing de resultados (ago-2026)",
-    "TipRanks / MarketBeat, consenso de analistas (~10 analistas, oct-2026)",
-    "Investing.com / MarketScreener / TipRanks, calendario de próximos resultados (11-nov-2026, consultado oct-2026)",
-    "CNBC / Kabutan, rango 52 semanas y precio (consultado 13/14-oct-2026)",
-    "Humanoid Analytics / BigGo Finance / autonews.gasgoo.com, plan de listado de Leaderdrive en Hong Kong (26-ago/2-sep-2026)",
-    "404kresearch.substack.com / learnsomefinance.com / eu.36kr.com, cuota de mercado y capacidad de Leaderdrive / Green Harmonic (2026, estimaciones divergentes entre fuentes)",
-    "Tianxia Gongchang Research (faxiangongchang.com), cadena de suministro china de humanoides y meta gubernamental de 10.000 unidades (2026)",
-    "The Robot Report, RoboBusiness 2026 (consultado oct-2026)",
-    "TradingView, datos técnicos (13-oct-2026)"
+    "TipRanks / Investing.com, consenso de analistas (10 analistas, 7 Buy/2 Hold/1 Sell, target ¥7.597, confirmado 7 y 16-oct-2026)",
+    "MarketScreener / TipRanks / Investing.com, calendario de próximos resultados (11-nov-2026)",
+    "stockanalysis.com / Morningstar / CNBC / Google Finance, precio, rango 52 sem. y market cap (consultado 16-oct-2026)",
+    "Investing.com (Pro) / stockanalysis.com / companiesmarketcap.com / EDINET, P/E ratio (dispersión amplia 68x-204x, consultado 16-oct-2026)",
+    "Humanoid Analytics / BigGo Finance / autonews.gasgoo.com / eu.36kr.com, plan de listado de Leaderdrive en Hong Kong (26-ago-2026)",
+    "Reuters vía Investing.com / theedgemalaysia.com / em360tech.com, freno de la CSRC a IPOs de humanoides chinos tras desplome de Unitree (sep-2026)",
+    "techtarget.com / startupfortune.com, dominio chino en componentes de humanoides y envíos de Unitree/UBTech/AgiBot (2026)",
+    "humanoid.guide / thehumanoidwire.com, panorama de proveedores de actuadores y clientes de HDS (no verificado en fuente primaria, oct-2026)",
+    "The Robot Report / ad-hoc-news.de, RoboBusiness 2026 y presentación de actuadores integrados (20-oct-2026)",
+    "TradingView, datos técnicos (15-oct-2026)"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 42,
-        "just": "P/E ≈91x sigue caro en términos históricos pese a la corrección de precio desde julio; el abaratamiento es parcial y no alcanza para considerar la valuación barata en términos absolutos."
+        "score": 40,
+        "just": "P/E con dispersión amplia entre fuentes (68x-204x) complica una lectura única, pero en cualquier medida sigue caro en términos históricos; la caída de precio reciente abarata parcialmente pero no hay confirmación de que sea suficiente."
       },
       "calidad": {
-        "score": 66,
-        "just": "Moat de proceso y liderazgo global intactos; Q1 confirma recuperación de margen real, pero Leaderdrive sigue ganando capacidad y avanza hacia una IPO en Hong Kong que podría acelerar su competitividad en precio — presión sobre la calidad del moat algo mayor que en la lectura previa."
+        "score": 63,
+        "just": "Moat de proceso y liderazgo global intactos, Q1 confirma recuperación real de margen, pero la ejecución del resto del año FY3/27 aún no se confirma (Q1 fue solo ~22% de la meta anual) y la competencia china sigue de fondo aunque con financiamiento más lento tras el freno regulatorio de la CSRC."
       },
       "asimetria": {
-        "score": 50,
-        "just": "Upside a consenso ≈+28% desde ¥5.940 (menor al +40,6% de la lectura previa por la baja del target promedio), sin piso técnico claramente confirmado tras la corrección reciente — colchón nominal moderado."
+        "score": 53,
+        "just": "Upside nominal a consenso ≈+42% desde ¥5.350, mayor al +28% previo, pero la caída sin causa clara y la ruptura de SMA200 reducen la confianza en que ese colchón sea genuino y no una trampa de valor."
       },
       "catalizadores": {
-        "score": 52,
-        "just": "Ruta fechada con resultados confirmados cruzadamente para el 11-nov-2026 y RoboBusiness el 20-oct; la compañía ya cuantificó pedidos humanoides pero sigue faltando conversión a cliente nombrado verificable, que sería el catalizador mayor."
+        "score": 50,
+        "just": "Ruta fechada con resultados confirmados para el 11-nov-2026 y RoboBusiness el 20-oct; sigue faltando conversión a cliente humanoide nombrado verificable, y ahora también falta explicación del detonante de la caída del 15-oct."
       },
       "contrarian": {
-        "score": 46,
-        "just": "La caída de octubre podría ser sobrerreacción a riesgo competitivo ya conocido, pero sin volumen de capitulación ni sobreventa técnica extrema es prematuro leerla como oportunidad contraria clara."
+        "score": 50,
+        "just": "RSI 32,2 en sobreventa incipiente y caída sin volumen de capitulación abren una lectura contraria moderada, algo más fuerte que en la lectura previa (RSI 42,5, sin sobreventa), pero aún sin confirmación de piso."
       }
     },
     "plan": {
       "recomendacion": "Esperar gatillo",
-      "zona_compra": "¥5.400 - ¥5.800 (zona de posible soporte, cerca de SMA200 ~¥5.454)",
-      "invalidacion": "Pérdida sostenida de SMA200 (~¥5.454) con cierre semanal por debajo, o guidance anual recortado en resultados del 11-nov-2026",
+      "zona_compra": "¥4.800 - ¥5.200 (zona de posible soporte tras ruptura de SMA200, cerca de mínimos recientes)",
+      "invalidacion": "Cierre semanal por debajo de ¥4.800 (ruptura adicional sin recuperación), o guidance anual recortado en resultados del 11-nov-2026",
       "gatillos": [
-        "Publicación de resultados Q2 FY3/27 el 11-nov-2026 con guidance humanoide sostenido o elevado",
+        "Publicación de resultados Q2 FY3/27 el 11-nov-2026 con guidance humanoide sostenido o elevado y ejecución acorde a la meta anual",
+        "Explicación o reversión de la caída puntual del 15-oct (-11,64%) que confirme si fue sobrerreacción técnica o reflejo de información fundamental",
         "Primer anuncio verificable de cliente humanoide occidental nombrado (no solo pedidos agregados genéricos)",
-        "Novedad regulatoria concreta sobre la IPO de Leaderdrive en Hong Kong (aprobación o rechazo de CSRC/HKEX)"
+        "Novedad regulatoria concreta sobre la IPO de Leaderdrive en Hong Kong tras el mayor escrutinio de la CSRC (aprobación, demora o rechazo)"
       ],
       "horizonte": "6-18 meses",
       "tamano": "Posición inicial pequeña (≤2-3% cartera), ampliar solo tras confirmación de catalizador y piso técnico",
-      "confianza": "media"
+      "confianza": "media-baja"
     }
   },
   "perfil": "Harmonic Drive Systems fabrica reductores de precisión de onda de deformación, el componente que convierte el giro rápido de un motor en el par alto y sin juego que necesita una articulación robótica, además de servoactuadores y mecatrónica. Vende a integradores y OEMs de robótica industrial, semiconductores, máquina-herramienta, aeroespacial y médica, con ventas de ~¥55.700M (ejercicio a marzo de 2025) y márgenes muy comprimidos por el ciclo de semiconductores y una capacidad instalada sobre la demanda actual: apalancamiento operativo extremo, que colapsa en la baja y se multiplica en la alta. Es líder global con ~50% de cuota, con un moat de proceso (tolerancias, metalurgia, know-how) reforzado por lo lento que es rehomologar un componente crítico. La opcionalidad es el humanoide, donde reductor y actuador pueden ser 30-60% del costo de cada articulación. El riesgo central es dónde se fabricará ese humanoide: los productores chinos pasaron de ~15% del mercado en 2022 a ~38% en 2024 presionando precios, así que el peligro no es perder volumen sino quedar acorralado en el nicho premium.",
   "technical": {
-    "price": 5940,
-    "change_1d_pct": 0.17,
-    "change_1w_pct": -4.5,
-    "rsi": 42.5,
-    "macd": 26.5715,
-    "macd_signal": 75.1561,
-    "sma20": 6242.5,
-    "sma50": 6143.4,
-    "sma200": 5454.45,
-    "ema12": 6240.5409,
-    "ema26": 6213.9694,
-    "pct_vs_sma20": -4.85,
-    "pct_vs_sma50": -3.31,
-    "pct_vs_sma200": 8.9,
-    "volume_today": 122700,
-    "volume_avg20": 524015.0,
-    "volume_ratio": 0.23,
-    "volatility_30d": 28.08,
-    "sharpe": -0.05,
-    "sortino": -0.04,
-    "max_drawdown_1y": -40.16,
-    "price_percentile_1y": 52.3,
-    "vs_benchmark_30d_pct": -0.69,
-    "perf_1m_pct": 6.07,
-    "perf_ytd_pct": 54.29
+    "price": 5250,
+    "change_1d_pct": 1.74,
+    "change_1w_pct": -15.59,
+    "rsi": 32.2,
+    "macd": -127.452,
+    "macd_signal": 10.748,
+    "sma20": 6177.0,
+    "sma50": 6116.8,
+    "sma200": 5469.325,
+    "ema12": 5936.4728,
+    "ema26": 6063.9249,
+    "pct_vs_sma20": -15.01,
+    "pct_vs_sma50": -14.17,
+    "pct_vs_sma200": -4.01,
+    "volume_today": 164200,
+    "volume_avg20": 430970.0,
+    "volume_ratio": 0.38,
+    "volatility_30d": 47.52,
+    "sharpe": -1.35,
+    "sortino": -0.77,
+    "max_drawdown_1y": -41.39,
+    "price_percentile_1y": 42.1,
+    "vs_benchmark_30d_pct": -12.29,
+    "perf_1m_pct": -9.64,
+    "perf_ytd_pct": 36.36
   },
   "risk": {
-    "volatility_30d": 28.08,
-    "sharpe": -0.05,
-    "sortino": -0.04,
-    "max_drawdown_1y": -40.16,
-    "n_days": 350,
+    "volatility_30d": 47.52,
+    "sharpe": -1.35,
+    "sortino": -0.77,
+    "max_drawdown_1y": -41.39,
+    "n_days": 352,
     "window": 30
   },
   "benchmark": {
     "ticker": "TVC:NI225",
     "label": "Nikkei 225",
-    "relative_performance_30d": -0.69,
-    "relative_performance_ytd": 21.05,
-    "price_percentile_1y": 52.3,
+    "relative_performance_30d": -12.29,
+    "relative_performance_ytd": 8.23,
+    "price_percentile_1y": 42.1,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-13T22:20:55-03:00"
+      "fetched_at": "2026-10-15T21:39:19-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-13T22:20:55-03:00"
+      "fetched_at": "2026-10-15T21:39:19-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-13T22:20:55-03:00"
+      "fetched_at": "2026-10-15T21:39:19-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "TVC:NI225",
-      "fetched_at": "2026-10-13T22:20:55-03:00"
+      "fetched_at": "2026-10-15T21:39:19-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/HDSY.json",
-      "n_days": 350
+      "n_days": 352
     }
   },
   "metricChanges": [
+    {
+      "ticker": "HDSY",
+      "date": "2026-10-14",
+      "metric": "precio_pct",
+      "from": 5940,
+      "to": 5330
+    },
     {
       "ticker": "HDSY",
       "date": "2026-08-23",
@@ -277,5 +283,5 @@
     "senales_piso": [],
     "senales_techo": []
   },
-  "reportDate": "13 de octubre de 2026"
+  "reportDate": "14 de octubre de 2026"
 }
