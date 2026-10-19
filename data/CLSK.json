@@ -4,204 +4,214 @@
   "statsList": [
     [
       "Precio",
-      "$8.47 (16-oct-2026, -10,91% en el día)"
+      "$8,46 (19-oct-2026)"
     ],
     [
       "Rango 52 sem.",
-      "US$8,00 - US$23,61 (StockAnalysis/MarketBeat, 16-oct-2026; precio actual roza el mínimo de 52 semanas)"
+      "US$8,00 - US$23,61 (StockAnalysis, oct-2026; precio actual ronda el mínimo de 52 semanas, percentil 3,6% del rango de 1 año)"
     ],
     [
       "Market cap",
-      "~US$2,52 mil M (calculado: $8,47 x ~298,1M acciones; fuentes externas divergen entre US$2,95-3,31 mil M por usar precios pre-caída de principios de oct-2026)"
+      "~US$2,27 mil M ($8,46 x ~268,4M acciones; fuentes que aún citan US$3,27-3,57 mil M usan precios previos a la corrección de inicios de oct-2026)"
     ],
     [
       "Hashrate",
-      "50 EH/s operacional (pico), 36,0 EH/s promedio en septiembre, 199.745 mineros desplegados (HECHO: update de septiembre, PRNewswire, 9-oct-2026; sin dato posterior: la compañía pasó a reporte trimestral y aún no concluye Q4 FY2026)"
+      "50 EH/s operacional (pico), 36,0 EH/s promedio en septiembre, 199.745 mineros desplegados (HECHO: update de septiembre, PRNewswire, 9-oct-2026; CleanSpark pasó a reporte trimestral, sin dato de octubre aún)"
     ],
     [
       "BTC en tesorería",
-      "13.530 BTC al 30-sep-2026, de los cuales 3.475 BTC (~26%) siguen pignorados como colateral/receivables de derivados ligados al financiamiento; con BTC en ~US$81.300-82.600 la tesorería total vale ~US$1.100-1.120M, por debajo del dato previo por la caída de BTC (HECHO: PRNewswire 9-oct-2026 + KuCoin/Pluang 15/16-oct-2026)"
+      "13.530 BTC al 30-sep-2026, de los cuales 3.475 BTC (~26%) siguen pignorados como colateral de derivados; con BTC en ~US$81.900-82.800 la tesorería vale ~US$1.110-1.120M (HECHO: PRNewswire 9-oct-2026 + spot BTC, 19-oct-2026)"
     ],
     [
       "Próx. earnings",
-      "16-dic-2026 antes de apertura, cierre de Q4/FY2026 (HECHO: confirmado por calendario de TipRanks/Investing.com, oct-2026). Recordar Q3 FY2026 (6-ago-2026): revenue US$138M (-30,5% a/a), EPS ajustado -US$0,89 vs -US$0,47 esperado (miss), pérdida GAAP -US$240M por mark-to-market de BTC"
+      "16-dic-2026 antes de apertura, cierre de Q4/FY2026 (HECHO: TipRanks/Investing.com, oct-2026). Recordar Q3 FY2026 (6-ago-2026): revenue US$138M (-30,5% a/a), EPS ajustado -US$0,89 vs -US$0,47 esperado (miss), pérdida GAAP -US$240M por mark-to-market de BTC"
+    ],
+    [
+      "Técnico (auto)",
+      "RSI 24.1 · MACD -1.15 / señal -0.73 (TradingView, 19-oct-2026)"
     ]
   ],
   "change": {
-    "day": -10.91,
-    "week": -9.4
+    "day": 0.71,
+    "week": 0.71
   },
   "events": [
     {
-      "date": "2026-10-19",
-      "label": "TCEQ reporta a Oficina del Gobernador su cumplimiento de la pausa de permisos de centros de datos",
+      "date": "2026-10-28",
+      "label": "Reunión del FOMC (decisión de tasas)",
       "kind": "macro",
-      "info": "TCEQ debe informar al despacho del Gobernador Abbott el avance en la implementación de la pausa (ordenada 21-sep-2026) sobre permisos ambientales a centros de datos en Texas, incluyendo el portafolio de CleanSpark (718 acres, hasta 885 MW bajo LOI con Meta). Es un checkpoint de cumplimiento, no el fin de la pausa: no hay fecha fija de término, dependerá del informe de ERCOT (HECHO: gov.texas.gov/DLA Piper/GT Law, sep-2026; deadline 19-oct-2026)."
+      "info": "Mercados asignan ~84-86% de probabilidad a mantener la tasa en 3,75%-4,00% (nivel fijado tras el alza del 17-sep-2026) y ~14-15% a una nueva alza; un recorte está prácticamente descartado (HECHO: CME FedWatch/Kalshi, 19-oct-2026). Un sesgo hawkish sin señales de recorte quita un posible viento de cola para BTC y, por espejo, para CLSK."
     },
     {
       "date": "2026-12-10",
       "label": "ERCOT/PUCT publican informe de auditoría sobre centros de datos",
       "kind": "macro",
-      "info": "ERCOT exigió a los desarrolladores afectados presentar respuestas RFI, documentación y una atestación notariada antes del 12-oct-2026; el informe de conclusiones de la auditoría estatal (uso de red, agua, interconexión) se publicará a más tardar el 10-dic-2026, lo que definirá si se reanudan permisos para proyectos como los de CleanSpark en Texas (HECHO: DLA Piper/GT Law, sep-2026)."
+      "info": "ERCOT exigió a los desarrolladores afectados presentar respuestas RFI, documentación y una atestación notariada antes del 12-oct-2026; el informe de conclusiones de la auditoría estatal (uso de red, agua, interconexión) se publicará a más tardar el 10-dic-2026, lo que definirá si se reanudan permisos para proyectos como los de CleanSpark en Texas (HECHO: DLA Piper/GT Law, sep-2026; TCEQ reportó avance de cumplimiento al despacho del Gobernador el 19-oct-2026, sin fecha de término confirmada)."
     },
     {
       "date": "2026-12-16",
       "label": "Earnings Q4/FY2026",
       "kind": "earnings",
-      "info": "Fecha confirmada por calendario de TipRanks/Investing.com para el reporte de cierre de año fiscal 2026, antes de apertura de mercado (HECHO: oct-2026). Clave: evolución del apalancamiento (deuda de US$2.276M emitida en sep-2026) y del % de BTC pignorado tras la caída de BTC a ~US$81K."
+      "info": "Fecha confirmada por calendario de TipRanks/Investing.com para el reporte de cierre de año fiscal 2026, antes de apertura de mercado (HECHO: oct-2026). Clave: evolución del apalancamiento (deuda de US$2.276M emitida en sep-2026) y del % de BTC pignorado tras la caída de BTC a ~US$81-83K."
     }
   ],
   "sections": {
-    "resumen": "CLSK se desploma a $8,47 (-10,91% en el día, 16-oct), nuevo mínimo de 52 semanas, junto al retroceso de BTC desde $87K a ~$81-82K y una dificultad de red +5,92% a 140,58T, que comprime márgenes de minería justo cuando CleanSpark arrastra deuda garantizada de US$2.276M (sep-2026) y 26% de su tesorería BTC pignorada. Cantor Fitzgerald recortó su target a US$19 el mismo 16-oct (desde US$26); el consenso sigue en 'Moderate Buy' (~US$23). Próximo catalizador: checkpoint de cumplimiento TCEQ (19-oct) sobre la pausa regulatoria texana; el informe definitivo de ERCOT llega el 10-dic, junto con earnings.",
-    "fundamental": "- Tesorería BTC: 13.530 BTC al 30-sep-2026, 3.475 BTC (~26%) pignorados; con BTC en ~US$81-82K, valor cayó a ~US$1.100M (HECHO: PRNewswire 9-oct-2026 + spot BTC, 16-oct-2026).\n- Q3 FY2026: revenue US$138M (-30,5% a/a), pérdida GAAP US$240M por mark-to-market de BTC, EPS ajustado -US$0,89 vs -US$0,47 esperado (miss) (HECHO: Benzinga, 6-ago-2026).\n- Deuda garantizada senior ~US$2.276M (vto. 2031) emitida sep-2026 para Sandersville; sube apalancamiento consolidado (HECHO: TheBlock/QuiverQuant, oct-2026).\n- Producción minada cae: 529 BTC en septiembre vs 593 en agosto (-11% m/m), por mayor dificultad de red (HECHO: TheBlock, 15-oct-2026).\n- Lease 20 años con Meta en Sandersville (175 MW, ~US$6.600M) y LOI texano (885 MW) vigentes, sujetos a pausa regulatoria (HECHO: SEC 8-K, sep-2026).",
-    "valuacion": "- Market cap ~US$2,52 mil M (a $8,47) vs tesorería BTC ~US$1.100M, remanente apoyado en el pivote HPC/IA, cada vez más comprimido (HECHO: cálculo propio sobre precios 16-oct-2026).\n- Consenso 'Moderate Buy' con target promedio ~US$23 (TipRanks/MarketBeat); Cantor Fitzgerald recortó de US$26 a US$19 el mismo 16-oct (HECHO: MarketBeat, 16-oct-2026).\n- Gap entre consenso (US$19-23) y precio ($8,47) implica upside nominal >120%, pero refleja alto riesgo de ejecución, no solo pánico (LECTURA).\n- Zacks Rank previo (#4/Sell) no reconfirmado con fuente fresca esta ronda: 'no verificable' por ahora.",
-    "tecnico": "- RSI 27,3: sobreventa pronunciada, sin confirmación de reversión aún (HECHO: TradingView, 15-oct-2026).\n- MACD -0,92 bajo señal -0,51, histograma negativo, tendencia bajista de corto plazo intacta.\n- Precio ~25% bajo SMA20/SMA50/SMA200: estructura técnica débil en todos los horizontes.\n- Underperformance vs BTC de -37,33% a 30 días; percentil de precio a 1 año en 9,2 (zona muy baja).\n- Caída de -10,91% el 16-oct confirma que las ventas abruptas no se agotaron; volatilidad 30d en 62,4%.",
-    "catalizadores": "**Catalizadores:**\n1. Informe de cumplimiento TCEQ (19-oct-2026) y luego informe final ERCOT/PUCT (10-dic-2026), que podría desbloquear la pausa de permisos en Texas.\n2. Earnings Q4/FY2026 confirmado para 16-dic-2026.\n3. Avance del financiamiento de Sandersville (US$2.276M) y expansión del LOI texano (885 MW).\n4. Recuperación del precio de BTC desde ~US$81-82K, que aliviaría presión sobre colateral pignorado.\n\n**Riesgos (por materialidad):**\n1. BTC cayendo más dificultad de red +5,92% comprimen tesorería y economía de minería.\n2. Apalancamiento + 26% de BTC pignorado: caída adicional de BTC puede forzar ajustes de colateral o diluir.\n3. Pausa regulatoria en Texas sin fecha de fin, que amenaza la expansión HPC de la tesis.\n4. Recorte de target de Cantor Fitzgerald (US$26→US$19) anticipa posibles recortes de otras casas.",
-    "sentimiento": "- Cantor Fitzgerald recortó su target de US$26 a US$19 el mismo 16-oct, señal fresca de deterioro (HECHO: MarketBeat, 16-oct-2026).\n- Consenso general sigue 'Moderate Buy' (~US$23), divergencia entre revisiones puntuales bajistas y la visión agregada de Wall Street.\n- RSI en 27 y caída de -10,91% en un día sugieren posible capitulación, sin señal de estabilización confirmada.\n- La narrativa liga la caída a la corrección de BTC (desde $87K a ~$81-82K) y al salto de dificultad de red.\n- Zacks Rank del ciclo anterior (#4/Sell) no reconfirmado con fuente fresca: 'no verificable' por ahora.",
-    "conclusion": "CLSK profundiza su caída (-10,91% el 16-oct, nuevo mínimo de 52 semanas en $8,47) en sincronía con el retroceso de BTC a ~$81-82K y el salto de dificultad de red (+5,92%), que comprime márgenes justo cuando el apalancamiento (deuda $2.276M, 26% BTC pignorado) ya preocupaba. Cantor Fitzgerald recortando su target a $19 confirma deterioro, aunque el consenso agregado sigue en 'Moderate Buy'. La tesis de largo plazo (lease Meta $6.600M, LOI texano 885MW) no cambió, pero depende de que Texas resuelva la pausa regulatoria (TCEQ 19-oct, ERCOT 10-dic) y BTC deje de caer. Convicción baja-moderada: esperar confirmación de piso técnico y catalizador regulatorio antes de aumentar exposición."
+    "resumen": "CLSK frena su caída en $8,46 (+0,71% el 19-oct), tras el desplome de -10,9% del 16-oct que marcó mínimo de 52 semanas. El histograma MACD muestra la primera señal de piso (1/7), aunque RSI 24 y percentil de precio 3,6% confirman sobreventa extrema sin reversión probada. BTC se estabiliza en US$80.500-83.000 tras rebotar desde mínimos de verano, aliviando algo la presión sobre el 26% de la tesorería BTC pignorada. Los analistas se dividen: Argus cortó a US$10 (14-oct), Cantor Fitzgerald a US$19 (16-oct); consenso en ~US$23. Próximo catalizador: FOMC del 28-oct, con sesgo hawkish que no ofrece alivio macro inmediato.",
+    "fundamental": "- Tesorería BTC: 13.530 BTC al 30-sep, 3.475 (~26%) pignorados; con BTC en ~US$81.900 vale ~US$1.110-1.120M (HECHO: PRNewswire 9-oct-2026 + spot BTC, 19-oct-2026).\n- Producción cae: 529 BTC en septiembre vs 593 en agosto (-11% m/m); CleanSpark pasó a reporte trimestral, sin dato de octubre (HECHO: The Block, 15-oct-2026).\n- Dificultad de red +5,9% a mediados de octubre comprime margen de minería junto a BTC retrocediendo desde ~US$86.500 (HECHO: Yahoo Finance, oct-2026).\n- Deuda garantizada ~US$2.276M (vto. 2031, sep-2026) eleva el apalancamiento consolidado (HECHO: TheBlock/QuiverQuant, oct-2026).\n- Form 144 de un insider el 8-oct coincidió con caída de -7,6% a US$10,64 ese día (HECHO: TradersUnion, 8-oct-2026).",
+    "valuacion": "- Market cap ~US$2,27 mil M ($8,46, ~268M acciones) vs tesorería BTC ~US$1,11 mil M: remanente del pivote HPC/IA sigue comprimido (HECHO: cálculo propio, 19-oct-2026).\n- Analistas divididos: Argus a US$10 (14-oct), Cantor Fitzgerald a US$19 (16-oct); consenso de 14 analistas en ~US$23,4, +178% sobre el precio (HECHO: MarketBeat/Yahoo, 14/16-oct-2026).\n- La brecha US$10-26 entre targets muestra que la dispersión de Wall Street creció tras el crash, no solo pánico de mercado (LECTURA).\n- Precio en percentil 3,6% de su rango de 1 año: barata vs su historia, sin confirmación de piso (HECHO: cálculo técnico interno, 19-oct-2026).",
+    "tecnico": "- RSI 24,1: sobreventa extrema, estable respecto al ciclo previo (HECHO: TradingView, 19-oct-2026).\n- MACD -1,15 bajo señal -0,73, pero el histograma empieza a girar al alza (1/7 señales de piso, 0 de techo): primera grieta bajista.\n- Precio ~28-32% bajo SMA20/50/200: estructura técnica aún débil en todos los horizontes.\n- Underperformance vs BTC de -39,9% a 30 días (peor que -37% previo); percentil 1 año en 3,6, mínimo histórico.\n- Variación día y semana +0,71%: primera pausa tras el desplome del 16-oct, sin confirmar reversión.",
+    "catalizadores": "**Catalizadores:**\n1. FOMC (28-oct-2026): sesgo hawkish (84-86% mantiene tasas) ya descontado; sorpresa dovish sería primer alivio para BTC/CLSK.\n2. Informe ERCOT/PUCT (10-dic-2026): podría desbloquear la pausa de permisos texana sobre el LOI de 885MW.\n3. Earnings Q4/FY2026 (16-dic-2026): foco en apalancamiento y % de BTC pignorado.\n4. Estabilización de BTC en US$80.500-83.000, que podría contener la presión sobre el colateral.\n\n**Riesgos (por materialidad):**\n1. Dificultad de red +5,9% junto a BTC lejos de máximos comprime la economía de minería.\n2. Apalancamiento (deuda US$2.276M + 26% BTC pignorado): recaída de BTC fuerza ajustes de colateral o dilución.\n3. FOMC hawkish resta un catalizador macro que el mercado cripto esperaba.\n4. Pausa regulatoria texana sin fecha de fin amenaza la expansión HPC de la tesis.",
+    "sentimiento": "- Analistas divididos: Argus a US$10 (14-oct), Cantor Fitzgerald a US$19 (16-oct); consenso agregado en ~US$23 (HECHO: MarketBeat, 14/16-oct-2026).\n- Form 144 de un insider el 8-oct coincidió con caída de -7,6%, señal de presión de oferta percibida (HECHO: TradersUnion, 8-oct-2026).\n- RSI 24 y primer giro del histograma MACD sugieren capitulación técnica, sin confirmación de piso aún.\n- FOMC hawkish (84-86% mantiene tasas) reduce el apetito de riesgo cripto en el corto plazo (HECHO: CME FedWatch, 19-oct-2026).\n- BTC estabilizándose en US$80.500-83.000 aporta algo de calma relativa al activo subyacente (LECTURA).",
+    "conclusion": "CLSK frena su caída en $8,46 (+0,71% el 19-oct) tras el mínimo de 52 semanas del 16-oct, con el MACD mostrando la primera señal de piso (1/7), aunque RSI 24 y percentil 3,6% confirman sobreventa sin reversión probada. Los analistas se dividen —Argus US$10, Cantor US$19, consenso US$23— reflejando mayor incertidumbre, no solo pánico. El FOMC del 28-oct, hawkish y con recorte casi descartado, no ofrece alivio inmediato; los catalizadores de fondo (ERCOT 10-dic, earnings 16-dic) siguen a dos meses. Convicción baja: esperar piso técnico y resolución regulatoria antes de aumentar exposición."
   },
   "scores": {
     "tecnica": {
-      "score": 35,
-      "just": "RSI 27 marca sobreventa extrema pero sin confirmación de reversión; nueva caída de -10,91% el 16-oct y nuevo mínimo de 52 semanas empeoran el cuadro frente al ciclo anterior, con underperformance vs BTC de -37% a 30d."
+      "score": 38,
+      "just": "Primera señal de piso detectada (histograma MACD girando al alza, 1/7) y freno a la caída (+0,71% el 19-oct tras el mínimo de 52 semanas), pero RSI 24 y precio ~30% bajo todas las medias mantienen la estructura técnica débil."
     },
     "fundamental": {
       "score": 45,
-      "just": "Negocio real (lease Meta, LOI texano 885MW) sigue intacto, pero la caída de BTC a ~$81-82K reduce el valor de la tesorería (~$1.100M) y la dificultad de red +5,92% comprime economía de minería, sumado a deuda garantizada de $2.276M y colateral pignorado."
+      "just": "Negocio real (lease Meta, LOI texano 885MW) intacto, pero tesorería BTC (~US$1,11 mil M) sigue comprimida por BTC en ~US$82K y dificultad de red +5,9%, con apalancamiento de US$2.276M y 26% de BTC pignorado sin cambios."
     },
     "sentimiento": {
-      "score": 50,
-      "just": "Recorte fresco de target de Cantor Fitzgerald (26→19) el mismo día confirma deterioro, aunque consenso agregado sigue 'Moderate Buy'; sin señal clara de extremo contrarian todavía dado que la caída continúa sin pausa."
+      "score": 49,
+      "just": "Analistas se dividen con fuerza (Argus US$10 vs Cantor US$19, consenso US$23), e insider filing de Form 144 (8-oct) suma presión de oferta percibida; sin extremo contrarian claro porque el mercado aún no define bando."
     },
     "riesgo": {
-      "score": 66,
-      "just": "El riesgo distintivo sigue siendo el apalancamiento (26% BTC pignorado + deuda nueva) ahora agravado por caída de BTC y mayor dificultad de red simultáneas, más pausa regulatoria texana sin fecha de fin: combinación de riesgos de pérdida permanente, no solo volatilidad de precio."
+      "score": 67,
+      "just": "A los riesgos de apalancamiento y colateral pignorado se suma un FOMC con sesgo hawkish (recorte casi descartado) que reduce el margen de maniobra macro para activos cripto-correlacionados en el corto plazo."
     },
     "conviccion": {
-      "score": 32,
-      "just": "Asimetría nominal existe (target consenso ~$23 vs precio $8,47) pero la tendencia bajista se acelera (nuevo mínimo de 52 semanas) y BTC no da señales de piso; conviccion baja hasta ver estabilización de BTC y resolución regulatoria en Texas."
+      "score": 34,
+      "just": "La primera grieta técnica (giro de histograma, freno de la caída) y la asimetría nominal frente al consenso (~US$23) no bastan para subir convicción mientras el macro (Fed hawkish) y la regulación texana sigan sin resolverse."
     }
   },
   "sources": [
-    "MarketBeat, 'Cleanspark (NASDAQ:CLSK) Stock Price Down 7.3%, Here's Why', 14/16-oct-2026",
     "MarketBeat, 'Cleanspark (NASDAQ:CLSK) Given New $19.00 Price Target at Cantor Fitzgerald', 16-oct-2026",
+    "Yahoo Finance/Finance research, corte de target de Argus a US$10,00, 14-oct-2026",
     "The Block, 'CleanSpark and BitFuFu see bitcoin production slip in September as Canaan remains flat', 15-oct-2026",
-    "Yahoo Finance/TIKR, 'CleanSpark Stock Fell Nearly 15% in Three Days. Its Bitcoin Is Now Worth About 40% of Its Market Cap', 13-oct-2026",
-    "QuiverQuant, 'CleanSpark Slides as Investors Weigh New Debt, Lower Bitcoin Holdings, and Reduced Monthly Disclosure', oct-2026",
-    "TipRanks/Investing.com, calendario de earnings CLSK Q4 FY2026, oct-2026",
+    "TradersUnion, 'CleanSpark drops 7.64% to $10.64' (Form 144 insider filing), 8-oct-2026",
     "PRNewswire, 'CleanSpark Releases September 2026 Operational Update', 9-oct-2026",
     "Benzinga, 'CleanSpark Reports Q3 2026 Results, Full Earnings Call Transcript', 6-ago-2026",
-    "CoinDesk/Fortune, precio de Bitcoin, 16-oct-2026",
-    "CoinoTag/Pluang, 'Bitcoin (BTC) Mining Difficulty Jumps 5.92% to 140.58T', 16-oct-2026",
-    "DLA Piper / GT Law, Texas data center permitting pause y auditoría ERCOT, sep-2026",
-    "gov.texas.gov, carta de Gobernador Abbott a TCEQ sobre pausa de permisos, 21-sep-2026"
+    "CoinDesk/Fortune/CryptoTimes, precio de Bitcoin, 19-oct-2026",
+    "CME FedWatch/Kalshi, probabilidades de la reunión del FOMC del 28-oct-2026, consultado 19-oct-2026",
+    "Troutman Pepper Locke/gov.texas.gov, reporte de cumplimiento de TCEQ al despacho del Gobernador, 19-oct-2026",
+    "DLA Piper / GT Law, pausa de permisos de centros de datos en Texas y auditoría ERCOT, sep-2026",
+    "StockAnalysis.com, rango de 52 semanas y acciones en circulación de CLSK, oct-2026"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 60,
-        "just": "Precio en percentil 9,2 del rango de 1 año, nuevo mínimo de 52 semanas; barata en términos históricos, pero la baja continúa sin señal de agotamiento claro."
+        "score": 63,
+        "just": "Precio en percentil 3,6% de su rango de 1 año, nuevo mínimo de 52 semanas tocado el 16-oct; aún más barata vs su propia historia que en la revisión anterior (percentil 9,2)."
       },
       "calidad": {
         "score": 42,
-        "just": "Negocio en transición a HPC con contratos de calidad (Meta investment-grade), pero pérdidas GAAP grandes, apalancamiento creciente, y ahora doble viento en contra: BTC cayendo y dificultad de red subiendo."
+        "just": "Negocio en transición a HPC con contratos de calidad (Meta investment-grade) intacto, pero pérdidas GAAP grandes y apalancamiento creciente conviven con un entorno de BTC/dificultad de red adverso."
       },
       "asimetria": {
-        "score": 55,
-        "just": "Target consenso ~$23 (con recortes recientes a $19) vs precio $8,47 implica upside nominal grande, pero condicionado a estabilización de BTC y resolución regulatoria texana, ambas sin confirmar."
+        "score": 53,
+        "just": "Consenso ~US$23 (14 analistas) vs precio US$8,46 implica upside nominal grande, pero la dispersión entre Argus (US$10) y Cantor (US$19-26) muestra que la visión de Wall Street se amplió, no se estrechó."
       },
       "catalizadores": {
-        "score": 48,
-        "just": "Catalizadores con fecha concreta (TCEQ 19-oct, ERCOT 10-dic, earnings 16-dic) pero el más próximo es solo administrativo y no resuelve la incertidumbre de fondo."
+        "score": 46,
+        "just": "El catalizador más próximo (FOMC 28-oct) trae sesgo hawkish, sin aporte positivo esperado; los catalizadores de fondo (ERCOT 10-dic, earnings 16-dic) siguen a casi dos meses."
       },
       "contrarian": {
-        "score": 55,
-        "just": "RSI en sobreventa extrema y nuevo mínimo de 52 semanas generan condiciones de capitulación, pero la aceleración de la caída el mismo día del análisis reduce la convicción de que ya tocó piso."
+        "score": 58,
+        "just": "RSI en sobreventa extrema, nuevo mínimo de 52 semanas y primera señal de piso técnico (giro de histograma MACD) generan condiciones de capitulación más maduras que en la ronda anterior."
       }
     },
     "plan": {
       "recomendacion": "Esperar gatillo",
-      "zona_compra": "US$7,50 - US$8,50 (cerca o por debajo del mínimo de 52 semanas, con confirmación de estabilización)",
-      "invalidacion": "Cierre semanal por debajo de US$7,50 o nueva caída sostenida de BTC por debajo de US$75.000, o noticia de endurecimiento/extensión indefinida de la pausa regulatoria texana",
+      "zona_compra": "US$7,50 - US$8,50 (cerca o bajo el mínimo de 52 semanas, con confirmación de piso técnico)",
+      "invalidacion": "Cierre semanal bajo US$7,50, o BTC rompiendo bajo US$75.000, o endurecimiento/extensión indefinida de la pausa regulatoria texana",
       "gatillos": [
-        "Informe de cumplimiento TCEQ (19-oct-2026) sin señales de endurecimiento adicional",
-        "Estabilización del precio de BTC por encima de US$80.000 y freno a nuevos máximos de dificultad de red",
-        "Informe ERCOT/PUCT (10-dic-2026) con resolución favorable o calendario claro de reanudación de permisos",
-        "Earnings Q4/FY2026 (16-dic-2026) sin nuevo miss significativo ni deterioro adicional del colateral pignorado"
+        "FOMC (28-oct-2026) sin sorpresas hawkish adicionales y señales de pausa prolongada",
+        "Confirmación del giro del histograma MACD con recuperación sobre la SMA20 (~US$11,8)",
+        "Informe ERCOT/PUCT (10-dic-2026) con calendario claro de reanudación de permisos en Texas",
+        "Earnings Q4/FY2026 (16-dic-2026) sin nuevo miss ni deterioro adicional del colateral pignorado"
       ],
       "horizonte": "6-18 meses",
-      "tamano": "Posición reducida (1-2% de cartera) dado apalancamiento, doble exposición a BTC y riesgo regulatorio binario",
+      "tamano": "Posición reducida (1-2% de cartera) dado el apalancamiento, la doble exposición a BTC y el riesgo regulatorio binario",
       "confianza": "media-baja"
     }
   },
   "perfil": "CleanSpark es un operador de centros de datos que monetiza electricidad: compra energía barata en Georgia, Tennessee, Wyoming y Texas, opera infraestructura y máquinas propias —sin hosting de terceros— y convierte kilovatios en bitcoin. Facturó $766,3M en FY2025 (+102%), superó los 50 EH/s y retiene una tesorería de ~13.700 BTC. El modelo está mutando: la compresión post-halving hundió los ingresos trimestrales ~30% a/a, y firmó un arriendo triple neto a 20 años por 175 MW con una tecnológica de grado de inversión (~$6.600M contratados, margen casi íntegro), además de una LOI de exclusividad sobre su portafolio texano de hasta 885 MW. Ahí está la tesis: el activo escaso no son las máquinas sino su cartera de energía contratada e interconexiones, justo lo que demanda la IA. Como minero es tomador de precio doblemente cíclico, con dilución permanente (incluida la potencial por convertibles sobre US$19,16) y el halving de 2028 recortando el subsidio a la mitad; la variable crítica es el financiamiento, que ata la reconversión a HPC al costo de capital y al precio del bitcoin que sirve de colateral.",
   "technical": {
-    "price": 9.35,
-    "change_1d_pct": 1.36,
-    "change_1w_pct": -10.91,
-    "rsi": 27.3,
-    "macd": -0.9211,
-    "macd_signal": -0.5128,
-    "sma20": 12.4135,
-    "sma50": 12.3722,
-    "sma200": 12.5408,
-    "ema12": 10.9563,
-    "ema26": 11.8774,
-    "pct_vs_sma20": -24.68,
-    "pct_vs_sma50": -24.43,
-    "pct_vs_sma200": -25.44,
-    "volume_today": 27367750,
-    "volume_avg20": 16485147.0,
-    "volume_ratio": 1.66,
-    "volatility_30d": 62.4,
+    "price": 8.46,
+    "change_1d_pct": 0.71,
+    "change_1w_pct": 0.71,
+    "rsi": 24.1,
+    "macd": -1.1463,
+    "macd_signal": -0.7265,
+    "sma20": 11.795,
+    "sma50": 12.2084,
+    "sma200": 12.5224,
+    "ema12": 10.2395,
+    "ema26": 11.3857,
+    "pct_vs_sma20": -28.27,
+    "pct_vs_sma50": -30.7,
+    "pct_vs_sma200": -32.44,
+    "volume_today": 19269187,
+    "volume_avg20": 17354696.0,
+    "volume_ratio": 1.11,
+    "volatility_30d": 63.25,
     "sharpe": -1.6,
-    "sortino": -1.42,
+    "sortino": -1.24,
     "max_drawdown_1y": -64.74,
-    "price_percentile_1y": 9.2,
-    "vs_benchmark_30d_pct": -37.33,
-    "perf_1m_pct": -28.46,
-    "perf_ytd_pct": -10.05
+    "price_percentile_1y": 3.6,
+    "vs_benchmark_30d_pct": -39.91,
+    "perf_1m_pct": -38.56,
+    "perf_ytd_pct": -18.61
   },
   "risk": {
-    "volatility_30d": 62.4,
+    "volatility_30d": 63.25,
     "sharpe": -1.6,
-    "sortino": -1.42,
+    "sortino": -1.24,
     "max_drawdown_1y": -64.74,
-    "n_days": 353,
+    "n_days": 357,
     "window": 30
   },
   "benchmark": {
     "ticker": "CRYPTO:BTCUSD",
     "label": "Bitcoin",
-    "relative_performance_30d": -37.33,
-    "relative_performance_ytd": -4.09,
-    "price_percentile_1y": 9.2,
+    "relative_performance_30d": -39.91,
+    "relative_performance_ytd": -12.16,
+    "price_percentile_1y": 3.6,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:24:21-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:24:21-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:24:21-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CRYPTO:BTCUSD",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:24:21-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/CLSK.json",
-      "n_days": 353
+      "n_days": 357
     }
   },
   "metricChanges": [
+    {
+      "ticker": "CLSK",
+      "date": "2026-10-16",
+      "metric": "precio_pct",
+      "from": 9.35,
+      "to": 8.4
+    },
     {
       "ticker": "CLSK",
       "date": "2026-10-14",
@@ -260,11 +270,13 @@
     }
   ],
   "trend": {
-    "piso": 0,
+    "piso": 1,
     "techo": 0,
     "max": 7,
-    "senales_piso": [],
+    "senales_piso": [
+      "histograma MACD girando al alza"
+    ],
     "senales_techo": []
   },
-  "reportDate": "14 de octubre de 2026"
+  "reportDate": "19 de octubre de 2026"
 }
