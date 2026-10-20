@@ -4,216 +4,215 @@
   "statsList": [
     [
       "Precio",
-      "$146.03 (16-oct-2026, -1.7% intradía; MarketBeat)"
+      "US$147,96 (19-oct-2026, +1,32% día; stockanalysis.com)"
     ],
     [
       "Rango desde IPO",
-      "US$104,83 (03-ago-2026) – US$225,64 (16-jun-2026); horizonte relevante hasta jun-2027 (lockup Musk)"
+      "US$104,83 (06-ago-2026, día del primer lockup) – US$225,64 (~jun-2026, mediados del mes, fecha exacta no verificable); horizonte relevante hasta jun-2027 (lockup Musk)"
     ],
     [
       "Listado",
-      "Nasdaq: SPCX, IPO 12-jun-2026 a US$135 (incluye fusión con xAI consumada feb-2026, valoró el conjunto en US$1,25 billones; CNBC/Yahoo Finance, feb-2026)"
+      "Nasdaq: SPCX, IPO 12-jun-2026 a US$135 (incluye fusión con xAI consumada 02-feb-2026, valoró el conjunto en ~US$1,25 billones; TechCrunch/CNBC, jun-2026)"
     ],
     [
       "Market cap",
-      "~US$2,0-2,2 billones (trillion) según fecha (stockanalysis.com/companiesmarketcap.com, 15-16-oct-2026); ingresos TTM ~US$23B"
+      "HECHO: ~US$1,95-2,01 billones (trillion) según proveedor (stockanalysis.com/TipRanks, 19-oct-2026); ~13,57B acciones en circulación; ingresos TTM US$23,04B (+121,9% YoY)"
     ],
     [
       "P/E",
-      "N/A (pérdida GAAP persiste); usar P/S como proxy, disperso ~44-69x según método (Alpha Spread, oct-2026)"
+      "N/A (pérdida neta TTM ~US$8,89B, EPS -US$2,27); Forward PE 93,3x; P/S 86,0x (stockanalysis.com, 19-oct-2026)"
     ],
     [
       "Target consenso",
-      "HECHO: Evercore ISI subió target a US$275 (desde US$230) manteniendo Outperform, ~85% upside citado por Benzinga (16-oct-2026); Pivotal Research US$230 (Buy) por el deal de espectro; consenso de 38 analistas US$221,26 promedio, rating 'Buy' (Benzinga/stockanalysis, 16-oct-2026)"
+      "HECHO: Evercore ISI target US$275 (Outperform, desde US$230, cita ARR saliendo 2026 en ~US$104B y 2,3GW de compute; CNBC, 16-oct-2026); Pivotal Research US$230 (Buy, desde US$220, por deal espectro Grain US$8B; 12-oct-2026); consenso ~38 analistas, target promedio US$221-223, rating Buy/Moderate Buy (TipRanks/stockanalysis, 19-oct-2026)"
     ],
     [
       "Próx. earnings",
-      "HECHO: Q3 2026 confirmado para el 20-oct-2026 tras cierre de mercado, webcast 16:30 ET (SpaceX IR/Drive Tesla/EVXL, 16-oct-2026); segundo earnings público desde el IPO, gatilla liberación de ~28% del lockup (~1.310M acciones) dos días después"
+      "HECHO: Q3 2026 confirmado para 20-oct-2026 tras cierre, webcast 16:30 ET (SpaceX IR, confirmado 19-oct-2026); consenso EPS US$0,14, revenue ~US$12,9B (TipRanks, 19-oct-2026); mercado de opciones implica movimiento ±7,8% (rango US$134,64-157,42)"
     ]
   ],
   "change": {
-    "day": -1.49,
-    "week": -3.47
+    "day": 1.32,
+    "week": -9.5
   },
   "events": [
     {
       "date": "2026-10-20",
-      "label": "Earnings Q3 2026 (confirmado)",
+      "label": "Earnings Q3 2026 (segundo reporte público)",
       "kind": "earnings",
-      "info": "HECHO: SpaceX reportará resultados de Q3 2026 tras el cierre de mercado el 20-oct-2026, con webcast a las 16:30 ET / 15:30 CT (SpaceX IR, ir.spacex.com; Drive Tesla Canada, EVXL.co, 16-oct-2026). Es el segundo reporte público desde el IPO (jun-2026); gatilla además liberación de ~28% del lockup dos días después."
+      "time": "17:30",
+      "info": "HECHO: tras cierre de mercado, webcast 16:30 ET / 17:30 Chile (SpaceX IR, confirmado 19-oct-2026). Consenso: EPS US$0,14, revenue ~US$12,9B (TipRanks). Foco: rentabilidad del segmento IA/compute post-xAI, tracción Starlink Mobile, y si la compañía se acerca a utilidad neta positiva (Benzinga, 19-oct-2026)."
     },
     {
       "date": "2026-10-22",
-      "label": "Liberación parcial de lockup post-earnings (~28%, ~1.310M acciones)",
+      "label": "Lockup: liberación ~28% (~1.300M acciones)",
       "kind": "corporate",
-      "info": "HECHO: el calendario de lockup contempla que hasta 1.31 mil millones de acciones de empleados/inversores tempranos quedan elegibles el segundo día de trading tras el reporte de Q3 (purepowerpicks.com/investing.com, oct-2026); el mayor evento de liberación de oferta potencial de todo el calendario de 180 días."
+      "info": "LECTURA: gatillado por 2º día de trading tras earnings Q3 (20-oct → 22-oct); patrón descrito por fuentes especializadas (stockalarm.io) pero sin confirmación explícita de la fecha exacta en fuente primaria. Es el tramo de liberación más grande del calendario post-IPO hasta ahora."
     },
     {
       "date": "2026-11-08",
       "label": "Starship Flight 15 (NET)",
       "kind": "corporate",
-      "info": "LECTURA: fecha no confirmada formalmente por SpaceX; una presentación interna (CADENA) filtrada lista NET 8-nov-2026 desde Starbase (X/@AGTPinsights, keeptrack.space, oct-2026), tras especularse antes con 19-oct. Volará Booster 22/Ship 42 (Starship V3); Musk declaró intención de intentar la primera captura de nave, con 50-60% de probabilidad de éxito según él mismo."
+      "info": "HECHO: no antes de 8-nov-2026, Ship 42/Booster 22 (Block 3) desde Starbase OLP-2; objetivo primera captura ('catch') de booster y nave Block 3 (NASASpaceFlight.com, oct-2026). Flight 14 ya ocurrió el 28-sep-2026: primer vuelo orbital completo, desplegó 26 Starlink, perdió un motor sin afectar el objetivo (CNBC/Space.com, 28-sep-2026)."
     },
     {
       "date": "2026-12-08",
-      "label": "Expiración total del lockup de 180 días",
+      "label": "Lockup total: vencimiento final del tramo de 180 días",
       "kind": "corporate",
-      "info": "HECHO: libera cualquier acción insider aún restringida tras los tramos parciales (Motley Fool/CNBC, ago-2026; investing.com, oct-2026); evento de oferta potencial más relevante antes del lockup de Musk en jun-2027."
+      "info": "HECHO (fuente secundaria especializada, no S-1 directo): libera el remanente de empleados/holders pre-IPO (~4,6B acciones en este track). Separado del track de Musk (~6,4B acciones) bloqueado hasta 12-jun-2027 sin provisión de liberación anticipada."
     }
   ],
   "sections": {
-    "resumen": "SpaceX reporta su segundo balance público el 20-oct-2026 (confirmado), lo que gatilla la mayor liberación de lockup del calendario (~28%, ~1.310M acciones) dos días después. El deal de espectro con Grain Management (US$8.000M) sigue pendiente de aprobación FCC desde el 8-oct. Starship Flight 15 (intento de captura) se reprogramó a NET 8-nov-2026. El filing del IPO reveló que xAI quemó US$6.400M en FY2025 con capex acelerando a ~US$30.800M anualizado en Q1 2026, peor que lo estimado. Evercore subió su target a US$275 (85% upside); consenso de 38 analistas en US$221 (Buy).",
-    "fundamental": "- HECHO: Q3 2026 earnings confirmado 20-oct-2026 tras cierre, webcast 16:30 ET (SpaceX IR, 16-oct-2026); despeja la incertidumbre de fecha previa.\n- HECHO: deal de espectro Grain Management (US$8.000M) sigue pendiente de aprobación FCC, sin novedad entre el 9 y 16-oct (satellitetoday.com, oct-2026).\n- HECHO: filing de IPO mostró pérdida operativa de xAI de US$6.400M en FY2025; capex Q1 2026 anualizado ~US$30.800M, por encima de lo estimado (digitalapplied.com, oct-2026).\n- HECHO: SpaceX lanzó con éxito la misión USSF-481 para Space Force el 15-oct-2026 desde Vandenberg (spaceflightnow.com).\n- LECTURA: SpaceX pidió a la FAA mayor cadencia de lanzamientos desde Texas (16-oct-2026), ambición con fricción regulatoria pendiente.",
-    "valuacion": "- HECHO: market cap entre US$2,0 y US$2,2 billones según fecha (stockanalysis.com, 15-16-oct-2026), sexta compañía más valiosa del mundo.\n- HECHO: Evercore subió target a US$275 (desde US$230) y Pivotal a US$230, citando el ángulo telco/espectro (Benzinga, 16-oct-2026).\n- LECTURA: consenso de 38 analistas en US$221,26 (Benzinga, 16-oct-2026) implica 48-85% de upside, dispersión que delata desacuerdo de tesis.\n- LECTURA: P/E no aplica por pérdidas GAAP; P/S disperso 44-69x exige que algún pilar (Starlink, IA, lanzamientos) ejecute sin fricciones.\n- HECHO: capex de xAI a ~US$30.800M anualizado presiona al alza cualquier modelo de valuación consolidado.",
-    "tecnico": "- HECHO: RSI 45,3 y MACD +2,70/señal +4,09 (TradingView, 15-oct-2026), zona neutral con histograma girando a la baja.\n- HECHO: caída diaria -2,33% y semanal -8,58%, coincidiendo con lockups de oct y espera de earnings.\n- HECHO: precio US$148,62 vs SMA20 US$155,57 (-4,47%) y SMA50 US$147,52 (+0,74%), pierde SMA20 pero se sostiene sobre SMA50.\n- HECHO: volumen 101,2M vs promedio 20d 88,5M (ratio 1,14), participación algo elevada previa a earnings.\n- LECTURA: percentil de precio 1y en 36,2 y drawdown -46,35% muestran mitad inferior del rango desde IPO, sin piso claro.",
-    "catalizadores": "**Catalizadores:**\n- Earnings Q3 2026 confirmado 20-oct-2026: primera guía con espectro y xAI consolidados un trimestre completo.\n- Resolución FCC del deal Grain Management (sin fecha, pendiente desde 8-oct-2026).\n- Starship Flight 15 (NET 8-nov-2026): primer intento de captura de nave.\n- Solicitud a la FAA de mayor cadencia desde Texas (16-oct-2026); si se aprueba, destraba throughput.\n\n**Riesgos (por materialidad):**\n- Liberación de ~28% del lockup (~1.310M acciones) el 22-oct-2026, mayor evento de oferta del calendario.\n- Capex de xAI a ~US$30.800M anualizado, muy por encima de lo estimado, con ARR bajo relativo al burn.\n- Rechazo o demora regulatoria del deal de espectro por la FCC, o litigio de AST SpaceMobile.\n- Riesgo de persona clave en Elon Musk, cuyas acciones son transferibles solo desde jun-2027.",
-    "sentimiento": "- HECHO: cobertura de analistas mayoritariamente alcista (consenso Buy, 38 analistas, target US$221, Benzinga 16-oct-2026), con upgrades de Evercore y Pivotal.\n- LECTURA: short interest verificable más reciente es del 31-ago-2026 (2,72% del float, FINRA); sin cifra de octubre, el 'short squeeze' sigue siendo LECTURA.\n- LECTURA: mercado anticipa earnings (20-oct) con 'AI bubble worries' golpeando al Nasdaq el 16-oct (TheStreet).\n- HECHO: la corrección semanal (-8,58%) ocurre con analistas subiendo targets en paralelo, divergencia que amerita cautela.\n- LECTURA: sentimiento eufórico en vísperas de evento binario es señal de alerta contrarian.",
-    "conclusion": "La tesis se mantiene triple (telco/espectro, IA, cadencia de Starship), con catalizador inmediato en el earnings del 20-oct-2026, que además destraba el mayor tramo de lockup dos días después. El dato más relevante — capex de xAI a ~US$30.800M anualizado — es una alerta fundamental que contrarresta el optimismo de analistas (Evercore US$275, consenso US$221). La caída semanal de -8,58% con targets subiendo en paralelo sugiere mercado más cauto que el research. Confianza: media-baja, por evento binario inminente y falta de visibilidad de caja consolidada."
+    "resumen": "SPCX cotiza en US$147,96 (19-oct-2026), +1,32% en el día pero -9,5% en la semana, en vísperas de su segundo earnings público (20-oct, tras cierre). El mercado espera EPS US$0,14 y revenue ~US$12,9B, con foco en rentabilidad del negocio IA (ex-xAI) y Starlink Mobile. Starship completó su primer vuelo orbital pleno el 28-sep; el próximo test (Flight 15) apunta a NET 8-nov con objetivo de captura. El acuerdo de espectro con Grain Management (~US$8B) sigue pendiente de aprobación FCC. El evento más inminente y de mayor riesgo de volatilidad es la combinación earnings (20-oct) + liberación de ~28% del lockup (~22-oct), que históricamente ha presionado el precio.",
+    "fundamental": "- Revenue TTM US$23,04B (+121,9% YoY); pérdida neta TTM ~US$8,89B, EPS -US$2,27 (stockanalysis.com, 19-oct-2026).\n- Starlink sigue siendo el motor de ingresos; xAI (fusionado feb-2026) aporta crecimiento pero con burn rate elevado (~US$6,4B quemados el año previo a IPO, TechCrunch may-2026; cifras más recientes mezclan periodos y no son verificables con precisión).\n- Grok ARR ~US$500M con meta de US$2.000M para 2026, apoyado en contratos de cómputo (ej. alquiler de capacidad Colossus a terceros) — cifra de fuente secundaria, tratar con cautela.\n- Evercore ISI modela ARR consolidado de ~US$104B saliendo de 2026 y 2,3GW de compute instalado (CNBC, 16-oct-2026).\n- Starship Flight 14 (28-sep-2026) validó capacidad orbital plena, reduciendo riesgo de ejecución técnica del programa de lanzadores de próxima generación.",
+    "valuacion": "- P/S 86x y Forward PE 93,3x: valuación de narrativa de crecimiento (IA/compute), no de comparables aeroespaciales/telecom tradicionales (stockanalysis.com, 19-oct-2026).\n- Market cap ~US$2,0 billones, con dispersión entre proveedores (US$1,95-2,01B) por timing intradía.\n- Consenso de 38 analistas marca target promedio ~US$221, ~50% de upside implícito vs precio actual — pero el rango de targets es muy amplio (US$101 a US$840 según fuente), reflejo de la dificultad de modelar una empresa sin comparables directos.\n- Evercore (US$275) y Pivotal (US$230) son los updates más recientes y alcistas, ambos ligados a catalizadores concretos (compute, espectro) más que a múltiplos.\n- Sin P/E aplicable por pérdida GAAP persistente; la tesis bull depende de que el crecimiento de revenue licue el múltiplo en 2027-2028.",
+    "tecnico": "- Caída semanal de ~9,5% (desde ~US$163 el 12-oct a US$147,96 el 19-oct) sugiere toma de utilidades/cautela previa al earnings, tras un rally fuerte desde el mínimo de agosto (US$104,83).\n- Rebote intradía reciente (+1,32%) dentro de una tendencia semanal negativa: no hay evidencia clara de piso definitivo, pero tampoco de capitulación.\n- El mercado de opciones implica un movimiento de ±7,8% post-earnings (rango US$134,64-157,42), señal de alta incertidumbre binaria de corto plazo.\n- Ausencia de histórico técnico largo (IPO hace 4 meses) limita la fiabilidad de patrones técnicos clásicos; el precio sigue dominado por eventos corporativos discretos (lockups, earnings) más que por tendencia orgánica.\n- No hay señal de sobreextensión evidente tras la corrección semanal, pero la proximidad simultánea de earnings y lockup introduce riesgo de gap en ambas direcciones.",
+    "catalizadores": "**Catalizadores:**\n- Earnings Q3 2026 (20-oct) con foco en rentabilidad de IA/compute y Starlink Mobile; sorpresa positiva podría validar targets alcistas de Evercore/Pivotal.\n- Starship Flight 15 (NET 8-nov) buscando primera captura de booster+nave Block 3, tras el éxito orbital de Flight 14.\n- Aprobación FCC del deal de espectro con Grain Management (~US$8B), que mejoraría penetración indoor de Starlink Mobile.\n- Expansión de ARR hacia la meta de ~US$104B que modela Evercore para fin de 2026.\n\n**Riesgos (por materialidad):**\n- Liberación de ~28% del float (~1.300M acciones) en torno al 22-oct, justo después del earnings: presión de oferta histórica en lockups previos (ej. 6-ago).\n- Burn rate elevado y no totalmente transparente del negocio xAI/SpaceXAI, que podría presionar márgenes consolidados.\n- Valuación exigente (P/S ~86x) sin P/E aplicable: cualquier decepción de guidance puede gatillar compresión de múltiplo severa.\n- Falta de aprobación aún pendiente del deal de espectro (riesgo regulatorio FCC) y dependencia de ejecución impecable del programa Starship.",
+    "sentimiento": "- Consenso de analistas mayoritariamente alcista (22 Strong Buy, 8 Buy, 5 Hold, 0 Sell de 38, según TipRanks/stockanalysis, 19-oct-2026), sin voces bajistas de peso reciente.\n- Dos upgrades de targets en los últimos 10 días (Evercore y Pivotal) refuerzan narrativa positiva institucional.\n- Short interest con datos contradictorios y no confirmados por fuente primaria desde el 31-ago-2026 (173,6M acciones); cifras no oficiales recientes oscilan entre 6% y 45% del float, lo que impide concluir con confianza si el posicionamiento corto subió o bajó.\n- Expectativa de mercado de opciones (±7,8%) indica que el consenso no está posicionado con alta convicción direccional de corto plazo pese al optimismo de los analistas de research.\n- Caída semanal de 9,5% previa al earnings podría reflejar 'sell the news' preventivo más que deterioro de tesis.",
+    "conclusion": "LECTURA (confianza media): SPCX entra a la semana del 20-oct con el catalizador binario más importante desde el IPO (earnings + lockup del 28% casi simultáneos), sobre una base fundamental de crecimiento real (+121,9% revenue YoY) pero valuación exigente y transparencia limitada en el burn de xAI. El consenso de analistas es alcista y los catalizadores técnicos (Starship) van en la dirección correcta, pero la combinación de oferta de acciones inminente y ausencia de P/E aplicable eleva el riesgo de volatilidad en ambas direcciones en las próximas 2 semanas. Score neutral-constructivo, no apto para apostar direccionalmente sobre el evento binario."
   },
   "scores": {
     "tecnica": {
-      "score": 44,
-      "just": "RSI neutral pero MACD perdiendo pendiente y pérdida de SMA20 en semana de caída -8,58%; sin señal de piso ni sobreextensión clara, ligero sesgo de techo por histograma girando a la baja."
+      "score": 48,
+      "just": "Corrección semanal de ~9,5% sin señal clara de piso ni de sobreextensión; opciones implican ±7,8% post-earnings. Técnico dominado por eventos discretos, no por tendencia, con historial de precios demasiado corto (4 meses) para lectura confiable."
     },
     "fundamental": {
-      "score": 55,
-      "just": "Earnings confirmado (20-oct) aporta visibilidad que antes faltaba, pero el dato nuevo de capex de xAI acelerando a ~US$30.800M anualizado es un deterioro fundamental concreto frente al ciclo anterior."
+      "score": 64,
+      "just": "Crecimiento de revenue +121,9% YoY y éxito orbital de Starship Flight 14 son sólidos, pero pérdida neta de US$8,89B y burn rate no transparente de xAI pesan sobre la calidad del negocio consolidado."
     },
     "sentimiento": {
-      "score": 32,
-      "just": "Consenso de analistas subiendo targets (Evercore US$275) justo cuando el precio cae -8,58% en la semana es divergencia de alerta; se lee en contrario por optimismo de research no confirmado por el mercado."
+      "score": 55,
+      "just": "Consenso de analistas unánimemente alcista con upgrades recientes (Evercore, Pivotal) — el optimismo generalizado sin contrapeso bajista reduce el valor contrarian de la señal; short interest no verificable añade incertidumbre."
     },
     "riesgo": {
-      "score": 38,
-      "just": "Evento binario inminente (earnings 20-oct) combinado con el mayor tramo de lockup del calendario dos días después y capex de xAI fuera de lo estimado son riesgos de pérdida permanente, no solo volatilidad de corto plazo."
+      "score": 62,
+      "just": "Riesgo elevado no por deterioro de fundamentos sino por estructura: lockup masivo coincidiendo con earnings binario, valuación sin ancla de P/E, y opacidad del burn de xAI. Riesgo de volatilidad de corto plazo, no evidencia de pérdida permanente de capital."
     },
     "conviccion": {
-      "score": 46,
-      "just": "Asimetría moderada-baja: catalizador claro y cercano (earnings), pero la sorpresa de capex de xAI reduce el margen de error y el precio ya refleja gran parte del optimismo de analistas."
+      "score": 50,
+      "just": "Asimetría moderada: upside de consenso ~50% es atractivo pero la tesis depende de un evento binario de 48 horas (earnings + lockup) con información insuficiente para apostar con alta convicción en cualquier dirección."
     }
   },
   "sources": [
-    "MarketBeat, 16-oct-2026 — SpaceX (NASDAQ:SPCX) Stock Falls 1.7%",
-    "SpaceX IR (ir.spacex.com), 16-oct-2026 — SpaceX to Post Third Quarter 2026 Results and Host Webcast on October 20, 2026",
-    "Drive Tesla Canada / EVXL.co, 16-oct-2026 — confirmación fecha earnings Q3 2026 (20-oct)",
-    "Via Satellite (satellitetoday.com), 8-oct-2026 — SpaceX Moves to Acquire Nationwide Low-Band Spectrum",
-    "Grain Management (graingp.com) / PR Newswire, 8-oct-2026 — comunicado oficial del acuerdo de espectro",
-    "keeptrack.space / X @AGTPinsights, oct-2026 — Starship Flight 15 NET 8-nov-2026, presentación CADENA filtrada",
-    "tech-insider.org, oct-2026 — Starship Flight 15 reprogramación 19-oct a 8-nov",
-    "digitalapplied.com / cryptorank.io, oct-2026 — xAI Burned $6.4B Last Year: SpaceX Filing Analysis",
-    "stockanalysisdaily.substack.com, oct-2026 — SPCX: Inside the 52% Plunge, the AI Burn Rate",
-    "Benzinga, 16-oct-2026 — Evercore ISI sube target a US$275; consenso 38 analistas US$221,26",
-    "Stocktwits, oct-2026 — Pivotal Research target US$230 por deal de espectro",
-    "purepowerpicks.com / investing.com, oct-2026 — SPCX lockup schedule, liberación 28% post-earnings",
-    "finance.yahoo.com, ago-sep-2026 — short interest 34% pico, luego colapso a 11%",
-    "FINRA (vía shortinteresttracker.com), 31-ago-2026 — short interest 2,72% del float",
-    "spaceflightnow.com, 15-oct-2026 — lanzamiento USSF-481 para Space Force",
-    "TheStreet, 16-oct-2026 — contexto macro 'AI bubble worries' Nasdaq",
-    "stockanalysis.com / companiesmarketcap.com, 15-16-oct-2026 — market cap ~US$2,0-2,2 billones"
+    "SpaceX Investor Relations (ir.spacex.com), 19-oct-2026 — confirmación fecha/hora earnings Q3 2026",
+    "TipRanks, 19-oct-2026 — consenso EPS/revenue Q3, rango implícito de opciones, consenso de analistas earnings-specific",
+    "Benzinga, 19-oct-2026 — foco del mercado para earnings Q3 (rentabilidad IA, Starlink Mobile)",
+    "stockanalysis.com, 19-oct-2026 — precio, market cap, P/S, revenue TTM, pérdida neta, acciones en circulación",
+    "CNBC, 16-oct-2026 — upgrade Evercore ISI a US$275, modelo ARR/compute 2026",
+    "Stocktwits/Coingape/Investing.com, 12-oct-2026 — upgrade Pivotal Research a US$230 por deal espectro Grain",
+    "Grain Management (graingp.com), 08-oct-2026 — anuncio acuerdo definitivo espectro 800MHz con SpaceX (~US$8B, pendiente FCC)",
+    "Satellite Today / RCR Wireless, 08-09-oct-2026 — detalles técnicos y valuación del deal de espectro",
+    "CNBC / Space.com, 28-sep-2026 — Starship Flight 14, primer vuelo orbital completo",
+    "NASASpaceFlight.com, oct-2026 — Starship Flight 15 NET 8-nov-2026, objetivos de captura Block 3",
+    "CNBC, 06-ago-2026 — mínimo histórico US$104,83 en primer lockup masivo",
+    "TechCrunch, 20-may-2026 — burn rate xAI pre-fusión (~US$6,4B)",
+    "curvedtrading.com (datos FINRA), 31-ago-2026 — último short interest confiable (173,6M acciones)",
+    "pro.stockalarm.io, consultado 19-oct-2026 — calendario de lockups post-IPO (fuente secundaria, no S-1 directo)",
+    "CNBC/TechCrunch, 12-jun-2026 — IPO: precio US$135, apertura US$150, cierre primer día US$161"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 42,
-        "just": "Sin histórico largo por ser IPO reciente (jun-2026); rango desde IPO (US$104,83-225,64) sigue siendo la única referencia, precio actual en la mitad inferior."
+        "score": 35,
+        "just": "Sin historial de múltiplos propio (IPO hace 4 meses); P/S 86x y Forward PE 93x son exigentes en términos absolutos, sin comparables directos que permitan juicio de 'barato vs su propia historia'."
       },
       "calidad": {
-        "score": 52,
-        "just": "Negocio de infraestructura con moat de costo real (Starlink, lanzamientos), pero calidad diluida aún más por el dato nuevo de capex de xAI acelerando a ~US$30.800M anualizado, peor que lo estimado en el ciclo anterior."
+        "score": 60,
+        "just": "Negocio real con crecimiento fuerte (Starlink + compute) y moat técnico defendible (reutilización de cohetes, escala de constelación), pero rentabilidad aún negativa y dependencia crítica de ejecución de Starship y del negocio IA recién fusionado."
       },
       "asimetria": {
         "score": 48,
-        "just": "Catalizador binario inminente (earnings 20-oct) ofrece asimetría táctica de corto plazo, pero el riesgo de sorpresa negativa en guidance de xAI/compute es simétrico o mayor al upside ya priceado en targets de hasta US$275."
+        "just": "Upside de consenso ~50% es relevante, pero el downside por compresión de múltiplo (sin ancla de P/E) y por dilución de lockups es igualmente significativo en el corto plazo; asimetría más balanceada que favorable a 1-2 meses."
       },
       "catalizadores": {
         "score": 62,
         "just": "Calendario muy concreto y cercano: earnings confirmado (20-oct), liberación de lockup (22-oct), Starship Flight 15 (8-nov), todos verificables en las próximas 3-4 semanas."
       },
       "contrarian": {
-        "score": 32,
-        "just": "Analistas subiendo targets (Evercore, Pivotal) mientras el precio cae -8,58% en la semana es divergencia que sugiere cautela como postura contrarian, no entusiasmo adicional."
+        "score": 30,
+        "just": "Analistas subiendo targets (Evercore, Pivotal) mientras el precio cae -9,5% en la semana es divergencia que sugiere cautela como postura contrarian, no entusiasmo adicional."
       }
     },
     "plan": {
-      "recomendacion": "Esperar gatillo",
-      "zona_compra": "US$135-145 (cerca de SMA50 ~US$147 y por debajo), evitando entrar antes de conocer el earnings del 20-oct",
-      "invalidacion": "Guidance de Q3 que muestre aceleración descontrolada del burn de xAI sin compensación de ingresos, o rechazo/demora severa de la FCC en el deal de espectro",
+      "recomendacion": "Mantener / Observar",
+      "zona_compra": "US$125-140 (si corrige tras earnings/lockup) o confirmación de guidance sólido en el reporte del 20-oct",
+      "invalidacion": "Cierre semanal bajo US$104,83 (mínimo post-IPO) o deterioro de guidance de ARR/compute vs lo modelado por Evercore",
       "gatillos": [
-        "Resultado y guidance del earnings Q3 2026 (20-oct-2026), especialmente cifras consolidadas de xAI",
-        "Comportamiento del precio tras la liberación de ~28% del lockup (22-oct-2026)",
-        "Resolución FCC del deal Grain Management",
-        "Resultado de Starship Flight 15 (intento de captura, NET 8-nov-2026)"
+        "Reacción del precio al earnings del 20-oct (revenue/EPS vs consenso US$12,9B/US$0,14)",
+        "Comportamiento del precio tras la liberación de ~28% del lockup (~22-oct): si absorbe oferta sin romper soportes, señal de fortaleza",
+        "Resultado de Starship Flight 15 (NET 8-nov): éxito de captura reduciría prima de riesgo de ejecución",
+        "Aprobación FCC del deal de espectro con Grain Management"
       ],
-      "horizonte": "táctico 2-6 semanas hasta despejar earnings, lockup post-earnings y Flight 15; revisar tesis estructural en 2027 tras lockup de Musk",
-      "tamano": "posición reducida dado perfil de alta volatilidad (vol 30d ~47%, max drawdown 1y -46%) y doble evento binario (earnings + lockup) en los próximos 10 días",
-      "confianza": "media-baja: catalizador de earnings es inminente y verificable, pero el deterioro de capex de xAI reduce el margen de error de la tesis"
+      "horizonte": "6-18 meses",
+      "tamano": "Posición pequeña-moderada (alta volatilidad event-driven; evitar sobre-concentrar antes del binario earnings+lockup)",
+      "confianza": "media"
     }
   },
-  "perfil": "SpaceX diseña y opera vehículos de lanzamiento (Falcon 9 y Starship), cápsulas Dragon, la constelación de banda ancha Starlink y la línea gubernamental Starshield; desde feb-2026 consolida además xAI. El dinero no viene del cohete sino del ancho de banda: sobre ingresos de ~$15-16 mil millones en 2025, Starlink aportó ~$11,8 mil millones con más de 10 millones de clientes en 160 mercados, mientras los lanzamientos (~82% del mercado comercial global) son la infraestructura de costo que hace viable desplegar la constelación. El segundo pilar es gubernamental: más de $22 mil millones acumulados con NASA, DoD y Space Force. Lo estructural: el moat es de costo y cadencia (reutilización más integración vertical), pero exige capex perpetuo — los satélites duran ~5 años, así que Starlink es una fábrica de reposición cuyo margen depende de que Starship abarate el kilo en órbita. Riesgos: espectro y licencias, dependencia de un cliente soberano y de su fundador, competencia de Kuiper y China, y la quema de caja de xAI.",
+  "perfil": "SpaceX diseña y opera vehículos de lanzamiento (Falcon 9 y Starship), cápsulas Dragon, la constelación de banda ancha Starlink y la línea gubernamental Starshield; desde feb-2026 consolida además el negocio de IA xAI/Grok (unidad SpaceXAI) tras una fusión 100% en acciones que valoró xAI en ~US$250 mil millones. El dinero no viene del cohete sino del ancho de banda y, cada vez más, del cómputo: Starlink sigue siendo el motor principal de ingresos (más de 10 millones de clientes en más de 160 mercados), mientras que el negocio de IA aporta crecimiento acelerado pero con quema de caja intensa y rentabilidad aún no demostrada. Starship es la apuesta estructural de largo plazo: reducir el costo marginal de lanzamiento y habilitar despliegue masivo de satélites de próxima generación. Dependencias críticas: ejecución técnica de Starship, aprobaciones regulatorias (FCC para espectro y despliegue satelital), y la capacidad de monetizar el cómputo de IA a escala. El negocio combina alta ciclicidad tecnológica con moat defendible en reutilización de cohetes y escala de constelación.",
   "technical": {
-    "price": 148.62,
-    "change_1d_pct": -2.33,
-    "change_1w_pct": -8.58,
-    "rsi": 45.3,
-    "macd": 2.7049,
-    "macd_signal": 4.0856,
-    "sma20": 155.572,
-    "sma50": 147.5228,
+    "price": 147.96,
+    "change_1d_pct": 1.32,
+    "change_1w_pct": 1.32,
+    "rsi": 45.2,
+    "macd": 0.9582,
+    "macd_signal": 3.0704,
+    "sma20": 155.0435,
+    "sma50": 148.442,
     "sma200": null,
-    "ema12": 156.745,
-    "ema26": 154.0401,
-    "pct_vs_sma20": -4.47,
-    "pct_vs_sma50": 0.74,
+    "ema12": 153.9986,
+    "ema26": 153.0404,
+    "pct_vs_sma20": -4.57,
+    "pct_vs_sma50": -0.32,
     "pct_vs_sma200": null,
-    "volume_today": 101176840,
-    "volume_avg20": 88490654.0,
-    "volume_ratio": 1.14,
-    "volatility_30d": 47.33,
-    "sharpe": 0.04,
-    "sortino": 0.05,
+    "volume_today": 73174420,
+    "volume_avg20": 91858364.0,
+    "volume_ratio": 0.8,
+    "volatility_30d": 45.97,
+    "sharpe": 0.57,
+    "sortino": 0.62,
     "max_drawdown_1y": -46.35,
-    "price_percentile_1y": 36.2,
-    "vs_benchmark_30d_pct": -1.61,
-    "perf_1m_pct": 0.12,
-    "perf_ytd_pct": -0.92
+    "price_percentile_1y": 35.7,
+    "vs_benchmark_30d_pct": -4.73,
+    "perf_1m_pct": -4.29,
+    "perf_ytd_pct": -1.36
   },
   "risk": {
-    "volatility_30d": 47.33,
-    "sharpe": 0.04,
-    "sortino": 0.05,
+    "volatility_30d": 45.97,
+    "sharpe": 0.57,
+    "sortino": 0.62,
     "max_drawdown_1y": -46.35,
-    "n_days": 79,
+    "n_days": 83,
     "window": 30
   },
   "benchmark": {
     "ticker": "SP:SPX",
     "label": "S&P 500",
-    "relative_performance_30d": -1.61,
-    "relative_performance_ytd": -13.51,
-    "price_percentile_1y": 36.2,
+    "relative_performance_30d": -4.73,
+    "relative_performance_ytd": -13.17,
+    "price_percentile_1y": 35.7,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:29:43-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:29:43-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:29:43-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "SP:SPX",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:29:43-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/SPCX.json",
-      "n_days": 79
+      "n_days": 83
     }
   },
   "metricChanges": [
@@ -241,12 +240,10 @@
   ],
   "trend": {
     "piso": 0,
-    "techo": 1,
+    "techo": 0,
     "max": 7,
     "senales_piso": [],
-    "senales_techo": [
-      "histograma MACD girando a la baja"
-    ]
+    "senales_techo": []
   },
-  "reportDate": "14 de octubre de 2026"
+  "reportDate": "16 de octubre de 2026"
 }

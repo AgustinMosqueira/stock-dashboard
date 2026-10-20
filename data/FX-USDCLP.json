@@ -5,95 +5,95 @@
   "statsList": [
     [
       "Precio",
-      "983,97 (cierre 16-oct-2026, Infobae/Dow Jones)"
+      "981,27 (cierre 19-oct-2026, Investing.com sesión Santiago; converge con TradingEconomics 981,12 y BCCh dólar observado 981,65)"
     ],
     [
       "Rango 120 días",
-      "922,96 - 995,00; reciente 967,79-987,03 (7-15 oct-2026)"
+      "~884 - 987,03; mínimo ~883-886 (16-18-jun-2026, confiabilidad media, agregadores); máximo 987,03 (15-oct-2026, BCCh); reciente 980,7-987,0 (13-19-oct-2026)"
     ],
     [
       "TPM Chile / Fed",
-      "4,50% BCCh (RPM 08-sep, mantención unánime, bcentral.cl) vs 3,75%-4,00% Fed; próxima RPM BCCh 26-27-oct-2026 (comunicado 18:00 Chile, bcentral.cl); FOMC 27-28-oct-2026 con probabilidades disputadas tras inflación de sep. en 3,7% a/a (vs 3,4% previo): hold ~58-66% vs alza 25pb ~34-42% (CME FedWatch/Kalshi, fuentes divergen 14-16-oct-2026) — riesgo de sorpresa hawkish mayor que hace una semana"
+      "4,50% BCCh (RPM 08-sep-2026, mantención unánime, bcentral.cl) vs 3,75%-4,00% Fed (FOMC 16-sep-2026); próxima RPM BCCh 26-27-oct-2026, comunicado 18:00 Chile (bcentral.cl, pendiente); FOMC 27-28-oct-2026, decisión 28-oct 14:00 ET (pendiente); Encuesta de Expectativas Económicas BCCh (13-oct-2026) proyecta mantención en 4,50%; mercado de futuros EE.UU. sigue dividido entre mantención y alza de 25pb tras IPC de sep. en 3,7% a/a"
     ],
     [
       "Cobre",
-      "US$6,62/lb (LME 3M ≈US$14.595-14.619/ton, +0,39% a +1,3% d/d según fuente) cierre 16-oct-2026, soportado por debilidad del USD y preocupaciones de oferta en Chile (redimin.cl, portalinnova.cl, 16-oct-2026); dato del mismo día del informe, sin advertencia de desactualización"
+      "⚠️ Dato de cobre desactualizado (último cierre oficial LME confirmado: US$14.485/ton ≈ US$6,57/lb del viernes 16-oct-2026, hace ~72 horas) — cotización en vivo Kitco del 19-oct 21:16h NY mostraba US$6,5656/lb (-0,39%), pero no se confirmó cierre oficial LME del propio lunes; verificar cotización intradía antes de usar este informe para decisiones"
     ],
     [
       "Posicionamiento",
-      "no aplica COT (CFTC); proxy SIID/BCCh: informe mensual de derivados no confirmado para septiembre/octubre-2026 (bcentral.cl/siid.cl, 16-oct-2026); último dato disponible es julio-2026: posición bruta no residentes US$228.105M, con posición neta vendedora de US$20.297M en NDF USD/CLP — verificar directamente en siid.cl"
+      "no aplica COT (CFTC); proxy SIID/BCCh (siid.cl): dato diario de no residentes al 15-oct-2026: posición neta vendedora de USD de -27.131,35 millones (corta/apuesta a depreciación del peso), vs residentes no bancarios +31.748,96 MM USD; informe mensual PDF más reciente de bcentral.cl sigue siendo mayo-2026"
     ],
     [
       "Próximo evento",
-      "RPM BCCh 26-27-oct-2026 (comunicado 18:00 Chile); FOMC 27-28-oct-2026, decisión 28-oct 14:00 ET (~15:00 hora Chile)"
+      "RPM BCCh 26-27-oct-2026 (comunicado 18:00 hora Chile); FOMC 27-28-oct-2026, decisión 28-oct 14:00 ET (~15:00 hora Chile) — ambos pendientes a la fecha de este informe"
     ]
   ],
   "change": {
-    "day": 0.28,
-    "week": 0.73
+    "day": -0.36,
+    "week": 0.45
   },
   "events": [
     {
       "date": "2026-10-27",
-      "label": "RPM Banco Central de Chile (decisión TPM)",
+      "label": "Reunión de Política Monetaria BCCh",
       "kind": "macro",
       "time": "18:00",
-      "info": "Reunión de Política Monetaria 26-27-oct-2026; comunicado a las 18:00 hora Chile el 27-oct. TPM actual 4,50% tras mantención unánime en RPM del 08-sep-2026 (bcentral.cl). HECHO: calendario oficial confirma la fecha (bcentral.cl, Calendario RPM 2026)."
+      "info": "HECHO: RPM 26-27-oct-2026, comunicado 18:00 hora Chile el 27-oct (bcentral.cl, calendario RPM 2026, pendiente a la fecha). TPM actual 4,50% tras mantención unánime en RPM del 08-sep-2026. LECTURA: Encuesta de Expectativas Económicas del BCCh (13-oct-2026) proyecta mantención, con primer recorte recién en el horizonte de varios meses."
     },
     {
       "date": "2026-10-28",
       "label": "Reunión del FOMC (decisión de tasas)",
       "kind": "macro",
       "time": "15:00",
-      "info": "Decisión 27-28-oct-2026, anuncio 28-oct 14:00 ET. HECHO: inflación de septiembre sorprendió al alza (3,7% a/a vs 3,4% previo, con precios al productor muy por sobre lo esperado), elevando la probabilidad de un alza de 25pb a un rango ~34-44% según distintas fuentes (CME FedWatch, Kalshi, 14-16-oct-2026), mientras el caso base de bancos como J.P. Morgan sigue siendo mantención. LECTURA: probabilidades más disputadas y volátiles que la semana previa; mayor riesgo de sorpresa hawkish que podría fortalecer al USD frente al CLP."
+      "info": "HECHO: decisión 27-28-oct-2026, anuncio 28-oct 14:00 ET (~15:00 hora Chile), pendiente a la fecha. LECTURA: probabilidades de mercado siguen dando mayor peso a la mantención (rango ~83-87% según coberturas de CME FedWatch citadas por medios, con ~13-17% de alza de 25pb), tras la sorpresa inflacionaria de septiembre (IPC 3,7% a/a vs 3,4% previo) que elevó el riesgo de un tono más hawkish frente a la semana anterior."
     },
     {
       "date": "2026-10-23",
       "label": "Informe mensual SIID (derivados no residentes)",
       "kind": "macro",
-      "info": "LECTURA: publicación habitual el día 23 de cada mes; a la fecha de este informe no se confirmó la edición de septiembre/octubre-2026 en fuentes públicas (bcentral.cl/siid.cl, 16-oct-2026). Verificar directamente en siid.cl."
+      "info": "LECTURA: publicación habitual en torno al día 23 de cada mes; el dato diario en siid.cl ya llega al 15-oct-2026 (posición neta no residentes -27.131,35 MM USD), pero el informe mensual en PDF de bcentral.cl no se ha actualizado desde mayo-2026. Verificar directamente en siid.cl/bcentral.cl."
     }
   ],
   "customSections": [
     {
       "title": "Resumen ejecutivo",
       "nav": "Resumen",
-      "body": "HECHO: USD/CLP cerró en 983,97 el 16-oct-2026 (+0,28% d/d, +0,73% semanal; Infobae/Dow Jones), en rango reciente 968-987, lejos del máximo de 120 días (995,00). LECTURA: el par se mantiene firme pese al cobre al alza (~US$6,62/lb) y al DXY que retrocedió desde su máximo de 18 meses (102,94 el 14-oct) a ~101,8-102,0, señal de que la incertidumbre Fed pesa más que los términos de intercambio. HECHO: la inflación de EE.UU. de septiembre sorprendió al alza (3,7% a/a), elevando el riesgo de alza de tasas en el FOMC del 27-28-oct justo antes de la RPM del BCCh (26-27-oct)."
+      "body": "HECHO: USD/CLP cerró en 981,27 el 19-oct-2026 (-0,36% d/d; Investing.com, converge con TradingEconomics y BCCh), con variación semanal de +0,45% frente al 12-oct. El par retrocedió desde el máximo reciente de 987,03 (15-oct). LECTURA: la caída del lunes se explica más por debilidad global del dólar que por fundamentos locales, ya que ese mismo día el cobre también cayó (desacople puntual de la correlación inversa habitual). HECHO: semana crítica por delante con RPM BCCh (26-27-oct) y FOMC (27-28-oct) aún pendientes, ambos con expectativa de mercado inclinada a mantención de tasas en sus niveles actuales (4,50% y 3,75%-4,00% respectivamente)."
     },
     {
       "title": "Diferencial de tasas y política monetaria",
       "nav": "Tasas",
-      "body": "HECHO: TPM BCCh en 4,50% desde RPM del 08-sep-2026 (mantención unánime, bcentral.cl); próxima RPM 26-27-oct, comunicado 18:00 hora Chile. HECHO: Fed en 3,75%-4,00%; inflación de septiembre subió a 3,7% a/a (vs 3,4% previo), con precios al productor sobre lo esperado, dando a varios miembros de la Fed tono más hawkish hacia el FOMC del 27-28-oct (Yahoo Finance, US News, 14-oct-2026). LECTURA: probabilidades muy dispersas, de ~66% mantención (CME FedWatch, 14-oct) a ~34-44% de alza de 25pb — mayor incertidumbre que el ciclo anterior; sorpresa hawkish ampliaría el diferencial a favor del USD."
+      "body": "HECHO: TPM BCCh en 4,50% desde RPM del 08-sep-2026 (mantención unánime, bcentral.cl); próxima RPM 26-27-oct, comunicado 18:00 hora Chile, aún pendiente. HECHO: Fed en 3,75%-4,00% desde FOMC del 16-sep-2026; inflación de septiembre en EE.UU. subió a 3,7% a/a (vs 3,4% previo), dando tono más hawkish a varios miembros de la Fed hacia el FOMC del 27-28-oct. LECTURA: Encuesta de Expectativas Económicas BCCh (13-oct) proyecta mantención local; para la Fed el mercado sigue inclinado a mantención (~83-87% según coberturas de CME FedWatch) pero con probabilidad de alza de 25pb más alta que antes de la sorpresa inflacionaria."
     },
     {
       "title": "Balanza de pagos y flujos",
-      "nav": "Balanza",
-      "body": "HECHO: superávit comercial de Chile ene-sep-2026 alcanzó US$25.721 millones (+69,1% a/a), el más alto para ese período en los registros, con superávit mensual de septiembre de US$2.047 millones (vtmarkets.com, nuevopoder.cl, oct-2026). HECHO: exportaciones de cobre de septiembre sumaron US$5.971 millones (+14% a/a), 56,4% del total; exportaciones totales de bienes ene-sep alcanzaron US$93.837 millones (+18,5% a/a) (rumbominero.com, chilepaisminero.com, oct-2026). LECTURA: el flujo comercial sigue siendo viento de cola estructural para el CLP vía cuenta corriente, presionando el par a la baja en el margen."
+      "nav": "Flujos",
+      "body": "HECHO: superávit comercial de Chile ene-sep-2026 alcanzó US$25.721 millones (+69,1% a/a), el más alto para ese período en los registros, con superávit mensual de septiembre de US$2.047 millones. HECHO: exportaciones de cobre de septiembre sumaron US$5.971 millones (+14% a/a), 56,4% del total exportado; exportaciones totales de bienes ene-sep alcanzaron US$93.837 millones (+18,5% a/a). LECTURA: el flujo comercial sigue siendo viento de cola estructural para el CLP vía cuenta corriente, presionando el par a la baja en el margen, pese al repunte puntual de esta semana."
     },
     {
       "title": "Posicionamiento",
       "nav": "Posicionamiento",
-      "body": "HECHO: no aplica COT de la CFTC para USD/CLP; proxy usado es el informe SIID del BCCh sobre derivados (forwards NDF) con no residentes. HECHO: la edición sep/oct-2026 no está confirmada a esta fecha; último reporte disponible es julio-2026, con posición bruta de no residentes de US$228.105 millones y posición neta vendedora de US$20.297 millones en NDF USD/CLP (bcentral.cl/siid.cl, oct-2026). LECTURA: con datos de dos meses, el posicionamiento es la variable de mayor incertidumbre; la posición neta vendedora en USD de julio respalda al peso, pero debe verificarse en siid.cl."
+      "body": "HECHO: no aplica COT de la CFTC para USD/CLP; el proxy usado es el informe SIID del BCCh sobre derivados (forwards/NDF) con no residentes, publicado en siid.cl. HECHO: el dato diario más reciente (15-oct-2026) muestra posición neta de no residentes de -27.131,35 millones de USD (corta en USD, apuesta a depreciación del peso), contrarrestada por residentes no bancarios con +31.748,96 MM USD; esto actualiza el dato previo de julio-2026. LECTURA: el informe mensual en PDF de bcentral.cl sigue sin actualizarse desde mayo-2026, por lo que para análisis de tendencia de mediano plazo aún hay una brecha de información que debe verificarse directamente en siid.cl."
     },
     {
       "title": "Análisis técnico",
       "nav": "Técnico",
-      "body": "HECHO: precio 983,58, RSI 66,1 y MACD +11,44/señal +11,73 (TradingView, 15-oct-2026), zona alcista sin sobrecompra extrema. HECHO: cotiza 1,31% sobre SMA20, 4,31% sobre SMA50 y 8,04% sobre SMA200, con percentil de precio de 95,4% en 12 meses. LECTURA: tendencia alcista sostenida, techo plano bajo el máximo anual (995,00), sin señales claras de piso técnico — ver 'trend' para el detalle cuantitativo."
+      "body": "HECHO: el par retrocedió desde el máximo de 120 días de 987,03 (15-oct) a 981,27 (19-oct), manteniéndose en la parte alta del rango reciente (980,7-987,0). LECTURA: la estructura de corto plazo sigue siendo de techo plano bajo el máximo anual, sin ruptura clara hacia ningún lado; el nivel de 980 actúa como piso técnico inmediato y 987 como resistencia de corto plazo, con el percentil de precio aún elevado en el último año — ver 'trend' para el detalle cuantitativo heredado de la sesión del 15-oct."
     },
     {
       "title": "Intervención y riesgo de banco central",
       "nav": "Intervención",
-      "body": "HECHO: el BCCh mantiene flotación libre desde septiembre de 1999, sin programa de intervención activo a la fecha; se reserva intervenir solo en circunstancias excepcionales que arriesguen el funcionamiento de los mercados financieros, no por un nivel fijo (bcentral.cl, Documentos de Política Económica N°72). LECTURA: los antecedentes de 2019 (USD 20.000M) y 2022 (USD 25.000M) confirman que el gatillo es volatilidad excesiva, no un nivel; el actual (~984) está lejos de los máximos de 2022 (~1.050) y del techo de 120 días (995), por lo que el riesgo de intervención es bajo pero no nulo si se acelera hacia ese techo."
+      "body": "HECHO: el BCCh mantiene flotación libre desde septiembre de 1999, sin programa de intervención cambiaria activo ni anunciado en 2026 (bcentral.cl, calendario de intervención cambiaria histórico solo muestra los programas de nov-2019 y mayo-2020). HECHO: no se encontraron declaraciones de la presidenta Rosanna Costa ni de otros consejeros en 2026 que mencionen específicamente el nivel del tipo de cambio o riesgo de intervención (su declaración del 28-sep-2026 se centró en el escenario externo, sin referencia al TCN). LECTURA: el nivel actual (~981) está lejos del máximo de 120 días (987) y de los niveles de 2022 (~1.050) que gatillaron el último programa, por lo que el riesgo de intervención sigue siendo bajo pero no nulo si el par se acelerara hacia nuevos máximos."
     },
     {
       "title": "Correlaciones macro",
       "nav": "Correlaciones",
-      "body": "HECHO: DXY retrocedió a ~101,8-102,0 el 16-oct-2026 (-0,54% a -0,75% d/d), tras tocar un máximo de 18 meses de 102,94 el 14-oct (fxstreet.com, tradingeconomics.com, 16-oct-2026). HECHO: cobre LME cerró el 16-oct en torno a US$6,62/lb (≈US$14.595-14.619/ton), con alza semanal apoyada por la debilidad del dólar y riesgos de oferta en Chile (redimin.cl, portalinnova.cl, 16-oct-2026). LECTURA: la correlación típica USD/CLP-cobre es negativa (-0,6 a -0,8); esta semana ambos canales deberían apreciar al CLP, pero el par se mantuvo estable, señal de demanda de cobertura en USD por incertidumbre del FOMC."
+      "body": "HECHO: el DXY cerró en 102,59 el 12-oct-2026, con movimiento lateral-alcista hacia la semana del 19-oct. HECHO: el 19-oct el cobre cayó (según prensa local, entre -0,7% y -1,2% d/d) y el CLP se apreció en simultáneo (-0,36% del par), un desacople explícito de la correlación inversa típica documentado por medios financieros chilenos ('el peso gana tracción a pesar de la caída del cobre'). LECTURA: en días previos (ej. 15-oct) sí se observó la correlación inversa habitual cobre-CLP; el desacople del lunes 19-oct parece puntual y ligado a flujos globales de debilidad del dólar más que a un cambio de régimen de correlación."
     },
     {
       "title": "Conclusión",
       "nav": "Conclusión",
-      "body": "LECTURA: semana de alta densidad de eventos (RPM BCCh y FOMC, 26-28 oct) con probabilidades Fed más disputadas tras la sorpresa inflacionaria de septiembre (3,7% a/a), elevando el riesgo hawkish para el USD. HECHO: fundamentals de balanza comercial (superávit récord por cobre) siguen favorables al CLP, y el DXY retrocedió desde máximos de 18 meses, pero el par se sostiene firme cerca de 984 por la prima de incertidumbre pre-FOMC. LECTURA: sesgo neutral, con inclinación al USD en el muy corto plazo si la Fed sorprende con alza; si no, la asimetría de mediano plazo favorece al CLP por el cobre fuerte y el superávit."
+      "body": "LECTURA: semana de alta densidad de eventos (RPM BCCh y FOMC, 26-28-oct) aún pendientes, con el mercado inclinado a mantención en ambos bancos centrales pero con probabilidad de sorpresa hawkish de la Fed algo mayor tras el IPC de septiembre. HECHO: fundamentals de balanza comercial (superávit récord por cobre) siguen favorables al CLP, y el posicionamiento de no residentes al 15-oct sigue corto en USD. LECTURA: sesgo neutral a ligeramente favorable al CLP en el mediano plazo, con riesgo de volatilidad de corto plazo concentrado en el desenlace del FOMC y la RPM de esta semana."
     }
   ],
   "scoreIndex": 8,
@@ -126,140 +126,144 @@
   ],
   "scores": {
     "tasas": {
-      "score": 58,
-      "just": "HECHO: inflación de septiembre en EE.UU. sorprendió al alza (3,7% a/a) y elevó la probabilidad de un alza de 25pb en el FOMC del 27-28-oct a un rango ~34-44% según fuentes (CME FedWatch/Kalshi, 14-16-oct-2026), mientras el BCCh mantiene 4,50% sin señales de cambio inminente. LECTURA: riesgo de que el diferencial de tasas se amplíe a favor del USD, score moderadamente positivo para el USD por la mayor probabilidad relativa de sorpresa hawkish de la Fed frente al BCCh."
+      "score": 55,
+      "just": "HECHO: Fed en 3,75%-4,00% con probabilidad de mercado inclinada a mantención (~83-87%) en el FOMC del 27-28-oct, pero con riesgo de alza de 25pb más alto que antes de la sorpresa inflacionaria de septiembre (IPC 3,7% a/a); BCCh en 4,50% con expectativa de mantención según encuesta del 13-oct. LECTURA: diferencial de tasas sin cambios inminentes confirmados, score levemente positivo para el USD por el riesgo residual de sorpresa hawkish de la Fed."
     },
     "macro": {
-      "score": 30,
-      "just": "HECHO: superávit comercial chileno récord (+69,1% a/a acumulado ene-sep-2026) impulsado por exportaciones de cobre (+14% a/a en sep.) (rumbominero.com, nuevopoder.cl, oct-2026). LECTURA: fundamentals de cuenta corriente siguen favoreciendo claramente al CLP (negativo para USD/CLP), score bajo para el USD."
+      "score": 32,
+      "just": "HECHO: superávit comercial chileno récord (+69,1% a/a acumulado ene-sep-2026) impulsado por exportaciones de cobre (+14% a/a en sep.). LECTURA: fundamentals de cuenta corriente siguen favoreciendo claramente al CLP (negativo para USD/CLP), score bajo para el USD."
     },
     "tecnico": {
-      "score": 68,
-      "just": "HECHO: RSI 66,1, precio 8,04% sobre SMA200 y percentil 95,4% en 12 meses (TradingView, 15-oct-2026). LECTURA: tendencia técnica favorable al USD en el muy corto plazo, aunque con techo plano que limita el upside sin nuevo catalizador."
+      "score": 58,
+      "just": "HECHO: el par retrocedió de 987,03 (15-oct) a 981,27 (19-oct), manteniéndose en la parte alta del rango de 120 días pero sin romper resistencia. LECTURA: estructura técnica aún con sesgo levemente favorable al USD por el nivel elevado en términos históricos recientes, pero menos fuerte que la semana previa tras el retroceso del lunes."
     },
     "posicionamiento": {
-      "score": 48,
-      "just": "HECHO: no aplica COT; proxy SIID sin dato confirmado reciente (último disponible: jul-2026, posición neta vendedora de no residentes de US$20.297M en NDF, bcentral.cl/siid.cl). LECTURA: dato de julio apunta a flujos que respaldan al CLP, pero con dos meses de antigüedad se asigna score ligeramente bajo neutral por la combinación de señal débilmente negativa para el USD e incertidumbre de datos."
+      "score": 45,
+      "just": "HECHO: no aplica COT; proxy SIID actualizado al 15-oct-2026 muestra posición neta de no residentes de -27.131,35 MM USD (corta en USD/apuesta a depreciación del peso). LECTURA: señal moderadamente negativa para el USD, con dato ahora más fresco que el de julio usado previamente; score bajo-neutral para el USD."
     },
     "intervencion": {
       "score": 55,
-      "just": "HECHO: sin programa de intervención activo del BCCh anunciado a la fecha; régimen de flotación libre desde 1999, con intervención reservada solo a circunstancias excepcionales (bcentral.cl, Documentos de Política Económica N°72). LECTURA: riesgo de intervención bajo pero no nulo si el par se acerca al techo del rango de 120 días (~995); score ligeramente por sobre neutral para el USD dado que el techo aún no gatilla acción del BCCh."
+      "just": "HECHO: sin programa de intervención activo ni declaraciones de autoridades del BCCh sobre el nivel del tipo de cambio en 2026; régimen de flotación libre desde 1999. LECTURA: riesgo de intervención bajo pero no nulo si el par se acercara a nuevos máximos; score ligeramente por sobre neutral para el USD dado que el nivel actual no gatilla acción del BCCh."
     }
   },
   "sources": [
-    "bcentral.cl (Calendario RPM/RPF 2026, comunicados RPM, Documentos de Política Económica N°72)",
-    "CME FedWatch Tool / Kalshi / predictionmarketspicks.com (probabilidades FOMC, 14-16-oct-2026)",
-    "Yahoo Finance / US News / Chase.com (inflación de septiembre y tono hawkish de la Fed, 14-oct-2026)",
-    "tradingeconomics.com / fxstreet.com (DXY, 16-oct-2026)",
-    "redimin.cl / rumbominero.com / chilepaisminero.com / portalinnova.cl (precio cobre, balanza comercial, oct-2026)",
-    "vtmarkets.com / nuevopoder.cl (balanza comercial Chile, oct-2026)",
-    "siid.cl / bcentral.cl (informe derivados no residentes, julio-2026)",
-    "TradingView/Vantage (precio, RSI, MACD, SMAs, 15-oct-2026)",
-    "Infobae / Bloomberg Línea (spot USD/CLP cierre 16-oct-2026)"
+    "Investing.com (investing.com/currencies/usd-clp-historical-data) — cierre USD/CLP 981,27 el 19-oct-2026, histórico semanal",
+    "TradingEconomics (tradingeconomics.com/chile/currency) — cierre USD/CLP 981,12 el 19-oct-2026",
+    "Banco Central de Chile (si3.bcentral.cl, serie F073.TCO.PRE.Z.D) — dólar observado 981,65 publicado 19-oct-2026 (refleja operaciones 16-oct)",
+    "Bloomberg Línea (bloomberglinea.com/quote/USDCLP:CUR) — 980,72, -0,40% d/d, 19-oct-2026 18:55h",
+    "Diario Financiero (df.cl/mercados/bolsa-monedas/dolar-hoy-fhk42) — cierre ~981,1, 19-oct-2026",
+    "bcentral.cl (Calendario RPM 2026, comunicado RPM sep-2026, Encuesta de Expectativas Económicas 13-oct-2026) — TPM Chile y calendario RPM",
+    "federalreserve.gov (FOMC calendars, comunicado sep-2026) — Fed funds rate y calendario FOMC",
+    "Kitco (kitco.com/price/base-metals/copper) — cobre US$6,5656/lb en vivo, 19-oct-2026 21:16h NY",
+    "mining.com / LME — cierre oficial cobre 3M US$14.485/ton, 16-oct-2026",
+    "siid.cl / bcentral.cl — posicionamiento no residentes en derivados USD/CLP, dato diario 15-oct-2026",
+    "Investing.com (investing.com/indices/usdollar-historical-data) — DXY 102,59 cierre 12-oct-2026",
+    "Diario Financiero / FXStreet.es — desacople cobre-CLP y flujos globales, 19-oct-2026",
+    "Diario Financiero (28-sep-2026) — declaración presidenta BCCh Rosanna Costa sobre escenario externo"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 62,
-        "just": "HECHO: percentil de precio 95,4% en 12 meses, cerca de máximos de 120 días (TradingView, 15-oct-2026). LECTURA: el USD sigue relativamente caro contra el CLP en términos históricos recientes, lo que reduce el atractivo de comprar USD en este nivel."
+        "score": 58,
+        "just": "HECHO: el par retrocedió desde el máximo de 120 días (987,03, 15-oct) a 981,27 (19-oct), aún en la parte alta del rango reciente. LECTURA: el USD sigue relativamente caro contra el CLP en términos históricos recientes, aunque algo menos que la semana previa, lo que mantiene acotado el atractivo de comprar USD en este nivel."
       },
       "calidad": {
-        "score": 58,
-        "just": "LECTURA: 'calidad' en un par FX remite a la solidez macro relativa; EE.UU. enfrenta una sorpresa inflacionaria que complica la narrativa de desinflación (HECHO: IPC sep. 3,7% a/a), mientras Chile muestra superávit comercial récord, lo que da un balance ligeramente desfavorable para la calidad del régimen macro del USD en el margen."
+        "score": 55,
+        "just": "LECTURA: 'calidad' remite a la solidez macro relativa; EE.UU. enfrenta una sorpresa inflacionaria que complica la narrativa de desinflación (HECHO: IPC sep. 3,7% a/a), mientras Chile muestra superávit comercial récord, dando un balance ligeramente desfavorable para la calidad del régimen macro del USD en el margen."
       },
       "asimetria": {
         "score": 45,
-        "just": "LECTURA: con cobre firme, superávit comercial récord y DXY retrocediendo desde máximos, la asimetría de riesgo de mediano plazo sigue favoreciendo una corrección del par a la baja, pero el riesgo de sorpresa hawkish de la Fed en el FOMC de esta semana genera asimetría de corto plazo al alza del USD."
+        "just": "LECTURA: con cobre aún firme en términos históricos, superávit comercial récord y posicionamiento no residente corto en USD, la asimetría de mediano plazo sigue favoreciendo una corrección del par a la baja, pero el riesgo de sorpresa hawkish de la Fed en el FOMC de esta semana genera asimetría de corto plazo al alza del USD."
       },
       "catalizadores": {
-        "score": 75,
-        "just": "HECHO: semana con dos catalizadores de alto impacto confirmados — RPM BCCh 26-27-oct y FOMC 27-28-oct, este último con probabilidades de resultado más disputadas que de costumbre tras el dato de inflación de septiembre (bcentral.cl; CME FedWatch/Kalshi, 14-16-oct-2026). LECTURA: alta densidad de eventos y mayor incertidumbre sobre el desenlace eleva el score de catalizadores."
+        "score": 78,
+        "just": "HECHO: semana con dos catalizadores de alto impacto confirmados y aún pendientes — RPM BCCh 26-27-oct y FOMC 27-28-oct, ambos con comunicados que definirán el diferencial de tasas de cara a noviembre. LECTURA: alta densidad de eventos en los próximos días eleva fuertemente el score de catalizadores."
       },
       "contrarian": {
         "score": 48,
-        "just": "LECTURA: el mercado está dividido entre mantención y alza de la Fed; una señal contrarian relevante sería que el BCCh adelante un tono más hawkish de lo esperado en su comunicado del 27-oct ante el riesgo de una Fed más agresiva, lo que fortalecería al CLP pese al ruido externo."
+        "just": "LECTURA: el mercado sigue inclinado a mantención en ambos bancos centrales; una señal contrarian relevante sería que el BCCh adelante un tono más hawkish de lo esperado en su comunicado del 27-oct ante el riesgo de una Fed más agresiva, lo que fortalecería al CLP pese al ruido externo del desacople cobre-CLP visto el lunes."
       }
     },
     "plan": {
       "recomendacion": "Esperar gatillo",
-      "zona_compra": "975-985 para largos tácticos de USD; 990-995 para cortos tácticos de USD/CLP",
+      "zona_compra": "975-983 para largos tácticos de USD; 987-995 para cortos tácticos de USD/CLP",
       "invalidacion": "Cierre diario sobre 995 (techo del rango de 120 días) o comunicado BCCh marcadamente dovish",
       "gatillos": [
         "Comunicado RPM BCCh 27-oct-2026 18:00 hora Chile",
-        "Decisión FOMC 28-oct-2026 14:00 ET (resultado disputado: hold vs alza 25pb)",
-        "Publicación informe SIID (si se confirma edición sep/oct-2026)",
+        "Decisión FOMC 28-oct-2026 14:00 ET",
+        "Actualización del informe mensual SIID (si se confirma edición sep/oct-2026)",
         "Cobre LME rompiendo US$6,70/lb o cayendo bajo US$6,40/lb"
       ],
       "horizonte": "2-4 semanas (táctico, en torno a los eventos de fin de octubre)",
-      "tamano": "Posición reducida dado el empate de catalizadores, la mayor incertidumbre sobre el FOMC y la falta de datos SIID actualizados",
+      "tamano": "Posición reducida dado el empate de catalizadores entre RPM BCCh y FOMC, y la falta de informe mensual SIID actualizado",
       "confianza": "media"
     }
   },
   "perfil": "El par expresa cuántos pesos chilenos se entregan por un dólar: comprarlo es comprar dólares y vender pesos, así que un alza es depreciación del CLP. Su nivel responde a tres fuerzas: el diferencial entre la TPM del Banco Central de Chile y la tasa de la Fed, los términos de intercambio y el ciclo global del dólar. El canal dominante es el cobre: representa cerca de la mitad de las exportaciones chilenas y Chile aporta un cuarto de la producción mundial, por lo que la correlación del par con el metal es negativa y habitualmente entre -0,6 y -0,8 — el peso opera como proxy líquido del cobre y del ciclo chino. Los actores que mueven el mercado son el BCCh (flotación libre desde 1999, pero con intervenciones explícitas de USD 20.000 y 25.000 millones en 2019 y 2022), las AFP con sus cambios de cobertura cambiaria, los exportadores mineros y la banca offshore vía NDF. Qué considerar siempre: es de las monedas emergentes más volátiles (10-15% anualizado), el riesgo de intervención es real y asimétrico —suele gatillarse por volatilidad excesiva, no por un nivel—, y la liquidez local se concentra entre las 9:00 y 13:30 de Chile.",
   "technical": {
-    "price": 983.58,
-    "change_1d_pct": -0.08,
-    "change_1w_pct": 0.45,
-    "rsi": 66.1,
-    "macd": 11.4357,
-    "macd_signal": 11.7331,
-    "sma20": 970.819,
-    "sma50": 942.9176,
-    "sma200": 910.3708,
-    "ema12": 977.0372,
-    "ema26": 965.6015,
-    "pct_vs_sma20": 1.31,
-    "pct_vs_sma50": 4.31,
-    "pct_vs_sma200": 8.04,
-    "volume_today": 2618,
-    "volume_avg20": 2502.0,
-    "volume_ratio": 1.05,
-    "volatility_30d": 10.78,
-    "sharpe": 5.99,
-    "sortino": 5.67,
-    "max_drawdown_1y": -11.8,
-    "price_percentile_1y": 95.4,
-    "vs_benchmark_30d_pct": 0.77,
-    "perf_1m_pct": 3.14,
-    "perf_ytd_pct": 9.68
+    "price": 981.24,
+    "change_1d_pct": -0.22,
+    "change_1w_pct": -0.24,
+    "rsi": 63.4,
+    "macd": 10.5332,
+    "macd_signal": 11.3916,
+    "sma20": 973.485,
+    "sma50": 945.677,
+    "sma200": 911.0608,
+    "ema12": 978.516,
+    "ema26": 967.9827,
+    "pct_vs_sma20": 0.8,
+    "pct_vs_sma50": 3.76,
+    "pct_vs_sma200": 7.7,
+    "volume_today": 3232,
+    "volume_avg20": 2537.0,
+    "volume_ratio": 1.27,
+    "volatility_30d": 9.45,
+    "sharpe": 2.56,
+    "sortino": 2.24,
+    "max_drawdown_1y": -11.51,
+    "price_percentile_1y": 93.8,
+    "vs_benchmark_30d_pct": 0.9,
+    "perf_1m_pct": 2.64,
+    "perf_ytd_pct": 9.42
   },
   "risk": {
-    "volatility_30d": 10.78,
-    "sharpe": 5.99,
-    "sortino": 5.67,
-    "max_drawdown_1y": -11.8,
-    "n_days": 345,
+    "volatility_30d": 9.45,
+    "sharpe": 2.56,
+    "sortino": 2.24,
+    "max_drawdown_1y": -11.51,
+    "n_days": 349,
     "window": 30
   },
   "benchmark": {
     "ticker": "TVC:DXY",
     "label": "DXY",
-    "relative_performance_30d": 0.77,
-    "relative_performance_ytd": 5.79,
-    "price_percentile_1y": 95.4,
+    "relative_performance_30d": 0.9,
+    "relative_performance_ytd": 5.61,
+    "price_percentile_1y": 93.8,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:29:43-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:29:43-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:29:43-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "TVC:DXY",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:29:43-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/FX-USDCLP.json",
-      "n_days": 345
+      "n_days": 349
     }
   },
   "metricChanges": [
@@ -287,12 +291,13 @@
   ],
   "trend": {
     "piso": 0,
-    "techo": 1,
+    "techo": 2,
     "max": 7,
     "senales_piso": [],
     "senales_techo": [
+      "histograma MACD girando a la baja",
       "techo plano bajo el máximo anual"
     ]
   },
-  "reportDate": "14 de octubre de 2026"
+  "reportDate": "16 de octubre de 2026"
 }

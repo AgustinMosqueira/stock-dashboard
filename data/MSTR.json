@@ -4,210 +4,211 @@
   "statsList": [
     [
       "Precio",
-      "~US$135-145 (16-oct-2026, tras caída 3-10% tras noticia MSCI; cierre previo $151,29 el 15-oct) (gurufocus/cryptotimes/kucoin, 16-oct-2026)"
+      "$136.02 (19-oct-2026, -0.59% día)"
     ],
     [
       "Rango 52 sem.",
-      "US$81,81 (26-jun-2026) - US$323,43 (oct-2025)"
+      "$81.81 – $306.16"
     ],
     [
       "Market cap",
-      "~US$52-58 mil M tras la caída del 16-oct (stockanalysis.com/gurufocus, 16-oct-2026)"
+      "~$52.3B (384.2M acc.)"
     ],
     [
       "BTC en tesorería",
-      "848.250 BTC, costo prom. ~US$75.444/BTC (compra 250 BTC @ $86.194, comunicado Strategy, 11-oct-2026; sin compra nueva reportada 12-16 oct)"
+      "848,517 BTC (costo prom. ~$75,446)"
     ],
     [
       "mNAV",
-      "~1,01x EV, cerca de paridad con BTC en tesorería (mnav.com, 15-oct-2026)"
+      "~1.01x (casi paridad, bajando desde 1.16x)"
     ],
     [
       "Próx. earnings",
-      "Q3 2026 confirmado para el 29-oct-2026 tras cierre, call 17:00 ET vía Zoom/X/YouTube (comunicado oficial Strategy, stocktitan, vigente)"
+      "29-oct-2026 (post-cierre)"
     ]
   ],
   "change": {
-    "day": -6.5,
-    "week": -10.9
+    "day": -0.59,
+    "week": -5.4
   },
   "events": [
     {
       "date": "2026-10-29",
-      "label": "Earnings Q3 2026 (fecha confirmada)",
+      "label": "Resultados Q3 2026",
       "kind": "earnings",
-      "info": "HECHO: reporte tras cierre de mercado, call 17:00 ET vía Zoom/X/YouTube, confirmado por comunicado oficial de Strategy (X/stocktitan.net); sigue vigente sin cambios."
+      "info": "HECHO: confirmado por press release de la empresa y 8-K ante SEC; reporte tras cierre de mercado, conference call 29/30-oct 5PM ET. Se espera actualización de BTC Yield (última cifra oficial: 4.5% YTD al 30-jul-2026). Fuente: StockTitan/MarketBeat, 19-oct-2026."
     },
     {
       "date": "2026-10-28",
-      "label": "Voto de accionistas sobre dividendos diarios en preferentes (STRC/STRD/STRF/STRK)",
+      "label": "Voto de accionistas sobre dividendos diarios en preferentes",
       "kind": "corporate",
-      "info": "HECHO: directorio de Strategy propuso mover STRC, STRD, STRF y STRK a dividendos diarios (desde mensual/quincenal/trimestral); sujeto a voto de accionistas el 28-oct-2026 (theblock.co, 25-sep-2026)."
+      "info": "LECTURA: propuesta pendiente (no decidida) para convertir STRC/STRD/STRF/STRK de pago quincenal/trimestral a dividendo diario acumulativo. Fuente: SEC EDGAR 8-K, ago-2026."
     },
     {
       "date": "2026-11-11",
-      "label": "Publicación de lista final de empresas afectadas por nuevas reglas MSCI",
-      "kind": "macro",
-      "info": "HECHO: MSCI finalizó el 15-oct-2026 las reglas de \"empresas no operativas\" (core screen + test de 5 ratios financieros, exclusión si falla 4+); lista final de constituyentes afectados se publica el 11-nov-2026 (The Block/Bloomberg/Cointelegraph, 15-oct-2026)."
-    },
-    {
-      "date": "2026-11-30",
-      "label": "Entrada en vigor de nuevas reglas MSCI (revisión de índices de noviembre)",
-      "kind": "macro",
-      "info": "HECHO: cambios de metodología MSCI toman efecto al cierre del 30-nov-2026 como parte de la revisión de índices de noviembre; JPMorgan estima hasta US$2,8 mil M en venta forzada de fondos pasivos si Strategy es excluida (decrypt.co/cointelegraph, 15-oct-2026)."
+      "label": "MSCI publica lista definitiva de exclusión de índices",
+      "kind": "corporate",
+      "info": "HECHO: MSCI anunció 16-oct-2026 que 'holding companies no operativas' (tesoros cripto) serán inelegibles para sus índices; lista de afectadas el 11-nov, efectiva desde cierre del 30-nov-2026. Fuente: Bitcoin Magazine/Invezz, 16-oct-2026."
     }
   ],
   "sections": {
-    "resumen": "MSCI finalizó el 15-oct-2026 sus reglas sobre \"empresas no operativas\" (test de 5 ratios); Strategy queda en riesgo real de exclusión de índices, con lista final el 11-nov y vigencia el 30-nov (HECHO: The Block/Bloomberg). MSTR cayó 3-10% en after-hours/premarket. mNAV ~1,01x (paridad). BTC Yield YTD se volvió negativo (-3,7%), señal de que la emisión ya no es acretiva. Tesorería estable en 848.250 BTC, sin compras nuevas 12-16 oct, foco en recompra de preferentes y voto del 28-oct por dividendos diarios. BTC/USD ~$81-83K.",
-    "fundamental": "- 848.250 BTC, costo prom. $75.444/BTC, sin compras nuevas 12-16 oct (HECHO: Strategy press release, 11-oct-2026).\n- BTC Yield YTD cayó a -3,7% desde +13,3% en mayo, la emisión ya no suma BTC por acción (HECHO: coinotag, oct-2026).\n- Caja USD operativa solo $640,5M al 11-oct, reserva de $4,88 mil M soporta dividendos preferentes (HECHO: Strategy press release).\n- Voto de accionistas 28-oct para pasar STRC/STRD/STRF/STRK a dividendos diarios, mayor rigidez de caja (HECHO: theblock.co, 25-sep-2026).\n- Earnings Q3 confirmados 29-oct tras cierre, 17:00 ET (HECHO: comunicado Strategy/stocktitan.net).",
-    "valuacion": "- mNAV ~1,01x EV al 15-oct, casi en paridad con el valor de BTC en tesorería (HECHO: mnav.com, 15-oct-2026).\n- Consenso de analistas sigue constructivo: Citigroup $240, Barclays $175, Cantor Fitzgerald $208, B. Riley $195 (HECHO: cryptotimes/gurufocus, oct-2026).\n- Upside nominal >40% vs. precio actual, pero depende de que BTC recupere $113K+ (LECTURA).\n- En paridad de mNAV la emisión ya no es claramente acretiva ni dilutiva, zona de transición de riesgo (LECTURA).\n- Preferentes perpetuos (cupones 12-18%) exigen servicio de caja constante, ajeno al ciclo de BTC (HECHO: seekingalpha, oct-2026).",
-    "tecnico": "- RSI 52,4 y MACD +4,03 bajo señal +6,75 al 15-oct, previo a la caída MSCI: momentum neutro (TradingView, 15-oct-2026).\n- Precio $151,29 (15-oct) bajo SMA20 ($157,26) pero sobre SMA50 ($134,12) y SMA200 ($135,70); la caída del 16-oct probablemente perfora ambas.\n- Percentil de precio 52 sem. en 31% al 15-oct, bajaría más tras la caída de hasta -10%.\n- Volumen 15-oct 22,3M vs. promedio 19,7M (ratio 1,13x), ya elevado antes de la noticia.\n- Volatilidad anualizada 71,65%, drawdown máx. 1Y -77,12%: perfil de riesgo extremo.",
-    "catalizadores": "**Catalizadores:**\n- Earnings Q3 el 29-oct, con posible gran ganancia/pérdida no realizada en BTC (HECHO: stocktitan).\n- Voto de accionistas 28-oct sobre dividendos diarios en preferentes (HECHO: theblock.co, 25-sep-2026).\n- Lista final MSCI el 11-nov definirá qué empresas quedan excluidas (HECHO: The Block, 15-oct-2026).\n- Recuperación de BTC desde ~$81-83K reabriría ventana de emisión acretiva (LECTURA).\n\n**Riesgos (por materialidad):**\n- Exclusión efectiva de índices MSCI el 30-nov si Strategy falla el test; JPMorgan estima hasta $2,8 mil M en venta forzada (HECHO: decrypt.co/cointelegraph, 15-oct-2026).\n- BTC Yield ya negativo (-3,7%): la emisión-para-comprar-BTC dejó de ser acretiva, riesgo estructural confirmado (HECHO: oct-2026).\n- mNAV en paridad deja margen mínimo; otra caída de BTC forzaría descuento sostenido y venta de BTC para preferentes (LECTURA).\n- Rigidez de caja creciente por dividendos diarios en 4 series de preferentes (LECTURA, estructural).",
-    "sentimiento": "- MSTR cayó 3-10% en after-hours/premarket tras conocerse las reglas finales de MSCI (HECHO: múltiples medios, 15-16-oct-2026).\n- Analistas de Wall Street mantienen consenso alcista: targets $175-240 pese al ruido regulatorio (HECHO: kucoin/panews, oct-2026).\n- Saylor/Strategy calificaron la propuesta de MSCI de \"arbitraria y discriminatoria\" (HECHO: The Block, 15-oct-2026).\n- Comunidad cripto dividida: paridad de mNAV como oportunidad vs. BTC Yield negativo como tesis bajista (HECHO: coinotag, oct-2026).\n- Foco ahora en earnings 29-oct y lista final MSCI 11-nov como próximos catalizadores (LECTURA).",
-    "conclusion": "MSCI finalizó el 15-oct-2026 un test de 5 ratios que pone a Strategy en riesgo real de exclusión de índices hacia el 30-nov; la acción cayó 3-10% y el BTC Yield YTD se volvió negativo (-3,7%), confirmando freno en la emisión acretiva. mNAV en paridad (~1,01x) deja poco margen ante otra caída de BTC. Earnings 29-oct y lista final MSCI 11-nov son catalizadores binarios próximos. Confianza: media-baja, sesgo bajista de corto plazo hasta resolver ambos eventos."
+    "resumen": "MSTR cotiza en $136.02, cerca del mínimo de su rango de 52 semanas ($81.81–$306.16), tras una semana negativa (-5.4%) golpeada por el anuncio de MSCI de excluir tesoros corporativos cripto de sus índices desde el 30-nov-2026. El mNAV se comprimió a ~1.01x, prácticamente paridad con el valor de sus 848,517 BTC. Strategy redujo sus compras de BTC a mínimos del año (250 y 267 BTC en semanas consecutivas) mientras financia recompras agresivas de STRC, señal de agotamiento del motor de emisión ATM/preferentes que sostenía el modelo. BTC ronda $82,700, cerca de mínimos de varios meses.",
+    "fundamental": "- HECHO: 848,517 BTC en tesorería, costo promedio ~$75,446/BTC (SEC 8-K, The Block, 19-oct-2026).\n- HECHO: ATM casi detenido — solo ~$22M emitidos para financiar últimas compras; $18.79B de autorización sin usar tras $8,235M emitidos en H1 2026 (SEC 10-Q/8-K).\n- HECHO: BTC Yield oficial 4.5% YTD (8-K, 30-jul-2026), sin actualización desde entonces; se espera cifra nueva en earnings del 29-oct.\n- HECHO: STRC con yield ~12% anual (quincenal); límite de buyback ampliado a $3,000M el 19-oct-2026.\n- LECTURA: negocio de software BI original es irrelevante frente al tamaño del balance BTC; la tesis es 100% apuesta apalancada en BTC.",
+    "valuacion": "- HECHO: mNAV ~1.01x al 19-oct-2026 (mnav.com), cayendo desde 1.16x antes del anuncio MSCI; rango 52 sem. 0.95x–1.43x.\n- LECTURA: a mNAV ~1.0x el mercado ya no paga prima por el 'vehículo' Strategy sobre tener BTC directo, erosionando el argumento histórico de arbitraje de la acción.\n- HECHO: market cap ~$52.3B vs valor de mercado de sus BTC (~848,517 × ~$82,700 ≈ $70.2B), dispersión entre fuentes de mNAV y deuda/preferentes en la ecuación.\n- HECHO: 52 semanas con swing de $81.81 a $306.16 — compresión de valuación de más de 70% desde máximos.\n- LECTURA: a mNAV cerca de 1x, la capacidad de Strategy de emitir acciones 'gratis' (por encima del NAV) para comprar más BTC se agota — rompe el flywheel que justificaba el premium histórico.",
+    "tecnico": "- HECHO: cierre $136.02 (19-oct), cerca del piso de 52 semanas ($81.81), lejos del techo ($306.16).\n- HECHO: caída semanal de ~5.4%, con un salto puntual a ~$140 tras anuncio de compra de 267 BTC que luego se revirtió.\n- HECHO: beta de MSTR ~3.57 vs mercado general; correlación rolling 90 días con BTC ~0.97 (stockanalysis.com).\n- LECTURA: sin datos de RSI/MACD verificados — evitar inferir sobreventa exacta sin fuente.\n- LECTURA: la acción se comporta como derivado apalancado 2-3x de BTC; con BTC cerca de mínimos recientes, MSTR arrastra la debilidad con mayor amplitud.",
+    "catalizadores": "**Catalizadores:**\n- Resultados Q3 2026 (29-oct): posible nueva cifra de BTC Yield y comentarios sobre ritmo de compras.\n- Recuperación de BTC por encima de $85,000-90,000 reactivaría el premium de mNAV.\n- Resolución favorable de MSCI (quedar fuera de la lista de exclusión, conocida 11-nov).\n- Reactivación del ATM si el mercado revalúa el premium y permite emisión acreciente nuevamente.\n\n**Riesgos (por materialidad):**\n- Exclusión de índices MSCI (y potencial efecto dominó en otros proveedores de índices) forzando ventas pasivas, efectiva 30-nov-2026.\n- mNAV en o bajo 1.0x: se rompe el mecanismo de arbitraje que financiaba compras de BTC sin diluir value per share.\n- Apalancamiento compuesto: deuda convertible + preferentes (STRK/STRF/STRD/STRC) con cargas de dividendo fijo (8-12%) en escenario de caída prolongada de BTC.\n- Caída de BTC: con compras ya reducidas a ~250-267 BTC/semana (vs miles antes), poca munición para sostener el 'yield' si el precio de BTC sigue débil.",
+    "sentimiento": "- HECHO: consenso analistas Strong Buy/Buy (15 de 16 cobertura), precio objetivo mediana ~$215, rango $165-$435 (MarketBeat/Citi, oct-2026).\n- HECHO: caída reportada de hasta ~7% tras anuncio MSCI del 16-oct-2026 (CoinCentral).\n- LECTURA: sentimiento de corto plazo mixto a negativo por riesgo índice y ritmo de compra débil, contrapesado por comentarios optimistas recurrentes de Michael Saylor.\n- HECHO: Citi elevó su precio objetivo a $240 el 2-oct-2026, previo al deterioro reciente.\n- LECTURA: brecha amplia entre precio objetivo de analistas (~$215) y cotización actual ($136) sugiere o bien revisión de targets pendiente, o convicción institucional de recuperación si BTC repunta.",
+    "conclusion": "MSTR es un derivado apalancado de BTC cotizando cerca de mínimos de 52 semanas, con mNAV comprimido a ~1.01x (paridad) y BTC cerca de mínimos recientes. El motor de flywheel (ATM + preferentes para comprar BTC con prima) se frenó: solo 250-267 BTC/semana comprados últimamente vs miles antes, y foco en buybacks de STRC. Riesgo de exclusión MSCI pendiente de resolución (11-nov). Score combinado: señal de 'Esperar gatillo' — cautela táctica, oportunidad especulativa solo si BTC confirma piso. Confianza: media, por alta dispersión de fuentes en mNAV y BTC Yield no actualizado desde julio."
   },
   "scores": {
     "tecnica": {
-      "score": 42,
-      "just": "Momentum ya neutro-débil antes de la caída (RSI 52,4, MACD bajo señal); la reacción negativa del 16-oct por MSCI probablemente perfora SMA50/200, deteriorando la estructura de recuperación de mediano plazo."
+      "score": 28,
+      "just": "HECHO: cotización cerca de mínimos de 52 semanas con caída semanal de -5.4% y beta 3.57; sin señales técnicas de reversión confirmadas, momentum bajista dominante."
     },
     "fundamental": {
-      "score": 40,
-      "just": "BTC Yield YTD se volvió negativo (-3,7%) confirmando que la emisión dejó de ser acretiva; acumulación de BTC detenida y foco 100% en defender preferentes vía dividendos diarios, mayor rigidez de caja."
+      "score": 45,
+      "just": "HECHO: 848,517 BTC con costo bajo (~$75,446) da colchón, pero ATM casi agotado en términos de premium y BTC Yield estancado en 4.5% desde julio; negocio core irrelevante fuera del BTC."
     },
     "sentimiento": {
-      "score": 45,
-      "just": "Reacción inmediata negativa a la noticia MSCI (caída 3-10%) contrapesada por consenso de analistas que sigue alcista (targets $175-240); sentimiento mixto, sin extremo claro de capitulación ni euforia."
+      "score": 42,
+      "just": "HECHO: consenso analista sigue Buy con PT ~$215, pero semana reciente negativa por riesgo MSCI y ritmo de compra débil; sentimiento de mercado en transición, no claramente negativo ni positivo."
     },
     "riesgo": {
-      "score": 70,
-      "just": "Riesgo de exclusión de índices MSCI ahora es concreto y fechado (lista final 11-nov, vigencia 30-nov, hasta $2,8 mil M en venta forzada) en vez de hipotético; sumado a BTC Yield negativo y rigidez creciente de dividendos en preferentes perpetuos, el riesgo estructural/terminal subió de forma material vs. el ciclo anterior."
+      "score": 78,
+      "just": "LECTURA: riesgo alto no por volatilidad simple sino estructural — mNAV en paridad rompe el mecanismo de arbitraje/dilución favorable, apalancamiento vía deuda convertible y preferentes con dividendos fijos (8-12%) persiste independientemente del precio de BTC, y exclusión de índices MSCI es un catalizador de ventas forzadas pendiente de resolución en 3 semanas."
     },
     "conviccion": {
-      "score": 42,
-      "just": "Asimetría sigue ligada a BTC, pero el deterioro simultáneo de BTC Yield (negativo), mNAV en paridad y riesgo MSCI confirmado reduce la convicción direccional; tesis falsable por resultado de earnings 29-oct y lista final MSCI 11-nov."
+      "score": 35,
+      "just": "LECTURA: tesis depende 100% de una recuperación sostenida de BTC por encima de ~$90-100k para reactivar el premium; mientras tanto, mecanismo de creación de valor vía ATM está en pausa funcional, lo que reduce la convicción de corto plazo pese a holdings BTC sólidos a bajo costo."
     }
   },
   "sources": [
-    "theblock.co (15-oct-2026, 25-sep-2026)",
-    "bloomberg.com (15-oct-2026)",
-    "decrypt.co (15-oct-2026)",
-    "cointelegraph.com (15-oct-2026)",
-    "mnav.com/mnav/strategy (15-oct-2026)",
-    "strategy.com/press (11-oct-2026)",
-    "coinotag.com (oct-2026)",
-    "cryptotimes.io (1-oct-2026, 16-oct-2026, 17-oct-2026)",
-    "gurufocus.com (16-oct-2026)",
-    "stocktitan.net (vigente)",
-    "coindesk.com/price/bitcoin (16-oct-2026)",
-    "TradingView scanner (15-oct-2026)"
+    "stockanalysis.com / Yahoo Finance, 19-oct-2026 — precio, rango 52 sem., market cap, beta",
+    "The Block / Fortune, 19-oct-2026 — compra de 267 BTC, holdings totales 848,517 BTC, ATM de ~$22M",
+    "SEC EDGAR 8-K, 19-oct-2026 y 30-jul-2026 — holdings BTC, BTC Yield 4.5% YTD, autorización ATM",
+    "mnav.com, 19-oct-2026 — mNAV ~1.01x, rango 52 semanas 0.95x-1.43x",
+    "Investing.com, oct-2026 — mNAV histórico 1.16x, contexto de compresión",
+    "KuCoin News, oct-2026 — compra de 250 BTC semana 5-11 oct, buyback STRC",
+    "Bitcoin Magazine / Invezz, 16-oct-2026 — anuncio MSCI de exclusión de treasury companies",
+    "CoinCentral, oct-2026 — reacción de precio (~-7%) tras anuncio MSCI",
+    "MarketBeat / StockTitan / Unusual Whales, oct-2026 — confirmación fecha earnings Q3 29-oct-2026",
+    "SEC EDGAR 8-K, 31-ago-2026 — dividendos STRF/STRD $2.50/acción trimestral (10% anual)",
+    "Binance / CoinMarketCap / CoinDesk, 19/20-oct-2026 — precio BTC/USD ~$82,700",
+    "MarketBeat/Citi, 2-oct-2026 — precio objetivo analistas ~$215-$240, consenso Buy"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 38,
-        "just": "mNAV en ~1,01x está en zona de paridad, por debajo de la mediana histórica reciente (~1,07-1,09x del ciclo anterior) y muy lejos del extremo de 3,4x (2024); no es ganga confirmada porque el BTC Yield negativo sugiere que el descuento relativo está justificado por deterioro fundamental, no solo por sentimiento."
+        "score": 55,
+        "just": "LECTURA: mNAV en ~1.01x está en la parte baja de su banda histórica (0.95x-1.43x), lo que históricamente ha precedido rebotes, pero sin garantía dado el nuevo riesgo estructural de exclusión de índices."
       },
       "calidad": {
-        "score": 32,
-        "just": "Negocio operativo irrelevante; calidad depende de la gestión de pasivos perpetuos, que ahora enfrenta mayor rigidez (dividendos diarios) justo cuando BTC Yield se volvió negativo."
+        "score": 50,
+        "just": "HECHO: tesorería de 848,517 BTC a costo bajo es un activo de calidad, pero la estructura de capital (deuda + 4 series de preferentes con dividendos fijos) añade fragilidad en escenarios de BTC débil prolongado."
       },
       "asimetria": {
         "score": 48,
-        "just": "Apalancamiento sobre BTC sigue dando asimetría al alza si BTC retoma tendencia, pero el piso se volvió menos claro: mNAV en paridad y riesgo MSCI confirmado reducen el margen de seguridad a la baja vs. el ciclo anterior."
+        "just": "LECTURA: upside amplio si BTC y el premium se recuperan (histórico hasta 1.43x mNAV), pero downside también relevante si MSCI confirma exclusión y BTC sigue débil — asimetría balanceada, no claramente favorable."
       },
       "catalizadores": {
-        "score": 58,
-        "just": "Earnings 29-oct y lista final MSCI 11-nov son catalizadores binarios cercanos y fechados que generarán alta volatilidad event-driven en las próximas semanas."
+        "score": 60,
+        "just": "HECHO: catalizador binario y fechado (resolución MSCI 11-nov, earnings 29-oct) en las próximas 3 semanas, lo que genera definición de tesis en el corto plazo."
       },
       "contrarian": {
-        "score": 35,
-        "just": "La caída post-MSCI podría ser una sobrerreacción de corto plazo (consenso de analistas sigue alcista), pero no hay señal clara de capitulación extrema que justifique una postura contraria fuerte todavía."
+        "score": 58,
+        "just": "LECTURA: sentimiento de corto plazo deteriorado (caída semanal, riesgo índice) mientras analistas mantienen Buy con PT muy por encima del precio actual — brecha que un contrarian podría leer como oportunidad si no se materializa el peor escenario MSCI."
       }
     },
     "plan": {
-      "recomendacion": "Mantener / Observar",
-      "zona_compra": "$110-130 (cerca/debajo de SMA50/200 post-ajuste) solo si BTC estabiliza sobre $78-80K y earnings del 29-oct no muestran deterioro adicional de BTC Yield",
-      "invalidacion": "Cierre semanal por debajo de $95 o mNAV básico sostenido <0,80x por más de 2 semanas, o confirmación de exclusión efectiva de MSTR en lista del 11-nov sin plan de mitigación",
+      "recomendacion": "Esperar gatillo",
+      "zona_compra": "Zona de acumulación especulativa entre $110-$140 si BTC estabiliza sobre $80,000; evitar aumentar exposición antes de conocer resultado MSCI (11-nov) y BTC Yield actualizado (29-oct).",
+      "invalidacion": "Ruptura sostenida de BTC por debajo de $75,000 (cerca del costo promedio de Strategy) o confirmación de exclusión MSCI con ventas forzadas relevantes.",
       "gatillos": [
-        "Lista final de empresas afectadas por MSCI el 11-nov-2026 (confirma o descarta exclusión de MSTR)",
-        "Earnings Q3 29-oct-2026 (BTC Yield YTD, guía de capital, ganancia/pérdida no realizada en BTC)",
-        "Resultado del voto de accionistas del 28-oct sobre dividendos diarios en preferentes",
-        "BTC/USD recuperando $90K vs. perdiendo $75K"
+        "Resultados Q3 2026 (29-oct) con nueva cifra de BTC Yield",
+        "Resolución de lista MSCI (11-nov)",
+        "Recuperación de BTC por encima de $90,000",
+        "Reactivación del ritmo de compras de BTC por encima de 1,000/semana"
       ],
       "horizonte": "6-18 meses",
-      "tamano": "Posición pequeña (derivado apalancado de BTC, volatilidad anualizada >70%; no exceder tamaño de posición especulativa satélite, y considerar reducir ante riesgo MSCI confirmado)",
-      "confianza": "media-baja"
+      "tamano": "Posición reducida/especulativa (alta volatilidad y riesgo binario de índice)",
+      "confianza": "media"
     }
   },
-  "perfil": "Strategy es formalmente una empresa de software de inteligencia de negocios, pero su negocio real es ser un vehículo apalancado de tesorería en bitcoin: el software factura ~$500M anuales y funciona como ancla contable, no como driver de valor. La maquinaria es emitir acciones, convertibles y preferentes perpetuas (~$15.000M vivos) para comprar bitcoin. La lógica es reflexiva y depende del mNAV: mientras la acción cotice sobre el valor de sus bitcoins por acción, emitir es acretivo y el ciclo se autoalimenta. En 2026 se invirtió — el mNAV cayó de ~3,4x a niveles de descuento (0,68x-0,78x) y la empresa pasó de comprador estructural a gestor táctico, priorizando recompra de preferentes sobre nuevas compras de BTC mientras mantiene 845.050 BTC comprados a ~$75.412 promedio. Lo estructural: exige acceso permanente al mercado de capitales; las preferentes son una obligación de caja perpetua contra un activo que no genera flujo; y los ETFs spot erosionaron su moat original. El riesgo terminal es la espiral: descuento sobre NAV, imposibilidad de emitir acretivamente, venta de bitcoin para pagar cupones.",
+  "perfil": "Strategy (antes MicroStrategy) es, en esencia, un fondo apalancado de Bitcoin disfrazado de empresa de software: su negocio original de inteligencia de negocio es marginal frente al tamaño de su balance cripto. El modelo consiste en financiar compras continuas de BTC emitiendo deuda convertible, acciones comunes vía programas ATM y una familia creciente de preferentes (STRK, STRF, STRD, STRC) con dividendos fijos. La acción funciona como un derivado apalancado de BTC, con beta y correlación muy altas respecto al activo subyacente, amplificando tanto subidas como caídas. Su valuación se mide en mNAV (precio de la acción vs valor de mercado de sus BTC): en premium, la empresa puede emitir capital de forma acreciente para comprar más BTC por acción; en paridad o descuento, ese mecanismo se detiene o se revierte, exponiendo a los accionistas al apalancamiento sin el colchón de la prima. Es una tesis de altísima ciclicidad, dependiente casi en su totalidad del precio y momentum de Bitcoin, con riesgo adicional de dilución, servicio de deuda/preferentes y tratamiento regulatorio/índices.",
   "technical": {
-    "price": 151.29,
-    "change_1d_pct": 5.62,
-    "change_1w_pct": -1.98,
-    "rsi": 52.4,
-    "macd": 4.0255,
-    "macd_signal": 6.7517,
-    "sma20": 157.2565,
-    "sma50": 134.1236,
-    "sma200": 135.6988,
-    "ema12": 152.6847,
-    "ema26": 148.6591,
-    "pct_vs_sma20": -3.79,
-    "pct_vs_sma50": 12.8,
-    "pct_vs_sma200": 11.49,
-    "volume_today": 22286976,
-    "volume_avg20": 19672879.0,
-    "volume_ratio": 1.13,
-    "volatility_30d": 71.65,
-    "sharpe": 2.9,
-    "sortino": 4.07,
-    "max_drawdown_1y": -77.12,
-    "price_percentile_1y": 31.0,
-    "vs_benchmark_30d_pct": 6.03,
-    "perf_1m_pct": 14.89,
-    "perf_ytd_pct": -2.13
+    "price": 136.02,
+    "change_1d_pct": -0.59,
+    "change_1w_pct": -0.59,
+    "rsi": 42.1,
+    "macd": 1.1454,
+    "macd_signal": 4.9442,
+    "sma20": 154.778,
+    "sma50": 135.6434,
+    "sma200": 135.5253,
+    "ema12": 148.057,
+    "ema26": 146.9116,
+    "pct_vs_sma20": -12.12,
+    "pct_vs_sma50": 0.28,
+    "pct_vs_sma200": 0.37,
+    "volume_today": 11727589,
+    "volume_avg20": 21400895.0,
+    "volume_ratio": 0.55,
+    "volatility_30d": 74.28,
+    "sharpe": 0.64,
+    "sortino": 0.79,
+    "max_drawdown_1y": -75.12,
+    "price_percentile_1y": 24.2,
+    "vs_benchmark_30d_pct": -1.77,
+    "perf_1m_pct": -0.41,
+    "perf_ytd_pct": -12.01
   },
   "risk": {
-    "volatility_30d": 71.65,
-    "sharpe": 2.9,
-    "sortino": 4.07,
-    "max_drawdown_1y": -77.12,
-    "n_days": 344,
+    "volatility_30d": 74.28,
+    "sharpe": 0.64,
+    "sortino": 0.79,
+    "max_drawdown_1y": -75.12,
+    "n_days": 348,
     "window": 30
   },
   "benchmark": {
     "ticker": "CRYPTO:BTCUSD",
     "label": "Bitcoin",
-    "relative_performance_30d": 6.03,
-    "relative_performance_ytd": 3.83,
-    "price_percentile_1y": 31.0,
+    "relative_performance_30d": -1.77,
+    "relative_performance_ytd": -5.57,
+    "price_percentile_1y": 24.2,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:29:43-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:29:43-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:29:43-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CRYPTO:BTCUSD",
-      "fetched_at": "2026-10-15T21:39:19-03:00"
+      "fetched_at": "2026-10-19T17:29:43-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/MSTR.json",
-      "n_days": 344
+      "n_days": 348
     }
   },
   "metricChanges": [
+    {
+      "ticker": "MSTR",
+      "date": "2026-10-16",
+      "metric": "precio_pct",
+      "from": 151.29,
+      "to": 136.83
+    },
     {
       "ticker": "MSTR",
       "date": "2026-09-21",
@@ -258,5 +259,5 @@
     "senales_piso": [],
     "senales_techo": []
   },
-  "reportDate": "14 de octubre de 2026"
+  "reportDate": "16 de octubre de 2026"
 }
