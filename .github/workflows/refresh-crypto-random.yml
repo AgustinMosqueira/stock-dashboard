@@ -1,0 +1,53 @@
+name: Refresco de criptomonedas al azar (martes)
+
+# Pedido del usuario (22-oct-2026): todos los martes, actualizar 5 informes de
+# criptomonedas elegidas al azar (no por antigüedad — son volátiles y noticiosas,
+# conviene una rotación pareja). Mismo mecanismo que refresh-stale.yml: abre una
+# issue "informe: TICKER" por cada una (autoría github-actions[bot], ya aceptada
+# por on-demand-report.yml), que las procesa una por una con su propio lock.
+on:
+  schedule:
+    - cron: "15 13 * * 2"   # martes 10:15 Chile (UTC-3) / 09:15 en horario de invierno
+  workflow_dispatch:
+    inputs:
+      n:
+        description: "Cuántas criptos encolar (default 5)"
+        required: false
+        default: "5"
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  TZ: America/Santiago
+
+jobs:
+  encolar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Elegir criptos al azar
+        id: pick
+        run: |
+          N="${{ inputs.n || '5' }}"
+          python3 scripts/pick_random_crypto.py "$N" > /tmp/crypto_tickers.txt
+          cat /tmp/crypto_tickers.txt
+
+      - name: Abrir una solicitud "informe:" por cada una
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          while IFS= read -r TICKER; do
+            [ -z "$TICKER" ] && continue
+            echo "Abriendo solicitud para $TICKER…"
+            gh issue create \
+              --title "informe: $TICKER" \
+              --body "Refresco automático de criptomonedas (martes, al azar). Generado por refresh-crypto-random.yml, $(date '+%F %H:%M') Chile."
+            sleep 5
+          done < /tmp/crypto_tickers.txt
