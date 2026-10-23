@@ -530,5 +530,33 @@
 "metric": "precio_pct",
 "from": 0.03,
 "to": 0.03
+},
+{
+"ticker": "HDSY",
+"date": "2026-10-22",
+"metric": "precio_pct",
+"from": 5250,
+"to": 4610
+},
+{
+"ticker": "QNT/USD",
+"date": "2026-10-22",
+"metric": "precio_pct",
+"from": 205.37,
+"to": 188.03
+},
+{
+"ticker": "SPCX",
+"date": "2026-10-22",
+"metric": "precio_pct",
+"from": 159.31,
+"to": 144.75
+},
+{
+"ticker": "USD/JPY",
+"date": "2026-10-22",
+"metric": "rsi",
+"from": 53.6,
+"to": 38.25
 }
 ]
