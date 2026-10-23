@@ -4,19 +4,19 @@
  "statsList": [
   [
    "Precio",
-   "$188.03 (22-oct-2026)"
+   "$188.71 (22-oct-2026)"
   ],
   [
    "Rango 52 sem.",
-   "US$53,70 – US$368,71 (TradingView, 22-oct-2026)"
+   "US$53,70 – US$368,71 (TradingView, pico 27-28-sep-2026; verificado 22-oct-2026)"
   ],
   [
    "Market cap",
-   "~US$2.270 millones circulante (12.072.738 de 14.612.493 QNT, 82,6% circulante; CoinGecko/Tokenomist, 22-oct-2026)"
+   "~US$2.740 millones (14.556.000 de 14.612.493 QNT en circulación, 99,6% del supply fijo; CoinGecko, 22-oct-2026)"
   ],
   [
    "Adopción bancaria",
-   "6 bancos UK (Barclays, HSBC, Lloyds, NatWest, Santander, Monzo) en producción + piloto de 10-15 instituciones EE.UU. vía The Clearing House, apertura prevista 1S-2027 (PYMNTS/Markets Media, 15-oct-2026)"
+   "7 bancos UK en producción + red de 25 bancos EE.UU. vía The Clearing House (apertura prevista 1S-2027); demanda directa de QNT no garantizada contractualmente (CryptoSlate/Genfinity, sep-oct-2026)"
   ],
   [
    "Próximo evento",
@@ -24,12 +24,12 @@
   ],
   [
    "Técnico (auto)",
-   "RSI 46.7 · MACD +4.08 / señal +12.90 (TradingView, 22-oct-2026)"
+   "RSI 47.0 · MACD +4.14 / señal +12.91 (TradingView, 22-oct-2026)"
   ]
  ],
  "change": {
-  "day": 0.42,
-  "week": -2.02
+  "day": 0.79,
+  "week": -1.67
  },
  "events": [
   {
@@ -37,62 +37,59 @@
    "label": "Reunión del FOMC (decisión de tasas)",
    "kind": "macro",
    "time": "15:00",
-   "info": "Reunión de dos días (27-28 oct). La probabilidad de alza cayó con fuerza: CME FedWatch la ubica en ~7,2% al 22-oct (venía de un pico de 41,5% tras el IPC de septiembre más caliente de lo esperado), con el mercado esperando mantención y trasladando el próximo movimiento a la reunión del 9-dic. Relevante para QNT por su alta beta al apetito general de riesgo cripto, no por catalizador propio (CME FedWatch, 22-oct-2026)."
+   "info": "Decisión el 28-oct tras reunión de dos días. El mercado giró fuerte hacia una pausa: CME FedWatch ubica la probabilidad de mantener tasas en 92,8% y de otra alza en solo 7,2% (22-oct-2026), muy por debajo del ~70% que se esperaba semanas atrás. QNT es un activo de riesgo con alta beta al apetito general por cripto, no solo a su propio catalizador (CME FedWatch, 22-oct-2026)."
   },
   {
    "date": "2027-06-30",
    "label": "Apertura prevista de la red On-Chain Money Initiative de The Clearing House (fecha aproximada, ventana 1S-2027)",
    "kind": "corporate",
-   "info": "The Clearing House confirmó en detalle (15-oct-2026) que la red piloto integrará entre 10 y 15 instituciones financieras de EE.UU. en su primera fase, con Quant operando la capa de interoperabilidad entre depósitos tokenizados y los rieles existentes RTP y CHIPS. Apertura a instituciones participantes prevista para el primer semestre de 2027, sin fecha exacta confirmada; sigue siendo el catalizador binario central de la tesis de adopción (PYMNTS/Markets Media, 15-oct-2026)."
+   "info": "The Clearing House —cámara que procesa ~US$2 billones diarios entre 25 bancos de EE.UU., incluidos JPMorgan y Bank of America— eligió a Quant como capa de interoperabilidad (anuncio 24-sep-2026), con apertura prevista 1S-2027. CryptoSlate (oct-2026) advierte que el acuerdo NO obliga a los bancos a comprar o mantener QNT —pueden pagar comisiones en dólares—, por lo que el impacto real en la demanda del token sigue sin confirmarse."
   }
  ],
  "sections": {
-  "resumen": "QNT corrigió con fuerza desde el pico de fines de septiembre: tras dispararse a US$337-369 por la noticia de The Clearing House (cámara que mueve US$2 billones diarios entre 25 bancos de EE.UU.), hoy cotiza en US$188, 43-49% bajo ese máximo, arrastrado por toma de utilidades y por una liquidación cripto generalizada desde el 7-oct (temores de tasas, caída bursátil en China, salidas de ETFs) que llevó a Bitcoin bajo US$81.000 y golpeó más fuerte a altcoins. El RSI se desinfló de ~100 a 46,7 y el precio volvió al 43% de su rango de 52 semanas. La tesis institucional sigue intacta y gana solidez (patente en Japón, 15-oct), aunque sin ingresos verificables.",
-  "fundamental": "- Clearing House detalló el piloto (15-oct-2026): 10-15 instituciones de EE.UU. integradas a RTP/CHIPS; apertura 1S-2027 sin fecha exacta (PYMNTS/Markets Media).\n- Patente en Japón (15-oct-2026) protege la tecnología multi-DLT de Fusion Rollup, que conecta 74 blockchains (quant.network).\n- Seis bancos UK (Barclays, HSBC, Lloyds, NatWest, Santander, Monzo) liquidaron en producción un refinanciamiento hipotecario sobre Overledger (26-sep-2026, Genfinity).\n- HTX listó QNT para spot el 8-oct-2026, ampliando el acceso minorista (CoinMarketCap).\n- Sin ingresos recurrentes públicos: la licencia de Overledger se paga en QNT, sin cifra de facturación ni volumen transaccional (coinstats.app, oct-2026).",
-  "valuacion": "- Market cap ~US$2.270M (12.072.738 de 14.612.493 QNT, 82,6% circulante), vs. ~US$3.470M a fines de sep (CoinGecko/Tokenomist).\n- Percentil 42,6% de su rango de 52 semanas (US$53,70–US$368,71): zona media, ya no sobrecomprado (TradingView, 22-oct-2026).\n- 43-49% bajo el máximo del rally (US$337-369, 27/28-sep) y ~56% bajo su ATH de 2021 (US$428).\n- +160% vs. Bitcoin en 30 días y +178% YTD: el re-rating institucional no se revirtió del todo.\n- Sin ingresos públicos ni múltiplo de flujo de caja: la valuación depende de expectativa de adopción.",
-  "tecnico": "- RSI 46,7, zona neutral: se desinfló desde el extremo de sobrecompra (~100) de fines sep/inicios oct (TradingView, 22-oct-2026).\n- -14,5% bajo su SMA20 pero +19,6% sobre SMA50 y +108,5% sobre SMA200: corrección corta en estructura de mediano plazo aún alcista.\n- Interés abierto en futuros cayó el 13-oct-2026: menor especulación apalancada que en la fase parabólica previa (CoinMarketCap).\n- Soporte citado por operadores en ~US$173; perderlo abre a una zona más profunda (TheCryptoBasic, 10-oct-2026).\n- Volatilidad, Sharpe y drawdown: \"Acumulando datos\" — sin serie histórica propia suficiente.",
-  "catalizadores": "**Catalizadores:**\n- Apertura de la red de The Clearing House (10-15 instituciones EE.UU., fase piloto), prevista 1S-2027.\n- Patente japonesa (15-oct-2026) que protege a Fusion Rollup, refuerza el moat técnico.\n- Expansión del piloto UK hacia volumen comercial sostenido.\n- Tono de tasas de la Fed (hold probable en oct., riesgo de hike en dic.) para el apetito por riesgo cripto.\n\n**Riesgos (por materialidad):**\n- ~65% del supply (9,55M QNT) bloqueado en una sola tesorería, sin calendario público de liberación.\n- Wallet del fundador movió US$6,97M (25.776 QNT) tras 7 años de inactividad (oct-2026); no fue a un exchange, pero es una señal a vigilar.\n- Adopción sin ingresos verificables: no hay cifra pública de licencias pagadas ni volumen transaccional.\n- Beta alta al ciclo cripto: la caída de oct-2026 fue arrastrada mayormente por la liquidación de mercado (China, tasas), no por noticias propias.",
-  "sentimiento": "- RSI de ~100 a 46,7 y precio -43/-49% desde el pico: la euforia de fines de sep se disipó.\n- Ballenas dormidas vendieron en la suba (sep-oct): el salto inicial fue en parte distribución, no solo acumulación nueva.\n- La corrección coincide con un sell-off cripto generalizado (BTC bajo US$81.000, dominancia BTC ~60%): altcoins cayeron más, consistente con la beta de QNT.\n- Leído en contrario: sin euforia pero tampoco pesimismo extremo — sentimiento neutral, ya no es obstáculo ni señal contraria fuerte.",
-  "conclusion": "QNT pasó de la euforia de fines de septiembre a una corrección de 43-49% que lo devolvió a zona técnica neutral (RSI 46,7, percentil 42,6% anual), por toma de utilidades y la liquidación cripto generalizada de octubre. La tesis institucional se mantiene intacta y gana solidez (patente en Japón, detalles del piloto de The Clearing House), pero sigue sin ingresos recurrentes verificables. El enfriamiento técnico y de sentimiento mejora el punto de entrada frente a hace tres semanas, aunque la opacidad sobre la tesorería (65% del supply) y la dependencia de que la adopción se traduzca en flujo de caja limitan la convicción. Confianza: media."
+  "resumen": "QNT corrige con fuerza: cotiza en US$188 (22-oct), 50% bajo el pico de ~US$373 (27-28-sep) y 34% bajo los US$287 del informe anterior. El RSI bajó de bordear 100 a 46,7, zona neutral, tras meses de sobrecompra extrema. El catalizador de fondo sigue vigente —The Clearing House eligió a Quant para interoperar depósitos tokenizados de 25 bancos de EE.UU. (apertura 1S-2027), y bancos del Reino Unido ya operan en producción—, pero CryptoSlate (oct-2026) revela que ningún acuerdo obliga a los bancos a comprar o mantener QNT: podrían pagar en dólares, dejando la demanda del token sin garantía. El mercado altcoin general también sangra: dominancia de BTC ~60,7%.",
+  "fundamental": "- The Clearing House confirmó a Quant como proveedor de interoperabilidad para su On-Chain Money Initiative (24-sep-2026): 25 bancos de EE.UU., apertura prevista 1S-2027 (Blockonomi/Genfinity).\n- CryptoSlate (oct-2026) advierte que el acuerdo NO obliga a los bancos a comprar o mantener QNT —pueden pagar comisiones en dólares—, dejando la demanda directa del token sin garantía contractual.\n- Depósitos tokenizados en libras ya operan en producción real entre bancos del Reino Unido (Barclays, HSBC, Lloyds, NatWest, Santander, Monzo) desde fines de septiembre (Genfinity, 29-sep-2026).\n- Fusion Rollup (mainnet desde jun-2026, conecta 74 blockchains) y la alianza con Murex (MX.3, desde mar-2026) se exhibieron juntos en Sibos Miami (28-sep al 1-oct-2026).\n- Sin cifras públicas de ingresos recurrentes ni clientes activos pagando licencia; la tesis de adopción sigue sin verificación financiera (coinstats.app, oct-2026).",
+  "valuacion": "- Market cap ~US$2.740 millones, con 14.556.000 de 14.612.493 QNT en circulación (99,6% del supply fijo ya emitido; CoinGecko, 22-oct-2026).\n- Percentil 42,6% de su rango de 52 semanas (US$53,70–US$368,71): corrección relevante desde el percentil 74% de hace tres semanas.\n- Cotiza 55% bajo su ATH de sep-2021 (US$427,42) — amplio margen frente al techo histórico.\n- Caída de ~34% desde el precio del informe anterior (US$287, 30-sep) pese a que el catalizador de fondo no cambió — abarata el activo sin deteriorar la tesis de adopción.\n- Sin ingresos públicos verificables: la valuación sigue sin múltiplo de flujo de caja, descansa en expectativa de adopción institucional.",
+  "tecnico": "- RSI 46,7, zona neutral, tras desplomarse desde ~100 a fines de septiembre — enfriamiento sano, no pánico (TradingView, 22-oct-2026).\n- MACD +4,08 por debajo de su señal +12,90: momentum bajista de corto plazo aún activo, coherente con el precio 14,5% bajo su SMA20.\n- Precio todavía +19,6% sobre su SMA50 y +108,5% sobre su SMA200 — la extensión de fondo no se ha purgado del todo.\n- Zona crítica de soporte US$170–200 (coincide con el precio actual); ruptura sostenida expone US$140–160; resistencia en US$250 y luego US$368 (Cryptoticker, 18-20-oct-2026).\n- Volatilidad, Sharpe y drawdown siguen \"Acumulando datos\" — activo aún sin serie histórica propia suficiente.",
+  "catalizadores": "**Catalizadores:**\n- Apertura operativa de la red de The Clearing House (25 bancos EE.UU.), prevista 1S-2027 — hito binario, aunque su impacto en la demanda de QNT no está garantizado.\n- Expansión del piloto de depósitos tokenizados del Reino Unido de prueba a volumen comercial sostenido.\n- Giro de la FOMC hacia una probable pausa el 28-oct (92,8% prob. de mantener tasas, CME FedWatch) — alivio para el apetito por riesgo cripto.\n- Nuevas instituciones sumándose a Overledger tras la validación de marca del deal bancario.\n\n**Riesgos (por materialidad):**\n- Demanda de QNT no garantizada contractualmente: los bancos pueden pagar en dólares sin comprar ni mantener el token (CryptoSlate, oct-2026) — el riesgo central de la tesis.\n- Mercado altcoin en retroceso generalizado: dominancia de BTC ~60,7%, ~US$134.000M salieron de altcoins en 15 días (oct-2026).\n- Wallet ligada al fundador movió ~US$7M (25.776 QNT) tras 7 años inactiva; aún retiene ~US$160M en QNT — vigilar nuevas salidas.\n- Competencia de Chainlink CCIP, ya conectado a Swift (11.500 bancos miembro) desde nov-2025.",
+  "sentimiento": "- El sentimiento pasó de euforia extrema (RSI~100, cobertura mediática saturada a fines de sep) a cautela/neutralidad tras la corrección de 50% desde el pico.\n- Lectura contraria parcial: el pesimismo de corto plazo convive con un catalizador fundamental intacto, aunque no hay capitulación extrema que amerite una señal contraria fuerte todavía.\n- Los medios ya hablan de \"corrección post-parabólica\" en vez de objetivos de precio extremos — la euforia se disipó (CoinMarketCap, 14-20-oct-2026).\n- Movimiento de wallet del fundador (~US$7M tras 7 años, retiene ~US$160M) genera algo de ruido, aunque se lee como reposicionamiento parcial, no salida (Pluang, sep-2026).\n- Contexto macro-cripto deteriorado (rotación hacia BTC, dominancia 60,7%) pesa sobre todo el sector altcoin, no es una señal específica de QNT.",
+  "conclusion": "QNT corrigió a la mitad desde su pico de septiembre y el RSI volvió a zona neutral, un enfriamiento sano tras meses de sobrecompra extrema. El catalizador de fondo —adopción bancaria vía The Clearing House y producción real en el Reino Unido— sigue intacto, pero CryptoSlate reveló que ningún acuerdo obliga a los bancos a comprar o mantener QNT, lo que debilita la tesis de demanda directa del token. El precio hoy ofrece mejor punto de entrada que hace tres semanas, pero sin confirmación de que la adopción se traduzca en flujo hacia el token, conviene esperar estabilización técnica antes de aumentar exposición. Confianza: media."
  },
  "scores": {
   "tecnica": {
-   "score": 48,
-   "just": "El RSI se desinfló de ~100 a 46,7 y el interés abierto en futuros cayó — enfriamiento sano de la sobreextensión previa, no una señal bajista nueva. Pero el precio sigue bajo su SMA20 sin evidencia clara de piso formado, por lo que no sube más alto todavía."
+   "score": 46,
+   "just": "El RSI cayó de bordear 100 a 46,7 (zona neutral) y el precio ya corrigió 50% desde el pico — enfriamiento genuino de carácter, no un simple rebote. Pero el MACD sigue bajo su señal y el precio bajo su SMA20, por lo que la sobreextensión de fondo (+108% sobre SMA200) aún no se purga del todo."
   },
   "fundamental": {
-   "score": 63,
-   "just": "La validación institucional se profundizó con detalles concretos del piloto de The Clearing House (10-15 bancos) y una patente en Japón que protege el moat técnico de Fusion Rollup. Sigue sin ingresos recurrentes verificables que confirmen la monetización."
+   "score": 52,
+   "just": "La validación institucional (Clearing House, producción real en UK) es genuina, pero CryptoSlate (oct-2026) reveló que ningún acuerdo obliga a los bancos a comprar o mantener QNT —pueden pagar en dólares—, lo que reduce la certeza de que la adopción se traduzca en demanda del token."
   },
   "sentimiento": {
-   "score": 45,
-   "just": "La euforia extrema de fines de septiembre se disipó junto con el precio; hoy el sentimiento es más neutral que contrario. No hay pesimismo extremo que active una lectura contraria fuerte, pero tampoco queda la euforia que justificaba castigar la nota."
+   "score": 46,
+   "just": "La euforia extrema de fines de septiembre (RSI~100) se disipó hacia una cautela más neutral tras la corrección de 50%. No hay capitulación ni pesimismo extremo que amerite una lectura contraria fuerte todavía; el mercado altcoin en general también se enfría."
   },
   "riesgo": {
-   "score": 45,
-   "just": "El precio 43-49% más barato que el pico con la tesis institucional intacta reduce el riesgo de pérdida permanente (margen de seguridad), pero la concentración de ~65% del supply en una tesorería sin calendario público y el movimiento de wallets dormidas mantienen la opacidad como riesgo estructural."
+   "score": 46,
+   "just": "El 50% de corrección con el catalizador de fondo intacto mejora el margen de seguridad frente al informe anterior. Pero la revelación de que la demanda de QNT no está garantizada contractualmente, sumada a movimientos de la wallet del fundador, sostiene un riesgo de modelo de negocio no trivial."
   },
   "conviccion": {
    "score": 42,
-   "just": "La asimetría mejoró al abaratarse el precio, pero aún no hay confirmación técnica de piso ni datos de monetización que hagan la tesis urgente de pagar hoy. Tesis falsable y fechada (piloto 2027), pero sin gatillo de entrada confirmado todavía."
+   "just": "La asimetría mejoró: el precio bajó 34% desde el informe anterior sin que el catalizador se deteriore, acercando el punto de entrada a niveles más razonables. Pero la falta de garantía contractual sobre la demanda de QNT limita cuánto puede subir la convicción hasta que haya más claridad."
   }
  },
  "sources": [
-  "PYMNTS",
-  "Markets Media",
-  "quant.network",
+  "CryptoSlate",
+  "Blockonomi",
   "Genfinity",
   "KuCoin",
-  "Cryptonomist",
-  "BeInCrypto",
-  "TheCryptoBasic",
+  "Cryptoticker",
   "CoinMarketCap",
+  "CoinGecko",
+  "Pluang",
   "coinstats.app",
-  "CoinGecko/Tokenomist",
-  "Santiment",
-  "TradingView",
   "CME FedWatch",
-  "Fool.com/FXStreet"
+  "TradingView",
+  "8blocks.io"
  ],
  "risk": {
   "volatility_30d": null,
@@ -105,26 +102,26 @@
  "benchmark": {
   "ticker": "CRYPTO:BTCUSD",
   "label": "Bitcoin",
-  "relative_performance_30d": 160.42,
-  "relative_performance_ytd": 177.82,
-  "price_percentile_1y": 42.6,
+  "relative_performance_30d": 161.61,
+  "relative_performance_ytd": 179.06,
+  "price_percentile_1y": 42.9,
   "partial": false
  },
  "technical": {
-  "price": 188.03,
-  "change_1d_pct": 0.42,
-  "change_1w_pct": -2.02,
-  "rsi": 46.7,
-  "macd": 4.0827,
-  "macd_signal": 12.8983,
-  "sma20": 219.92,
-  "sma50": 157.2295,
-  "sma200": 90.2046,
-  "ema12": 201.3772,
-  "ema26": 197.2945,
-  "pct_vs_sma20": -14.5,
-  "pct_vs_sma50": 19.59,
-  "pct_vs_sma200": 108.45,
+  "price": 188.71,
+  "change_1d_pct": 0.79,
+  "change_1w_pct": -1.67,
+  "rsi": 47.0,
+  "macd": 4.137,
+  "macd_signal": 12.9092,
+  "sma20": 219.954,
+  "sma50": 157.2431,
+  "sma200": 90.208,
+  "ema12": 201.4818,
+  "ema26": 197.3448,
+  "pct_vs_sma20": -14.2,
+  "pct_vs_sma50": 20.01,
+  "pct_vs_sma200": 109.19,
   "volume_today": null,
   "volume_avg20": null,
   "volume_ratio": null,
@@ -132,28 +129,28 @@
   "sharpe": null,
   "sortino": null,
   "max_drawdown_1y": null,
-  "price_percentile_1y": 42.6,
-  "vs_benchmark_30d_pct": 160.42,
-  "perf_1m_pct": 154.9,
-  "perf_ytd_pct": 170.83
+  "price_percentile_1y": 42.9,
+  "vs_benchmark_30d_pct": 161.61,
+  "perf_1m_pct": 155.82,
+  "perf_ytd_pct": 171.81
  },
  "sourcesMeta": {
   "price": {
    "origin": "TradingView scanner",
-   "fetched_at": "2026-10-22T21:51:53-03:00"
+   "fetched_at": "2026-10-22T23:09:19-03:00"
   },
   "rsi_macd": {
    "origin": "TradingView scanner",
-   "fetched_at": "2026-10-22T21:51:53-03:00"
+   "fetched_at": "2026-10-22T23:09:19-03:00"
   },
   "smas_volume": {
    "origin": "TradingView scanner",
-   "fetched_at": "2026-10-22T21:51:53-03:00"
+   "fetched_at": "2026-10-22T23:09:19-03:00"
   },
   "benchmark": {
    "origin": "TradingView scanner",
    "symbol": "CRYPTO:BTCUSD",
-   "fetched_at": "2026-10-22T21:51:53-03:00"
+   "fetched_at": "2026-10-22T23:09:19-03:00"
   },
   "risk_metrics": {
    "origin": "data/history/FX-QNTUSD.json",
@@ -201,36 +198,36 @@
   "cats": {
    "valuacion_hist": {
     "score": 55,
-    "just": "Percentil 42,6% de su rango de 52 semanas: volvió a zona media tras el desplome desde el percentil 74% de fines de sep — ya no caro vs. su propia historia reciente, aunque tampoco en mínimos."
+    "just": "Percentil 42,6% de su rango de 52 semanas (antes 74%) y 55% bajo su ATH de 2021 — la corrección de 50% desde el pico mejora sustancialmente el punto de entrada vs. su propia historia."
    },
    "calidad": {
-    "score": 63,
-    "just": "La patente japonesa y los detalles confirmados del piloto de The Clearing House refuerzan la calidad del negocio y su moat técnico; sigue sin ingresos recurrentes públicos que lo validen financieramente."
+    "score": 50,
+    "just": "La producción real en UK y la selección por The Clearing House son validación genuina, pero CryptoSlate reveló que la demanda de QNT no está garantizada contractualmente — resta calidad al modelo de negocio del token frente al informe anterior."
    },
    "asimetria": {
-    "score": 65,
-    "just": "Upside al máximo del rally (~US$337-369, +79-96%) frente a downside al soporte citado de ~US$173 (-8%): relación favorable al precio actual, aunque una ruptura de ese soporte abriría a una corrección más profunda dado el historial de QNT de caídas >70% tras picos parabólicos."
+    "score": 60,
+    "just": "Upside al ATH de 2021 (~US$427, +127%) o a la resistencia de US$368 (+96%) frente a downside a la zona de soporte/invalidación US$140–170 (-10% a -26%) — mejor relación riesgo/retorno que hace tres semanas, aunque no extrema."
    },
    "catalizadores": {
-    "score": 75,
-    "just": "Ruta fechada y cada vez más concreta: piloto de 10-15 instituciones de The Clearing House con apertura en 1S-2027, más la patente de Japón ya en mano — catalizadores reales y crecientes en detalle, no solo narrativa."
+    "score": 58,
+    "just": "La ruta fechada (apertura 1S-2027) sigue vigente, pero la falta de una regla contractual que obligue a los bancos a usar QNT reduce la certeza de que el catalizador se traduzca en valor para el token."
    },
    "contrarian": {
-    "score": 40,
-    "just": "La euforia extrema se disipó pero no hay pesimismo capitulatorio: el sentimiento es neutral, no hay una señal contraria fuerte en ningún sentido todavía."
+    "score": 42,
+    "just": "El sentimiento pasó de euforia a cautela, acercándose a terreno contrario favorable, pero sin llegar a pesimismo extremo o capitulación — la corrección aún puede ser ordenada, no un piso confirmado."
    }
   },
   "plan": {
    "recomendacion": "Esperar gatillo",
-   "zona_compra": "US$165 – US$180 (sobre el soporte citado por operadores en ~US$173, tras confirmar que no se rompe a la baja)",
-   "invalidacion": "Cierre diario bajo US$165 (ruptura del soporte técnico), o evidencia hacia 2027 de que el piloto de The Clearing House no avanza según lo anunciado",
+   "zona_compra": "US$150 – US$180 (zona de soporte técnico; agregar solo si el RSI confirma estabilización y no hay ruptura bajista)",
+   "invalidacion": "Cierre diario sostenido bajo US$140, o confirmación de que los bancos del acuerdo con The Clearing House pagarán en dólares sin requerir QNT",
    "gatillos": [
-    "RSI diario formando un piso con mínimos crecientes sobre los niveles actuales",
-    "Precio recuperando y sosteniéndose sobre su SMA20 (hoy ~US$220)",
-    "Primeros datos públicos de ingresos recurrentes o volumen transaccional del piloto de The Clearing House"
+    "RSI semanal formando piso o divergencia alcista desde la zona neutral actual",
+    "Primer dato público de ingresos recurrentes o reglas contractuales que exijan uso de QNT en la red de The Clearing House",
+    "Estabilización del mercado altcoin general (dominancia de BTC dejando de subir)"
    ],
    "horizonte": "6-18 meses",
-   "tamano": "Posición pequeña-mediana; ampliar solo si se confirma piso técnico y la corrección no profundiza bajo el soporte citado",
+   "tamano": "Posición pequeña mientras no haya confirmación de piso técnico ni de la demanda real de QNT; ampliar solo tras los gatillos",
    "confianza": "media"
   }
  },
