@@ -4,124 +4,219 @@
  "statsList": [
   [
    "Precio",
-   "$47.91 (5-ago-2026)"
+   "$37.78 (23-oct-2026)"
   ],
   [
    "Rango 52 sem.",
-   "$37,81 – $100,25"
+   "$37,58 – $76,80 (nuevo mínimo de 52 sem. el 22-oct-2026; Investing.com)"
   ],
   [
    "Market cap",
-   "~US$8.530M (178,05M acciones × $47,91; stockanalysis.com, 5-ago-2026)"
+   "~US$6.730M (178,1M acciones × $37,78; stockanalysis.com, oct-2026)"
   ],
   [
    "P/E",
-   "n/a — pérdidas TTM (EPS -$0,34); forward P/E ~99x, P/S TTM ~20x sobre revenue $416M (stockanalysis.com, ago-2026)"
+   "n/a — pérdidas TTM y consenso de pérdida para el año fiscal 2026; P/S TTM ~22x sobre ~US$305M de ingresos LTM (MP IR trimestral; MarketBeat, oct-2026)"
   ],
   [
    "Target consenso",
-   "~US$77,5-79,5 promedio, 18 analistas en compra / 0 venta, Strong Buy (CNN Markets / Investing.com, jul-ago 2026) — implica ~+62% desde $47,91"
+   "US$71,92 promedio (17 analistas: 1 strong buy/13 buy/1 hold/2 sell, 'Moderate Buy'), rango $57-$100 — implica ~+90% desde $37,78, aunque con recortes recientes (MarketBeat, oct-2026)"
   ],
   [
    "Próx. earnings",
-   "6-ago-2026 (Q2 2026, mañana): consenso ingresos ~US$95,7M y EPS ajustado ~$0,01 (MarketBeat, ago-2026)"
+   "5-nov-2026 (Q3 2026, tras cierre ~19:00 hora Chile): consenso ingresos ~US$117,1M y EPS ~breakeven (MarketScreener/MarketBeat, oct-2026)"
+  ],
+  [
+   "Técnico (auto)",
+   "RSI 29.1 · MACD -3.07 / señal -2.67 (TradingView, 23-oct-2026)"
   ]
  ],
- "reportDate": "5 de agosto de 2026",
+ "reportDate": "23 de octubre de 2026",
  "change": {
-  "day": 0.93,
-  "week": 25.75
+  "day": -2.04,
+  "week": -5.96
  },
  "events": [
   {
-   "date": "2026-08-06",
-   "label": "Earnings Q2 2026",
+   "date": "2026-11-05",
+   "label": "Earnings Q3 2026",
    "kind": "earnings",
-   "info": "Consenso: ingresos ~US$95,7M (vs $57,4M a/a) y EPS ajustado ~$0,01 (MarketBeat, ago-2026). Foco: volúmenes y costo unitario de NdPr, ramp del segmento Magnetics (Independence, Fort Worth), avance de construcción del 10X, comisionado de separación de tierras raras pesadas en Mountain Pass, y cualquier cuantificación del impacto de la blacklist china del 22-jun en equipos/insumos. Evento binario tras +25,7% de rebote semanal pre-reporte."
+   "time": "19:00",
+   "info": "Consenso: ingresos ~US$117,1M y EPS ~breakeven (MarketScreener/MarketBeat, oct-2026), tras un Q2 que batió consenso. Foco: si el EBITDA ajustado positivo de Materiales y Magnetics se sostiene, avance del 10X y del offtake de gadolinio, y cualquier guidance sobre dilución o el efecto de la tregua comercial EE.UU.-China sobre insumos."
+  },
+  {
+   "date": "2027-01-10",
+   "label": "Vencimiento tregua comercial EE.UU.-China (tierras raras)",
+   "kind": "macro",
+   "info": "La suspensión de controles chinos ampliados a tierras raras, acordada en Busan (oct-2025) y ya extendida una vez desde el 10-nov-2026, vence el 10-ene-2027. MP sigue en la lista de control MOFCOM desde jun-2026; una no renovación o escalada reabriría el riesgo sobre equipos/insumos (CommBank/SCMP, oct-2026)."
   }
  ],
  "sections": {
-  "resumen": "MP cerró el 5-ago en $47,91 (+0,93% día, +25,75% en 5 ruedas), rebotando en V desde $38,10 (29-jul), pegado al mínimo 52-sem de $37,81, y aún -52% bajo el máximo de $100,25. HECHO: reporta Q2 2026 mañana 6-ago. La tesis estructural sigue intacta: única cadena mina-imán integrada de EE.UU., piso DoD de $110/kg para NdPr por 10 años, offtake 100% del futuro 10X y acuerdo Apple de $500M vigente. La caída feb-jul respondió a la blacklist china (22-jun), insider selling y desinfle del premium 2025. LECTURA: capitulación de julio (RSI<30) más piso contractual del DoD acotaban el downside; el rebote pre-earnings ya consumió parte de esa asimetría.",
-  "fundamental": "- HECHO: Q1 2026 (6-may): revenue $90,6M (+49% a/a), EBITDA ajustado $36,6M, utilidad neta ajustada $6,7M; producción récord de NdPr 917 t (+63%) y ventas 1.006 t (+117%) (MP IR, may-2026).\n- HECHO: acuerdo DoD (jul-2025) vigente: piso de $110/kg para NdPr por 10 años vía contract-for-difference, préstamo de $150M para separación de pesadas, y compromiso de compra del 100% de los imanes del 10X (10.000 t/año NdFeB, comisionado 2028); $1.000M de financiamiento comprometido por JPMorgan/Goldman (MP IR / FAS).\n- HECHO: acuerdo Apple $500M (jul-2025) vigente: imanes de tierras raras 100% recicladas desde Independence (Fort Worth), envíos desde 2027.\n- HECHO: Magnetics (Independence) en Q1 2026: revenue $21,1M (+306% a/a) y EBITDA de segmento $9,6M; 10X con groundbreaking realizado y comisionado de separación de pesadas por iniciarse en Mountain Pass (MP IR, may-2026).\n- HECHO: MOFCOM incluyó a MP en su lista de control (22-jun-2026), vetando exportaciones chinas de ítems dual-use hacia la empresa. LECTURA: no afecta ventas (MP dejó de vender concentrado a China en 2025) pero puede encarecer equipos/insumos; alcance completo no verificable.",
-  "valuacion": "- HECHO: sin P/E trailing (pérdidas TTM, EPS -$0,34); forward P/E ~99x y P/S TTM ~20x (stockanalysis.com, ago-2026) — el precio descuenta la ejecución 2027-28, no las utilidades actuales.\n- HECHO: target consenso ~$77,5-79,5, Strong Buy, 18 compras / 0 ventas (CNN / Investing.com, jul-ago 2026): ~+62% de upside implícito.\n- HECHO: NdPr óxido en ¥747-767/kg (~US$112-115/kg) a fines de jul-2026, sobre el piso DoD de $110; aleación NdPr ~US$133/kg al 1-jul, máximo 2026 (Mainrich / Rare Earth Exchanges, jul-2026). LECTURA: con spot > piso, el CFD del DoD pasa de subsidio a opción gratuita.\n- HECHO: InvestingPro había marcado sobrevaluación en los máximos y 'acertó' la caída de ~50% (Investing.com, jul-2026). LECTURA: tras el -52% desde el pico, la acción está barata vs su rango 12m pero cara vs fundamentales corrientes; el valor real depende de la capacidad de imanes ya contratada.\n- LECTURA: dilución potencial (warrants/preferentes del DoD, ~178M acciones hoy) modera el upside por acción; no cuantificada aquí — no verificable sin el 10-Q más reciente.",
-  "tecnico": "- Piso en $38,10 (29-jul), prácticamente el mínimo 52-sem ($37,81), seguido de reversión en V: +25,75% en 5 ruedas con velas de +9,3%, +6,0% y +8,3% — evidencia de cambio de carácter tras la bajista feb-jul.\n- RSI pasó de sobreventa extrema (<30 el 22-jul, metalschannel) a zona neutral-alta: la estructura de mínimos decrecientes se rompió al recuperar $43-44.\n- Precio aún -52% bajo el máximo 52-sem; resistencias en ~$49-52 (zona perdida en jun tras la blacklist) y luego ~$57,5.\n- Beta 1,92 (stockanalysis.com): amplifica ambos lados; el rebote actual llega justo antes de un evento binario (earnings 6-ago), con gap risk elevado.\n- Volumen de la semana de rebote: no verificable al cierre del 5-ago; la amplitud de las velas sugiere participación institucional, no solo short covering.",
-  "catalizadores": "**Catalizadores:**\n- Earnings Q2 2026 mañana (6-ago): consenso $95,7M / EPS aj. $0,01; confirmación de EBITDA ajustado positivo y ramp de Magnetics sería validación clave de la tesis.\n- Comisionado de separación de tierras raras pesadas en Mountain Pass (2S26): primera capacidad de pesadas a escala en EE.UU., financiada con $150M del DoD.\n- Inicio de envíos de imanes reciclados a Apple (2027) y avance del 10X (10.000 t/año, 2028) con $1.000M de JPMorgan/Goldman comprometidos.\n- Escalada de controles chinos (blacklist a MP el 22-jun; extensión a 14 firmas de la UE el 24-jul) sostiene el premium ex-China de NdPr sobre el piso de $110/kg.\n\n**Riesgos (por materialidad):**\n- Ejecución del salto de escala en imanes (Independence ~1.000 t → 10X 10.000 t hacia 2028): retrasos o sobrecostos romperían la tesis que justifica el múltiplo.\n- Valuación exigente (forward P/E ~99x, P/S ~20x): sin margen de error si NdPr recae bajo $110 y el negocio queda dependiendo del CFD estatal.\n- Blacklist china sobre ítems dual-use puede encarecer capex/opex de las expansiones; magnitud no verificable.\n- Insider selling elevado (>1,2M acciones vendidas por ejecutivos incl. CEO/CFO en el último trimestre; tickeron, jul-2026) y dilución potencial por instrumentos del DoD.",
-  "sentimiento": "- HECHO: consenso sell-side unánime en Strong Buy (18 compras, 0 ventas), target ~$77,5 (CNN / stockanalysis, ago-2026) — sin capitulación de analistas pese al -52% desde el pico.\n- HECHO: RSI entró en sobreventa (<30) el 22-jul (metalschannel) tras la ola de ventas por la blacklist china y el insider selling: extremo de miedo clásico.\n- LECTURA contrarian: el punto de máximo pesimismo fue fines de julio; el rebote de +25,7% ya consumió parte de esa ventana. Con el sell-side 100% comprador, el contrarian puro hoy es neutral, no alcista.\n- LECTURA: prensa dividida — notas de 'fair value acertó la caída de 50%' conviven con 'mejor acción de reshoring' — dispersión narrativa típica de un stock-historia dependiente de política industrial.",
-  "conclusion": "MP es la apuesta estructural de EE.UU. en tierras raras: piso DoD de $110/kg por 10 años, offtake del 100% del 10X, Apple $500M y Q1 2026 ya con EBITDA ajustado positivo — el downside de flujo está contractualmente acotado y el upside depende de ejecutar imanes 2027-28. Pero el punto de entrada táctico óptimo fue la capitulación de julio ($38-42); tras +25,75% en una semana y un earnings binario mañana, comprar hoy es pagar el rebote. Plan: esperar el reporte del 6-ago y acumular en retrocesos hacia $42-45 con la tesis confirmada. Invalidación: cierre sostenido bajo $37,8 o daño al acuerdo DoD."
+  "resumen": "MP cerró el 23-oct en US$37,78 (-2,04% día, -5,96% semana), marcando nuevo mínimo de 52 semanas (US$37,58, 22-oct) y -51% bajo el máximo de 52 sem. de US$76,80. HECHO: Q2 2026 (6-ago) superó consenso —ingresos US$108,49M (+89% a/a) y EBITDA ajustado US$28,5M, positivo en ambos segmentos— y sumó un nuevo offtake de gadolinio con un cliente aeroespacial/defensa. LECTURA: la caída post-agosto responde más a recortes de precio objetivo y a un short interest récord (18,85%) que a la operación, en medio de la extensión de la tregua arancelaria EE.UU.-China hasta el 10-ene-2027. Reporta Q3 2026 el 5-nov.",
+  "fundamental": "- HECHO: Q2 2026 (6-ago): ingresos US$108,49M (+89% a/a, vs consenso US$95,7M), EBITDA ajustado US$28,5M (vs -US$12,5M a/a), pérdida neta US$20,3M/-US$0,11 por acción, angostando vs -US$0,19 a/a (MP IR / Investing.com, 06/08/2026).\n- HECHO: Materiales US$95,6M ingresos + US$17,6M de PPA + US$32,5M EBITDA aj.; Magnetics US$16,5M ingresos y US$7,5M EBITDA aj. — ambos segmentos positivos (MP IR, 06/08/2026).\n- HECHO: nuevo offtake de largo plazo de gadolinio separado con un cliente aeroespacial/defensa no revelado, más 'Project Swarm' para agregar demanda del sector dron (MP IR, ago-2026).\n- HECHO: Q3 2026 se reporta el 5-nov-2026 tras cierre; consenso ingresos ~US$117,1M y EPS ~breakeven (MarketScreener/MarketBeat, oct-2026).\n- LECTURA: el 10X (Northlake, TX, US$1.250M, 10.000 t/año) sigue en ingeniería/procura con comisionado en 2028; sin evidencia pública de atraso ni de aceleración (fuentes de sector, oct-2026).",
+  "valuacion": "- HECHO: a US$37,78 y ~178,1M acciones, market cap ~US$6.730M; P/E trailing y forward n/a (pérdidas TTM y consenso de pérdida anual); P/S TTM ~22x sobre ~US$305M de ingresos LTM (MP IR trimestral; stockanalysis.com, oct-2026).\n- HECHO: percentil de precio en su propio rango de 12 meses: 1,7% (dato auto) — la acción nunca estuvo tan barata vs sí misma en el último año.\n- HECHO: target consenso US$71,92 (17 analistas: 1 strong buy/13 buy/1 hold/2 sell, 'Moderate Buy'), rango $57-$100 — implica ~+90% desde el precio actual (MarketBeat, oct-2026).\n- LECTURA: recortes recientes de precio objetivo (Goldman a $57 el 20-oct, Morgan Stanley a $66 el 7-oct, Baird a $65) y una baja a 'Sell' de Wall Street Zen (11-oct) muestran que el sell-side sigue ajustando a la baja pese a seguir mayoritariamente comprador.\n- HECHO: NdPr óxido ~¥738-740/kg (~US$110/kg) al 21-oct-2026, justo en el piso contractual del DoD — el spot ya no opera como opción gratuita sobre el piso, a diferencia de jul-2026 (SMM/Rare Earth Exchanges, oct-2026).",
+  "tecnico": "- HECHO: nuevo mínimo de 52 semanas en US$37,58 el 22-oct-2026, rompiendo el piso de julio (US$37,81) que había sostenido el rebote de agosto (Investing.com, 22/10/2026).\n- HECHO: precio -12,9% bajo SMA20, -23,9% bajo SMA50 y -32,3% bajo SMA200 (dato auto) — tendencia bajista establecida, no reversión confirmada.\n- HECHO: RSI 29,1 en sobreventa y MACD -3,07 bajo su señal -2,67, pero con histograma MACD empezando a girar al alza (señal de piso temprana, dato auto) — evidencia incipiente, no confirmada.\n- HECHO: volumen de hoy muy por debajo del promedio de 20 ruedas (ratio 0,18x, dato auto) — la caída a mínimos no vino con clímax de volumen, lo que debilita la lectura de capitulación clásica.\n- LECTURA: short interest de 18,85% (el más alto del sector materiales mid/mega-cap) deja a la acción expuesta tanto a nuevas caídas por presión vendedora como a un short squeeze ante cualquier sorpresa positiva el 5-nov (GuruFocus, 02/10/2026).",
+  "catalizadores": "**Catalizadores:**\n- Q3 2026 el 5-nov-2026 (tras cierre): confirmar si el EBITDA ajustado positivo de Magnetics y Materiales se sostiene y el estado del ramp de Independence/10X.\n- Resolución o nueva extensión de la tregua comercial EE.UU.-China sobre tierras raras más allá del 10-ene-2027; MP sigue en la lista de control MOFCOM desde jun-2026.\n- Avance de ingeniería/procura e inicio de obra física del 10X (Northlake, TX, comisionado 2028) y arranque de envíos a Apple desde 2027.\n- Nuevo offtake de gadolinio con cliente aeroespacial/defensa y expansión de 'Project Swarm' (drones) como prueba de diversificación más allá del NdPr.\n\n**Riesgos (por materialidad):**\n- Short interest extremo (18,85%) y venta continua de insiders (-US$144,8M netos en 12 meses) sostienen presión bajista estructural sobre el papel.\n- Valuación aún exigente en P/S (~22x TTM) sin utilidades GAAP: una decepción en el Q3 del 5-nov puede gatillar otra pierna bajista.\n- Competencia emergente con respaldo estatal (planta de US$375M de Phoenix Tailings en Nueva York, con compromiso condicional de US$500M del Pentágono) erosiona la narrativa de MP como único beneficiario de la política industrial.\n- Dependencia de que la tregua comercial EE.UU.-China se siga renovando; un recrudecimiento de controles o la no renovación en ene-2027 reabriría el riesgo sobre insumos/equipos de MP.",
+  "sentimiento": "- HECHO: consenso sell-side 'Moderate Buy' (1 strong buy/13 buy/1 hold/2 sell de 17 analistas), target US$71,92, pero con recortes de precio objetivo y una baja a 'Sell' (Wall Street Zen, 11-oct) en las últimas semanas (MarketBeat, oct-2026).\n- HECHO: short interest 18,85%, el más alto del sector materiales mid/mega-cap (GuruFocus, 02/10/2026) — posicionamiento bajista extremo.\n- HECHO: insiders vendieron US$146,3M y compraron solo US$1,5M en 12 meses (neto -US$144,8M); sin transacciones relevantes en el último trimestre salvo retenciones fiscales de RSUs (insider-monitor.com, oct-2026).\n- LECTURA contrarian: mínimo de 52 semanas + short interest récord + recortes de target, combinados con un Q2 que batió consenso en ingresos y EBITDA, configuran un pesimismo de precio que no calza con la operación — leído en contra, sube la nota de sentimiento.\n- LECTURA: el mercado está pagando casi exclusivamente el resultado del 5-nov como catalizador binario; la dispersión entre el sell-side bullish y el posicionamiento bajista del mercado es inusualmente amplia.",
+  "conclusion": "MP está en el percentil de precio más bajo de su año (1,7%) con un Q2 2026 que confirmó EBITDA ajustado positivo en ambos segmentos y contratos intactos (gadolinio, Apple, DoD), pero el mercado sigue castigándola vía recortes de target y short interest récord (18,85%) de cara al Q3 del 5-nov. El downside de flujo sigue acotado por el piso DoD de US$110/kg; el upside depende de ejecutar el 10X hacia 2028. Plan: acumular en la zona de mínimos (US$37-40) con tamaño reducido, esperando confirmación técnica antes de ampliar. Invalidación: ruptura de US$35 o daño al acuerdo DoD. Confianza media."
  },
  "scores": {
   "tecnica": {
-   "score": 60,
-   "just": "Cambio de carácter genuino: reversión en V desde el soporte 52-sem con RSI saliendo de sobreventa (<30 el 22-jul) y ruptura de la secuencia de mínimos decrecientes. Se descuenta puntaje por extensión de corto plazo (+25,75% en 5 ruedas) justo antes de un evento binario — no se premia la dirección, se premia la evidencia, y parte de ella ya está pagada."
+   "score": 48,
+   "just": "Tendencia bajista establecida (precio -32% bajo SMA200, nuevo mínimo de 52 sem.) sin reversión confirmada: no se premia la dirección. Hay un indicio temprano (histograma MACD girando al alza, volumen de caída por debajo del promedio) que impide una nota más baja, pero falta una estructura de mínimos crecientes para hablar de cambio de carácter real."
   },
   "fundamental": {
-   "score": 66,
-   "just": "Q1 2026 con inflexión real (EBITDA aj. $36,6M, utilidad neta aj. positiva, NdPr récord) y contratos únicos en el mundo occidental (piso DoD $110/kg, offtake 10X, Apple). Falta: pérdidas GAAP (EPS TTM -$0,34) y toda la tesis de imanes a escala está por ejecutarse hasta 2028."
+   "score": 68,
+   "just": "Segundo trimestre consecutivo con EBITDA ajustado positivo en ambos segmentos, ingresos +89% a/a por sobre consenso, y diversificación con el nuevo offtake de gadolinio y Project Swarm. Falta: pérdidas GAAP y toda la tesis de imanes a escala sigue por ejecutarse hasta 2028."
   },
   "sentimiento": {
-   "score": 55,
-   "just": "El extremo contrarian comprable fue fines de julio (RSI<30, capitulación por blacklist). Hoy el sentimiento ya rebotó y el sell-side está unánimemente comprador (18/18 Buy) — consenso bullish total resta valor contrarian; posición neutral, ni euforia ni pánico."
+   "score": 58,
+   "just": "Lectura contrarian: mínimo de 52 semanas, short interest récord (18,85%) y recortes de target conviven con un Q2 que batió consenso — ese desacople entre precio y operación favorece una nota por sobre neutral, aunque el sell-side aún no capituló a 'Sell' mayoritario."
   },
   "riesgo": {
-   "score": 52,
-   "just": "El riesgo de pérdida permanente está mitigado por el CFD del DoD ($110/kg por 10 años) y el respaldo estatal — el drawdown de -52% ya ocurrido no se castiga. Riesgos reales remanentes: ejecución del 10X, dependencia de política industrial (cambio de administración/prioridades), blacklist china sobre insumos y valuación sin margen de error."
+   "score": 48,
+   "just": "El drawdown adicional desde agosto no se castiga por sí solo (piso DoD de US$110/kg sigue protegiendo el flujo del negocio core). Sí pesan: short interest extremo, insider selling persistente, valuación aún exigente en P/S y la ventana de renovación de la tregua EE.UU.-China en ene-2027 como riesgo binario de política."
   },
   "conviccion": {
-   "score": 60,
-   "just": "Tesis estructural clara con downside contractualmente acotado y +62% de upside a consenso, pero timing subóptimo (rebote de +25,7% pre-earnings) y dependencia de ejecución multianual moderan la convicción a esta fecha y precio."
+   "score": 56,
+   "just": "Asimetría real al precio actual (percentil 1,7% propio, upside de ~+90% a consenso) con downside acotado por contrato, pero el momentum técnico sigue negativo y hay un evento binario inmediato (5-nov) — la convicción es moderada, no alta, hasta ver confirmación."
   }
  },
  "sources": [
-  "stockanalysis.com, 05/08/2026 - MP Materials (MP) Statistics, Price History (cierres 27-jul a 5-ago, beta 1,92, forward P/E)",
-  "MP Materials IR, 06/05/2026 - MP Materials Reports First Quarter 2026 Results (revenue $90,6M, EBITDA aj. $36,6M, NdPr 917t/1.006t, segmento Magnetics)",
-  "MarketBeat, ago-2026 - MP Materials Q2 2026 Earnings (fecha 6-ago-2026, consenso $95,73M / EPS $0,01)",
-  "MP Materials IR / Businesswire, 10/07/2025 - Transformational Public-Private Partnership with the Department of Defense (piso $110/kg, 10X 10.000t, préstamo $150M, financiamiento $1.000M JPM/GS)",
-  "FAS.org, 2025 - Unpacking the DoD and MP Materials Critical Minerals Partnership (estructura contract-for-difference)",
-  "MP Materials IR / Businesswire, 15/07/2025 - MP Materials and Apple Announce $500 Million Partnership (imanes reciclados, envíos desde 2027)",
-  "Mainrich International, jul-2026 - Rare Earth Market Update July 2026 (NdPr óxido ¥747-767/kg ≈ $112-115/kg, licencias MOFCOM)",
-  "Rare Earth Exchanges, jul-2026 - China Rare Earth Index Stays Elevated as NdPr Rises (aleación NdPr ~$133/kg al 1-jul, escasez de pesadas)",
-  "Tech Insider / tickeron, jun-jul 2026 - China MOFCOM blacklist 22-jun-2026 a MP y USA Rare Earth; extensión a 14 firmas UE el 24-jul",
-  "tickeron.com, 13/07/2026 - MP Stock Drops -14% Over 30 Days on China Blacklist and Insider Selling (>1,2M acciones vendidas por ejecutivos)",
-  "metalschannel.com, 22/07/2026 - MP Materials Stock Enters Oversold Territory as RSI Falls Below 30",
-  "Investing.com, jul-2026 - InvestingPro's Fair Value nailed MP Materials' 50% decline (target consenso ~$79,54)",
-  "CNN Markets, ago-2026 - MP Stock Quote: target promedio $77,78, 18 analistas en compra, Strong Buy",
-  "The Motley Fool, 03/07/2026 - Here's Why Shares in MP Materials Declined in June (blacklist china, -13,4% en junio)"
+  "MP Materials IR / Businesswire, 06/08/2026 - MP Materials Reports Second Quarter 2026 Results (ingresos $108,49M, EBITDA aj. $28,5M, segmentos Materials/Magnetics)",
+  "Investing.com, 06/08/2026 - Earnings call transcript: MP Materials posts Q2 2026 revenue beat as losses narrow",
+  "MarketScreener / Businesswire, 08/10/2026 - MP Materials Announces Date for Third Quarter 2026 Financial Results and Webcast (5-nov-2026)",
+  "MarketBeat, oct-2026 - MP Materials consenso Q3 2026 (ingresos ~$117,1M, EPS ~breakeven) y cobertura de analistas",
+  "ad-hoc-news.de, 22/10/2026 - MP Materials stock at 49.79 percent below its $76.80 high",
+  "Investing.com, 22/10/2026 - MP Materials stock hits 52-week low at $37.81",
+  "GuruFocus, 02/10/2026 - MP Materials (MP) Leads Mid- to Mega-Cap Materials Sector in Short Interest at 18.85%",
+  "Insider-monitor.com / MarketBeat, oct-2026 - Insider Trading Activities at MP Materials (neto -$144,8M en 12 meses)",
+  "MarketBeat, oct-2026 - Recortes de precio objetivo (Goldman Sachs $57 el 20-oct, Morgan Stanley $66 el 7-oct, Baird $65) y downgrade a Sell de Wall Street Zen (11-oct); consenso Moderate Buy $71,92 (17 analistas)",
+  "Shanghai Metals Market (SMM) / Rare Earth Exchanges, 21/10/2026 - NdPr oxide ¥738.000-740.000/mt (~$110/kg)",
+  "stockanalysis.com, oct-2026 - MP Materials Market Cap & Shares Outstanding (178,1M acciones)",
+  "CommBank Research / SCMP, oct-2026 - Trump-Xi rare earths truce extendida del 10-nov-2026 al 10-ene-2027",
+  "Mining.com / TipRanks, 20/10/2026 - Phoenix Tailings to build $375M rare earth plant in Rochester, New York (compromiso condicional $500M del Pentágono)"
  ],
  "opportunity": {
   "cats": {
    "valuacion_hist": {
-    "score": 45,
-    "just": "Barata vs su propio rango 12m (-52% desde $100,25, percentil bajo del rango 52-sem) pero cara en métricas corrientes: forward P/E ~99x y P/S ~20x descuentan ejecución 2027-28. El piso DoD reduce el escenario de quiebre de valuación, no la exigencia del múltiplo."
-   },
-   "asimetria": {
-    "score": 62,
-    "just": "Downside acotado: mínimo 52-sem a -21% ($37,81) y piso contractual de $110/kg NdPr que protege el flujo del negocio core; upside a consenso +62% y opcionalidad del 10X/Apple. Penaliza el evento binario inmediato (earnings 6-ago) tras +25,7% semanal."
+    "score": 80,
+    "just": "Percentil de precio en su propio rango de 12 meses: 1,7% (dato auto) — prácticamente el piso de su historia reciente, tras caer -51% desde el máximo de 52 sem. de US$76,80. Nunca estuvo tan barata vs sí misma en el último año, aunque el P/S TTM (~22x) sigue exigente en términos absolutos."
    },
    "calidad": {
     "score": 68,
-    "just": "Activo irreplicable (Mountain Pass, único mina-a-imán integrado ex-China), respaldo estatal explícito, clientes ancla (DoD, Apple, GM) y ya con EBITDA ajustado positivo en Q1 2026. Descuenta: pérdidas GAAP y que el grueso de la capacidad de imanes aún no existe."
+    "just": "Activo irreplicable con EBITDA ajustado positivo por segundo trimestre consecutivo en ambos segmentos, piso contractual DoD de $110/kg, y diversificación reciente (gadolinio, Project Swarm). Descuenta: pérdidas GAAP y que la mayor parte de la capacidad de imanes (10X) aún no existe."
+   },
+   "asimetria": {
+    "score": 75,
+    "just": "Downside acotado por el piso DoD y el soporte técnico de US$37-38 (mínimo de 52 sem.); upside a consenso ~+90% (US$71,92). Penaliza el evento binario inmediato (Q3, 5-nov) y que el momentum técnico siga negativo sin confirmación de piso."
    },
    "catalizadores": {
-    "score": 70,
-    "just": "Calendario denso y cercano: Q2 mañana (6-ago), comisionado de separación de pesadas en 2S26, envíos a Apple desde 2027, avance del 10X, y controles chinos que sostienen el premium ex-China de NdPr sobre el piso de $110."
+    "score": 72,
+    "just": "Calendario denso y cercano: Q3 el 5-nov, decisión sobre la tregua comercial EE.UU.-China el 10-ene-2027, avance de ingeniería del 10X y arranque de envíos a Apple desde 2027, más el nuevo offtake de gadolinio ya firmado."
    },
    "contrarian": {
-    "score": 55,
-    "just": "La ventana contrarian real fue fines de julio (RSI<30, capitulación por blacklist); ya se consumió parcialmente con +25,7% de rebote. Además el sell-side está 100% comprador — no hay pesimismo de consenso que explotar a este precio."
+    "score": 72,
+    "just": "Pesimismo de precio (mínimo de 52 sem., short interest récord 18,85%, recortes de target) conviviendo con un Q2 que batió consenso en ingresos y EBITDA: desacople clásico entre precio y fundamentos que favorece la lectura contraria, aunque el sell-side no ha capitulado a 'Sell' mayoritario."
    }
   },
   "plan": {
-   "recomendacion": "Esperar gatillo",
-   "zona_compra": "US$42-45 en retroceso post-earnings (retest de la zona de ruptura del rebote); no perseguir sobre $48-50 tras +25,7% semanal pre-evento",
-   "invalidacion": "Cierre sostenido bajo US$37,8 (mínimo 52-sem), renegociación/daño del piso DoD de $110/kg, o retraso mayor a 6 meses del 10X / de la separación de pesadas",
+   "recomendacion": "Acumular en zona",
+   "zona_compra": "US$37-40 (zona del mínimo de 52 semanas, percentil histórico ~2%); ampliar en volatilidad post-earnings si retesta el piso técnico sin dañar el soporte",
+   "invalidacion": "Cierre semanal sostenido bajo US$35 (ruptura del soporte de mínimos de 52 sem.) o renegociación/daño del piso DoD de US$110/kg para NdPr",
    "gatillos": [
-    "Q2 2026 (6-ago) con EBITDA ajustado positivo sostenido, ramp de Magnetics en línea y sin anuncio de dilución nueva",
-    "Retroceso ordenado a US$42-45 con RSI manteniéndose sobre 40 (pullback dentro del nuevo carácter alcista)",
-    "NdPr spot sosteniéndose sobre US$110/kg pese a eventual distensión EE.UU.-China (confirma demanda ex-China real, no solo pánico)"
+    "Q3 2026 (5-nov) con EBITDA ajustado sosteniendo la expansión secuencial y sin sorpresas negativas de guidance",
+    "Histograma MACD confirmando el giro al alza con recuperación sostenida sobre la SMA20 (~US$43)",
+    "Renovación de la tregua comercial EE.UU.-China más allá del 10-ene-2027 sin nuevas restricciones a MP"
    ],
    "horizonte": "6-18 meses",
-   "tamano": "Posición inicial pequeña (1/3 del objetivo), escalando tras gatillos; beta 1,92 y dependencia de política industrial exigen sizing conservador",
+   "tamano": "Posición inicial pequeña (1/4-1/3 del objetivo) dado el short interest extremo (18,85%) y la dependencia de política industrial; escalar solo en gatillos confirmados, no en el repunte de un short squeeze",
    "confianza": "media"
   }
- }
+ },
+ "technical": {
+  "price": 37.775,
+  "change_1d_pct": -2.04,
+  "change_1w_pct": -5.96,
+  "rsi": 29.1,
+  "macd": -3.0736,
+  "macd_signal": -2.6742,
+  "sma20": 43.3773,
+  "sma50": 49.6367,
+  "sma200": 55.8099,
+  "ema12": 40.9276,
+  "ema26": 44.0012,
+  "pct_vs_sma20": -12.92,
+  "pct_vs_sma50": -23.9,
+  "pct_vs_sma200": -32.31,
+  "volume_today": 876170,
+  "volume_avg20": 4844914.0,
+  "volume_ratio": 0.18,
+  "volatility_30d": 46.92,
+  "sharpe": -2.04,
+  "sortino": -1.53,
+  "max_drawdown_1y": -57.96,
+  "price_percentile_1y": 1.7,
+  "vs_benchmark_30d_pct": -23.81,
+  "perf_1m_pct": -25.6,
+  "perf_ytd_pct": -26.62
+ },
+ "risk": {
+  "volatility_30d": 46.92,
+  "sharpe": -2.04,
+  "sortino": -1.53,
+  "max_drawdown_1y": -57.96,
+  "n_days": 348,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "SP:SPX",
+  "label": "S&P 500",
+  "relative_performance_30d": -23.81,
+  "relative_performance_ytd": -37.46,
+  "price_percentile_1y": 1.7,
+  "partial": false
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-10-23T11:43:46-03:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-10-23T11:43:46-03:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-10-23T11:43:46-03:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "SP:SPX",
+   "fetched_at": "2026-10-23T11:43:46-03:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/MP.json",
+   "n_days": 348
+  }
+ },
+ "metricChanges": [
+  {
+   "ticker": "MP",
+   "date": "2026-10-13",
+   "metric": "precio_pct",
+   "from": 46.14,
+   "to": 42.43
+  }
+ ],
+ "trend": {
+  "piso": 1,
+  "techo": 0,
+  "max": 7,
+  "senales_piso": [
+   "histograma MACD girando al alza"
+  ],
+  "senales_techo": []
+ },
+ "perfil": "MP Materials es el único productor integrado de tierras raras de Occidente: extrae y separa concentrado en Mountain Pass (California) hasta óxido de NdPr, y en Fort Worth fabrica imanes permanentes NdFeB para automotriz, defensa y robótica. El core está mutando de vender concentrado —dejó de exportarlo a China en jul-2025, hundiendo ese segmento ~42% a/a— a fabricar imanes, negocio que arrancó con $66,9M en FY2025. La viga maestra es el contrato con el Departamento de Defensa: $400M en preferentes que lo vuelven mayor accionista, un piso de precio de $110/kg de NdPr por diez años y offtake del 100% de la futura planta 10X, sumado a Apple y GM. Lo estructural: activo irreplicable pero concentrado en un solo yacimiento, con capex y ejecución intensivos, y un precio de NdPr que sigue fijando la oferta china — el moat real no es geológico sino político, y depende de que esa política industrial continúe."
 }
