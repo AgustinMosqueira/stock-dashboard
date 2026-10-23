@@ -4,197 +4,216 @@
  "statsList": [
   [
    "Precio",
-   "$219.22 (5-ago-2026)"
+   "$212,21 (22-oct-2026)"
   ],
   [
    "Rango 52 sem.",
-   "$86,62 – $236,54 (máx del 14-may-2026; mínimo posiblemente rezagado en fuentes)"
+   "$164,27 – $243,37 (máx. 06-oct-2026 / mín. 30-mar-2026)"
   ],
   [
    "Market cap",
-   "~US$4,31T (stockanalysis.com, ago-2026)"
+   "~US$5,12T (TradingEconomics/dmarketforces, 22-oct-2026)"
   ],
   [
    "P/E",
-   "33,4x trailing / 21,9x forward, 38% bajo su media de 10 años de 54,2x (fullratio, ago-2026)"
+   "28,0x trailing / 18,3x forward, 48% bajo su media de 10 años de 54,2x (Gurufocus/fullratio, oct-2026)"
   ],
   [
    "Target consenso",
-   "~US$302,83 promedio (rango $250-500), 36 de 37 analistas en compra (24/7 Wall St, ago-2026)"
+   "~US$330 promedio (rango $315-345), 59 de 60 analistas en compra (Benzinga/24-7 Wall St, oct-2026)"
   ],
   [
    "Próx. earnings",
-   "26-ago-2026 (Q2 FY27); guidance $91B ±2% sin data center China; consenso $91,8B y EPS ~$2,08"
+   "17-nov-2026 estimado (Q3 FY27); guía vigente $108.000M ±2% sin China, ya sobre el consenso previo de $104.200M"
+  ],
+  [
+   "Técnico (auto)",
+   "RSI 39.1 · MACD -2.00 / señal +0.04 (TradingView, 22-oct-2026)"
   ]
  ],
- "reportDate": "5 de agosto de 2026",
+ "reportDate": "23 de octubre de 2026",
  "change": {
-  "day": 3.43,
-  "week": 9.2
+  "day": -4.4,
+  "week": -0.9
  },
  "events": [
   {
-   "date": "2026-08-26",
-   "label": "Earnings Q2 FY2027",
+   "date": "2026-11-17",
+   "label": "Earnings Q3 FY2027 (fecha estimada)",
    "kind": "earnings",
-   "info": "Guidance vigente: revenue $91B ±2%, excluyendo por completo el compute de data center de China. Consenso: $91,8B (rango $90,3-96,7B) y EPS ~$2,08 ($2,03-2,20). Claves: Blackwell Ultra en cronograma, capex de hiperescaladores intacto y guía Q3 FY27 sobre consenso (FinanceBuzz/ad-hoc-news, ago-2026)."
+   "info": "Guía vigente de la propia NVIDIA: revenue $108.000M ±2%, sin contribución de compute de data center de China (guía que ya superó el consenso previo de $104.200M dado el 26-ago). El foco pasará a la guía de Q4 FY27 y a si el ramp de Vera Rubin sostiene el ritmo de crecimiento (Webull/TechFlowPost, ago-2026)."
   }
  ],
  "sections": {
-  "resumen": "NVDA llega al earnings del 26-ago (Q2 FY27) con guía de $91B ±2% que excluye por completo el data center de China; el consenso ya espera $91,8B y EPS ~$2,08. HECHO: Amazon guió capex 2026 de $220B y Google lo subió a ~$200B, ambos citando escasez de capacidad. La acción corrigió ~10% a fines de julio por temores de «financiamiento circular» y licencias de China, y rebotó +9,2% esta semana hasta $219,22 (+3,4% hoy) tras reportes de que EE.UU. autorizó a firmas chinas comprar H200. LECTURA: fundamentales intactos y valuación bajo su media histórica, pero el consenso unánime y la barra de $91B+ hacen del 26-ago un evento binario.",
-  "fundamental": "- HECHO: guía Q2 FY27 de $91B ±2% sin ingresos de compute de China; consenso $91,8B (rango $90,3-96,7B) y EPS ~$2,08 (FinanceBuzz/ad-hoc-news, ago-2026).\n- HECHO: capex de hiperescaladores confirmado al alza — Amazon $220B en 2026 y Google ~$200B, ambos declarándose «supply-constrained» (24/7 Wall St, ago-2026).\n- HECHO: visibilidad de ~$500B en ingresos de Blackwell + Rubin desde inicio de CY2025 hasta fin de CY2026 (CFO Colette Kress).\n- HECHO: EE.UU. habría autorizado a firmas chinas a comprar H200, y NVIDIA evalúa ampliar capacidad de producción del chip (Investing.com/Finviz, ago-2026).\n- HECHO: compromisos de compra por $119B — riesgo de inventario real si la demanda algún día se enfría (24/7 Wall St, ago-2026).",
-  "valuacion": "- HECHO: P/E 33,4x trailing / 21,9x forward — 38% por debajo de su media de 10 años (54,2x) (fullratio/stockanalysis, ago-2026).\n- HECHO: market cap ~$4,31T; la acción sube ~23% en 52 semanas (stockanalysis, ago-2026).\n- HECHO: target consenso ~$302,83 (rango $250-500), 36 de 37 analistas en compra — implica ~+38% desde $219 (24/7 Wall St, ago-2026).\n- LECTURA: pagar ~22x forward por el líder con crecimiento guiado sin China (que hoy vale cero en el modelo) es razonable; el riesgo central no es el múltiplo sino la durabilidad del capex de sus 4-5 grandes clientes.",
-  "tecnico": "- Precio $219,22: +6,5% sobre SMA50 y +13,2% sobre SMA200; recuperó el nivel de $210 perdido en la corrección de julio (FX Leaders, 4-ago-2026).\n- Semana +9,2% y +3,4% hoy: cambio de carácter positivo confirmado tras el susto de «financiamiento circular».\n- RSI 61,6: momentum sano, aún sin sobrecompra; percentil 1Y de 76,1, ~7% bajo el máximo de $236,54 (14-may).\n- Relativo 30d vs benchmark +9,9%: liderazgo de mercado recuperado.\n- LECTURA: el rebote pre-earnings ya recorrió gran parte del camino — comprar hoy es pagar el evento; la entrada con ventaja quedó en $195-210.",
-  "catalizadores": "**Catalizadores:**\n- Earnings 26-ago: la guía Q3 FY27 será lo determinante, más que el print de $91B.\n- Formalización de licencias H200 a China: revenue no incluido en guía = upside puro; NVDA ya evalúa ampliar capacidad.\n- Ramp de Blackwell Ultra y cronograma de Rubin con $500B de visibilidad declarada.\n- Capex de hiperescaladores en máximos históricos (AMZN $220B, GOOG ~$200B) con demanda supply-constrained.\n\n**Riesgos (por materialidad):**\n- Barra de expectativas altísima: cumplir $91B no basta, hay que volver a subir la guía con consenso ya en $91,8B.\n- Temores de «financiamiento circular» en acuerdos con neoclouds y clientes participados — puede reactivarse con cualquier titular.\n- $119B en compromisos de compra: riesgo de inventario si el ciclo de capex se corta.\n- Concentración extrema de ingresos en 4-5 hiperescaladores y dependencia regulatoria (licencias China revocables).",
-  "sentimiento": "- HECHO: 36 de 37 analistas en compra (97%) con consenso $302,83 — unanimidad casi total (24/7 Wall St, ago-2026).\n- HECHO: flujo de notas pre-earnings dominado por titulares alcistas («hyperscaler guarantee», «blockbuster earnings»).\n- LECTURA contrarian: la unanimidad deja poco comprador marginal si la guía solo cumple; el +9% semanal ya paga parte de la sorpresa positiva.\n- LECTURA: no hay euforia minorista de tipo burbuja — el pesimismo de julio (circular financing) se purgó; sentimiento optimista pero no eufórico.",
-  "conclusion": "Nvidia mantiene los mejores fundamentales del grupo: guía de $91B sin contar China, capex de clientes en máximos y $500B de visibilidad Blackwell/Rubin, a una valuación (22x forward) muy por debajo de su historia. Pero el setup de corto plazo es exigente: rebote de +9% semanal, consenso unánime y un evento binario el 26-ago donde cumplir no basta — hay que volver a subir la barra. Mantener posiciones; para capital nuevo preferimos compra parcial en debilidad hacia $195-210 o después del 26-ago con la incertidumbre resuelta. Las licencias H200 a China son la opción gratuita de la tesis."
+  "resumen": "NVDA cotiza en $212,21 tras caer -4,4% el 22-oct en una liquidación generalizada de tecnología (Nasdaq -2,6%, semis -3,41%) gatillada por el capex y el flujo de caja negativo de Meta, no por noticias propias. HECHO: el 26-ago reportó Q2 FY27 con revenue $96,2B (+106% i.a., vs consenso $92,2B) y guió Q3 a $108.000M ±2% (vs consenso $104.200M), sin aporte de China. HECHO: tras tocar máximo histórico de $243,37 el 6-oct (market cap ~$5,84T), la acción corrigió ~13% hasta $212 (cap ~$5,12T) en medio de dudas sobre el 'financiamiento circular' de la IA. LECTURA: múltiplo comprimiéndose con fundamentales y guía intactos — la próxima prueba es el earnings del 17-nov.",
+  "fundamental": "- HECHO: Q2 FY27 revenue $96,2B (+106% i.a.), Data Center $89,0B (+117%), margen bruto 75%, EPS no-GAAP $2,22 vs $2,10 esperado (StockTitan, 26-ago-2026).\n- HECHO: guía Q3 FY27 $108.000M ±2% (vs consenso $104.200M), sin ingresos de China (Webull, 26-ago-2026).\n- HECHO: Vera Rubin ya embarca a hyperscalers en 2S26; eleva el ingreso potencial por GW de $25.000M a $40.000M (Thundercompute, oct-2026).\n- HECHO: licencia a volumen 'trivial' de H200 a China, upside aún no incluido en guía (Bloomberg/BIS, feb-2026).\n- LECTURA: Huang sin ventas en mercado abierto en 2026; insider selling ($1.420M) se concentra en el director Mark Stevens (TipRanks, 2026).",
+  "valuacion": "- HECHO: P/E 28,0x trailing / 18,3x forward, 48% bajo su media de 10 años (54,2x) (Gurufocus/fullratio, oct-2026).\n- HECHO: market cap ~$5,12T a $212,21, -13% desde el ATH de $243,37 del 6-oct (~$5,84T) (Bloomberg, oct-2026).\n- HECHO: target consenso ~$330 (rango $315-345), 59/60 analistas en compra (Benzinga, oct-2026) — implica ~+55%.\n- LECTURA: el mercado re-paga el mismo negocio a menor múltiplo por temor sectorial, no por deterioro propio de NVDA.",
+  "tecnico": "- Precio $212,21 (RSI 39,1, percentil 1A 60,6): bajo SMA20/SMA50, pero +4,2% sobre SMA200 ($204) (TradingView, 22-oct-2026).\n- MACD -2,00 bajo su señal: momentum bajista de corto plazo tras el techo de $243 del 6-oct.\n- Corrección de ~13% desde el máximo sin romper la SMA200 ni acercarse al mínimo de 52 sem. ($164,27): tendencia de fondo intacta.\n- Volumen 1,15x el promedio 20d: baja con participación algo elevada, sin capitulación extrema.\n- LECTURA: RSI aún neutral; probablemente queda recorrido bajista antes de un piso claro en la SMA200 (~$204).",
+  "catalizadores": "**Catalizadores:**\n- Earnings Q3 FY27 el 17-nov: el mercado ya exige superar la guía propia de $108.000M.\n- Ramp de Vera Rubin a hyperscalers en 2S26, con $40.000M de ingreso potencial por GW.\n- Ampliación de licencias H200 a China sobre el volumen 'trivial' actual: upside no guiado.\n- FOMC el 28-oct: una señal menos restrictiva aliviaría el costo de capital de toda la cadena IA.\n\n**Riesgos (por materialidad):**\n- 'Financiamiento circular': NVDA es a la vez inversionista, garante y proveedor (OpenAI, garantía hasta $105.000M en Ohio); CDS del sector en máximos.\n- Contagio sectorial: capex 2026 de Meta ($135-145.000M) y su FCF negativo muestran dudas sobre el retorno del gasto en IA.\n- Concentración de clientes: pocos hyperscalers explican la mayoría de Data Center.\n- China sigue acotada por controles revisables caso a caso (arancel 25%, tope 50%).",
+  "sentimiento": "- HECHO: consenso ~59/60 analistas en compra, target promedio ~$330 (Benzinga, oct-2026) — unanimidad similar a agosto.\n- HECHO: CDS del ecosistema de IA (incluida la red de acuerdos de NVDA) tocaron máximos tras Meta (Phys.org, oct-2026).\n- LECTURA contrarian: la caída del 22-oct es sectorial (semis -3,4%), no por datos propios de NVDA — terreno fértil para rebote si el miedo no se confirma.\n- LECTURA: Huang sin ventas discrecionales en 2026 es señal de insider más constructiva que en agosto.",
+  "conclusion": "NVDA llega al 17-nov con el mejor trimestre de su historia recién reportado (Q2 FY27: $96,2B, +106%) y una guía de $108.000M que ya superó consenso, pero cotiza 13% bajo su máximo tras una liquidación sectorial por miedo al financiamiento circular de la IA, no por falla propia. El múltiplo (18x forward) es el más barato del año frente a su media histórica (54x), con Vera Rubin ya rampando y el FOMC del 28-oct como catalizador de corto plazo. El riesgo real no es la demanda de chips sino el apalancamiento del ecosistema que los compra. Acumular en debilidad hacia la zona $195-210; confirmar con el earnings de noviembre."
  },
  "scores": {
   "tecnica": {
-   "score": 60,
-   "just": "Cambio de carácter positivo real: recuperó $210 y las medias tras la corrección de julio, con RSI 61,6 sin sobrecompra. Se descuenta puntaje porque el rebote de +9,2% semanal ya consumió parte de la ventaja de entrada pre-evento."
+   "score": 45,
+   "just": "Pérdida de SMA20/SMA50 y MACD bajo señal confirman momentum bajista de corto plazo, pero sin divergencia ni capitulación que marque un piso — y la estructura de fondo (sobre SMA200, lejos del mínimo de 52 semanas) sigue intacta. Nota neutral: ni castiga la caída ya ocurrida ni premia una reversión que todavía no se confirma."
   },
   "fundamental": {
-   "score": 80,
-   "just": "Guía $91B sin China, capex de hiperescaladores subiendo (AMZN $220B, GOOG $200B) y $500B de visibilidad Blackwell/Rubin; único yellow flag: $119B de compromisos de compra y concentración de clientes."
+   "score": 83,
+   "just": "Q2 FY27 fue el mejor trimestre de la historia de la compañía (revenue $96,2B, +106% i.a.) y la guía de Q3 ($108.000M) superó el consenso previo sin contar China; Vera Rubin ya rampa en volumen. Único yellow flag: concentración de clientes y exposición cruzada vía acuerdos de financiamiento."
   },
   "sentimiento": {
-   "score": 42,
-   "just": "Unanimidad alcista (97% en compra) leída en contrario: sin vendedores capitulados que recomprar ni comprador marginal nuevo si la guía solo cumple — el extremo de sentimiento juega en contra, no a favor."
+   "score": 48,
+   "just": "Lectura mixta: el consenso de analistas sigue casi unánime en compra (euforia que juega en contra), pero el mercado acaba de castigar al sector entero por miedo al retorno del capex de IA — ese miedo repentino, si no se confirma con datos propios de NVDA, es más contrarian-positivo que negativo."
   },
   "riesgo": {
    "score": 55,
-   "just": "Riesgo de pérdida permanente moderado: balance fortísimo y valuación bajo media histórica protegen, pero la dependencia de un ciclo de capex concentrado en 4-5 clientes y de licencias regulatorias revocables es un riesgo estructural real."
+   "just": "La caída de 13% desde el máximo amplía algo el margen de seguridad, pero se compensa con la intensificación del riesgo estructural: la red de financiamiento circular (inversión-garantía-venta) de NVDA con OpenAI y otros profundiza la dependencia de la salud financiera de sus propios clientes, visible en el alza de los CDS del sector."
   },
   "conviccion": {
-   "score": 60,
-   "just": "Upside a consenso de +38% con tesis intacta y catalizador fechado; convicción moderada porque el evento del 26-ago es binario y el precio ya rebotó fuerte hacia él."
+   "score": 65,
+   "just": "La asimetría al precio actual mejoró: upside a consenso de ~+55% (vs +38% en agosto) con la misma tesis de negocio intacta y reforzada por el beat de Q2 y la guía de Q3, mientras el principal riesgo es macro/sectorial y no específico de NVDA."
   }
  },
  "sources": [
-  "ad-hoc-news.de, ago-2026 - Nvidia's Pre-Earnings Rally: A $91 Billion Test for the AI Chip Leader",
-  "ad-hoc-news.de, ago-2026 - Nvidia's August 26 Earnings Call Looms as China License Uncertainty and Circular-Financing Fears Collide",
-  "FinanceBuzz, ago-2026 - Why Analysts Are Betting on a Blockbuster Nvidia Earnings Report",
-  "24/7 Wall St, ago-2026 - The Hyperscaler Guarantee Keeps Me Buying Nvidia Before Aug. 26 Earnings",
-  "FX Leaders, 04/08/2026 - NVDA Reclaims $210 as AI Demand Outweighs Financing Concerns",
-  "Investing.com, ago-2026 - Nvidia rises after report U.S. cleared Chinese firms to buy H200 chips",
-  "Finviz, ago-2026 - NVIDIA evaluates adding production capacity for H200 AI chips",
-  "The Motley Fool, 04/08/2026 - Should You Buy Nvidia Stock Before Aug. 26? Here's What History Suggests",
-  "fullratio.com, ago-2026 - NVDA P/E ratio 33,4x, 38% bajo media de 10 años",
-  "stockanalysis.com, ago-2026 - NVIDIA (NVDA) Statistics & Valuation (market cap $4,31T, forward P/E 21,9x)",
-  "24/7 Wall St, ago-2026 - Nvidia Stock Price Prediction: 95% of Analysts Stay Bullish (consenso $302,83)",
-  "Investing.com/247wallst, ago-2026 - 52-week high $236,54 del 14-may-2026",
-  "24/7 Wall St, 24/07/2026 - Nvidia is Winning AI Capex Wars (AMZN $220B, GOOG ~$200B capex 2026)"
+  "StockTitan, 26/08/2026 - NVIDIA Announces Financial Results for Second Quarter Fiscal 2027 (revenue $96,2B, Data Center $89,0B)",
+  "Webull, 26/08/2026 - Nvidia Q2 FY2027 Earnings: Beats Revenue & EPS Estimates, Guides Q3 to $108B",
+  "TechFlowPost, 26/08/2026 - NVIDIA's FY2027 Q3 revenue guidance beats expectations at $108 billion",
+  "Yahoo Finance, 26/08/2026 - Nvidia Q2 FY2027 earnings: AI chip revenue doubles year over year",
+  "Bloomberg, 06/10/2026 - Nvidia Soars Near $6 Trillion Market Cap With Stock Back at High",
+  "heygotrade.com, 22/10/2026 - Nvidia Stock News: NVDA Falls 4.4% to $212.21",
+  "heygotrade.com, 21/10/2026 - Nvidia Stock News: NVDA Rises 2.5% to $221.97 (DSX POD, GTC Berlin)",
+  "dmarketforces.com, 23/10/2026 - Nvidia Tokenized Stock Dips As Market Cap Falls To $5.12trn",
+  "Star Advertiser/Reuters, 22/10/2026 - Nasdaq plunges 2.6% as AI spending fears spark tech selloff",
+  "Forbes, 22/10/2026 - AI Stocks Slide As Spending Anxiety Festers After Tesla, Meta Earnings",
+  "Phys.org, oct-2026 - Who's paying whom? The circular money machine behind the AI boom",
+  "Axios, 27/07/2026 - Nvidia reignites 'circular' AI concerns as it weighs OpenAI financing guarantee",
+  "Fortune, 18/08/2026 - OpenAI data center deal with Nvidia comes in $145 billion lower than reported",
+  "Gurufocus/fullratio, oct-2026 - NVDA P/E ratio trailing ~28x / forward ~18,3x",
+  "Benzinga/24-7 Wall St, oct-2026 - NVIDIA analyst consensus ~$330 target, 59 of 60 Buy ratings",
+  "TipRanks/Trendandticker, 2026 - NVIDIA insider trading 2026: Huang no open-market sales, Mark Stevens ~$1.390M",
+  "Thundercompute/Spheron Network, oct-2026 - Nvidia Rubin Architecture and Vera Rubin platform ramp",
+  "Bloomberg/BIS, feb-2026 - Nvidia Gets US License for Small Amount of H200 Exports to China",
+  "squawkflow.com/financecalendar.com, oct-2026 - FOMC Meeting October 28, 2026"
  ],
  "opportunity": {
   "cats": {
    "valuacion_hist": {
-    "score": 62,
-    "just": "33,4x trailing / 21,9x forward está 38% bajo su media de 10 años (54x) con crecimiento guiado intacto y China valuada en cero — valuación razonable en términos históricos propios, no barata en absoluto."
+    "score": 70,
+    "just": "28x trailing / 18,3x forward está 48% bajo su media de 10 años (54x), el descuento histórico más amplio del año, con la guía de ingresos recién elevada en vez de recortada."
    },
    "calidad": {
     "score": 92,
-    "just": "Monopolio de facto en compute de IA con roadmap (Blackwell Ultra→Rubin) y $500B de visibilidad de ingresos declarada; poder de negociación único frente a clientes que se declaran supply-constrained."
+    "just": "Beat histórico en Q2 FY27, guía de Q3 por sobre consenso y Vera Rubin ya rampando a volumen con mejor economía por GW que Blackwell; el moat de ecosistema (CUDA + integración a escala de rack) sigue intacto."
    },
    "asimetria": {
-    "score": 55,
-    "just": "Upside a consenso +38% y opción gratuita de China H200, contra un evento binario el 26-ago donde la barra es subir la guía, no cumplirla; colas anchas en ambas direcciones a corto plazo."
+    "score": 65,
+    "just": "Upside a consenso de ~+55% desde $212 vs soporte técnico cercano en la SMA200 (~$204, -4%) y el 52-week low lejano ($164,27, -23%); la relación riesgo/retorno mejoró frente a agosto porque el precio cayó más que la tesis."
    },
    "catalizadores": {
-    "score": 75,
-    "just": "Catalizador mayor fechado a 3 semanas (26-ago) más licencias H200 en curso y capex de hiperescaladores confirmándose al alza en cada earnings de sus clientes."
+    "score": 76,
+    "just": "Earnings del 17-nov fechado a menos de un mes, ramp de Vera Rubin en curso en 2S26, FOMC el 28-oct como catalizador macro de corto plazo y licencias H200 a China en expansión gradual."
    },
    "contrarian": {
-    "score": 40,
-    "just": "97% de analistas en compra y rebote de +9% semanal pre-earnings: el mercado ya está del mismo lado de la tesis — sin extremo de miedo que comprar, la ventaja contrarian es negativa."
+    "score": 52,
+    "just": "Señal mixta: pánico sectorial genuino el 22-oct (semis -3,4%) por miedo al retorno del capex de IA, pero el consenso de analistas sigue casi unánime en compra (59/60) — el extremo de euforia analista compensa parte del extremo de miedo de mercado."
    }
   },
   "plan": {
-   "recomendacion": "Mantener / compra parcial en debilidad",
-   "zona_compra": "US$195-210 (SMA50 ~$206; retroceso del rally pre-earnings)",
-   "invalidacion": "Cierre sostenido bajo la SMA200 (~$194), primera señal de recorte de capex de un hiperescalador grande, o guía Q3 FY27 bajo consenso el 26-ago",
+   "recomendacion": "Acumular en zona",
+   "zona_compra": "US$195-210 (SMA200 ~$204; soporte de la corrección actual)",
+   "invalidacion": "Cierre sostenido bajo la SMA200 (~$204) junto a un recorte confirmado de capex de un hiperescalador grande, o guía de Q3/Q4 FY27 bajo consenso en el earnings del 17-nov",
    "gatillos": [
-    "Earnings 26-ago con revenue ≥$91B y guía Q3 FY27 por encima del consenso",
-    "Formalización de licencias H200 a China (revenue no guiado, upside puro)",
-    "Confirmación de cronograma de Rubin y ramp de Blackwell Ultra sin fricciones"
+    "Earnings 17-nov con guía de Q4 FY27 sobre consenso y sin señales de freno en el capex de hiperescaladores",
+    "Estabilización de los spreads CDS del ecosistema de financiamiento de IA tras el FOMC del 28-oct",
+    "Ampliación formal de licencias H200 a China más allá del volumen 'trivial' actual"
    ],
    "horizonte": "6-12 meses",
-   "tamano": "Moderada antes del 26-ago por el carácter binario del evento; completar posición con la guía conocida o en la zona $195-210",
+   "tamano": "Moderada, escalonando compras — el earnings de noviembre y el ruido macro sobre financiamiento circular mantienen la volatilidad de corto plazo elevada",
    "confianza": "media"
   }
  },
  "technical": {
-  "price": 219.22,
-  "change_1d_pct": 3.43,
-  "change_1w_pct": 9.2,
-  "rsi": 61.6,
-  "macd": 0.8983,
-  "macd_signal": -0.5662,
-  "sma20": 205.3565,
-  "sma50": 205.7642,
-  "sma200": 193.5931,
-  "ema12": 205.6542,
-  "ema26": 204.756,
-  "pct_vs_sma20": 6.75,
-  "pct_vs_sma50": 6.54,
-  "pct_vs_sma200": 13.24,
-  "volume_today": 158186597,
-  "volume_avg20": 121719014.0,
-  "volume_ratio": 1.3,
-  "volatility_30d": 40.09,
-  "sharpe": 5.1,
-  "sortino": 4.85,
+  "price": 212.21,
+  "change_1d_pct": -4.4,
+  "change_1w_pct": -0.9,
+  "rsi": 39.1,
+  "macd": -2.0007,
+  "macd_signal": 0.0405,
+  "sma20": 226.247,
+  "sma50": 222.7694,
+  "sma200": 203.5562,
+  "ema12": 220.9483,
+  "ema26": 222.949,
+  "pct_vs_sma20": -6.2,
+  "pct_vs_sma50": -4.74,
+  "pct_vs_sma200": 4.25,
+  "volume_today": 125404208,
+  "volume_avg20": 108656174.0,
+  "volume_ratio": 1.15,
+  "volatility_30d": 25.51,
+  "sharpe": -1.47,
+  "sortino": -1.17,
   "max_drawdown_1y": -20.22,
-  "price_percentile_1y": 76.1,
-  "vs_benchmark_30d_pct": 9.87,
-  "perf_1m_pct": 12.76,
-  "perf_ytd_pct": 15.48
+  "price_percentile_1y": 60.6,
+  "vs_benchmark_30d_pct": -5.07,
+  "perf_1m_pct": -6.45,
+  "perf_ytd_pct": 11.79
  },
  "risk": {
-  "volatility_30d": 40.09,
-  "sharpe": 5.1,
-  "sortino": 4.85,
+  "volatility_30d": 25.51,
+  "sharpe": -1.47,
+  "sortino": -1.17,
   "max_drawdown_1y": -20.22,
-  "n_days": 313,
+  "n_days": 360,
   "window": 30
  },
  "benchmark": {
   "ticker": "SP:SPX",
   "label": "S&P 500",
-  "relative_performance_30d": 9.87,
-  "relative_performance_ytd": 3.19,
-  "price_percentile_1y": 76.1,
+  "relative_performance_30d": -5.07,
+  "relative_performance_ytd": 0.37,
+  "price_percentile_1y": 60.6,
   "partial": false
  },
  "sourcesMeta": {
   "price": {
    "origin": "TradingView scanner",
-   "fetched_at": "2026-08-05T22:46:10-04:00"
+   "fetched_at": "2026-10-22T23:09:57-03:00"
   },
   "rsi_macd": {
    "origin": "TradingView scanner",
-   "fetched_at": "2026-08-05T22:46:10-04:00"
+   "fetched_at": "2026-10-22T23:09:57-03:00"
   },
   "smas_volume": {
    "origin": "TradingView scanner",
-   "fetched_at": "2026-08-05T22:46:10-04:00"
+   "fetched_at": "2026-10-22T23:09:57-03:00"
   },
   "benchmark": {
    "origin": "TradingView scanner",
    "symbol": "SP:SPX",
-   "fetched_at": "2026-08-05T22:46:10-04:00"
+   "fetched_at": "2026-10-22T23:09:57-03:00"
   },
   "risk_metrics": {
    "origin": "data/history/NVDA.json",
-   "n_days": 313
+   "n_days": 360
   }
  },
- "metricChanges": [],
+ "metricChanges": [
+  {
+   "ticker": "NVDA",
+   "date": "2026-09-02",
+   "metric": "percentil_1y",
+   "from": 61.3,
+   "to": 83.3
+  }
+ ],
  "trend": {
   "piso": 0,
   "techo": 0,
   "max": 7,
   "senales_piso": [],
   "senales_techo": []
- }
+ },
+ "perfil": "NVIDIA diseña —sin fabricar— los aceleradores, las redes y el stack de software que sostienen el entrenamiento y la inferencia de IA, y los vende a hyperscalers, fabricantes de servidores y laboratorios; las GPUs de videojuegos son hoy accesorias. En el FY2026 ingresó US$215.900M (+65%) con margen operativo del 60%, de los cuales Data Center fue US$193.700M: casi el 90% del total, con redes creciendo +142%. El core es entonces un solo producto vendido a muy pocos compradores: dos clientes directos concentraron el 36% de los ingresos y tres suman el 54% del último trimestre, con concentración indirecta aún mayor en media docena de hyperscalers cuyo capex de IA se financia en parte con deuda. El moat combina CUDA y quince años de ecosistema de software, la integración a escala de rack y una cadencia anual de plataforma que obliga a competir contra un blanco móvil; lo erosionan los chips propios de sus propios clientes. Lo estructural: dependencia total de TSMC y del empaquetado CoWoS, oligopolio de HBM, controles de exportación que cerraron China, y una ciclicidad semiconductora que este modelo aún no ha atravesado a esta escala."
 }
