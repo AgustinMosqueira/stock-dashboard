@@ -1,0 +1,55 @@
+name: Refresco semanal de informes atrasados
+
+# Pedido del usuario (22-oct-2026): que ningún informe quede años sin tocarse.
+# Una vez por semana, abre 5 issues "informe: TICKER" (mismo mecanismo que el botón
+# "Solicitar informe" de la app) para los 5 activos ESTÁTICOS con el informe más
+# viejo (o sin fecha, que cuenta como el más urgente). Los DINÁMICOS no entran:
+# ya se re-investigan solos lunes/miércoles/viernes.
+# on-demand-report.yml las procesa una por una (tiene su propio lock de concurrencia),
+# así que esto simplemente las encola — no hace falta esperarlas aquí.
+on:
+  schedule:
+    - cron: "15 13 * * 1"   # lunes 10:15 Chile (UTC-3) / 09:15 en horario de invierno
+  workflow_dispatch:
+    inputs:
+      n:
+        description: "Cuántos informes encolar (default 5)"
+        required: false
+        default: "5"
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  TZ: America/Santiago
+
+jobs:
+  encolar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Elegir los más atrasados
+        id: pick
+        run: |
+          N="${{ inputs.n || '5' }}"
+          python3 scripts/pick_stale.py "$N" > /tmp/stale_tickers.txt
+          cat /tmp/stale_tickers.txt
+
+      - name: Abrir una solicitud "informe:" por cada uno
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          while IFS= read -r TICKER; do
+            [ -z "$TICKER" ] && continue
+            echo "Abriendo solicitud para $TICKER…"
+            gh issue create \
+              --title "informe: $TICKER" \
+              --body "Refresco automático semanal: este informe es (o está entre) los más atrasados del dashboard. Generado por refresh-stale.yml, $(date '+%F %H:%M') Chile."
+            sleep 5
+          done < /tmp/stale_tickers.txt

@@ -33,10 +33,14 @@ env:
 
 jobs:
   informe:
-    # Solo el dueño del repo puede gatillarlo, y solo issues con el prefijo correcto
+    # Solo el dueño del repo (o el propio refresh-stale.yml, vía github-actions[bot] —
+    # ese login no es falsificable por un tercero, solo lo usa un workflow de este
+    # mismo repo con el token por defecto) puede gatillarlo, y solo issues con el
+    # prefijo correcto.
     if: >
       github.event_name == 'workflow_dispatch' ||
-      (github.event.issue.user.login == github.repository_owner &&
+      ((github.event.issue.user.login == github.repository_owner ||
+        github.event.issue.user.login == 'github-actions[bot]') &&
        startsWith(github.event.issue.title, 'informe:'))
     runs-on: ubuntu-latest
     timeout-minutes: 45
