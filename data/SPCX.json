@@ -2,256 +2,120 @@
   "ticker": "SPCX",
   "company": "Space Exploration Technologies Corp. (SpaceX)",
   "statsList": [
-    [
-      "Precio",
-      "$159.31 (21-oct-2026)"
-    ],
-    [
-      "Rango desde IPO",
-      "US$104,83 (06-ago-2026, día del primer lockup) – US$225,64 (~jun-2026, mediados del mes, fecha exacta no verificable); horizonte relevante hasta jun-2027 (lockup Musk)"
-    ],
-    [
-      "Listado",
-      "Nasdaq: SPCX, IPO 12-jun-2026 a US$135 (incluye fusión con xAI consumada 02-feb-2026, valoró el conjunto en ~US$1,25 billones; TechCrunch/CNBC, jun-2026)"
-    ],
-    [
-      "Market cap",
-      "HECHO: ~US$2,16 billones (trillion) estimado al precio de cierre del 21-oct (base US$2,01B al 20-oct, stockanalysis.com, +7,8% intradía); ~13,57B acciones en circulación; ingresos TTM en expansión tras Q3"
-    ],
-    [
-      "P/E",
-      "N/A por pérdida GAAP histórica, pero Q3 2026 marcó el primer trimestre con utilidad neta positiva (US$4,4B); EPS GAAP Q3 US$0,35, non-GAAP US$0,48 (Fool.com/Investing.com, 20-21-oct-2026); P/S aún elevado dado el salto de revenue"
-    ],
-    [
-      "Target consenso",
-      "HECHO: tras el earnings, oleada de upgrades: JPMorgan a US$500 (desde US$240, Overweight), Cantor Fitzgerald a US$345 (desde US$246), Wells Fargo a US$274 (desde US$214), TD Cowen a US$224 (desde US$200), Evercore ISI US$275 (16-oct). Consenso promedio sube marcadamente desde ~US$221 pre-earnings (gurufocus.com/marketbeat.com, 20-21-oct-2026)"
-    ],
-    [
-      "Próx. earnings",
-      "Q4 2026 aún sin fecha confirmada; próximo hito relevante es la liberación de lockup del 22-oct-2026 (~28% del float) y definición de comités especiales para evaluar fusión con Tesla"
-    ],
-    [
-      "Técnico (auto)",
-      "RSI 45.1 · MACD +0.39 / señal +2.53 (TradingView, 20-oct-2026) — pendiente de refresco tras el salto de precio del 21-oct"
-    ]
+    ["Precio", "$147.49 (23-oct-2026)"],
+    ["Rango desde IPO", "US$104,83 (06-ago-2026, primer lockup) – US$225,64 (~jun-2026); horizonte relevante hasta jun-2027 (lockup Musk)"],
+    ["Listado", "Nasdaq: SPCX, IPO 12-jun-2026 a US$135 (incluye fusión con xAI consumada 02-feb-2026; TechCrunch/CNBC, jun-2026)"],
+    ["Market cap", "HECHO: ~US$2,00 billones (trillion) al cierre del 22-oct tras la caída post-lockup; ~US$2,00-2,05B el 23-oct (stockanalysis.com/MarketBeat, 22-23-oct-2026)"],
+    ["P/E", "N/A todavía: una sola utilidad neta GAAP trimestral (Q3: US$4,4B) no constituye historial suficiente para un P/E estable/comparable; se sigue usando P/S como complemento (Fool.com, 20-23-oct-2026)"],
+    ["Target consenso", "HECHO: ~US$221-244 según fuente (dispersión metodológica), tras BofA subir a US$275 desde US$235 el 22-oct (Buy); rating consenso 'Moderate Buy' con 46 analistas (30 buy, 3 strong buy, 9 hold, 4 sell) (MarketBeat/DefenseWorld, 22-23-oct-2026)"],
+    ["Próx. earnings", "Q4 2026 sin fecha oficial confirmada; estimación preliminar de calendario entre ~02-feb y ~09-feb-2027 (Wall Street Horizon/MarketBeat, oct-2026, no verificable con precisión)"],
+    ["Técnico (auto)", "RSI 47.2 · MACD -0.26 / señal +1.36 (TradingView, 23-oct-2026)"]
   ],
-  "change": {
-    "day": 7.79,
-    "week": 9.6
-  },
+  "change": {"day": 1.89, "week": -0.72},
   "events": [
-    {
-      "date": "2026-10-22",
-      "label": "Lockup: liberación ~28% (~1.300M acciones)",
-      "kind": "corporate",
-      "info": "HECHO: hasta 1.300M de acciones (28% del tramo Track 1, el mayor desbloqueo desde el IPO, superando los 911,5M de ago-2026) quedan habilitadas para trading, gatillado por el 2° día de trading tras el earnings del 20-oct (tokenpost.com/orbitalpha.cloud, oct-2026). Ocurre un día después del salto de +7,8-11% post-earnings, lo que podría incentivar toma de utilidades por parte de holders pre-IPO."
-    },
     {
       "date": "2026-11-08",
       "label": "Starship Flight 15 (NET)",
       "kind": "corporate",
-      "info": "HECHO: no antes de 8-nov-2026, objetivo de 'doble captura' (booster Super Heavy + nave Starship) con Mechazilla en Starbase (NASASpaceFlight.com/newspaceeconomy.ca, oct-2026). Musk sugirió el 10-oct que el vuelo podría estar entre 4-6 semanas, ventana que se extiende hasta ~21-nov. Sigue sujeto a preparación de hardware y regulatoria."
+      "info": "No antes de 8-nov-2026, objetivo de 'doble captura' (booster Super Heavy + nave Starship) con Mechazilla en Starbase, volando Booster 22 y Ship 42 (V3) desde Pad 2 (NASASpaceFlight.com/KeepTrack.space, oct-2026). SpaceX no ha confirmado fecha firme aún; sigue sujeto a preparación de hardware."
     },
     {
       "date": "2026-12-08",
-      "label": "Lockup total: vencimiento final del tramo de 180 días",
+      "label": "Lockup: vencimiento final del tramo de 180 días",
       "kind": "corporate",
-      "info": "HECHO (fuente secundaria especializada, no S-1 directo): libera el remanente de empleados/holders pre-IPO (~4,6B acciones en este track, ~35% del total). Separado del track de Musk (~6,4B acciones) bloqueado hasta 12-jun-2027 sin provisión de liberación anticipada."
+      "info": "Libera el remanente de empleados/holders pre-IPO (fuente secundaria especializada, no S-1 directo). Separado del tramo de ~455,8M acciones que permanece bloqueado mientras el precio esté bajo el IPO de US$135, y del lockup de Musk (bloqueado hasta jun-2027)."
+    },
+    {
+      "date": "2027-02-09",
+      "label": "Earnings Q4 2026 (estimado, sin confirmar)",
+      "kind": "earnings",
+      "info": "Fecha preliminar no confirmada oficialmente por SpaceX (estimaciones de Wall Street Horizon/MarketBeat oscilan entre 02 y 09-feb-2027). Se espera continuidad del crecimiento del segmento Super Intelligence (xAI/Grok) y mayor claridad en los términos de la posible fusión con Tesla."
     }
   ],
   "sections": {
-    "resumen": "SPCX saltó +7,8% a +11,9% intradía el 21-oct (a US$159,31) tras un Q3 2026 que superó ampliamente el consenso: revenue US$14,6B (+161% YoY, vs ~US$12,7-12,9B esperado) y EPS US$0,35 GAAP (vs ~US$0,10-0,15 esperado), con la primera utilidad neta trimestral (US$4,4B) impulsada por el salto de 830% en ingresos de 'Super Intelligence' (xAI/Grok, US$7,6B). El catalizador adicional fue que Musk confirmó negociaciones de fusión con Tesla (mayor fusión de la historia, ~US$3,5B combinados), con comités especiales independientes ya formados. Al menos 5 casas subieron su target (JPMorgan a US$500). El riesgo inmediato es la liberación de ~28% del float el 22-oct, un día después del rally.",
-    "fundamental": "- HECHO: revenue Q3 US$14,6B (+161% YoY), EPS GAAP US$0,35 (non-GAAP US$0,48), primera utilidad neta trimestral US$4,4B vs pérdida de US$1,1B un año antes (Fool.com/Investing.com, 20-21-oct-2026).\n- HECHO: segmento 'Super Intelligence' (xAI/Grok/Cursor) generó US$7,6B del trimestre (+830% YoY), ya más de la mitad del revenue total, superando a Starlink como motor de crecimiento (qz.com/Fortune, 20-21-oct-2026).\n- HECHO: conectividad (Starlink) creció 69% a US$5,25B; adjusted EBITDA +306% a US$8,8B (shacknews.com, 20-oct-2026).\n- LECTURA: capex vino por debajo de lo esperado, señal de disciplina de gasto pese al crecimiento agresivo de compute (Yahoo Finance, 20-oct-2026).\n- HECHO: Starship Flight 14 (28-sep-2026) ya validó capacidad orbital plena; reduce riesgo de ejecución del programa de lanzadores.",
-    "valuacion": "- Market cap salta a ~US$2,16B tras el rally del 21-oct; la empresa ya opera con utilidad GAAP positiva por primera vez, lo que empieza a dar ancla a un P/E futuro aún no estabilizado.\n- HECHO: 5 bancos subieron targets en 24-48h (JPMorgan US$500, Cantor US$345, Wells Fargo US$274, TD Cowen US$224, Evercore US$275), consenso promedio sube con fuerza desde ~US$221 pre-earnings (gurufocus.com, 20-21-oct-2026).\n- La dispersión de targets sigue siendo amplia (US$224-500), reflejo de la dificultad de modelar el negocio híbrido cohetes+IA+conectividad.\n- La narrativa de fusión con Tesla añade una variable de valuación adicional no modelada aún por el consenso (pendiente de términos y aprobación de accionistas).\n- Sin P/E limpio todavía por historia corta de rentabilidad; valuación sigue dominada por expectativas de crecimiento del segmento IA, no por múltiplos tradicionales.",
-    "tecnico": "- Gap alcista de +7,8% a +11,9% en una sola sesión (20→21-oct) rompe la corrección semanal previa (-9,5% la semana anterior al earnings), cambiando el carácter técnico de corrección a posible nueva pierna alcista.\n- El movimiento validado por fundamentales (beat real, no solo expectativa) le da más solidez que un simple rebote técnico, aunque el salto intradía es inusualmente amplio y puede dar paso a consolidación.\n- Mercado de opciones pre-earnings había implicado ±7,8%: el movimiento real estuvo en el límite superior o lo superó, consistente con sorpresa genuina.\n- Riesgo inmediato de sobreextensión de corto plazo: liberación de ~28% del float ocurre justo un día después del salto, lo que puede generar presión vendedora que contraste con el momentum reciente.\n- Historial de precios aún corto (4+ meses desde IPO) limita la fiabilidad de lecturas técnicas clásicas; RSI/MACD del 20-oct quedan desactualizados tras el salto del 21-oct.",
-    "sentimiento": "- HECHO: reacción unánimemente positiva de analistas, con al menos 5 upgrades de precio objetivo en 24-48h tras el reporte (gurufocus.com/marketbeat.com, 20-21-oct-2026).\n- LECTURA: el consenso extremadamente alcista y sin voces bajistas de peso es, bajo lectura contrarian, una señal de calibrar expectativas: el margen de sorpresa positiva futura se reduce tras un beat tan grande.\n- Short interest cayó de ~34% del float (ago-2026, pre-earnings) a ~6-11% hacia sept-oct-2026, señal de que los bajistas ya cubrieron buena parte de sus posiciones antes de este reporte (fintel.io/x.com zerohedge, consultado oct-2026; cifras con dispersión entre fuentes).\n- La narrativa de fusión Tesla-SpaceX añade combustible emocional/especulativo adicional al sentimiento, más allá de los fundamentos operativos.\n- El contraste entre el salto post-earnings y la liberación de lockup al día siguiente es el test más inmediato de si el entusiasmo actual es sostenible frente a oferta real de papel.",
-    "catalizadores": "**Catalizadores:**\n- Negociación de fusión SpaceX-Tesla (comités especiales independientes ya formados; sin certeza de cierre, requiere 50% de voto de accionistas Tesla) (Al Jazeera/CNBC, 21-oct-2026).\n- Starship Flight 15 (NET 8-nov, ventana hasta ~21-nov) con objetivo de doble captura booster+nave.\n- Aprobación FCC pendiente del deal de espectro con Grain Management (~US$8B) para Starlink Mobile indoor.\n- Expansión sostenida del segmento Super Intelligence (xAI/Grok/Cursor), que ya es más de 50% del revenue y crece a triple dígito.\n\n**Riesgos (por materialidad):**\n- Liberación de ~28% del float el 22-oct, inmediatamente después del rally post-earnings: mayor prueba de absorción de oferta desde el IPO.\n- Incertidumbre de la fusión Tesla: Musk mismo advirtió que 'asumir que es una certeza sería exagerar'; riesgo de desilusión si no avanza.\n- Valuación ya exigente (~US$2,16B market cap) deja menos margen para decepción en el próximo trimestre tras un beat tan grande.\n- Aprobación FCC del espectro sigue sin fecha definida; riesgo regulatorio no resuelto.",
-    "conclusion": "HECHO (confianza alta en los datos de earnings, media en la interpretación forward): SPCX entregó un Q3 2026 muy superior a lo esperado, con primera utilidad neta GAAP y el segmento IA como motor dominante, gatillando upgrades masivos de consenso y la noticia inesperada de negociación de fusión con Tesla. El precio ya capturó gran parte de esto con un salto de doble dígito. El test inmediato es la liberación de lockup del 22-oct: si el mercado absorbe esa oferta sin romper soportes, confirma fortaleza; si no, el rally puede revertirse parcialmente. Confianza alta en los hechos reportados, media en sostenibilidad del momentum de corto plazo."
+    "resumen": "El lockup del 22-oct liberó 911,5M acciones (igual a agosto, no 1.300M), gatillando toma de utilidades: SPCX cayó -9,14% a US$144,75, borrando parte del rally de +7,8/11,9% del día del earnings. El 23-oct recuperó +1,89% a US$147,49 con volumen bajo el promedio, señal de absorción sin pánico. BofA subió target a US$275 (desde US$235) y Needham reiteró Buy. Short interest bajo (6,1% del float, ORTEX 21-oct). Nueva noticia: SpaceX negocia con Crown Castle/American Tower 80.000 sitios celulares para una cuarta red móvil nacional (Bloomberg, 22-oct), hundiendo en bolsa a Verizon, AT&T y T-Mobile.",
+    "fundamental": "- HECHO: lockup del 22-oct de 911,5M acciones (igual a agosto, no 1.300M), segundo mayor desbloqueo desde el IPO (Fool.com/Yahoo Finance, 22-oct-2026).\n- HECHO: ~455,8M acciones adicionales siguen bloqueadas mientras el precio esté bajo el IPO de US$135 (Yahoo Finance, 22-oct-2026).\n- HECHO: BofA elevó target a US$275 (desde US$235, Buy) por outlook de revenue y el test clave de Starship (Benzinga/Proactive Investors, 22-23-oct-2026).\n- NUEVO: SpaceX negocia ~80.000 sitios celulares (Crown Castle/American Tower) para una cuarta red móvil; TD Cowen estima >US$80B el costo (Bloomberg/247wallst.com, 22-23-oct-2026).\n- LECTURA: la estrategia wireless amplía la conectividad más allá de Starlink, pero exige capex multi-año adicional.",
+    "valuacion": "- Market cap retrocede a ~US$2,00-2,05B tras el lockup, desde el pico de ~US$2,16B post-earnings, aún sobre los ~US$2,01B del 20-oct pre-rally.\n- P/E sigue N/A: un solo trimestre GAAP positivo no da múltiplo estable; se prioriza P/S por el salto de revenue (+161% YoY).\n- Targets con dispersión entre fuentes (~US$221-244) tras el ajuste de BofA a US$275; implica upside ~50-70% si se cumplen.\n- La fusión Tesla y la expansión wireless agregan variables de valuación aún no estandarizadas.\n- Sin comparables puros (cohetes+IA+conectividad+wireless), la valuación sigue dominada por múltiplos de crecimiento.",
+    "tecnico": "- Caída de -9,14% el 22-oct y recuperación de +1,89% el 23-oct sugieren absorción de la oferta del lockup sin romper soportes clave.\n- El patrón rally post-earnings → caída por lockup → estabilización reduce el riesgo de que el +7,8/11,9% del 21-oct fuera 'falso'.\n- RSI 47,2 (neutral) y MACD negativo pero convergiendo a la señal, compatible con consolidación más que tendencia clara.\n- Volumen del 23-oct bajo el promedio de 20 días: la presión vendedora ya se diluyó en una sesión.\n- Historial de precios corto (4+ meses desde IPO) limita la fiabilidad de lecturas técnicas clásicas.",
+    "sentimiento": "- HECHO: pese a la caída del 22-oct, BofA subió target a US$275 y Needham reiteró Buy el mismo día, contradiciendo la narrativa de pánico (Benzinga/DefenseWorld, 22-23-oct-2026).\n- LECTURA: caída por oferta técnica + targets alcistas sostenidos sugiere que el mercado distingue 'ruido de oferta' de deterioro de tesis.\n- Short interest bajo (6,1% del float, ORTEX 21-oct), sin señales de apuesta bajista creciente.\n- Noticia wireless con sentimiento mixto: positivo para SPCX, negativo para telecos (Verizon -3%, AT&T -4%, T-Mobile -5%, 23-oct).\n- Sin voces bajistas de peso en el consenso; bajo óptica contrarian, el margen de sorpresa positiva sigue comprimido.",
+    "catalizadores": "**Catalizadores:**\n- Expansión hacia una cuarta red móvil nacional (80.000 sitios vía Crown Castle/American Tower), abre mercado adicional más allá de Starlink (Bloomberg, 22-oct-2026).\n- Starship Flight 15 (NET 8-nov), objetivo de doble captura booster+nave; éxito reduciría la prima de riesgo de ejecución.\n- Definición de términos de la posible fusión SpaceX-Tesla vía comités especiales independientes (sin acuerdo aún).\n- Aprobación FCC pendiente del deal de espectro 800MHz con Grain Management (~US$8B) para Starlink Mobile.\n\n**Riesgos (por materialidad):**\n- Lockup final del tramo de 180 días (~8-dic-2026) libera el remanente de empleados pre-IPO; nueva prueba de absorción.\n- Capex adicional para la red wireless terrestre (TD Cowen estima >US$80B) podría presionar márgenes si se ejecuta de forma agresiva.\n- Fusión Tesla sin términos: requiere aprobación de Musk y voto de accionistas Tesla; riesgo de desilusión si no avanza.\n- Valuación ya exigente (~US$2,0-2,05B) con P/E no estabilizado, deja poco margen para decepción.",
+    "conclusion": "HECHO (confianza alta en los datos, media en la interpretación forward): el lockup del 22-oct (911,5M acciones) gatilló una caída de -9,14%, pero el precio se recuperó +1,89% al día siguiente y los analistas (BofA, Needham) sostuvieron o subieron targets, señal de que la oferta se absorbió sin daño estructural a la tesis. La expansión hacia una cuarta red móvil nacional (80.000 sitios) añade un catalizador no modelado aún por el consenso. Short interest bajo (6,1%) descarta presión bajista significativa. Confianza media en sostenibilidad del momentum dado que persisten lockups pendientes (dic-2026) y la fusión Tesla sigue sin términos definidos."
   },
   "scores": {
     "tecnica": {
-      "score": 58,
-      "just": "El gap alcista de +7,8/+11,9% tras earnings reales (no solo expectativa) es evidencia genuina de cambio de carácter frente a la corrección previa, pero el salto es amplio y ocurre justo antes de una liberación masiva de lockup, lo que castiga el score por riesgo de sobreextensión de corto plazo sin confirmación de varias sesiones."
+      "score": 56,
+      "just": "La caída del lockup (-9,14%) seguida de recuperación (+1,89%) con volumen decreciente es evidencia de absorción de oferta sin ruptura de soportes, un cambio de carácter constructivo frente a un simple sell-off; no sube más porque el historial de precios sigue siendo corto y RSI/MACD aún mixtos."
     },
     "fundamental": {
-      "score": 74,
-      "just": "Primera utilidad neta GAAP trimestral, revenue +161% YoY y segmento IA creciendo 830% son señales de calidad de negocio en clara mejora; aún pesa la dependencia de un solo trimestre de rentabilidad y la falta de historial multi-trimestre de sostenibilidad del margen."
+      "score": 73,
+      "just": "Los fundamentos de Q3 (utilidad GAAP, revenue +161%) no cambiaron en estos dos días, y se suma un catalizador de crecimiento nuevo (red wireless de 80.000 sitios) que expande el mercado direccionable; se mantiene similar al score previo con leve ajuste por la mayor claridad del tamaño real del lockup (911,5M, no 1.300M)."
     },
     "sentimiento": {
-      "score": 40,
-      "just": "Consenso de analistas unánime y entusiasta tras 5+ upgrades en 48h, sin contrapeso bajista; bajo lectura anti-momentum esto reduce valor de señal (el margen de sorpresa positiva futura se comprime) más que confirmar oportunidad, pese a que refleja fundamentos reales."
+      "score": 42,
+      "just": "Analistas sostuvieron/subieron targets (BofA, Needham) incluso tras la caída del lockup, señal positiva de convicción institucional; bajo lectura contrarian el consenso sigue unánimemente alcista sin voces bajistas, lo que limita el margen de sorpresa positiva adicional de corto plazo."
     },
     "riesgo": {
-      "score": 55,
-      "just": "Riesgo de volatilidad de corto plazo elevado por la coincidencia lockup+rally, pero el riesgo de pérdida permanente de capital baja tras la primera utilidad GAAP positiva y disciplina de capex; incertidumbre binaria adicional por la negociación de fusión Tesla, de desenlace incierto."
+      "score": 57,
+      "just": "La absorción ordenada del lockup del 22-oct (sin ruptura de mínimos, short interest bajo en 6,1%) reduce el riesgo de pérdida permanente de capital de corto plazo; persiste riesgo binario por la fusión Tesla sin términos definidos y ahora capex adicional potencial de >US$80B para la red wireless."
     },
     "conviccion": {
-      "score": 52,
-      "just": "Asimetría mejora con fundamentos confirmados y catalizadores concretos (Starship, FCC, posible fusión), pero gran parte del upside de corto plazo ya se incorporó en el salto del 21-oct; tesis atractiva a mediano plazo pero no claramente barata para entrada inmediata."
+      "score": 54,
+      "just": "La recuperación post-lockup y el nuevo catalizador wireless mejoran ligeramente la asimetría a este precio (US$147,49) frente a targets de consenso (~US$221-275), pero la tesis sigue dependiendo de ejecución múltiple (Starship, fusión Tesla, red wireless) sin que ninguna esté confirmada aún."
     }
   },
   "sources": [
-    "SpaceX Investor Relations (ir.spacex.com / s21.q4cdn.com), 20-oct-2026 — reporte oficial Q3 2026",
-    "Fool.com, 20-21-oct-2026 — EPS GAAP US$0,35 vs consenso, reacción del precio tras cierre y en premarket",
-    "Investing.com/uk.investing.com, 20-oct-2026 — EPS non-GAAP US$0,48 vs US$0,45 esperado, transcript earnings call",
-    "qz.com, 20-oct-2026 — revenue US$14,6B (+161% YoY), detalle segmento Super Intelligence",
-    "Shacknews.com, 20-oct-2026 — EBITDA ajustado +306% a US$8,8B, conectividad +69%",
-    "CNBC, 21-oct-2026 — SPCX +9/10% tras earnings, comentarios de Musk sobre fusión con Tesla y comités especiales",
-    "Al Jazeera, 21-oct-2026 — detalle de la propuesta de fusión Tesla-SpaceX (~US$3,5B combinados)",
-    "Forbes, 21-oct-2026 — SPCX +10% con detalle de confirmación de Musk sobre negociación de fusión",
-    "247wallst.com, 21-oct-2026 — comparación revenue real vs estimado de analistas (diferencia ~US$1,6B)",
-    "gurufocus.com, 20-21-oct-2026 — upgrades de precio objetivo JPMorgan (US$500), Cantor Fitzgerald (US$345), TD Cowen (US$224)",
-    "marketbeat.com, 21-oct-2026 — upgrade Wells Fargo a US$274",
-    "stockanalysis.com, 20-21-oct-2026 — precio, market cap ~US$2,01-2,16B",
-    "tokenpost.com / orbitalpha.cloud, oct-2026 — detalle liberación de lockup del 22-oct (~1.300M acciones, 28% del float)",
-    "CNBC/pro.stockalarm.io, ago-2026 — contexto histórico lockup previo (6-ago, mínimo US$104,83)",
-    "Satellite Today / graingp.com, 08-09-oct-2026 — deal de espectro Grain Management (~US$8B), pendiente aprobación FCC sin fecha",
-    "NASASpaceFlight.com / newspaceeconomy.ca, oct-2026 — Starship Flight 15 NET 8-nov, ventana hasta ~21-nov, objetivo doble captura",
-    "fintel.io / x.com (zerohedge, spacanpanman), consultado oct-2026 — short interest con dispersión entre ~6% y ~34-45% del float según fecha de corte"
+    "SpaceX Investor Relations (ir.spacex.com), 20-oct-2026 — reporte oficial Q3 2026",
+    "Fool.com/Yahoo Finance, 22-oct-2026 — lockup del 22-oct de 911,5M acciones, caída -9,14% a US$144,75",
+    "TradingKey.com, 22-oct-2026 — SPCX abrió -4,22% el 22-oct por el unlock",
+    "Rallies.ai / Cryptonews.net / StocksToTrade, 22-oct-2026 — contexto de presión vendedora por el lockup y competencia geopolítica",
+    "Investing.com/stockanalysis.com, 23-oct-2026 — cierre US$147,49 (+1,89%), rango diario US$144,09-149,74, market cap ~US$2,00B",
+    "Bloomberg, 22-oct-2026 — SpaceX en conversaciones con Crown Castle/American Tower por 80.000 sitios celulares para red móvil nacional",
+    "247wallst.com/Fool.com, 23-oct-2026 — impacto en telecos (Verizon -3%, AT&T -4%, T-Mobile -5%) por la noticia wireless",
+    "Benzinga/Proactive Investors/DefenseWorld, 22-23-oct-2026 — Bank of America sube target a US$275 (desde US$235), Needham reitera Buy",
+    "MarketBeat/DefenseWorld, 22-23-oct-2026 — consenso 'Moderate Buy', target promedio con dispersión ~US$221-244 según fuente",
+    "ORTEX (vía Yahoo Finance), 21-oct-2026 — short interest 6,1% del float libre, 1,9 días para cubrir",
+    "Yahoo Finance, 22-oct-2026 — detalle estructura de lockups: 455,8M acciones siguen bloqueadas mientras precio esté bajo IPO de US$135",
+    "NASASpaceFlight.com/KeepTrack.space, oct-2026 — Starship Flight 15 NET 8-nov, Booster 22/Ship 42, sin fecha firme confirmada por SpaceX",
+    "Wall Street Horizon/MarketBeat, oct-2026 — estimación preliminar no confirmada de earnings Q4 2026 entre 02 y 09-feb-2027",
+    "Law360/CNBC/NBC News, 20-21-oct-2026 — formación de comités especiales independientes SpaceX-Tesla para evaluar fusión, sin términos acordados"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 40,
-        "just": "Sin historial multi-trimestre de rentabilidad propio; el beat de Q3 mejora el caso pero el salto de precio ya comprimió parte del descuento relativo a targets de consenso."
+        "score": 42,
+        "just": "Sin historial multi-trimestre de rentabilidad propio; la corrección del lockup devuelve parte del precio a niveles más razonables frente a targets de consenso, mejorando marginalmente el punto de entrada relativo."
       },
       "calidad": {
-        "score": 70,
-        "just": "Primera utilidad GAAP positiva, crecimiento de revenue +161% YoY y disciplina de capex son señales de mejora estructural real, aunque persiste dependencia de un solo segmento (IA) para la mayoría del crecimiento marginal."
+        "score": 71,
+        "just": "Primera utilidad GAAP positiva sostenida en el reporte, disciplina de capex, y ahora un catalizador de expansión de mercado (red wireless) que diversifica fuentes de crecimiento más allá de Starlink e IA."
       },
       "asimetria": {
-        "score": 50,
-        "just": "Upside de targets de consenso ahora más alto (hasta US$500 en el caso JPMorgan) pero gran parte del catch-up ya ocurrió en la sesión del 21-oct; el downside de la liberación de lockup del 22-oct es un riesgo concreto y cercano."
+        "score": 52,
+        "just": "Precio actual (US$147,49) vs targets de consenso (~US$221-275) implica upside relevante, pero exige ejecución simultánea en Starship, fusión Tesla y expansión wireless; downside acotado por absorción ya demostrada del lockup."
       },
       "catalizadores": {
-        "score": 68,
-        "just": "Calendario muy activo y verificable: lockup (22-oct), Starship Flight 15 (nov), definición de comités de fusión Tesla, aprobación FCC de espectro, todos con fechas o ventanas concretas en las próximas semanas."
+        "score": 70,
+        "just": "Calendario activo y verificable: Starship Flight 15 (nov), lockup final (dic), definición de fusión Tesla, y ahora negociaciones concretas de red wireless con Crown Castle/American Tower, todas con fechas o ventanas específicas."
       },
       "contrarian": {
-        "score": 25,
-        "just": "Consenso de analistas y sentimiento de mercado extremadamente alcistas y alineados tras el beat; bajo óptica contrarian esto reduce el margen de sorpresa positiva adicional en el muy corto plazo."
+        "score": 30,
+        "just": "Pese a la caída del lockup, analistas subieron targets de forma unánime (BofA, Needham); sentimiento sigue sin contrapeso bajista relevante, lo que reduce el margen de sorpresa positiva adicional bajo óptica contrarian."
       }
     },
     "plan": {
       "recomendacion": "Esperar gatillo",
-      "zona_compra": "US$135-150 si la liberación de lockup del 22-oct genera presión vendedora temporal; o confirmación de términos concretos de la fusión Tesla",
+      "zona_compra": "US$135-148 si persiste debilidad por lockups pendientes (dic-2026) o consolidación tras la absorción del unlock del 22-oct",
       "invalidacion": "Cierre semanal bajo US$104,83 (mínimo post-IPO) o cancelación/abandono formal de las negociaciones de fusión con deterioro simultáneo de guidance",
       "gatillos": [
-        "Comportamiento del precio tras la liberación de ~28% del lockup (22-oct): absorción sin romper soportes clave confirmaría fortaleza",
-        "Avance o retroceso concreto en las negociaciones de fusión SpaceX-Tesla (términos, votación de accionistas)",
-        "Resultado de Starship Flight 15 (NET 8-nov / ventana hasta 21-nov): éxito de doble captura reduciría prima de riesgo de ejecución",
+        "Resultado de Starship Flight 15 (NET 8-nov): éxito de doble captura reduciría prima de riesgo de ejecución",
+        "Avance concreto en términos de la fusión SpaceX-Tesla o progreso verificable en el acuerdo de red wireless (Crown Castle/American Tower)",
+        "Comportamiento del precio en el lockup final de ~8-dic-2026 (remanente de empleados pre-IPO)",
         "Aprobación FCC del deal de espectro con Grain Management"
       ],
       "horizonte": "6-18 meses",
-      "tamano": "Posición pequeña-moderada (alta volatilidad event-driven; evitar perseguir el salto post-earnings antes de ver cómo absorbe la oferta del lockup)",
+      "tamano": "Posición pequeña-moderada (alta volatilidad event-driven; múltiples lockups pendientes y tesis de fusión/wireless aún sin confirmar términos)",
       "confianza": "media"
     }
   },
-  "perfil": "SpaceX diseña y opera vehículos de lanzamiento (Falcon 9 y Starship), cápsulas Dragon, la constelación de banda ancha Starlink y la línea gubernamental Starshield; desde feb-2026 consolida además el negocio de IA xAI/Grok (unidad SpaceXAI) tras una fusión 100% en acciones que valoró xAI en ~US$250 mil millones. El dinero no viene del cohete sino del ancho de banda y, cada vez más, del cómputo: Starlink sigue siendo el motor principal de ingresos (más de 10 millones de clientes en más de 160 mercados), mientras que el negocio de IA aporta crecimiento acelerado pero con quema de caja intensa y rentabilidad aún no demostrada. Starship es la apuesta estructural de largo plazo: reducir el costo marginal de lanzamiento y habilitar despliegue masivo de satélites de próxima generación. Dependencias críticas: ejecución técnica de Starship, aprobaciones regulatorias (FCC para espectro y despliegue satelital), y la capacidad de monetizar el cómputo de IA a escala. El negocio combina alta ciclicidad tecnológica con moat defendible en reutilización de cohetes y escala de constelación.",
-  "technical": {
-    "price": 147.79,
-    "change_1d_pct": -0.11,
-    "change_1w_pct": 1.21,
-    "rsi": 45.1,
-    "macd": 0.392,
-    "macd_signal": 2.5347,
-    "sma20": 154.697,
-    "sma50": 148.623,
-    "sma200": null,
-    "ema12": 153.0434,
-    "ema26": 152.6514,
-    "pct_vs_sma20": -4.46,
-    "pct_vs_sma50": -0.56,
-    "pct_vs_sma200": null,
-    "volume_today": 117189304,
-    "volume_avg20": 93758116.0,
-    "volume_ratio": 1.25,
-    "volatility_30d": 43.45,
-    "sharpe": -0.48,
-    "sortino": -0.52,
-    "max_drawdown_1y": -46.35,
-    "price_percentile_1y": 35.6,
-    "vs_benchmark_30d_pct": -5.13,
-    "perf_1m_pct": -4.4,
-    "perf_ytd_pct": -1.47
-  },
-  "risk": {
-    "volatility_30d": 43.45,
-    "sharpe": -0.48,
-    "sortino": -0.52,
-    "max_drawdown_1y": -46.35,
-    "n_days": 84,
-    "window": 30
-  },
-  "benchmark": {
-    "ticker": "SP:SPX",
-    "label": "S&P 500",
-    "relative_performance_30d": -5.13,
-    "relative_performance_ytd": -13.61,
-    "price_percentile_1y": 35.6,
-    "partial": false
-  },
-  "sourcesMeta": {
-    "price": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-10-20T21:49:03-03:00"
-    },
-    "rsi_macd": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-10-20T21:49:03-03:00"
-    },
-    "smas_volume": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-10-20T21:49:03-03:00"
-    },
-    "benchmark": {
-      "origin": "TradingView scanner",
-      "symbol": "SP:SPX",
-      "fetched_at": "2026-10-20T21:49:03-03:00"
-    },
-    "risk_metrics": {
-      "origin": "data/history/SPCX.json",
-      "n_days": 84
-    }
-  },
-  "metricChanges": [
-    {
-      "ticker": "SPCX",
-      "date": "2026-10-19",
-      "metric": "score",
-      "from": 44,
-      "to": 56
-    },
-    {
-      "ticker": "SPCX",
-      "date": "2026-08-08",
-      "metric": "percentil_1y",
-      "from": 2.8,
-      "to": 23.4
-    },
-    {
-      "ticker": "SPCX",
-      "date": "2026-08-08",
-      "metric": "precio_pct",
-      "from": 108.27,
-      "to": 133.11
-    },
-    {
-      "ticker": "SPCX",
-      "date": "2026-08-05",
-      "metric": "precio_pct",
-      "from": 114.53,
-      "to": 125.33
-    }
-  ],
-  "trend": {
-    "piso": 1,
-    "techo": 0,
-    "max": 7,
-    "senales_piso": [
-      "histograma MACD girando al alza"
-    ],
-    "senales_techo": []
-  },
-  "reportDate": "21 de octubre de 2026"
+  "perfil": "SpaceX diseña y opera vehículos de lanzamiento (Falcon 9 y Starship), cápsulas Dragon, la constelación de banda ancha Starlink y la línea gubernamental Starshield; desde feb-2026 consolida además el negocio de IA xAI/Grok (unidad SpaceXAI) tras una fusión 100% en acciones que valoró xAI en ~US$250 mil millones. El dinero no viene del cohete sino del ancho de banda y, cada vez más, del cómputo: Starlink sigue siendo el motor principal de ingresos (más de 10 millones de clientes en más de 160 mercados), mientras que el negocio de IA aporta crecimiento acelerado pero con quema de caja intensa y rentabilidad aún no demostrada. Starship es la apuesta estructural de largo plazo: reducir el costo marginal de lanzamiento y habilitar despliegue masivo de satélites de próxima generación. Dependencias críticas: ejecución técnica de Starship, aprobaciones regulatorias (FCC para espectro y despliegue satelital), y la capacidad de monetizar el cómputo de IA a escala. El negocio combina alta ciclicidad tecnológica con moat defendible en reutilización de cohetes y escala de constelación."
 }

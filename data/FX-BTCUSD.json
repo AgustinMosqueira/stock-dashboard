@@ -2,208 +2,110 @@
   "ticker": "BTC/USD",
   "company": "Bitcoin",
   "statsList": [
-    [
-      "Precio",
-      "$83,679 (21-oct-2026)"
-    ],
-    [
-      "Rango 52 sem.",
-      "US$57.833 – US$126.021 (mín. ~abr-2026; máx. ~6-oct-2025, Investing.com, 21-oct-2026)"
-    ],
-    [
-      "Market cap",
-      "~US$1,66-1,68 billones (CoinDesk/Capmad, 21-oct-2026)"
-    ],
-    [
-      "Dominancia BTC",
-      "~59,6% (CoinDesk/TV-Hub, 21-oct-2026); se mantiene sobre el 59-60% por tercera semana, rotación sostenida desde altcoins"
-    ],
-    [
-      "Flujos ETF spot",
-      "Semana 15-20 oct: fuerte giro a inflows. Detalle: 15-oct +US$5,1M, 16-oct -US$82,4M, 19-oct +US$526,7M (IBIT +665,2M, mejor día en un mes), 20-oct +US$23,2M (IBIT +29,9M) (Farside Investors, 15-20-oct-2026)"
-    ],
-    [
-      "Próximo evento",
-      "Reunión del FOMC 27-28-oct-2026 (decisión de tasas 28-oct); mercado prevé ~85-88% probabilidad de mantener tasas sin cambios, ~13-15% hike, tras la suba de 25pb de sep-2026 (CME FedWatch/DeFi Rate, 21-oct-2026)"
-    ],
-    [
-      "Técnico (auto)",
-      "RSI 53.1 · MACD +86.52 / señal +275.97 (TradingView, 20-oct-2026)"
-    ]
+    ["Precio", "$81,400 (23-oct-2026)"],
+    ["Rango 52 sem.", "US$57.833 – US$126.021 (mín. ~abr-2026; máx. ~oct-2025, Investing.com, 21-oct-2026)"],
+    ["Market cap", "~US$1,62-1,63 billones (CoinDesk/Blockchainreporter, 23-oct-2026)"],
+    ["Dominancia BTC", "~60,1% (Blockchainreporter/TV-Hub, 23-oct-2026); nivel más alto desde mayo-2026, tras romper el 59-60% sostenido de la semana previa"],
+    ["Flujos ETF spot", "21-oct +US$524,8M (racha de 3 días ~+US$1.075M), 22-oct -US$635,6M (fin de la racha, liderado por IBIT -254,1M y FBTC -217,5M) (Farside Investors, 21-22-oct-2026)"],
+    ["Próximo evento", "Reunión del FOMC 27-28-oct-2026 (decisión 28-oct); mercado prevé ~84-88% probabilidad de mantener tasas sin cambios, ~12-16% hike, tasa actual 3,75-4,00% (CME FedWatch/DeFi Rate/Forbes, 20-23-oct-2026)"]
   ],
-  "change": {
-    "day": 0.16,
-    "week": 1.27
-  },
+  "change": {"day": 0.05, "week": -0.75},
   "events": [
     {
       "date": "2026-10-28",
       "label": "Reunión del FOMC (decisión de tasas)",
       "kind": "macro",
       "time": "15:00",
-      "info": "CME FedWatch asigna ~85-88% de probabilidad a mantener tasas sin cambios (rango 3,75-4,00%), ~13-15% a una suba de 25pb. La Fed subió tasas en sep-2026 (primera suba desde 2023) por inflación persistente (CPI ~3,7% i.a.), lo que eleva el riesgo de sorpresa hawkish. Diciembre (9-dic) concentra mayor probabilidad de otra alza (~76%). Un hold confirmaría pausa y sería neutral/levemente positivo para BTC; sorpresa hawkish presionaría a la baja. Fuente: CME FedWatch/DeFi Rate/Forbes, 19-21-oct-2026."
+      "info": "CME FedWatch asigna ~84-88% de probabilidad a mantener tasas sin cambios (rango 3,75-4,00%), ~12-16% a una suba de 25pb. La Fed subió tasas en sep-2026 (primera suba desde 2023) por inflación persistente (CPI ~3,7% i.a.), lo que mantiene riesgo de sorpresa hawkish. Un hold confirmaría pausa y sería neutral/levemente positivo para BTC; sorpresa hawkish presionaría a la baja. Fuente: CME FedWatch/DeFi Rate/Forbes, 20-23-oct-2026."
     }
   ],
   "sections": {
-    "resumen": "BTC cotiza en US$83.679 (21-oct-2026), +0,16% diario y +1,27% semanal, recuperando terreno tras rebotar desde mínimos de US$80.000 el 15-oct. Dominancia BTC se sostiene sobre 59,6% por tercera semana consecutiva. ETFs spot giraron a inflows fuertes: +US$526,7M el 19-oct (mejor día en un mes, liderado por IBIT) y +US$23,2M el 20-oct. Hashrate recuperó con fuerza a ~1.140-1.150 EH/s, superando el pico previo de nov-2025. Ballenas acumularon +85.000 BTC en tres semanas. Mercado atento al FOMC del 28-oct tras el hike hawkish de septiembre.",
-    "fundamental": "- HECHO: Hashrate en ~1.140-1.150 EH/s (20/21-oct), superando el pico anterior de nov-2025 (~1.110 EH/s), señal de capitulación minera superada.\n- HECHO: MVRV ~1,56 con NUPL ~0,38 (fin Q3-2026), perfil de recuperación temprana-media de ciclo, no euforia tardía.\n- HECHO: AUM de ETFs spot de BTC en EE.UU. sostenido, con reversión a inflows netos tras dos semanas de outflows; IBIT lideró con +US$665,2M el 19-oct.\n- LECTURA: Ciclo post-halving (abr-2024) muestra signos de estabilización tras drawdown de ~52% desde el ATH de oct-2025 (US$126.021), consistente con fase de recomposición de mediano ciclo.\n- HECHO: Regulación en transición — CLARITY Act bloqueado en el Senado (15-sep-2026); CFTC y SEC avanzan frameworks propios en paralelo (ANPR del 5-oct-2026, comentarios hasta dic-2026).",
-    "valuacion": "- HECHO: MVRV ~1,56 indica que el holder promedio está en ganancia moderada, lejos de niveles de euforia (MVRV >3) observados en topes de ciclo previos.\n- HECHO: Precio ~34% debajo del ATH de octubre 2025 (~US$126.021), tras una corrección de hasta ~52% en el mínimo de abril 2026.\n- LECTURA: Dominancia >59% sostenida sugiere que el capital cripto sigue priorizando BTC frente a altcoins, aun con el repunte reciente de precio.\n- HECHO: Market cap ~US$1,66-1,68 billones sobre un total cripto de ~US$2,8 billones.\n- LECTURA: Reversión de ETFs a inflows fuertes (+US$526,7M en un solo día) sugiere demanda institucional reactivándose tras la pausa de inicios de octubre.",
-    "tecnico": "- HECHO: Precio recuperó sobre US$83.000 tras rebote desde el mínimo de US$80.000 del 15-oct, con resistencia próxima en US$85.000 y soporte en US$82.000.\n- LECTURA: El rebote coincide con la reversión de flujos ETF a positivo, reforzando la lectura de que el piso de corto plazo pudo haberse formado.\n- HECHO: RSI en 53,1 y MACD en territorio positivo pero por debajo de su señal, zona neutral sin sobrecompra ni sobreventa (TradingView, 20-oct).\n- LECTURA: Aún no hay ruptura confirmada de la estructura de máximos decrecientes desde oct-2025; el repunte es consistente con una fase de reacumulación, no con un cambio de carácter confirmado.\n- (Técnico auto: otro sistema añade RSI/MACD/medias móviles).",
-    "catalizadores": "**Catalizadores:**\n- Confirmación de hold (sin sorpresas) en el FOMC del 28-oct, que consolide el apetito de riesgo tras el hike de septiembre.\n- Continuidad de inflows ETF tras el repunte del 19-oct (+US$526,7M), si se sostiene varios días.\n- Acumulación corporativa sostenida (Strategy +267 BTC, Strive +1.223 BTC la semana del 19-oct) como demanda estructural de piso.\n- Resolución de marcos regulatorios CFTC/SEC que reduzca incertidumbre operativa para exchanges e instituciones.\n\n**Riesgos (por materialidad):**\n- Sorpresa hawkish en el FOMC (hike) o discurso que refuerce expectativas de otra suba en diciembre (ya en ~76% de probabilidad).\n- Reversión de los inflows ETF si la recuperación de precio pierde impulso antes de fin de mes.\n- CPI de EE.UU. persistente (~3,7% i.a.) que mantenga presión hawkish sobre la Fed más allá de octubre.\n- Entrada en exchanges de BTC de ballenas dormidas reactivadas en semanas previas (riesgo de oferta latente).",
-    "sentimiento": "- HECHO: Fear & Greed Index subió 8 puntos a 63 ('Greed') el 21-oct, desde 55 el día previo; CFGI.io lo ubica más bajo, en 48 ('Neutral') (Tokenpost/CFGI.io, 21-oct-2026).\n- LECTURA: Dispersión entre 48 y 63 sugiere sentimiento mejorando pero sin extremo de euforia generalizado; lectura contraria no amerita cautela máxima todavía.\n- HECHO: Dominancia BTC >59% por tercera semana consecutiva, señal de preferencia relativa sostenida por BTC sobre altcoins.\n- HECHO: Wallets de 10-10.000 BTC (ballenas medianas) sumaron +85.000 BTC en ~3 semanas a mediados de octubre, alcanzando un máximo histórico de 20.338 wallets en ese rango.\n- HECHO: Liquidaciones de posiciones cortas en cripto por ~US$195M coincidieron con el repunte sobre US$83.000 (Pluang, 21-oct-2026).\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 15-oct-2026 | +US$5,1M | IBIT +16,8M, BTCO -4,1M, GBTC -7,6M |\n| 16-oct-2026 | -US$82,4M | IBIT -71,8M, FBTC -10,6M |\n| 19-oct-2026 | +US$526,7M | Mejor día en un mes; IBIT +665,2M, FBTC -83,6M, GBTC -54,9M |\n| 20-oct-2026 | +US$23,2M | IBIT +29,9M, FBTC +3,6M, BITB -10,3M |\n\nLa semana muestra un giro claro hacia inflows tras el outflow del 16-oct, con el 19-oct como punto de inflexión (mayor inflow diario en cuatro semanas). En el frente corporativo/institucional, Strategy sumó 267 BTC (~US$22,1M, a un promedio de US$82.900) entre el 12 y 18-oct, llevando sus tenencias a 848.517 BTC; Strive compró 1.223 BTC adicionales (total 36.818 BTC) el 19-oct. On-chain, ballenas medianas (10-10.000 BTC) acumularon +85.000 BTC en tres semanas, llevando el número de wallets en ese rango a un máximo histórico de 20.338, señal de acumulación institucional/alto patrimonio coincidente con la reversión de flujos ETF.",
-    "conclusion": "Señal: Acumulación con mejora de impulso. BTC rebotó desde US$80.000 a US$83.679, con reversión fuerte de flujos ETF (+US$526,7M el 19-oct) y hashrate en nuevo máximo (~1.145 EH/s), superando la fase de capitulación minera. MVRV (~1,56) y acumulación de ballenas medianas (+85.000 BTC) respaldan una tesis de recomposición de mediano ciclo, no de euforia. El FOMC del 28-oct, tras el hike hawkish de septiembre, es el catalizador binario más próximo. Confianza: media — mejora de flujos y hashrate son alentadores, pero sin ruptura técnica confirmada sobre resistencias de corto plazo."
+    "resumen": "BTC cotiza en US$81.400 (23-oct-2026), retrocediendo desde US$84.024 del 22-oct tras un giro de flujos ETF a -US$635,6M, que cortó una racha de tres días con +US$1.075M de entradas. Dominancia BTC subió a ~60,1% (máximo desde mayo), con altcoins cayendo más rápido. Fear & Greed subió a 68 ('Greed') el 22-oct desde 63, señal de optimismo acelerado. Petróleo sobre US$111-112/barril reavivó presión inflacionaria. Strategy y Strive sumaron 1.490 BTC el 19-oct. Mercado atento al FOMC del 28-oct.",
+    "fundamental": "- HECHO: Hashrate ~1.101-1.145 EH/s (15-21 oct), 15% bajo el récord de oct-2025, recuperándose con fuerza tras la capitulación minera previa.\n- HECHO: MVRV (todos los holders) ~1,545-1,56 a mediados-fin de octubre, zona de recuperación temprana-media de ciclo, lejos de euforia (MVRV>3).\n- HECHO: ETFs spot revirtieron a outflows el 22-oct (-US$635,6M) tras tres días de inflows (+US$1.075M), liderados por IBIT (-254,1M) y FBTC (-217,5M).\n- LECTURA: Ciclo post-halving sigue en recomposición tras drawdown de ~52% desde el ATH; la alternancia abrupta de flujos ETF confirma fragilidad de la recuperación.\n- HECHO: Regulación en transición — CLARITY Act bloqueado en el Senado (15-sep); CFTC/SEC avanzan frameworks propios (ANPR 5-oct, comentarios hasta dic-2026).",
+    "valuacion": "- HECHO: MVRV ~1,5-1,56 indica ganancia moderada del holder promedio, lejos de euforia de topes de ciclo previos (MVRV>3).\n- HECHO: Precio ~35% debajo del ATH de oct-2025 (~US$126.021), tras corrección de hasta ~52% en el mínimo de abril 2026.\n- LECTURA: Dominancia en máximo desde mayo (~60,1%) sugiere capital concentrándose en BTC mientras altcoins caen más rápido, fase defensiva más que de apetito de riesgo generalizado.\n- HECHO: Market cap ~US$1,62-1,63 billones sobre un total cripto de ~US$2,72-2,76 billones.\n- LECTURA: La reversión de ETFs de +US$524,8M (21-oct) a -US$635,6M (22-oct) sugiere demanda institucional táctica/reactiva, no tendencia asentada.",
+    "tecnico": "- HECHO: Precio retrocedió desde US$84.024 (apertura 22-oct) a ~US$81.400-81.550 (23-oct), perdiendo buena parte del repunte post 19-oct.\n- LECTURA: La caída coincide con el giro de flujos ETF a negativo y presión macro (petróleo >US$111), señal de que el rebote previo no se consolidó aún.\n- HECHO: Consolidación en US$81.000-82.000, con resistencia en US$84.000-85.000 y soporte cerca de US$80.000 (mínimo del 15-oct).\n- LECTURA: Sin ruptura confirmada de la estructura de máximos decrecientes desde oct-2025; el patrón reciente (repunte-reversión) es más rango que cambio de carácter.\n- (Técnico auto: otro sistema añade RSI/MACD/medias móviles).",
+    "catalizadores": "**Catalizadores:**\n- Confirmación de hold (sin sorpresas) en el FOMC del 28-oct, que consolide apetito de riesgo tras el hike de septiembre.\n- Reversión de los outflows del 22-oct si los inflows ETF retoman tracción antes de fin de mes.\n- Acumulación corporativa sostenida (Strategy+Strive 1.490 BTC el 19-oct) como demanda estructural de piso.\n- Resolución de marcos regulatorios CFTC/SEC que reduzca incertidumbre para exchanges e instituciones.\n\n**Riesgos (por materialidad):**\n- Sorpresa hawkish en el FOMC (hike) o discurso que refuerce expectativas de otra suba en diciembre.\n- Persistencia de outflows ETF tipo 22-oct (-US$635,6M), revirtiendo la narrativa de demanda institucional.\n- Presión macro cruzada: petróleo sobre US$111-112/barril reavivando temores de inflación.\n- CPI de EE.UU. persistente (~3,7% i.a.) manteniendo presión hawkish sobre la Fed.",
+    "sentimiento": "- HECHO: Fear & Greed Index subió a 68 ('Greed') el 22-oct desde 63; CFGI.io lo ubica más bajo, en 59 (Tokenpost/Bitdegree/CFGI.io, 22-oct-2026).\n- LECTURA: Sentimiento mejorando con rapidez hacia codicia justo antes de la reversión de precio del 22-23 oct; lectura contraria aconseja cautela.\n- HECHO: Dominancia BTC en ~60,1%, máximo desde mayo-2026, con altcoins cayendo más rápido que BTC en la semana.\n- HECHO: Desde el 1-oct, 40 wallets nuevas retiraron 9.458 BTC (~US$771,5M) de Wintermute; persiste acumulación neta en direcciones >1.000 BTC (AMBCrypto, oct-2026).\n- HECHO: Nasdaq cayó 2,6% el 22-oct en ventas de riesgo generalizadas, correlacionando con la reversión de ETFs y el retroceso de BTC.\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 19-oct-2026 | +US$526,7M | Mejor día en un mes; IBIT +665,2M, FBTC -83,6M |\n| 20-oct-2026 | +US$23,2M | IBIT +29,9M, FBTC +3,6M, BITB -10,3M |\n| 21-oct-2026 | +US$524,8M | IBIT +235M, FBTC +212,7M, GBTC +32,6M |\n| 22-oct-2026 | -US$635,6M | Fin de racha de 3 días; IBIT -254,1M, FBTC -217,5M, ARKB -109,4M, BITB -27,4M, GBTC -29,5M |\n\nRacha de tres días (~US$1.075M, 19-21 oct) cortada el 22-oct con el mayor outflow desde la recuperación, en sincronía con Nasdaq -2,6% y el repunte del petróleo. Strategy y Strive compraron 1.490 BTC el 19-oct (Strive ~4.045 BTC en 12-16 oct, total 36.818; Strategy +267 BTC, total 848.517). On-chain, el retiro de 9.458 BTC de Wintermute y la acumulación en direcciones >1.000 BTC sugieren ballenas posicionándose pese a la volatilidad (AMBCrypto/KuCoin, 19-22-oct-2026).",
+    "conclusion": "Señal: Consolidación con sesgo de acumulación, pendiente de confirmación. BTC retrocedió a US$81.400 tras perder el impulso del repunte a US$84.024 del 22-oct, cuando los ETFs revirtieron bruscamente a -US$635,6M tras tres días de fuertes inflows. Dominancia en máximo desde mayo (~60,1%) y compras corporativas sostenidas (Strategy+Strive 1.490 BTC) respaldan demanda estructural, pero la volatilidad de flujos ETF y el sentimiento acelerándose a 'Greed' (68) justo antes de la caída piden cautela táctica. El FOMC del 28-oct es el catalizador binario inmediato. Compuesto ~58/100, señal esperar gatillo, confianza media."
   },
   "scores": {
     "tecnica": {
-      "score": 50,
-      "just": "Rebote desde soporte con reversión de flujos ETF, pero aún sin ruptura confirmada de la estructura de máximos decrecientes desde oct-2025; cambio de carácter incipiente, no confirmado."
+      "score": 46,
+      "just": "El repunte a US$84.024 del 22-oct se revirtió el mismo día junto con el giro de ETFs a negativo; sin ruptura confirmada sobre resistencia y con el patrón repunte-reversión, el carácter técnico sigue indefinido dentro de un rango."
     },
     "fundamental": {
-      "score": 68,
-      "just": "Hashrate en máximo histórico, MVRV en zona de recuperación temprana-media, acumulación de ballenas medianas en récord; fundamentos de red fortaleciéndose tras capitulación minera."
+      "score": 66,
+      "just": "Hashrate recuperándose con fuerza, MVRV en zona de recuperación temprana-media, compras corporativas sostenidas (Strategy+Strive); fundamentos de red firmes aunque la volatilidad de flujos ETF introduce ruido de corto plazo."
     },
     "sentimiento": {
-      "score": 48,
-      "just": "Fear & Greed subiendo rápido hacia 'Greed' (63) en una sola sesión; lectura contraria exige vigilancia si la euforia se acelera, aunque aún no es extrema."
+      "score": 42,
+      "just": "Fear & Greed saltó a 68 ('Greed') justo antes de la reversión de precio del 22-23 oct; lectura contraria exige vigilancia ante optimismo adelantándose a fundamentos, con riesgo de corrección adicional si se enfría."
     },
     "riesgo": {
-      "score": 52,
-      "just": "Riesgo de pérdida permanente moderado: dependencia de sostenibilidad de inflows ETF, exposición a sorpresa hawkish del FOMC y a diciembre ya descontando otra suba."
+      "score": 50,
+      "just": "Riesgo de pérdida permanente moderado: alternancia abrupta de flujos ETF (+525M/-636M en 24h) muestra fragilidad de la demanda institucional táctica, sumado a exposición a sorpresa hawkish del FOMC y presión cruzada de petróleo/inflación."
     },
     "conviccion": {
-      "score": 62,
-      "just": "Asimetría mejora con hashrate en máximo y ballenas acumulando a precios actuales (~34% debajo del ATH), aunque falta confirmación técnica plena para elevar convicción al máximo."
+      "score": 58,
+      "just": "Asimetría se sostiene con compras corporativas firmes y dominancia en máximos, pero la reversión de ETFs y sentimiento sobrecalentado antes de la caída reducen la convicción frente a la semana previa."
     }
   },
   "sources": [
-    "CoinDesk, 21-oct-2026 — precio BTC en vivo y market cap",
-    "Yahoo Finance, 21-oct-2026 — contexto de mercado cripto vs. acciones/oro",
-    "Fortune, 21-oct-2026 — precio BTC intradía",
-    "Cryptotimes.io, 21-oct-2026 — niveles técnicos, US$82.600, visiones sobre US$100K",
-    "Analyticsinsight.net, 21-oct-2026 — precio BTC ~US$82.585",
-    "Farside Investors (vía Blockchain.news/Coin-Turk/Cryptoticker/Tokenist), 15-20-oct-2026 — flujos diarios ETF spot BTC",
-    "Tokenpost, 21-oct-2026 — Fear & Greed Index sube a 63 ('Greed')",
-    "CFGI.io, 21-oct-2026 — Fear & Greed Index 48 ('Neutral')",
-    "Pluang, 21-oct-2026 — liquidaciones de cortos ~US$195M",
-    "CME FedWatch / DeFi Rate / Forbes / Admiral Markets, 19-21-oct-2026 — probabilidades FOMC 28-oct, contexto hike de sep-2026",
-    "KuCoin News/Flash, 19-oct-2026 — compras de Strategy (267 BTC) y Strive (1.223 BTC)",
-    "Cryptonomist, 12-oct-2026 — ritmo de compras de MicroStrategy/Strategy",
-    "Bgeometrics/DeepBlueAlpha/KuCoin Blog, oct-2026 — acumulación de ballenas medianas (+85.000 BTC), MVRV ~1,56, hashrate recuperándose",
-    "Coinwarz/Pickaxe.io, 20-21-oct-2026 — hashrate ~1,14-1,15 ZH/s",
+    "CoinDesk, 23-oct-2026 — precio BTC en vivo y market cap",
+    "Fortune, 22-23-oct-2026 — precio BTC intradía",
+    "Yahoo Finance, 22-oct-2026 — crypto gains wiped out, petróleo >US$111/barril",
+    "Cryptotimes.io, 23-oct-2026 — consolidación cerca de US$81.700",
+    "Farside Investors (vía Blockchain.news/Benzinga/Hedgeco/Phemex/crypto.news), 19-22-oct-2026 — flujos diarios ETF spot BTC",
+    "Tokenpost/Bitdegree, 22-oct-2026 — Fear & Greed Index sube a 68 ('Greed')",
+    "CFGI.io, 22-oct-2026 — Fear & Greed Index 59",
+    "Blockchainreporter.net/TV-Hub, 23-oct-2026 — dominancia BTC ~60,1%, máximo desde mayo",
+    "Coincoverage.org, 23-oct-2026 — market cap cripto total ~US$2,76 billones",
+    "CME FedWatch/DeFi Rate/Forbes/Noradarealestate/Centralbank.watch, 14-23-oct-2026 — probabilidades FOMC 28-oct (~84-88% hold)",
+    "KuCoin News/Flash/Yahoo Finance, 19-oct-2026 — Strategy y Strive compran 1.490 BTC conjuntos",
+    "SEC EDGAR (Strive Inc. 8-K), 13-19-oct-2026 — detalle de compras de Strive",
+    "AMBCrypto, oct-2026 — retiro de 9.458 BTC de Wintermute por wallets nuevas, acumulación en direcciones >1.000 BTC",
+    "KuCoin News/Flash, oct-2026 — MVRV ratio ~1,545-1,56 (todos los holders)",
+    "Pickaxe.io/Millionminer.com, 15-21-oct-2026 — hashrate ~1.101-1.145 EH/s",
     "Investing.com, 21-oct-2026 — rango 52 semanas US$57.833-126.021, ATH oct-2025",
-    "Baker Botts/Troutman Pepper Locke/The Hill, oct-2026 — CLARITY Act bloqueado en Senado, CFTC ANPR 5-oct, avance SEC"
+    "Baker Botts/Troutman Pepper Locke/The Hill, oct-2026 — CLARITY Act bloqueado en Senado, CFTC ANPR 5-oct, avance SEC",
+    "KuCoin News/Flash, oct-2026 — Nasdaq cae 2,6% el 22-oct en ventas de riesgo generalizadas"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 62,
-        "just": "MVRV ~1,56 indica ganancia moderada del holder promedio, por debajo de niveles de euforia de ciclo; precio ~34% bajo el ATH ofrece margen de recuperación sin estar en zona de distribución."
+        "score": 60,
+        "just": "MVRV ~1,5-1,56 indica ganancia moderada del holder promedio, por debajo de niveles de euforia de ciclo; precio ~35% bajo el ATH ofrece margen de recuperación sin estar en zona de distribución."
       },
       "calidad": {
-        "score": 75,
-        "just": "Hashrate en máximo histórico (~1.145 EH/s), oferta fija verificable, acumulación récord de ballenas medianas y demanda institucional estructural vía ETFs y tesorerías corporativas."
+        "score": 73,
+        "just": "Hashrate recuperándose con fuerza, oferta fija verificable, compras corporativas sostenidas (Strategy+Strive 1.490 BTC) y demanda institucional estructural vía ETFs, aunque con volatilidad táctica reciente en los flujos."
       },
       "asimetria": {
-        "score": 62,
-        "just": "Potencial alcista hacia el ATH (~+50% desde niveles actuales) frente a riesgo bajista acotado por demanda de ETFs/ballenas, aunque sujeto a confirmación técnica adicional."
+        "score": 58,
+        "just": "Potencial alcista hacia el ATH (~+55% desde niveles actuales) frente a riesgo bajista acotado por demanda corporativa, pero la reversión abrupta de ETFs el 22-oct reduce la claridad de la asimetría de corto plazo."
       },
       "catalizadores": {
-        "score": 56,
-        "just": "FOMC 28-oct es catalizador binario próximo tras el hike de septiembre; sostenibilidad de inflows ETF y acumulación corporativa son vientos de cola de confirmación más que disparadores inmediatos."
+        "score": 55,
+        "just": "FOMC 28-oct es catalizador binario próximo tras el hike de septiembre; la volatilidad de flujos ETF (inflow/outflow en días consecutivos) resta peso a catalizadores de confirmación inmediatos."
       },
       "contrarian": {
-        "score": 50,
-        "just": "Sentimiento mejorando rápido (Fear&Greed a 63) reduce el componente contrarian; la oportunidad ya no se apoya en pánico extremo sino en fundamentos de red fortaleciéndose."
+        "score": 48,
+        "just": "Sentimiento saltó a 'Greed' (68) justo antes de la caída del 22-23 oct, reduciendo el componente contrarian; la oportunidad depende más de fundamentos de red que de pánico extremo."
       }
     },
     "plan": {
       "recomendacion": "Esperar gatillo",
-      "zona_compra": "US$78.000-83.000, con preferencia por compras escalonadas ante debilidad hacia US$80.000 o confirmación de ruptura sobre US$87.000",
-      "invalidacion": "Cierre semanal sostenido debajo de US$72.000 (ruptura de soporte estructural y de la zona de acumulación de ballenas)",
+      "zona_compra": "US$78.000-82.000, con preferencia por compras escalonadas ante debilidad hacia US$80.000 o confirmación de ruptura sostenida sobre US$85.000",
+      "invalidacion": "Cierre semanal sostenido debajo de US$72.000 (ruptura de soporte estructural y de la zona de acumulación institucional)",
       "gatillos": [
-        "Sostenibilidad de inflows ETF por 5+ días consecutivos tras el repunte del 19-oct",
+        "Reversión de los outflows ETF del 22-oct con inflows sostenidos por 3+ días",
         "Hold confirmado y sin sorpresas en el FOMC (28-oct)",
-        "Ruptura confirmada sobre US$87.000 con volumen"
+        "Ruptura confirmada sobre US$85.000 con volumen"
       ],
       "horizonte": "6-18 meses",
       "tamano": "Posición moderada (3-6% de portafolio cripto-equity combinado), con margen para aumentar en confirmación técnica",
       "confianza": "media"
     }
   },
-  "perfil": "Bitcoin es la red monetaria digital descentralizada más grande y segura, con oferta fija de 21 millones de unidades y emisión decreciente vía halvings cada ~4 años (el más reciente en abril de 2024). Su seguridad depende del hashrate de la red minera, que actúa como barrera económica contra ataques. La demanda institucional se canaliza cada vez más a través de ETFs spot regulados (IBIT, FBTC, GBTC, entre otros) y tesorerías corporativas como Strategy (ex-MicroStrategy), que acumulan BTC como reserva de valor en balance. Estructuralmente, la oferta fija y decreciente contrasta con una demanda creciente de inversores institucionales, fondos soberanos y bancos que expanden servicios de custodia, lo que sostiene una tesis de escasez programática. Opera en ciclos de varios años correlacionados con los halvings, alternando fases de euforia, corrección y acumulación, por lo que su valoración debe leerse en el contexto del ciclo vigente, los flujos de ETFs y el entorno de tasas de interés global.",
-  "technical": {
-    "price": 83058.15,
-    "change_1d_pct": 0.16,
-    "change_1w_pct": 1.27,
-    "rsi": 53.1,
-    "macd": 86.5181,
-    "macd_signal": 275.9728,
-    "sma20": 83126.1905,
-    "sma50": 81683.1478,
-    "sma200": 72728.3547,
-    "ema12": 82517.4191,
-    "ema26": 82430.901,
-    "pct_vs_sma20": -0.08,
-    "pct_vs_sma50": 1.68,
-    "pct_vs_sma200": 14.2,
-    "volume_today": null,
-    "volume_avg20": null,
-    "volume_ratio": null,
-    "volatility_30d": 30.2,
-    "sharpe": 3.43,
-    "sortino": 4.84,
-    "max_drawdown_1y": -39.58,
-    "price_percentile_1y": 43.2,
-    "vs_benchmark_30d_pct": 2.59,
-    "perf_1m_pct": 2.35,
-    "perf_ytd_pct": -5.14
-  },
-  "risk": {
-    "volatility_30d": 30.2,
-    "sharpe": 3.43,
-    "sortino": 4.84,
-    "max_drawdown_1y": -39.58,
-    "n_days": 359,
-    "window": 30
-  },
-  "benchmark": {
-    "ticker": "CRYPTOCAP:TOTAL",
-    "label": "Cripto total (ciclo)",
-    "relative_performance_30d": 2.59,
-    "relative_performance_ytd": 1.02,
-    "price_percentile_1y": 43.2,
-    "partial": false
-  },
-  "sourcesMeta": {
-    "price": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-10-20T21:49:03-03:00"
-    },
-    "rsi_macd": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-10-20T21:49:03-03:00"
-    },
-    "smas_volume": {
-      "origin": "TradingView scanner",
-      "fetched_at": "2026-10-20T21:49:03-03:00"
-    },
-    "benchmark": {
-      "origin": "TradingView scanner",
-      "symbol": "CRYPTOCAP:TOTAL",
-      "fetched_at": "2026-10-20T21:49:03-03:00"
-    },
-    "risk_metrics": {
-      "origin": "data/history/FX-BTCUSD.json",
-      "n_days": 359
-    }
-  },
-  "metricChanges": [],
-  "trend": {
-    "piso": 0,
-    "techo": 0,
-    "max": 7,
-    "senales_piso": [],
-    "senales_techo": []
-  },
-  "reportDate": "21 de octubre de 2026"
+  "perfil": "Bitcoin es la red monetaria digital descentralizada más grande y segura, con oferta fija de 21 millones de unidades y emisión decreciente vía halvings cada ~4 años (el más reciente en abril de 2024). Su seguridad depende del hashrate de la red minera, que actúa como barrera económica contra ataques. La demanda institucional se canaliza cada vez más a través de ETFs spot regulados (IBIT, FBTC, GBTC, entre otros) y tesorerías corporativas como Strategy (ex-MicroStrategy) y Strive, que acumulan BTC como reserva de valor en balance. Estructuralmente, la oferta fija y decreciente contrasta con una demanda creciente de inversores institucionales, fondos soberanos y bancos que expanden servicios de custodia, lo que sostiene una tesis de escasez programática. Opera en ciclos de varios años correlacionados con los halvings, alternando fases de euforia, corrección y acumulación, por lo que su valoración debe leerse en el contexto del ciclo vigente, los flujos de ETFs y el entorno de tasas de interés global."
 }
