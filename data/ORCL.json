@@ -4,197 +4,219 @@
  "statsList": [
   [
    "Precio",
-   "$146.16 (11-ago-2026)"
+   "$126.16 (24-oct-2026)"
   ],
   [
    "Rango 52 sem.",
-   "$114,50 – $345,72"
+   "$114,50 – $287,19"
   ],
   [
    "Market cap",
-   "~US$418.630M (stockanalysis.com, 11-ago-2026)"
+   "~US$379.600M (gurufocus.com, 23-oct-2026)"
   ],
   [
    "P/E",
-   "25,9x trailing / ~18,8x forward (stockanalysis.com, 11-ago-2026)"
+   "~20,6x trailing / ~15,4x forward (stockanalysis.com, 21-oct-2026)"
   ],
   [
    "Target consenso",
-   "~US$247 promedio (rango US$110-400), 44 analistas, Buy (stockanalysis.com, 11-ago-2026)"
+   "~US$237-252 promedio (rango US$110-400), 43-44 analistas, Buy mayoritario (marketbeat.com/stockanalysis.com, oct-2026)"
   ],
   [
    "Próx. earnings",
-   "~10-sep-2026 (Q1 FY27, fecha no confirmada por Oracle IR); guidance ingresos +27%/+29% i.a., cloud +58%/+64%, EPS no-GAAP $1,72-$1,76 (comunicado Oracle, 10-jun-2026)"
+   "~14-dic-2026 (Q2 FY2027, estimado; sin confirmación oficial de Oracle IR al 24-oct-2026); guidance FY27 vigente: ingresos ≥US$90.000M, EPS no-GAAP $8,10 (Oracle IR, 10-sep-2026)"
   ],
   [
    "Técnico (auto)",
-   "RSI 54.7 · MACD -0.50 / señal -5.01 (TradingView, 11-ago-2026)"
+   "RSI 39.1 · MACD -4.51 / señal -3.48 (TradingView, 24-oct-2026)"
   ]
  ],
- "reportDate": "11 de agosto de 2026",
+ "reportDate": "24 de octubre de 2026",
  "change": {
-  "day": -3.24,
-  "week": -0.58
+  "day": 0.49,
+  "week": -1.61
  },
  "events": [
   {
-   "date": "2026-09-10",
-   "label": "Earnings Q1 FY2027 (fecha aprox., sin confirmar por Oracle IR)",
+   "date": "2026-10-28",
+   "label": "Investor Day en Oracle AI World",
+   "kind": "corporate",
+   "info": "HECHO: evento confirmado por Oracle (comunicado 23-oct-2026), 10:55am hora Central (Las Vegas), transmitido en vivo. El mercado buscará detalle sobre financiamiento del capex, trayectoria de márgenes en contratos cloud de IA y plan ante el estrés crediticio reciente (CDS en récord); RBC (Jaluria) se enfocará en infraestructura, aplicaciones y flujo de caja."
+  },
+  {
+   "date": "2026-12-14",
+   "label": "Próx. earnings — Q2 FY2027",
    "kind": "earnings",
-   "info": "Guidance vigente (comunicado Oracle, 10-jun-2026): ingresos totales +27%/+29% i.a., cloud +58%/+64% (USD), EPS no-GAAP $1,72-$1,76. El mercado buscará confirmar si el RPO récord ($638.000M, +363% i.a.) se traduce en ingresos reales de OCI y si el margen bruto en contratos de nube IA (~16% según reportes, vs 65,8% consolidado) mejora con escala. Fecha exacta pendiente de confirmación oficial al 11-ago-2026."
+   "info": "Fecha estimada por calendario histórico, pendiente de confirmación oficial de Oracle IR. Guidance FY27 vigente (10-sep-2026): ingresos ≥US$90.000M, EPS no-GAAP $8,10. El mercado vigilará si el RPO récord de US$664.000M empieza a convertirse en ingresos reales de OCI y si se sostiene el ritmo de contratos capital-eficientes (prepago/BYOH)."
   }
  ],
  "sections": {
-  "resumen": "ORCL cayó -3,24% hoy (11-ago) con bajo volumen (0,32x el promedio) y sin catalizador nuevo: sigue pesando el downgrade de crédito de S&P a BBB- (9-jul-2026) y el CDS a 5 años en récord histórico, ante deuda creciente y márgenes de ~16% en contratos de nube IA. HECHO: el RPO llegó a $638.000M (+363% i.a.), con OpenAI representando ~50-54% del backlog. LECTURA: el técnico (RSI 54,7 neutral, MACD girando al alza, percentil de precio 1Y en 13,7%) sugiere capitulación más que pánico, pero el riesgo crediticio es real, no solo de sentimiento.",
-  "fundamental": "- HECHO: RPO récord de $638.000M en Q4 FY26, +363% i.a.; ingresos OCI +93% i.a. a $5.800M (comunicado Oracle/TIKR.com, 10-jun-2026).\n- HECHO: guidance FY27 confirma ingresos ~$90.000M y EPS no-GAAP $8,05 (+18%) (comunicado Oracle, 10-jun-2026).\n- HECHO: capex FY26 $55.700M (+162% i.a.); FCF FY26 negativo ~-$24.000M (mlq.ai/IndexBox, jun-jul-2026).\n- LECTURA: margen bruto de solo ~16% en contratos cloud IA (vs software tradicional) cuestiona la calidad de ese crecimiento (DataCenterDynamics, jul-ago-2026).\n- HECHO: OpenAI concentra ~50-54% del RPO total; su contrato de $300.000M/5 años recién arranca en 2027 (MLQ News/Yahoo-BofA, jul-2026).",
-  "valuacion": "- HECHO: P/E 25,9x trailing / ~18,8x forward (stockanalysis.com, 11-ago-2026).\n- HECHO: target consenso ~US$247 (rango $110-400, 44 analistas, Buy) implica ~69% de upside desde $146 (stockanalysis.com, 11-ago-2026).\n- HECHO: dispersión amplia — Piper Sandler bajó a $130/Neutral, DA Davidson subió a $180/Buy en jul-2026 (tipranks.com).\n- LECTURA: percentil de precio 1Y en 13,7% sugiere que el mercado ya descuenta buena parte del riesgo crediticio, no solo el crecimiento.",
-  "tecnico": "- Precio $146,16 (-3,24% día), 11,3% sobre SMA20 pero -7,3% bajo SMA50 y -17,9% bajo SMA200: rebote corto dentro de corrección de tendencia larga.\n- RSI 54,7 (neutral) pese a estar cerca del piso del rango anual: sin sobreventa ni pánico técnico.\n- MACD -0,50 vs señal -5,01: histograma marcadamente positivo, giro alcista incipiente tras el desplome.\n- Percentil de precio 1Y en 13,7% y YTD -26,0%: zona de capitulación más que de sobreextensión.\n- Volumen de hoy 0,32x el promedio 20d: la caída ocurre sin confirmación de pánico vendedor masivo.",
-  "catalizadores": "**Catalizadores:**\n- Earnings Q1 FY27 (~10-sep-2026): confirmación de guidance cloud +58%/+64% y del margen OCI.\n- Rampa de ~1GW de capacidad de datacenter en Q1 FY27 y ~3GW adicionales en el año.\n- Activación formal del contrato OpenAI (US$300.000M/5 años) desde 2027.\n- Partnership con Google Cloud y Gemini AI en Oracle Fusion/NetSuite (ago-2026), que ya impulsó un rally de +13% en 5 ruedas.\n\n**Riesgos (por materialidad):**\n- Downgrade de crédito S&P a BBB- (9-jul-2026); CDS a 5 años en récord histórico.\n- ~50-54% del RPO depende de un solo cliente (OpenAI), con capacidad de pago incierta (IPO postergado a 2027).\n- Márgenes brutos de ~16% en contratos cloud IA; FCF FY26 negativo ~-$24.000M.\n- Compromisos de leasing de datacenters por ~$248.000-261.000M a 15-20 años, fijos pese a la demanda futura.",
-  "sentimiento": "- HECHO: consenso analista sigue en Buy (mayoría de 44 analistas), con downgrades (Piper Sandler, Melius) y upgrades (DA Davidson) simultáneos en jul-2026 (tipranks.com).\n- HECHO: demanda class-action en curso por presunto engaño sobre el retorno de la inversión en IA; lead plaintiff designado 27-abr-2026 (investmentnews.com).\n- LECTURA: prensa la describe como \"poster child\" del miedo a burbuja de IA, cobertura negativa en jun-jul-2026 girando a optimismo técnico en la primera semana de ago-2026 (Yahoo Finance/TradingKey).\n- HECHO: sin ventas directas recientes de Larry Ellison; su exposición es vía acciones pignoradas, no ventas (The Motley Fool, 29-jul-2026).",
-  "conclusion": "Oracle combina un backlog de IA sin precedentes ($638.000M de RPO, +363% i.a.) con un deterioro real de calidad crediticia (downgrade a BBB-, CDS en récord) y márgenes de nube IA bajos (~16%), financiados con deuda creciente. La caída de hoy (-3,24%) ocurre con volumen bajo y sin catalizador nuevo, mientras el técnico (RSI neutral, MACD girando, percentil 13,7%) sugiere capitulación más que pánico. La tesis alcista depende de que OpenAI y otros clientes de IA cumplan sus contratos plurianuales; el riesgo de crédito es real, no solo de sentimiento. Confianza media: evidencia mixta y catalizador binario en earnings de sept-2026."
+  "resumen": "ORCL cotiza en $126,16 (+0,49% día, -1,61% semana), cerca del piso de su rango de 52 semanas (percentil de precio 1 año: 6,8%). El trimestre combinó el mejor resultado operativo de su historia con el peor momento de su mercado de crédito: Q1 FY27 (10-sep) batió consenso con ingresos +30% y RPO récord de $664.000M, pero el CDS a 5 años tocó un récord de 288pb (15-oct) tras el estrés crediticio de CoreWeave, que arrastró a Oracle junto a Nebius y Dell. Se suma el retraso del gasoducto de Project Jupiter (ahora feb-2027), con aviso de fuerza mayor. El consenso accionario sigue mayoritariamente Buy.",
+  "fundamental": "- HECHO: Q1 FY27 (10-sep) ingresos $19.300M (+30% i.a.), EPS no-GAAP $1,92 vs $1,74 esperado (Oracle IR/CNBC).\n- HECHO: cloud total +62% a $11.600M; OCI +121% a $7.400M; SaaS +10% a $4.200M (Oracle IR, 10-sep-2026).\n- HECHO: RPO récord $664.000M (+$209.000M i.a.); OpenAI concentra ~45-50%, con pagos de ~US$60.000M/año recién desde 2027 (erp.today, sep-2026).\n- HECHO: >US$30.000M en nuevos contratos de IA ya prepagados o BYOH, sin capital incremental de Oracle (erp.today, sep-2026).\n- LECTURA: guidance FY27 subió a EPS $8,10/ingresos ≥$90.000M, pero la conversión real del RPO a caja sigue pendiente.",
+  "valuacion": "- HECHO: P/E ~20,6x trailing / ~15,4x forward, comprimido por la caída de precio (stockanalysis.com, 21-oct-2026).\n- HECHO: target consenso ~US$237-252 (rango $110-400, 43-44 analistas, mayoría Buy) implica ~88-100% de upside (marketbeat.com, oct-2026).\n- HECHO: market cap ~US$379.600M, menos de la mitad del pico de 2025 (gurufocus.com, 23-oct-2026).\n- HECHO: percentil de precio 1 año en 6,8%, cerca del mínimo de 52 semanas ($114,50) y lejos del máximo ($287,19).\n- LECTURA: el mercado de crédito (CDS récord) es más escéptico que el consenso accionario (Buy mayoritario); divergencia que rara vez dura.",
+  "tecnico": "- RSI 39,1 (débil, no sobreventa extrema); MACD -4,51 vs señal -3,48, histograma negativo y ampliándose: se revirtió el giro alcista de agosto.\n- Precio -6,9% bajo SMA20, -11,7% bajo SMA50, -20,4% bajo SMA200: estructura bajista en los tres plazos.\n- Percentil de precio 1 año de 6,8% (vs 13,7% en agosto): mínimos más bajos, sin divergencia alcista RSI/precio aún.\n- Volumen relativo 0,66x el promedio 20d: debilidad sin pánico vendedor masivo ni convicción compradora.\n- Caída del -7/-9% el 14-oct junto a CoreWeave/Nebius/Dell por temor a deuda de IA; recuperación parcial hacia $126.",
+  "catalizadores": "**Catalizadores:**\n- Investor Day en Oracle AI World (28-oct-2026): plan de financiamiento, márgenes y capacidad.\n- Resultados Q2 FY27 (~14-dic-2026, estimado): primera señal de conversión del RPO a ingresos.\n- Acuerdo no vinculante con AstraZeneca (20-oct-2026) para IA en ensayos clínicos.\n- Nuevos contratos de IA (>US$30.000M) ya prepagados/BYOH, menor necesidad de capital propio.\n\n**Riesgos (por materialidad):**\n- CDS a 5 años en récord (288pb) y Moody's en outlook negativo tras downgrade de S&P a BBB- (jul-2026).\n- Gasoducto de Project Jupiter retrasado a feb-2027; Oracle envió aviso de fuerza mayor y evalúa gas por camión.\n- ~45-50% del RPO depende de OpenAI, cuyos pagos de ~US$60.000M/año recién arrancan en 2027.\n- Deuda de largo plazo ~US$118.000M + ~US$39.000M en leasing: el apalancamiento sigue siendo la clave del riesgo.",
+  "sentimiento": "- HECHO: consenso de analistas sigue mayoritariamente Buy (28 strong buy/7 buy vs 7 hold/1 strong sell), target ~US$237-252 (marketbeat.com).\n- HECHO: Ellison canceló (12-sep) su plan de venta de hasta US$7.500M; no vendió nada y dice no tener otros planes (Yahoo Finance).\n- HECHO: recibió 223.099 RSU el 15-oct, compensación normal, no liquidación de posición (stocktitan.net).\n- LECTURA: divergencia entre el crédito (pesimista, CDS récord) y el equity/sell-side (Buy amplio) — uno de los dos está mal calibrado.\n- HECHO: prensa sigue enfocada en el riesgo de \"burbuja de deuda IA\" tras el selloff de CoreWeave del 14-oct (CNBC/SiliconANGLE).",
+  "conclusion": "Oracle combina el mejor trimestre operativo de su historia (RPO récord $664.000M, Q1 FY27 que bate consenso, contratos ya capital-eficientes) con el peor momento de su mercado de crédito (CDS en récord, Moody's negativo, fuerza mayor en Project Jupiter). Ellison cancelando su venta de $7.500M y el consenso accionario mayoritariamente Buy contrastan con el pesimismo del CDS — divergencia que el Investor Day del 28-oct y los resultados de dic-2026 deberían empezar a resolver. Señal: mixta, sesgo constructivo si el crédito se estabiliza. Confianza media: evidencia operativa sólida, pero el riesgo de apalancamiento y concentración en OpenAI es real."
  },
  "scores": {
   "tecnica": {
-   "score": 54,
-   "just": "RSI neutral (54,7) y MACD con histograma marcadamente positivo (-0,50 vs señal -5,01) tras una caída YTD de 26%, cerca del percentil mínimo (13,7%) del rango anual: evidencia de piso construyéndose, no de sobreextensión. Aún bajo SMA50/SMA200, la tendencia de mediano/largo plazo sigue negativa."
+   "score": 35,
+   "just": "RSI 39,1 sin sobreventa extrema, MACD con histograma negativo y ampliándose (revirtiendo el giro alcista de agosto) y precio bajo SMA20/50/200: el percentil de precio 1 año cayó de 13,7% a 6,8%, es decir, hizo mínimos más bajos — no hay evidencia de piso ni de divergencia alcista RSI/precio, solo debilidad persistente con volumen relativo bajo (0,66x)."
   },
   "fundamental": {
-   "score": 48,
-   "just": "RPO récord ($638.000M, +363% i.a.) confirma demanda real, pero el margen bruto de ~16% en contratos cloud IA, el FCF negativo (-$24.000M FY26) y la deuda creciente (downgrade S&P a BBB-) son deterioros reales de calidad del negocio, no solo percepción de mercado."
+   "score": 64,
+   "just": "Q1 FY27 batió en todas las líneas (ingresos +30%, EPS no-GAAP +30%) y el RPO llegó a un récord de $664.000M, con la novedad positiva de que >US$30.000M en nuevos contratos de IA se estructuran como prepago/BYOH sin capital incremental de Oracle; sigue pendiente la conversión real de ese backlog y la dependencia de OpenAI."
   },
   "sentimiento": {
-   "score": 58,
-   "just": "Pesimismo intenso (CDS en récord, downgrade de crédito, demanda de accionistas, apodo \"poster child\" de burbuja IA) coexiste con guidance de crecimiento intacto y contratos plurianuales firmados — leído en contrario hay oportunidad, aunque el pesimismo también refleja riesgos de crédito reales."
+   "score": 55,
+   "just": "Divergencia inusual entre un mercado de crédito muy pesimista (CDS récord, Moody's negativo) y un consenso accionario ampliamente Buy con cancelación de venta de Ellison — ni pesimismo uniforme ni euforia uniforme, así que se lee con cautela en lugar de aplicar el ajuste contrarian pleno."
   },
   "riesgo": {
-   "score": 30,
-   "just": "Apalancamiento en aumento (deuda ~$130.000-167.000M, leasing $248.000-261.000M a 15-20 años), downgrade de crédito a BBB- y concentración de ~50-54% del RPO en un solo cliente (OpenAI) son riesgos de pérdida permanente reales, no solo volatilidad de precio."
+   "score": 25,
+   "just": "El apalancamiento sigue deteriorándose en los mercados de crédito (CDS a récord histórico de 288pb, Moody's en outlook negativo) y se suma un riesgo operativo concreto nuevo: el aviso de fuerza mayor por el retraso del gasoducto de Project Jupiter hasta 2027. Esto es riesgo de pérdida permanente/ejecución, no solo volatilidad de precio, y empeoró vs el informe de agosto."
   },
   "conviccion": {
-   "score": 55,
-   "just": "Target consenso implica ~69% de upside desde el precio actual, pero la dispersión de targets ($110-400) refleja desacuerdo genuino sobre si el apalancamiento es sostenible; el catalizador binario de earnings de sept-2026 define la tesis."
+   "score": 57,
+   "just": "El upside a consenso (~90-100% desde $126) es mayor que en agosto porque el precio cayó más, pero la tesis depende de que OpenAI y otros clientes de IA cumplan pagos que recién arrancan en 2027; el Investor Day del 28-oct y los resultados de dic-2026 son los catalizadores que deberían confirmar o invalidar la asimetría."
   }
  },
  "sources": [
-  "stockanalysis.com, 11/08/2026 - Oracle (ORCL) Stock Price, Valuation & Forecast",
-  "TradingKey, 11/08/2026 - Market Movers: ORCL down 3.69% on Aug 11",
-  "CNBC, 10/06/2026 - Oracle Q4 FY2026 earnings report",
-  "Oracle Investor Relations, 10/06/2026 - Oracle Announces Record Q4 and FY2026 Results",
-  "MLQ News, 09/07/2026 - S&P downgrades Oracle to BBB-, one notch above junk, citing OpenAI concentration risk",
-  "Seeking Alpha, 24/07/2026 - Oracle's default risk hits record high, tops 2008 financial crisis peak",
-  "DataCenterDynamics, jul-ago/2026 - Internal documents show Oracle's average profit margin for AI cloud deals was 16%",
-  "The Motley Fool, 02/07/2026 - This AI infrastructure company has a $638 billion backlog",
-  "Yahoo Finance (Bank of America), jul/2026 - OpenAI shortfall puts Oracle AI backlog concentration in focus",
-  "The Motley Fool, 29/07/2026 - Larry Ellison owns 40.6% of Oracle and has backstopped it with pledged shares",
-  "TipRanks, jul/2026 - Piper Sandler downgrade to Neutral ($130); DA Davidson upgrade to Buy ($180)",
-  "InvestmentNews, 2026 - Investors sue Oracle, allege executives dumped stock amid AI hype (lead plaintiff 27/04/2026)",
-  "The Motley Fool, 03/08/2026 - Why Oracle stock is gaining (Google Cloud partnership)",
-  "Yahoo Finance, jun-jul/2026 - How Oracle became a poster child for AI bubble fears",
-  "outlookbusiness.com, jun/2026 - Oracle forecasts $95B in capex for FY27, plans to raise $40B in debt and equity"
+  "Oracle Investor Relations / CNBC, 10/09/2026 - Q1 FY2027 earnings release y call",
+  "erp.today, sep/2026 - Oracle's $664 Billion Backlog Comes With a New Financing Model",
+  "The Motley Fool, 17/09/2026 - Backlog-to-revenue ratio y estructura de contratos prepago/BYOH",
+  "CNBC, 19/10/2026 - Credit stress is threatening to unwind the AI bull; all eyes on Oracle",
+  "TradingView News / Seeking Alpha, 15/10/2026 - Oracle 5-year CDS hits record ~288bps",
+  "Yahoo Finance, jul-2026 - S&P downgrade a BBB-; Moody's outlook negativo",
+  "CNBC / SiliconANGLE, 14/10/2026 - Selloff de CoreWeave, Nebius, Oracle y Dell por temor a deuda de IA",
+  "Source New Mexico / El Paso Matters / CNBC, ago-sep/2026 - Retraso del gasoducto Green Chile (Project Jupiter) y aviso de fuerza mayor",
+  "Yahoo Finance, 12/09/2026 - Larry Ellison cancela plan de venta de US$7.500M",
+  "StockTitan.net, 15/10/2026 - Form 4: asignación de 223.099 RSU a Ellison",
+  "Benzinga / BioSpace, 20/10/2026 - Acuerdo no vinculante Oracle-AstraZeneca para IA en ensayos clínicos",
+  "stockanalysis.com, 21/10/2026 - P/E trailing/forward y estadísticas",
+  "GuruFocus, 23/10/2026 - Market cap ~US$379.600M",
+  "MarketBeat, 10/10/2026 - Consenso de analistas y price target",
+  "PRNewswire / Stockhouse, 23/10/2026 - Anuncio oficial de Investor Day, 28/10/2026"
  ],
  "opportunity": {
   "cats": {
    "valuacion_hist": {
-    "score": 62,
-    "just": "Percentil de precio 1Y en 13,7% y forward P/E ~18,8x lucen baratos vs los máximos de 2025-2026, aunque el trailing 25,9x sigue por sobre el promedio histórico previo al rally de IA."
+    "score": 72,
+    "just": "Percentil de precio 1 año en 6,8% (vs 13,7% en agosto) y forward P/E comprimido a ~15,4x: el activo está más barato vs su propia historia reciente que en el informe anterior, aunque el mínimo de 52 semanas ($114,50) todavía no fue puesto a prueba con convicción."
    },
    "calidad": {
     "score": 48,
-    "just": "Posición de liderazgo en OCI con demanda de IA innegable (RPO $638.000M), pero apalancamiento en aumento, márgenes de nube IA bajos (~16%) y downgrade crediticio a BBB- deterioran la calidad del balance."
+    "just": "El negocio operativo mejoró (RPO récord, contratos nuevos capital-eficientes) pero la calidad del balance sigue deteriorándose en paralelo: CDS en récord histórico, Moody's con outlook negativo y un problema de ejecución concreto nuevo (fuerza mayor en Project Jupiter)."
    },
    "asimetria": {
-    "score": 68,
-    "just": "Upside a target consenso (~$247, +69%) vs downside al mínimo de 52 semanas (~$114,50, -22%) ofrece razón riesgo/retorno favorable (~3:1), aunque el piso técnico aún no está confirmado."
+    "score": 75,
+    "just": "Upside a consenso (~US$237-252, +88-100%) vs downside al mínimo de 52 semanas (US$114,50, -9% desde el precio actual) es una razón riesgo/retorno muy favorable en papel, aunque el consenso accionario podría estar subestimando el riesgo que el mercado de crédito ya tiene incorporado."
    },
    "catalizadores": {
-    "score": 60,
-    "just": "Earnings Q1 FY27 (~10-sep-2026) y activación del contrato OpenAI desde 2027 son catalizadores fechados claros que podrían confirmar o quebrar la tesis de crecimiento en 12-18 meses."
+    "score": 68,
+    "just": "Ruta fechada clara en las próximas semanas: Investor Day el 28-oct-2026 (detalle de financiamiento y márgenes) y resultados Q2 FY27 (~14-dic-2026) que deberían mostrar la primera conversión real del RPO récord."
    },
    "contrarian": {
-    "score": 62,
-    "just": "El pesimismo es intenso (CDS en récord, downgrade de crédito, demanda de accionistas) mientras la demanda subyacente de OCI sigue creciendo con fuerza (RPO +363% i.a.) — sobrerreacción de sentimiento con riesgo de crédito genuino de fondo."
+    "score": 63,
+    "just": "El mercado de crédito está en pánico (CDS récord) mientras los fundamentos operativos siguen mejorando (RPO récord, contratos más capital-eficientes) — patrón típico de sobrerreacción contrarian, aunque el riesgo de crédito subyacente es real y no puramente de sentimiento."
    }
   },
   "plan": {
-   "recomendacion": "Esperar gatillo",
-   "zona_compra": "US$130-150 (cerca de SMA20 con RSI neutral; evitar antes de confirmación técnica de piso)",
-   "invalidacion": "Ruptura sostenida bajo US$114,50 (mínimo 52 sem.) o nuevo downgrade crediticio / evidencia de incumplimiento de pago de un cliente grande de IA",
+   "recomendacion": "Acumular en zona",
+   "zona_compra": "Compras escalonadas entre US$114-130 (zona del mínimo de 52 semanas y precio actual), ampliando posición si confirma piso con reconquista de SMA20.",
+   "invalidacion": "Ruptura sostenida bajo US$114,50 (mínimo 52 semanas) acompañada de nuevo downgrade crediticio a grado especulativo, o evidencia de que OpenAI incumple pagos o renegocia a la baja su contrato de US$300.000M.",
    "gatillos": [
-    "Confirmación de guidance cloud +58%/+64% en earnings Q1 FY27 (~10-sep-2026)",
-    "Estabilización o mejora del rating crediticio tras la seguidilla de downgrades",
-    "RSI sosteniéndose sobre 55-60 con MACD cruzando a terreno positivo"
+    "Detalles de financiamiento, márgenes y capacidad en el Investor Day de Oracle AI World (28-oct-2026)",
+    "Resultados Q2 FY27 (~14-dic-2026) mostrando conversión real del RPO récord de US$664.000M a ingresos",
+    "Estabilización o compresión del CDS a 5 años desde su récord de 288pb",
+    "Resolución del problema de suministro de gas de Project Jupiter (gasoducto Green Chile, hoy proyectado a feb-2027)"
    ],
    "horizonte": "6-18 meses",
-   "tamano": "Posición reducida dada la incertidumbre crediticia y de concentración de cliente; evitar sobreexposición hasta confirmación en earnings",
+   "tamano": "Posición moderada (3-5% de cartera); el apalancamiento creciente y la concentración en OpenAI justifican no sobre-exponerse pese a la asimetría atractiva en papel.",
    "confianza": "media"
   }
  },
  "perfil": "Oracle es una empresa de software empresarial que, cada vez más, también vende infraestructura en la nube: bases de datos, aplicaciones de gestión empresarial (ERP, RRHH, cadena de suministro) y, desde su expansión hacia Oracle Cloud Infrastructure (OCI), capacidad de cómputo con GPUs para IA, vendida a grandes empresas, gobiernos y a los principales laboratorios de IA del mundo. El core histórico son las licencias y suscripciones de bases de datos y aplicaciones (Fusion, NetSuite), de altísimo margen y alta recurrencia por lo costoso que es migrar sistemas críticos ya instalados. El motor de crecimiento reciente es OCI, que factura contratos plurianuales de infraestructura de IA por cientos de miles de millones de dólares con clientes como OpenAI, pero con márgenes brutos sensiblemente menores que el software tradicional. Esto cambia el perfil de riesgo: de una máquina de flujo de caja estable a un negocio intensivo en capital, financiado crecientemente con deuda, cuya rentabilidad futura depende de la escala y de que sus clientes de IA cumplan sus compromisos de pago.",
  "risk": {
-  "volatility_30d": null,
-  "sharpe": null,
-  "sortino": null,
-  "max_drawdown_1y": null,
-  "n_days": 1,
+  "volatility_30d": 45.98,
+  "sharpe": -1.77,
+  "sortino": -1.24,
+  "max_drawdown_1y": -22.75,
+  "n_days": 47,
   "window": 30
  },
  "benchmark": {
   "ticker": "SP:SPX",
   "label": "S&P 500",
-  "relative_performance_30d": -2.39,
-  "relative_performance_ytd": -38.72,
-  "price_percentile_1y": 13.7,
+  "relative_performance_30d": -13.15,
+  "relative_performance_ytd": -46.95,
+  "price_percentile_1y": 6.8,
   "partial": false
  },
  "technical": {
-  "price": 146.16,
-  "change_1d_pct": -3.24,
-  "change_1w_pct": -0.58,
-  "rsi": 54.7,
-  "macd": -0.5007,
-  "macd_signal": -5.0072,
-  "sma20": 131.356,
-  "sma50": 157.6426,
-  "sma200": 178.0603,
-  "ema12": 139.903,
-  "ema26": 140.4037,
-  "pct_vs_sma20": 11.27,
-  "pct_vs_sma50": -7.28,
-  "pct_vs_sma200": -17.92,
-  "volume_today": 11557979,
-  "volume_avg20": 36579384.0,
-  "volume_ratio": 0.32,
-  "volatility_30d": null,
-  "sharpe": null,
-  "sortino": null,
-  "max_drawdown_1y": null,
-  "price_percentile_1y": 13.7,
-  "vs_benchmark_30d_pct": -2.39,
-  "perf_1m_pct": 0.35,
-  "perf_ytd_pct": -25.98
+  "price": 126.16,
+  "change_1d_pct": 0.49,
+  "change_1w_pct": -1.61,
+  "rsi": 39.1,
+  "macd": -4.505,
+  "macd_signal": -3.4799,
+  "sma20": 135.568,
+  "sma50": 142.8876,
+  "sma200": 158.5515,
+  "ema12": 131.8719,
+  "ema26": 136.3769,
+  "pct_vs_sma20": -6.94,
+  "pct_vs_sma50": -11.71,
+  "pct_vs_sma200": -20.43,
+  "volume_today": 19222691,
+  "volume_avg20": 28934891.0,
+  "volume_ratio": 0.66,
+  "volatility_30d": 45.98,
+  "sharpe": -1.77,
+  "sortino": -1.24,
+  "max_drawdown_1y": -22.75,
+  "price_percentile_1y": 6.8,
+  "vs_benchmark_30d_pct": -13.15,
+  "perf_1m_pct": -14.93,
+  "perf_ytd_pct": -36.11
  },
  "sourcesMeta": {
   "price": {
    "origin": "TradingView scanner",
-   "fetched_at": "2026-08-11T11:17:06-04:00"
+   "fetched_at": "2026-10-24T21:29:05-03:00"
   },
   "rsi_macd": {
    "origin": "TradingView scanner",
-   "fetched_at": "2026-08-11T11:17:06-04:00"
+   "fetched_at": "2026-10-24T21:29:05-03:00"
   },
   "smas_volume": {
    "origin": "TradingView scanner",
-   "fetched_at": "2026-08-11T11:17:06-04:00"
+   "fetched_at": "2026-10-24T21:29:05-03:00"
   },
   "benchmark": {
    "origin": "TradingView scanner",
    "symbol": "SP:SPX",
-   "fetched_at": "2026-08-11T11:17:06-04:00"
+   "fetched_at": "2026-10-24T21:29:05-03:00"
   },
   "risk_metrics": {
    "origin": "data/history/ORCL.json",
-   "n_days": 1
+   "n_days": 47
   }
  },
- "metricChanges": []
+ "metricChanges": [
+  {
+   "ticker": "ORCL",
+   "date": "2026-10-14",
+   "metric": "precio_pct",
+   "from": 143.2,
+   "to": 130.55
+  },
+  {
+   "ticker": "ORCL",
+   "date": "2026-09-05",
+   "metric": "precio_pct",
+   "from": 145.75,
+   "to": 158.78
+  }
+ ]
 }
