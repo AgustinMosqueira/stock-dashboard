@@ -4,7 +4,7 @@
   "statsList": [
     [
       "Precio",
-      "$8.04 (23-oct-2026)"
+      "$7.88 (25-oct-2026)"
     ],
     [
       "Rango 52 sem.",
@@ -20,107 +20,112 @@
     ],
     [
       "BTC en tesorería",
-      "13,530 BTC (30-sep-2026) ≈ $1.10B a precio BTC actual (~$81.400)"
+      "13,530 BTC (30-sep-2026) ≈ $1.09B a precio BTC actual (~$80.100)"
     ],
     [
       "Próx. earnings",
       "~16-dic-2026 (Q4 FY2026, fecha no oficializada por la empresa)"
+    ],
+    [
+      "Técnico (auto)",
+      "RSI 24.2 · MACD -1.29 / señal -1.03 (TradingView, 25-oct-2026)"
     ]
   ],
   "change": {
-    "day": -1.35,
-    "week": -8.37
+    "day": -3.31,
+    "week": -6.19
   },
   "events": [
     {
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "label": "Ajuste de dificultad de red BTC",
       "kind": "corporate",
-      "info": "Próximo ajuste de dificultad de minado de Bitcoin estimado en torno al 28-oct-2026, con posible alza de hasta ~14% tras el +5,92% del ajuste anterior (140,58T, el mayor desde marzo-2026); presionaría márgenes de todos los mineros incl. CLSK. Fuente: KuCoin / millionminer.com, 16-18-oct-2026."
+      "info": "Próximo ajuste de dificultad de minado de BTC proyectado ~29-oct-2026 (no oficial, estimación ~+6,4%), tras el ajuste real del 16-oct (+5,92% a 140,58T). Hashprice ya cayó a ~$36,75/PH/día; presionaría márgenes de todos los mineros incl. CLSK. Fuente: CoinWarz / CryptoTicker.io, 16-22-oct-2026."
     },
     {
       "date": "2026-12-16",
       "label": "Earnings Q4 FY2026",
       "kind": "earnings",
-      "info": "Fecha estimada por TipRanks (no confirmada oficialmente por CleanSpark); mercado buscará evidencia de que el pivot a AI/HPC (Sandersville) compensa la caída de ingresos por minería y la nueva carga de intereses de los bonos recién cerrados. Fuente: TipRanks, 19-oct-2026."
+      "info": "Fecha estimada por TipRanks/MarketBeat (no confirmada oficialmente por CleanSpark). EPS consenso proyectado ~-$0,33. El mercado buscará evidencia de que el pivot a AI/HPC (Sandersville) compensa la caída de ingresos por minería. Fuente: TipRanks/MarketBeat, oct-2026."
     },
     {
       "date": "2027-11-01",
       "label": "Inicio de pagos de renta Sandersville (Meta)",
       "kind": "corporate",
-      "info": "Los pagos de renta del contrato de 20 años / $6,6B (hasta $11,6B) con Meta (vía Anviran LLC) comenzarían en noviembre de 2027, tras completarse el primer 'network hall'; hito clave que transformaría el flujo de caja de CLSK de minería pura a renta de infraestructura IA. Fuente: CoStar / Yahoo Finance, sept-oct-2026."
+      "info": "Los pagos de renta del contrato de 20 años / $6,6B (hasta $11,6B) con Meta (vía Anviran LLC, confirmado en filings SEC fines sept-2026) comenzarían en noviembre de 2027. Hito clave que transformaría el flujo de caja de CLSK de minería pura a renta de infraestructura IA. Fuente: CoStar / Yahoo Finance, sept-oct-2026."
     },
     {
       "date": "2027-12-01",
       "label": "Primera data hall operativa en Sandersville (AI)",
       "kind": "corporate",
-      "info": "Fecha objetivo (Q4 2027) para la puesta en marcha del primer data hall del contrato con Meta como inquilino garante; hito clave de la tesis de diversificación hacia HPC/IA, ahora con financiamiento ya cerrado ($2,276B en notas senior). Fuente: Yahoo Finance / CryptoSlate, jul-oct-2026."
+      "info": "Fecha objetivo (Q4 2027) para la puesta en marcha del primer data hall del contrato con Meta como inquilino garante; hito clave de la tesis de diversificación hacia HPC/IA, con financiamiento ya cerrado ($2,276B en notas senior al 7,875%, cierre ~25-sep-2026). Fuente: Yahoo Finance / CryptoSlate, jul-oct-2026."
     }
   ],
   "sections": {
-    "resumen": "CLSK marcó mínimo de 52 semanas en $7.99 el 22-oct (cerró $8.16, -6.74%), arrastrado por BTC cayendo a ~$81.300-81.550 (vs ~$83.700 días atrás) y un Q3 FY2026 flojo (EPS -$0,89 vs -$0,47 esperado). HECHO: pese a la caída, tres firmas iniciaron/reiteraron \"buy\" en la semana (Canaccord $20, Jones Trading, H.C. Wainwright) citando Meta/Sandersville. LECTURA: el mercado castiga la minería en contracción mientras parte del sell-side ya valora el pivot a IA como opcionalidad real. Confianza: media.",
-    "fundamental": "- Q3 FY2026: EPS ajustado -$0,89 vs -$0,47 esperado; ingresos $138M (-30,5% YoY) (MarketBeat, 22-oct-2026).\n- Hashrate operativo 36 EH/s en sept. vs 50 EH/s instalado; capex prioriza IA sobre minería (PRNewswire, 9-oct-2026).\n- Tesorería 13.530 BTC (30-sep), 3.475 como colateral; vendió 702 BTC en sept. (stocktitan, 15-oct-2026).\n- Cerró $2,276B en notas senior al 7,875% (vto. 2031); CEO: Sandersville \"fully funded through completion\" (crypto.news, 9-oct-2026).\n- LECTURA: fin de updates mensuales (pasa a trimestral) reduce transparencia justo cuando el mercado más la demanda.",
-    "valuacion": "- Market cap ~$2,11B vs. tesorería BTC ~$1,10B: cubre ~52% del valor de mercado (stockanalysis.com, 23-oct-2026).\n- Canaccord inició \"buy\" PT $20; Jones Trading inició \"buy\"; H.C. Wainwright reiteró \"buy\" (MarketBeat, 22-oct-2026).\n- Consenso pasó a \"Moderate Buy\", objetivo promedio ~$23,11 (+187%), con dispersión amplia (Argus $10 vs Canaccord $20).\n- LECTURA: nuevas coberturas alcistas justo en el mínimo sugieren que el mercado ve el castigo desconectado del contrato Meta ya financiado.\n- Cotiza a ~0,5% sobre el mínimo histórico ($7,99), tramo más bajo del rango ($7,99-$20,87).",
-    "tecnico": "- Mínimo de 52 semanas en $7,99 (22-oct), cerró $8,16 (-6,74%), RSI ~24,9 (sobreventa extrema, TradingView 23-oct).\n- LECTURA: mínimo más bajo con RSI ya deprimido es señal a vigilar por posible divergencia, aún no confirmada.\n- MACD sigue negativo (-1,28 vs señal -1,03), sin cruce alcista todavía.\n- Precio muy por debajo de SMA20/50/200 (-24% a -35%), tendencia de mediano plazo bajista.\n- Nivel a vigilar: perder $7,99 abre nuevos mínimos; recuperar $9-10 confirmaría intento de piso.",
-    "catalizadores": "**Catalizadores:**\n- Nuevas coberturas alcistas (Canaccord, Jones Trading, H.C. Wainwright) elevan consenso a \"Moderate Buy\" ($23,11 promedio).\n- Sandersville \"fully funded\" (bonos cerrados, no dilutivos) reduce riesgo de ejecución de corto plazo.\n- Recompras de acciones (+$600M desde dic-2024) como señal de disciplina ante precio deprimido.\n- Reporte Q4 FY2026 (~dic-2026) mostrando estabilización de costos tras la emisión de deuda.\n\n**Riesgos:**\n- Caída de BTC a ~$81.300-81.550 reduce valor de tesorería y hashprice de minería.\n- Apalancamiento elevado: $2,276B en bonos al 7,875% más convertibles existentes; nueva carga fija relevante.\n- Ajuste de dificultad de red (~28-oct, posible +14%) comprimiría márgenes de todos los mineros.\n- Dependencia binaria del precio de BTC para tesorería e ingresos de minería residual.",
-    "sentimiento": "- En 48h, tres firmas iniciaron o reiteraron \"buy\" (Canaccord $20, Jones Trading, H.C. Wainwright) justo en el mínimo de 52 semanas (MarketBeat, 22-oct-2026).\n- LECTURA: precio en mínimos con cobertura sell-side más alcista es divergencia sentimiento-precio propia de extremos.\n- Insiders vendieron recientemente (COO, 25.249 acciones), señal mixta frente al alza de cobertura.\n- Medios destacan \"fully funded\" y \"non-dilutive\" de Sandersville como contrapeso a la caída de ingresos de minería.\n- Contrario: tras ~58% de caída anual y RSI 24,9 en nuevo mínimo, el pesimismo ya es extremo mientras la narrativa Meta/IA mejora.",
-    "conclusion": "CLSK toca mínimo de 52 semanas ($7,99) arrastrada por BTC a ~$81.400 y un Q3 débil, pero simultáneamente tres analistas elevan o inician cobertura alcista citando Meta/Sandersville ya financiado, llevando el consenso a \"Moderate Buy\" $23,11. Esa divergencia precio-vs-narrativa, sumada a RSI en sobreventa extrema, es configuración clásica de oportunidad contraria, aunque sin confirmación técnica todavía. La minería sigue contrayéndose y el apalancamiento nuevo es real. Score técnico bajo por falta de piso confirmado; convicción moderada-alta por la asimetría. Confianza: media. Solo para perfiles de alta tolerancia al riesgo, horizonte 12-18 meses."
+    "resumen": "CLSK sigue cerca de su mínimo de 52 semanas ($7,99, 22-oct) con BTC ~$80.000 y un Q3 FY2026 flojo (EPS -$0,89 vs -$0,47 esperado). HECHO: CleanSpark discontinuó sus updates operativos mensuales tras 5 años, pasando a reporte trimestral (StockTitan, 9-oct-2026). HECHO: sell-side dividido: Canaccord inició \"buy\" citando Meta/Sandersville, pero Cantor Fitzgerald recortó su PT de $26 a $19 (16-oct-2026). LECTURA: el mercado castiga la minería en contracción mientras el sell-side duda cuánto vale la opcionalidad IA. Confianza: media.",
+    "fundamental": "- Q3 FY2026: EPS ajustado -$0,89 vs -$0,47 esperado; ingresos $138M (-30,5% YoY) (MarketBeat, 22-oct-2026).\n- Hashrate operativo 36 EH/s en sept. vs 50 EH/s instalado; capex prioriza IA sobre minería (PRNewswire, 9-oct-2026).\n- Tesorería 13.530 BTC (30-sep); vendió 702 BTC en sept. a $72.928 promedio (stocktitan, 9-oct-2026).\n- Cerró $2,276B en notas senior al 7,875% (vto. 2031) vía CSDC Finance I; CEO: Sandersville \"fully funded through completion\" (crypto.news, 25-sept-2026).\n- HECHO: fin de updates mensuales (pasa a trimestral) reduce transparencia justo cuando el mercado más la demanda (StockTitan, 9-oct-2026).",
+    "valuacion": "- Market cap ~$2,11B vs. tesorería BTC ~$1,09B: cubre ~52% del valor de mercado (stockanalysis.com, 23-oct-2026).\n- Consenso general \"Moderate/Strong Buy\", PT promedio ~$23 (Yahoo Finance, oct-2026); dispersión amplia: Cantor Fitzgerald bajó de $26 a $19 (16-oct), Canaccord inició en $20 (22-oct).\n- LECTURA: el recorte de Cantor justo antes de las nuevas coberturas alcistas muestra que el sell-side no está unánime sobre cuánto vale el pivot IA todavía sin caja.\n- Cotiza a ~1% sobre el mínimo histórico ($7,99), tramo más bajo del rango de 52 sem. ($7,99-$20,87).\n- ATM ampliado a $800M (H.C. Wainwright) sin emisiones efectivas en los últimos 15 meses, limitando el riesgo de dilución inmediata.",
+    "tecnico": "- Mínimo de 52 semanas en $7,99 (22-oct), precio actual $7,88, RSI 24,2 (sobreventa extrema, TradingView 25-oct).\n- LECTURA: RSI ya deprimido cerca de mínimos es señal a vigilar por posible divergencia, aún no confirmada.\n- MACD sigue negativo (-1,29 vs señal -1,03), sin cruce alcista todavía.\n- Precio muy por debajo de SMA20/50/200 (-25% a -37%), tendencia de mediano plazo bajista.\n- Nivel a vigilar: perder $7,99 abre nuevos mínimos; recuperar $9-10 confirmaría intento de piso.",
+    "catalizadores": "**Catalizadores:**\n- Nuevas coberturas alcistas (Canaccord $20, otras) elevan consenso a \"Moderate/Strong Buy\" (~$23 promedio), aunque con disenso (Cantor $19).\n- Sandersville \"fully funded\" (bonos cerrados, no dilutivos) reduce riesgo de ejecución de corto plazo; inquilino confirmado como Meta vía Anviran LLC.\n- ATM de $800M sin uso efectivo reciente limita riesgo de dilución inmediata.\n- Reporte Q4 FY2026 (~dic-2026) mostrando estabilización de costos tras la emisión de deuda.\n\n**Riesgos (por materialidad):**\n- BTC cayendo a ~$80.000 reduce valor de tesorería y hashprice de minería (ya en ~$36,75/PH/día).\n- Apalancamiento elevado: $2,276B en bonos al 7,875% más convertibles 2032 ($1.000M+); nueva carga fija relevante.\n- Ajuste de dificultad de red (~29-oct, proyección +6,4% no confirmada) comprimiría aún más márgenes de minería.\n- Fin de updates mensuales reduce visibilidad operativa justo en fase de transición del negocio.",
+    "sentimiento": "- Consenso sell-side dividido: Canaccord inicia \"buy\" ($20 PT) mientras Cantor Fitzgerald recorta de $26 a $19 (16-oct-2026), ambos cerca del mínimo de 52 semanas.\n- LECTURA: precio en mínimos con cobertura sell-side mixta (no unánime) es una divergencia sentimiento-precio menos extrema que una semana atrás, pero sigue vigente.\n- Insiders: ventas bajo planes 10b5-1 programados (Form 4, 4-sep-2026) — patrón rutinario, señal neutra, no necesariamente bajista.\n- Medios destacan \"fully funded\" y \"non-dilutive\" de Sandersville como contrapeso al tono cauteloso por la caída de ingresos de minería.\n- Contrario: tras ~58% de caída anual y RSI 24,2 cerca de mínimos, el pesimismo sigue siendo elevado mientras la narrativa Meta/IA se consolida (inquilino ya confirmado).",
+    "conclusion": "CLSK se mantiene cerca de su mínimo de 52 semanas ($7,99) arrastrada por BTC a ~$80.000 y un Q3 débil, con transparencia operativa reducida (fin de updates mensuales). Sell-side dividido: Canaccord ve valor en Meta/Sandersville (PT $20) mientras Cantor recortó a $19; consenso general sigue en \"Moderate/Strong Buy\" (~$23). RSI en sobreventa extrema (24,2) sin confirmación técnica de piso. La minería sigue contrayéndose y el apalancamiento nuevo ($2,28B en bonos) es real, aunque no dilutivo. Señal: contraria pero no confirmada técnicamente; convicción moderada. Confianza: media. Solo perfiles de alta tolerancia al riesgo, horizonte 12-18 meses."
   },
   "scores": {
     "tecnica": {
       "score": 32,
-      "just": "Nuevo mínimo de 52 semanas con RSI ya en sobreventa extrema (24,9) sin cruce de MACD ni recuperación de SMA20 es indicio de capitulación, no de piso confirmado; se mantiene bajo hasta ver una vela de reversión clara."
+      "just": "Precio cerca de mínimo de 52 semanas con RSI ya en sobreventa extrema (24,2) sin cruce de MACD ni recuperación de SMA20 es indicio de capitulación, no de piso confirmado; se mantiene bajo hasta ver una vela de reversión clara."
     },
     "fundamental": {
-      "score": 47,
-      "just": "El negocio core de minería sigue débil (Q3 decepcionó, hashrate operativo contraído) y BTC bajó, pero el respaldo de tres nuevas coberturas alcistas de analistas sobre el contrato Meta ya financiado sostiene la tesis de diversificación."
+      "score": 45,
+      "just": "El negocio core de minería sigue débil (Q3 decepcionó, hashrate operativo contraído, fin de updates mensuales reduce visibilidad) y BTC bajó, pero el financiamiento cerrado de Sandersville (Meta confirmado como inquilino) sostiene la tesis de diversificación."
     },
     "sentimiento": {
-      "score": 58,
-      "just": "Divergencia clara entre precio (mínimo de 52 semanas) y flujo de noticias de analistas (tres \"buy\" nuevos/reiterados en 48h, consenso sube a Moderate Buy $23,11); ese contraste es la señal contraria más fuerte de la semana."
+      "score": 55,
+      "just": "Divergencia precio-sentimiento se mantiene pero ya no es unánime: Canaccord sube cobertura mientras Cantor Fitzgerald recorta PT de $26 a $19 en la misma semana; el contraste sigue siendo señal contraria relevante, aunque algo menos extrema."
     },
     "riesgo": {
-      "score": 64,
-      "just": "Riesgo de pérdida permanente sigue alto por ~$2,28B de deuda nueva al 7,875% y exposición binaria a BTC (que acaba de caer), pero el riesgo de financiamiento incompleto del proyecto IA ya está resuelto, acotando la cola más severa."
+      "score": 62,
+      "just": "Riesgo de pérdida permanente sigue alto por ~$2,28B de deuda nueva al 7,875% y exposición binaria a BTC (que acaba de caer a ~$80.000), pero el riesgo de financiamiento incompleto del proyecto IA ya está resuelto y el ATM no se ha usado, acotando la cola más severa."
     },
     "conviccion": {
-      "score": 48,
-      "just": "La asimetría se amplía: precio en mínimo histórico de 52 semanas justo cuando sell-side eleva cobertura y objetivo a $23 (+187%), pero sin confirmación técnica de piso ni estabilización del negocio de minería, la convicción es moderada, no alta."
+      "score": 46,
+      "just": "La asimetría sigue amplia: precio cerca de mínimo histórico de 52 semanas con PT de consenso en ~$23 (+192%), pero sin confirmación técnica de piso, sell-side dividido (Cantor recortó PT) y negocio de minería aún sin estabilizar, la convicción es moderada, no alta."
     }
   },
   "sources": [
-    "MarketBeat, 22-oct-2026 — CLSK marca nuevo mínimo de 52 semanas intradía ($7,99), cierre $8,16 (-6,74%); Canaccord Genuity inicia cobertura \"buy\" PT $20, Jones Trading inicia \"buy\", H.C. Wainwright reitera \"buy\"; consenso sube a \"Moderate Buy\" PT promedio $23,11",
-    "Investing.com, 22-oct-2026 — CleanSpark stock hits 52-week low at $7.99 USD",
-    "Yahoo Finance / sg.finance.yahoo.com, 22-oct-2026 — CLSK sufre caída mayor que el mercado general; EPS ajustado -$0,89 vs -$0,47 esperado, ingresos $138,01M (-30,5% YoY)",
-    "Fortune / Coindesk, 23-oct-2026 — precio de BTC ~$81.330-81.550 (caída desde ~$83.700 días atrás)",
-    "SEC 10-Q (clsk-20260630.htm) y 8-K FY2026 — hashrate operativo mensual (36 EH/s promedio sept-2026, 50 EH/s capacidad instalada)",
-    "PRNewswire / stocktitan.net / mugglehead.com, 9-15-oct-2026 — operational update de septiembre: 529 BTC producidos, 702 BTC vendidos (700 vía call options a $72.928), tesorería 13.530 BTC a 30-sep, fin de updates mensuales",
-    "crypto.news / panabee.com / Bloomberg, 9-17-sept-oct-2026 — cierre de $2,276B en notas senior garantizadas al 7,875% (vto. 2031) vía CSDC Finance I; CEO confirma Sandersville \"fully funded through completion\"",
-    "CoStar / Yahoo Finance, sept-oct-2026 — contrato Sandersville con Meta (vía Anviran LLC) $6,6B/20 años (hasta $11,6B con extensiones), 175MW, pagos de renta desde nov-2027, ~$330M NOI anual promedio",
-    "TipRanks, 19-oct-2026 — estimación de fecha de earnings Q4 FY2026 (~16-dic-2026, no confirmada oficialmente)",
-    "KuCoin / millionminer.com / coindaro.com, 16-18-oct-2026 — dificultad de red BTC (140,58T, +5,92%), hashprice (~$36-37/PH/día), próximo ajuste ~28-oct-2026 con posible +14%"
+    "MarketBeat, 22-oct-2026 — CLSK marca nuevo mínimo de 52 semanas intradía ($7,99); Canaccord Genuity inicia cobertura \"buy\" PT $20; consenso general \"Moderate/Strong Buy\"",
+    "Yahoo Finance, oct-2026 — consenso de analistas PT promedio ~$23; EPS ajustado Q3 -$0,89 vs -$0,47 esperado, ingresos $138,01M (-30,5% YoY)",
+    "StockTitan / PRNewswire, 9-oct-2026 — operational update de septiembre: hashrate pico 50 EH/s, promedio operativo 36 EH/s, eficiencia pico 16,07 J/TH; 529 BTC producidos, 702 BTC vendidos a $72.928 promedio, tesorería 13.530 BTC a 30-sep; CleanSpark discontinúa updates mensuales tras 5 años, pasa a reporte trimestral",
+    "crypto.news, 25-sept-2026 — cierre de $2,276B en notas senior garantizadas al 7,875% (vto. 2031) vía CSDC Finance I; CEO confirma Sandersville \"fully funded through completion\"",
+    "CoStar / Yahoo Finance, sept-oct-2026 — contrato Sandersville, inquilino confirmado como Meta (vía Anviran LLC) en filings SEC a fines de sept-2026; $6,6B/20 años (hasta $11,6B), 175MW, pagos de renta desde nov-2027",
+    "TipRanks / MarketBeat, oct-2026 — estimación de fecha de earnings Q4 FY2026 (~16-dic-2026, no confirmada oficialmente), EPS consenso proyectado ~-$0,33",
+    "CoinWarz / Bitkub, 16-oct-2026 — ajuste real de dificultad de red BTC +5,92% a 140,58T",
+    "CryptoTicker.io, 18-22-oct-2026 — próximo ajuste de dificultad proyectado ~29-oct-2026 (+6,4% estimado, no oficial); hashprice ~$36,75/PH/día",
+    "Cantor Fitzgerald vía MarketBeat, 16-oct-2026 — recorte de price target de $26 a $19",
+    "CoinDesk / Binance / CoinGecko, 26-oct-2026 — precio BTC/USD en rango ~$79.700-$80.800",
+    "SEC Form 4, 4-sep-2026 — ventas de ejecutivos (CEO Matthew Schultz y otros) bajo planes 10b5-1 programados"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
         "score": 60,
-        "just": "Cotiza en mínimo histórico de 52 semanas con tesorería BTC cubriendo ~52% del market cap; el nuevo mínimo coincide con cobertura sell-side más alcista (PT promedio $23,11), ampliando el margen de seguridad relativo."
+        "just": "Cotiza prácticamente en el mínimo histórico de 52 semanas con tesorería BTC cubriendo ~52% del market cap; el mínimo coincide con cobertura sell-side mayoritariamente alcista (PT promedio ~$23), ampliando el margen de seguridad relativo."
       },
       "calidad": {
         "score": 42,
-        "just": "Modelo de negocio en transición: el core de minería se contrae (Q3 débil, hashrate operativo por debajo de capacidad) mientras el nuevo pilar IA/HPC, ya financiado, todavía no genera caja (renta inicia nov-2027)."
+        "just": "Modelo de negocio en transición: el core de minería se contrae (Q3 débil, hashrate operativo por debajo de capacidad, fin de updates mensuales reduce visibilidad) mientras el nuevo pilar IA/HPC, ya financiado y con inquilino confirmado (Meta), todavía no genera caja (renta inicia nov-2027)."
       },
       "asimetria": {
-        "score": 58,
-        "just": "Tres analistas nuevos/reiterados en \"buy\" justo en el mínimo de precio, con upside de consenso de +187%, mejora la asimetría; el downside sigue acotado por la cobertura BTC de la tesorería, aunque la ejecución del pivot aún es incierta."
+        "score": 55,
+        "just": "Consenso sell-side mayoritariamente \"buy\" con upside de +192% a PT promedio, pero el recorte reciente de Cantor Fitzgerald (de $26 a $19) y la falta de confirmación técnica de piso moderan la asimetría frente a la semana anterior; downside sigue acotado por la cobertura BTC de la tesorería."
       },
       "catalizadores": {
         "score": 55,
-        "just": "Con financiamiento de Sandersville resuelto y pagos de renta programados desde nov-2027, el catalizador de largo plazo gana visibilidad; en el corto plazo, ajuste de dificultad (~28-oct) y BTC siguen siendo los drivers inmediatos."
+        "just": "Con financiamiento de Sandersville resuelto, inquilino confirmado (Meta) y pagos de renta programados desde nov-2027, el catalizador de largo plazo gana visibilidad; en el corto plazo, el ajuste de dificultad (~29-oct) y el precio de BTC siguen siendo los drivers inmediatos."
       },
       "contrarian": {
-        "score": 64,
-        "just": "Divergencia precio-vs-sentimiento sell-side (mínimo de 52 semanas + tres \"buy\" nuevos en 48h) tras caída de ~58% en 12 meses es un patrón contrario de libro, aunque exige confirmación técnica adicional antes de actuar con tamaño."
+        "score": 60,
+        "just": "Divergencia precio-vs-sentimiento sell-side persiste (precio en mínimos + mayoría de \"buy\") tras caída de ~58% en 12 meses, aunque el recorte de PT de Cantor reduce algo la unanimidad contraria respecto a la semana previa, exigiendo confirmación técnica adicional antes de actuar con tamaño."
       }
     },
     "plan": {
@@ -129,7 +134,7 @@
       "invalidacion": "Cierre semanal por debajo de $7,50 o evidencia de que el hashrate operativo sigue cayendo sin estabilizarse",
       "gatillos": [
         "Estabilización del hashrate operativo (fin de la caída mes a mes) en el próximo reporte trimestral",
-        "BTC recuperando >$85.000 con hashprice en mejora tras el ajuste de dificultad del 28-oct",
+        "BTC recuperando >$85.000 con hashprice en mejora tras el ajuste de dificultad de fin de octubre",
         "Confirmación técnica de piso (cierre por sobre SMA20 o MACD cruzando al alza)"
       ],
       "horizonte": "12-18 meses",
@@ -137,5 +142,146 @@
       "confianza": "media"
     }
   },
-  "perfil": "CleanSpark opera como minera industrial de Bitcoin: despliega ASICs en centros propios (Georgia, Tennessee, Mississippi, Wyoming) para resolver bloques y recibir recompensas en BTC más comisiones de transacción. El dinero sale de dos vías: venta parcial del BTC minado para cubrir costos operativos (energía, depreciación, intereses) y, cada vez más, de un nuevo pilar de arrendamiento de infraestructura a clientes de IA/HPC (contrato Sandersville con Meta). Depende críticamente del precio de BTC, del costo de la energía contratada y de la dificultad de red, que sube con cada ajuste y erosiona márgenes si el precio de BTC no acompaña. Su moat es la eficiencia operativa (ASICs modernos, acceso a energía barata bajo contratos de largo plazo) frente a competidores con costos más altos. Es cíclica: tras cada halving, los márgenes se comprimen hasta que la dificultad o el precio de BTC se ajustan, y el apalancamiento financiero amplifica tanto las subas como las caídas."
+  "perfil": "CleanSpark opera como minera industrial de Bitcoin: despliega ASICs en centros propios (Georgia, Tennessee, Mississippi, Wyoming) para resolver bloques y recibir recompensas en BTC más comisiones de transacción. El dinero sale de dos vías: venta parcial del BTC minado para cubrir costos operativos (energía, depreciación, intereses) y, cada vez más, de un nuevo pilar de arrendamiento de infraestructura a clientes de IA/HPC (contrato Sandersville con Meta). Depende críticamente del precio de BTC, del costo de la energía contratada y de la dificultad de red, que sube con cada ajuste y erosiona márgenes si el precio de BTC no acompaña. Su moat es la eficiencia operativa (ASICs modernos, acceso a energía barata bajo contratos de largo plazo) frente a competidores con costos más altos. Es cíclica: tras cada halving, los márgenes se comprimen hasta que la dificultad o el precio de BTC se ajustan, y el apalancamiento financiero amplifica tanto las subas como las caídas.",
+  "technical": {
+    "price": 7.88,
+    "change_1d_pct": -3.31,
+    "change_1w_pct": -6.19,
+    "rsi": 24.2,
+    "macd": -1.2912,
+    "macd_signal": -1.035,
+    "sma20": 10.565,
+    "sma50": 11.9364,
+    "sma200": 12.4496,
+    "ema12": 9.2718,
+    "ema26": 10.5629,
+    "pct_vs_sma20": -25.41,
+    "pct_vs_sma50": -33.98,
+    "pct_vs_sma200": -36.7,
+    "volume_today": 17009887,
+    "volume_avg20": 17558719.0,
+    "volume_ratio": 0.97,
+    "volatility_30d": 54.64,
+    "sharpe": -1.9,
+    "sortino": -1.29,
+    "max_drawdown_1y": -61.37,
+    "price_percentile_1y": 0.5,
+    "vs_benchmark_30d_pct": -42.86,
+    "perf_1m_pct": -47.54,
+    "perf_ytd_pct": -24.19
+  },
+  "risk": {
+    "volatility_30d": 54.64,
+    "sharpe": -1.9,
+    "sortino": -1.29,
+    "max_drawdown_1y": -61.37,
+    "n_days": 363,
+    "window": 30
+  },
+  "benchmark": {
+    "ticker": "CRYPTO:BTCUSD",
+    "label": "Bitcoin",
+    "relative_performance_30d": -42.86,
+    "relative_performance_ytd": -15.72,
+    "price_percentile_1y": 0.5,
+    "partial": false
+  },
+  "sourcesMeta": {
+    "price": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-10-25T21:37:08-03:00"
+    },
+    "rsi_macd": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-10-25T21:37:08-03:00"
+    },
+    "smas_volume": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-10-25T21:37:08-03:00"
+    },
+    "benchmark": {
+      "origin": "TradingView scanner",
+      "symbol": "CRYPTO:BTCUSD",
+      "fetched_at": "2026-10-25T21:37:08-03:00"
+    },
+    "risk_metrics": {
+      "origin": "data/history/CLSK.json",
+      "n_days": 363
+    }
+  },
+  "metricChanges": [
+    {
+      "ticker": "CLSK",
+      "date": "2026-10-16",
+      "metric": "precio_pct",
+      "from": 9.35,
+      "to": 8.4
+    },
+    {
+      "ticker": "CLSK",
+      "date": "2026-10-14",
+      "metric": "precio_pct",
+      "from": 10.15,
+      "to": 9.22
+    },
+    {
+      "ticker": "CLSK",
+      "date": "2026-10-07",
+      "metric": "score",
+      "from": 38,
+      "to": 53
+    },
+    {
+      "ticker": "CLSK",
+      "date": "2026-09-18",
+      "metric": "precio_pct",
+      "from": 13.35,
+      "to": 14.47
+    },
+    {
+      "ticker": "CLSK",
+      "date": "2026-09-05",
+      "metric": "precio_pct",
+      "from": 11.33,
+      "to": 12.69
+    },
+    {
+      "ticker": "CLSK",
+      "date": "2026-08-08",
+      "metric": "precio_pct",
+      "from": 13.5,
+      "to": 12.3
+    },
+    {
+      "ticker": "CLSK",
+      "date": "2026-08-04",
+      "metric": "score",
+      "from": 50,
+      "to": 60
+    },
+    {
+      "ticker": "CLSK",
+      "date": "2026-07-30",
+      "metric": "precio_pct",
+      "from": 12.01,
+      "to": 14.53
+    },
+    {
+      "ticker": "CLSK",
+      "date": "2026-07-29",
+      "metric": "precio_pct",
+      "from": 13.48,
+      "to": 12.01
+    }
+  ],
+  "trend": {
+    "piso": 1,
+    "techo": 0,
+    "max": 7,
+    "senales_piso": [
+      "histograma MACD girando al alza"
+    ],
+    "senales_techo": []
+  },
+  "reportDate": "26 de octubre de 2026"
 }

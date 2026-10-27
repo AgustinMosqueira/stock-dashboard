@@ -2,102 +2,264 @@
   "ticker": "HDSY",
   "company": "Harmonic Drive Systems Inc.",
   "statsList": [
-    ["Precio", "¥4.895 (23-oct-2026)"],
-    ["Listado", "Bolsa de Tokio: 6324"],
-    ["Rango 52 sem.", "¥2.420 - ¥9.150"],
-    ["Market cap", "~¥498.000-522.000 millones (oct/2026, dispersión entre fuentes: Investing.com ¥498.000M, Morningstar ¥510.250M, MSN ¥506.620M; no re-verificado esta ronda)"],
-    ["P/E", "~85x-370x trailing según fuente (muy distorsionado por beneficio neto deprimido; alta dispersión entre stockanalysis/Investing/Morningstar)"],
-    ["Target consenso", "¥7.597 medio (Investing.com, dato previo no re-verificado esta ronda); dispersión fuerte entre brokers individuales (ver sentimiento)"],
-    ["Próx. earnings", "11-nov-2026 — Q2 FY2027 (abr-sep 2026), probable, no confirmada en fuente primaria IR"]
+    [
+      "Precio",
+      "¥5,110 (25-oct-2026)"
+    ],
+    [
+      "Listado",
+      "Bolsa de Tokio: 6324"
+    ],
+    [
+      "Rango 52 sem.",
+      "¥2.420 - ¥9.150"
+    ],
+    [
+      "Market cap",
+      "~¥555.700-¥563.000 millones (ad-hoc-news.de 13-oct-2026 ¥555.700M; Monex/scouter.monex.co.jp dispersión similar oct-2026; sigue habiendo variación 1-3% entre fuentes)"
+    ],
+    [
+      "P/E",
+      "~85x-175x trailing/forward según fuente y fecha (Monex ~84,6x forward 20-oct; ad-hoc-news ~173,4x 16-oct), muy distorsionado por beneficio neto aún deprimido vs. niveles pre-2023"
+    ],
+    [
+      "Target consenso",
+      "¥7.597 medio (10 analistas: 7 Compra/2 Mantener/1 Vender; rango ¥3.300-¥11.000; investing.com/ad-hoc-news.de, 20-oct-2026), ~30-55% de upside implícito sobre precios de oct-2026"
+    ],
+    [
+      "Próx. earnings",
+      "11-nov-2026 — Q2 FY2027 (abr-sep 2026), fecha confirmada por múltiples fuentes convergentes (ad-hoc-news.de, Nikkei, kabutan, minkabu, 20-23 oct-2026)"
+    ],
+    [
+      "Técnico (auto)",
+      "RSI 36.5 · MACD -304.63 / señal -187.65 (TradingView, 25-oct-2026)"
+    ]
   ],
-  "change": {"day": 0.41, "week": -8.5},
+  "change": {
+    "day": 4.39,
+    "week": 4.39
+  },
   "events": [
     {
       "date": "2026-11-11",
-      "label": "Resultados Q2 FY2027 (abr-sep 2026) — fecha probable, no confirmada en fuente primaria IR",
+      "label": "Resultados Q2 FY2027 (abr-sep 2026)",
       "kind": "earnings",
-      "info": "ad-hoc-news.de (20-oct-2026) y una lectura de WebSearch sobre fuentes japonesas (23-oct-2026, no primaria) coinciden en 11-nov-2026 como fecha de próximos resultados. WebFetch directo a hds.co.jp/ir/event/calendar (23-oct-2026) no permitió leer la fecha exacta publicada en el calendario IR oficial (la página requiere interacción visual con una imagen/calendario). El año anterior, Q2 FY2026 se publicó el 12-nov-2025 con sesión de analistas el 19-nov-2025, lo que da coherencia estacional al dato. Tratar como probable, no confirmada en fuente primaria."
+      "info": "Fecha confirmada por múltiples fuentes convergentes: ad-hoc-news.de, Nikkei, kabutan y minkabu (20-23 oct-2026), aunque no se pudo renderizar directamente el calendario visual de hds.co.jp/ir. Q1 FY2027 (abr-jun 2026) ya mostró revenue ¥16.680M (+23,6% YoY) y guidance anual mejorado; el mercado mirará si el ritmo de pedidos humanoides y la presión de precios china ya afectan el margen de este trimestre."
     }
   ],
   "sections": {
-    "resumen": "HDSY (6324.T) cotiza ¥4.895 (23-oct-2026), +0,41% intradía pero -8,5% semanal tras la corrección de octubre. Mercado espera resultados Q2 FY2027 hacia 11-nov-2026 (fuente secundaria, no confirmada en IR oficial). Competencia china (Leaderdrive, Laifual) avanza: Leaderdrive prepara IPO en Hong Kong con ~15% de cuota global, y Tesla certificó proveedor chino como segunda fuente para Optimus. HDS anunció co-desarrollo con Riken NPR de reductores de resina (18-sep-2026) para robots de servicio/wearables, diversificando más allá del metal. La exclusividad tecnológica sigue erosionándose, pero HDS responde con innovación de producto, no solo defendiendo precio.",
-    "fundamental": "- Q1 FY2027 (abr-jun 2026): beneficio neto ¥1.274M, revirtiendo pérdida de ¥38M; guidance anual mejorado por mayor utilización de fábricas Japón/Norteamérica (TDnet 7-ago-2026).\n- Codesarrollo con Riken NPR (18-sep-2026) de reductores de resina para movilidad pequeña, robots de servicio y wearables — diversifica más allá de humanoide/industrial puro.\n- Sin backlog de pedidos humanoides actualizado a 2026; único dato cuantitativo (¥2.500M) data de ~nov-2025.\n- Sin 決算短信 de Q2 FY2027 (previsto ~11-nov) ni cifras de deuda/caja a oct-2026.\n- Revisiones al alza de guidance en 2026 sugieren momentum positivo, sin confirmar si se sostiene en Q2.",
-    "valuacion": "- P/E trailing con dispersión extrema entre fuentes (85x-370x), reflejo de beneficio neto aún muy deprimido vs. niveles pre-2023; poco comparable a múltiplos de mercado.\n- Market cap ~¥498.000-522.000M (oct/2026, no re-verificado), con hasta 5% de variación entre fuentes.\n- Target consenso ¥7.597 (Investing.com, no re-verificado) implica upside, pero targets de brokers muestran dispersión fuerte y fechas ambiguas (Jefferies ¥2.400-2.800 'Hold/Underperform' y ¥10.000 'Buy' sin fecha verificable; Deutsche Bank ¥4.840 'Buy' sin fecha confirmada).\n- Sin EV/EBITDA actualizado ni comparación sistemática contra Nabtesco/Nidec/Leaderdrive esta ronda.",
-    "tecnico": "- Precio ¥4.895 (23-oct-2026), rango del día ¥4.530-4.940 (OTC HSYDF), -8,5% semanal pese al leve rebote diario (+0,41%).\n- RSI ~30,6 (sobreventa) y MACD negativo (-297,87/señal -158,41, TradingView 23-oct-2026).\n- Muy por debajo del máximo de 52 sem. (¥9.150), en el tercio bajo del rango anual.\n- El RSI en sobreventa tras caída semanal abre espacio a rebote técnico de corto plazo, pero sin volumen de acumulación que confirme cambio de carácter; conviene esperar confirmación.",
-    "catalizadores": "**Catalizadores:**\n- Resultados Q2 FY2027 (probable 11-nov-2026, no confirmado en IR oficial): clave para validar sostenibilidad de mejora de márgenes vista en Q1.\n- Codesarrollo con Riken NPR de resina (18-sep-2026): abre mercados adyacentes (movilidad pequeña, wearables, robots de servicio) fuera de humanoides industriales.\n- Ciclo de recuperación en equipos de semiconductores y mayor utilización de fábricas Japón/Norteamérica, confirmado en guidance de abril-2026.\n- Evaluación por múltiples fabricantes de robótica humanoide de productos HDS (dato de ~1 año, dirección probable pero no reverificada para 2026).\n\n**Riesgos (por materialidad):**\n- Leaderdrive (China, ~12-15% cuota global) avanza hacia IPO en Hong Kong (aprobado por directorio, pendiente reguladores, sep-2026) con ingresos +38,6% YoY — fortalece su capacidad de competir en precio.\n- Tesla certificó proveedor chino (Green Harmonic, posible solape con Leaderdrive/Laifual no resuelto) como segunda fuente para Optimus a 40-60% del precio japonés — riesgo estructural de exclusividad.\n- Backlog de pedidos humanoides sin dato actualizado a 2026 — riesgo de narrativa de crecimiento desactualizada.\n- Valuación con métricas muy dispersas entre fuentes y brokers (targets ¥2.400 a ¥10.000 sin fecha clara), dificultando un punto de entrada con margen de seguridad.",
-    "sentimiento": "- Target consenso ¥7.597 (Investing.com, no re-verificado) sugiere upside, pero targets individuales de brokers muy dispersos y con fechas ambiguas (Jefferies ¥2.400-¥10.000; Deutsche Bank ¥4.840) — cronología de upgrades/downgrades 2025-26 no reconstruible; se tratan como no verificados.\n- Cobertura en inglés escasa y fragmentada entre agregadores (stockanalysis, Morningstar, Investing.com, TipRanks); el análisis más profundo sobre pedidos humanoides data de ~nov-2025.\n- Medios de robótica (humanoid.guide, robotichina.com, humanoidanalytics.com) tratan a HDS como líder histórico en disputa activa de cuota con China, tono cauteloso.\n- Sin cobertura fresca (22-23 oct-2026) de bancos de inversión de primer nivel sobre HDS.\n- RSI en sobreventa (~30,6) sin pánico vendedor evidente — posible oportunidad táctica contraria, sin confirmación de volumen.",
-    "conclusion": "Señal: NEUTRAL con sesgo constructivo de largo plazo, confianza MEDIA-BAJA. La tesis de robótica humanoide sigue vigente y HDS diversifica con el acuerdo Riken NPR (resina), pero la competencia china ya es proveedor calificado activo (Tesla) y Leaderdrive avanza hacia IPO en Hong Kong con crecimiento de ingresos fuerte. La dispersión extrema de targets de brokers y P/E (85x-370x) impide alta convicción direccional; no se pudo confirmar la fecha de earnings en IR oficial. Score compuesto ~45-50/100. Conviene esperar el informe de Q2 FY2027 (probable 11-nov-2026) antes de aumentar exposición."
+    "resumen": "HDSY (6324.T) cotiza ¥5.110 (25-oct-2026, +4,39% día/semana, dato técnico ya calculado), rebotando tras la corrección de mediados de octubre. Q1 FY2027 mostró revenue ¥16.680M (+23,6% YoY, Monex/ad-hoc-news, oct-2026) y HDS presentó actuadores integrados (7-oct-2026) para humanoides. La competencia china se intensifica: Leaderdrive avanza hacia IPO en Hong Kong y GreenHarmony, certificado por Tesla, apunta a ~60% del reductor de Optimus a fin de 2026; el segmento China de HDS ya cayó -28% YoY. Cobertura en inglés escasa y fragmentada (limitación declarada); se usaron fuentes japonesas (Nikkei, kabutan, minkabu, note.com) para completar el cuadro.",
+    "fundamental": "- Q1 FY2027 (abr-jun 2026): revenue ¥16.680M (+23,6% YoY), beneficio neto ¥1.274M revirtiendo pérdida previa; guidance anual mejorado (Monex/ad-hoc-news.de, oct-2026).\n- Codesarrollo con Riken NPR (TDnet 18-sep-2026) de reductores de resina (-40/-60% de masa) para wearables y robots de servicio.\n- Actuadores integrados (gearhead+motor+encoder+driver) presentados 7-oct-2026 para simplificar ensamblaje de robots (ad-hoc-news.de).\n- Capex ¥27.500M (2024-26), ~¥10.000M en capacidad humanoide; meta ventas humanoide ¥10.000-20.000M FY2026 (note.com, dato de contexto no re-verificado en IR).\n- Segmento China de HDS cayó -28% YoY (robotaigeek.com, oct-2026) por sustitución hacia proveedores locales — primera señal cuantitativa de erosión por precio.",
+    "valuacion": "- P/E muy disperso (~85x forward a ~173x trailing, Monex/ad-hoc-news oct-2026), reflejo de beneficio neto aún deprimido vs. niveles pre-2023.\n- Market cap ~¥555.700-563.000M (ad-hoc-news.de 13-oct-2026, Monex), variación menor entre fuentes vs. ronda previa.\n- Target consenso ¥7.597 (10 analistas: 7 Compra/2 Mantener/1 Vender, rango ¥3.300-¥11.000; investing.com, 20-oct-2026), upside 30-55% sobre precio reciente.\n- Sin EV/EBITDA actualizado ni comparación sistemática vs. Nabtesco/Leaderdrive; PBR ~6,2x (Monex) elevado para un negocio cíclico.",
+    "tecnico": "- Precio ¥5.110 (25-oct-2026), +4,39% día/semana (dato ya calculado) — rebote tras caída de -8,5% semanal que llevó el precio a ¥4.895 hacia el 23-oct.\n- RSI 36,5 (zona neutral-baja, ya no sobreventa extrema) y MACD aún negativo (-304,63/señal -187,65), histograma girando al alza (trend.senales_piso).\n- Precio en percentil 40 de su rango de 52 sem. (¥2.420-¥9.150), bien debajo del máximo de julio-2026.\n- LECTURA: RSI saliendo de sobreventa y MACD girando sugiere incipiente piso, pero sin volumen de acumulación (ratio 0,49x promedio) que lo confirme.",
+    "catalizadores": "**Catalizadores:**\n- Resultados Q2 FY2027 (confirmado 11-nov-2026): valida si el ritmo de Q1 (+23,6% revenue) se sostiene frente a la presión china.\n- Actuadores integrados (7-oct-2026) y resina con Riken NPR (18-sep-2026): producto ampliado hacia humanoides/wearables.\n- Capex de ¥10.000M en capacidad humanoide, meta ventas ¥10.000-20.000M FY2026.\n- Recuperación de utilización de fábricas en semiconductores/robótica, visible en guidance de Q1.\n\n**Riesgos (por materialidad):**\n- GreenHarmony, certificado por Tesla, apunta a ~60% del reductor de Optimus a fin de 2026 con precios 30-60% menores (robotaigeek.com) — riesgo en el cliente ancla de la tesis humanoide.\n- Segmento China de HDS ya cayó -28% YoY — la presión china deja de ser hipotética.\n- Leaderdrive avanza a IPO en Hong Kong (directorio 26-ago-2026, pendiente CSRC/HKEX), ingresos 2025 +47,3% YoY.\n- P/E distorsionado (85x-173x) y PBR ~6,2x dejan poco margen de seguridad si el guidance decepciona.",
+    "sentimiento": "- Consenso de 10 analistas mayoritariamente constructivo (7 Compra/2 Mantener/1 Vender, target medio ¥7.597, investing.com 20-oct-2026), upside 30-55%.\n- Cobertura en inglés escasa y fragmentada (agregadores, sin bancos de primer nivel con nota fresca); se complementó con fuentes japonesas y especializadas en robótica — laguna occidental declarada explícitamente.\n- Medios de robótica tratan a HDS como líder histórico (60-70% cuota global) en disputa activa con China, tono cauteloso no catastrofista.\n- RSI saliendo de sobreventa (36,5) con rebote +4,39% sugiere alivio comprador, sin euforia.\n- LECTURA contraria: pesimismo sobre China ya parcialmente en precio (percentil 40 anual), pero la caída -28% confirmada en China limita la lectura puramente contraria.",
+    "conclusion": "Señal: NEUTRAL con sesgo constructivo de medio plazo, confianza MEDIA. El rebote técnico (RSI saliendo de sobreventa, MACD girando) y el crecimiento de Q1 FY2027 (+23,6% revenue) son alentadores, y HDS responde a la competencia china con innovación (actuadores integrados, resina con Riken NPR) en vez de solo defender precio. Pero la caída confirmada de -28% YoY en el segmento China y el avance de GreenHarmony/Leaderdrive hacia el cliente ancla (Tesla Optimus) son riesgos estructurales ya materializándose, no solo narrativa. Conviene esperar el informe de Q2 FY2027 (11-nov-2026, confirmado) antes de aumentar exposición de forma relevante."
   },
   "scores": {
     "tecnica": {
-      "score": 46,
-      "just": "RSI ~30,6 en zona de sobreventa tras caída semanal de -8,5% abre espacio a rebote técnico (mejora leve respecto a ronda previa), pero sin confirmación de volumen de acumulación que valide cambio de carácter robusto."
+      "score": 54,
+      "just": "RSI 36,5 saliendo de sobreventa tras rebote de +4,39%, con MACD girando al alza (histograma, señal de piso ya detectada) sugiere incipiente cambio de carácter; se modera porque el volumen (ratio 0,49x promedio) no confirma acumulación fuerte."
     },
     "fundamental": {
-      "score": 56,
-      "just": "Guidance revisado al alza en 2026 y diversificación con Riken NPR (resina) son señales positivas de ejecución, pero persiste la laguna de backlog humanoide actualizado y ausencia de cifras Q2 FY2027."
+      "score": 58,
+      "just": "Q1 FY2027 con revenue +23,6% YoY y guidance mejorado son señales de ejecución sólida, pero la caída de -28% YoY en el segmento China confirma que la presión competitiva ya afecta resultados, no solo narrativa."
     },
     "sentimiento": {
-      "score": 48,
-      "just": "Consenso agregado direccionalmente alcista, pero targets individuales de brokers muestran dispersión extrema y cronología no verificable; sin señal de sentimiento extremo claro que amerite postura contraria fuerte en ningún sentido."
+      "score": 55,
+      "just": "Consenso de analistas mayoritariamente de compra con upside relevante (30-55%), pero cobertura occidental escasa limita la robustez de la señal; sin extremo de euforia o pánico que amerite lectura contraria fuerte."
     },
     "riesgo": {
-      "score": 64,
-      "just": "Riesgo de pérdida permanente de capital elevado: Leaderdrive avanza hacia IPO en Hong Kong con ingresos +38,6% YoY y Tesla ya certificó proveedor chino como segunda fuente — riesgo de tesis competitiva, no solo volatilidad de precio ya reflejada en el drawdown."
+      "score": 58,
+      "just": "Riesgo de pérdida permanente de capital moderado-alto: GreenHarmony/Leaderdrive avanzan en el cliente ancla (Tesla) con precios 30-60% menores y ya hay evidencia dura (-28% China) de sustitución; se modera algo vs. ronda previa por la respuesta de innovación de producto (actuadores integrados, resina)."
     },
     "conviccion": {
-      "score": 42,
-      "just": "La asimetría de upside de consenso es real y HDS muestra capacidad de innovación (Riken NPR), pero la combinación de datos de backlog desactualizados, avance confirmado de competencia china y dispersión de targets de brokers limita la convicción a media-baja."
+      "score": 48,
+      "just": "Asimetría moderada: upside de consenso y rebote técnico son reales, pero la confirmación cuantitativa de pérdida de cuota en China y la falta de cifras duras de backlog humanoide 2026 limitan la convicción a media."
     }
   },
   "sources": [
-    "WebFetch directo a hds.co.jp/ir/event/calendar, 23-oct-2026 — intento de verificación de fecha de resultados Q2 FY2027; no se pudo extraer fecha exacta del calendario IR (requiere interacción visual con imagen)",
-    "WebSearch agregando fuentes japonesas (Nikkei, kabutan, minkabu), consulta 23-oct-2026 — referencia a 11-nov-2026 como fecha probable de resultados intermedios, coincide con ad-hoc-news.de (20-oct-2026, dato previo)",
-    "netdenjd.com, marklines.com, zaikei.co.jp, kabutan.jp vía WebSearch, consulta 23-oct-2026 — acuerdo de codesarrollo HDS-Riken NPR de reductores de onda de resina (TDnet, 18-sep-2026)",
-    "WebSearch Investing.com/stockanalysis/Morningstar/MSN, consulta 23-oct-2026 — precio ¥4.895 (23-oct), rango 52 sem. ¥2.420-¥9.150, dispersión de market cap y P/E (dato conservado de ronda previa, no sustancialmente distinto)",
-    "WebSearch humanoidanalytics.com, finance.biggo.com, robotichina.com, consulta 23-oct-2026 — Leaderdrive (688017.SH) aprueba plan de IPO en Hong Kong (H-shares), ingresos interinos 2026 +38,6% YoY, ~12-15% cuota global",
-    "WebSearch investing.com (múltiples notas con fechas no siempre claras), consulta 23-oct-2026 — historial disperso de ratings Jefferies (Hold ¥2.800, downgrade a Underperform ¥2.400 oct-2025, posible upgrade a Buy ¥10.000 sin fecha verificable) y Deutsche Bank (Buy ¥4.840, sin fecha verificable) — tratado como no verificado esta ronda por ambigüedad cronológica",
-    "tipranks.com, artículo fechado 24-abr-2026 (vía WebFetch 23-oct-2026) — revisión de guidance FY2026: ventas ¥59.500M, ganancia operativa ¥2.500M, atribuido a mayor utilización de fábricas Japón/Norteamérica (dato histórico usado como contexto de tendencia, no como evento de esta ronda)",
-    "TDnet / 決算短信 Harmonic Drive Systems, 7-ago-2026 — resultados Q1 FY2027 y guidance revisado (dato conservado de ronda previa)",
-    "TradingView scanner, 23-oct-2026 — precio, RSI/MACD (dato técnico conservado sin cambios esta ronda, preservado en objeto original)"
+    "WebSearch Nikkei/kabutan/minkabu/ad-hoc-news.de, consulta 26-oct-2026 — confirmación de fecha de resultados Q2 FY2027 para 11-nov-2026 por múltiples fuentes convergentes",
+    "ad-hoc-news.de, 'Harmonic Drive presents actuator designs as robot demand builds' y 'Harmonic Drive presents integrated actuators', consultas 26-oct-2026 — presentación de actuadores integrados (7-oct-2026) y revenue Q1 FY2027 ¥16.680M (+23,6% YoY)",
+    "scouter.monex.co.jp, consulta 26-oct-2026 — P/E forward ~84,6x, PBR ~6,23x, market cap ~¥5.163.000M/¥555.700M (dispersión según fuente), rango 52 sem. ¥3.275-¥9.150",
+    "marklines.com (Gen-AI Analysis), consulta 26-oct-2026 — confirmación de codesarrollo HDS-Riken NPR de reductor de onda de resina (TDnet, 18-sep-2026)",
+    "robotaigeek.com, humanoidanalytics.com, eu.36kr.com, consulta 26-oct-2026 — GreenHarmony certificado por Tesla para Optimus (meta ~60% del reductor de Optimus a fin de 2026), precios chinos 30-60% menores, caída de -28% YoY en segmento China de HDS",
+    "finance.biggo.com, autonews.gasgoo.com, humanoidanalytics.com, consulta 26-oct-2026 — Leaderdrive aprueba plan de IPO en Hong Kong (26-ago-2026, pendiente CSRC/HKEX), ingresos 2025 ¥571M RMB (+47,3% YoY), margen bruto 52,21%→32,26%",
+    "investing.com / ad-hoc-news.de, consulta 26-oct-2026 — consenso de 10 analistas (7 Compra/2 Mantener/1 Vender), target medio ¥7.597, rango ¥3.300-¥11.000",
+    "note.com (yama_shukatsu, hirokimiyano), consulta 26-oct-2026 — contexto de capex ¥27.500M 2024-2026 con ~¥10.000M para capacidad humanoide, objetivo ventas humanoide ¥10.000-20.000M FY2026 (dato de contexto, no reverificado en fuente primaria IR)",
+    "TradingView scanner, 25-oct-2026 — precio, RSI/MACD (dato técnico conservado sin cambios esta ronda, preservado en objeto original)"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 28,
-        "just": "P/E trailing con dispersión extrema (85x-370x) muy por encima de niveles históricos de la empresa; la inconsistencia de datos entre fuentes y entre targets de brokers añade cautela adicional, sin cambio respecto a ronda previa."
+        "score": 30,
+        "just": "P/E muy disperso (85x-173x) y PBR ~6,2x permanecen por encima de niveles históricos de la empresa; la mejora de resultados Q1 no alcanza aún para justificar el múltiplo en términos propios."
       },
       "calidad": {
-        "score": 56,
-        "just": "HDS demuestra capacidad de innovación (codesarrollo con Riken NPR en resina) que diversifica el pipeline más allá del metal, pero el moat de exclusividad sigue degradado por Leaderdrive acercándose a mercados de capital (IPO Hong Kong) con crecimiento fuerte."
+        "score": 55,
+        "just": "HDS mantiene 60-70% de cuota global histórica y responde con innovación real (actuadores integrados, resina con Riken NPR), pero la caída confirmada de -28% YoY en China muestra que el moat ya se erosiona de forma medible, no solo narrativa."
       },
       "asimetria": {
-        "score": 45,
-        "just": "Target consenso agregado sugiere upside relevante, pero la dispersión extrema entre targets de brokers individuales (sin cronología clara) y la falta de backlog humanoide 2026 actualizado mantienen la asimetría en niveles similares a la ronda previa."
+        "score": 48,
+        "just": "Target consenso con upside 30-55% y rebote técnico desde sobreventa son positivos, pero la pérdida de cuota confirmada en China y la falta de backlog humanoide cuantificado para 2026 mantienen la asimetría en terreno moderado, no claramente favorable."
       },
       "catalizadores": {
-        "score": 52,
-        "just": "Catalizador de resultados Q2 FY2027 (probable 11-nov-2026) sigue vigente; se suma el acuerdo Riken NPR como señal de diversificación de producto, catalizador cualitativo de mediano plazo más que inmediato."
+        "score": 55,
+        "just": "Resultados Q2 FY2027 confirmados para 11-nov-2026 son el catalizador más cercano y concreto; se suma la ruta de actuadores integrados y resina como catalizadores de producto de mediano plazo."
       },
       "contrarian": {
-        "score": 42,
-        "just": "RSI en sobreventa (~30,6) tras caída semanal abre espacio a rebote táctico contrarian, pero el avance confirmado de competencia china (Leaderdrive rumbo a IPO) reduce el atractivo contrarian de fondo respecto a una tesis de reversión plena."
+        "score": 45,
+        "just": "El rebote técnico desde sobreventa (RSI 36,5) ofrece algo de señal contraria táctica, pero la confirmación dura de -28% en China reduce el atractivo de una tesis de reversión plena basada en pesimismo excesivo."
       }
     },
     "plan": {
       "recomendacion": "Mantener / Observar",
-      "zona_compra": "Zona de interés táctico ¥4.300-4.800 si se sostiene con volumen, o tras confirmación de Q2 FY2027",
-      "invalidacion": "Ruptura sostenida por debajo de ¥4.000 con deterioro simultáneo de guidance, o evidencia confirmada de pérdida material de contratos frente a competidores chinos",
+      "zona_compra": "Zona de interés táctico ¥4.300-4.900 si se sostiene con volumen, o tras confirmación de Q2 FY2027 el 11-nov-2026",
+      "invalidacion": "Ruptura sostenida por debajo de ¥4.000 con nueva caída de segmento China, o evidencia de pérdida de contrato nombrado frente a GreenHarmony/Leaderdrive en un cliente humanoide mayor",
       "gatillos": [
-        "Publicación de resultados Q2 FY2027 (probable 11-nov-2026, no confirmado en IR oficial) con dato actualizado de backlog humanoide",
-        "Confirmación oficial en hds.co.jp/ir de la fecha de resultados, actualmente solo citada por fuentes secundarias convergentes",
-        "Avance concreto del acuerdo Riken NPR (resina) hacia comercialización, o anuncio nombrado de contrato/pérdida frente a Leaderdrive en cadena de humanoides",
-        "Resolución de la ambigüedad de ratings de brokers (Jefferies/Deutsche Bank) con fecha y nivel vigente verificable"
+        "Publicación de resultados Q2 FY2027 (11-nov-2026, confirmado) con cifra de segmento China y, si existe, dato de backlog humanoide actualizado",
+        "Confirmación de avance comercial de actuadores integrados o resina (Riken NPR) hacia contratos nombrados",
+        "Resolución regulatoria del IPO de Leaderdrive en Hong Kong (CSRC/HKEX) como referencia de cuánto capital fresco tendrá la competencia china",
+        "Estabilización o nueva caída del segmento China de HDS en el próximo reporte, como métrica dura de la narrativa competitiva"
       ],
       "horizonte": "6-18 meses",
-      "tamano": "Posición pequeña/satélite dado el nivel de incertidumbre, dispersión de métricas y avance confirmado de competencia china",
-      "confianza": "baja"
+      "tamano": "Posición pequeña/satélite dado el nivel de incertidumbre, dispersión de métricas y evidencia ya confirmada de pérdida de cuota en China",
+      "confianza": "media"
     }
   },
-  "perfil": "Harmonic Drive Systems (6324, Bolsa de Tokio) es el fabricante japonés líder en reductores armónicos de precisión (harmonic drives), componentes críticos para el posicionamiento exacto en robótica industrial, robots colaborativos, robots quirúrgicos, robots humanoides y aplicaciones aeroespaciales/semiconductores. Su ingreso proviene de la venta de estos reductores y actuadores integrados a fabricantes de equipos (OEMs) globales, con exposición directa al ciclo de inversión en automatización y semiconductores, y presencia en Japón, China, Norteamérica y Europa. El moat histórico se basa en décadas de know-how de ingeniería de precisión y relaciones de largo plazo con clientes industriales, reforzado recientemente por un acuerdo de codesarrollo con Riken NPR para reductores de resina orientados a movilidad pequeña y wearables. Pero enfrenta presión competitiva creciente y estructural de fabricantes chinos (Leaderdrive, Laifual Drive), que ofrecen productos a precios sensiblemente menores, ganan cuota y uno de ellos (Leaderdrive) avanza hacia una IPO en Hong Kong. El negocio es marcadamente cíclico: los márgenes operativos cayeron de niveles históricos de ~15% a rangos de 0-4% en años recientes, con recuperación en curso ligada a semiconductores, robots quirúrgicos y, de forma más especulativa, a la adopción futura de robots humanoides con IA."
+  "perfil": "Harmonic Drive Systems (6324, Bolsa de Tokio) es el fabricante japonés líder en reductores armónicos de precisión (harmonic drives), componentes críticos para el posicionamiento exacto en robótica industrial, robots colaborativos, robots quirúrgicos, robots humanoides y aplicaciones aeroespaciales/semiconductores. Su ingreso proviene de la venta de estos reductores y actuadores integrados a fabricantes de equipos (OEMs) globales, con exposición directa al ciclo de inversión en automatización y semiconductores, y presencia en Japón, China, Norteamérica y Europa. El moat histórico se basa en décadas de know-how de ingeniería de precisión y relaciones de largo plazo con clientes industriales, reforzado recientemente por un acuerdo de codesarrollo con Riken NPR para reductores de resina orientados a movilidad pequeña y wearables. Pero enfrenta presión competitiva creciente y estructural de fabricantes chinos (Leaderdrive, Laifual Drive), que ofrecen productos a precios sensiblemente menores, ganan cuota y uno de ellos (Leaderdrive) avanza hacia una IPO en Hong Kong. El negocio es marcadamente cíclico: los márgenes operativos cayeron de niveles históricos de ~15% a rangos de 0-4% en años recientes, con recuperación en curso ligada a semiconductores, robots quirúrgicos y, de forma más especulativa, a la adopción futura de robots humanoides con IA.",
+  "technical": {
+    "price": 5110,
+    "change_1d_pct": 4.39,
+    "change_1w_pct": 4.39,
+    "rsi": 36.5,
+    "macd": -304.6269,
+    "macd_signal": -187.6531,
+    "sma20": 5891.5,
+    "sma50": 5910.8,
+    "sma200": 5518.125,
+    "ema12": 5415.7154,
+    "ema26": 5720.3424,
+    "pct_vs_sma20": -13.26,
+    "pct_vs_sma50": -13.55,
+    "pct_vs_sma200": -7.4,
+    "volume_today": 315200,
+    "volume_avg20": 642730.0,
+    "volume_ratio": 0.49,
+    "volatility_30d": 65.01,
+    "sharpe": -1.37,
+    "sortino": -0.84,
+    "max_drawdown_1y": -47.86,
+    "price_percentile_1y": 40.0,
+    "vs_benchmark_30d_pct": -14.29,
+    "perf_1m_pct": -18.76,
+    "perf_ytd_pct": 32.73
+  },
+  "risk": {
+    "volatility_30d": 65.01,
+    "sharpe": -1.37,
+    "sortino": -0.84,
+    "max_drawdown_1y": -47.86,
+    "n_days": 362,
+    "window": 30
+  },
+  "benchmark": {
+    "ticker": "TVC:NI225",
+    "label": "Nikkei 225",
+    "relative_performance_30d": -14.29,
+    "relative_performance_ytd": 9.8,
+    "price_percentile_1y": 40.0,
+    "partial": false
+  },
+  "sourcesMeta": {
+    "price": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-10-25T21:37:08-03:00"
+    },
+    "rsi_macd": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-10-25T21:37:08-03:00"
+    },
+    "smas_volume": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-10-25T21:37:08-03:00"
+    },
+    "benchmark": {
+      "origin": "TradingView scanner",
+      "symbol": "TVC:NI225",
+      "fetched_at": "2026-10-25T21:37:08-03:00"
+    },
+    "risk_metrics": {
+      "origin": "data/history/HDSY.json",
+      "n_days": 362
+    }
+  },
+  "metricChanges": [
+    {
+      "ticker": "HDSY",
+      "date": "2026-10-22",
+      "metric": "precio_pct",
+      "from": 5250,
+      "to": 4610
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-10-14",
+      "metric": "precio_pct",
+      "from": 5940,
+      "to": 5330
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-08-23",
+      "metric": "precio_pct",
+      "from": 6510,
+      "to": 5680
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-08-10",
+      "metric": "precio_pct",
+      "from": 7160,
+      "to": 6380
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-08-05",
+      "metric": "precio_pct",
+      "from": 6840,
+      "to": 7390
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-08-04",
+      "metric": "precio_pct",
+      "from": 6330,
+      "to": 6840
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-07-31",
+      "metric": "precio_pct",
+      "from": 5500,
+      "to": 6140
+    },
+    {
+      "ticker": "HDSY",
+      "date": "2026-07-27",
+      "metric": "precio_pct",
+      "from": 6560,
+      "to": 5940
+    }
+  ],
+  "trend": {
+    "piso": 1,
+    "techo": 0,
+    "max": 7,
+    "senales_piso": [
+      "histograma MACD girando al alza"
+    ],
+    "senales_techo": []
+  },
+  "reportDate": "26 de octubre de 2026"
 }
