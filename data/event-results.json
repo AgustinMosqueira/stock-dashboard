@@ -1,8 +1,104 @@
 [
   {
     "ticker": "USD/CLP",
-    "date": "2026-10-23",
-    "label": "PMIs preliminares de EE.UU. (oct-2026)",
-    "result": "RESULTADO: S&P Global publicó los PMIs preliminares de octubre con manufactura en 56,0 y servicios en 57,9 (compuesto 57,6), moderando levemente desde el dato previo (58,4) pero sosteniendo expansión fuerte; el dato no alteró el sesgo de mercado hacia mantención de la Fed en el FOMC del 28-oct. El DXY se mantuvo estable (~101,6) y el USD/CLP subió igualmente desde el mínimo semanal (973,95 el 20-oct) hacia 985-994 el 23-oct, impulsado más por la recuperación del cobre y el posicionamiento pre-FOMC/RPM que por el PMI en sí (S&P Global, FXStreet, 23-oct-2026)."
+    "date": "2026-10-27",
+    "label": "Reunión de Política Monetaria BCCh",
+    "result": "RESULTADO: el Consejo del BCCh mantuvo la TPM en 4,50% de forma unánime (comunicado 18:00 hora Chile, bcentral.cl, 27-oct-2026), en línea con la mediana de la Encuesta de Operadores Financieros del 22-oct que no veía cambios hasta 2027. La minuta con el detalle de la discusión se publica el 04-nov-2026."
+  },
+  {
+    "ticker": "USD/CLP",
+    "date": "2026-10-28",
+    "label": "Reunión del FOMC (decisión de tasas)",
+    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, con Cook y Hammack pidiendo un alza de 25pb), bajo la presidencia de Kevin Warsh. CME FedWatch subió la probabilidad de un alza en diciembre a ~82,6% (desde 78,3% el día previo), un giro hawkish incipiente que presionó levemente al alza al USD/CLP (Forbes, 27-28-oct-2026)."
+  },
+  {
+    "ticker": "BTC/USD",
+    "date": "2026-10-28",
+    "label": "Reunión del FOMC (decisión de tasas)",
+    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack pidiendo alza), un no-evento totalmente descontado por el mercado. BTC reaccionó con calma, recuperando terreno a ~US$81.000-81.360 impulsado por dos días de inflows netos en ETFs spot (+US$110,3M el 26-oct, +US$176M el 27-oct), más que por la decisión en sí (Farside/CoinDesk, 26-28-oct-2026)."
+  },
+  {
+    "ticker": "ETH/USD",
+    "date": "2026-10-28",
+    "label": "Reunión del FOMC (decisión de tasas)",
+    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada que no generó volatilidad extra en el mercado cripto; el mercado ya mira la probabilidad de alza en diciembre, que subió a ~82,6% (CME FedWatch, 28-oct-2026)."
+  },
+  {
+    "ticker": "XRP/USD",
+    "date": "2026-10-27",
+    "label": "Ripple Swell + XRPL Apex (conferencia)",
+    "result": "RESULTADO: en la primera edición fusionada de Swell y XRPL Apex (27-29 oct, Nueva York), Ripple anunció '24/7 Returns' (rendimientos continuos sobre RLUSD) y la disponibilidad de RLUSD en Coinbase para clientes retail e institucionales, sin anuncios que vincularan estas novedades a la utilidad o demanda del token XRP. La reacción de precio fue tibia a negativa (~US$1,28-1,31, -1% en 24h), con críticas de la comunidad por percibir que Ripple prioriza RLUSD sobre XRP (Yahoo Finance/Cryptonews, 26-28-oct-2026)."
+  },
+  {
+    "ticker": "XRP/USD",
+    "date": "2026-10-28",
+    "label": "Reunión del FOMC (decisión de tasas)",
+    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2), decisión descontada con impacto limitado en XRP, cuyo precio seguía más afectado por la reacción tibia a los anuncios de Swell/XRPL Apex del día previo que por el FOMC."
+  },
+  {
+    "ticker": "XLM/USD",
+    "date": "2026-10-28",
+    "label": "Stellar Meridian 2026 (conferencia, Lisboa)",
+    "result": "RESULTADO: en Stellar Meridian 2026 (28-29 oct, Lisboa) se anunciaron integraciones institucionales: Movantis integró Stellar para liquidaciones transfronterizas en USDC (EE.UU.-El Salvador), Securitize anunció planes de emisión/gestión de activos tokenizados sobre Stellar, y Archax lanzó €GOVY (letras del tesoro tokenizadas en euros). XLM cotizaba en torno a US$0,1728 con reacción moderadamente positiva por el nuevo interés institucional, sin un repunte de precio explosivo confirmado hasta el momento de esta búsqueda (KuCoin News/TronWeekly, 28-oct-2026)."
+  },
+  {
+    "ticker": "XLM/USD",
+    "date": "2026-10-28",
+    "label": "Reunión del FOMC (decisión de tasas)",
+    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2), decisión descontada que no alteró significativamente el precio de XLM, más influenciado por los anuncios propios de Stellar Meridian el mismo día."
+  },
+  {
+    "ticker": "SOL/USD",
+    "date": "2026-10-28",
+    "label": "Reunión del FOMC (decisión de tasas)",
+    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin generar volatilidad extra en el mercado cripto; la atención del mercado ya gira hacia la probabilidad de un alza en diciembre (~82,6%, CME FedWatch)."
+  },
+  {
+    "ticker": "LINK/USD",
+    "date": "2026-10-28",
+    "label": "Reunión del FOMC (decisión de tasas)",
+    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en LINK; el mercado cripto en general reaccionó con calma."
+  },
+  {
+    "ticker": "HBAR/USD",
+    "date": "2026-10-28",
+    "label": "Reunión del FOMC (decisión de tasas)",
+    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en HBAR; el mercado cripto en general reaccionó con calma."
+  },
+  {
+    "ticker": "ALGO/USD",
+    "date": "2026-10-28",
+    "label": "Reunión del FOMC (decisión de tasas)",
+    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en ALGO; el mercado cripto en general reaccionó con calma."
+  },
+  {
+    "ticker": "IOTA/USD",
+    "date": "2026-10-28",
+    "label": "Reunión del FOMC (decisión de tasas)",
+    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en IOTA; el mercado cripto en general reaccionó con calma."
+  },
+  {
+    "ticker": "ONDO/USD",
+    "date": "2026-10-28",
+    "label": "Reunión del FOMC (decisión de tasas)",
+    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en ONDO; el mercado cripto en general reaccionó con calma."
+  },
+  {
+    "ticker": "XDC/USD",
+    "date": "2026-10-28",
+    "label": "Reunión del FOMC (decisión de tasas)",
+    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en XDC; el mercado cripto en general reaccionó con calma."
+  },
+  {
+    "ticker": "QNT/USD",
+    "date": "2026-10-28",
+    "label": "Reunión del FOMC (decisión de tasas)",
+    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en QNT; el mercado cripto en general reaccionó con calma."
+  },
+  {
+    "ticker": "ORCL",
+    "date": "2026-10-28",
+    "label": "Investor Day en Oracle AI World",
+    "result": "RESULTADO: en el Investor Day de Oracle AI World (Las Vegas), Oracle elevó su guidance de largo plazo: ingresos totales de US$225.000M+ para FY30 (CAGR >35% desde FY26), margen operativo non-GAAP de 40%+ y EPS non-GAAP de US$21+, además de flujo de caja libre positivo en la 2ª mitad de FY28; reafirmó guidance FY27 de ingresos de al menos US$90.000M y EPS de US$8,10. La acción saltó ~11-12%, cerrando en torno a US$144,54 (volumen 161% sobre el promedio de 3 meses), impulsada también por nuevas alianzas de IA con OpenAI, Nvidia, Intel, Cerebras y Google (Motley Fool/Seeking Alpha/StockTitan, 28-oct-2026)."
   }
 ]
