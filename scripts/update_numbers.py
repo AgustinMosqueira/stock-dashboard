@@ -68,6 +68,7 @@ MAP = {
     "QNT/USD": ("CRYPTO:QNTUSD", ("$", "", 2, ",", ".")),
     "LINK/USD": ("CRYPTO:LINKUSD", ("$", "", 2, ",", ".")),
     "UBER": ("NYSE:UBER", ("$", "", 2, ",", ".")),
+    "GOLD/USD": ("COMEX:GC1!", ("$", "", 2, ",", ".")),
     "BTC/USD": ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),
     # OJO: FX_IDC (ICE) viene ~0,35% desviado vs el cierre real chileno (verificado
     # 29-jul-2026 contra er-api, currency-api y cierre de mercado); VANTAGE calza.
@@ -106,6 +107,7 @@ BENCH = {
     "QNT/USD": ("CRYPTO:BTCUSD", "Bitcoin"),
     "LINK/USD": ("CRYPTO:BTCUSD", "Bitcoin"),
     "UBER": ("SP:SPX", "S&P 500"),
+    "GOLD/USD": ("SP:SPX", "S&P 500"),
     "HDSY": ("TVC:NI225", "Nikkei 225"),
     "USD/CLP": ("TVC:DXY", "DXY"),
     "EUR/USD": ("TVC:DXY", "DXY"),

@@ -1,0 +1,211 @@
+{
+ "ticker": "GOLD/USD",
+ "company": "Oro (futuro continuo COMEX)",
+ "statsList": [
+  [
+   "Precio",
+   "$3,963.40 (2-nov-2026)"
+  ],
+  [
+   "Rango 52 sem.",
+   "$3,879 – $5,627 (mín. 30-oct/2-nov-2026; máx. histórico 28-ene-2026; TradingView/Forbes)"
+  ],
+  [
+   "Posicionamiento COT",
+   "Managed money neto largo ~105,562 contratos, ~49.7% del interés abierto (CFTC, 27-oct-2026)"
+  ],
+  [
+   "Compras bancos centrales",
+   "PBOC: +21t en sep-2026, racha de 23 meses consecutivos, reservas en 2,196t (Kitco/Bloomberg, oct-2026)"
+  ],
+  [
+   "Flujos ETF (GLD)",
+   "Salidas netas en oct-2026 (entre -$134M y -$2,000M según fuente); YTD 2026 -$3,830M, AUM $134.8B (ETF.com/Goldreporter, oct-2026)"
+  ],
+  [
+   "Próx. evento",
+   "Reunión del FOMC (decisión de tasas) — 9-dic-2026, ~71-87% prob. de alza (CME FedWatch)"
+  ],
+  [
+   "Técnico (auto)",
+   "RSI 35.7 · MACD -78.80 / señal -69.79 (TradingView, 2-nov-2026)"
+  ]
+ ],
+ "change": {
+  "day": -0.16,
+  "week": 0
+ },
+ "events": [
+  {
+   "date": "2026-11-06",
+   "label": "Nonfarm Payrolls (EE.UU.)",
+   "kind": "macro",
+   "info": "HECHO: consenso ~65k nuevos empleos no agrícolas y tasa de desempleo estable en 4.2% (calendario económico, oct-2026). LECTURA: una sorpresa débil reduciría la probabilidad de alza de la Fed en diciembre, favoreciendo al oro; una sorpresa fuerte reforzaría el sesgo hawkish."
+  },
+  {
+   "date": "2026-11-10",
+   "label": "Inflación de EE.UU. (CPI, interanual)",
+   "kind": "macro",
+   "info": "HECHO: el IPC interanual previo fue 3.7%, por sobre el objetivo de la Fed (calendario económico, oct-2026). LECTURA: es el dato clave antes del FOMC del 9-dic; una lectura más caliente de lo esperado consolidaría la probabilidad de alza y presionaría más al oro."
+  },
+  {
+   "date": "2026-12-09",
+   "label": "Reunión del FOMC (decisión de tasas)",
+   "kind": "macro",
+   "time": "15:00",
+   "info": "HECHO: tras la mantención del 28-oct-2026 (voto 10-2, disidentes Cook y Hammack pidiendo alza), CME FedWatch asigna una probabilidad alta (estimaciones entre ~71% y ~87% según metodología) a un alza de 25pb en esta reunión (nov-2026). LECTURA: de confirmarse el alza, sería el segundo movimiento hawkish consecutivo del ciclo Warsh y profundizaría la presión sobre el oro; una sorpresa dovish sería el catalizador más inmediato para un rebote."
+  }
+ ],
+ "sections": {
+  "resumen": "El oro cotiza en $3,963/oz (futuro continuo COMEX GC1!, 2-nov-2026), cerca de su mínimo de 52 semanas ($3,879) tras desplomarse ~30% desde el máximo histórico de ~$5,590-5,608 de enero de 2026 (Forbes/Metalcharts). El detonante es el giro hawkish de la Fed bajo Kevin Warsh: alza en septiembre, mantención el 28-oct (voto 10-2) y ~71-87% de probabilidad de otra alza el 9-dic (CME FedWatch, nov-2026), con tasas reales y dólar al alza. En paralelo, el PBOC extendió a 23 meses su racha de compras (+21t en sep) y los commercials mostraron un giro bullish de 20% en su posicionamiento (Kitco, 2-nov-2026), mientras GLD sufrió salidas relevantes en octubre. El precio prueba el soporte crítico de $3,900-3,950.",
+  "fundamental": "- HECHO: corrección de ~30% desde el ATH de ~$5,590-5,608/oz (28-ene-2026) a ~$3,900-3,963 actual, por el giro hawkish de la Fed, no por deterioro de demanda física (Forbes/Metalcharts, 2-nov-2026).\n- HECHO: el PBOC acumula 23 meses consecutivos de compras, +21t en septiembre (mayor compra mensual en 3 años), reservas en 2,196t (Kitco/Bloomberg, oct-2026).\n- HECHO: oferta minera +2% a/a (Q2 2026), reciclaje -6% a/a; demanda de joyería cayó a su menor nivel desde la pandemia (278t) por asequibilidad (World Gold Council, Q2 2026).\n- HECHO: GLD registró salidas netas en octubre (YTD 2026 -$3,830M, AUM $134.8B); la demanda estructural de bancos centrales no se movió, lo que huyó fue demanda táctica/ETF (ETF.com/Goldreporter, oct-2026).",
+  "valuacion": "- HECHO: percentil de precio en su rango de 52 semanas de ~4.8% (TradingView, 2-nov-2026): cerca del extremo bajo de su propio rango anual, aunque ~37% sobre el promedio LBMA 2025 ($4,506/oz, World Gold Council Q2 2026).\n- HECHO: Goldman Sachs mantiene target $5,400-5,600 para fin de 2027 citando compras de bancos centrales (~91t/mes); UBS proyecta $5,000 (mar-2027) a $5,400 (sep-2027), con riesgo de baja adicional a ~$3,850 (BigGo/TheStreet, 2026).\n- LECTURA: la brecha entre el spot (~$3,963) y los targets 2027 ($5,000-5,600) implica upside de ~26%-41% si la demanda estructural se sostiene y la Fed no extiende el ciclo de alzas.\n- LECTURA: el oro no tiene P/E ni flujo de caja — su 'barato/caro' se mide vs. su propio rango histórico y el costo de oportunidad de tasas reales, hoy en contra pero ya reflejado en gran parte en la corrección.",
+  "tecnico": "- HECHO: RSI 35.7, MACD -78.80/señal -69.79 (TradingView, 2-nov-2026): momentum bajista aún activo, sin divergencia alcista confirmada.\n- HECHO: precio ~12% bajo su SMA200, ~7% bajo su SMA50 y ~3% bajo su SMA20: medias en orden descendente, tendencia de mediano plazo bajista intacta.\n- HECHO: soporte inmediato en $3,900-3,950 (ya probado el 1-2-nov) y resistencias en $3,920-3,951 y ~$4,023-4,254; romper $3,900 abriría camino a $3,800 (FXLeaders/RoboForex).\n- LECTURA: prueba de soporte crítica, no piso confirmado — aún no aparece 'cambio de carácter' (mínimos crecientes, secado de volumen vendedor); histórico propio recién empieza a acumularse, por lo que volatilidad/Sharpe/Sortino muestran 'Acumulando datos'.",
+  "catalizadores": "**Catalizadores:**\n- FOMC del 9-dic-2026: una sorpresa dovish (no-alza) revertiría la narrativa de tasas reales altas que gatilló la corrección (CME FedWatch, nov-2026).\n- Continuidad de compras del PBOC (23 meses, acelerando en caídas) sostiene el piso estructural de demanda (Kitco, oct-2026).\n- Giro bullish de 20% en el posicionamiento commercial (2-nov-2026): en marzo y junio de 2026 antecedió rebotes desde mínimos similares, sin garantía (Kitco COT).\n- CPI (10-nov) y NFP (6-nov) débiles reducirían la probabilidad de alza de diciembre y aliviarían la presión sobre el oro.\n\n**Riesgos (por materialidad):**\n- La Fed bajo Warsh mantiene sesgo hawkish explícito (CPI 3.7%) con ~71-87% de probabilidad de alza el 9-dic — causa directa de la corrección (CNBC/CME FedWatch).\n- Ruptura confirmada de $3,900 abriría camino técnico a $3,800, sin piso claro todavía formado (FXLeaders).\n- Las salidas de ETFs podrían continuar si el dólar y las tasas reales siguen subiendo.\n- Riesgo de serie: el histórico propio recién comienza a acumularse (contrato continuo COMEX GC1!), por lo que volatilidad/Sharpe/Sortino/drawdown aún no están disponibles.",
+  "sentimiento": "- HECHO: managed money neto largo ~105,562 contratos (27-oct-2026), ~49.7% del interés abierto — constructivo pero bajando desde picos previos (CFTC/StoneX, oct-2026).\n- HECHO: los commercials mostraron un cambio bullish de ~20% en su posición neta la semana del 2-nov-2026, señal que en marzo y junio de 2026 precedió rebotes similares (Kitco).\n- HECHO: GLD sufrió salidas netas en octubre (YTD 2026 -$3,830M) pese a AUM de $134.8B — sentimiento de corto plazo claramente negativo (ETF.com/Goldreporter).\n- LECTURA (contraria): pesimismo táctico (ETFs, precio en mínimos de 52 semanas) + compras estructurales de bancos centrales sin pausa = patrón que la metodología lee como combustible de subida, no confirmación bajista; Goldman y UBS no bajaron sus targets 2027 pese a la caída.",
+  "conclusion": "El oro corrige con fuerza (~-30% desde el ATH de enero) por el giro hawkish de la Fed bajo Warsh, con el mercado descontando 71-87% de probabilidad de otra alza el 9-dic. La demanda estructural (PBOC, 23 meses de compras) no se ha movido, y una señal de posicionamiento commercial bullish (2-nov) sugiere que el smart money podría estar acumulando cerca de mínimos. El precio prueba un soporte crítico ($3,900-3,950) sin piso técnico confirmado: una ruptura abre camino a $3,800; una defensa habilita un rebote hacia $4,250+. Señal: corrección severa con asimetría creciente si la Fed sorprende dovish, pero sin confirmación técnica todavía. Confianza: media."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 38,
+   "just": "El precio corrige con medias en orden descendente (-3% SMA20, -7% SMA50, -12% SMA200) y MACD negativo, sin evidencia aún de 'cambio de carácter' (mínimos crecientes, secado de volumen vendedor); el RSI de 35.7 no es un extremo de sobreventa que por sí solo garantice piso. Se castiga la ausencia de confirmación técnica, no la caída ya ocurrida."
+  },
+  "fundamental": {
+   "score": 62,
+   "just": "La demanda estructural (compras de bancos centrales, liderada por el PBOC con 23 meses consecutivos) permanece intacta y la oferta minera crece de forma moderada (+2% a/a), pero la demanda de joyería cayó a mínimos de pandemia por asequibilidad y las salidas de ETF en octubre reflejan debilidad táctica de corto plazo."
+  },
+  "sentimiento": {
+   "score": 60,
+   "just": "Lectura contraria: el pesimismo táctico (salidas de ETF, precio en mínimos de 52 semanas) convive con un giro bullish de 20% en el posicionamiento de los commercials y compras ininterrumpidas del PBOC — el patrón de pesimismo con datos operativos estables sube la nota, aunque sin confirmación de precio todavía."
+  },
+  "riesgo": {
+   "score": 52,
+   "just": "La caída de ~30% desde el ATH de enero mejora el margen de seguridad frente a un posible sobrecalentamiento, pero el riesgo macro (ciclo de alzas de la Fed aún no cerrado) y la falta de piso técnico confirmado mantienen el riesgo de pérdida adicional de corto plazo por encima del promedio."
+  },
+  "conviccion": {
+   "score": 55,
+   "just": "La tesis es falsable y fechada: el FOMC del 9-dic define si el viento en contra de tasas reales se mantiene o se revierte. La asimetría es real (targets bancarios 2027 muy por sobre el spot) pero la convicción se modera porque el soporte técnico ($3,900) todavía no está confirmado."
+  }
+ },
+ "sources": [
+  "Forbes Advisor / Metalcharts, 2-nov-2026 — oro en ~$3,901-3,963/oz, -30% desde el ATH de ~$5,590-5,608 (28-ene-2026)",
+  "TradingView scanner (COMEX:GC1!), 2-nov-2026 — precio $3,963.40, RSI 35.7, MACD -78.80/señal -69.79, SMA20/50/200, percentil de 52 semanas ~4.8%",
+  "Kitco, oct-2026 — PBOC compra 21t en septiembre (mayor compra mensual en 3 años), 23º mes consecutivo de compras, reservas en 2,196t",
+  "Kitco (COT opinion), 2-nov-2026 — cambio bullish de ~20% en la posición neta de los commercials en oro; precedentes similares en marzo y junio de 2026",
+  "CFTC / StoneX, 27-oct-2026 — managed money neto largo ~105,562 contratos de oro COMEX; grandes especuladores ~49.7% del interés abierto",
+  "World Gold Council, Gold Demand Trends Q2 2026 — LBMA promedio $4,506/oz, demanda de joyería 278t (mínimo desde la pandemia), oferta minera +2% a/a, reciclaje -6% a/a",
+  "ETF.com / Goldreporter / Benzinga, oct-2026 — salidas de GLD en octubre (estimaciones entre -$134M y -$2,000M según fuente); flujo YTD 2026 -$3,830M; AUM $134.8B",
+  "fedratecalc.com / CME FedWatch, nov-2026 — FOMC del 9-dic-2026 (decisión 14:00 ET); probabilidad de alza de 25pb entre ~71% y ~87% según metodología",
+  "CNBC, ago-sep-2026 — Kevin Warsh advierte en Jackson Hole sobre inflación persistente, lidera alza de tasas unánime en septiembre; CPI sube a 3.7%",
+  "BigGo Finance (Goldman Sachs), 2026 — target de oro $5,400-5,600 para fin de 2027, $4,650-4,900 para fin de 2026",
+  "TheStreet / fxnx (UBS), 2026 — target de oro $5,000 (mar-2027) a $5,400 (sep-2027); advierte posible baja adicional a ~$3,850",
+  "FXLeaders / RoboForex, 1-2-nov-2026 — soporte en $3,900-3,950, resistencias en $3,920-3,951 y $4,023-4,254"
+ ],
+ "opportunity": {
+  "cats": {
+   "valuacion_hist": {
+    "score": 72,
+    "just": "Percentil de ~4.8% en su rango de 52 semanas tras caer ~30% desde el ATH de enero-2026: el oro está barato vs. su propia historia reciente, aunque sigue ~37% por sobre el promedio LBMA de 2025."
+   },
+   "calidad": {
+    "score": 75,
+    "just": "Activo de reserva sin riesgo de crédito/default, con comprador estructural de largo plazo (bancos centrales, liderados por el PBOC) que compra más cuando el precio cae — una característica de calidad poco común en otros activos de esta cobertura."
+   },
+   "asimetria": {
+    "score": 66,
+    "just": "Upside a targets bancarios 2027 (~26%-41%) vs. downside acotado al siguiente nivel técnico ($3,800, ~4% adicional desde el spot) si se confirma la tendencia bajista; la relación riesgo/retorno es favorable pero no extrema porque el piso aún no está confirmado."
+   },
+   "catalizadores": {
+    "score": 60,
+    "just": "Calendario denso de catalizadores fechados en los próximos 6 meses: FOMC 9-dic-2026, CPI 10-nov, NFP 6-nov, y el reporte mensual de reservas del PBOC a inicios de cada mes."
+   },
+   "contrarian": {
+    "score": 68,
+    "just": "Pesimismo táctico (ETFs, precio en mínimos) + giro bullish de posicionamiento commercial + compras de bancos centrales sin pausa: la combinación clásica de señal contraria constructiva, aunque sin confirmación de precio todavía."
+   }
+  },
+  "plan": {
+   "recomendacion": "Acumular en zona",
+   "zona_compra": "Escalonar compras entre $3,800 y $3,950, con tramos adicionales si se confirma piso técnico sobre $4,000-4,023",
+   "invalidacion": "Ruptura sostenida (cierre diario) por debajo de ~$3,750-3,800 que confirme continuación de la tendencia bajista, o una Fed que sostenga un ciclo de alzas de 2+ reuniones consecutivas rompiendo la correlación histórica con tasas reales.",
+   "gatillos": [
+    "Resultado del FOMC del 9-dic-2026 (alza vs. no-alza)",
+    "Dato de CPI de EE.UU. del 10-nov-2026 vs. consenso",
+    "Próximo reporte mensual de reservas del PBOC (inicios de diciembre)",
+    "Confirmación de piso técnico: cierre semanal sobre $4,000-4,023 con volumen"
+   ],
+   "horizonte": "6-18 meses",
+   "tamano": "Posición pequeña-moderada (2-5% de cartera) como cobertura/diversificador — el activo recién inicia su serie de histórico propio en este dashboard, por lo que su volatilidad realizada todavía no está medida internamente.",
+   "confianza": "media"
+  }
+ },
+ "perfil": "El oro es un metal precioso que funciona como reserva de valor y activo de refugio, no como un negocio con flujo de caja: no paga dividendos ni intereses, y su rendimiento proviene solo de la apreciación de precio. Este contrato (futuro continuo COMEX GC1!) sigue el precio spot internacional del oro, fijado en mercados físicos (Londres/LBMA) y de derivados (COMEX, Shanghai). Su nivel lo determinan: (1) tasas de interés reales en EE.UU. y el dólar — el oro no rinde interés, así que tasas reales altas y dólar fuerte encarecen su costo de oportunidad; (2) demanda de bancos centrales, que diversifican reservas y reducen dependencia del dólar; (3) demanda de joyería e inversión (ETFs, monedas, barras), sensible al nivel de precio; y (4) demanda de refugio ante shocks geopolíticos o de inflación. Riesgos estructurales: alta volatilidad, correlación inversa con tasas reales/dólar, contango/backwardation en el rollover de futuros, y ventas forzadas de liquidez que generan caídas abruptas no vinculadas a sus fundamentos.",
+ "reportDate": "2 de noviembre de 2026",
+ "risk": {
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "n_days": 1,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "SP:SPX",
+  "label": "S&P 500",
+  "relative_performance_30d": -3.34,
+  "relative_performance_ytd": -18.32,
+  "price_percentile_1y": 4.8,
+  "partial": false
+ },
+ "technical": {
+  "price": 3963.4,
+  "change_1d_pct": -0.16,
+  "change_1w_pct": null,
+  "rsi": 35.7,
+  "macd": -78.7975,
+  "macd_signal": -69.7862,
+  "sma20": 4094.495,
+  "sma50": 4265.89,
+  "sma200": 4513.8495,
+  "ema12": 4034.4576,
+  "ema26": 4113.2551,
+  "pct_vs_sma20": -3.2,
+  "pct_vs_sma50": -7.09,
+  "pct_vs_sma200": -12.19,
+  "volume_today": 8612,
+  "volume_avg20": 147636.0,
+  "volume_ratio": 0.06,
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "price_percentile_1y": 4.8,
+  "vs_benchmark_30d_pct": -3.34,
+  "perf_1m_pct": -5.74,
+  "perf_ytd_pct": -8.68
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-11-02T22:24:29-03:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-11-02T22:24:29-03:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-11-02T22:24:29-03:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "SP:SPX",
+   "fetched_at": "2026-11-02T22:24:29-03:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/FX-GOLDUSD.json",
+   "n_days": 1
+  }
+ },
+ "metricChanges": []
+}
