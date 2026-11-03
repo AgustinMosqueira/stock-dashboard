@@ -769,6 +769,61 @@
   .tech-note { margin-top: 14px; font-size: 12px; color: var(--muted); line-height: 1.55; }
   @media (max-width: 640px) { .tech-wrap { padding: 22px 12px 48px; } }
 
+  /* — Chat — */
+  .chat-wrap { max-width: 760px; margin: 0 auto; padding: 30px 22px 60px; }
+  .chat-head h1 { font-size: 24px; margin: 0 0 6px; }
+  .chat-head .sub { color: var(--muted); font-size: 13px; margin: 0 0 18px; }
+  .chat-form {
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .chat-label {
+    font-size: 11px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted);
+  }
+  .chat-select {
+    width: 100%; padding: 9px 11px; font: inherit; font-size: 13.5px; color: var(--ink);
+    background: var(--surface-2); border: 1px solid var(--hairline); border-radius: 8px;
+  }
+  .chat-textarea {
+    width: 100%; min-height: 92px; resize: vertical; padding: 10px 11px; font: inherit;
+    font-size: 13.5px; color: var(--ink); background: var(--surface-2);
+    border: 1px solid var(--hairline); border-radius: 8px; box-sizing: border-box;
+  }
+  .chat-formfoot { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .chat-counter { font-size: 11.5px; color: var(--muted); font-family: var(--mono); }
+  .chat-counter.over { color: var(--down); font-weight: 700; }
+  .chat-send { background: var(--accent); color: #fff; border-color: transparent; font-weight: 700; }
+  .chat-send:hover { filter: brightness(1.08); background: var(--accent); color: #fff; }
+  .chat-send:disabled { opacity: 0.55; cursor: not-allowed; filter: none; }
+  .chat-empty {
+    color: var(--muted); font-size: 13px; line-height: 1.6; background: var(--surface);
+    border: 1px dashed var(--hairline); border-radius: 10px; padding: 14px 16px;
+  }
+  .chat-history { display: flex; flex-direction: column; gap: 14px; margin-bottom: 26px; }
+  .chat-msg { display: flex; align-items: flex-end; gap: 6px; }
+  .chat-q { justify-content: flex-end; }
+  .chat-a { justify-content: flex-start; }
+  .chat-bubble {
+    max-width: 86%; border-radius: 12px; padding: 10px 13px; font-size: 13.5px; line-height: 1.55;
+  }
+  .chat-bubble .prose { font-size: 13.5px; }
+  .chat-q .chat-bubble { background: var(--accent); color: #fff; border-bottom-right-radius: 3px; }
+  .chat-a .chat-bubble { background: var(--surface); border: 1px solid var(--hairline); border-bottom-left-radius: 3px; }
+  .chat-a.chat-error .chat-bubble { background: var(--critical-tint); border-color: var(--critical-tint); color: var(--down); }
+  .chat-tag {
+    font-family: var(--mono); font-size: 10.5px; font-weight: 700; color: var(--muted);
+    white-space: nowrap; padding-bottom: 2px;
+  }
+  .chat-meta { margin-top: 8px; font-size: 11px; color: var(--muted); }
+  .chat-dots { color: var(--muted); font-style: italic; }
+  @media (max-width: 640px) { .chat-wrap { padding: 22px 12px 48px; } }
+
   /* — Riesgo / benchmark en el detalle — */
   .risk-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 12px; }
   .risk-tile { background: var(--surface); border: 1px solid var(--hairline); border-radius: 10px; padding: 10px 12px; }
@@ -920,7 +975,7 @@
     /* barra de pestañas inferior estilo iOS */
     .tabbar {
       display: grid;
-      grid-template-columns: repeat(5, minmax(0,1fr));
+      grid-template-columns: repeat(6, minmax(0,1fr));
       position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; width: 100vw;
       background: var(--surface);
       border-top: 1px solid var(--hairline);
@@ -942,6 +997,7 @@
     .main { padding: 14px 14px calc(88px + env(safe-area-inset-bottom)); }
     .cal-wrap { padding: 20px 16px calc(88px + env(safe-area-inset-bottom)); }
     .tech-wrap { padding: 18px 10px calc(88px + env(safe-area-inset-bottom)); }
+    .chat-wrap { padding: 18px 12px calc(88px + env(safe-area-inset-bottom)); }
 
     /* selector de activos: tira horizontal con snap */
     .rail { padding: 10px 14px 2px; }
@@ -969,7 +1025,7 @@
     .gauge-wrap svg { width: 112px; height: 112px; }
 
     /* calendario y panel técnico */
-    .cal-head h1, .tech-head h1 { font-size: 21px; }
+    .cal-head h1, .tech-head h1, .chat-head h1 { font-size: 21px; }
     .tech th, .tech td { padding: 8px 8px; }
   }
 </style>
@@ -982,6 +1038,7 @@
     <button type="button" data-mode="cripto" role="tab" aria-selected="false">Crypto Research</button>
     <button type="button" data-mode="calendar" role="tab" aria-selected="false">Calendario</button>
     <button type="button" data-mode="tech" role="tab" aria-selected="false">Panel Técnico</button>
+    <button type="button" data-mode="chat" role="tab" aria-selected="false">Chat</button>
   </div>
   <div class="meta" id="metaLine"></div>
   <div class="live-chip" id="liveChip" title="Precios, RSI y MACD consultados en vivo a TradingView al abrir la app y cada 60 s"></div>
@@ -1015,6 +1072,9 @@
   <button type="button" data-mode="tech" aria-label="Panel Técnico">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="20" x2="6" y2="14"/><line x1="12" y1="20" x2="12" y2="8"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="3" y1="20" x2="21" y2="20"/></svg>
     <span>Técnico</span></button>
+  <button type="button" data-mode="chat" aria-label="Chat">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+    <span>Chat</span></button>
 </nav>
 
 <div class="toast" id="toast" role="status"></div>
@@ -1102,11 +1162,21 @@
     "asesoría de inversión ni recomendación de compra/venta. Verifique todos los datos de forma " +
     "independiente antes de tomar decisiones financieras.";
 
-  const DATA_DATE = "2-nov-2026";
+  const DATA_DATE = "2 de noviembre de 2026";
   const CRYPTO_TICKERS = new Set([
     "BTC/USD", "ETH/USD", "XRP/USD", "SOL/USD", "XLM/USD", "XDC/USD",
     "HBAR/USD", "ALGO/USD", "IOTA/USD", "ONDO/USD", "QNT/USD", "LINK/USD",
   ]);
+
+  // ============================================================================
+  // CHAT — configuración de la función serverless (ver api/chat.js, proyecto
+  // de Vercel separado). CHAT_API_URL es un placeholder hasta que exista el
+  // deploy: reemplazar por la URL real ("https://<proyecto>.vercel.app/api/chat").
+  // ============================================================================
+  const CHAT_API_URL = "https://REPLACE_WITH_VERCEL_URL/api/chat"; // TODO: reemplazar cuando exista el deploy
+  const CHAT_SHARED_SECRET = "555ff765cfc129c3ba2f50c5015b2f2e"; // mismo valor que CHAT_SHARED_SECRET en Vercel; no es seguridad real (repo público), solo frena bots casuales
+  const CHAT_MAX_QUESTION_LEN = 1000;
+
   const MODES = {
     equity: {
       title: "Stock Research — Dashboard de Equity Research",
@@ -1157,13 +1227,27 @@
         "interpretación cualitativa de los informes.",
       filter: () => true,
     },
+    chat: {
+      title: "Stock Research — Chat",
+      brand: "Chat",
+      meta: "Preguntas libres sobre un activo, respondidas con su informe ya investigado",
+      note:
+        "El asistente responde solo con el informe ya investigado del activo elegido — sin búsqueda " +
+        "web en vivo, puede no reflejar noticias de último momento. No es asesoría de inversión: ante " +
+        "preguntas de compra/venta, da la LECTURA del informe (score, catalizadores), no un consejo personal.",
+      filter: () => true,
+    },
   };
   const NOTE_UPD =
     "<br><br><strong>Actualización:</strong> los datos fueron investigados vía web search el " + DATA_DATE +
     " y son estáticos. Para refrescarlos o agregar un activo, pídeselo a Claude en la conversación " +
     "del proyecto — la página se actualiza en esta misma URL.";
 
-  const state = { mode: "equity", ticker: STOCKS[0].ticker, weights: { ...DEFAULT_WEIGHTS }, query: "", techSort: { key: "ticker", dir: 1 }, calFilter: null };
+  const state = {
+    mode: "equity", ticker: STOCKS[0].ticker, weights: { ...DEFAULT_WEIGHTS }, query: "",
+    techSort: { key: "ticker", dir: 1 }, calFilter: null,
+    chatTicker: STOCKS[0].ticker, chatDraft: "", chatHistory: [], chatBusy: false,
+  };
 
   function modeAssets() {
     return STOCKS.filter(MODES[state.mode].filter);
@@ -1180,9 +1264,9 @@
       b.classList.toggle("active", on);
       b.setAttribute("aria-selected", on ? "true" : "false");
     });
-    document.querySelector(".layout").classList.toggle("cal-mode", mode === "calendar" || mode === "tech");
+    document.querySelector(".layout").classList.toggle("cal-mode", mode === "calendar" || mode === "tech" || mode === "chat");
     const assets = modeAssets();
-    if (mode !== "calendar" && mode !== "tech" && !assets.some((s) => s.ticker === state.ticker)) state.ticker = assets[0].ticker;
+    if (mode !== "calendar" && mode !== "tech" && mode !== "chat" && !assets.some((s) => s.ticker === state.ticker)) state.ticker = assets[0].ticker;
     state.query = "";
     document.getElementById("search").value = "";
     render();
@@ -1900,6 +1984,139 @@
     );
   }
 
+  // — Chat: preguntas libres sobre un activo, contestadas por la función serverless
+  // de api/chat.js (fuera de este repo estático — ver CHAT_API_URL más arriba). —
+  function chatOptionsHtml() {
+    const groups = [
+      { label: "Acciones", items: STOCKS.filter((s) => !s.ticker.includes("/")) },
+      { label: "Cripto", items: STOCKS.filter((s) => CRYPTO_TICKERS.has(s.ticker)) },
+      { label: "FX", items: STOCKS.filter((s) => s.ticker.includes("/") && !CRYPTO_TICKERS.has(s.ticker)) },
+    ];
+    return groups
+      .filter((g) => g.items.length)
+      .map((g) => {
+        const opts = g.items
+          .slice()
+          .sort((a, b) => a.ticker.localeCompare(b.ticker))
+          .map((s) =>
+            `<option value="${esc(s.ticker)}"${s.ticker === state.chatTicker ? " selected" : ""}>` +
+            `${esc(s.ticker)} — ${esc(s.company)}</option>`
+          )
+          .join("");
+        return `<optgroup label="${esc(g.label)}">${opts}</optgroup>`;
+      })
+      .join("");
+  }
+  function chatMsgHtml(m) {
+    const q = `<div class="chat-msg chat-q"><span class="chat-tag">${esc(m.ticker)}</span>` +
+      `<div class="chat-bubble">${esc(m.question)}</div></div>`;
+    let a;
+    if (m.status === "pending") {
+      a = `<div class="chat-msg chat-a"><div class="chat-bubble"><span class="chat-dots">Pensando… (puede tardar hasta 20-30 s)</span></div></div>`;
+    } else if (m.status === "error") {
+      a = `<div class="chat-msg chat-a chat-error"><div class="chat-bubble">${esc(m.error)}</div></div>`;
+    } else {
+      a = `<div class="chat-msg chat-a"><div class="chat-bubble"><div class="prose">${md(m.answer || "")}</div>` +
+        (m.reportDate ? `<div class="chat-meta">Según el informe de ${esc(m.ticker)} del ${esc(m.reportDate)}</div>` : "") +
+        `</div></div>`;
+    }
+    return q + a;
+  }
+  function renderChat() {
+    const historyHtml = state.chatHistory.length
+      ? state.chatHistory.map(chatMsgHtml).join("")
+      : `<p class="chat-empty">Elegí un activo, escribí tu pregunta y tocá «Preguntar». El asistente responde ` +
+        `solo con el informe ya investigado de ese activo (sin datos en vivo ni búsqueda web) — puede tardar ` +
+        `hasta 20-30 segundos en contestar.</p>`;
+    document.getElementById("main").innerHTML =
+      `<div class="chat-wrap">` +
+      `<div class="chat-head"><h1>Chat</h1>` +
+      `<p class="sub">Preguntas libres sobre un activo puntual, respondidas solo con su informe ya investigado.</p></div>` +
+      `<div class="chat-form">` +
+      `<label class="chat-label" for="chatTicker">Activo</label>` +
+      `<select id="chatTicker" class="chat-select">${chatOptionsHtml()}</select>` +
+      `<label class="chat-label" for="chatQuestion">Tu pregunta</label>` +
+      `<textarea id="chatQuestion" class="chat-textarea" maxlength="${CHAT_MAX_QUESTION_LEN}" ` +
+      `placeholder="Ej: hazme un resumen de 10 líneas de qué está pasando que cae tanto, y qué tiene que pasar para que suba en el corto plazo"></textarea>` +
+      `<div class="chat-formfoot"><span class="chat-counter" id="chatCounter"></span>` +
+      `<button type="button" class="btn chat-send" id="chatSendBtn">Preguntar</button></div>` +
+      `</div>` +
+      `<div class="chat-history" id="chatHistory">${historyHtml}</div>` +
+      `<div class="disclaimer">${DISCLAIMER}</div>` +
+      `</div>`;
+
+    const sel = document.getElementById("chatTicker");
+    if (sel.value) state.chatTicker = sel.value;
+    sel.addEventListener("change", () => { state.chatTicker = sel.value; });
+
+    const qEl = document.getElementById("chatQuestion");
+    qEl.value = state.chatDraft;
+    const counter = document.getElementById("chatCounter");
+    const updCounter = () => {
+      const n = qEl.value.length;
+      counter.textContent = n + " / " + CHAT_MAX_QUESTION_LEN;
+      counter.classList.toggle("over", n > CHAT_MAX_QUESTION_LEN);
+    };
+    updCounter();
+    qEl.addEventListener("input", () => {
+      state.chatDraft = qEl.value;
+      updCounter();
+    });
+
+    const sendBtn = document.getElementById("chatSendBtn");
+    sendBtn.disabled = state.chatBusy;
+    sendBtn.textContent = state.chatBusy ? "Preguntando…" : "Preguntar";
+    sendBtn.addEventListener("click", sendChatQuestion);
+    qEl.addEventListener("keydown", (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === "Enter") sendChatQuestion();
+    });
+  }
+  async function sendChatQuestion() {
+    if (state.chatBusy) return;
+    const sel = document.getElementById("chatTicker");
+    const qEl = document.getElementById("chatQuestion");
+    const ticker = sel && sel.value;
+    const question = ((qEl && qEl.value) || "").trim();
+    if (!ticker) { toast("Elegí un activo primero."); return; }
+    if (!question) { toast("Escribí una pregunta."); return; }
+    if (question.length > CHAT_MAX_QUESTION_LEN) {
+      toast(`La pregunta es muy larga (máx. ${CHAT_MAX_QUESTION_LEN} caracteres).`);
+      return;
+    }
+    state.chatTicker = ticker;
+    state.chatBusy = true;
+    state.chatDraft = "";
+    const entry = { ticker, question, status: "pending", answer: null, error: null, reportDate: null };
+    state.chatHistory.push(entry);
+    renderChat();
+    window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+
+    try {
+      const r = await fetch(CHAT_API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "X-Chat-Secret": CHAT_SHARED_SECRET },
+        body: JSON.stringify({ ticker, question }),
+      });
+      let data = null;
+      try { data = await r.json(); } catch (e) { data = null; }
+      if (!r.ok || !data || data.error) {
+        entry.status = "error";
+        entry.error = (data && data.error) || `El asistente respondió con un error (HTTP ${r.status}).`;
+      } else {
+        entry.status = "done";
+        entry.answer = data.answer || "";
+        entry.reportDate = data.reportDate || null;
+      }
+    } catch (e) {
+      entry.status = "error";
+      entry.error = "No se pudo conectar con el asistente — ¿ya está desplegada la función?";
+    } finally {
+      state.chatBusy = false;
+      renderChat();
+      window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+    }
+  }
+
   // — Riesgo, percentil y benchmark en el detalle del activo —
   const RISK_TIPS = {
     vol: "Cuánto se mueve el precio en un año típico (desvío estándar anualizado de los retornos diarios de las últimas 30 ruedas). Más alto = más movimiento y más riesgo.",
@@ -2107,6 +2324,7 @@
   function render() {
     if (state.mode === "calendar") { renderCalendar(); return; }
     if (state.mode === "tech") { renderTech(); return; }
+    if (state.mode === "chat") { renderChat(); return; }
     renderRail();
     const stock = STOCKS.find((s) => s.ticker === state.ticker);
     const cats = catsOf(stock);
@@ -2463,7 +2681,7 @@
   //   publicación. El navegador (o el service worker) puede servir un index.html viejo
   //   de su caché; version.json se pide siempre con no-store, así que si el build
   //   publicado no coincide con el que tiene esta pestaña, se recarga saltando la caché.
-  const BUILD_ID = "20261103010434";
+  const BUILD_ID = "20261103011004";
   let recargando = false;
   async function chequearVersion() {
     if (recargando || location.protocol !== "https:") return;
