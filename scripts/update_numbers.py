@@ -70,6 +70,7 @@ MAP = {
     "UBER": ("NYSE:UBER", ("$", "", 2, ",", ".")),
     "GOLD/USD": ("COMEX:GC1!", ("$", "", 2, ",", ".")),
     "OIL/USD": ("NYMEX:CL1!", ("$", "", 2, ",", ".")),
+    "COPPER/USD": ("COMEX:HG1!", ("$", "", 2, ",", ".")),
     "BTC/USD": ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),
     # OJO: FX_IDC (ICE) viene ~0,35% desviado vs el cierre real chileno (verificado
     # 29-jul-2026 contra er-api, currency-api y cierre de mercado); VANTAGE calza.
@@ -110,6 +111,7 @@ BENCH = {
     "UBER": ("SP:SPX", "S&P 500"),
     "GOLD/USD": ("SP:SPX", "S&P 500"),
     "OIL/USD": ("SP:SPX", "S&P 500"),
+    "COPPER/USD": ("SP:SPX", "S&P 500"),
     "HDSY": ("TVC:NI225", "Nikkei 225"),
     "USD/CLP": ("TVC:DXY", "DXY"),
     "EUR/USD": ("TVC:DXY", "DXY"),

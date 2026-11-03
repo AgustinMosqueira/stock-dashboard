@@ -1,0 +1,213 @@
+{
+ "ticker": "COPPER/USD",
+ "company": "Cobre (futuro continuo COMEX)",
+ "statsList": [
+  [
+   "Precio",
+   "$6.51 (2-nov-2026)"
+  ],
+  [
+   "Rango 52 sem.",
+   "$4.89 – $6.93 (máx. 22-sep-2026, récord histórico; mín. no verificable con fecha exacta; Investing.com/TradingEconomics, nov-2026)"
+  ],
+  [
+   "Inventarios LME/COMEX/SHFE",
+   "COMEX ~718,200t (≈70% del stock visible global, +750% desde feb-2025); LME 229,650t; SHFE 73,962t (Crux Investor/SMM, oct-nov-2026)"
+  ],
+  [
+   "Oferta minera global",
+   "Producción -1.1% en 1S2026 (1ª caída anual desde 2017); Grasberg (~591kt perdidas) y Kamoa-Kakula (~220kt) concentran el golpe (Sprott/MINING.com, oct-2026)"
+  ],
+  [
+   "Posicionamiento COT",
+   "Managed money neto largo ~40,575 contratos (27-oct-2026), -7,115 semanal, bajando desde el percentil 95.4% de comienzos de set-2026 (CFTC, oct-2026)"
+  ],
+  [
+   "Próx. evento",
+   "Reporte semanal de posicionamiento especulativo (CFTC COT) — 6-nov-2026"
+  ],
+  [
+   "Técnico (auto)",
+   "RSI 45.6 · MACD -0.02 / señal -0.02 (TradingView, 2-nov-2026)"
+  ]
+ ],
+ "change": {
+  "day": -0.83,
+  "week": null
+ },
+ "events": [
+  {
+   "date": "2026-11-06",
+   "label": "Reporte semanal de posicionamiento especulativo (CFTC COT)",
+   "kind": "macro",
+   "info": "HECHO: el reporte previo (semana al 27-oct) mostró que managed money redujo su neto largo en 7,115 contratos a +40,575, bajando desde el percentil 95.4% de comienzos de septiembre (CFTC/cotsummaryfortraders, oct-2026). LECTURA: otra reducción confirmaría que se desarma el posicionamiento extremo pese a precios cerca de máximos; un repunte reabriría el riesgo de sobrecompra."
+  },
+  {
+   "date": "2026-11-10",
+   "label": "Balanza comercial de China (octubre) e importaciones de cobre",
+   "kind": "macro",
+   "info": "HECHO: China publica su balanza comercial de octubre el 10-nov-2026 (03:00 GMT); en septiembre las importaciones de cobre subieron 20.7% m/m a 461,000 toneladas pese a un PMI manufacturero en contracción (49.2 en octubre, Reuters/Fastmarkets, oct-nov-2026). LECTURA: una nueva alza de importaciones confirmaría que la demanda física china se desacopla de la debilidad del PMI; una caída reforzaría la lectura de que el rally depende más del arbitraje arancelario de EE.UU. que de China."
+  },
+  {
+   "date": "2026-12-09",
+   "label": "Reunión del FOMC (decisión de tasas)",
+   "kind": "macro",
+   "time": "15:00",
+   "info": "HECHO: tras la mantención del 28-oct-2026, CME FedWatch asigna una probabilidad alta (~71%-87%) a un alza de 25pb en esta reunión (nov-2026). LECTURA: un dólar más fuerte por un sesgo hawkish de la Fed suele presionar a la baja a los metales industriales en USD, aunque hoy el canal de déficit físico domina el precio del cobre por sobre el canal monetario."
+  }
+ ],
+ "sections": {
+  "resumen": "El cobre cotiza en ~US$6.52/lb (futuro continuo COMEX HG1!, 2-nov-2026), a ~6% de su récord histórico de US$6.93 (22-sep-2026) tras subir ~20% en 2026. El mercado enfrenta un déficit físico genuino: la producción minera global cayó 1.1% en el 1S2026 (primera caída anual desde 2017) por disrupciones en Grasberg y Kamoa-Kakula, mientras la demanda de IA/data centers y electrificación de redes crece con fuerza (S&P Global). Los inventarios muestran una fractura geográfica inusual: COMEX concentra ~70% del stock visible global por el arbitraje de aranceles Section 232, mientras LME y SHFE se vacían. China sigue importando pese a un PMI débil. Goldman Sachs elevó su objetivo 2027 a US$15,400/t.",
+  "fundamental": "- HECHO: oferta minera global -1.1% en 1S2026, primera caída anual desde 2017; Grasberg perdió ~591kt (2.5% de la producción mundial) por un alud, recuperándose a 67% de capacidad en 3T26 (Freeport Q3 2026/MINING.com, oct-2026).\n- HECHO: Kamoa-Kakula (RDC) sigue perdiendo ~220kt en 2026 por la inundación subterránea de may-2025 (Sprott/MINING.com, oct-2026).\n- HECHO: Cobre Panamá permanece offline (~300kt/año fuera); una comisión panameña recomendó reabrirlo vía sociedad estatal con First Quantum, decisión final pendiente del presidente Mulino (Mining.com/SMM, oct-2026).\n- HECHO: inventarios COMEX ~718,200t (+750% desde feb-2025, ~70% del stock visible global) por el arbitraje arancelario, mientras LME (229,650t) y SHFE (73,962t) se vacían (Crux Investor/SMM, oct-nov-2026).\n- HECHO: la demanda de IA/data centers podría sumar ~475,000t/año en 2026, y la infraestructura de red asociada requiere 3-4x más cobre que los propios centros de datos (S&P Global/Bloomberg, ene-2026).",
+  "valuacion": "- HECHO: percentil de 79.8% en su rango de 52 semanas (US$4.89–US$6.93), cerca del techo histórico marcado el 22-sep-2026 (TradingView/Investing.com, 2-nov-2026).\n- HECHO: Goldman Sachs elevó su objetivo 2027 a US$15,400/t (~US$6.98/lb) desde US$13,800, y el de fin de 2026 a US$14,700/t (~US$6.67/lb) desde US$13,735, citando un déficit ex-EE.UU. de ~950,000t en 2026 (Reuters/MINING.com, oct-2026).\n- LECTURA: el spot ya está a ~98% del objetivo de fin de año de Goldman, dejando poco margen de sorpresa alcista en lo inmediato.\n- LECTURA: sin EBITDA propio, lo 'barato/caro' se mide vs. su propio rango — hoy cerca del extremo superior, no barato vs. su historia reciente.",
+  "tecnico": "- HECHO: RSI 45.8, MACD -0.02/señal -0.02 (TradingView, 2-nov-2026): momentum neutro, sin sobrecompra.\n- HECHO: precio -1.2% bajo su SMA20 (~US$6.59) y -1.7% bajo su SMA50 (~US$6.63), pero +4.3% sobre su SMA200 (~US$6.25): consolidación de corto plazo dentro de una tendencia de fondo alcista.\n- HECHO: percentil de 79.8% en 52 semanas, lejos aún del extremo de sobreextensión (>95%) pero por sobre su mediana propia.\n- LECTURA: la caída desde el máximo de US$6.93 (22-sep) sin quiebre de la SMA50 sugiere una pausa sana, no un cambio de carácter bajista todavía.",
+  "catalizadores": "**Catalizadores:**\n- Decisión del gobierno de Panamá sobre el reinicio de Cobre Panamá (sin fecha fija; sumaría oferta en 2026-2027 si se aprueba).\n- Recuperación de Grasberg hacia 80% de capacidad a mediados de 2027.\n- Definición pendiente del arancel Section 232 sobre cobre refinado, que redefiniría el arbitraje EE.UU.-resto del mundo.\n- Demanda estructural de IA/data centers y redes eléctricas, con S&P Global proyectando ~42 millones de toneladas de demanda global a 2040.\n\n**Riesgos (por materialidad):**\n- Concentración extrema de inventarios en COMEX (~70% del stock visible) crea riesgo de reversión violenta si se resuelve el arbitraje arancelario.\n- PMI manufacturero chino en contracción por 8° mes consecutivo (49.2, nov-2026) amenaza la demanda física de mediano plazo.\n- Posicionamiento especulativo todavía relevante tras tocar el percentil 95% en septiembre; liquidaciones rápidas pueden amplificar caídas.\n- Riesgo de serie: histórico propio recién empieza a acumularse (volatilidad/Sharpe/Sortino 'Acumulando datos').",
+  "sentimiento": "- HECHO: managed money redujo su neto largo a +40,575 contratos (-7,115 semanal) al 27-oct-2026, bajando desde el percentil 95.4% de comienzos de septiembre (CFTC, oct-2026).\n- HECHO: la prima de importación china (Yangshan) superó US$200/t, un récord desde 2017, pese al PMI contractivo (Fastmarkets, oct-nov-2026).\n- LECTURA (contraria): posicionamiento de papel bajando desde extremos mientras la prima física china marca récord es una divergencia que sugiere que el especulativo se enfría pero la demanda real no — señal constructiva de fondo.\n- LECTURA: no hay euforia unánime (PMI débil, especuladores reduciendo exposición), lo que reduce el riesgo de una purga violenta por exceso de optimismo.",
+  "conclusion": "El cobre (~US$6.52/lb) combina un déficit físico genuino -producción minera cayendo por primera vez desde 2017, inventarios concentrados casi por completo en EE.UU.- con una demanda estructural de IA, redes y electrificación que recién empieza a sentirse. El precio ya está cerca de su récord histórico (US$6.93, 22-sep-2026) y a ~98% del objetivo de Goldman para fin de 2026, dejando poco margen de sorpresa positiva inmediata, aunque el posicionamiento especulativo se enfrió desde extremos. Señal: constructivo de fondo, pero sin margen de seguridad al precio actual. Confianza: media."
+ },
+ "scores": {
+  "tecnica": {
+   "score": 53,
+   "just": "RSI neutro (45.8) y precio consolidando bajo su SMA20/50 sin romper la SMA200; el percentil 79.8% está elevado pero lejos de la sobreextensión (>95%) que bajaría la nota. Pausa sana, sin cambio de carácter en ningún sentido."
+  },
+  "fundamental": {
+   "score": 63,
+   "just": "Déficit físico genuino y poco común en su origen: caída de producción minera global (1ª desde 2017) que coincide con demanda estructural nueva (IA, redes, EVs) que recién se acelera — más durable que un shock puramente cíclico."
+  },
+  "sentimiento": {
+   "score": 60,
+   "just": "El posicionamiento especulativo se enfría desde un extremo (percentil 95% en set-2026) mientras la prima de importación china marca récord: divergencia papel-físico que favorece la lectura contraria constructiva, sin euforia unánime."
+  },
+  "riesgo": {
+   "score": 46,
+   "just": "Sin riesgo de pérdida permanente tipo quiebra, pero la concentración de ~70% del stock visible en COMEX por un arbitraje arancelario crea un riesgo binario de reversión violenta si cambia la política comercial, más que riesgo de negocio."
+  },
+  "conviccion": {
+   "score": 48,
+   "just": "La tesis estructural (déficit minero + demanda de IA/redes) es sólida pero ya está mayormente reflejada en el precio, que cotiza cerca de su récord histórico y a ~98% del objetivo de Goldman para fin de 2026 — poca asimetría al nivel actual."
+  }
+ },
+ "sources": [
+  "TradingView scanner (COMEX:HG1!), 2-nov-2026 — precio $6.5165/lb, RSI 45.8, MACD -0.02/señal -0.02, SMAs, percentil 52 sem. 79.8%",
+  "Investing.com / TradingEconomics, nov-2026 — rango de 52 semanas de cobre entre $4.888 y $6.9285 (máx. 22-sep-2026)",
+  "MINING.com (X/Sprott), oct-2026 — producción minera global de cobre -1.1% en 1S2026; disrupciones en Grasberg y Kamoa-Kakula retiran ~600,000t de oferta 2026",
+  "Freeport-McMoRan, Q3 2026 earnings call (Benzinga/SMM/Yahoo Finance), oct-2026 — producción 832 millones de lb de cobre; Grasberg a 67% de capacidad, meta 80% a mediados de 2027",
+  "Mining.com / SMM / Newsroom Panama, oct-2026 — comisión panameña recomienda reiniciar Cobre Panamá vía sociedad estatal con First Quantum; decisión final pendiente del presidente Mulino",
+  "CruxInvestor / SMM Copper Morning Comment, oct-nov-2026 — inventarios COMEX ~718,200t (+750% desde feb-2025, ~70% del stock visible global); LME 229,650t; SHFE 73,962t",
+  "S&P Global (press release)/Bloomberg Professional, ene-2026 — demanda de IA/data centers y defensa impulsan un déficit estructural de cobre; demanda global de ~28Mt (2025) a >42Mt (2040)",
+  "CFTC / cotsummaryfortraders.com, oct-2026 — managed money neto largo en cobre +40,575 contratos (27-oct-2026), -7,115 semanal, bajando desde percentil 95.4% (set-2026)",
+  "Fastmarkets / FourWeekMBA / Mining.com.au, oct-nov-2026 — prima de importación china Yangshan supera US$200/t, récord desde 2017",
+  "Reuters (vía finwire.io), nov-2026 — PMI manufacturero oficial de China 49.2 en noviembre, octavo mes consecutivo en contracción",
+  "GACC / chinadata.live, oct-2026 — importaciones de cobre de China +20.7% m/m a 461,000t en septiembre",
+  "TradingEconomics, nov-2026 — calendario: balanza comercial de China (octubre) se publica el 10-nov-2026",
+  "MINING.com (X/Reuters), oct-2026 — Goldman Sachs eleva su objetivo 2027 de cobre LME a US$15,400/t (desde US$13,800) y el de fin de 2026 a US$14,700/t (desde US$13,735)",
+  "White Case / BDO / tariffcalculator2026.com, sep-2026 — Section 232: aranceles de 50% sobre semimanufacturas de cobre y derivados en vigor; cobre refinado aún pendiente de decisión",
+  "fedratecalc.com / CME FedWatch, nov-2026 — FOMC del 9-dic-2026, probabilidad de alza de 25pb entre ~71% y ~87%"
+ ],
+ "perfil": "El cobre es un metal industrial, no una empresa: este instrumento sigue el futuro continuo de COMEX (HG1!), el contrato más próximo a vencer que se renueva (rollea) cada mes, por lo que su retorno depende del precio spot y de la curva de futuros (contango resta, backwardation suma al rollear). Su demanda se reparte entre construcción, redes eléctricas y electrónica, y de forma creciente entre vehículos eléctricos, infraestructura de datos/IA y expansión de redes de transmisión. Su oferta proviene de un número reducido de minas de gran escala concentradas en Chile, Perú, la República Democrática del Congo e Indonesia, con plazos de desarrollo de nuevos yacimientos de una década o más. El nivel de precio lo determinan: (1) el balance físico global entre producción minera/refinación y consumo, con China como comprador marginal dominante; (2) los inventarios visibles en LME, COMEX y SHFE; (3) la política comercial (aranceles, arbitrajes regionales); y (4) el ciclo económico global, al que el cobre es muy sensible por su uso industrial. Riesgos estructurales: concentración geográfica de la oferta, dependencia de la demanda china y exposición a políticas arancelarias cambiantes.",
+ "opportunity": {
+  "cats": {
+   "valuacion_hist": {
+    "score": 36,
+    "just": "Percentil de 79.8% en su propio rango de 52 semanas, a solo ~6% de su récord histórico (22-sep-2026): no está barato vs. su historia reciente de 12 meses, que ya incorpora buena parte del shock de oferta."
+   },
+   "calidad": {
+    "score": 58,
+    "just": "El déficit tiene un componente estructural más durable que un shock puramente geopolítico: caída de producción minera por primera vez desde 2017 que coincide con demanda nueva de IA/redes que recién se acelera, aunque sigue expuesto a la ciclicidad china."
+   },
+   "asimetria": {
+    "score": 36,
+    "just": "Al precio actual (~98% del objetivo de Goldman para fin de 2026, cerca del récord histórico) el upside inmediato es acotado frente al downside de una reversión del arbitraje arancelario COMEX o una desaceleración china más profunda."
+   },
+   "catalizadores": {
+    "score": 54,
+    "just": "Hay catalizadores relevantes en 6-18 meses (reinicio de Cobre Panamá, ramp de Grasberg a 80% a mediados de 2027, definición del arancel al refinado), pero varios sin fecha confirmada todavía."
+   },
+   "contrarian": {
+    "score": 56,
+    "just": "El posicionamiento especulativo se enfría desde un extremo (percentil 95%) mientras la demanda física china (prima récord) se sostiene — divergencia levemente contraria y constructiva, sin ser una señal extrema."
+   }
+  },
+  "plan": {
+   "recomendacion": "Mantener / Observar",
+   "zona_compra": "N/A al spot — esperar un retroceso hacia la zona SMA50-SMA200 (~US$6.25-6.63/lb) que mejore el margen de seguridad sin romper la tendencia de fondo",
+   "invalidacion": "Quiebre sostenido (cierre diario) bajo la SMA200 (~US$6.25/lb), que señalaría que el déficit físico ya está descontado o se revirtió, o una resolución del arbitraje arancelario que vacíe rápido los inventarios de COMEX",
+   "gatillos": [
+    "Decisión del gobierno de Panamá sobre el reinicio de Cobre Panamá",
+    "Definición del arancel Section 232 sobre cobre refinado (aún pendiente)",
+    "Evolución del posicionamiento especulativo (CFTC COT) tras la caída desde el percentil 95%"
+   ],
+   "horizonte": "6-18 meses",
+   "tamano": "Posición pequeña-moderada (2-4% de cartera): sin riesgo de quiebra, pero con alta volatilidad de precio y exposición binaria a política arancelaria y al ciclo chino",
+   "confianza": "media"
+  }
+ },
+ "reportDate": "2 de noviembre de 2026",
+ "technical": {
+  "price": 6.513,
+  "change_1d_pct": -0.83,
+  "change_1w_pct": null,
+  "rsi": 45.6,
+  "macd": -0.0225,
+  "macd_signal": -0.0173,
+  "sma20": 6.5934,
+  "sma50": 6.6264,
+  "sma200": 6.2491,
+  "ema12": 6.5667,
+  "ema26": 6.5891,
+  "pct_vs_sma20": -1.22,
+  "pct_vs_sma50": -1.71,
+  "pct_vs_sma200": 4.22,
+  "volume_today": 1507,
+  "volume_avg20": 39254.0,
+  "volume_ratio": 0.04,
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "price_percentile_1y": 79.6,
+  "vs_benchmark_30d_pct": 1.45,
+  "perf_1m_pct": -0.94,
+  "perf_ytd_pct": 14.32
+ },
+ "risk": {
+  "volatility_30d": null,
+  "sharpe": null,
+  "sortino": null,
+  "max_drawdown_1y": null,
+  "n_days": 1,
+  "window": 30
+ },
+ "benchmark": {
+  "ticker": "SP:SPX",
+  "label": "S&P 500",
+  "relative_performance_30d": 1.45,
+  "relative_performance_ytd": 4.68,
+  "price_percentile_1y": 79.6,
+  "partial": false
+ },
+ "sourcesMeta": {
+  "price": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-11-02T22:54:45-03:00"
+  },
+  "rsi_macd": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-11-02T22:54:45-03:00"
+  },
+  "smas_volume": {
+   "origin": "TradingView scanner",
+   "fetched_at": "2026-11-02T22:54:45-03:00"
+  },
+  "benchmark": {
+   "origin": "TradingView scanner",
+   "symbol": "SP:SPX",
+   "fetched_at": "2026-11-02T22:54:45-03:00"
+  },
+  "risk_metrics": {
+   "origin": "data/history/FX-COPPERUSD.json",
+   "n_days": 1
+  }
+ },
+ "metricChanges": []
+}
