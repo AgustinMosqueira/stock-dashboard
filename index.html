@@ -1162,7 +1162,7 @@
     "asesoría de inversión ni recomendación de compra/venta. Verifique todos los datos de forma " +
     "independiente antes de tomar decisiones financieras.";
 
-  const DATA_DATE = "2 de noviembre de 2026";
+  const DATA_DATE = "2-nov-2026";
   const CRYPTO_TICKERS = new Set([
     "BTC/USD", "ETH/USD", "XRP/USD", "SOL/USD", "XLM/USD", "XDC/USD",
     "HBAR/USD", "ALGO/USD", "IOTA/USD", "ONDO/USD", "QNT/USD", "LINK/USD",
@@ -1173,7 +1173,7 @@
   // de Vercel separado). CHAT_API_URL es un placeholder hasta que exista el
   // deploy: reemplazar por la URL real ("https://<proyecto>.vercel.app/api/chat").
   // ============================================================================
-  const CHAT_API_URL = "https://REPLACE_WITH_VERCEL_URL/api/chat"; // TODO: reemplazar cuando exista el deploy
+  const CHAT_API_URL = "https://stock-dashboard-chat.vercel.app/api/chat";
   const CHAT_SHARED_SECRET = "555ff765cfc129c3ba2f50c5015b2f2e"; // mismo valor que CHAT_SHARED_SECRET en Vercel; no es seguridad real (repo público), solo frena bots casuales
   const CHAT_MAX_QUESTION_LEN = 1000;
 
@@ -2681,7 +2681,7 @@
   //   publicación. El navegador (o el service worker) puede servir un index.html viejo
   //   de su caché; version.json se pide siempre con no-store, así que si el build
   //   publicado no coincide con el que tiene esta pestaña, se recarga saltando la caché.
-  const BUILD_ID = "20261103011004";
+  const BUILD_ID = "20261103011111";
   let recargando = false;
   async function chequearVersion() {
     if (recargando || location.protocol !== "https:") return;
