@@ -1,0 +1,6 @@
+{
+  "name": "stock-dashboard-chat",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Función serverless del chat del dashboard (api/chat.js). El sitio estático lo sigue sirviendo GitHub Pages; esto es un deploy aparte en Vercel del mismo repo."
+}
