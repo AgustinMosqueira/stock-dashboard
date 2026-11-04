@@ -649,5 +649,54 @@
 "metric": "precio_pct",
 "from": 5204,
 "to": 4763
+},
+{
+"ticker": "AAPL",
+"date": "2026-11-04",
+"metric": "rsi",
+"from": 41.7,
+"to": 60.05
+},
+{
+"ticker": "ALGO/USD",
+"date": "2026-11-04",
+"metric": "precio_pct",
+"from": 0.09,
+"to": 0.1
+},
+{
+"ticker": "CLSK",
+"date": "2026-11-04",
+"metric": "precio_pct",
+"from": 8.15,
+"to": 6.99
+},
+{
+"ticker": "ETH/USD",
+"date": "2026-11-04",
+"metric": "rsi",
+"from": 34.72,
+"to": 54.56
+},
+{
+"ticker": "MSFT",
+"date": "2026-11-04",
+"metric": "rsi",
+"from": 49.4,
+"to": 64.53
+},
+{
+"ticker": "TTWO",
+"date": "2026-11-04",
+"metric": "rsi",
+"from": 39.46,
+"to": 56.25
+},
+{
+"ticker": "UBER",
+"date": "2026-11-04",
+"metric": "rsi",
+"from": 42.38,
+"to": 60.34
 }
 ]
