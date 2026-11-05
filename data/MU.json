@@ -1,203 +1,210 @@
 {
   "ticker": "MU",
-  "company": "Micron Technology, Inc.",
+  "company": "Micron Technology, Inc. (MU)",
   "statsList": [
     [
       "Precio",
-      "$934.27 (29-oct-2026)"
+      "$809.42 (4-nov-2026)"
     ],
     [
       "Rango 52 sem.",
-      "$192.59 – $1,255.00"
+      "$192.59 - $1,255.00 (TradingView/IndMoney, 4-nov-2026)"
     ],
     [
       "Market cap",
-      "~$1.05 billones USD (28-oct-2026)"
+      "~$915.000 M (calculado: 1.13B acc. x $809.42, base shares outstanding SEC 10-Q 28-may-2026)"
     ],
     [
       "P/E (trailing y forward)",
-      "~12x-13x trailing / ~5.5x-7.5x forward (según fuente, tras alza de precio)"
+      "trailing ~10,7x (EPS FY2026 $75,52, stockanalysis.com, nov-2026); forward ~4,6x-8,2x (dispersión amplia según consenso EPS FY2027 $98,52-$176,50, stockanalysis/fool.com, nov-2026)"
     ],
     [
       "Target consenso",
-      "~$1,562 promedio (~49 analistas, rango $361-$3,000, consenso Strong Buy, sin ningún Sell)"
+      "~$1.400-$1.560 (49 analistas, S&P Global/stockanalysis, nov-2026; implica +70-90% vs precio actual, dato pre-caída reciente)"
     ],
     [
       "Próx. earnings",
-      "23-dic-2026, after close (Q1 FY2027, confirmado — TipRanks/calendario IR)"
+      "23-dic-2026, Q1 FY2027 (TipRanks, nov-2026; fecha aún no 100% confirmada por la empresa)"
     ],
     [
       "Técnico (auto)",
-      "RSI 47.1 · MACD -22.75 / señal -23.61 (TradingView, 29-oct-2026)"
+      "RSI 36.4 · MACD -37.79 / señal -28.93 (TradingView, 4-nov-2026)"
     ]
   ],
-  "change": {
-    "day": -4.98,
-    "week": 6.46
-  },
   "events": [
     {
       "date": "2026-11-06",
-      "label": "Tercera ronda de negociación laboral — huelga planta Taoyuan (Taiwán)",
-      "kind": "other",
-      "info": "HECHO: segunda ronda (27-oct) terminó sin acuerdo; sindicato exige bono ~83 meses de salario + 15% de utilidad operativa trimestral desde FY27; tercera ronda fijada para el 6-nov-2026 (DigiTimes/TradingKey, 27-28-oct-2026)."
+      "label": "Tercera ronda de negociación salarial — huelga planta Taoyuan (Taiwán)",
+      "kind": "corporate",
+      "info": "Dos rondas fallidas (21 y 27-oct); sindicato autorizó huelga con 99% de apoyo. HECHO: fecha confirmada (Reuters/Yahoo Finance, 4-nov-2026)."
     },
     {
       "date": "2026-12-23",
-      "label": "Próx. earnings — Q1 FY2027 (reporte y conference call, after close)",
+      "label": "Earnings Q1 FY2027",
       "kind": "earnings",
       "time": "15:00",
-      "info": "HECHO: fecha confirmada (TipRanks, calendario IR). Guidance oficial dado en el 8-K del Q4 FY26 (30-sep-2026): revenue $61.5B±$1.5B, EPS no-GAAP $38.15±$1.00, margen bruto no-GAAP ~86.25% (vs 87.0% real de Q4 FY26); consenso de EPS ~$38.23 (29 analistas, TipRanks)."
+      "info": "Guidance previo: revenue $61.500M ±$1.500M, EPS $38,15±$1,00; margen bruto ajustado guiado ~86,25% para el trimestre, descrito como piso del año fiscal. HECHO: fecha con alta probabilidad pero no 100% confirmada (TipRanks, nov-2026)."
     }
   ],
   "sections": {
-    "resumen": "MU cayó -4.98% el 29-oct a $934.27 y continuó débil el 30-oct, en venta generalizada de tech/memoria (Nasdaq -1.53%) tras capex de Microsoft/Alphabet bajo lo esperado, sin noticia negativa propia (FXLeaders/TradingKey, 29-30-oct). Q4 FY26 (reportado 30-sep): revenue real $54.23B (+379% YoY), EPS non-GAAP $33.42, margen bruto 87.0%, superando el guidance previo. Guidance Q1 FY27: revenue $61.5B±$1.5B, EPS $38.15±$1.00, margen bruto ~86.25%. Earnings Q1 FY27 confirmado 23-dic. Huelga en Taoyuan sin resolver; ronda 3 el 6-nov. CXMT rechazó pedidos de Apple por precio.",
-    "fundamental": "- Q4 FY26 real (reportado 30-sep-2026): revenue $54.23B (+379% YoY, +31% QoQ), EPS non-GAAP $33.42, margen bruto 87.0% — superó el consenso previo (~$31/acción) y confirma que el guidance de $61.5B/EPS $38.15 corresponde a Q1 FY27, no al trimestre ya reportado (HECHO, 8-K SEC EDGAR, CNBC, 30-sep-2026).\n- CXMT rechazó pedidos de Apple por exigir precios por debajo de Micron/Samsung/SK Hynix, priorizando clientes chinos domésticos — matiza el riesgo de waiver de Apple hacia proveedores chinos (HECHO, ecns.cn, 26-oct-2026).\n- DRAM contract price +5.77% MoM en octubre; HBM4 ~$550/stack, ASP HBM proyectado +121% YoY para 2027; Micron declara >75% de embarques FY27 ya comprometidos (HECHO, TrendForce, oct-2026).\n- Nuevo Form 4: Scott J. DeBoer (Presidente y CTO) vendió ~28,545 acciones el 16-oct a $900.00-$902.01 bajo plan 10b5-1 no discrecional (HECHO, SEC EDGAR); sin venta discrecional nueva de Mehrotra desde el 13-oct.\n- Huelga en Taoyuan sin resolver (ronda 2 fallida 27-oct, ronda 3 el 6-nov); Micron recluta ingenieros en Corea del Sur como contingencia; la planta de Taichung (otro sindicato) ya cerró acuerdo el 21-oct (HECHO, DigiTimes, 27-28-oct).",
-    "valuacion": "- P/E trailing ~12-13x y forward ~5.5-7.5x tras la caída del 29-oct, manteniéndose bajo para el crecimiento reportado (+379% YoY revenue Q4 FY26) (HECHO/LECTURA).\n- Consenso 12 meses ~$1,562 (49 analistas), implicando upside ~67% desde $934.27; rango extremo $361-$3,000 sin resolverse, techo reiterado por DA Davidson el 28-oct (HECHO).\n- Sin ninguna revisión a la baja de targets tras la caída del 29-oct ni tras SK Hynix — bancos siguen subiendo en cascada (Citi $1,300 y Bernstein $1,300 el 28/29-oct, BofA $1,550 el 26-oct) (HECHO).\n- El escepticismo de Fool.com sobre sostenibilidad de margen (precedente: pico de 61% en FY2018 se desplomó a la mitad en 4 trimestres) no se refleja aún en los targets de consenso (HECHO/LECTURA).\n- La caída del 29-30-oct fue por sentimiento sectorial (capex de hyperscalers, no por Micron) — sugiere que el riesgo de valuación es más beta de mercado que deterioro de tesis (LECTURA).",
-    "tecnico": "- Sin cambios en el dataset técnico interno: RSI 47.1, MACD -22.75/señal -23.61 (TradingView, 29-oct-2026).\n- Precio cayó -4.98% el 29-oct a $934.27 tras +12% semanal previo, con continuación de debilidad el 30-oct (-4% a -5% según fuentes) — reversión abrupta tras sobreextensión de corto plazo.\n- Riesgo técnico de perforar soporte de ~$900 mencionado por TradingKey (30-oct); MU está -25% desde su máximo de junio 2026 pese a +225% YTD.\n- Indicadores de RSI/MACD/medias/volatilidad se preservan del dataset interno sin reinvestigar, según metodología.",
-    "sentimiento": "- Consenso Wall Street sigue unánimemente bullish (Strong Buy, sin ningún Sell) incluso después de la caída del 29-oct, sin ninguna rebaja de target (HECHO).\n- La caída de -4.98% a -10% en dos días (29-30 oct) sin noticia negativa propia de Micron sugiere fragilidad de posicionamiento tras el rally YTD de +225%, más que cambio de tesis (LECTURA).\n- Lectura contraria: con consenso aún unánime y targets compitiendo al alza mientras el precio ya cayó, el mercado empieza a separar precio de narrativa — primera grieta real en la euforia de octubre (LECTURA).\n- Riesgo laboral (Taoyuan) y competencia china (CXMT) siguen sin pesar en el consenso de analistas, lo que deja asimetría de decepción si cualquiera escala (LECTURA).",
-    "catalizadores": "**Catalizadores:**\n- Q4 FY26 real ya superó expectativas (revenue $54.23B +379% YoY, EPS $33.42, margen 87%) — piso de ejecución alto confirmado (HECHO).\n- Próximo reporte Q1 FY27 confirmado el 23-dic-2026, con guidance récord ($61.5B/EPS $38.15) como referencia a superar (HECHO).\n- >75% de embarques FY27 ya comprometidos vía acuerdos de largo plazo, mitigando narrativa de pico de ciclo efímero (HECHO).\n- Resolución de la negociación laboral en Taoyuan (6-nov) liberaría presión sobre capacidad comprometida (LECTURA).\n\n**Riesgos (por materialidad):**\n- Huelga Taoyuan sin resolver, demandas sindicales elevadas; riesgo sobre capacidad comprometida con clientes (HECHO).\n- Venta generalizada de tech/memoria el 29-30 oct por dudas de capex de hyperscalers (Microsoft/Alphabet) — riesgo de que la demanda de IA se modere antes de lo esperado (HECHO).\n- Precedente histórico de compresión violenta de margen bruto (pico FY2018 61% se desplomó a la mitad en 4 trimestres); guidance ya proyecta leve baja a 86.25% (HECHO/LECTURA).\n- CXMT avanza en litografía DUV con DDR5 RDIMM para fin de 2026 y ya rechaza pedidos de Apple por precio, mostrando capacidad y disciplina comercial crecientes (HECHO).",
-    "conclusion": "Q4 FY26 real confirmó ejecución excepcional (revenue $54.23B, +379% YoY, margen 87%), y el guidance de Q1 FY27 ($61.5B/EPS $38.15) sitúa el próximo reporte, ya confirmado para el 23-dic. Pese a ello, MU cayó -4.98% el 29-oct y siguió débil el 30-oct por sentimiento sectorial (capex de hyperscalers), no por deterioro propio. Persisten riesgos sin resolver: huelga en Taoyuan (6-nov) y precedente de compresión de margen. El consenso de analistas no bajó targets pese a la caída, abriendo una grieta entre precio y narrativa. Señal: fundamentos intactos, pero mayor fragilidad de precio de corto plazo. Confianza: media."
+    "resumen": "MU cayó junto al sector memoria tras guía cautelosa de Kioxia (2-nov) que reavivó dudas sobre sostenibilidad del boom de IA; pesan además temores a sobrecapacidad china (CXMT) y disputa laboral en Taoyuan (ronda 6-nov). El ciclo DRAM/HBM sigue firme en precios (contrato PC DRAM +13-18% en Q4) y Micron tiene HBM4 totalmente contratado para 2026, pero el mercado cuestiona el margen de seguridad tras un rally de +190% en 2026. RSI 36,4 y MACD negativo confirman debilidad técnica tras corrección de -23% desde el pico de junio.",
+    "fundamental": "- HECHO: margen bruto ajustado guiado ~86,25% para Q1 FY2027, descrito como piso del año fiscal, con expansión esperada después por precios y mix (Forbes/SeekingAlpha, nov-2026).\n- HECHO: HBM4 en rampa desde marzo 2026 para Nvidia Vera Rubin, ramp ~2x más rápido que HBM3E; suministro HBM de todo 2026 ya contratado en precio y volumen (TrendForce dic-2025, Digitimes/TheElec, nov-2026).\n- HECHO: HBM4E en desarrollo, con rampa de volumen esperada en 2027 (TweakTown/TheElec, nov-2026).\n- LECTURA: sostenibilidad de márgenes ~85-87% depende de que hyperscalers no recorten capex y de que CXMT no fuerce bajadas de precio en DRAM legacy; riesgo de normalización de oferta sigue latente.\n- HECHO: FY2026 ingresos +256% a $133.190 M según reporte de resultados citado por StreetwiseReports (nov-2026).",
+    "valuacion": "- HECHO: P/E trailing ~10,7x con EPS FY2026 $75,52 (stockanalysis.com, nov-2026).\n- LECTURA: P/E forward muy disperso entre fuentes (4,6x a 8,2x), reflejo de alta incertidumbre sobre sostenibilidad de ganancias del superciclo.\n- HECHO: target consenso de 49 analistas ronda $1.400-$1.560, implicando upside de 70-90% desde $809,42, aunque calculado antes de la corrección de esta semana (S&P Global/stockanalysis, nov-2026).\n- LECTURA: valuación sigue barata en términos de múltiplo histórico de ciclo, pero el mercado está descontando que los beneficios actuales no son sostenibles a 3-5 años.\n- HECHO: caída de -23% desde máximo de junio 2026 ($1.255) es consistente con drawdowns históricos de MU (36-73% en ciclos previos) (Fool.com, oct-2026).",
+    "tecnico": "- HECHO: precio $809,42, caída diaria -5,34% y semanal -8,51% (TradingView, 4-nov-2026).\n- HECHO: RSI 36,4 indica zona de debilidad, cercana a sobreventa sin confirmarla aún.\n- HECHO: MACD -37,79 por debajo de señal -28,93, confirma momentum bajista de corto plazo con posible aceleración.\n- LECTURA: ruptura por debajo de niveles técnicos clave tras noticia de Kioxia (2-nov) sugiere cambio de carácter real, no solo ruido; vigilar si RSI perfora 30.\n- LECTURA: beta ~2,17 amplifica tanto caídas como subidas frente al mercado, consistente con el movimiento actual.",
+    "catalizadores": "**Catalizadores:**\n- Resolución favorable de la negociación laboral en Taoyuan el 6-nov-2026 eliminaría un overhang de corto plazo.\n- Confirmación de que HBM4/HBM4E mantiene ramp acelerado y contratos de largo plazo con Nvidia y otros.\n- Guía de Q1 FY2027 (23-dic-2026) que sostenga o mejore margen bruto ~86-87% pese a costos de nuevas fabs.\n- Estabilización de precios DRAM/NAND tras semanas de spot plano, con contratos PC DRAM subiendo 13-18% en Q4.\n\n**Riesgos (por materialidad):**\n- Huelga efectiva en Taoyuan si la tercera ronda (6-nov) fracasa, afectando producción.\n- Guía cautelosa de pares (Kioxia) o de hyperscalers que confirme desaceleración de capex de IA.\n- Avances de CXMT en DUV/capacidad DRAM legacy que erosionen pricing, incluyendo eventual acceso de Apple a chips CXMT.\n- Ventas de insiders (Mehrotra bajo plan 10b5-1) interpretadas como señal de techo, aunque son programadas y no discrecionales.",
+    "sentimiento": "LECTURA: consenso de analistas sigue muy alcista (Strong Buy, targets muy por encima del precio actual), extremo de unanimidad que amerita cautela contrarian. HECHO: Michael Burry reveló posición corta en puts de MU por temor a burbuja de IA (28-sep-2026, Yahoo Finance). HECHO: ventas de Mehrotra bajo plan 10b5-1 continúan (última $8,29M, 24-jul-2026), rutinarias, no alarmantes. Consenso optimista + corrección técnica + voces bajistas genera sentimiento mixto, no unánime.",
+    "conclusion": "MU combina fundamentales de ciclo de memoria aún fuertes (HBM contratado, márgenes ~86%) con una corrección técnica real (-23% desde máximo, RSI 36, MACD negativo) gatillada por dudas sectoriales (Kioxia) y riesgos idiosincráticos (huelga Taoyuan, avance de CXMT). El consenso de analistas extremadamente alcista exige cautela contrarian, pero la valuación en múltiplos trailing sigue baja para el crecimiento de beneficios. El 6-nov (negociación laboral) y el 23-dic (earnings) son los catalizadores binarios más próximos."
   },
   "scores": {
     "tecnica": {
-      "score": 38,
-      "just": "La caída de -4.98% el 29-oct y continuación débil el 30-oct rompen la verticalidad previa sin aún definir un piso claro (riesgo de perforar soporte ~$900); el cambio de carácter es negativo de corto plazo tras el sprint de +12% semanal, lo que pesa más que el RSI aún neutral (47.1)."
+      "score": 28,
+      "just": "Ruptura por debajo de niveles técnicos clave tras la guía cautelosa de Kioxia (2-nov) sugiere cambio de carácter real (no solo ruido), con MACD ampliando distancia bajo señal y RSI 36,4 cerca de sobreventa sin confirmarla; sin evidencia de piso formándose."
     },
     "fundamental": {
-      "score": 86,
-      "just": "Q4 FY26 real confirmado con revenue $54.23B (+379% YoY) y margen 87%, superando el consenso previo, más guidance récord para Q1 FY27 y >75% de embarques FY27 ya comprometidos; único matiz es el precedente histórico de compresión de márgenes y la huelga en Taoyuan sin resolver."
+      "score": 68,
+      "just": "HBM4 totalmente contratado para 2026 y margen bruto guiado ~86,25% como piso del año fiscal sostienen el ciclo; FY2026 con ingresos +256%. Resta ver si CXMT o una desaceleración de capex de hyperscalers erosiona el pricing."
     },
     "sentimiento": {
-      "score": 45,
-      "just": "El consenso de analistas sigue unánimemente eufórico (Strong Buy, sin Sell, targets subiendo) incluso tras la caída de -4.98%/-10% en dos días, lo cual bajo lectura contraria mantiene la nota moderada: el mercado (precio) ya empieza a divergir de la narrativa de analistas, una primera grieta que reduce el riesgo de sobreoptimismo ciego."
+      "score": 42,
+      "just": "Consenso de analistas unánimemente alcista (Strong Buy, targets +70-90%) amerita cautela bajo lectura contraria; parcialmente compensado por voces bajistas prominentes (Burry) y la corrección reciente que ya refleja parte del pesimismo sectorial."
     },
     "riesgo": {
-      "score": 33,
-      "just": "Riesgo de negocio estructural persiste: huelga Taoyuan sin resolver (ronda 6-nov) y CXMT avanzando en capacidad DUV con disciplina comercial propia (rechazó pedidos de Apple por precio); se distingue de la volatilidad de precio (beta ~2.1-2.22, drawdown de -25% desde junio) que no define por sí sola pérdida permanente de tesis."
+      "score": 62,
+      "just": "Riesgo de pérdida permanente moderado-alto: huelga en Taoyuan y avance de CXMT en DUV son riesgos de tesis, no solo de precio; beta ~2,17 amplifica la volatilidad pero no define por sí sola pérdida permanente."
     },
     "conviccion": {
-      "score": 53,
-      "just": "La tesis de superciclo se refuerza con resultados reales (no solo guidance) y contratos de largo plazo, pero la caída de -4.98%/-10% en dos días por sentimiento sectorial introduce nueva incertidumbre de corto plazo justo antes del catalizador de huelga (6-nov); convicción se mantiene similar al informe previo, sin subir pese a la mejora fundamental confirmada."
+      "score": 68,
+      "just": "Asimetría mejora tras la corrección de -23% con fundamentos (HBM contratado, márgenes) intactos; dos catalizadores binarios cercanos (6-nov, 23-dic) permiten una tesis falsable en semanas, sosteniendo convicción moderada-alta."
     }
   },
   "sources": [
-    "SEC EDGAR 8-K (CIK 0000723125, Accession 0000723125-26-000018), 30-sep-2026 — Q4 FY26 real: revenue $54.23B (+379% YoY), EPS non-GAAP $33.42, margen bruto 87.0%; FY26 total revenue $133.19B",
-    "CNBC / Investing.com, 30-sep-2026 — cobertura de resultados Q4 FY26 de Micron y guidance Q1 FY27: revenue $61.5B±$1.5B, EPS non-GAAP $38.15±$1.00, margen bruto ~86.25%",
-    "FXLeaders, 29-oct-2026 y TradingKey/StocksToTrade, 30-oct-2026 — caída de MU -4.98% (29-oct) y continuación de debilidad (30-oct) por venta generalizada de tech/memoria tras capex de Microsoft/Alphabet bajo lo esperado, sin noticia negativa propia; riesgo técnico de perforar soporte ~$900",
-    "TipRanks.com, oct-2026 — próximo earnings Q1 FY27 confirmado 23-dic-2026 after close; consenso EPS ~$38.23 (29 analistas)",
-    "DigiTimes, 27-28-oct-2026 — huelga Taoyuan: segunda ronda (27-oct) sin acuerdo, tercera ronda fijada 6-nov-2026; demandas sindicales bono ~83 meses salario + 15% utilidad operativa trimestral desde FY27; Micron recluta ingenieros en Corea del Sur; planta Taichung (otro sindicato) ya acordó el 21-oct",
-    "SEC EDGAR Form 4, Scott J. DeBoer (Presidente y CTO) — 16-oct-2026, venta de ~28,545 acciones a $900.00-$902.01 bajo plan 10b5-1 (no discrecional, adoptado 17-jul-2026); sin venta discrecional nueva de Sanjay Mehrotra desde el 13-oct-2026",
-    "TrendForce, oct-2026 — DRAM contract price +5.77% MoM; HBM4 ~$550/stack; ASP HBM +121% YoY proyectado para 2027; SK Hynix \"sold out\" de DRAM/HBM hasta 2029; Micron >75% de embarques FY27 ya comprometidos",
-    "ecns.cn, 26-oct-2026 — CXMT rechazó pedidos de Apple por exigir precios por debajo de Micron/Samsung/SK Hynix, priorizando clientes chinos domésticos",
-    "CNBC, 13-oct-2026 — CXMT anuncia avance en litografía DUV (celda 4F² sin EUV) con DDR5 RDIMM para servidores antes de fin de 2026; caída global de acciones de memoria ese día",
-    "Fool.com, oct-2026 — escepticismo sobre sostenibilidad de margen bruto: precedente histórico de pico de 61% en FY2018 que se desplomó a la mitad en 4 trimestres; CFO Mark Murphy sostiene que esta vez se mantendrá \"significativamente por encima de picos previos\"",
-    "Yahoo Finance / 247wallst.com, oct-2026 — price targets: DA Davidson $3,000 (28-oct, reiterado), Citi $1,300 (29-oct), Bernstein $1,300 (28-oct), BofA $1,550 (26-oct), Wedbush $1,400 (23-oct), Goldman $1,250 (1-oct, único Neutral); consenso ~49 analistas, PT promedio ~$1,562, rango $361-$3,000, sin ningún Sell",
-    "Macrotrends/IndMoney, oct-2026 — rango 52 semanas $192.59-$1,255.00; beta ~2.1-2.22; MU -25% desde máximo de junio 2026 pese a +225% YTD"
+    "TradingView (precio y técnicos, 4-nov-2026)",
+    "Digitimes - Micron recruits in South Korea for Taiwan roles as Taoyuan strike dispute persists (28-oct-2026)",
+    "Yahoo Finance - Micron's Taiwan Union Authorized a Strike (oct-2026)",
+    "Yahoo Finance - Micron Union Taiwan Voted 99% to Authorize a Strike (nov-2026)",
+    "Boerse-Express - Micron Aktie: Taoyuan-Gewerkschaft bleibt ohne Einigung (nov-2026)",
+    "TrendForce - Insights Memory Spot Price Update (4-nov-2026)",
+    "TrendForce - Micron Hikes CapEx to $20B with 2026 HBM Supply Fully Booked (18-dic-2025)",
+    "TweakTown - Micron reveals HBM4E development has started (2026)",
+    "TheElec - Micron's HBM4 Ramp-Up Progressing Smoothly (2026)",
+    "Digitimes - Apple's CXMT play reportedly backfires on DUV limits (6-ago-2026)",
+    "TechWireAsia - China's DUV lithography is real now (jul-2026)",
+    "SEC EDGAR - Form 4 filings Sanjay Mehrotra (2026)",
+    "Investing.com - Micron Technology CEO Sanjay Mehrotra sells $8.29M shares (jul-2026)",
+    "stockanalysis.com - Micron Technology (MU) Stock Forecast & Analyst Price Targets (nov-2026)",
+    "IndMoney - Micron Technologies Live Share Price (nov-2026)",
+    "24/7 Wall St. - Micron Falls 4% as Kioxia's Cautious Outlook Hits Memory Stocks (2-nov-2026)",
+    "Fool.com - Micron Is Down 23% From Its High (16-oct-2026)",
+    "Yahoo Finance - Michael Burry Shorts Micron (sep-2026)",
+    "TipRanks - Micron (MU) Earnings Dates (nov-2026)",
+    "Forbes - Micron Earnings Crushed Estimates, Its Gross Margin Is The Warning (30-sep-2026)",
+    "SeekingAlpha - What Will Micron's Gross Margin Guide Be? (2026)",
+    "StreetwiseReports - Micron's Earnings Test Burry AI Bubble Warning (2-oct-2026)"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 58,
-        "just": "P/E trailing ~12-13x y forward ~5.5-7.5x siguen bajos frente al crecimiento real confirmado (+379% YoY en Q4 FY26); la caída de -4.98%/-10% en dos días mejora levemente el margen de seguridad vs el informe previo sin que haya cambiado la tesis fundamental, aunque la dispersión de targets ($361-$3,000) sigue sin resolverse."
+        "score": 70,
+        "just": "P/E trailing ~10,7x y forward muy bajo en relación a crecimiento de EPS proyectado, aunque la dispersión de estimados (4,6x-8,2x) indica incertidumbre real sobre sostenibilidad de márgenes de ciclo."
       },
       "calidad": {
-        "score": 80,
-        "just": "Resultados reales de Q4 FY26 (no solo guidance) confirman la calidad del ciclo: revenue $54.23B, margen 87%, y >75% de embarques FY27 ya comprometidos; CXMT rechazando pedidos de Apple por precio muestra que ni siquiera el competidor chino está regalando capacidad, reforzando disciplina de pricing sectorial."
+        "score": 72,
+        "just": "Posición de oligopolio (DRAM/NAND/HBM), HBM4 totalmente contratado para 2026 y márgenes ~86% son de alta calidad, pero dependen de un commodity cíclico y de capex masivo con largos plazos de retorno."
       },
       "asimetria": {
-        "score": 52,
-        "just": "Upside a consenso (~67%) se amplía tras la caída del 29-30 oct sin deterioro de tesis; la asimetría mejora frente al informe previo porque el precio bajó mientras los fundamentos (resultados reales, contratos) se confirmaron, aunque persisten dos riesgos binarios sin resolver (huelga 6-nov, margen bruto)."
+        "score": 60,
+        "just": "Corrección de -23% desde máximo abre ventana de entrada, pero riesgo de huelga (6-nov) y guía de pares bajistas (Kioxia) pueden generar más downside antes de estabilizar; la asimetría es favorable pero no extrema todavía."
       },
       "catalizadores": {
-        "score": 65,
-        "just": "Calendario más preciso que el informe previo: earnings Q1 FY27 ahora CONFIRMADO para el 23-dic-2026, más la tercera ronda de negociación laboral el 6-nov-2026 — dos catalizadores fechados y concretos en las próximas 8 semanas."
+        "score": 55,
+        "just": "Negociación laboral 6-nov y earnings 23-dic son catalizadores binarios cercanos y concretos, con riesgo en ambas direcciones según resultado."
       },
       "contrarian": {
-        "score": 40,
-        "just": "El consenso de analistas sigue unánimemente eufórico (Strong Buy, sin Sell) pese a la caída de -4.98%/-10%, pero el hecho de que el precio ya empezó a divergir de esa euforia (cayendo mientras los targets suben) reduce el ángulo contrarian puro respecto al informe previo, donde precio y sentimiento subían juntos sin fricción."
+        "score": 45,
+        "just": "Consenso de analistas unánimemente alcista (targets +70-90%) amerita cautela contrarian, parcialmente compensado por voces bajistas prominentes (Burry) y la corrección reciente que ya refleja parte del pesimismo sectorial."
       }
     },
     "plan": {
-      "recomendacion": "Acumular en zona",
-      "zona_compra": "Escalonar entre $850-920 si continúa la corrección de los días 29-30 oct (zona de soporte técnico mencionada por TradingKey ~$900), evitando perseguir rebotes rápidos antes de la ronda laboral del 6-nov.",
-      "invalidacion": "Deterioro sostenido de márgenes brutos por debajo de ~78-80% durante 2 trimestres consecutivos, huelga prolongada/escalada en Taoyuan que comprometa entregas HBM, o evidencia de que clientes occidentales relevantes migran volumen a CXMT u otro proveedor chino.",
+      "recomendacion": "Esperar gatillo",
+      "zona_compra": "Entre $720-$800, con mayor convicción si RSI perfora 30 y se confirma piso tras resolución de huelga en Taoyuan.",
+      "invalidacion": "Cierre semanal por debajo de $650 con deterioro adicional de pricing DRAM/NAND o confirmación de freno estructural de capex de hyperscalers.",
       "gatillos": [
-        "Resultado de la tercera ronda de negociación laboral en Taoyuan (6-nov-2026)",
-        "Reporte confirmado de Q1 FY27 el 23-dic-2026: validar si margen bruto se mantiene cerca de 86.25% o mejora vs guidance",
-        "Nuevas revisiones de TrendForce sobre pricing DRAM/NAND/HBM para 1T27",
-        "Señales de capex de hyperscalers (Microsoft, Alphabet, Amazon) en sus próximos reportes, dado que fue el detonante de la caída del 29-oct"
+        "Resultado de negociación laboral Taoyuan (6-nov-2026)",
+        "Guía de márgenes y revenue en earnings Q1 FY2027 (23-dic-2026)",
+        "Estabilización/rebote del spot DRAM tras semanas de caída",
+        "Noticias sobre contratos HBM4E de largo plazo"
       ],
       "horizonte": "6-18 meses",
-      "tamano": "Posición moderada (3-5% de cartera), dado beta alto (~2.1-2.22) y volatilidad implícita elevada; la caída reciente mejora el punto de entrada pero no elimina el riesgo de nuevos swings violentos.",
+      "tamano": "Posición media, escalonada en 2-3 tramos dada alta volatilidad (beta ~2,1) y catalizadores binarios próximos.",
       "confianza": "media"
     }
   },
   "perfil": "Micron es uno de los tres grandes fabricantes mundiales de memoria DRAM, NAND y HBM, junto a Samsung y SK Hynix, y compite crecientemente con el fabricante chino estatal CXMT. Vende principalmente a hyperscalers y fabricantes de GPU/servidores de IA (HBM para aceleradores de cómputo), a fabricantes de móviles y PC, y al sector automotriz/industrial. Sus ingresos dependen críticamente del ciclo de precios de memoria, un commodity con oferta concentrada y demanda muy volátil: los superciclos alcistas (como el actual, impulsado por infraestructura de IA) pueden revertirse abruptamente si la oferta se normaliza o si la demanda de datacenters se modera. Requiere capex muy intensivo (nuevas fabs y nodos de proceso cuestan decenas de miles de millones de dólares) con largos plazos de retorno. Está expuesta a riesgo geopolítico relevante: restricciones de EE.UU. a tecnología de litografía hacia China, posibles represalias chinas, y la carrera de CXMT por cerrar la brecha tecnológica y de capacidad, todo lo cual puede alterar la estructura de pricing global de la industria de memoria en los próximos años.",
+  "reportDate": "4 de noviembre de 2026",
   "technical": {
-    "price": 934.27,
-    "change_1d_pct": -4.98,
-    "change_1w_pct": 6.46,
-    "rsi": 47.1,
-    "macd": -22.7474,
-    "macd_signal": -23.6139,
-    "sma20": 960.1165,
-    "sma50": 980.5008,
-    "sma200": 744.072,
-    "ema12": 933.5472,
-    "ema26": 956.2946,
-    "pct_vs_sma20": -2.69,
-    "pct_vs_sma50": -4.72,
-    "pct_vs_sma200": 25.56,
-    "volume_today": 22390298,
-    "volume_avg20": 25479930.0,
-    "volume_ratio": 0.88,
-    "volatility_30d": 52.0,
-    "sharpe": -1.39,
-    "sortino": -1.04,
+    "price": 809.4199,
+    "change_1d_pct": -5.34,
+    "change_1w_pct": -8.51,
+    "rsi": 36.4,
+    "macd": -37.7949,
+    "macd_signal": -28.9282,
+    "sma20": 915.6385,
+    "sma50": 972.4676,
+    "sma200": 753.9976,
+    "ema12": 888.6793,
+    "ema26": 926.4742,
+    "pct_vs_sma20": -11.6,
+    "pct_vs_sma50": -16.77,
+    "pct_vs_sma200": 7.35,
+    "volume_today": 19121905,
+    "volume_avg20": 25830226.0,
+    "volume_ratio": 0.74,
+    "volatility_30d": 57.56,
+    "sharpe": -1.65,
+    "sortino": -1.2,
     "max_drawdown_1y": -39.1,
-    "price_percentile_1y": 69.8,
-    "vs_benchmark_30d_pct": -13.5,
-    "perf_1m_pct": -13.23,
-    "perf_ytd_pct": 216.57
+    "price_percentile_1y": 58.1,
+    "vs_benchmark_30d_pct": -24.06,
+    "perf_1m_pct": -24.33,
+    "perf_ytd_pct": 174.26
   },
   "risk": {
-    "volatility_30d": 52.0,
-    "sharpe": -1.39,
-    "sortino": -1.04,
+    "volatility_30d": 57.56,
+    "sharpe": -1.65,
+    "sortino": -1.2,
     "max_drawdown_1y": -39.1,
-    "n_days": 359,
+    "n_days": 365,
     "window": 30
   },
   "benchmark": {
     "ticker": "SP:SPX",
     "label": "S&P 500",
-    "relative_performance_30d": -13.5,
-    "relative_performance_ytd": 204.32,
-    "price_percentile_1y": 69.8,
+    "relative_performance_30d": -24.06,
+    "relative_performance_ytd": 162.17,
+    "price_percentile_1y": 58.1,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-29T23:06:45-03:00"
+      "fetched_at": "2026-11-04T14:09:00-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-29T23:06:45-03:00"
+      "fetched_at": "2026-11-04T14:09:00-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-29T23:06:45-03:00"
+      "fetched_at": "2026-11-04T14:09:00-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "SP:SPX",
-      "fetched_at": "2026-10-29T23:06:45-03:00"
+      "fetched_at": "2026-11-04T14:09:00-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/MU.json",
-      "n_days": 359
+      "n_days": 365
     }
   },
   "metricChanges": [
@@ -207,13 +214,6 @@
       "metric": "precio_pct",
       "from": 855.34,
       "to": 971.66
-    },
-    {
-      "ticker": "MU",
-      "date": "2026-08-01",
-      "metric": "score",
-      "from": 47,
-      "to": 59
     }
   ],
   "trend": {
@@ -221,9 +221,12 @@
     "techo": 0,
     "max": 7,
     "senales_piso": [
-      "histograma MACD girando al alza"
+      "divergencia RSI alcista"
     ],
     "senales_techo": []
   },
-  "reportDate": "28 de octubre de 2026"
+  "change": {
+    "day": -5.34,
+    "week": -8.51
+  }
 }

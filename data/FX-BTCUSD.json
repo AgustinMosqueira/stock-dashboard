@@ -4,206 +4,221 @@
   "statsList": [
     [
       "Precio",
-      "$76.363 (-1,97% día, -4,6% semana; cierre 29-oct-2026)"
+      "$80,439 (4-nov-2026)"
     ],
     [
       "Rango 52 sem.",
-      "US$57.747,77 – US$116.273,31 (sin cambios; Investing.com/Barchart, 25-26-oct-2026)"
+      "$57,748 – $110,765 (CoinWarz/Investing.com, nov-2026)"
     ],
     [
       "Market cap",
-      "~US$1,52 billones (estimado proporcional a caída de precio desde ~US$1,63 billones del 28-oct; Coingecko/Coinbase, 28-oct-2026)"
+      "~$1,60 billones (calc. 19,96M BTC × precio, 4-nov-2026)"
     ],
     [
       "Dominancia BTC",
-      "~58,5-59% (TokenPost/KuCoin, 30-oct-2026); sube no por fortaleza de BTC sino porque altcoins cayeron aún más (ETH ~10,2% dominancia)"
+      "~59,3%-59,9% (CoinMarketCap/TV-Hub, 4-nov-2026)"
     ],
     [
       "Flujos ETF spot",
-      "26-oct +US$110,3M, 27-oct +US$176M, 28-oct +US$137,3M, 29-oct +US$17,2M neto (4ta jornada positiva consecutiva; IBIT sigue liderando) (Farside Investors/blockchain.news, 26-29-oct-2026)"
+      "-$514,2M acum. nov-2026 (2 sesiones); -$115,56M el 3-nov (TokenPost/SpotedCrypto)"
     ],
     [
       "Próximo evento",
-      "FOMC mantuvo tasas en 3,75-4,00% el 28-oct (voto 10-2); mercado gira a esperar SUBIDA de tasas en dic-2026 (CME FedWatch ~75-80%, FXStreet/Benzinga, 28-30-oct-2026)"
+      "FOMC 9-dic-2026, 16:00 hora Chile"
     ],
     [
       "Técnico (auto)",
-      "RSI 32.1 · MACD -978.87 / señal -434.12 (TradingView, 29-oct-2026)"
+      "RSI 50.6 · MACD -1093.06 / señal -929.71 (TradingView, 4-nov-2026)"
     ]
   ],
-  "change": {
-    "day": -1.97,
-    "week": -4.6
-  },
   "events": [
+    {
+      "date": "2026-11-13",
+      "label": "Ajuste de dificultad de minería BTC",
+      "kind": "corporate",
+      "info": "Ajuste estimado en el bloque ~975.744, con una BAJA estimada de -2,6% a -3,2% desde los niveles actuales de dificultad (CoinWarz, 4-nov-2026)."
+    },
     {
       "date": "2026-12-09",
       "label": "Reunión del FOMC (decisión de tasas)",
       "kind": "macro",
-      "time": "15:00",
-      "info": "Próxima decisión de tasas el 09-dic-2026 (14:00 ET), con Summary of Economic Projections. El FOMC del 28-oct-2026 mantuvo tasas en 3,75-4,00% (voto 10-2), pero los disidentes Lisa Cook y Beth Hammack pidieron SUBIR tasas, no bajarlas (CNN/CNBC, 28-oct-2026). El mercado giró a esperar una posible alza de 25pb en diciembre por inflación persistente y crecimiento fuerte (CME FedWatch ~75-80% de probabilidad de subida, Benzinga/Forbes, 28-30-oct-2026)."
+      "time": "16:00",
+      "info": "Anuncio 14:00 ET / 16:00 hora Chile; el mercado pricea ~72-78% de probabilidad de ALZA de 25pb, no de corte (CME FedWatch/Kalshi/Polymarket, 2-4-nov-2026). Un alza sería adversa para activos de riesgo como BTC."
     }
   ],
   "sections": {
-    "resumen": "BTC cayó a ~US$76.000-77.400 (29-30-oct-2026, -1,97% día/-4,6% semana), perdiendo el nivel de US$80.000 recuperado tras el FOMC. Dos shocks combinados: giro hawkish de la Fed (hold 3,75-4,00%, voto 10-2, disidentes Cook/Hammack pidieron SUBIR, mercado ahora espera alza en dic.) y el hackeo a Binance (US$6,36 mil millones, atribuido a Lazarus Group/Corea del Norte, TRM Labs 30-oct), que gatilló US$1.570M en liquidaciones. Fear & Greed se desplomó de 51 a 29-30 (miedo), dominancia BTC subió a ~58,5-59% por caída aún mayor de altcoins. Flujos ETF resistieron, 4ta jornada positiva consecutiva (29-oct +US$17,2M).",
-    "fundamental": "- HECHO: Hackeo a Binance confirmado por TRM Labs en US$6,36 mil millones, mayor robo cripto de la historia, atribuido a Lazarus Group/TraderTraitor (Corea del Norte) (TRM Labs/CoinDesk/CNBC, 29-30-oct-2026).\n- HECHO: Binance pausó retiros en varias redes; Tether congeló >US$1.567M y Circle >US$800M en stablecoins vinculadas (CNBC/NBC News, 29-30-oct-2026).\n- HECHO: Flujos ETF spot BTC acumulan 4 jornadas positivas consecutivas (26-29 oct: +US$110,3M/+US$176M/+US$137,3M/+US$17,2M), IBIT sigue liderando (Farside/blockchain.news, 26-29-oct-2026).\n- HECHO: Ballenas on-chain en máximo desde nov-2025 (3,03M BTC), +243.000 BTC acumulados desde jul-2026, sin confirmación de venta post-hackeo (CryptoQuant vía KuCoin/PANews, oct-2026).\n- LECTURA: El hackeo es un shock de confianza en exchanges, no un problema de demanda estructural de BTC; los flujos ETF no colapsaron durante el evento.",
-    "valuacion": "- HECHO: MVRV ratio ~1,456x al 29-oct (bajando desde ~1,56x semanas previas), NUPL 0,355, niveles históricamente asociados a zonas de capitulación/suelo de ciclo (Glassnode-type data vía yellow.com, 29-oct-2026).\n- HECHO: Precio ~36-39% bajo el ATH de oct-2025 (~US$116.273-126.198), máximo margen de descuento del período reciente.\n- LECTURA: Caída post-hackeo amplía el descuento valuativo sin que haya evidencia de distribución de holders de largo plazo.\n- HECHO: Dominancia BTC en ~58,5-59% refleja rotación defensiva de capital hacia BTC, no fortaleza absoluta (altcoins cayeron más, -US$134.000M en 15 días) (capmad.com/TokenPost, oct-2026).\n- LECTURA: El percentil de precio 1 año (34,8%, dato técnico) es consistente con una valoración relativa baja dentro del rango anual.",
-    "tecnico": "- HECHO: BTC perdió el soporte de US$80.000, cayendo a mínimo ~US$76.140-77.410 (29-30-oct), nivel más bajo desde mediados de septiembre (Bloomberg/Forbes/CoinDesk, 30-oct-2026).\n- LECTURA: Ruptura de soporte por shock exógeno (hackeo + giro hawkish Fed), no por deterioro técnico orgánico; RSI 32.1 señala sobreventa de corto plazo.\n- HECHO: Precio ahora bajo SMA20 (-6,04%) y SMA50 (-6,74%), pero sobre SMA200 (+4,45%), manteniendo la tendencia de más largo plazo intacta.\n- LECTURA: Cambio de carácter real: de recuperación táctica (28-oct) a ruptura de rango (29-30 oct); próximo soporte relevante en zona US$72.000-76.000.\n- (Técnico auto: otro sistema añade RSI/MACD/medias móviles).",
-    "catalizadores": "**Catalizadores:**\n- Resolución del hackeo de Binance: ~US$2.400M aún en poder del atacante vs. US$2.700M ya congelado por emisores de stablecoins; recuperación adicional calmaría el pánico.\n- Continuidad de flujos ETF positivos (4 días consecutivos) como piso de demanda institucional pese al shock.\n- Ballenas en máximo desde nov-2025 (3,03M BTC) como soporte estructural de holders de largo plazo.\n- Reanudación de compras de Strategy si retoma el ritmo tras pausa de 2 semanas (no verificado post-26-oct).\n\n**Riesgos (por materialidad):**\n- FOMC de diciembre (09-dic-2026) ahora con mercado esperando mayoritariamente SUBIDA de tasas (CME FedWatch ~75-80%), viento en contra para activos de riesgo.\n- Contagio de confianza en exchanges tras el hackeo de Binance; retiros masivos o pánico en otros exchanges no se puede descartar.\n- Concentración extrema de flujos ETF en IBIT deja el mercado vulnerable a su desaceleración.\n- Divergencia entre analistas sobre si el ciclo ya tocó suelo (jun-2026, Galaxy Research) o si falta una caída adicional a US$40.000-50.000 (Peter Brandt).",
-    "sentimiento": "- HECHO: Fear & Greed Index cayó abruptamente de 51 (29-oct) a 29-30 (30-oct), nivel más bajo desde mediados de agosto, cruzando a zona de Miedo (TokenPost/CryptoBriefing, 30-oct-2026).\n- LECTURA: Caída de -21 puntos en un día es señal de pánico agudo por el hackeo + giro hawkish, no de deterioro gradual; cerca de pero sin cruzar el umbral de Miedo Extremo (<25).\n- HECHO: Liquidaciones de futuros alcanzaron US$1.570M en el episodio, la cifra más alta del mes (Bloomberg/CoinDesk, 30-oct-2026).\n- LECTURA: En un contexto de pánico inducido por un shock exógeno (hackeo), la lectura contraria cobra más peso: miedo por evento puntual de confianza en exchanges, no por deterioro de la tesis de BTC en sí.\n- HECHO: Dominancia BTC en máximos del período (~58,5-59%) mientras altcoins sufren salidas aún mayores, consistente con refugio relativo dentro de cripto.\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 26-oct-2026 | +US$110,3M | 100% IBIT; resto en cero |\n| 27-oct-2026 | +US$176M | IBIT +151,5M, FBTC +24,5M |\n| 28-oct-2026 | +US$137,3M | IBIT +136M, BITB +1,3M |\n| 29-oct-2026 | +US$17,2M | IBIT +12,8M, FBTC +10,5M, BITB +8,8M, BTCW -3,8M |\n\nCuatro jornadas consecutivas de inflows netos (26-29 oct, ~US$441M acumulados) resistieron el shock del hackeo de Binance y el giro hawkish de la Fed, aunque el ritmo se desaceleró fuerte el 29-oct. Strategy no compró BTC en la semana 19-25 oct (primera pausa en 5 semanas, mantiene 848.517 BTC), sin confirmación disponible de actividad posterior al 26-oct. Ballenas on-chain (CryptoQuant) siguen en máximo desde nov-2025 (3,03M BTC, +243.000 BTC desde jul-2026), sin señal de venta pánico reportada hasta el momento (Farside Investors/blockchain.news/KuCoin, 26-30-oct-2026).",
-    "conclusion": "Señal: shock doble (hackeo Binance US$6,36 mil millones + giro hawkish de la Fed) rompió la recuperación táctica, llevando a BTC de ~US$81.000 a ~US$76.000-77.400 en 48 horas. Fear & Greed se desplomó a zona de Miedo (29-30) y RSI marca sobreventa (32,1), mientras los flujos ETF resistieron 4 días en positivo y las ballenas no muestran señales de pánico vendedor. El riesgo de diciembre cambió de signo: el mercado ahora espera mayoritariamente una SUBIDA de tasas, no un recorte. Compuesto ~46/100: la caída es mayoritariamente un shock de confianza/macro, no deterioro de la tesis estructural; cautela táctica, confianza media-baja."
+    "resumen": "HECHO: BTC cotiza en $80.439 (+4,02% 1d), recuperando terreno tras el hackeo a Binance (US$6,34 mil millones, ~95% repuesto) y las elecciones de medio término en EE.UU. (The Block, Cryptoslate, 4-nov-2026). LECTURA: el rebote desde ~$75.600-77.400 refleja alivio de riesgo de cola más que cambio de tendencia — RSI 50.6 es neutro, no confirma piso. El mercado ahora teme un ALZA de tasas en diciembre (no un corte), lo que mantiene presión estructural. Fear & Greed en 34 (miedo) sugiere que aún no hay euforia; flujos de ETF siguen negativos en noviembre.",
+    "fundamental": "- HECHO: oferta fija 21M, ~19,96M circulantes; emisión decreciente post-halving abril 2024 (atemporal).\n- HECHO: hashrate ~1.024-1.038 EH/s, dificultad subió 5,92% a mediados de oct-2026, tercer mayor salto del año (Bitcoin.com/CoinWarz, nov-2026); red en máximos de seguridad histórica.\n- HECHO: Strategy compró 811 BTC (US$65,5M, promedio $80.846) entre 26-oct y 1-nov-2026, totalizando 849.327 BTC a costo promedio $75.451 (Kucoin/CryptoTimes, 2-nov-2026).\n- HECHO: dominancia BTC ~59,3-59,9% del mercado cripto total de ~$2,62 billones (CoinMarketCap/TV-Hub, 4-nov-2026).\n- LECTURA: la resiliencia del hashrate y la compra continuada de Strategy pese a la caída post-hackeo refuerzan la tesis estructural de escasez/adopción institucional, aunque la dilución de acciones MSTR reduce BTC-por-acción ~0,17% en la semana (Yahoo Finance, 2-nov-2026).",
+    "valuacion": "- HECHO: MVRV global ~1,4 y STH-MVRV ~1,02-1,05 (cayó de 1,054 a 1,018 entre 27-oct y 3-nov), con holders de corto plazo apenas en ganancia (Phemex/BeInCrypto, 2-nov-2026).\n- LECTURA: precio rondando el costo base de compradores recientes (~$76.000) es zona de decisión técnica, ni sobrecompra ni capitulación — históricamente zona de acumulación en ciclos previos, no de techo.\n- HECHO: precio ~27% por debajo del máximo histórico de 52 semanas ($110.765, 3-nov-2025) (Tech-Champion, nov-2026).\n- LECTURA: la brecha amplia al ATH de 52 semanas combinada con MVRV moderado sugiere valuación relativa 'media', no cara ni barata en términos de ciclo post-halving.\n- no verificable: realized price exacto y NUPL agregado al 4-nov-2026.",
+    "tecnico": "- HECHO: RSI 50.6, MACD -1093.06 vs señal -929.71 (TradingView, 4-nov-2026) — momentum aún negativo (MACD bajo señal) pese al rebote de precio.\n- LECTURA: el +4,02% diario rompe una racha de mínimos de 6 semanas (~$75.600-78.070) pero el cruce MACD aún no se da; es rebote de alivio, no cambio de carácter confirmado todavía.\n- HECHO: BTC necesitaba superar ~$80.087 para confirmar el rebote tras tocar $75.618 el 3-nov (CapitalStreetFX, 4-nov-2026) — nivel ya superado hoy.\n- LECTURA: superar esa resistencia es técnicamente relevante (posible piso de corto plazo), pero RSI neutro impide hablar de sobrecompra o agotamiento de la suba.\n- no verificable: confirmación de ruptura sostenida (se requieren 2-3 cierres diarios adicionales sobre $80.000).",
+    "catalizadores": "**Catalizadores:**\n- Resolución mayormente completada del hackeo a Binance (~95% de fondos repuestos), reduciendo riesgo sistémico de contraparte (The Block, 4-nov-2026).\n- Resultado electoral de medio término interpretado por el mercado como 'claridad' regulatoria, no amenaza (Nexo vía The Block, 4-nov-2026).\n- Compras corporativas continuas de Strategy y Strive pese a la volatilidad (Yahoo Finance, 2-nov-2026).\n- Reanudación de acumulación de ballenas no-exchange a ritmo más rápido desde feb-2026 (Santiment vía Kucoin, nov-2026).\n\n**Riesgos (por materialidad):**\n- Probabilidad de ALZA de tasas en dic-2026 (~72-78% según CME FedWatch/Kalshi/Polymarket, 2-4-nov-2026) — escenario hawkish, contrario a lo que suele impulsar a BTC.\n- Flujos de ETF spot negativos: -$514,2M acumulado en noviembre, -$115,56M el 3-nov, IBIT liderando salidas (TokenPost/Kucoin, 3-4-nov-2026).\n- Long-term holders redujeron tenencias en 248.000 BTC (~US$17,4 mil millones) durante 3T-2026 según Glassnode/21Shares (nov-2026).\n- Memoria reciente del hackeo a Binance como recordatorio de riesgo de custodia centralizada, aunque la red Bitcoin no fue comprometida (Bitwise CIO vía The Block, 4-nov-2026).",
+    "sentimiento": "- HECHO: Fear & Greed Index en 34 (miedo) el 4-nov-2026, subiendo 8 puntos desde 26 el día anterior, pero aún por debajo del 51 de la semana pasada (TokenPost, 4-nov-2026).\n- LECTURA (contrarian): lectura de miedo persistente pese al rebote de precio es señal mixta — ausencia de euforia reduce riesgo de techo de corto plazo, pero tampoco confirma capitulación extrema (<20) que marcaría piso de ciclo.\n- HECHO: analistas de Bitcoin.com advierten de 'trampa' tras el salto a $81.000, citando patrones históricos post-elecciones de mitad de período (News.Bitcoin.com, 4-nov-2026).\n- HECHO: Adam Back calificó de 'alarmistas' los temores sobre computación cuántica mientras BTC ganaba 3,5% (OpenPR, 4-nov-2026).\n- LECTURA: sentimiento de miedo + flujos de ETF negativos simultáneos sugiere que el rebote de precio aún no está validado por posicionamiento institucional de corto plazo.\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 2026-10-29 | no verificable | sin dato específico encontrado |\n| 2026-10-30 | no verificable | sin dato específico encontrado |\n| 2026-10-31 | no verificable | sin dato específico encontrado |\n| 2026-11-01 | no verificable | sin dato específico encontrado |\n| 2026-11-02 | -$398,6M | IBIT lideró salidas (-$405,3M); FBTC +$6,68M fue la única entrada relevante (KuCoin/SpotedCrypto) |\n| 2026-11-03 | -$115,56M | Tercera sesión consecutiva de salidas; IBIT -$94,98M, GBTC -$52,60M; BITB +$21,92M, FBTC +$6,76M, MSBT +$3,34M fueron las únicas entradas (TokenPost/Coin-Turk) |\n| 2026-11-04 | no verificable | dato de flujo diario aún no publicado al momento de la investigación |\n\nAcumulado de noviembre: -$514,2M en 2 sesiones, con IBIT como mayor vendedor neto (-$500,3M) y BITB como mayor comprador neto (+$21,9M) (TFTC/KuCoin, 3-nov-2026). A nivel institucional, Strategy (MSTR) compró 811 BTC (US$65,5M) entre el 26-oct y el 1-nov-2026, llevando su tesorería a 849.327 BTC; financió la compra emitiendo 1,18M de acciones nuevas (Kucoin/GuruFocus, 2-nov-2026). On-chain, las ballenas no-exchange alcanzaron 3,03M BTC, su mayor balance desde nov-2025, con ritmo de acumulación mensual más rápido desde feb-2026 (Santiment/TechFlowPost, nov-2026) — aunque parte de los movimientos de 'grandes ballenas' responde a transferencias por la reapertura de retiros de Binance, no necesariamente a compras nuevas.",
+    "conclusion": "HECHO: BTC rebotó +4,02% a $80.439 tras el hackeo a Binance (mayormente resuelto) y elecciones de medio término sin sorpresas negativas. LECTURA: el contexto mixto —miedo persistente (F&G 34), flujos de ETF aún negativos, pero hashrate en máximos y Strategy comprando— describe una fase de transición desde corrección hacia posible acumulación, no un cambio de ciclo confirmado. El riesgo clave es el FOMC del 9-dic (16:00 Chile), donde el mercado pricea mayoritariamente un ALZA de tasas, escenario adverso para activos de riesgo. Conviene posicionarse de forma escalonada, no agresiva, vigilando flujos de ETF y el resultado de la Fed."
   },
   "scores": {
     "tecnica": {
-      "score": 38,
-      "just": "BTC rompió el soporte de US$80.000 y perdió también SMA20/SMA50, cambio de carácter real desde la recuperación táctica previa; RSI en sobreventa (32,1) sin confirmar reversión aún, aunque se mantiene sobre SMA200 (+4,45%)."
+      "score": 52,
+      "just": "RSI neutro (50.6) y MACD aún bajo señal describen rebote de alivio sin cambio de carácter confirmado; superó resistencia de $80.087 pero faltan cierres adicionales para validar piso."
     },
     "fundamental": {
-      "score": 60,
-      "just": "Flujos ETF resistieron 4 días consecutivos en positivo y ballenas siguen en máximo desde nov-2025 sin señal de venta pánico; el hackeo de Binance es un shock de confianza en exchanges, no un deterioro de la demanda estructural de BTC."
+      "score": 64,
+      "just": "Hashrate en máximos históricos y Strategy comprando pese a la volatilidad sostienen la demanda estructural; el hackeo fue de un exchange, no de la red, y ~95% de los fondos ya se repuso."
     },
     "sentimiento": {
-      "score": 62,
-      "just": "Fear & Greed se desplomó a zona de Miedo (29-30) en un día tras un shock exógeno puntual (hackeo + giro hawkish); lectura contraria gana peso porque el pánico responde a un evento de confianza en exchanges, no a deterioro gradual de la tesis."
+      "score": 42,
+      "just": "Fear & Greed en 34 (miedo) sin euforia ni capitulación extrema; divergencia entre miedo persistente y rebote de precio deja lectura mixta, no claramente contraria."
     },
     "riesgo": {
-      "score": 40,
-      "just": "El hackeo de Binance y el giro hawkish de la Fed (mercado ahora espera subida en dic.) son riesgos macro/estructurales nuevos y materializados en 48 horas; se distingue de pérdida permanente ya que la demanda ETF/ballenas no colapsó, pero la volatilidad de corto plazo subió."
+      "score": 58,
+      "just": "Riesgo de pérdida permanente moderado: la red no fue comprometida y la demanda institucional (ballenas, Strategy) no colapsó, pero el FOMC hawkish de diciembre es un riesgo macro real no descontado."
     },
     "conviccion": {
       "score": 48,
-      "just": "Asimetría al precio actual (~US$76-77.000) mejora por el descuento adicional, pero la falta de confirmación de reversión técnica y el nuevo riesgo de tasas en diciembre moderan la convicción; no es una apuesta de alta confianza todavía."
+      "just": "Asimetría moderada: precio aún 27% bajo ATH de 52 semanas con fundamentos intactos, pero el catalizador más próximo (FOMC) pesa más como riesgo que como viento de cola."
     }
   },
   "sources": [
-    "Federal Reserve/CNN/CNBC, 28-oct-2026 — decisión FOMC hold 3,75-4,00%, voto 10-2, disidentes Cook y Hammack pidieron SUBIR tasas",
-    "Benzinga/Forbes/FXStreet, 28-30-oct-2026 — CME FedWatch probabilidad de alza en dic-2026 ~75-80%",
-    "TRM Labs, 30-oct-2026 — hackeo a Binance de US$6,36 mil millones atribuido a Lazarus Group/TraderTraitor (Corea del Norte)",
-    "CoinDesk/CNBC, 29-30-oct-2026 — cobertura del hackeo, pausa de retiros en Binance, congelamiento de stablecoins",
-    "CNBC/NBC News/CryptoTimes, 29-30-oct-2026 — Tether congeló >US$1.567M y Circle >US$800M en stablecoins vinculadas al hackeo",
-    "Bloomberg/Forbes/CoinDesk, 30-oct-2026 — BTC cae a mínimo ~US$76.140-77.410, liquidaciones por US$1.570M",
-    "TokenPost/CryptoBriefing, 30-oct-2026 — Fear & Greed Index cae de 51 a 29-30 (Miedo), mínimo desde mediados de agosto",
-    "TokenPost/KuCoin, 30-oct-2026 — dominancia BTC ~58,5-59%, ETH ~10,2%",
-    "capmad.com/TokenPost, oct-2026 — dominancia BTC sube por caída aún mayor de altcoins (-US$134.000M en 15 días)",
-    "Farside Investors vía blockchain.news/KuCoin, 26-29-oct-2026 — flujos ETF diarios +US$110,3M/+176M/+137,3M/+17,2M",
-    "yellow.com (datos tipo Glassnode), 29-oct-2026 — MVRV ratio ~1,456x, NUPL 0,355",
-    "CryptoQuant vía KuCoin/PANews, oct-2026 — ballenas on-chain en 3,03M BTC, +243.000 BTC desde jul-2026",
-    "KuCoin/BeInCrypto/The Block, 11-25-oct-2026 — Strategy pausa compras de BTC (semana 19-25 oct), mantiene 848.517 BTC",
-    "Pickaxe.io/blockopsmining.com, 16-24-oct-2026 — hashrate ~1.131 EH/s, dificultad 140,58T (+5,92%)",
-    "Yahoo Finance/KuCoin (Galaxy Research)/Benjamin Cowen/Peter Brandt, oct-2026 — lecturas divergentes sobre fase del ciclo post-halving (suelo jun-2026 vs. caída adicional pendiente)"
+    "The Block (theblock.co) - 4-nov-2026",
+    "Benzinga - 4-nov-2026",
+    "News.Bitcoin.com - 4-nov-2026",
+    "Cryptoslate - 4-nov-2026",
+    "CapitalStreetFX - 4-nov-2026",
+    "TokenPost - 3-4-nov-2026",
+    "KuCoin News - 2-4-nov-2026",
+    "SpotedCrypto - 2-nov-2026",
+    "TFTC Bitcoin ETF Flows - nov-2026",
+    "Coin-Turk - 3-nov-2026",
+    "CME FedWatch / Kalshi / Polymarket - 2-4-nov-2026",
+    "CoinMarketCap / TV-Hub (dominancia) - 4-nov-2026",
+    "CoinWarz (hashrate/dificultad) - nov-2026",
+    "Bitcoin.com Mining - oct-2026",
+    "Phemex / BeInCrypto (MVRV) - 2-nov-2026",
+    "Tech-Champion (52w range/RSI) - nov-2026",
+    "GuruFocus / CryptoTimes (Strategy) - 2-nov-2026",
+    "Yahoo Finance (Strategy/Strive) - nov-2026",
+    "Santiment vía KuCoin / TechFlowPost (ballenas) - nov-2026",
+    "21Shares/Glassnode (LTH) - 2-nov-2026",
+    "Fortune (precio BTC) - 4-nov-2026",
+    "TradingView - 4-nov-2026"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 66,
-        "just": "MVRV ~1,456x y NUPL 0,355 (29-oct) están en zona históricamente asociada a suelos de ciclo; precio ~36-39% bajo el ATH tras la caída adicional amplía el margen de descuento sin señal de distribución de holders de largo plazo."
+        "score": 62,
+        "just": "MVRV ~1,4 y precio ~27% bajo ATH de 52 sem. describen valuación media en el ciclo, ni barata ni cara; no hay descuento extremo que justifique score alto, pero tampoco sobrevaluación."
       },
       "calidad": {
-        "score": 72,
-        "just": "Ballenas en máximo desde nov-2025 y flujos ETF resistiendo 4 días en positivo sostienen la calidad de la demanda estructural; el hackeo de Binance es un riesgo de infraestructura de exchanges, no de la red Bitcoin en sí, pero introduce ruido de corto plazo."
+        "score": 78,
+        "just": "Red con hashrate en máximos históricos, oferta fija, adopción institucional vía ETFs y tesorerías corporativas en expansión; fundamentos estructurales intactos pese al hackeo de un exchange (no de la red)."
       },
       "asimetria": {
         "score": 55,
-        "just": "El precio actual (~US$76-77.000) ofrece mayor descuento frente al ATH que la semana previa, pero sin confirmación de reversión técnica (RSI en sobreventa sin giro aún) ni claridad sobre el piso post-shock; asimetría moderada, no clara 3:1 todavía."
+        "just": "Rebote desde mínimos de 6 semanas con resistencia clave ($80.087) recién superada; asimetría moderada porque el catalizador de riesgo (FOMC hawkish en dic-2026) aún no se resuelve."
       },
       "catalizadores": {
         "score": 45,
-        "just": "El próximo catalizador fechado (FOMC 09-dic) ahora pesa como riesgo (mercado espera subida de tasas) más que como viento de cola; la resolución del hackeo de Binance (fondos congelados vs. en poder del atacante) es el catalizador de más corto plazo."
+        "just": "El catalizador más próximo y de mayor peso (FOMC 9-dic) es predominantemente negativo para BTC; solo parcialmente compensado por resolución del hackeo y flujos institucionales de Strategy."
       },
       "contrarian": {
-        "score": 68,
-        "just": "Fear & Greed se desplomó a zona de Miedo (29-30) en un solo día por un shock exógeno de confianza en exchanges, no por deterioro fundamental; la señal contraria gana peso en este tipo de pánico puntual."
+        "score": 60,
+        "just": "Fear & Greed en 34 (miedo, no pánico extremo) y flujos de ETF negativos mientras ballenas acumulan generan una divergencia contrarian moderada."
       }
     },
     "plan": {
-      "recomendacion": "Acumular en zona",
-      "zona_compra": "US$72.000-77.500, con preferencia por compras escalonadas ante debilidad adicional hacia la franja baja o estabilización post-shock del hackeo",
-      "invalidacion": "Cierre semanal sostenido debajo de US$70.000 (ruptura de SMA200 y de la zona de acumulación institucional)",
+      "recomendacion": "Esperar gatillo",
+      "zona_compra": "$74.000-$78.000 (zona de costo base de holders de corto plazo / soporte post-hackeo)",
+      "invalidacion": "Cierre semanal por debajo de $73.000 (pérdida de la zona de acumulación y del soporte de ballenas)",
       "gatillos": [
-        "Resolución favorable del hackeo de Binance (recuperación de fondos, reanudación plena de retiros)",
-        "Continuidad de flujos ETF positivos más allá de la 5ta jornada",
-        "Estabilización del Fear & Greed sobre 35-40 sin nueva pierna bajista",
-        "Señal de reversión técnica (recuperación de SMA20 con volumen)"
+        "Confirmación del FOMC del 9-dic-2026 sin alza de tasas o con tono menos hawkish de lo esperado",
+        "Reversión a flujos de ETF netos positivos durante al menos 3 sesiones consecutivas",
+        "Cruce alcista de MACD sobre su señal (actualmente -1093 vs -929,71)",
+        "Fear & Greed sostenido sobre 50 confirmando cambio de sentimiento"
       ],
       "horizonte": "6-18 meses",
-      "tamano": "Posición moderada (3-6% de portafolio cripto-equity combinado), con margen para aumentar si se confirma estabilización",
+      "tamano": "posición inicial reducida (25-30% del tamaño objetivo), escalando en gatillos confirmados",
       "confianza": "media"
     }
   },
   "perfil": "Bitcoin es la red monetaria digital descentralizada más grande y segura, con oferta fija de 21 millones de unidades y emisión decreciente vía halvings cada ~4 años (el más reciente en abril de 2024). Su seguridad depende del hashrate de la red minera, que actúa como barrera económica contra ataques. La demanda institucional se canaliza cada vez más a través de ETFs spot regulados (IBIT, FBTC, GBTC, entre otros) y tesorerías corporativas como Strategy (ex-MicroStrategy) y Strive, que acumulan BTC como reserva de valor en balance. Estructuralmente, la oferta fija y decreciente contrasta con una demanda creciente de inversores institucionales, fondos soberanos y bancos que expanden servicios de custodia, lo que sostiene una tesis de escasez programática. Opera en ciclos de varios años correlacionados con los halvings, alternando fases de euforia, corrección y acumulación, por lo que su valoración debe leerse en el contexto del ciclo vigente, los flujos de ETFs y el entorno de tasas de interés global.",
+  "reportDate": "4 de noviembre de 2026",
   "technical": {
-    "price": 76363.09,
-    "change_1d_pct": -1.97,
-    "change_1w_pct": -4.6,
-    "rsi": 32.1,
-    "macd": -978.8721,
-    "macd_signal": -434.1247,
-    "sma20": 81276.171,
-    "sma50": 81878.0238,
-    "sma200": 73111.9341,
-    "ema12": 80125.5884,
-    "ema26": 81104.4605,
-    "pct_vs_sma20": -6.04,
-    "pct_vs_sma50": -6.74,
-    "pct_vs_sma200": 4.45,
+    "price": 80439.25,
+    "change_1d_pct": 4.02,
+    "change_1w_pct": 2.73,
+    "rsi": 50.6,
+    "macd": -1093.0578,
+    "macd_signal": -929.707,
+    "sma20": 80211.0145,
+    "sma50": 81995.209,
+    "sma200": 73181.6837,
+    "ema12": 79095.2288,
+    "ema26": 80188.2866,
+    "pct_vs_sma20": 0.28,
+    "pct_vs_sma50": -1.9,
+    "pct_vs_sma200": 9.92,
     "volume_today": null,
     "volume_avg20": null,
     "volume_ratio": null,
-    "volatility_30d": 23.55,
-    "sharpe": -2.47,
-    "sortino": -2.01,
-    "max_drawdown_1y": -34.61,
-    "price_percentile_1y": 34.8,
-    "vs_benchmark_30d_pct": 1.52,
-    "perf_1m_pct": -8.68,
-    "perf_ytd_pct": -12.78
+    "volatility_30d": 27.89,
+    "sharpe": -1.66,
+    "sortino": -1.62,
+    "max_drawdown_1y": -34.36,
+    "price_percentile_1y": 45.6,
+    "vs_benchmark_30d_pct": 1.29,
+    "perf_1m_pct": -7.08,
+    "perf_ytd_pct": -8.19
   },
   "risk": {
-    "volatility_30d": 23.55,
-    "sharpe": -2.47,
-    "sortino": -2.01,
-    "max_drawdown_1y": -34.61,
-    "n_days": 368,
+    "volatility_30d": 27.89,
+    "sharpe": -1.66,
+    "sortino": -1.62,
+    "max_drawdown_1y": -34.36,
+    "n_days": 374,
     "window": 30
   },
   "benchmark": {
     "ticker": "CRYPTOCAP:TOTAL",
     "label": "Cripto total (ciclo)",
-    "relative_performance_30d": 1.52,
-    "relative_performance_ytd": 0.5,
-    "price_percentile_1y": 34.8,
+    "relative_performance_30d": 1.29,
+    "relative_performance_ytd": 0.85,
+    "price_percentile_1y": 45.6,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-29T23:06:45-03:00"
+      "fetched_at": "2026-11-04T14:09:00-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-29T23:06:45-03:00"
+      "fetched_at": "2026-11-04T14:09:00-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-10-29T23:06:45-03:00"
+      "fetched_at": "2026-11-04T14:09:00-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CRYPTOCAP:TOTAL",
-      "fetched_at": "2026-10-29T23:06:45-03:00"
+      "fetched_at": "2026-11-04T14:09:00-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/FX-BTCUSD.json",
-      "n_days": 368
+      "n_days": 374
     }
   },
   "metricChanges": [],
   "trend": {
-    "piso": 0,
+    "piso": 1,
     "techo": 0,
     "max": 7,
-    "senales_piso": [],
+    "senales_piso": [
+      "histograma MACD girando al alza"
+    ],
     "senales_techo": []
   },
-  "reportDate": "28 de octubre de 2026"
+  "change": {
+    "day": 4.02,
+    "week": 2.73
+  }
 }

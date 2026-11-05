@@ -1,110 +1,32 @@
 [
   {
-    "ticker": "USD/CLP",
-    "date": "2026-10-27",
-    "label": "Reunión de Política Monetaria BCCh",
-    "result": "RESULTADO: el Consejo del BCCh mantuvo la TPM en 4,50% de forma unánime (comunicado 18:00 hora Chile, bcentral.cl, 27-oct-2026), en línea con la mediana de la Encuesta de Operadores Financieros del 22-oct que no veía cambios hasta 2027. La minuta con el detalle de la discusión se publica el 04-nov-2026."
+    "ticker": "UBER",
+    "date": "2026-11-04",
+    "label": "Earnings Q3 2026",
+    "result": "RESULTADO: Uber reportó el 4-nov-2026 EPS no-GAAP de US$0,88 (vs ~US$0,87 de consenso) e ingresos de US$14,8B (vs ~US$14,7B esperado), con Gross Bookings +20% interanual. La utilidad neta GAAP cayó 92% interanual por una base de comparación distorsionada, pero el mercado se enfocó en la mejora operativa; la acción subió con fuerza, cerrando con un alza de ~7-8% (CNBC, Investing.com, GuruFocus, 4-nov-2026)."
   },
   {
-    "ticker": "USD/CLP",
-    "date": "2026-10-28",
-    "label": "Reunión del FOMC (decisión de tasas)",
-    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, con Cook y Hammack pidiendo un alza de 25pb), bajo la presidencia de Kevin Warsh. CME FedWatch subió la probabilidad de un alza en diciembre a ~82,6% (desde 78,3% el día previo), un giro hawkish incipiente que presionó levemente al alza al USD/CLP (Forbes, 27-28-oct-2026)."
-  },
-  {
-    "ticker": "BTC/USD",
-    "date": "2026-10-28",
-    "label": "Reunión del FOMC (decisión de tasas)",
-    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack pidiendo alza), un no-evento totalmente descontado por el mercado. BTC reaccionó con calma, recuperando terreno a ~US$81.000-81.360 impulsado por dos días de inflows netos en ETFs spot (+US$110,3M el 26-oct, +US$176M el 27-oct), más que por la decisión en sí (Farside/CoinDesk, 26-28-oct-2026)."
-  },
-  {
-    "ticker": "ETH/USD",
-    "date": "2026-10-28",
-    "label": "Reunión del FOMC (decisión de tasas)",
-    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada que no generó volatilidad extra en el mercado cripto; el mercado ya mira la probabilidad de alza en diciembre, que subió a ~82,6% (CME FedWatch, 28-oct-2026)."
-  },
-  {
-    "ticker": "XRP/USD",
-    "date": "2026-10-27",
-    "label": "Ripple Swell + XRPL Apex (conferencia)",
-    "result": "RESULTADO: en la primera edición fusionada de Swell y XRPL Apex (27-29 oct, Nueva York), Ripple anunció '24/7 Returns' (rendimientos continuos sobre RLUSD) y la disponibilidad de RLUSD en Coinbase para clientes retail e institucionales, sin anuncios que vincularan estas novedades a la utilidad o demanda del token XRP. La reacción de precio fue tibia a negativa (~US$1,28-1,31, -1% en 24h), con críticas de la comunidad por percibir que Ripple prioriza RLUSD sobre XRP (Yahoo Finance/Cryptonews, 26-28-oct-2026)."
-  },
-  {
-    "ticker": "XRP/USD",
-    "date": "2026-10-28",
-    "label": "Reunión del FOMC (decisión de tasas)",
-    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2), decisión descontada con impacto limitado en XRP, cuyo precio seguía más afectado por la reacción tibia a los anuncios de Swell/XRPL Apex del día previo que por el FOMC."
-  },
-  {
-    "ticker": "XLM/USD",
-    "date": "2026-10-28",
-    "label": "Stellar Meridian 2026 (conferencia, Lisboa)",
-    "result": "RESULTADO: en Stellar Meridian 2026 (28-29 oct, Lisboa) se anunciaron integraciones institucionales: Movantis integró Stellar para liquidaciones transfronterizas en USDC (EE.UU.-El Salvador), Securitize anunció planes de emisión/gestión de activos tokenizados sobre Stellar, y Archax lanzó €GOVY (letras del tesoro tokenizadas en euros). XLM cotizaba en torno a US$0,1728 con reacción moderadamente positiva por el nuevo interés institucional, sin un repunte de precio explosivo confirmado hasta el momento de esta búsqueda (KuCoin News/TronWeekly, 28-oct-2026)."
-  },
-  {
-    "ticker": "XLM/USD",
-    "date": "2026-10-28",
-    "label": "Reunión del FOMC (decisión de tasas)",
-    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2), decisión descontada que no alteró significativamente el precio de XLM, más influenciado por los anuncios propios de Stellar Meridian el mismo día."
-  },
-  {
-    "ticker": "SOL/USD",
-    "date": "2026-10-28",
-    "label": "Reunión del FOMC (decisión de tasas)",
-    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin generar volatilidad extra en el mercado cripto; la atención del mercado ya gira hacia la probabilidad de un alza en diciembre (~82,6%, CME FedWatch)."
-  },
-  {
-    "ticker": "LINK/USD",
-    "date": "2026-10-28",
-    "label": "Reunión del FOMC (decisión de tasas)",
-    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en LINK; el mercado cripto en general reaccionó con calma."
-  },
-  {
-    "ticker": "HBAR/USD",
-    "date": "2026-10-28",
-    "label": "Reunión del FOMC (decisión de tasas)",
-    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en HBAR; el mercado cripto en general reaccionó con calma."
-  },
-  {
-    "ticker": "ALGO/USD",
-    "date": "2026-10-28",
-    "label": "Reunión del FOMC (decisión de tasas)",
-    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en ALGO; el mercado cripto en general reaccionó con calma."
-  },
-  {
-    "ticker": "IOTA/USD",
-    "date": "2026-10-28",
-    "label": "Reunión del FOMC (decisión de tasas)",
-    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en IOTA; el mercado cripto en general reaccionó con calma."
-  },
-  {
-    "ticker": "ONDO/USD",
-    "date": "2026-10-28",
-    "label": "Reunión del FOMC (decisión de tasas)",
-    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en ONDO; el mercado cripto en general reaccionó con calma."
-  },
-  {
-    "ticker": "XDC/USD",
-    "date": "2026-10-28",
-    "label": "Reunión del FOMC (decisión de tasas)",
-    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en XDC; el mercado cripto en general reaccionó con calma."
-  },
-  {
-    "ticker": "QNT/USD",
-    "date": "2026-10-28",
-    "label": "Reunión del FOMC (decisión de tasas)",
-    "result": "RESULTADO: la Fed mantuvo la tasa en 3,75%-4,00% (voto 10-2, disidentes Cook y Hammack), decisión totalmente descontada sin impacto idiosincrático relevante en QNT; el mercado cripto en general reaccionó con calma."
+    "ticker": "OIL/USD",
+    "date": "2026-11-04",
+    "label": "Reporte semanal de inventarios de petróleo (EIA)",
+    "result": "RESULTADO: La EIA publicó el 4-nov-2026 los inventarios semanales: los stocks de crudo cayeron 865.000 barriles (semana terminada el 30-oct), frente a un consenso que esperaba un aumento de ~877.000 barriles (sorpresa bajista para inventarios). Gasolina -200.000 barriles y destilados -3,6 millones de barriles; el precio del petróleo bajó tras el dato, con WTI cerca de US$93,9 y Brent cerca de US$101,3 por barril (OGJ, BOE Report, 4-nov-2026)."
   },
   {
     "ticker": "ORCL",
-    "date": "2026-10-28",
-    "label": "Investor Day en Oracle AI World",
-    "result": "RESULTADO: en el Investor Day de Oracle AI World (Las Vegas), Oracle elevó su guidance de largo plazo: ingresos totales de US$225.000M+ para FY30 (CAGR >35% desde FY26), margen operativo non-GAAP de 40%+ y EPS non-GAAP de US$21+, además de flujo de caja libre positivo en la 2ª mitad de FY28; reafirmó guidance FY27 de ingresos de al menos US$90.000M y EPS de US$8,10. La acción saltó ~11-12%, cerrando en torno a US$144,54 (volumen 161% sobre el promedio de 3 meses), impulsada también por nuevas alianzas de IA con OpenAI, Nvidia, Intel, Cerebras y Google (Motley Fool/Seeking Alpha/StockTitan, 28-oct-2026)."
+    "date": "2026-11-04",
+    "label": "Liquidación de la emisión conjunta de US$20.000M (acciones + bonos)",
+    "result": "RESULTADO: Oracle cerró el 4-nov-2026 su emisión conjunta por ~US$20.000M: 86.206.897 acciones comunes nuevas a US$116 cada una, más US$10.000M en bonos en cinco tramos con cupones entre 7% y 8,65%, con ingresos netos combinados estimados en ~US$19.900M destinados a necesidades corporativas generales (incluyendo capex de IA). La acción cayó ~2,1% tras el cierre de la colocación por el efecto dilutivo y el aumento de apalancamiento (GuruFocus, SEC 8-K/424B2, 4-nov-2026)."
   },
   {
-    "ticker": "LINK/USD",
-    "date": "2026-10-29",
-    "label": "Link:NYC (evento institucional Chainlink)",
-    "result": "RESULTADO: el evento se celebró el 29-oct-2026 en Nueva York con Sergey Nazarov y representantes de SWIFT, ICE, Fidelity Digital Asset Management, DTCC, CFTC, Citi y BlackRock, centrado en RWA tokenizados y finanzas agénticas; los anuncios concretos incluyeron el lanzamiento de 'CustodySync' (con Anchorage Digital Bank como primer partner), expansión de partnerships con LG CNS (Proyecto Hangang del Banco de Corea), OpenZeppelin y S&P Global Ratings, adopción por el Hong Kong Gold Exchange para su token XGZ, y una nueva alianza con Polymarket (chain.link/Coinfomania/CoinMarketCal, 26-30-oct-2026). Pese a los anuncios, LINK no reaccionó al alza: cayó de ~US$11,4-11,6 (29-oct) a ~US$10,4-10,66 (30-oct), -11% a -12% en 24h, en medio de una corrección generalizada del mercado cripto (cryptoticker.io/coin-turk.com, 30-oct-2026)."
+    "ticker": "LATAM",
+    "date": "2026-11-03",
+    "label": "Earnings Q3 2026 (confirmado por la compañía)",
+    "result": "RESULTADO: LATAM Airlines reportó utilidad neta de US$441 millones en el 3T2026 (+16,3% interanual) e ingresos operacionales de US$4.567 millones (+18,4% interanual), a pesar de un golpe de ~US$520 millones por el alza de 52,1% en el precio del combustible. La compañía elevó su guía 2026 (ingresos US$17.600-17.800M, EBITDA ajustado US$3.900-4.050M), lo que fue leído positivamente por el mercado (Peru Retail, CNN Chile, Aviacionaldia, 3-nov-2026)."
+  },
+  {
+    "ticker": "USD/CLP",
+    "date": "2026-11-04",
+    "label": "Minuta RPM BCCh",
+    "result": "RESULTADO: El Banco Central de Chile publicó el 4-nov-2026 la minuta de la RPM del 27-oct, confirmando que el Consejo mantuvo la TPM en 4,5% de forma unánime, pero reveló que evaluó como opción plausible subirla a 4,75% ante mayores riesgos inflacionarios (energía, alimentos, tensiones en Medio Oriente). Algunos consejeros señalaron que subir 25pb tenía respaldo sólido, mientras otros destacaron que la debilidad de consumo e inversión podría generar holguras que contengan la inflación (Rankia, BioBioChile, El Mostrador, 4-nov-2026)."
   }
 ]

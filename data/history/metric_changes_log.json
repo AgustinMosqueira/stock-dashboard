@@ -672,6 +672,13 @@
 "to": 6.99
 },
 {
+"ticker": "CLSK",
+"date": "2026-11-04",
+"metric": "score",
+"from": 41,
+"to": 54
+},
+{
 "ticker": "ETH/USD",
 "date": "2026-11-04",
 "metric": "rsi",
@@ -679,11 +686,32 @@
 "to": 54.56
 },
 {
+"ticker": "GOLD/USD",
+"date": "2026-11-04",
+"metric": "rsi",
+"from": 35.29,
+"to": 51.49
+},
+{
 "ticker": "MSFT",
 "date": "2026-11-04",
 "metric": "rsi",
 "from": 49.4,
 "to": 64.53
+},
+{
+"ticker": "MSTR",
+"date": "2026-11-04",
+"metric": "score",
+"from": 46,
+"to": 58
+},
+{
+"ticker": "OIL/USD",
+"date": "2026-11-04",
+"metric": "precio_pct",
+"from": 95.26,
+"to": 87.25
 },
 {
 "ticker": "TTWO",
