@@ -71,7 +71,6 @@ MAP = {
     "GOLD/USD": ("COMEX:GC1!", ("$", "", 2, ",", ".")),
     "OIL/USD": ("NYMEX:CL1!", ("$", "", 2, ",", ".")),
     "COPPER/USD": ("COMEX:HG1!", ("$", "", 2, ",", ".")),
-    "GASCO": ("BCS:GASCO", ("$", " CLP", 1, ".", ",")),
     "BTC/USD": ("CRYPTO:BTCUSD", ("$", "", 0, ",", ".")),
     # OJO: FX_IDC (ICE) viene ~0,35% desviado vs el cierre real chileno (verificado
     # 29-jul-2026 contra er-api, currency-api y cierre de mercado); VANTAGE calza.
@@ -113,7 +112,6 @@ BENCH = {
     "GOLD/USD": ("SP:SPX", "S&P 500"),
     "OIL/USD": ("SP:SPX", "S&P 500"),
     "COPPER/USD": ("SP:SPX", "S&P 500"),
-    "GASCO": ("CBOE:ECH", "ECH (proxy Chile/IPSA)"),
     "HDSY": ("TVC:NI225", "Nikkei 225"),
     "USD/CLP": ("TVC:DXY", "DXY"),
     "EUR/USD": ("TVC:DXY", "DXY"),
@@ -123,7 +121,7 @@ BENCH = {
 # tasa libre de riesgo anual para Sharpe/Sortino (activos en CLP usan TPM Chile aprox.)
 RISK_FREE_DEFAULT = 0.045
 RISK_FREE_CLP = 0.05
-CLP_ASSETS = {"CCU", "CMPC", "CENCOSUD", "LATAM", "GASCO"}
+CLP_ASSETS = {"CCU", "CMPC", "CENCOSUD", "LATAM"}
 
 COLS = ["close", "change", "change|1W", "RSI", "MACD.macd", "MACD.signal",
         "SMA20", "SMA50", "SMA200", "EMA12", "EMA26",
