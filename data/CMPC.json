@@ -1,74 +1,219 @@
 {
   "ticker": "CMPC",
   "company": "Empresas CMPC S.A.",
-  "statsList": [["Precio","$904,0 CLP (4-nov-2026)"],["Rango 52 sem.","$915,9 - $1.501,1 CLP (stockanalysis.com/Investing.com, oct-nov-2026); el precio actual implica nuevo mínimo de 52 semanas hoy 4-nov-2026"],["Market cap","~CLP 2,26 billones (~US$2.400M) (stockanalysis.com, 4-nov-2026)"],["P/B y EV/EBITDA","P/B 0,24x · EV/EBITDA 9,3x (stockanalysis.com/S&P Global Market Intelligence, 4-nov-2026)"],["Deuda neta/EBITDA","4,17x al 2T2026 (US$5.041M deuda neta); 3T2026 no detalló ratio explícito en prensa, pero EBITDA 9M 2026 de US$777M quedó muy por debajo del objetivo de desapalancamiento, con pérdida neta trimestral de US$7,2M (DF.cl, 6-nov-2026)"],["Próx. earnings","3T2026 YA PUBLICADO (5/6-nov-2026): pérdida neta trimestral US$7,2M (vs utilidad US$33,8M en 3T2025); utilidad acumulada 9M US$26,3M (-84% YoY); EBITDA ajustado 9M US$777M; ventas 9M US$5.665M (+1%). Próximo reporte: 4T2026/anual, 28-ene-2027"],["Técnico (auto)","RSI 30.2 · MACD -14.82 / señal -12.65 (TradingView, 4-nov-2026)"]],
+  "statsList": [
+    [
+      "Precio",
+      "$890,0 CLP (10-nov-2026)"
+    ],
+    [
+      "Rango 52 sem.",
+      "~$890-904 (mín., nov-2026) / ~$1.500-1.600 (máx. aprox., 1S2026)"
+    ],
+    [
+      "Market cap",
+      "~CLP 2,2-2,4 billones (~US$2.300-2.500M)"
+    ],
+    [
+      "P/B y EV/EBITDA",
+      "P/B ~0,22x · EV/EBITDA ~7,9-9,5x (stockanalysis/Yahoo Finance, nov-2026)"
+    ],
+    [
+      "Deuda neta/EBITDA",
+      "4,23x al 3T2026 (vs 4,1-4,17x en 1T-2T26); objetivo compañía 2,5-3,5x; rating BBB-/Baa3"
+    ],
+    [
+      "Próx. earnings",
+      "28-ene-2027 (resultados 4T2026/anual)"
+    ],
+    [
+      "Técnico (auto)",
+      "RSI 29.4 · MACD -21.07 / señal -16.59 (TradingView, 10-nov-2026)"
+    ]
+  ],
   "events": [
-    {"date":"2027-01-28","label":"Resultados 4T2026 / cierre de ejercicio anual","kind":"earnings","info":"Reporte anual programado para el 28 de enero de 2027, primer cierre completo bajo el nuevo perímetro de negocio tras venta de Corrugados (DF.cl, oct-2026)."},
-    {"date":"2027-04-30","label":"Salida efectiva de Francisco Ruiz-Tagle como gerente general","kind":"corporate","info":"Comité (Bernardo Larraín Matte, Patricio de Solminihac, Jussi Pesonen) con apoyo de Egon Zehnder evalúa candidatos internos/externos; sin sucesor anunciado al 6-nov-2026."},
-    {"date":"2027-06-30","label":"Cierre esperado de venta de Corrugados a Smurfit Westrock","kind":"corporate","info":"Acuerdo por US$420M (Envases Impresos Cordillera y Chilena de Moldeados); pendiente aprobación de la FNE chilena; cierre estimado 1S2027."}
+    {
+      "date": "2027-01-28",
+      "label": "Resultados 4T2026 / cierre de ejercicio anual",
+      "kind": "earnings",
+      "info": "Próxima instancia donde el mercado verá si el ratio deuda neta/EBITDA bajó de 4,23x gracias a los ~US$785M en desinversiones (venta forestal Maule + Corrugados); clave para sostener el rating BBB-."
+    },
+    {
+      "date": "2027-04-30",
+      "label": "Salida efectiva de Francisco Ruiz-Tagle como gerente general",
+      "kind": "corporate",
+      "info": "Renuncia confirmada el 30-oct-2026 tras 9 años en el cargo; directorio activó búsqueda de sucesor (interno/externo) vía Egon Zehnder, sin nombramiento al 11-nov-2026; mantiene incertidumbre de liderazgo hacia 2027."
+    },
+    {
+      "date": "2027-06-30",
+      "label": "Cierre esperado de venta de Corrugados a Smurfit Westrock (US$420M)",
+      "kind": "corporate",
+      "info": "Transacción sujeta a aprobación de la FNE chilena; sin objeciones reportadas al 11-nov-2026, cierre proyectado 1S2027; es la pieza más grande del plan de desapalancamiento."
+    }
   ],
   "sections": {
-    "resumen": "CMPC publicó su 3T2026 el 5/6-nov-2026: pérdida neta trimestral de US$7,2M (vs utilidad US$33,8M en 3T2025) y utilidad acumulada 9M de solo US$26,3M (-84% YoY). EBITDA ajustado 9M alcanzó US$777M, afectado por mayores costos de madera/transporte, gastos financieros y un impuesto diferido de US$11M por la venta de Corrugados. El apalancamiento (4,17x al 2T2026) sigue siendo el nudo crítico: S&P ya bajó el rating a BBB- en febrero-2026 y advirtió que el proyecto Natureza sin ajustes de capital o un desapalancamiento más lento podrían empujar a CMPC fuera del grado de inversión. La celulosa BHKP muestra señales de piso (~US$595-605/t) pero sin recuperación fuerte.",
-    "fundamental": "- HECHO: pérdida neta 3T2026 de US$7,2M vs utilidad US$33,8M en 3T2025; utilidad acumulada 9M cae 84% a US$26,3M (DF.cl, 6-nov-2026). LECTURA: deterioro más profundo de lo esperado, confirma la fragilidad que anticipaba el consenso pre-reporte.\n- HECHO: EBITDA ajustado 9M2026 de US$777M, ventas 9M +1% a US$5.665M, flujo de caja operacional +11% a US$849M (DF.cl, 6-nov-2026). LECTURA: la generación de caja operativa mejora pese a la caída de utilidad, aliviando parcialmente la presión de liquidez.\n- HECHO: deuda neta/EBITDA en 4,17x al 2T2026 (US$5.041M deuda neta); cifra post-3T2026 no fue detallada explícitamente en la cobertura de prensa disponible al 6-nov-2026. LECTURA: el mercado deberá esperar el Análisis Razonado formal para confirmar si el ratio mejoró o empeoró tras el trimestre débil.\n- HECHO: S&P bajó el rating a BBB- (desde BBB) el 11-feb-2026 con outlook estable, proyectando EBITDA 2026 de US$1.200-1.300M y apalancamiento acercándose a 3,0x en 2026 y 2,5x en 2027 (La Tercera). LECTURA: el resultado 3T2026 deja esas proyecciones de S&P en duda, elevando el riesgo de un nuevo recorte si no hay un fuerte repunte en el 4T.\n- HECHO: comité con apoyo de Egon Zehnder sigue buscando sucesor de Ruiz-Tagle (sale 30-abr-2027), sin candidato anunciado al 6-nov-2026; venta de Corrugados a Smurfit Westrock (US$420M) pendiente de aprobación de la FNE, cierre estimado 1S2027. LECTURA: la incertidumbre de liderazgo persiste justo en el trimestre de mayor debilidad financiera.",
-    "valuacion": "- HECHO: P/B 0,24x y EV/EBITDA 9,3x (stockanalysis.com, 4-nov-2026) — valoración de libro muy castigada frente a un múltiplo de EBITDA todavía elevado para una cíclica con apalancamiento alto.\n- HECHO: JPMorgan mantiene precio objetivo de CLP 1.100 con recomendación Neutral/Hold (9-sep-2026), ~22% sobre el precio de referencia de CLP 904, reflejando cautela por sobreoferta de celulosa y volatilidad cambiaria.\n- LECTURA: el mercado ya había descontado un 3T2026 débil (consenso previo ~US$412M EBITDA trimestral); el resultado real confirma el escenario bajista sin sorpresa positiva relevante.\n- LECTURA: la brecha entre valor libro y precio de mercado sugiere que el mercado exige una prima de riesgo alta por el apalancamiento y la incertidumbre de gobierno corporativo.\n- no verificable: ratio deuda neta/EBITDA post-3T2026 confirmado; la valoración relativa sigue dependiendo de que se cumpla la meta de desapalancamiento hacia 3,0x que proyecta S&P.",
-    "tecnico": "- HECHO: RSI 30,2 (4-nov-2026) estaba al borde de sobreventa antes de la publicación del 3T2026; la reacción post-resultado determinará si se formó un piso táctico o si el deterioro fundamental empuja a nuevos mínimos.\n- HECHO: MACD en -14,82 bajo su señal (-12,65) confirmaba momentum negativo previo al reporte; un resultado peor a lo esperado (pérdida neta) es consistente con continuidad bajista de corto plazo.\n- LECTURA: el precio de referencia (904 CLP) está un 18,5% bajo la SMA200, reflejando una tendencia de mediano plazo claramente negativa que el 3T2026 débil no ayuda a revertir.\n- HECHO: la acción cotiza en el percentil 0 de su rango de 52 semanas, es decir, en o cerca de su mínimo anual — zona históricamente de alta volatilidad direccional tras catalizadores de noticias.\n- no verificable: carácter técnico post-publicación del 3T2026, sin datos de precio posteriores disponibles al momento de este análisis.",
-    "catalizadores": "**Catalizadores:**\n- Flujo de caja operacional 9M2026 +11% a US$849M pese a la caída de utilidad, lo que da margen para seguir reduciendo deuda sin apelar solo a desinversiones.\n- Formación de piso en precios BHKP China (~US$595-605/t) desde agosto-2026, con futuros de diciembre apuntando a estabilización.\n- Cierre de venta de Corrugados a Smurfit Westrock (US$420M) aportaría caja fresca una vez aprobada por la FNE (estimado 1S2027).\n- Licencia ambiental previa obtenida para Natureza en Río Grande do Sul (22-oct-2026) destraba parcialmente el megaproyecto, aunque sin decisión final de inversión.\n\n**Riesgos (por materialidad):**\n- Pérdida neta trimestral y caída de 84% en utilidad acumulada confirman que el deterioro fundamental es más severo que lo que anticipaba el consenso.\n- Riesgo de nuevo recorte de rating: S&P ya está en BBB- (el escalón más bajo de investment grade) y condicionó la estabilidad del rating a un desapalancamiento que el 3T2026 pone en duda.\n- Proceso de sucesión de CEO sin candidato definido, generando vacío de liderazgo en el peor momento financiero de la compañía.\n- Decisión final de inversión en Natureza (~US$4.600M) aún pendiente; de aprobarse sin ajuste de estructura de capital, S&P advirtió que presionaría nuevamente el apalancamiento.",
-    "sentimiento": "- HECHO: JPMorgan mantiene postura Neutral/Hold con PT CLP 1.100 (9-sep-2026), priorizando cautela por sobreoferta global de celulosa y volatilidad cambiaria.\n- no verificable: actualizaciones de precio objetivo de otras casas locales (BICE, Credicorp, BTG) posteriores al 3T2026 al 6-nov-2026.\n- LECTURA: el consenso de mercado ya proyectaba un trimestre débil (EBITDA ~US$412M); el resultado real refuerza el sesgo bajista sin generar sorpresa disruptiva.\n- LECTURA: la combinación de pérdida contable, incertidumbre de sucesión y riesgo de rating mantiene el sentimiento de los analistas sesgado a la cautela pese a la valoración de libro castigada.",
-    "conclusion": "El 3T2026 confirmó el escenario de riesgo que ya pesaba sobre CMPC: pérdida neta trimestral, caída de 84% en utilidad acumulada y apalancamiento que sigue por sobre el objetivo de la gerencia. El EBITDA 9M de US$777M y el flujo de caja operacional +11% ofrecen algo de respiro, pero no despejan la duda sobre el rating BBB-. Sin sucesor de CEO definido y con Natureza aún sin decisión de inversión, la tesis sigue siendo de alto riesgo/alta asimetría: solo atractiva para quienes toleren volatilidad y apuesten a un repunte de celulosa y ejecución exitosa de desinversiones."
+    "resumen": "CMPC cotiza en $890 CLP, cerca de mínimos del año (percentil 1y 2,4%), tras resultados 3T2026 débiles: pérdida neta de US$7,2M, EBITDA ajustado US$252M (-7% t/t, -3% a/a) y deuda neta/EBITDA en 4,23x, por sobre el rango objetivo (2,5-3,5x) y presionando el rating BBB-/Baa3 al límite del investment grade. La celulosa BHKP China cotiza ~US$590-595/t, con sobreoferta estructural pese a cierres de capacidad en el Hemisferio Norte. El plan de desinversiones (US$785M: forestales + Corrugados) es la palanca de desapalancamiento, pendiente de cierre y aprobación FNE. Consenso de analistas mixto/cauteloso (Hold/Neutral predominante).",
+    "fundamental": "- HECHO: EBITDA ajustado 3T26 US$252M, margen 13%, caída t/t por Celulosa (-11%) y Softys (-12% t/t, -6% a/a); Biopackaging subió 39% t/t.\n- HECHO: deuda neta US$5.000M, ratio 4,23x (vs 4,1-4,17x en trimestres previos).\n- HECHO: pérdida neta 3T26 US$7,2M por mayores costos de madera/transporte/financieros e impuesto diferido por venta de Corrugados; utilidad 9M26 cayó 84% a US$26,3M.\n- LECTURA: el deterioro es cíclico (precio celulosa + costos), no estructural del negocio, pero el apalancamiento ya exige ejecución sin fallas del plan de desinversión para evitar presión adicional de las agencias.",
+    "valuacion": "- HECHO: P/B ~0,22x (muy por debajo de 1x, refleja descuento severo sobre valor libro) y EV/EBITDA ~7,9-9,5x según fuente.\n- HECHO: market cap ~CLP 2,2-2,4 billones.\n- LECTURA: el P/B bajo es típico de un conglomerado forestal-cíclico en mínimos de ciclo, pero el EV/EBITDA no es barato en términos absolutos dado el apalancamiento elevado — gran parte del enterprise value es deuda, no equity.\n- LECTURA: la valuación premia la opcionalidad de recuperación del precio de celulosa y el éxito del desapalancamiento, no un negocio ya saneado.",
+    "tecnico": "- HECHO: RSI 29,4 (sobreventa), MACD -21,07 bajo señal -16,59, precio 19,1% debajo de SMA200 ($1.100,3) y debajo de SMA20/50.\n- HECHO: percentil 1y de solo 2,4% y max drawdown 1y de -40,85%.\n- LECTURA: hay sobreventa técnica clara pero sin evidencia confirmada de divergencia alcista de volumen ni formación de piso técnico robusto en los datos disponibles.\n- LECTURA: el precio viene de un -8,25% mensual y -37% YTD, tendencia aún dominante. Es sobreventa dentro de tendencia bajista, no reversión confirmada — exige cautela táctica pese al nivel de RSI.",
+    "catalizadores": "**Catalizadores:**\n- Cierre/avance del plan de desinversión US$785M bajando el ratio deuda neta/EBITDA antes de resultados 4T26.\n- Estabilización o repunte del precio BHKP China sobre US$600/t.\n- Aprobación FNE de Corrugados sin condiciones onerosas.\n- Nombramiento temprano de sucesor de Ruiz-Tagle que dé certidumbre de gestión.\n\n**Riesgos (por materialidad):**\n- Nueva baja de rating (Moody's en outlook negativo) que eleve costo de deuda.\n- Entrada de nueva capacidad global (Arauco Sucuriú, UPM) profundizando sobreoferta.\n- Resultados 4T26 (28-ene-2027) mostrando deterioro adicional de EBITDA.\n- Demoras regulatorias o condiciones impuestas por la FNE a la venta de Corrugados.",
+    "sentimiento": "HECHO: consenso de analistas mixto (split entre compra/mantener/venta, sesgo Neutral/Hold), con JPMorgan en Hold y PT ~US$1.050-1.100 (no se confirmó una recomendación sell vigente en 2026, pese a antecedentes históricos de JPM bajista en el sector). LECTURA en contrario: la acción en percentil 1y de 2,4%, con pérdida reportada reciente y cautela generalizada del sell-side, sugiere pesimismo ya mayormente incorporado en precio; si el deterioro operativo no se profundiza en 4T26, el sentimiento extremo abre espacio a sorpresas positivas asimétricas, aunque sin señal de capitulación/reversión confirmada todavía.",
+    "conclusion": "CMPC combina sobreventa técnica real con un riesgo estructural crítico: la pérdida del investment grade (BBB- al borde, 4,23x deuda neta/EBITDA) no es solo ruido de ciclo sino una amenaza que eleva el costo de capital si se materializa. El plan de desinversiones US$785M es creíble pero depende de ejecución (FNE) y de que la celulosa no vuelva a caer. Confianza media: hay asimetría atractiva para un horizonte de 6-18 meses con entrada escalonada, pero no es momento de convicción alta sin confirmación de piso técnico y de la primera reducción efectiva del ratio de deuda en 4T26."
   },
   "scores": {
-    "tecnica": {"score": 26, "just": "RSI 30,2 y MACD negativo previo al reporte, sin datos de precio post-3T2026 que confirmen reversión; deterioro fundamental reduce probabilidad de piso técnico sostenido."},
-    "fundamental": {"score": 30, "just": "El 3T2026 real fue peor que lo descontado -pérdida neta trimestral y caída de 84% en utilidad acumulada-, aunque el EBITDA 9M de US$777M y el flujo de caja +11% evitan una nota aún más baja."},
-    "sentimiento": {"score": 58, "just": "JPMorgan Neutral se mantiene; el consenso ya anticipaba debilidad por lo que no hay shock adicional de expectativas, pero el resultado confirma el sesgo cauteloso."},
-    "riesgo": {"score": 76, "just": "CRÍTICO: CMPC está en el escalón más bajo de investment grade (BBB-) y el 3T2026 no despeja la duda sobre si el desapalancamiento hacia 3,0x proyectado por S&P para 2026 es alcanzable; sumado a vacío de sucesión de CEO y decisión pendiente de Natureza."},
-    "conviccion": {"score": 42, "just": "La asimetría de valoración (P/B 0,24x) persiste pero el resultado real reduce la confianza en una reversión de corto plazo; conviene esperar más claridad en rating y sucesión antes de aumentar exposición."}
+    "tecnica": {
+      "score": 42,
+      "just": "RSI 29,4 y percentil 1y 2,4% muestran sobreventa extrema, pero sin divergencia alcista confirmada ni secado de volumen vendedor visible en los datos; precio bajo las tres SMA y MACD aún negativo. Sobreventa dentro de tendencia bajista, no reversión validada."
+    },
+    "fundamental": {
+      "score": 40,
+      "just": "EBITDA 3T26 cae 3% a/a a US$252M y la empresa reportó pérdida neta; el negocio de celulosa sigue rentable (20,7% margen) pero el apalancamiento (4,23x) y los costos de madera/transporte erosionan resultados. Deterioro cíclico, no de modelo de negocio."
+    },
+    "sentimiento": {
+      "score": 58,
+      "just": "Consenso mixto/cauteloso (Hold predominante, sin sell confirmado vigente) y precio en mínimos de 1 año sugieren pesimismo ya bastante descontado; lectura contraria eleva la nota, pero sin señal de capitulación total que justifique score más alto."
+    },
+    "riesgo": {
+      "score": 78,
+      "just": "Riesgo crítico estructural: deuda neta/EBITDA 4,23x por sobre rango objetivo (2,5-3,5x) con rating BBB-/Baa3 al límite del investment grade (Moody's outlook negativo); una rebaja encarecería financiamiento y gatillaría covenants. Se suma volatilidad 30d de 13,72% y drawdown 1y de -40,85%, pero el riesgo de grado de inversión pesa más que la volatilidad de mercado."
+    },
+    "conviccion": {
+      "score": 48,
+      "just": "Asimetría interesante a $890 CLP si el desapalancamiento avanza y la celulosa no cae más, pero la tesis es claramente falsable: una rebaja de rating o nueva caída de BHKP bajo US$550/t invalidaría la entrada. Convicción media, no alta."
+    }
   },
   "sources": [
-    "DF.cl - 'CMPC registra pérdidas en el tercer trimestre y sus ganancias acumuladas caen 84%' (6-nov-2026)",
-    "Investing.com - 'Earnings call transcript: CMPC Q2 2026 EPS misses as revenue holds steady' (ago-2026)",
-    "La Tercera - 'CMPC a un escalón de perder el grado de inversión tras recorte de Standard & Poor's' (2-mar-2026)",
-    "Investing.com - 'S&P downgrades Empresas CMPC to BBB- on weaker results' (11-feb-2026)",
-    "DF.cl - 'Francisco Ruiz-Tagle dejará la gerencia general de CMPC en abril de 2027' (oct-2026)",
-    "DF.cl - '¿Quiénes integran el comité que buscará al sucesor de Francisco Ruiz-Tagle en CMPC?' (oct-2026)",
-    "The Clinic - 'CMPC confirma la renuncia de Francisco Ruiz-Tagle como gerente general y activa proceso de sucesión' (30-oct-2026)",
-    "Portal Fruticola / Biobio Chile / CMPC.com - 'CMPC acuerda venta de su negocio de Corrugados a Smurfit Westrock por US$420 millones' (23/24-sep-2026)",
-    "The Clinic - 'CMPC obtiene licencia previa en Río Grande do Sul para avanzar con su proyecto Natureza en Brasil' (22-oct-2026)",
-    "DF.cl - 'CMPC destraba megaproyecto de US$4.600 millones en Brasil tras obtener licencia ambiental' (oct-2026)",
-    "DF.cl - 'JPMorgan recorta precios objetivo para acciones de CMPC y Copec en medio de sobreoferta de celulosa y volatilidad cambiaria' (9-sep-2026)",
-    "Maderera Frouxeira - 'Precio de la celulosa BHKP en septiembre de 2026: ¿ha comenzado la recuperación?' (sep/oct-2026)",
-    "TradingView scanner (BCS:CMPC), 4-nov-2026",
-    "tesisdebarrio.substack.com - 'CMPC: dos ventas, una licencia y una deuda que sigue alta' (oct/nov-2026)"
+    "GuruFocus - Empresas CMPC Q3 2026 Earnings Call Highlights: US$785 million divestiture plan targets leverage as EBITDA slips 7%",
+    "Investing.com - CMPC Q2 2026 slides: pulp recovery offset by leverage concerns",
+    "XPI Conteúdos - Papel e celulose: Suzano aumenta precos para nov26",
+    "DF.cl - JPMorgan baja proyecciones para CMPC y Copec en medio de sobreoferta",
+    "DF.cl - CMPC vende 60 mil hectáreas forestales en el Maule a JP Morgan por US$365,5M",
+    "The Clinic - CMPC confirma la renuncia de Francisco Ruiz-Tagle como gerente general",
+    "DF.cl - Francisco Ruiz-Tagle dejará la gerencia general de CMPC en abril de 2027",
+    "LexLatin - Smurfit Westrock compra negocio de Corrugados de CMPC en Chile por US$420M",
+    "Portal Frutícola - CMPC / Smurfit Westrock",
+    "stockanalysis.com - Empresas CMPC statistics, nov-2026",
+    "Investing.com - CMPC consensus estimates",
+    "La Tercera - Cristian Infante (CEO Arauco): cierres de plantas de celulosa en el Hemisferio Norte"
   ],
   "opportunity": {
     "cats": {
-      "valuacion_hist": {"score": 78, "just": "P/B 0,24x es un descuento histórico extremo vs valor libro y vs promedio sectorial; EV/EBITDA 9,3x no es barato en absoluto pero descuenta EBITDA deprimido. Asimetría de múltiplo favorece upside si el EBITDA normaliza."},
-      "calidad": {"score": 28, "just": "El 3T2026 confirmó pérdida neta y deterioro de rentabilidad; apalancamiento 4,17x muy por sobre el rango objetivo, rating al límite de investment grade (riesgo CRÍTICO) y vacío de liderazgo sin sucesor nombrado."},
-      "asimetria": {"score": 52, "just": "Precio en mínimo de 52 semanas con RSI cerca de sobreventa ofrece piso técnico potencial, pero el resultado real confirma que el downside por rebaja de rating sigue siendo comparable al upside de un rebote técnico."},
-      "catalizadores": {"score": 42, "just": "El catalizador del 3T2026 ya se resolvió (negativamente); los próximos hitos (resultados 4T2026 en ene-2027, sucesión, cierre Corrugados) son de mediano plazo sin fecha dura muy cercana."},
-      "contrarian": {"score": 55, "just": "JPMorgan ya giró a Neutral y el precio muestra capitulación técnica (mínimo 52 sem.); el resultado confirmó el pesimismo en vez de sorprender positivamente, por lo que la señal contraria es solo parcial."}
+      "valuacion_hist": {
+        "score": 62,
+        "just": "P/B ~0,22x es un descuento histórico severo sobre libros, propio de mínimos de ciclo; EV/EBITDA ~8-9,5x no es excepcionalmente barato dado el apalancamiento, lo que modera el score."
+      },
+      "calidad": {
+        "score": 45,
+        "just": "Activo forestal-industrial de calidad estructural (integración vertical, escala global en BHKP) pero con balance deteriorado y rating al límite; calidad de negocio buena, calidad de balance débil."
+      },
+      "asimetria": {
+        "score": 65,
+        "just": "A $890 CLP, cerca de mínimos de 1 año (-40,85% drawdown), la relación riesgo/retorno favorece al alza si la celulosa estabiliza y el desapalancamiento avanza, con piso parcial dado por el valor de activos forestales en venta."
+      },
+      "catalizadores": {
+        "score": 55,
+        "just": "Catalizadores concretos y fechados (cierre Corrugados 1S2027, resultados 4T26 ene-2027, nombramiento de sucesor) existen, pero su resolución favorable no está asegurada y algunos (FNE, rating) son bidireccionales."
+      },
+      "contrarian": {
+        "score": 60,
+        "just": "Consenso cauteloso/mixto y pesimismo generalizado tras pérdida trimestral y mínimos de precio configuran terreno contrarian clásico, aunque sin señal aún de capitulación total o cambio de narrativa del sell-side."
+      }
     },
     "plan": {
       "recomendacion": "Esperar gatillo",
-      "zona_compra": "850-920 CLP",
-      "invalidacion": "Pérdida confirmada de investment grade (downgrade a BB+ o inferior por S&P/Fitch/Moody's) o segundo trimestre consecutivo de pérdida neta con deuda neta/EBITDA sobre 4,5x.",
+      "zona_compra": "$820-900 CLP, con tramos adicionales si retesta mínimos de 52 semanas (~$890-905)",
+      "invalidacion": "Rebaja efectiva de rating por debajo de investment grade (sub-BBB-/Baa3) o deuda neta/EBITDA sobre 4,5x en 4T26 sin plan de mitigación creíble",
       "gatillos": [
-        "Publicación del Análisis Razonado 3T2026 confirmando el ratio deuda neta/EBITDA exacto y su trayectoria vs el objetivo de 3,0x para 2026.",
-        "Anuncio de sucesor de CEO que dé continuidad estratégica y reduzca la incertidumbre de gobierno corporativo.",
-        "Cierre efectivo de la venta de Corrugados a Smurfit Westrock (aprobación FNE) con ingreso de caja de US$420M.",
-        "Confirmación de recuperación sostenida del precio BHKP por sobre US$620-650/t en China."
+        "Cierre de la venta de Corrugados a Smurfit Westrock con aprobación FNE sin condiciones adversas",
+        "Deuda neta/EBITDA bajando de 4,23x en resultados 4T26 (28-ene-2027)",
+        "Precio BHKP China sosteniéndose o subiendo sobre US$600/t por 2+ meses",
+        "Nombramiento de sucesor de gerente general con señal de continuidad estratégica"
       ],
       "horizonte": "6-18 meses",
-      "tamano": "Posición pequeña/especulativa (2-4% del libro de renta variable chilena), dado el riesgo crediticio y de gobierno corporativo vigente.",
+      "tamano": "Posición pequeña-media (3-5% de cartera cíclica), ampliable por tramos",
       "confianza": "media"
     }
   },
   "perfil": "Empresas CMPC es un conglomerado forestal, de celulosa y packaging del grupo Matte, con operaciones integradas desde plantaciones forestales hasta productos de consumo masivo. Sus principales segmentos son Celulosa (venta de BHKP/BSKP a mercados globales, especialmente China), Softys (tissue y productos de higiene en Latinoamérica) y Biopackaging (papeles y envases, en transición tras la venta de su negocio de Corrugados a Smurfit Westrock). La compañía tiene fuerte dependencia del precio internacional de la celulosa de fibra corta (BHKP) cotizada en China, lo que genera alta ciclicidad en sus resultados. Mantiene un apalancamiento elevado que la ha llevado a estar en el límite inferior del grado de inversión crediticio, por lo que ejecuta un plan de desinversiones de activos no estratégicos (bosques, Corrugados) para reducir deuda. Opera bajo estrictas regulaciones ambientales y forestales en Chile, Brasil, Argentina y otros mercados donde tiene presencia industrial y forestal.",
-  "reportDate": "4 de noviembre de 2026",
-  "technical": {"price":904,"change_1d_pct":-2.48,"change_1w_pct":-3.83,"rsi":30.2,"macd":-14.8201,"macd_signal":-12.6546,"sma20":948.5285,"sma50":980.1722,"sma200":1109.6846,"ema12":938.1077,"ema26":952.9279,"pct_vs_sma20":-4.69,"pct_vs_sma50":-7.77,"pct_vs_sma200":-18.54,"volume_today":4371455,"volume_avg20":4786480.0,"volume_ratio":0.91,"volatility_30d":17.62,"sharpe":-3.47,"sortino":-2.4,"max_drawdown_1y":-39.52,"price_percentile_1y":0.0,"vs_benchmark_30d_pct":-4.84,"perf_1m_pct":-7.76,"perf_ytd_pct":-36.07},
-  "risk": {"volatility_30d":17.62,"sharpe":-3.47,"sortino":-2.4,"max_drawdown_1y":-39.52,"n_days":373,"window":30},
-  "benchmark": {"ticker":"CBOE:ECH","label":"ECH (proxy Chile/IPSA)","relative_performance_30d":-4.84,"relative_performance_ytd":-26.37,"price_percentile_1y":0.0,"partial":false},
-  "sourcesMeta": {"price":{"origin":"TradingView scanner","fetched_at":"2026-11-04T23:42:16-03:00"},"rsi_macd":{"origin":"TradingView scanner","fetched_at":"2026-11-04T23:42:16-03:00"},"smas_volume":{"origin":"TradingView scanner","fetched_at":"2026-11-04T23:42:16-03:00"},"benchmark":{"origin":"TradingView scanner","symbol":"CBOE:ECH","fetched_at":"2026-11-04T23:42:16-03:00"},"risk_metrics":{"origin":"data/history/CMPC.json","n_days":373}},
+  "technical": {
+    "price": 890,
+    "change_1d_pct": 0.68,
+    "change_1w_pct": -0.89,
+    "rsi": 29.4,
+    "macd": -21.0713,
+    "macd_signal": -16.585,
+    "sma20": 935.305,
+    "sma50": 967.3928,
+    "sma200": 1100.3052,
+    "ema12": 916.1632,
+    "ema26": 937.2345,
+    "pct_vs_sma20": -4.84,
+    "pct_vs_sma50": -8.0,
+    "pct_vs_sma200": -19.11,
+    "volume_today": 1970395,
+    "volume_avg20": 4212443.0,
+    "volume_ratio": 0.47,
+    "volatility_30d": 13.72,
+    "sharpe": -3.74,
+    "sortino": -2.49,
+    "max_drawdown_1y": -40.85,
+    "price_percentile_1y": 2.4,
+    "vs_benchmark_30d_pct": -3.59,
+    "perf_1m_pct": -8.25,
+    "perf_ytd_pct": -37.06
+  },
+  "risk": {
+    "volatility_30d": 13.72,
+    "sharpe": -3.74,
+    "sortino": -2.49,
+    "max_drawdown_1y": -40.85,
+    "n_days": 378,
+    "window": 30
+  },
+  "benchmark": {
+    "ticker": "CBOE:ECH",
+    "label": "ECH (proxy Chile/IPSA)",
+    "relative_performance_30d": -3.59,
+    "relative_performance_ytd": -25.56,
+    "price_percentile_1y": 2.4,
+    "partial": false
+  },
+  "sourcesMeta": {
+    "price": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-11-10T23:08:38-03:00"
+    },
+    "rsi_macd": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-11-10T23:08:38-03:00"
+    },
+    "smas_volume": {
+      "origin": "TradingView scanner",
+      "fetched_at": "2026-11-10T23:08:38-03:00"
+    },
+    "benchmark": {
+      "origin": "TradingView scanner",
+      "symbol": "CBOE:ECH",
+      "fetched_at": "2026-11-10T23:08:38-03:00"
+    },
+    "risk_metrics": {
+      "origin": "data/history/CMPC.json",
+      "n_days": 378
+    }
+  },
   "metricChanges": [],
-  "trend": {"piso":1,"techo":0,"max":7,"senales_piso":["base construyéndose sobre el mínimo anual"],"senales_techo":[]},
-  "change": {"day":-2.48,"week":-3.83}
+  "trend": {
+    "piso": 1,
+    "techo": 0,
+    "max": 7,
+    "senales_piso": [
+      "secado del volumen vendedor"
+    ],
+    "senales_techo": []
+  },
+  "change": {
+    "day": 0.68,
+    "week": -0.89
+  },
+  "reportDate": "6 de noviembre de 2026"
 }
