@@ -4,15 +4,15 @@
   "statsList": [
     [
       "Precio",
-      "$6.57 (TradingView, 10-nov-2026)"
+      "$6.65 (cierre 13-nov-2026, -2.78% vs $6.84 del 12-nov; TikR/MarketBeat, 13-nov-2026)"
     ],
     [
       "Rango 52 sem.",
-      "$6.45–$23.60 aprox. (mínimo histórico tocado 4-nov-2026; Yahoo Finance/MarketBeat, nov-2026)"
+      "$6.63–$23.60 aprox. (mínimo histórico renovado 4-11-nov-2026; Yahoo Finance/Investing.com, nov-2026)"
     ],
     [
       "Market cap",
-      "≈$1.7-1.8 mil millones (stockanalysis.com, 11-nov-2026)"
+      "≈$1.6-1.7 mil millones (estimado sobre ~247M acciones a $6.65; stockanalysis.com, 13-nov-2026)"
     ],
     [
       "Hashrate",
@@ -28,37 +28,43 @@
     ],
     [
       "Técnico (auto)",
-      "RSI 36.0 · MACD -1.23 / señal -1.22 (TradingView, 10-nov-2026)"
+      "RSI 38.5 · MACD -1.11 / señal -1.19 (TradingView, 12-nov-2026)"
     ]
   ],
   "events": [
     {
-      "date": "2026-11-13",
-      "label": "Ajuste de dificultad de red Bitcoin",
+      "date": "2026-11-14",
+      "label": "Ajuste de dificultad de red Bitcoin (madrugada, 03:02 UTC)",
       "kind": "macro",
-      "info": "Dificultad actual 148.36T (fijada 29-oct-2026); próximo ajuste en bloque 975744. Estimación de caída entre -3.7% y -6.8% (mempool.space, 11-nov-2026), 374 días consecutivos bajo el máximo histórico de oct-2025 — racha más larga en la historia de BTC. Dificultad más baja favorece márgenes de minería si BTC se estabiliza."
+      "info": "HECHO: dificultad actual 148.36T (fijada 29-oct-2026, +5.54%); próximo ajuste programado para 03:02 UTC del 14-nov-2026 en bloque ~975744, aún no ejecutado al cierre del 13-nov. LECTURA: estimación de caída ampliada a -6.4%/-7.8% (mayor recorte desde junio-2026) por bloques promediando 10m46s-10m50s (KuCoin/CryptoBriefing, 12-13-nov-2026). Dificultad más baja aliviaría márgenes de minería, pero coincide con desplome de BTC a mínimos de 3 meses, lo que podría anular el beneficio."
     },
     {
       "date": "2026-11-24",
       "label": "Posible reporte earnings Q4 FY2026 (fecha estimada, no confirmada)",
       "kind": "earnings",
-      "info": "Estimación basada en patrón histórico (Q4 FY2025 se reportó 25-nov-2025). Q3 FY2026 (ago-2026) mostró ingresos $138.0M vs consenso $155.9M (miss -11.5%) y EPS -$0.89 vs consenso -$0.33 (miss). Mercado espera guidance sobre objetivo de $4B ingresos anualizados IA/HPC, retrasado a enero-2027."
+      "info": "Estimación basada en patrón histórico (Q4 FY2025 se reportó 25-nov-2025); TipRanks/MarketBeat (13-nov-2026) confirman que CLSK aún no ha anunciado fecha oficial. Q3 FY2026 (ago-2026) mostró ingresos $138.0M vs consenso $155.9M (miss -11.5%) y EPS -$0.89 vs consenso -$0.33 (miss). Mercado espera guidance sobre objetivo de $4B ingresos anualizados IA/HPC y sobre impacto del riesgo regulatorio de Texas en los sitios Sealy/Brazoria."
     },
     {
       "date": "2026-12-01",
       "label": "Conferencias de inversionistas: BofA Leveraged Finance y Chardan AI Infrastructure Salon",
       "kind": "corporate",
-      "info": "CleanSpark participa en ambos eventos el mismo día (confirmado en calendario IR, nov-2026); posible flujo de noticias sobre financiamiento de capex pendiente (~$6B sin financiar) y actualización del pilar IA/HPC."
+      "info": "HECHO: confirmado en calendario IR (StockTitan, nov-2026); CleanSpark también participó en Cantor Convergence el 11-nov-2026. Posible flujo de noticias sobre financiamiento de capex pendiente y actualización del pilar IA/HPC tras el golpe regulatorio de Texas."
+    },
+    {
+      "date": "2026-12-08",
+      "label": "Wells Fargo 10th Annual TMT Summit",
+      "kind": "corporate",
+      "info": "HECHO: cuarta conferencia de inversionistas confirmada en el calendario IR de CleanSpark para el trimestre (StockTitan, nov-2026)."
     }
   ],
   "sections": {
-    "resumen": "CLSK se desploma a mínimos de 52 semanas ($6.57, -4.92% 1d) arrastrada por el derrumbe de BTC (-26% vs CLSK en 30d relativo) y, sobre todo, por un nuevo riesgo político: la gobernadora electa de Texas (demócrata, 3-nov-2026) amenaza con moratoria a centros de datos, poniendo en duda la opción IA/HPC de 885 MW no firmada aún. KBW y Bernstein recortaron price targets drásticamente (4-5 nov). El pilar sólido es Sandersville-Meta (20 años, hasta $11.6B), ya totalmente financiado. Técnicamente en caída libre, sin señal clara de piso.",
-    "fundamental": "- HECHO: Q3 FY2026 (ago-2026): ingresos $138.0M (miss vs $155.9M consenso, -30.5% YoY), EPS -$0.89 (vs -$0.33 esp.), pérdida neta -$239.8M (SEC 8-K, 6-ago-2026).\n- HECHO: deuda de largo plazo $1.78B tras emitir $2.276B en notas senior al 7.875% (2031) y $1.15B en convertibles 0% (nov-2025) — apalancamiento estructural elevado.\n- HECHO: flujo de caja operativo trimestral -$112.3M; quema de caja activa en el negocio minero puro.\n- HECHO: contrato Sandersville-Meta (Anviran, garante Meta): 20 años, $6.6B contratados (hasta $11.6B con extensiones), 175 MW, 'fully funded' desde oct-2026; entrega desde Q4 2027.\n- LECTURA: objetivo de $4B ingresos anualizados IA/HPC retrasado de fin-2026 a enero-2027; aún ~$6B de capex sin financiar.",
-    "valuacion": "Market cap ≈$1.7-1.8B vs tesorería BTC de ~$1.0B (13,530 BTC) — el mercado casi no asigna valor positivo al negocio minero ex-tesorería tras la caída. Consenso histórico de analistas (pre-recortes) mostraba target promedio $21.46 (Moderate Buy), pero quedó obsoleto: Bernstein bajó a $11 (mantiene Outperform, ~62% upside implícito desde $6.80) y KBW a $9.50 (bajó rating a Market Perform) el 4-5 de noviembre. La divergencia entre targets antiguos y nuevos refleja repricing abrupto por riesgo Texas + debilidad BTC, no necesariamente valor fundamental perdido en Georgia.",
+    "resumen": "CLSK cerró el 13-nov en $6.65 (-2.78%), cerca de mínimos de 52 semanas, arrastrada por el desplome de BTC a ~$68-69k (mínimo de 3 meses, -1.6B liquidaciones). El riesgo regulatorio de Texas se intensificó: KBW recortó a 50% la probabilidad de los sitios Sealy/Brazoria (885 MW, ~$10.9B) tras confirmarse que la gobernadora electa Hinojosa mantendrá la moratoria hasta enero-2027. Argus bajó su target a solo $6.00 (11-nov). El ajuste de dificultad de BTC (madrugada 14-nov) aún no se resuelve; se espera el mayor recorte desde junio (-6.4%/-7.8%). Sandersville-Meta sigue sólido y financiado.",
+    "fundamental": "- HECHO: Q3 FY2026 (ago-2026): ingresos $138.0M (miss vs $155.9M consenso, -30.5% YoY), EPS -$0.89 (vs -$0.33 esp.), pérdida neta -$239.8M (SEC 8-K, 6-ago-2026).\n- HECHO: deuda de largo plazo $1.78B tras emitir $2.276B en notas senior al 7.875% (2031) y $1.15B en convertibles 0% (nov-2025) — apalancamiento estructural elevado.\n- HECHO: contrato Sandersville-Meta (Anviran, garante Meta): 20 años, $6.6B contratados (hasta $11.6B con extensiones), 175 MW, 'fully funded' desde oct-2026; renta inicia nov-2027, entrega completa mar-2028.\n- HECHO: KBW recortó a 50% la probabilidad de concreción de los sitios Texas Sealy y Brazoria de CleanSpark citando la postura de Hinojosa (Blockspace, nov-2026); esos dos sitios no arrendados estaban valorados en ~$10.9B por analistas.\n- LECTURA: objetivo de $4B ingresos anualizados IA/HPC retrasado a enero-2027; persiste capex sin financiar en los sitios Texas ahora en riesgo.",
+    "valuacion": "Market cap ≈$1.6-1.7B vs tesorería BTC de ~$1.0B (13,530 BTC) — el mercado sigue asignando valor mínimo al negocio minero+IA/HPC ex-tesorería. Consenso de analistas (MarketBeat, 9-nov) aún muestra target promedio $20.71 (Moderate Buy), pero quedó obsoleto frente a recortes recientes: Argus a $6.00 (11-nov, el más bajo), KBW a $9.50 con downgrade a Market Perform (4-5-nov), Bernstein a $11 manteniendo Outperform (4-nov, ~62% upside implícito), B. Riley a $21 desde $26 (Buy) y Cantor Fitzgerald a $19 desde $26 (Overweight). La dispersión extrema ($6 a $27) refleja incertidumbre sobre cuánto del valor IA/HPC en Texas sobrevive a la moratoria.",
     "tecnico": "RSI 36 (zona de sobreventa pero no extrema aún), MACD -1.23 por debajo de señal -1.22 (débil, sin cruce alcista claro). Precio 45.8% bajo SMA200 ($12.13) y 16% bajo SMA20 ($7.82) — tendencia bajista intacta en todos los plazos. Rebote semanal +6.66% tras mínimo de $6.80 (4-nov) sugiere intento de estabilización, pero volumen y contexto (BTC débil, riesgo Texas) no confirman piso robusto. Percentil de precio 1Y de 7.6% y drawdown -67% indican capitulación, zona donde históricamente CLSK ha formado suelos técnicos, pero sin confirmación de volumen/estructura aún es prematuro llamarlo giro.",
-    "catalizadores": "**Catalizadores:**\n- Ajuste de dificultad BTC (13-nov), esperado a la baja (-3.7% a -6.8%), alivio marginal de margen operativo si BTC se mantiene.\n- Earnings Q4 FY2026 (~24-nov-2026), clave para guidance de capex IA/HPC y estado real del objetivo $4B.\n- Resolución regulatoria en Texas: definición de postura de la nueva gobernadora sobre centros de datos, determinante para los 885 MW opcionales (~$10.9B valorados por analistas).\n- Conferencias BofA/Chardan (1-dic), posible anuncio de financiamiento adicional del capex pendiente de $6B.\n\n**Riesgos (por materialidad):**\n- Apalancamiento financiero elevado (>$3B deuda nueva en 12 meses) amplifica cualquier shock adicional de precio de BTC.\n- Riesgo regulatorio en Texas sobre centros de datos podría cancelar la opcionalidad IA/HPC de 885 MW.\n- Dependencia doble de precio BTC y de resolución regulatoria, ambas fuera del control operativo de la empresa.\n- Historial de misses en ingresos/EPS (Q3 FY2026) genera dudas sobre ejecución del pilar IA/HPC.",
-    "sentimiento": "Doble recorte de price target en 48h (KBW a $9.50 con downgrade a Market Perform; Bernstein a $11 manteniendo Outperform) marca deterioro agudo de sentimiento institucional a inicios de noviembre. Sin compras de insiders detectadas en los mínimos; única venta identificada (CTO, 1-oct) fue bajo plan 10b5-1 preprogramado, sin señal discrecional. VanEck (lectura contraria, 5-nov) sostiene que mineras-IA están sobrevendidas por contagio desde temores de crédito ajenos (CoreWeave), no por cancelación de contratos reales. En extremos de pesimismo como este, el consenso bajista reciente podría sobrerreaccionar al ruido político de corto plazo.",
-    "conclusion": "Tesis dañada en dos frentes simultáneos: apalancamiento financiero propio de CLSK (deuda >$3B nueva en 12 meses, quema de caja operativa) y riesgo político-regulatorio inédito en Texas que amenaza el crecimiento opcional de IA/HPC. El ancla de Georgia-Meta sigue sólida y financiada, lo que limita el downside estructural, pero no hay aún señal técnica de piso confirmado. Confianza: media-baja. Apto solo para perfiles con alta tolerancia a volatilidad y horizonte largo, esperando confirmación de guidance en earnings de noviembre y claridad regulatoria en Texas antes de aumentar exposición."
+    "catalizadores": "**Catalizadores:**\n- Ajuste de dificultad BTC (madrugada 14-nov), esperado a la baja (-6.4% a -7.8%, mayor recorte desde junio), alivio marginal de margen operativo si BTC se estabiliza.\n- Earnings Q4 FY2026 (~24-nov-2026, aún no confirmado oficialmente), clave para guidance de capex IA/HPC y cuantificación del impacto Texas.\n- Resolución regulatoria en Texas: la legislatura se reúne en enero-2027 para definir reglas permanentes; hasta entonces persiste la moratoria de facto sobre nuevos permisos (no afecta obras ya en construcción).\n- Conferencias BofA/Chardan y Wells Fargo TMT (1 y 8-dic), posible anuncio de financiamiento adicional o reestructuración de los sitios Texas en riesgo.\n\n**Riesgos (por materialidad):**\n- Apalancamiento financiero elevado (>$3B deuda nueva en 12 meses) amplifica cualquier shock adicional de precio de BTC, que hoy cae a mínimos de 3 meses.\n- Riesgo regulatorio en Texas ya materializado parcialmente: KBW asigna solo 50% de probabilidad a Sealy/Brazoria (885 MW, ~$10.9B de valor).\n- Dependencia doble de precio BTC y de resolución regulatoria, ambas fuera del control operativo de la empresa.\n- Historial de misses en ingresos/EPS (Q3 FY2026) genera dudas sobre ejecución del pilar IA/HPC incluso en los sitios que sí se concreten.",
+    "sentimiento": "Cascada de recortes de price target en 10 días (Argus a $6.00, KBW a $9.50 con downgrade, Bernstein a $11, B. Riley y Cantor Fitzgerald recortando desde ~$26) marca deterioro agudo y sostenido del sentimiento institucional. Sin compras de insiders detectadas en los mínimos. VanEck (lectura contraria, 5-nov) sostenía que las mineras-IA estaban sobrevendidas por contagio de temores de crédito ajenos (CoreWeave), no por cancelación de contratos reales — tesis que se pone a prueba con el nuevo mínimo de 3 meses en BTC. En extremos de pesimismo tan uniforme y con el activo ancla (Sandersville) intacto, el mercado podría estar sobrecastigando el riesgo Texas de corto plazo.",
+    "conclusion": "Tesis dañada en tres frentes simultáneos: apalancamiento financiero propio de CLSK, desplome de BTC a mínimos de 3 meses, y riesgo político-regulatorio en Texas que ya recortó a 50% la probabilidad de 885 MW de opcionalidad IA/HPC (~$10.9B). El ancla de Georgia-Meta sigue sólida y financiada, limitando el downside estructural, pero no hay señal técnica de piso confirmado y la dispersión de analistas ($6-$27) refleja máxima incertidumbre. Confianza: media-baja. Apto solo para perfiles con alta tolerancia a volatilidad y horizonte largo, esperando guidance de earnings (~24-nov) y mayor claridad sobre el calendario legislativo de Texas (enero-2027)."
   },
   "scores": {
     "tecnica": {
@@ -85,20 +91,20 @@
   "sources": [
     "SEC EDGAR - 8-K y 10-Q CleanSpark Inc.",
     "investors.cleanspark.com",
-    "TradingView News/Markets, 10-11 nov 2026",
-    "stockanalysis.com, 11-nov-2026",
-    "TIKR / MarketBeat, 4-5 nov 2026",
-    "Benzinga / StockTitan, 6-ago-2026",
-    "mempool.space (vía agregadores), 11-nov-2026",
-    "Blockspace Media / The Block",
+    "TradingView News/Markets, 10-13 nov 2026",
+    "stockanalysis.com, 13-nov-2026",
+    "TIKR / MarketBeat, 4-13 nov 2026",
+    "Benzinga / StockTitan, 6-ago-2026 y 11-nov-2026",
+    "KuCoin / CryptoBriefing, 12-13-nov-2026",
+    "Blockspace Media, nov-2026",
     "VanEck research note, 5-nov-2026",
-    "CoinDesk, Yahoo Finance, Investing.com"
+    "CoinDesk, Yahoo Finance, Investing.com, DataCenterDynamics, nov-2026"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
         "score": 74,
-        "just": "Market cap ≈$1.7-1.8B vs tesorería BTC ~$1.0B implica valoración del negocio operativo+IA/HPC muy comprimida vs históricos; percentil de precio 1y de solo 7.6%."
+        "just": "Market cap ≈$1.6-1.7B vs tesorería BTC ~$1.0B implica valoración del negocio operativo+IA/HPC muy comprimida vs históricos; percentil de precio 1y de solo 7.6%."
       },
       "calidad": {
         "score": 55,
@@ -110,11 +116,11 @@
       },
       "catalizadores": {
         "score": 50,
-        "just": "Ajuste de dificultad (13-nov) y earnings (~24-nov) son próximos pero de impacto incierto; resolución regulatoria de Texas es el catalizador de mayor magnitud y sin fecha definida aún."
+        "just": "Ajuste de dificultad (14-nov) y earnings (~24-nov) son próximos pero de impacto incierto; resolución regulatoria de Texas es el catalizador de mayor magnitud y no llegará antes de la sesión legislativa de enero-2027."
       },
       "contrarian": {
         "score": 62,
-        "just": "Doble rebaja de analistas y pánico post-elección Texas en mínimos de 52 semanas son señales de sobreventa típicas de capitulación, con lectura institucional (VanEck) ya señalando sobrerreacción del mercado."
+        "just": "Cascada de rebajas de analistas y pánico post-elección Texas en mínimos de 52 semanas son señales de sobreventa típicas de capitulación, con lectura institucional (VanEck) ya señalando sobrerreacción del mercado."
       }
     },
     "plan": {
@@ -122,9 +128,9 @@
       "zona_compra": "$5.80-$6.80 (zona de capitulación cerca de mínimos de 52 semanas, con parte de la posición sujeta a confirmación post-earnings)",
       "invalidacion": "Cierre semanal bajo $5.50 con BTC estable (señal de deterioro propio de CLSK, no solo beta a BTC) o cancelación/retiro confirmado de la opción Texas sin compensación",
       "gatillos": [
-        "Reporte de earnings Q4 FY2026 (~24-nov-2026) con guidance claro sobre financiamiento del capex de $6B",
-        "Señal regulatoria de Texas (postura final de la gobernadora electa sobre moratoria de centros de datos)",
-        "Ajuste de dificultad del 13-nov confirmando baja, aliviando presión de margen si BTC se estabiliza sobre $70-75k",
+        "Reporte de earnings Q4 FY2026 (~24-nov-2026) con guidance claro sobre financiamiento del capex y plan ante riesgo Texas",
+        "Señal legislativa de Texas en la sesión de enero-2027 sobre reglas permanentes para centros de datos",
+        "Resultado confirmado del ajuste de dificultad del 14-nov y su efecto en márgenes si BTC se estabiliza sobre $70-75k",
         "Recuperación de BTC sobre $80,000 sostenida, que históricamente arrastra a CLSK con beta amplificado"
       ],
       "horizonte": "6-18 meses",
@@ -134,69 +140,69 @@
   },
   "perfil": "CleanSpark opera como minera industrial de Bitcoin: despliega ASICs en centros propios (Georgia, Tennessee, Mississippi, Wyoming) para resolver bloques y recibir recompensas en BTC más comisiones de transacción. El dinero sale de dos vías: venta parcial del BTC minado para cubrir costos operativos (energía, depreciación, intereses) y, cada vez más, de un nuevo pilar de arrendamiento de infraestructura a clientes de IA/HPC (contrato Sandersville con Meta). Depende críticamente del precio de BTC, del costo de la energía contratada y de la dificultad de red, que sube con cada ajuste y erosiona márgenes si el precio de BTC no acompaña. Su moat es la eficiencia operativa (ASICs modernos, acceso a energía barata bajo contratos de largo plazo) frente a competidores con costos más altos. Es cíclica: tras cada halving, los márgenes se comprimen hasta que la dificultad o el precio de BTC se ajustan, y el apalancamiento financiero amplifica tanto las subas como las caídas.",
   "technical": {
-    "price": 6.57,
-    "change_1d_pct": -4.92,
-    "change_1w_pct": 6.66,
-    "rsi": 36.0,
-    "macd": -1.2309,
-    "macd_signal": -1.2227,
-    "sma20": 7.8237,
-    "sma50": 10.7818,
-    "sma200": 12.1264,
-    "ema12": 7.2699,
-    "ema26": 8.5008,
-    "pct_vs_sma20": -16.02,
-    "pct_vs_sma50": -39.06,
-    "pct_vs_sma200": -45.82,
-    "volume_today": 15611200,
-    "volume_avg20": 19580080.0,
-    "volume_ratio": 0.8,
-    "volatility_30d": 101.29,
-    "sharpe": -1.01,
+    "price": 6.84,
+    "change_1d_pct": -1.01,
+    "change_1w_pct": 11.04,
+    "rsi": 38.5,
+    "macd": -1.1118,
+    "macd_signal": -1.1918,
+    "sma20": 7.5825,
+    "sma50": 10.609,
+    "sma200": 12.0616,
+    "ema12": 7.1569,
+    "ema26": 8.2687,
+    "pct_vs_sma20": -9.79,
+    "pct_vs_sma50": -35.53,
+    "pct_vs_sma200": -43.29,
+    "volume_today": 22572462,
+    "volume_avg20": 19677304.0,
+    "volume_ratio": 1.15,
+    "volatility_30d": 102.56,
+    "sharpe": -1.0,
     "sortino": -0.8,
     "max_drawdown_1y": -67.25,
-    "price_percentile_1y": 7.6,
-    "vs_benchmark_30d_pct": -26.04,
-    "perf_1m_pct": -38.31,
-    "perf_ytd_pct": -36.8
+    "price_percentile_1y": 9.6,
+    "vs_benchmark_30d_pct": -15.96,
+    "perf_1m_pct": -31.46,
+    "perf_ytd_pct": -34.2
   },
   "risk": {
-    "volatility_30d": 101.29,
-    "sharpe": -1.01,
+    "volatility_30d": 102.56,
+    "sharpe": -1.0,
     "sortino": -0.8,
     "max_drawdown_1y": -67.25,
-    "n_days": 378,
+    "n_days": 379,
     "window": 30
   },
   "benchmark": {
     "ticker": "CRYPTO:BTCUSD",
     "label": "Bitcoin",
-    "relative_performance_30d": -26.04,
-    "relative_performance_ytd": -20.66,
-    "price_percentile_1y": 7.6,
+    "relative_performance_30d": -15.96,
+    "relative_performance_ytd": -14.37,
+    "price_percentile_1y": 9.6,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-11-10T23:08:38-03:00"
+      "fetched_at": "2026-11-12T23:51:09-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-11-10T23:08:38-03:00"
+      "fetched_at": "2026-11-12T23:51:09-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-11-10T23:08:38-03:00"
+      "fetched_at": "2026-11-12T23:51:09-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CRYPTO:BTCUSD",
-      "fetched_at": "2026-11-10T23:08:38-03:00"
+      "fetched_at": "2026-11-12T23:51:09-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/CLSK.json",
-      "n_days": 378
+      "n_days": 379
     }
   },
   "metricChanges": [
@@ -282,8 +288,8 @@
     "senales_techo": []
   },
   "change": {
-    "day": -4.92,
-    "week": 6.66
+    "day": -1.01,
+    "week": 11.04
   },
-  "reportDate": "6 de noviembre de 2026"
+  "reportDate": "13 de noviembre de 2026"
 }

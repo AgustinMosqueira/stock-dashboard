@@ -4,7 +4,7 @@
   "statsList": [
     [
       "Precio",
-      "$73,950 (CoinMarketCap, 11-nov-2026)"
+      "$70,192.14 (12-nov-2026, TradingView/technical); dato más fresco reportado públicamente: ~$67,568–$69,556 intradía el 13-nov-2026, caída de ~5% en 24h, cierre más bajo en 3 meses (Fortune, Rio Times, KuCoin News, 13-nov-2026)"
     ],
     [
       "Rango 52 sem.",
@@ -12,206 +12,211 @@
     ],
     [
       "Market cap",
-      "$1.49 billones (CoinMarketCap, 11-nov-2026)"
+      "$1.49 billones (CoinMarketCap, 11-nov-2026); con la caída del 13-nov probablemente bajo $1.40 billones (no confirmado con cifra exacta)"
     ],
     [
       "Dominancia BTC",
-      "~60.8% (CoinMarketCap, 11-nov-2026)"
+      "~59.7% (CoinMarketCap, 13-nov-2026), en baja desde ~60.8% (11-nov); dispersión entre fuentes 56.6%-61% según metodología"
     ],
     [
       "Flujos ETF spot",
-      "-$95M neto (Farside, 10-nov-2026); 4ª sesión consecutiva de salidas"
+      "-$47.7M neto (agregadores vía Farside, 12-nov-2026); 5ª-6ª sesión consecutiva de salidas, racha acumulada ~-$1,440M; IBIT acumula >$2,000M en salidas en 9 sesiones (Cointelegraph, 11-nov-2026)"
     ],
     [
       "Próximo evento",
-      "Ajuste de dificultad de minería BTC, 13-nov-2026 (~-6.3% a -6.8% esperado)"
+      "Ajuste de dificultad de minería BTC ya ocurrió (bloque 975,744, ~01:40 UTC 13-nov-2026); ver resultados de eventos"
     ],
     [
       "Técnico (auto)",
-      "RSI 33.6 · MACD -1916.00 / señal -1524.64 (TradingView, 10-nov-2026)"
+      "RSI 27.6 · MACD -2372.93 / señal -1784.13 (TradingView, 12-nov-2026)"
     ]
   ],
   "events": [
     {
-      "date": "2026-11-13",
-      "label": "Ajuste de dificultad de minería BTC",
-      "kind": "corporate",
-      "info": "Se espera una caída de entre -6.3% y -6.8%, la mayor desde junio, por ralentización del tiempo de bloque a ~10.7 min tras enfriamiento del hashrate desde máximos de octubre (CoinWarz, dcforecasts.com, 9-nov-2026)."
-    },
-    {
       "date": "2026-11-30",
       "label": "Vencimiento de notas convertibles de Trump Media",
       "kind": "macro",
-      "info": "Tenedores de $1,000M en notas convertibles 0% (vencimiento 2028) pueden exigir recompra a valor nominal el 30-nov. Trump Media tiene 73% de sus 15,649 BTC comprometidos en un programa de opciones con derecho de rehipotecación; transfirió 4,259 BTC a Crypto.com el 5-nov como preparación de liquidez (Bitcoin Magazine, 24/7 Wall St., 10-nov-2026)."
+      "info": "Desde el 30-nov, tenedores de $1,000M en notas convertibles 0% (vencimiento formal 2028) pueden ejercer cláusula 'put' exigiendo recompra en efectivo. Trump Media transfirió ~4,259 BTC (~$344M) a Crypto.com el 5-nov, monto que coincide con el colateral pignorado (4,260.73 BTC) de 73% de sus 15,649 BTC comprometidos en programa de opciones con rehipotecación (10-Q, 24/7 Wall St., Parameter, 9-13-nov-2026)."
     },
     {
       "date": "2026-11-30",
-      "label": "Exclusión de Strategy (MSTR) de índices MSCI",
+      "label": "Exclusión de Strategy (MSTR) de índices MSCI entra en vigor",
       "kind": "corporate",
-      "info": "MSCI confirmó el retiro de Strategy de sus índices globales (MSCI USA, etc.) al cierre del 30-nov bajo la nueva regla de 'empresas no operativas'. JPMorgan estima hasta $2,800M en venta pasiva forzada (Cointelegraph, TechFlowPost, 11-nov-2026)."
+      "info": "MSCI confirmó formalmente el 11-nov-2026 el retiro de Strategy (y Metaplanet) de sus índices globales al cierre del 30-nov bajo la regla de 'empresas no operativas'. MSTR cayó entre -2.6% y -6.8% tras la confirmación. JPMorgan estima $2,800M en venta pasiva forzada (hasta $8,800M si otros proveedores de índices siguen el criterio) (The Block, Yahoo Finance, Benzinga, 11-nov-2026)."
+    },
+    {
+      "date": "2026-11-19",
+      "label": "Debut en Nasdaq de la IPO de Anthropic",
+      "kind": "macro",
+      "info": "Oferta de ~$64,400M, la segunda IPO más grande de la historia; se cita como posible drenaje de liquidez de mercados de riesgo (incluido cripto), con paralelismo a la corrección previa a la IPO de SpaceX en 2024 (CoinDesk, 13-nov-2026)."
     },
     {
       "date": "2026-12-09",
       "label": "Reunión del FOMC (decisión de tasas)",
       "kind": "macro",
       "time": "16:00",
-      "info": "Fed funds actual 3.75%-4.00%. Mercados de futuros/predicción asignan ~65% de probabilidad a una subida de 25pb (no recorte) tras CPI de octubre en 3.7% interanual; probabilidad de recorte cercana a cero (centralbank.watch, Polymarket, 10-nov-2026)."
+      "info": "Fed funds actual 3.75%-4.00%. Probabilidad de subida de 25pb subió fuerte a 88.8%-93% (CME FedWatch, centralbank.watch, Polymarket, Kalshi, 13-nov-2026), frente a ~65-72% la semana previa, tras CPI de octubre sobre pronóstico (+0.4% general, +0.3% núcleo, 10-nov), PPI en máximo de 4 años y payrolls de octubre/noviembre muy por encima de lo esperado."
     }
   ],
   "sections": {
-    "resumen": "BTC cotiza en $73,950 (11-nov-2026, CoinMarketCap), tras rebotar intradía desde mínimos cercanos a $73,000 pero aún un 41% por debajo de su ATH de $126,021 (oct-2025). La corrección se aceleró tras el hackeo de Binance ($6,300M, 29-oct) y persisten salidas de ETFs spot (-$1,400M en lo que va de noviembre). RSI en 33.6 y precio justo sobre SMA200 reflejan sobreventa técnica sin ruptura estructural. STH-MVRV en ~1.0 marca zona de decisión: soporte o capitulación. HECHO: datos on-chain y de flujos. LECTURA: miedo extremo con fundamentales de red intactos sugiere posible suelo de ciclo, no tesis confirmada.",
-    "fundamental": "- Oferta fija 21M BTC; emisión decreciente post-halving abr-2024 intacta, sin cambios estructurales en el protocolo (HECHO).\n- Hashrate ~1.00 ZH/s; dificultad bajará -6.3%/-6.8% el 13-nov, la mayor caída desde junio, señal de estrés en márgenes de mineros a $73-75K (CoinWarz, dcforecasts.com, 9-nov-2026).\n- Strategy sigue comprando (811 + 1,036 BTC en primeras dos semanas de nov, holdings ~850,364 BTC) pero diluye tenencia por acción vía emisión de STRC; además será excluida de índices MSCI el 30-nov, con hasta $2,800M en venta pasiva estimada por JPMorgan (Kucoin, Cointelegraph, 10-11-nov-2026).\n- SEC propuso nuevas reglas de custodia cripto (1-oct-2026) que reducirían fricción para adopción institucional regulada; comentarios hasta 7-dic (Harvard Corp Gov, Ropes & Gray).\n- LECTURA: la red es sólida, pero el estrés de tesorerías corporativas (Strategy/MSCI, Trump Media/notas) introduce riesgo de venta forzada no ligado a la red en sí.",
-    "valuacion": "- Precio actual 41% por debajo del ATH y 28% por encima del mínimo de 52 semanas ($57,748, 1-jul-2026); percentil de precio 1 año en 33.9%.\n- STH-MVRV ~0.99-1.02: compradores recientes (cost basis ~$76,000) están en break-even, zona históricamente de soporte o de capitulación según evolución de precio (TechFlowPost, Phemex, 9-nov-2026).\n- Dominancia BTC ~60.8%, cerca de máximos del ciclo, sugiere rotación de capital hacia BTC como refugio relativo dentro de cripto, no fuga total del activo (CoinMarketCap, 11-nov-2026).\n- Drawdown 1 año de -28.77% es severo pero típico de correcciones intraciclo post-halving, no de un cambio de tendencia estructural confirmado.\n- LECTURA: valuación en zona de descuento histórico de ciclo, pero sin confirmación de piso.",
-    "tecnico": "- RSI 33.6 en sobreventa, sin llegar a extremos de pánico (<20); MACD -1916 bajo señal -1524.64, momentum negativo pero decelerando (TradingView, 10-nov-2026).\n- Precio ($73,425-73,950) justo sobre SMA200 ($73,117, +0.42%), nivel crítico: perderlo de forma sostenida abriría a extensión bajista; mantenerlo valida soporte de ciclo.\n- SMA20 ($77,693) y SMA50 ($81,118) por encima del precio confirman estructura bajista de corto/mediano plazo intacta.\n- Volatilidad 30d de 32.22% y Sharpe -2.16/Sortino -1.97 reflejan retornos ajustados a riesgo muy pobres en el trimestre, propios de fase de capitulación, no de colapso terminal.\n- LECTURA: sobreventa con pérdida de momentum bajista (no aceleración) es el patrón típico de pre-piso, aunque aún sin cambio de carácter confirmado.",
-    "catalizadores": "**Catalizadores:**\n- Ajuste de dificultad de minería (-6.3/-6.8%), 13-nov-2026: alivio para mineros, podría reducir presión de venta de hashrate marginal (CoinWarz, 9-nov-2026).\n- Reversión de las salidas de ETFs spot hacia flujos netos positivos reactivaría la demanda institucional marginal.\n- Resolución ordenada del vencimiento de notas de Trump Media (30-nov) sin venta forzada de BTC eliminaría un overhang de oferta.\n- Datos de empleo/inflación previos al FOMC del 9-dic: una sorpresa a la baja podría revertir la repreciación hacia un alza de tasas.\n\n**Riesgos (por materialidad):**\n- Reunión FOMC (9-dic-2026): mercado pricea ~65% probabilidad de alza de tasas (no recorte), escenario restrictivo para activos de riesgo (centralbank.watch, 10-nov-2026).\n- Vencimiento notas convertibles Trump Media ($1,000M), 30-nov-2026: riesgo de venta forzada de BTC pledged si no logra refinanciar/pagar en efectivo (Bitcoin Magazine, 10-nov-2026).\n- Exclusión de Strategy del MSCI, 30-nov-2026: hasta $2,800M en venta pasiva de MSTR, con posible contagio de sentimiento hacia BTC (Cointelegraph, 11-nov-2026).\n- Fragilidad de infraestructura cripto expuesta por el hackeo de Binance ($6,300M, 29-oct-2026), que erosiona confianza en custodia centralizada.",
-    "sentimiento": "- Fear & Greed Index en 28 (Miedo), recuperándose desde Extreme Fear de 25 el 7-nov-2026, el nivel más bajo desde agosto (alternative.me vía TokenPost, CryptoTicker, 9-11-nov-2026).\n- Caída desde 82 (Codicia, septiembre) a 28 en siete semanas refleja capitulación rápida de sentimiento retail, usualmente contraria en extremos.\n- Ballenas con comportamiento mixto: una ballena dormida reactivó retirando 3,009 BTC (~$228M) de Binance el 6-nov tras haber vendido cerca de $89,000, señal de acumulación oportunista; pero +100 ballenas grandes vendieron el 11-nov (KuCoin On-Chain, 6-11-nov-2026).\n- LECTURA contraria: miedo extremo + hashrate/red estables + ballenas acumulando en el fondo sugiere que el sentimiento está más deprimido que los fundamentales de red, condición históricamente favorable a mediano plazo si no hay deterioro adicional.\n- Riesgo de lectura: persistencia de salidas de ETF y eventos de deuda corporativa en noviembre podrían extender el pesimismo más de lo que sugiere el indicador de sentimiento puro.\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 03-nov-2026 | -$115.6M | Salida generalizada, sin líder claro (Farside Investors) |\n| 04-nov-2026 | +$74.6M | FBTC de Fidelity lideró con +$236.7M; IBIT de BlackRock con -$201.2M |\n| 05-nov-2026 | -$430.2M | Ningún fondo tuvo flujo positivo; BTC cae bajo $76,000 (24/7 Wall St.) |\n| 06-nov-2026 | -$411.9M | BlackRock IBIT lideró la salida (NewsBTC) |\n| 09-nov-2026 | -$201.0M | IBIT -$213.2M; MSBT de Morgan Stanley +$22.1M (Farside, TokenPost) |\n| 10-nov-2026 | -$95.0M | 4ª sesión consecutiva de salidas (Farside Investors) |\n\nFlujos institucionales: Strategy (ex-MicroStrategy) compró 811 BTC (~$65.5M) el 2-nov y 1,036 BTC adicionales hasta el 8-nov (~$81.9M), elevando holdings a ~850,364 BTC, pero destinó $188.3M a recompras de STRC mientras diluye la exposición por acción; además será excluida de los índices MSCI el 30-nov, con hasta $2,800M en venta pasiva estimada por JPMorgan. Trump Media mantiene 15,649 BTC, con 73% (11,385 BTC) comprometidos en opciones con rehipotecación de cara al vencimiento de notas por $1,000M el 30-nov; transfirió 4,259 BTC a Crypto.com el 5-nov como preparación de liquidez. Ballenas on-chain: reactivación de holder dormido (+3,009 BTC retirados de Binance, 6-nov) y transferencia aislada de 1,488 BTC (~$111M) entre wallets no identificadas el 10-nov, con +100 ballenas grandes vendiendo el 11-nov, patrón mixto entre acumulación oportunista y distribución táctica.",
-    "conclusion": "BTC en $73,950 opera en zona de sobreventa técnica sobre su SMA200, con sentimiento en Miedo (28) y flujos de ETF negativos por cuarta sesión consecutiva, pero sin ruptura estructural de la red (hashrate y dificultad se autoajustan con normalidad). Los catalizadores de noviembre (notas Trump Media, exclusión MSCI de Strategy, FOMC hawkish) son binarios y de corto plazo; podrían generar más volatilidad antes de estabilizar. Confianza media: la tesis de suelo de ciclo es plausible dado el contraste entre sentimiento deprimido y fundamentales de red estables, pero no está confirmada técnicamente hasta recuperar SMA50."
+    "resumen": "BTC se desplomó a mínimos intradía de $67,568 el 13-nov-2026 (KuCoin), cerrando el viernes en $69,556 (-2.5%, Rio Times), sexta semana consecutiva en rojo (-11% en noviembre). El Fear & Greed Index cayó a 13 (Miedo Extremo), el nivel más bajo en 4 meses, mientras las salidas de ETFs spot acumulan ~-$1,930M en el mes e IBIT suma 9 sesiones negativas. La probabilidad de un alza de tasas de la Fed en diciembre subió a ~90% tras datos de inflación y empleo sobre lo esperado. HECHO: precio, flujos y sentimiento (múltiples fuentes, 13-nov-2026). LECTURA: capitulación acelerada sin ruptura de red, pero con catalizadores macro y corporativos adversos convergiendo en noviembre.",
+    "fundamental": "- Oferta fija 21M BTC y emisión post-halving intactas; el ajuste de dificultad de minería del 13-nov ya ocurrió (bloque 975,744) con hashrate ~899-938 EH/s, aunque no hay cifra oficial confirmada del porcentaje real de ajuste (CoinWarz, TokenPost, 13-nov-2026).\n- Strategy mantiene ~850,364 BTC (costo promedio $75,456), última compra confirmada 1,036 BTC (~$81.9M) entre 2-8 nov; sin compras nuevas reportadas después del 9-nov (The Block, TIKR).\n- Exclusión de Strategy de índices MSCI confirmada formalmente el 11-nov, efectiva 30-nov, con hasta $2,800M-$8,800M en venta pasiva estimada (JPMorgan, vía The Block, Benzinga, 11-nov-2026).\n- Trump Media confirmó en 10-Q (9-nov) 15,649 BTC en balance, 73% rehipotecable; movió BTC equivalente al colateral exacto hacia Crypto.com el 5-nov, señal de preparación ante posible ejecución de 'put' de notas el 30-nov.\n- LECTURA: la red opera con normalidad, pero el estrés de tesorerías corporativas (Strategy/MSCI, Trump Media) y salidas de fondos de inversión cripto (-$1,280M en una semana, la mayor desde junio) añaden presión de venta no ligada al protocolo.",
+    "valuacion": "- Precio intradía 13-nov ($67,568-$69,556) ampliamente por debajo de SMA200 ($73,047) y de referencia de ayer ($70,192), ampliando el drawdown desde el ATH a ~45-46%.\n- STH price-to-cost ratio ≈0.90 (precio spot ~$68,000 vs. costo realizado STH ~$75,429): quinto día consecutivo de pérdida no realizada para holders de corto plazo, deterioro desde el break-even (~1.0) del 9-nov (TokenPost, Phemex, 13-nov-2026).\n- MVRV Z-Score general en 0.54, bajando 0.13 en la semana, zona de valuación comprimida históricamente asociada a fases tardías de corrección de ciclo.\n- Dominancia BTC ~59.7%, en retroceso desde ~60.8% (11-nov), sugiere que la corrección ya no es exclusivamente altcoin-favorable a BTC como refugio relativo.\n- LECTURA: valuación en descuento de ciclo más profundo que el reportado ayer, sin señal de piso técnico confirmado; STH en pérdida es zona de riesgo de capitulación adicional si no se estabiliza.",
+    "tecnico": "- Los indicadores de referencia (RSI 27.6, MACD -2372.93 bajo señal -1784.13, SMA200 $73,047) son del cierre del 12-nov; el precio ya rompió por debajo de SMA200 en la sesión del 13-nov según datos de mercado, lo que de confirmarse técnicamente abriría a extensión bajista.\n- Liquidaciones de posiciones apalancadas por >$1,470-1,600M en 24h (CoinGlass vía The Block, KuCoin, 13-nov-2026), señal de estrés de mercado agudo, no de agotamiento de tendencia aún.\n- Volatilidad 30d de 34.1% y Sharpe/Sortino muy negativos (-2.43/-2.17) de ayer probablemente se mantienen o empeoran dado el nuevo tramo bajista.\n- Mínimo intradía de $67,568 es el más bajo desde el 19 de agosto de 2026 (KuCoin News), marcando un nuevo mínimo de varios meses no reflejado aún en el rango de 52 semanas de referencia.\n- LECTURA: ruptura de SMA200 combinada con liquidaciones masivas es un evento técnico relevante (posible cambio de carácter hacia capitulación más profunda), pendiente de confirmación en el próximo ciclo de cálculo técnico.",
+    "catalizadores": "**Catalizadores:**\n- Resolución ordenada del vencimiento/put de notas de Trump Media (30-nov) sin venta forzada de BTC eliminaría un overhang de oferta relevante.\n- Estabilización de flujos ETF en positivo tras 5-9 sesiones de salidas reactivaría demanda institucional marginal.\n- Sorpresa dovish en datos de empleo/inflación antes del FOMC del 9-dic podría revertir la repreciación hacia un alza de tasas.\n- Absorción sin disrupción de la liquidez drenada por la IPO de Anthropic (19-nov, ~$64,400M) permitiría flujo de capital de vuelta a activos de riesgo tras el evento.\n\n**Riesgos (por materialidad):**\n- FOMC (9-dic-2026): probabilidad de alza de tasas subió a ~90% (CME FedWatch, Polymarket, Kalshi, 13-nov-2026) tras CPI/PPI/payrolls sobre lo esperado, escenario restrictivo reforzado.\n- Exclusión de Strategy del MSCI (30-nov): confirmada formalmente el 11-nov, hasta $8,800M en venta pasiva si otros proveedores de índices siguen el criterio.\n- Vencimiento/put de notas Trump Media ($1,000M, 30-nov): riesgo de venta forzada de BTC pignorado si no refinancia o paga en efectivo.\n- Salidas de fondos de inversión cripto (-$1,280M en la semana, la mayor desde junio-2026) y liquidaciones apalancadas (>$1,470M en 24h, 13-nov) amplifican la presión de venta de corto plazo.",
+    "sentimiento": "- Fear & Greed Index cayó a 13 (Miedo Extremo) el 13-nov-2026, el nivel más bajo en ~4 meses, acelerando la caída desde 28 (9-12 nov) y 25 (mínimo previo, 7-nov) (alternative.me vía TokenPost, CoinBird, 13-nov-2026).\n- Más de 100 ballenas vendieron mientras BTC caía -3.78% a $67,982 el 13-nov; en la semana 4-11 nov se vendieron ~34,000 BTC (~$2,600M) por grandes holders mientras el precio bajaba de $79,000 a <$73,000 (KuCoin News).\n- $1,620M transferidos a Coinbase Institutional/Kraken en 3 horas el 12-nov (TokenPost), señal de posible preparación de venta institucional u OTC.\n- Señal mixta por cohortes: billeteras de 100-10,000 BTC acumulando, mientras cohortes >10,000 BTC y <1 BTC reducen exposición (Glassnode, referencia 11-nov, no verificado de forma independiente).\n- LECTURA contraria: miedo extremo (13) es un nivel históricamente asociado a suelos de ciclo, pero la velocidad de la caída reciente (de 28 a 13 en días) y las ventas de ballenas simultáneas sugieren que el mercado aún no ha encontrado comprador marginal estable; la lectura contraria es más débil que ayer por la persistencia de distribución de grandes holders.\n\n**Flujos de capital: ETFs, institucionales y ballenas**\n\n| Fecha | Flujo neto | Detalle |\n|---|---|---|\n| 06-nov-2026 | -$411.9M | BlackRock IBIT lideró la salida (NewsBTC) |\n| 09-nov-2026 | -$201.0M | IBIT -$213.2M; MSBT de Morgan Stanley +$22.1M (Farside, TokenPost) |\n| 10-nov-2026 | -$95.0M | 4ª sesión consecutiva de salidas (Farside Investors) |\n| 11-nov-2026 | -$299.8M | 5ª sesión negativa consecutiva (racha -$1,440M); IBIT -$269.7M (~90% del total), GBTC -$39.1M (NewsBTC, FinanceFeeds) |\n| 12-nov-2026 | -$47.7M | BITB lideró con -$26.4M; MSBT fue el único ETF en positivo (+$3.3M) (Cointelegraph, FinScans) |\n| 13-nov-2026 | No disponible | Flujos se publican con ~1 día de rezago; dato aún no reportado al momento de este informe |\n\nFlujos institucionales: Strategy mantiene ~850,364 BTC (costo promedio ~$75,456/BTC, ~$64,160M invertidos), con última compra confirmada de 1,036 BTC (~$81.9M) entre el 2 y 8 de noviembre, financiada vía venta de acciones MSTR; no se reportan compras nuevas después del 9-nov. Su exclusión de los índices MSCI, confirmada formalmente el 11-nov y efectiva el 30-nov, generó caídas de -2.6% a -6.8% en MSTR y una estimación de JPMorgan de $2,800M-$8,800M en venta pasiva forzada. Trump Media reportó en su 10-Q (9-nov) 15,649 BTC en balance, con 73% (11,385 BTC) rehipotecable, y transfirió el equivalente exacto del colateral pignorado (~4,259 BTC, ~$344M) a Crypto.com el 5-nov, de cara al vencimiento/put de notas por $1,000M el 30-nov. Ballenas on-chain: distribución más amplia que ayer, con >100 ballenas vendiendo el 13-nov, ~34,000 BTC (~$2,600M) vendidos por grandes holders en la semana 4-11 nov, y $1,620M movidos a exchanges institucionales (Coinbase/Kraken) en 3 horas el 12-nov; patrón de distribución táctica más marcado que el de acumulación oportunista observado la semana anterior.",
+    "conclusion": "BTC profundizó su corrección, con mínimos intradía de $67,568 el 13-nov, Fear & Greed en Miedo Extremo (13) y flujos de ETF negativos por 5-6 sesiones consecutivas. A diferencia de ayer, la lectura contraria de sentimiento se debilita porque coincide con ventas activas de ballenas (~34,000 BTC en la semana) y una probabilidad de alza de tasas de la Fed que subió a ~90%. Los catalizadores de fin de noviembre (notas Trump Media, exclusión MSCI de Strategy) y la IPO de Anthropic (19-nov) mantienen el riesgo de volatilidad adicional. Confianza media-baja: la tesis de suelo de ciclo pierde fuerza hasta que se detenga la distribución de grandes holders y se recupere SMA200."
   },
   "scores": {
     "tecnica": {
-      "score": 45,
-      "just": "Sobreventa (RSI 33.6) con desaceleración del momentum bajista (MACD por debajo de señal pero no divergiendo más) sugiere posible cambio de carácter incipiente, aún sin confirmar; precio pegado a SMA200 es zona de decisión, no de sobreextensión."
+      "score": 32,
+      "just": "La ruptura por debajo de SMA200 y nuevo mínimo de varios meses ($67,568) extiende la estructura bajista sin señal de divergencia alcista nueva; RSI de referencia (27.6) ya estaba en sobreventa pero el deterioro posterior sugiere continuación, no cambio de carácter confirmado todavía."
     },
     "fundamental": {
-      "score": 70,
-      "just": "Red, hashrate y emisión intactos; adopción institucional regulatoria avanza (reglas de custodia SEC), pero eventos de tesorerías corporativas (Strategy/MSCI, Trump Media) introducen ruido fundamental de corto plazo no ligado al protocolo."
+      "score": 68,
+      "just": "Red, hashrate y emisión intactos tras el ajuste de dificultad del 13-nov; pero el estrés de tesorerías corporativas (MSCI/Strategy confirmado, Trump Media) y salidas de fondos de inversión se intensificó frente a ayer, bajando levemente la nota por mayor ruido no ligado al protocolo."
     },
     "sentimiento": {
-      "score": 68,
-      "just": "Lectura contraria: Fear & Greed en 28 (Miedo, cerca de extremo) tras caer desde 82, con ballenas acumulando selectivamente pese a salidas de ETF; miedo extremo con red estable favorece nota alta bajo filosofía contraria, moderado por persistencia de flujos negativos."
+      "score": 58,
+      "just": "Miedo Extremo (13) es nivel de lectura contraria clásico, pero esta vez coincide con ventas activas de ballenas (~34,000 BTC en la semana) y no con acumulación, lo que debilita la señal contraria respecto a la lectura de ayer (68) de miedo con ballenas comprando."
     },
     "riesgo": {
-      "score": 55,
-      "just": "Volatilidad 30d de 32% es alta pero no indica pérdida permanente de capital; riesgos estructurales reales están en eventos de deuda/índices de terceros (Trump Media, Strategy) y entorno de tasas restrictivo, no en el protocolo Bitcoin mismo."
+      "score": 48,
+      "just": "Volatilidad y liquidaciones (>$1,470M en 24h) subieron frente a ayer; aunque la red Bitcoin sigue sólida, el riesgo de pérdida de capital de corto plazo aumentó por la ruptura de SMA200 y la convergencia de catalizadores corporativos/macro adversos de fin de noviembre."
     },
     "conviccion": {
-      "score": 62,
-      "just": "Asimetría favorable a precios actuales (41% bajo ATH, STH-MVRV en break-even) para horizonte de ciclo, pero catalizadores binarios de noviembre (notas, MSCI, FOMC) generan incertidumbre de corto plazo que limita convicción alta inmediata."
+      "score": 55,
+      "just": "La asimetría de precio mejora en términos de descuento (nuevo mínimo de varios meses), pero la convicción baja frente a ayer porque la señal de piso (STH-MVRV, sentimiento contrario) se debilitó con ventas activas de ballenas y una Fed más hawkish; horizonte de ciclo sigue siendo la tesis pero con menor confianza de timing."
     }
   },
   "sources": [
-    "KuCoin Flash News - Bitcoin Price Rebounds Nov 11 2026 (kucoin.com)",
-    "Fortune - Current price of Bitcoin Nov 11 2026 (fortune.com)",
-    "CoinMarketCap - Bitcoin price, market cap, dominance (coinmarketcap.com, 11-nov-2026)",
-    "CoinCodex Daily Market Update Nov 11 2026 (coincodex.com)",
-    "Farside Investors - flujos ETF spot BTC (farside.co.uk, via TokenPost, NewsBTC, CoinPaper, The Coin Republic, 2-11 nov 2026)",
-    "FinanceFeeds - Bitcoin ETFs Lose $1.28B in a Week (financefeeds.com, nov-2026)",
-    "24/7 Wall St - Bitcoin Mining Difficulty Set for 6.4% Drop (247wallst.com, 9-nov-2026)",
-    "dcforecasts.com - Bitcoin Difficulty Heads for Biggest Cut Since June (9-nov-2026)",
-    "CoinWarz - Bitcoin Hashrate y Difficulty Chart (coinwarz.com)",
-    "alternative.me Fear & Greed Index vía TokenPost, CryptoTicker, KuCoin (6-11 nov 2026)",
-    "TechFlowPost - Bitcoin STH-MVRV cost basis (techflowpost.com, 9-nov-2026)",
-    "Phemex - Bitcoin STH MVRV Ratio (phemex.com, nov-2026)",
-    "Cointelegraph - MSCI confirms Strategy removal from indexes (cointelegraph.com, 11-nov-2026)",
-    "Bitcoin Magazine - Trump Media Pledges 73% of Bitcoin (bitcoinmagazine.com, nov-2026)",
-    "24/7 Wall St - Trump Media Pledged 11,385 Bitcoin (247wallst.com, 10-nov-2026)",
-    "centralbank.watch / Polymarket - FOMC December 2026 rate odds (10-nov-2026)",
-    "KuCoin On-Chain Data Bitcoin Nov 4, 7, 11 2026 (kucoin.com)",
-    "Harvard Law Corp Gov Blog - SEC Proposes Crypto Custody Rules (corpgov.law.harvard.edu, 5-nov-2026)"
+    "Fortune - Bitcoin price intraday Nov 13 2026 (fortune.com)",
+    "KuCoin News - Bitcoin whale selling, exchange inflows, intraday low Nov 13 2026 (kucoin.com)",
+    "Rio Times - Bitcoin close $69,556 Nov 13 2026 (riotimesonline.com)",
+    "CoinDesk - Bitcoin sixth week of losses, Anthropic IPO liquidity drain (coindesk.com, 13-nov-2026)",
+    "The Block - Bitcoin liquidations, Strategy MSCI coverage (theblock.co, 11-13-nov-2026)",
+    "CoinMarketCap - Bitcoin dominance historical snapshot (coinmarketcap.com/historical/20261113)",
+    "NewsBTC - BTC ETF flows Nov 6 and Nov 11 2026 (newsbtc.com)",
+    "FinanceFeeds - Bitcoin ETF outflow streak (financefeeds.com, 11-nov-2026)",
+    "Cointelegraph - IBIT outflow streak, MSCI Strategy removal confirmed (cointelegraph.com, 11-12-nov-2026)",
+    "FinScans - BTC ETF monthly/yearly net flows (finscans.com, 13-nov-2026)",
+    "CoinWarz - Bitcoin hashrate and difficulty data (coinwarz.com, 13-nov-2026)",
+    "DCForecasts - Bitcoin difficulty adjustment projection (dcforecasts.com, 9-nov-2026)",
+    "TokenPost - STH price-to-cost ratio, hashrate average, Coinbase/Kraken inflows, Fear & Greed (tokenpost.com, 12-13-nov-2026)",
+    "Phemex News - MVRV Z-Score (phemex.com, 13-nov-2026)",
+    "alternative.me - Fear & Greed Index direct fetch (alternative.me, 13-nov-2026)",
+    "CoinBird - Fear & Greed Index tracking (coinbird.io, 13-nov-2026)",
+    "CME FedWatch / centralbank.watch / Polymarket / Kalshi - FOMC December 2026 rate hike odds (13-nov-2026)",
+    "24/7 Wall St - Trump Media pledged Bitcoin, difficulty projection (247wallst.com, 9-13-nov-2026)",
+    "Parameter / Cryptonomist - Trump Media 10-Q Bitcoin holdings (9-nov-2026)",
+    "Yahoo Finance / Benzinga - MSTR reaction to MSCI exclusion (11-nov-2026)",
+    "TIKR - Strategy Bitcoin purchase history and holdings (2-9-nov-2026)",
+    "Caleb & Brown - Crypto investment fund outflows (nov-2026)",
+    "CoinGlass via The Block/KuCoin - Leveraged liquidations data (13-nov-2026)"
   ],
   "opportunity": {
     "cats": {
       "valuacion_hist": {
-        "score": 72,
-        "just": "Precio en percentil 33.9 de rango anual, 41% bajo ATH, STH-MVRV en break-even (~1.0): zona de descuento histórico de ciclo post-halving, consistente con fases previas de acumulación, aunque sin confirmación de piso definitivo."
+        "score": 76,
+        "just": "Nuevo mínimo de varios meses ($67,568) amplía el descuento desde el ATH a ~46%; STH en pérdida no realizada (ratio ~0.90) y MVRV Z-Score comprimido (0.54) refuerzan la zona de descuento histórico de ciclo, más profunda que la de ayer."
       },
       "calidad": {
         "score": 85,
-        "just": "Activo de mayor capitalización y seguridad de red en cripto, oferta fija, hashrate robusto con autoajuste de dificultad funcionando con normalidad; adopción institucional regulada en expansión (ETFs, reglas de custodia SEC)."
+        "just": "Red, hashrate y protocolo operando con normalidad tras el ajuste de dificultad del 13-nov; adopción institucional regulada (ETFs) sigue activa estructuralmente pese a flujos negativos tácticos de corto plazo."
       },
       "asimetria": {
-        "score": 65,
-        "just": "Asimetría favorable en horizonte de 6-18 meses dado el descuento desde ATH y ciclo post-halving, pero riesgos de corto plazo (deuda Trump Media, MSCI, FOMC hawkish) generan ruta volátil antes de la posible revalorización."
+        "score": 62,
+        "just": "El mayor descuento de precio mejora la asimetría teórica a 6-18 meses, pero el aumento de volatilidad, liquidaciones y ventas de ballenas eleva el riesgo de ruta hacia el objetivo, moderando la nota frente a ayer."
       },
       "catalizadores": {
-        "score": 55,
-        "just": "Catalizadores de noviembre son mayormente binarios y de riesgo bajista de corto plazo (vencimientos de deuda, exclusión de índice); el catalizador estructural alcista (recortes de tasas, nuevo ciclo de flujos ETF) está más lejos en el tiempo."
+        "score": 45,
+        "just": "Catalizadores de cierre de noviembre siguen siendo mayormente binarios y bajistas de corto plazo (notas Trump Media, MSCI), ahora sumados a una IPO de Anthropic que drena liquidez y una Fed más hawkish; el catalizador alcista estructural se alejó en el tiempo."
       },
       "contrarian": {
-        "score": 75,
-        "just": "Fear & Greed en Miedo (28) tras colapsar desde Codicia (82) en semanas, con ballenas acumulando selectivamente en el fondo; sentimiento más deprimido que los fundamentales de red, condición clásicamente contraria favorable si no hay deterioro estructural adicional."
+        "score": 62,
+        "just": "Miedo Extremo (13) es señal contraria fuerte en magnitud, pero su valor se reduce porque coincide con ventas activas de ballenas y grandes holders (~34,000 BTC en la semana) en vez de acumulación, a diferencia del patrón más favorable observado ayer."
       }
     },
     "plan": {
       "recomendacion": "Acumular en zona",
-      "zona_compra": "$68,000-$76,000, con énfasis en acumulación escalonada si se sostiene sobre SMA200 (~$73,100)",
-      "invalidacion": "Pérdida sostenida (cierre semanal) bajo $57,750 (mínimo de 52 semanas) o deterioro estructural del hashrate que indique capitulación de mineros",
+      "zona_compra": "$64,000-$70,000, con acumulación escalonada condicionada a señales de estabilización (cese de ventas de ballenas, flujos ETF positivos)",
+      "invalidacion": "Pérdida sostenida (cierre semanal) bajo $57,750 (mínimo de 52 semanas) o evidencia de capitulación de mineros por deterioro estructural del hashrate",
       "gatillos": [
-        "Resolución ordenada del vencimiento de notas de Trump Media (30-nov) sin venta forzada masiva de BTC",
+        "Cese de la distribución de ballenas/grandes holders (actualmente ~34,000 BTC vendidos en la semana)",
+        "Resolución ordenada del vencimiento/put de notas de Trump Media (30-nov) sin venta forzada masiva de BTC",
         "Estabilización de flujos de ETF spot en positivo por 3+ sesiones consecutivas",
-        "Señales de pivote dovish de la Fed hacia la reunión de marzo 2027",
-        "Recuperación de SMA50 ($81,118) confirmando cambio de carácter técnico"
+        "Absorción sin disrupción de la liquidez drenada por la IPO de Anthropic (19-nov) y señales menos hawkish de la Fed hacia el FOMC del 9-dic"
       ],
       "horizonte": "6-18 meses",
-      "tamano": "Posición moderada inicial (3-5% de cartera cripto-expuesta), con tramos adicionales condicionados a los gatillos",
+      "tamano": "Posición reducida inicial (2-4% de cartera cripto-expuesta), ampliable solo tras confirmación de gatillos dado el deterioro de corto plazo",
       "confianza": "media"
     }
   },
   "perfil": "Bitcoin es la red monetaria digital descentralizada más grande y segura, con oferta fija de 21 millones de unidades y emisión decreciente vía halvings cada ~4 años (el más reciente en abril de 2024). Su seguridad depende del hashrate de la red minera, que actúa como barrera económica contra ataques. La demanda institucional se canaliza cada vez más a través de ETFs spot regulados (IBIT, FBTC, GBTC, entre otros) y tesorerías corporativas como Strategy (ex-MicroStrategy) y Strive, que acumulan BTC como reserva de valor en balance. Estructuralmente, la oferta fija y decreciente contrasta con una demanda creciente de inversores institucionales, fondos soberanos y bancos que expanden servicios de custodia, lo que sostiene una tesis de escasez programática. Opera en ciclos de varios años correlacionados con los halvings, alternando fases de euforia, corrección y acumulación, por lo que su valoración debe leerse en el contexto del ciclo vigente, los flujos de ETFs y el entorno de tasas de interés global.",
   "technical": {
-    "price": 73425.55,
-    "change_1d_pct": -0.4,
-    "change_1w_pct": -1.73,
-    "rsi": 33.6,
-    "macd": -1915.9996,
-    "macd_signal": -1524.6398,
-    "sma20": 77692.567,
-    "sma50": 81118.4084,
-    "sma200": 73116.5996,
-    "ema12": 76034.2291,
-    "ema26": 77950.2287,
-    "pct_vs_sma20": -5.49,
-    "pct_vs_sma50": -9.48,
-    "pct_vs_sma200": 0.42,
-    "volume_today": 909071365.6883492,
-    "volume_avg20": 10106972450.0,
-    "volume_ratio": 0.09,
-    "volatility_30d": 32.22,
-    "sharpe": -2.16,
-    "sortino": -1.97,
+    "price": 70192.14,
+    "change_1d_pct": -1.66,
+    "change_1w_pct": -6.06,
+    "rsi": 27.6,
+    "macd": -2372.9252,
+    "macd_signal": -1784.127,
+    "sma20": 76701.559,
+    "sma50": 80583.8818,
+    "sma200": 73046.4693,
+    "ema12": 74582.2891,
+    "ema26": 76955.2143,
+    "pct_vs_sma20": -8.49,
+    "pct_vs_sma50": -12.9,
+    "pct_vs_sma200": -3.91,
+    "volume_today": 561356476.5237855,
+    "volume_avg20": 10047019363.0,
+    "volume_ratio": 0.06,
+    "volatility_30d": 34.1,
+    "sharpe": -2.43,
+    "sortino": -2.17,
     "max_drawdown_1y": -28.77,
-    "price_percentile_1y": 33.9,
-    "vs_benchmark_30d_pct": 1.17,
-    "perf_1m_pct": -12.27,
-    "perf_ytd_pct": -16.14
+    "price_percentile_1y": 31.0,
+    "vs_benchmark_30d_pct": 0.06,
+    "perf_1m_pct": -15.5,
+    "perf_ytd_pct": -19.83
   },
   "risk": {
-    "volatility_30d": 32.22,
-    "sharpe": -2.16,
-    "sortino": -1.97,
+    "volatility_30d": 34.1,
+    "sharpe": -2.43,
+    "sortino": -2.17,
     "max_drawdown_1y": -28.77,
-    "n_days": 379,
+    "n_days": 380,
     "window": 30
   },
   "benchmark": {
     "ticker": "CRYPTOCAP:TOTAL",
     "label": "Cripto total (ciclo)",
-    "relative_performance_30d": 1.17,
-    "relative_performance_ytd": 1.17,
-    "price_percentile_1y": 33.9,
+    "relative_performance_30d": 0.06,
+    "relative_performance_ytd": 0.54,
+    "price_percentile_1y": 31.0,
     "partial": false
   },
   "sourcesMeta": {
     "price": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-11-10T23:08:38-03:00"
+      "fetched_at": "2026-11-12T23:51:09-03:00"
     },
     "rsi_macd": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-11-10T23:08:38-03:00"
+      "fetched_at": "2026-11-12T23:51:09-03:00"
     },
     "smas_volume": {
       "origin": "TradingView scanner",
-      "fetched_at": "2026-11-10T23:08:38-03:00"
+      "fetched_at": "2026-11-12T23:51:09-03:00"
     },
     "benchmark": {
       "origin": "TradingView scanner",
       "symbol": "CRYPTOCAP:TOTAL",
-      "fetched_at": "2026-11-10T23:08:38-03:00"
+      "fetched_at": "2026-11-12T23:51:09-03:00"
     },
     "risk_metrics": {
       "origin": "data/history/FX-BTCUSD.json",
-      "n_days": 379
+      "n_days": 380
     }
   },
   "metricChanges": [
@@ -231,8 +236,8 @@
     "senales_techo": []
   },
   "change": {
-    "day": -0.4,
-    "week": -1.73
+    "day": -1.66,
+    "week": -6.06
   },
-  "reportDate": "10 de noviembre de 2026"
+  "reportDate": "13 de noviembre de 2026"
 }
